@@ -23,11 +23,14 @@
             "id": "6a0279fb1fbf98ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "DB/Transaction/REPEATABLE READ 작동 방식.md",
-                "mode": "source",
-                "source": false
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "viewState": {
+                  "x": 2639.2345271723348,
+                  "y": 1897.5526095483567,
+                  "zoom": -0.9589454507214679
+                }
               }
             }
           }
@@ -106,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/REPEATABLE READ 작동 방식.md",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/REPEATABLE READ 작동 방식.md",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/REPEATABLE READ 작동 방식.md"
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
               }
             }
           }
@@ -176,11 +179,12 @@
   },
   "active": "6a0279fb1fbf98ac",
   "lastOpenFiles": [
-    "DB/Transaction/resources/repeatable read 5.png",
     "DB/Transaction/REPEATABLE READ 작동 방식.md",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/Transaction/resources/repeatable read 6.png",
+    "DB/Transaction/resources/repeatable read 5.png",
     "Pasted image 20231119000737.png",
     "DB/Transaction/SERIALIZABLE 작동 방식.md",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Transaction/resources/repeatable read 4.png",
     "DB/Transaction/SERIALIZABLE.md",
     "DB/Transaction/resources/repeatable read 3.png",
@@ -227,7 +231,6 @@
     "test.css.md",
     "obsidian-default.css",
     "test.css",
-    "JVM/resources/Stop The World.png",
     "JVM/STW(Stop The World).md",
     "JVM/JVM 동작 과정.md",
     "JVM/canvas_png"
