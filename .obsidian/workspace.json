@@ -176,14 +176,17 @@
   },
   "active": "6a0279fb1fbf98ac",
   "lastOpenFiles": [
+    "DB/Transaction/resources/repeatable read 5.png",
+    "DB/Transaction/REPEATABLE READ 작동 방식.md",
+    "Pasted image 20231119000737.png",
     "DB/Transaction/SERIALIZABLE 작동 방식.md",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/Transaction/resources/repeatable read 4.png",
     "DB/Transaction/SERIALIZABLE.md",
     "DB/Transaction/resources/repeatable read 3.png",
-    "DB/Transaction/REPEATABLE READ 작동 방식.md",
     "DB/Transaction/REPEATABLE READ.md",
     "DB/Transaction/resources/repeatable read 2.png",
     "DB/Transaction/resources/repeatable read 1.png",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Transaction/MVCC.md",
     "DB/Transaction/canvas/무제 파일.md",
     "ComputerStructure/JVM/canvas/JVM.canvas",
@@ -226,10 +229,7 @@
     "test.css",
     "JVM/resources/Stop The World.png",
     "JVM/STW(Stop The World).md",
-    "JVM/canvas_png/JVM.png",
     "JVM/JVM 동작 과정.md",
-    "JVM/canvas_png",
-    "JVM/resources/JNI.png",
-    "JVM/resources/네이티브 메소드 스택 영역.png"
+    "JVM/canvas_png"
   ]
 }
