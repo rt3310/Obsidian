@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"82136eeeccd2995b","x":1140,"y":260,"width":824,"height":580,"type":"file","file":"DB/Transaction/REPEATABLE READ 작동 방식.md"},
+		{"id":"434c95c3c3bafa5a","type":"file","file":"DB/Transaction/SERIALIZABLE 작동 방식.md","x":1220,"y":-533,"width":664,"height":276},
+		{"id":"dcbb3435d83bc9d2","type":"text","text":"# Transaction 격리 수준","x":-693,"y":-508,"width":310,"height":39},
+		{"id":"c50d0668cf011443","type":"text","text":"여러 트랜잭션이 동시에 처리될 때, 특정 트랜잭션이 다른 트랜잭션에서 변경하거나 조회하는 데이터를 볼 수 있게 허용할지 여부를 결정하는 것","x":-80,"y":-620,"width":507,"height":87},
+		{"id":"f06c929a4b103795","type":"text","text":"- Serializable\n- Repeatable Read\n- Read Commited\n- Read Uncommited","x":-151,"y":-387,"width":224,"height":130},
+		{"id":"1a3a712d3cd012fb","type":"file","file":"DB/Transaction/SERIALIZABLE.md","x":380,"y":-475,"width":631,"height":176},
+		{"id":"f7ee296a63e98a81","type":"file","file":"DB/Transaction/REPEATABLE READ.md","x":380,"y":-180,"width":513,"height":116},
+		{"id":"3e0701bc6a8cbd11","x":1160,"y":-151,"width":603,"height":346,"type":"file","file":"DB/Transaction/MVCC.md"}
+	],
+	"edges":[
+		{"id":"024717a02585fb07","fromNode":"dcbb3435d83bc9d2","fromSide":"right","toNode":"c50d0668cf011443","toSide":"left","label":"트랜잭션 격리 수준?"},
+		{"id":"f61fe5f84a7c6c94","fromNode":"dcbb3435d83bc9d2","fromSide":"right","toNode":"f06c929a4b103795","toSide":"left","label":"격리 수준 종류"},
+		{"id":"9c4375081c546657","fromNode":"f06c929a4b103795","fromSide":"right","toNode":"1a3a712d3cd012fb","toSide":"left","label":"Serializable?"},
+		{"id":"77d8699f2458b74e","fromNode":"1a3a712d3cd012fb","fromSide":"right","toNode":"434c95c3c3bafa5a","toSide":"left","label":"작동 방식"},
+		{"id":"e8f4014e6521e8b7","fromNode":"f7ee296a63e98a81","fromSide":"right","toNode":"3e0701bc6a8cbd11","toSide":"left","label":"MVCC?"},
+		{"id":"755d82fe72b6967c","fromNode":"f06c929a4b103795","fromSide":"right","toNode":"f7ee296a63e98a81","toSide":"left","label":"Repeatable Read?"},
+		{"id":"e6362c426605c1bf","fromNode":"f7ee296a63e98a81","fromSide":"right","toNode":"82136eeeccd2995b","toSide":"left","label":"작동 방식"}
+	]
+}

@@ -2,5 +2,6 @@
   "promptDelete": false,
   "vimMode": false,
   "newFileLocation": "current",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true
 }

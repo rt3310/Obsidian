@@ -11,18 +11,28 @@
             "id": "09f978acdccc6815",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DB/Transaction/canvas/무제 파일.canvas",
-                "viewState": {
-                  "x": 535.8142515339018,
-                  "y": -11.413528967125288,
-                  "zoom": -0.41333333333333333
-                }
+                "file": "DB/Transaction/REPEATABLE READ 작동 방식.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a0279fb1fbf98ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB/Transaction/REPEATABLE READ 작동 방식.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/canvas/SERIALIZABLE.md",
+                "file": "DB/Transaction/REPEATABLE READ 작동 방식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/canvas/SERIALIZABLE.md",
+                "file": "DB/Transaction/REPEATABLE READ 작동 방식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/canvas/SERIALIZABLE.md"
+                "file": "DB/Transaction/REPEATABLE READ 작동 방식.md"
               }
             }
           }
@@ -164,11 +174,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "09f978acdccc6815",
+  "active": "6a0279fb1fbf98ac",
   "lastOpenFiles": [
-    "DB/Transaction/canvas/SERIALIZABLE.md",
+    "DB/Transaction/SERIALIZABLE 작동 방식.md",
+    "DB/Transaction/SERIALIZABLE.md",
+    "DB/Transaction/resources/repeatable read 3.png",
+    "DB/Transaction/REPEATABLE READ 작동 방식.md",
+    "DB/Transaction/REPEATABLE READ.md",
+    "DB/Transaction/resources/repeatable read 2.png",
+    "DB/Transaction/resources/repeatable read 1.png",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/Transaction/MVCC.md",
     "DB/Transaction/canvas/무제 파일.md",
-    "DB/Transaction/canvas/무제 파일.canvas",
     "ComputerStructure/JVM/canvas/JVM.canvas",
     "ComputerStructure/JVM/canvas/무제 파일.canvas",
     "DB/Transaction/canvas_png",
@@ -212,15 +229,7 @@
     "JVM/canvas_png/JVM.png",
     "JVM/JVM 동작 과정.md",
     "JVM/canvas_png",
-    "JVM/네이티브 메소드 스택.md",
-    "JVM/가비지 컬렉터.md",
-    "JVM/클래스 파일 로딩 순서.md",
-    "JVM/네이티브 메소드 라이브러리.md",
-    "JVM/네이티브 메소드 인터페이스(JNI).md",
     "JVM/resources/JNI.png",
-    "JVM/resources/네이티브 메소드 스택 영역.png",
-    "JVM/resources/PC Register.png",
-    "JVM/resources/련타임 데이터 영역 동작.png",
-    "JVM/resources/런타임 데이터 영역.png"
+    "JVM/resources/네이티브 메소드 스택 영역.png"
   ]
 }
