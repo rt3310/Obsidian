@@ -1,14 +1,30 @@
 {
   "main": {
-    "id": "700209c8c6922616",
+    "id": "165dc34c91db5c4a",
     "type": "split",
     "children": [
       {
-        "id": "9ab4101c0a64fcf1",
+        "id": "eb336edee2d67d7b",
         "type": "tabs",
         "children": [
           {
-            "id": "9694cc47080700c0",
+            "id": "5305a8f9e75c37ce",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f16fe57eea90abd2",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "44cbda10811947f3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a06905ce00e75cd0",
+    "id": "5c672727df320d28",
     "type": "split",
     "children": [
       {
-        "id": "ee5624de88c224d6",
+        "id": "11aaba63ed9371aa",
         "type": "tabs",
         "children": [
           {
-            "id": "a1a64042df68f5a0",
+            "id": "95986b4e07f54c35",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +55,7 @@
             }
           },
           {
-            "id": "fde195bf542aa971",
+            "id": "7c5ee3fd6c882fbe",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,29 +70,38 @@
             }
           },
           {
-            "id": "9389d0b0b0b2913d",
+            "id": "52d1a250a2e110a5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "ed8190dd4e91a0af",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "4caea977b2c1ce97",
+    "id": "04f33ba9f970347b",
     "type": "split",
     "children": [
       {
-        "id": "c2dc7dc2a6ba6359",
+        "id": "18c817744563cff2",
         "type": "tabs",
         "children": [
           {
-            "id": "c1233e5fe18151cc",
+            "id": "3155f552b4b0e79e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +117,7 @@
             }
           },
           {
-            "id": "2336ed86330e19c1",
+            "id": "c2cd9316394570fc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +128,7 @@
             }
           },
           {
-            "id": "188afa357f727a9a",
+            "id": "cde5e175b9eab0ac",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,19 +139,35 @@
             }
           },
           {
-            "id": "2dde5daacecd2bc5",
+            "id": "d0dc22bf1921b964",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "878fc8e047f71180",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "30ead3706c7a884a",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -135,17 +176,63 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "excel:Create Excel File": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "9694cc47080700c0",
+  "active": "30ead3706c7a884a",
   "lastOpenFiles": [
-    "ComputerStructure/무제 파일.md",
-    "ComputerStructure/하이용.md",
-    "ComputerStructure/2023-11-15 yrdy.md",
-    "Network/무제 파일.canvas",
-    "OS/사용자 수준 쓰레드(ULT).md",
-    "OS/단일 쓰레딩.md",
-    "OS/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md"
+    "JVM/canvas/Garbage Collector.canvas",
+    "JVM/canvas/JVM.canvas",
+    "JVM/canvas/무제 파일.canvas",
+    "JVM/canvas/무제 파일.md",
+    "무제 파일.md",
+    "JVM/PC 레지스터.md",
+    "하이용.md",
+    "2023-11-15 yrdy.md",
+    "Clock/NTP.md",
+    "JVM/resources/네이티브 메소드 라이브러리.png",
+    "Clock/컴퓨터 시간 원리.canvas",
+    "JVM/resources/Unreachable Object.png",
+    "Clock/NTP 서버.md",
+    "test.css.md",
+    "obsidian-default.css",
+    "무제 폴더",
+    "test.css",
+    "JVM/resources/Stop The World.png",
+    "JVM/STW(Stop The World).md",
+    "JVM/canvas_png/JVM.png",
+    "JVM/JVM 동작 과정.md",
+    "JVM/canvas_png",
+    "JVM/네이티브 메소드 스택.md",
+    "JVM/가비지 컬렉터.md",
+    "JVM/canvas",
+    "JVM/클래스 파일 로딩 순서.md",
+    "JVM/네이티브 메소드 라이브러리.md",
+    "JVM/네이티브 메소드 인터페이스(JNI).md",
+    "JVM/스택 영역.md",
+    "JVM/JIT 컴파일러.md",
+    "JVM/힙 영역.md",
+    "JVM/메소드 영역.md",
+    "JVM/런타임 데이터 영역.md",
+    "JVM/실행 엔진.md",
+    "JVM/클래스 로더.md",
+    "JVM/JVM 구성.md",
+    "JVM/resources/JNI.png",
+    "JVM/resources/네이티브 메소드 스택 영역.png",
+    "JVM/resources/PC Register.png",
+    "JVM/resources/련타임 데이터 영역 동작.png",
+    "JVM/resources/런타임 데이터 영역.png",
+    "JVM/resources/런타임 데이터 영역 상세.png",
+    "Register/레지스터.canvas",
+    "Clock/RTC.md",
+    "Clock/ZonedDateTime.md",
+    "Clock",
+    "Language"
   ]
 }
