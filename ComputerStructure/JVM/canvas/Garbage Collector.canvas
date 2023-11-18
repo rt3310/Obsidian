@@ -4,10 +4,10 @@
 		{"id":"118349ead357f16c","type":"text","text":"가비지 컬렉션(Garbage Collection, GC)은 자바의 메모리 관리 방법 중 하나로 JVM의 Heap 영역에서 동적으로 할당했던 메모리 중 필요 없게 된 메모리 객체(garbage)를 모아 주기적으로 제거하는 프로세스를 말한다.","x":460,"y":-397,"width":754,"height":58},
 		{"id":"531468359f520a87","type":"text","text":"C / C++ 에서는 이러한 가비지 컬렉션이 없어 프로그래머가 수동으로 메모리 할당과 해제를 일일이 해줘야 했었다.\n하지만 Java에서는 가비지 컬렉터가 메모리 관리를 대행해주기 때문에 Java 프로세스가 한정된 메모리를 효율적으로 사용할 수 있게 하고, 개발자 입장에서 메모리 관리, 메모리 누수(Memory Leak) 문제에 대해 관리하지 않아도 되어 개발에 집중할 수 있다는 장점이 있다.","x":246,"y":-680,"width":632,"height":148},
 		{"id":"69cdcbccc610b342","type":"text","text":"자동이로 처리해준다 해도 메모리가 언제 해제되는지 정확하게 알 수 없어 제어하기 힘들며, 가비지 컬렉션(GC)이 동작하는 동안에는 다른 동작을 멈추기 때문에 오버헤드가 발생되는 문제점이 있다.\n\n이를 전문적인 용어로 Stop-The-World라 한다.\n\n이로 인해 GC가 너무 자주 실행되면 소프트웨어 성능 하락의 문제가 되기도 한다.\n예를 들면, IE는 이 가비지 컬렉션을 너무 자주 실행하여 성능 문제를 일으키는 것으로 악명이 높았다.\n\n이런 특성에 따라 실시간 성이 매우 강조되는 프로그램일 경우 GC에게 메모리를 맡기는 것은 맞지 않을 수 있다.\n따라서 애플리케이션 사용성을 유지하면서 효율적이게 GC를 실행하는 최적화 작업이 개발자의 숙제가 된다\n이러한 GC 최적화 작업을 GC 튜닝이라고 한다.","x":960,"y":-824,"width":757,"height":292},
-		{"id":"70970824d92d8855","type":"file","file":"JVM/resources/Stop The World.png","x":1934,"y":-368,"width":382,"height":400},
-		{"id":"8881f9c1ea063717","type":"file","file":"JVM/STW(Stop The World).md","x":1841,"y":-606,"width":569,"height":149},
+		{"id":"70970824d92d8855","type":"file","file":"ComputerStructure/JVM/resources/Stop The World.png","x":1934,"y":-368,"width":382,"height":400},
+		{"id":"8881f9c1ea063717","type":"file","file":"ComputerStructure/JVM/STW(Stop The World).md","x":1841,"y":-606,"width":569,"height":145},
 		{"id":"1b5caf9a31100229","type":"text","text":"가비지 컬렉션은 특정 객체가 garbage인지 아닌지 판단하기 위해서 도달성, 도달능력(Reachability)이라는 개념을 적용한다.\n객체에 레퍼런스가 있다면 Reachable로 구분되고, 객체에 유효한 레퍼런스가 없다면 Unreachable로 구분하고 수거해버린다.\n1. Reachable: 객체가 참조되고 있는 상태\n2. Unreachable: 객체가 참조되고 있지 않은 상태 (GC 대상)\n\n예를 들어, JVM 메모리에서는 객체들은 실질적으로\u001d힙 영역에서 생성되고 메소드 영역이나 스택 영역에서는\u001d영역에 생성된 객체의 주소만 참조하는 형식으로 구성된다.\n하지만 이렇게 생성된 힙 영역의 객체들이 메소드가 끝나는 등의 특정 이벤트들로 인하여 힙 영역 객체의 메모리 주소를 가지고 있는 참조 변수가 삭제되는 현상이 발생하면, 힙 영역에서 어디서든 참조하고 있지 않은 객체(Unreachable)들이 발생한다.\n이러한 객체들을 주기적으로 가비지 컬렉터가 제거해주는 것이다.","x":666,"y":-156,"width":589,"height":377},
-		{"id":"45e3b0d99d0b9709","type":"file","file":"JVM/resources/Unreachable Object.png","x":1380,"y":-120,"width":513,"height":221}
+		{"id":"45e3b0d99d0b9709","type":"file","file":"ComputerStructure/JVM/resources/Unreachable Object.png","x":1380,"y":-120,"width":513,"height":221}
 	],
 	"edges":[
 		{"id":"5c1b1ca3881906d8","fromNode":"6ceb7188b6505ed9","fromSide":"right","toNode":"118349ead357f16c","toSide":"left","label":"가비지 컬렉션?"},

@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "eb336edee2d67d7b",
+        "id": "3edf64070f5f7795",
         "type": "tabs",
         "children": [
           {
-            "id": "5305a8f9e75c37ce",
+            "id": "09f978acdccc6815",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f16fe57eea90abd2",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "44cbda10811947f3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "ComputerStructure/JVM/canvas/JVM.canvas",
+                "viewState": {
+                  "x": 287.2793557018413,
+                  "y": 1509.4020638129762,
+                  "zoom": -1.1374144377388569
+                }
+              }
             }
           }
         ]
@@ -85,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ComputerStructure/JVM/네이티브 메소드 라이브러리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ComputerStructure/JVM/네이티브 메소드 라이브러리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ComputerStructure/JVM/네이티브 메소드 라이브러리.md"
+              }
             }
           },
           {
@@ -185,8 +179,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "30ead3706c7a884a",
+  "active": "09f978acdccc6815",
   "lastOpenFiles": [
+    "ComputerStructure/JVM/클래스 로더.md",
+    "ComputerStructure/JVM/canvas/JVM.canvas",
+    "ComputerStructure/JVM/실행 엔진.md",
+    "JVM/클래스 로더.md",
+    "JVM",
+    "ComputerStructure/JVM/canvas/Garbage Collector.canvas",
+    "Network/무제 파일.canvas",
     "JVM/canvas/Garbage Collector.canvas",
     "JVM/canvas/JVM.canvas",
     "JVM/canvas/무제 파일.canvas",
@@ -221,7 +222,6 @@
     "JVM/메소드 영역.md",
     "JVM/런타임 데이터 영역.md",
     "JVM/실행 엔진.md",
-    "JVM/클래스 로더.md",
     "JVM/JVM 구성.md",
     "JVM/resources/JNI.png",
     "JVM/resources/네이티브 메소드 스택 영역.png",
@@ -231,7 +231,6 @@
     "JVM/resources/런타임 데이터 영역 상세.png",
     "Register/레지스터.canvas",
     "Clock/RTC.md",
-    "Clock/ZonedDateTime.md",
     "Clock",
     "Language"
   ]
