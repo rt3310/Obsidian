@@ -27,9 +27,9 @@
               "state": {
                 "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "viewState": {
-                  "x": 2639.2345271723348,
-                  "y": 1897.5526095483567,
-                  "zoom": -0.9589454507214679
+                  "x": 3942.084544980611,
+                  "y": 925.2180866634856,
+                  "zoom": -0.4098476456122366
                 }
               }
             }
@@ -179,7 +179,9 @@
   },
   "active": "6a0279fb1fbf98ac",
   "lastOpenFiles": [
+    "DB/Transaction/Phantom Read.md",
     "DB/Transaction/REPEATABLE READ 작동 방식.md",
+    "DB/Transaction/resources/gap lock 잠금 대기.png",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Transaction/resources/repeatable read 6.png",
     "DB/Transaction/resources/repeatable read 5.png",
@@ -226,13 +228,11 @@
     "2023-11-15 yrdy.md",
     "Clock/NTP.md",
     "JVM/resources/네이티브 메소드 라이브러리.png",
-    "JVM/resources/Unreachable Object.png",
     "Clock/NTP 서버.md",
     "test.css.md",
     "obsidian-default.css",
     "test.css",
     "JVM/STW(Stop The World).md",
-    "JVM/JVM 동작 과정.md",
     "JVM/canvas_png"
   ]
 }
