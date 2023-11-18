@@ -1,9 +1,13 @@
 {
 	"nodes":[
 		{"id":"dcbb3435d83bc9d2","x":-693,"y":-508,"width":310,"height":39,"type":"text","text":"# Transaction 격리 수준"},
-		{"id":"c50d0668cf011443","x":-161,"y":-581,"width":250,"height":60,"type":"text","text":"여러 트랜잭션이 동시에 처리될 때, 특정 트랜잭션이 다른 "}
+		{"id":"c50d0668cf011443","x":-80,"y":-620,"width":507,"height":87,"type":"text","text":"여러 트랜잭션이 동시에 처리될 때, 특정 트랜잭션이 다른 트랜잭션에서 변경하거나 조회하는 데이터를 볼 수 있게 허용할지 여부를 결정하는 것"},
+		{"id":"f06c929a4b103795","x":-151,"y":-387,"width":224,"height":130,"type":"text","text":"- Serializable\n- Repeatable Read\n- Read Commited\n- Read Uncommited"},
+		{"id":"6994fe0a851c9c8b","x":260,"y":-460,"width":707,"height":315,"type":"text","text":"Serializable은 가장 엄격한 격리 수준으로, 이름 그대로 트랜잭션을 순차적으로 진행시킨다.\nSerializable에서 **여러 트랜잭션이 동일한 레코드에 동시 접근할 수 없으므로**, 어떠한 데이터 부정합 문제도 발생하지 않는다. 하지만 **트랜잭션이 순차적으로 처리되어야 하므로 동시 처리 성능이 매우 떨어진다**.\n\nMySQL에서 SELECT FOR SHARE/UPDATE는 대상 레코드에 각각 읽기/쓰기 잠금을 거는 것이다. 하지만 순수한 SELECT 작업은 아무런 레코드 잠금 없이 실행되는데, 잠금 없는 일관된 읽기(Non-locking consistent read)란 순수한 SELECT 문을 통한 잠금 없는 읽기를 의미하는 것이다.\n\n하지만 Serializable 격리 수준에서는 순수한 SELECT 작업에서도 대상 레코드에 넥스트 키 락을 읽기 잠금(공유락, Shared Lock)으로 건다. 따라서 한 트랜잭션에서 넥스트 키 락이 걸린 레코드를 다른 트랜잭션에서는 절대 추가/수정/삭제할 수 없다. Serializable은 가장 안전하지만 가장 성능이 떨어지므로, 극단저"}
 	],
 	"edges":[
-		{"id":"024717a02585fb07","fromNode":"dcbb3435d83bc9d2","fromSide":"right","toNode":"c50d0668cf011443","toSide":"left"}
+		{"id":"024717a02585fb07","fromNode":"dcbb3435d83bc9d2","fromSide":"right","toNode":"c50d0668cf011443","toSide":"left","label":"트랜잭션 격리 수준?"},
+		{"id":"f61fe5f84a7c6c94","fromNode":"dcbb3435d83bc9d2","fromSide":"right","toNode":"f06c929a4b103795","toSide":"left","label":"격리 수준 종류"},
+		{"id":"9c4375081c546657","fromNode":"f06c929a4b103795","fromSide":"right","toNode":"6994fe0a851c9c8b","toSide":"left"}
 	]
 }

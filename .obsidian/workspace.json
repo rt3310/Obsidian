@@ -15,7 +15,7 @@
               "state": {
                 "file": "DB/Transaction/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": -190.22963677563996,
+                  "x": 865.266552289115,
                   "y": -239.30417686180357,
                   "zoom": -0.41333333333333333
                 }
@@ -139,29 +139,14 @@
                 "file": "DB/Transaction/canvas/무제 파일.canvas"
               }
             }
-          },
-          {
-            "id": "878fc8e047f71180",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "30ead3706c7a884a",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
