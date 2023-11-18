@@ -12,7 +12,6 @@
   "excel",
   "optimize-canvas-connections",
   "url-into-selection",
-  "obsidian-autocomplete-plugin",
   "obsidian-better-codeblock",
   "ninja-cursor",
   "obsidian-icons-plugin",
@@ -25,5 +24,7 @@
   "obsidian-hover-editor",
   "obsidian-itinerary",
   "file-tree-alternative",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-outliner",
+  "dataview"
 ]

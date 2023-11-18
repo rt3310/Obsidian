@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"a8a8720fed335a99","x":-480,"y":-360,"width":250,"height":160,"type":"text","text":"# 헤더\n- 제어 정보\n\t- 수신처를 나타내는 주소"},
-		{"id":"9c845562945bdd19","x":-900,"y":-200,"width":240,"height":160,"type":"text","text":"# 패킷\n- 헤더\n- 데이터"}
-	],
-	"edges":[
-		{"id":"b8a6a060370b586b","fromNode":"9c845562945bdd19","fromSide":"right","toNode":"a8a8720fed335a99","toSide":"left"}
-	]
-}

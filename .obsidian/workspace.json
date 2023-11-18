@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ComputerStructure/JVM/canvas/JVM.canvas",
+                "file": "DB/Transaction/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 287.2793557018413,
-                  "y": 1509.4020638129762,
-                  "zoom": -1.1374144377388569
+                  "x": -190.22963677563996,
+                  "y": -239.30417686180357,
+                  "zoom": -0.41333333333333333
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerStructure/JVM/네이티브 메소드 라이브러리.md",
+                "file": "DB/Transaction/canvas/무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerStructure/JVM/네이티브 메소드 라이브러리.md",
+                "file": "DB/Transaction/canvas/무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerStructure/JVM/네이티브 메소드 라이브러리.md"
+                "file": "DB/Transaction/canvas/무제 파일.canvas"
               }
             }
           },
@@ -181,16 +181,34 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
-    "ComputerStructure/JVM/클래스 로더.md",
+    "DB/Transaction/canvas/무제 파일.md",
+    "DB/Transaction/canvas/무제 파일.canvas",
     "ComputerStructure/JVM/canvas/JVM.canvas",
-    "ComputerStructure/JVM/실행 엔진.md",
-    "JVM/클래스 로더.md",
-    "JVM",
-    "ComputerStructure/JVM/canvas/Garbage Collector.canvas",
+    "ComputerStructure/JVM/canvas/무제 파일.canvas",
+    "DB/Transaction/canvas_png",
+    "DB/Transaction/resources",
+    "DB/Transaction/canvas",
+    "DB/Transaction",
+    "ComputerStructure/JVM/네이티브 메소드 인터페이스(JNI).md",
+    "ComputerStructure/JVM/네이티브 메소드 스택.md",
+    "Web/HttpSession/canvas/Cookie & Session.canvas",
+    "무제 폴더 1",
+    "DB",
     "Network/무제 파일.canvas",
+    "Web/HttpSession/canvas/HttpSession.canvas",
+    "Web/HttpSession/Cookie vs Session.md",
+    "OS/무제 파일.canvas",
+    "OS/사용자 수준 쓰레드(ULT).md",
+    "OS/쓰레드 라이브러리.md",
+    "OS/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
+    "ComputerStructure/JVM/resources/PC Register.png",
+    "JVM/클래스 로더.md",
+    "ComputerStructure/JVM/canvas/Garbage Collector.canvas",
+    "ComputerStructure/JVM/클래스 로더.md",
+    "ComputerStructure/JVM/실행 엔진.md",
+    "JVM",
     "JVM/canvas/Garbage Collector.canvas",
     "JVM/canvas/JVM.canvas",
-    "JVM/canvas/무제 파일.canvas",
     "JVM/canvas/무제 파일.md",
     "무제 파일.md",
     "JVM/PC 레지스터.md",
@@ -198,12 +216,10 @@
     "2023-11-15 yrdy.md",
     "Clock/NTP.md",
     "JVM/resources/네이티브 메소드 라이브러리.png",
-    "Clock/컴퓨터 시간 원리.canvas",
     "JVM/resources/Unreachable Object.png",
     "Clock/NTP 서버.md",
     "test.css.md",
     "obsidian-default.css",
-    "무제 폴더",
     "test.css",
     "JVM/resources/Stop The World.png",
     "JVM/STW(Stop The World).md",
@@ -212,26 +228,13 @@
     "JVM/canvas_png",
     "JVM/네이티브 메소드 스택.md",
     "JVM/가비지 컬렉터.md",
-    "JVM/canvas",
     "JVM/클래스 파일 로딩 순서.md",
     "JVM/네이티브 메소드 라이브러리.md",
     "JVM/네이티브 메소드 인터페이스(JNI).md",
-    "JVM/스택 영역.md",
-    "JVM/JIT 컴파일러.md",
-    "JVM/힙 영역.md",
-    "JVM/메소드 영역.md",
-    "JVM/런타임 데이터 영역.md",
-    "JVM/실행 엔진.md",
-    "JVM/JVM 구성.md",
     "JVM/resources/JNI.png",
     "JVM/resources/네이티브 메소드 스택 영역.png",
     "JVM/resources/PC Register.png",
     "JVM/resources/련타임 데이터 영역 동작.png",
-    "JVM/resources/런타임 데이터 영역.png",
-    "JVM/resources/런타임 데이터 영역 상세.png",
-    "Register/레지스터.canvas",
-    "Clock/RTC.md",
-    "Clock",
-    "Language"
+    "JVM/resources/런타임 데이터 영역.png"
   ]
 }

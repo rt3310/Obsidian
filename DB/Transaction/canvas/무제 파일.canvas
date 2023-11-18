@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"dcbb3435d83bc9d2","x":-693,"y":-508,"width":310,"height":39,"type":"text","text":"# Transaction 격리 수준"},
+		{"id":"c50d0668cf011443","x":-161,"y":-581,"width":250,"height":60,"type":"text","text":"여러 트랜잭션이 동시에 처리될 때, 특정 트랜잭션이 다른 "}
+	],
+	"edges":[
+		{"id":"024717a02585fb07","fromNode":"dcbb3435d83bc9d2","fromSide":"right","toNode":"c50d0668cf011443","toSide":"left"}
+	]
+}
