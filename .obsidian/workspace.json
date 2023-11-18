@@ -11,9 +11,11 @@
             "id": "09f978acdccc6815",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "DB/Transaction/resources/Non-repeatable read 1.png"
+                "file": "DB/Transaction/READ UNCOMMITTED 작동 방식.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/resources/Non-repeatable read 1.png",
+                "file": "DB/Transaction/READ UNCOMMITTED 작동 방식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/resources/Non-repeatable read 1.png",
+                "file": "DB/Transaction/READ UNCOMMITTED 작동 방식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/resources/Non-repeatable read 1.png"
+                "file": "DB/Transaction/READ UNCOMMITTED 작동 방식.md"
               }
             }
           }
@@ -161,14 +163,17 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
-    "Pasted image 20231119004800.png",
-    "DB/Transaction/Non-Repeatable Read.md",
+    "DB/Transaction/resources/read uncommitted 1.png",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "DB/Transaction/canvas/READ COMMITTED 작동 방식.md",
-    "DB/Transaction/resources/Non-repeatable read 2.png",
+    "DB/Transaction/READ UNCOMMITTED 작동 방식.md",
+    "DB/Transaction/Non-Repeatable Read.md",
+    "DB/Transaction/resources/non-repeatable read 2.png",
+    "DB/Transaction/resources/non-repeatable read 1.png",
+    "DB/Transaction/resources/read committed 1.png",
+    "DB/Transaction/resources/read committed 2.png",
+    "DB/Transaction/READ COMMITTED 작동 방식.md",
     "DB/Transaction/resources/MySQL에서의 Phantom Read.png",
     "DB/Transaction/READ COMMITTED.md",
-    "DB/Transaction/resources/Non-repeatable read 1.png",
     "DB/Transaction/MySQL Phantom Read.md",
     "Pasted image 20231119003228.png",
     "DB/Transaction/Phantom Read.md",
@@ -176,8 +181,6 @@
     "Pasted image 20231119002932.png",
     "DB/Transaction/resources/gap lock 잠금 대기.png",
     "DB/Transaction/resources/repeatable read 6.png",
-    "DB/Transaction/resources/repeatable read 5.png",
-    "Pasted image 20231119000737.png",
     "DB/Transaction/SERIALIZABLE 작동 방식.md",
     "DB/Transaction/SERIALIZABLE.md",
     "DB/Transaction/REPEATABLE READ.md",
@@ -212,7 +215,6 @@
     "무제 파일.md",
     "JVM/PC 레지스터.md",
     "하이용.md",
-    "2023-11-15 yrdy.md",
     "obsidian-default.css",
     "test.css",
     "JVM/canvas_png"
