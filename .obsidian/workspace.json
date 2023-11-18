@@ -15,8 +15,8 @@
               "state": {
                 "file": "DB/Transaction/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 865.266552289115,
-                  "y": -239.30417686180357,
+                  "x": 535.8142515339018,
+                  "y": -11.413528967125288,
                   "zoom": -0.41333333333333333
                 }
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/canvas/무제 파일.canvas",
+                "file": "DB/Transaction/canvas/SERIALIZABLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/canvas/무제 파일.canvas",
+                "file": "DB/Transaction/canvas/SERIALIZABLE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/canvas/무제 파일.canvas"
+                "file": "DB/Transaction/canvas/SERIALIZABLE.md"
               }
             }
           }
@@ -166,6 +166,7 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
+    "DB/Transaction/canvas/SERIALIZABLE.md",
     "DB/Transaction/canvas/무제 파일.md",
     "DB/Transaction/canvas/무제 파일.canvas",
     "ComputerStructure/JVM/canvas/JVM.canvas",
