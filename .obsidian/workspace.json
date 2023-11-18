@@ -27,9 +27,9 @@
               "state": {
                 "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "viewState": {
-                  "x": 3942.084544980611,
-                  "y": 925.2180866634856,
-                  "zoom": -0.4098476456122366
+                  "x": 419.3785784069115,
+                  "y": 303.7289517292606,
+                  "zoom": -0.08131450938117564
                 }
               }
             }
@@ -179,10 +179,14 @@
   },
   "active": "6a0279fb1fbf98ac",
   "lastOpenFiles": [
+    "DB/Transaction/MySQL Phantom Read.md",
+    "Pasted image 20231119003228.png",
     "DB/Transaction/Phantom Read.md",
     "DB/Transaction/REPEATABLE READ 작동 방식.md",
-    "DB/Transaction/resources/gap lock 잠금 대기.png",
+    "DB/Transaction/resources/MySQL에서의 Phantom Read.png",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "Pasted image 20231119002932.png",
+    "DB/Transaction/resources/gap lock 잠금 대기.png",
     "DB/Transaction/resources/repeatable read 6.png",
     "DB/Transaction/resources/repeatable read 5.png",
     "Pasted image 20231119000737.png",
@@ -192,7 +196,6 @@
     "DB/Transaction/resources/repeatable read 3.png",
     "DB/Transaction/REPEATABLE READ.md",
     "DB/Transaction/resources/repeatable read 2.png",
-    "DB/Transaction/resources/repeatable read 1.png",
     "DB/Transaction/MVCC.md",
     "DB/Transaction/canvas/무제 파일.md",
     "ComputerStructure/JVM/canvas/JVM.canvas",
@@ -213,7 +216,6 @@
     "OS/사용자 수준 쓰레드(ULT).md",
     "OS/쓰레드 라이브러리.md",
     "OS/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
-    "ComputerStructure/JVM/resources/PC Register.png",
     "JVM/클래스 로더.md",
     "ComputerStructure/JVM/canvas/Garbage Collector.canvas",
     "ComputerStructure/JVM/클래스 로더.md",
@@ -227,7 +229,6 @@
     "하이용.md",
     "2023-11-15 yrdy.md",
     "Clock/NTP.md",
-    "JVM/resources/네이티브 메소드 라이브러리.png",
     "Clock/NTP 서버.md",
     "test.css.md",
     "obsidian-default.css",

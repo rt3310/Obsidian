@@ -9,7 +9,9 @@
 		{"id":"3e0701bc6a8cbd11","type":"file","file":"DB/Transaction/MVCC.md","x":1160,"y":-151,"width":603,"height":346},
 		{"id":"82136eeeccd2995b","type":"file","file":"DB/Transaction/REPEATABLE READ 작동 방식.md","x":1160,"y":360,"width":824,"height":2039},
 		{"id":"d2a9ddeec67aa424","type":"file","file":"DB/Transaction/Phantom Read.md","x":2400,"y":-611,"width":880,"height":3010},
-		{"id":"97b0803631b203f4","type":"text","text":"MySQL에는 갭 락이 존재하기 때문에 전의 상황에서 문제가 발생하지 않는다. 사용자 B가 SELECT FOR UPDATE로 데이터를 조회한 경우에 MySQL은 id가 50인 레코드에는 레코드 락, id가 50보다 큰 범위에는 갭 락으로 넥스트 키 락을 건다.\n따라서 사용자 A가 id가 51인 member를 INSERT 시도한다면, B의 트랜잭션이 종료(커밋 또는 롤백)될 때까지 기다리다가 대기를 지나치게 오래하면 락 타임아웃이 발생하게 된다.\n\n![[gap lock 잠금 대기.png]]\n\n따라서 일반적으로 MySQL의 REPEATABLE READ에서는 Phantom Read가 발생하지 않는다.\nMySQL에서 Phantom Read가 발생하는 거의 유일한 케이스는 다음과 같다.\n\n사용자 B는 트랜잭션을 시작하고, 잠금없는 SELECT 문으로 데이터를 조회하였다. 그리고 사용자 A는 INSERT문을 사용해 데이터를 추가하였다. 이때 잠금이 없으므로 바로 COMMIT 된다. 하지만 사용자 B가 SELECT FOR UPDATE로 조회를 했다면, ㅇ","x":3600,"y":0,"width":929,"height":1706}
+		{"id":"859dbc88d79efbaa","type":"file","file":"DB/Transaction/MySQL Phantom Read.md","x":3640,"y":-280,"width":929,"height":2347},
+		{"id":"c03e762b8b9ce420","type":"text","text":"# 트랜잭션 내에서 SELECT vs 없이 SELECT\nREPEATABLE READ에서는 트랜잭션 번호를 바탕으로 실제 테이블 데이터와 언두 영역의 데이터 등을 비교하며 어떤 데이터를 조회할 지 판단한다. 즉, 트랜잭션 안에서 실행되는 SELECT 라면 항상 일관된 데이터를 조회하게 된다.\n하지만 트랜잭션 없이 실행된다면, 데이터의 정합성이 깨지는 상황이 생길 수 있다.\n\n커밋된 데이터만을 보여주는 READ COMMITED 수준에서는 둘의 차이가 거의 없다.","x":5000,"y":680,"width":585,"height":229,"color":"5"},
+		{"id":"ef6093016e33234a","x":120,"y":180,"width":506,"height":88,"type":"text","text":"Read Commited는 커밋된 데이터만 조회할 수 있다.\nRead Commited는 Repeatable Read에서 발생하는 Phantom Read에 더해 **Non-Repeatable Read(반복 읽기 불가능) 문제**까지 발생한다."}
 	],
 	"edges":[
 		{"id":"024717a02585fb07","fromNode":"dcbb3435d83bc9d2","fromSide":"right","toNode":"c50d0668cf011443","toSide":"left","label":"트랜잭션 격리 수준?"},
@@ -20,6 +22,8 @@
 		{"id":"755d82fe72b6967c","fromNode":"f06c929a4b103795","fromSide":"right","toNode":"f7ee296a63e98a81","toSide":"left","label":"Repeatable Read?"},
 		{"id":"e6362c426605c1bf","fromNode":"f7ee296a63e98a81","fromSide":"right","toNode":"82136eeeccd2995b","toSide":"left","label":"작동 방식"},
 		{"id":"9ef4ac900a20b482","fromNode":"82136eeeccd2995b","fromSide":"right","toNode":"d2a9ddeec67aa424","toSide":"left","label":"Phantom Read는 언제 발생?"},
-		{"id":"dd0c4628497d1e56","fromNode":"d2a9ddeec67aa424","fromSide":"right","toNode":"97b0803631b203f4","toSide":"left","label":"MySQL에서는?"}
+		{"id":"dd0c4628497d1e56","fromNode":"d2a9ddeec67aa424","fromSide":"right","toNode":"859dbc88d79efbaa","toSide":"left","label":"MySQL에서는?"},
+		{"id":"59f9a5f1674ec602","fromNode":"859dbc88d79efbaa","fromSide":"right","toNode":"c03e762b8b9ce420","toSide":"left","label":"트랜잭션 유무에 따른 SELECT"},
+		{"id":"f28df272a95fb4bd","fromNode":"f06c929a4b103795","fromSide":"right","toNode":"ef6093016e33234a","toSide":"left"}
 	]
 }
