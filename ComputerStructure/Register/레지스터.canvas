@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"3086844b7d09c0bd","type":"text","text":"# 레지스터","x":-199,"y":-20,"width":193,"height":71},
+		{"id":"f06e739b991b3b92","type":"text","text":"- `R0` ~ `R12`: 13개의 범용 목적 레지스터\n- `R13`(`SP`): 스택 포인터\n- `R14`(`LR`): 링크 레지스터\n\t- 함수 호출 등의 서브루틴에서 되돌아갈 주소(리턴 주소)를 저장하기 위해 주로 사용된다.\n- `R15`(`PC`): 프로그램 카운터\n- `CPSR`: 프로그램 상태 레지스터 (플래그 레지스터)\n\nARM은 실행 모드에 따라 사용되는 레지스터 종류가 달라진다.","x":-199,"y":-460,"width":459,"height":300},
+		{"id":"f47952ff2e3146eb","type":"text","text":"- `User mode`: 사용자 모드로 실행할 때의 동작 모드\n- `FIQ(Fast Interrupt Request) mode`: 일반적인 인터럽트를 처리하기 위한 동작 모드\n- `IRQ(Interrupt Request) mode`: 일반적인 인터럽트를 처리하기 위한 동작 모드\n- `SVC(Supervisor) mode`: 자원에 접근할 수 있는 동작 모드\n- `Abort mode`: 예기지 못한 오류가 발생했을 때의 동작 모드\n- `Undefined`: 정의되지 않은 명령어를 수행하려 할 때의 동작 모드\n- `System mode`: 사용자 모드에서 추가적인 권한을 더 부여한 실행 모드","x":560,"y":-460,"width":586,"height":283},
+		{"id":"db01629af2d52878","type":"text","text":"https://developer.arm.com/documentation/dui0068/b/ARM-Instruction-Reference","x":0,"y":-680,"width":277,"height":101},
+		{"id":"09418c2572990989","type":"text","text":"https://godbolt.org/","x":-420,"y":-659,"width":250,"height":60},
+		{"id":"bdf3e00651e5f341","type":"text","text":"- AX(Accumulator register): 산술 연산에 사용\n- CX(Counter register): 시프트/회전 연산과 루프에서 사용\n- DX(Date register): 산술 연산과 I/O 명령에서 사용\n- BX(Base register): 데이터의 주소를 가리키는 포인터로 사용\n- SP(Stack Pointer register): 스택의 최상단을 가리키는 포인터로 사용\n- BP(Stack Base Pointer register): 스택의 베이스(최하단)를 가리키는 포인터로 사용\n- SI(Source Index register): 스트림 명령에서 소스를 가리키는 포인터로 사용\n- DI(Destination Index register): 스트림 명령에서 도착점을 가리키는 포인터로 사용\n\n32비트로 사용될 때는 위의 이름 앞글자에 E를 붙인다.\n- ex) EAX, ECX, EDX, ...\n64비트에서는 앞글자에 R을 붙인다.\n- ex) RAX, RCX, RDX, ...","x":-102,"y":200,"width":607,"height":475},
+		{"id":"b7c82c398a5a4f5c","type":"file","file":"Register/resources/x86-64 Register.png","x":620,"y":300,"width":400,"height":60},
+		{"id":"6b2f4d06a24f4156","type":"text","text":"주소 지정에서 사용되는 레지스터","x":317,"y":-9,"width":303,"height":60},
+		{"id":"35841e37f2fc1765","type":"text","text":"- Stack Segment(SS): 스택을 가리킴\n- Code Segment(CS): 코드를 가리킴\n- Data Segment(DS): 데이터를 가리킴\n- Extra Segment(ES): 추가적인 데이터를 가리킴\n- F Segment(FS): 많은 추가적인 데이터를 가리킴\n- G Segment(GS): 더 많은 추가적인 데이터를 가리킴","x":980,"y":-51,"width":493,"height":204}
+	],
+	"edges":[
+		{"id":"32068769b3fbffe7","fromNode":"3086844b7d09c0bd","fromSide":"top","toNode":"f06e739b991b3b92","toSide":"bottom","label":"ARM 레지스터"},
+		{"id":"2766c650fa21ff36","fromNode":"f06e739b991b3b92","fromSide":"top","toNode":"db01629af2d52878","toSide":"bottom","label":"ARM 명령어"},
+		{"id":"36b41313db753384","fromNode":"f06e739b991b3b92","fromSide":"right","toNode":"f47952ff2e3146eb","toSide":"left","label":"ARM 실행 모드"},
+		{"id":"15b7c8a9eb64ebb3","fromNode":"f06e739b991b3b92","fromSide":"top","toNode":"09418c2572990989","toSide":"bottom","label":"어셈블리 결과 사이트"},
+		{"id":"b853d05170b756cc","fromNode":"3086844b7d09c0bd","fromSide":"bottom","toNode":"bdf3e00651e5f341","toSide":"top","label":"x86-64 레지스터"},
+		{"id":"1672a5981109a2c3","fromNode":"bdf3e00651e5f341","fromSide":"right","toNode":"b7c82c398a5a4f5c","toSide":"left"},
+		{"id":"f5d01258cd90089a","fromNode":"6b2f4d06a24f4156","fromSide":"right","toNode":"35841e37f2fc1765","toSide":"left","label":"세그먼트 레지스터 종류"},
+		{"id":"b1986ce6c67fcd1b","fromNode":"3086844b7d09c0bd","fromSide":"right","toNode":"6b2f4d06a24f4156","toSide":"left","label":"세그먼트 레지스터"}
+	]
+}

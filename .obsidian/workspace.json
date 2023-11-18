@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "700209c8c6922616",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ab4101c0a64fcf1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9694cc47080700c0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a06905ce00e75cd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee5624de88c224d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1a64042df68f5a0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fde195bf542aa971",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9389d0b0b0b2913d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4caea977b2c1ce97",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2dc7dc2a6ba6359",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1233e5fe18151cc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2336ed86330e19c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "188afa357f727a9a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2dde5daacecd2bc5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "9694cc47080700c0",
+  "lastOpenFiles": [
+    "ComputerStructure/무제 파일.md",
+    "ComputerStructure/하이용.md",
+    "ComputerStructure/2023-11-15 yrdy.md",
+    "Network/무제 파일.canvas",
+    "OS/사용자 수준 쓰레드(ULT).md",
+    "OS/단일 쓰레딩.md",
+    "OS/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md"
+  ]
+}

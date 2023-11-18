@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "7c20777d62f20109",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f1fde7cba6d8044",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6b6e0d999f226f7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "df06ba4c5c613a35",
+    "type": "split",
+    "children": [
+      {
+        "id": "f376e3c73f3dfb0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39d6b843303c0ba4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "051436d3e42996ba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e523e5a5d6e8f4fb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "95df6fed50c48f8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "631a7699a0e12612",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c41e44646cf64229",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbfc8ecbe30cd3e8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f4555a9a942a2c81",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "e8572016f05ba765",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "381b29d329fc520e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
+    }
+  },
+  "active": "c6b6e0d999f226f7",
+  "lastOpenFiles": [
+    "무제 파일.canvas",
+    "무제 파일.md",
+    "무제 파일 2.md",
+    "무제 파일 1.md",
+    "파일2.md",
+    "무제 폴더 1",
+    "무제 폴더",
+    "무제.md",
+    "2023-10-15.md",
+    "Excalidraw/Drawing 2023-10-15 21.43.23.excalidraw.md",
+    "무제 파일 2.canvas",
+    "무제 파일 1.canvas",
+    "Excalidraw",
+    "파일.md",
+    "Drawing 2023-10-15 21.35.16.excalidraw.md",
+    "Untitled.md",
+    "제어정보.md",
+    "svadvs.md",
+    "Untitled.canvas",
+    "2023-09-6.md"
+  ]
+}

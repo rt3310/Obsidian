@@ -1,0 +1,4 @@
+- 클라이언트가 요청을 한 후 응답을 받으면 그 연결을 끊어 버리는 특징
+- HTTP는 먼저 클라이언트가 request를 서버에 보내면, 서버는 클라이언트에게 요청에 맞는 response를 보내고 접속을 끊는 특성이 있다.
+- 헤더에 keep-alive라는 값을 줘서 conneciton을 재활용하는데 HTTP1.1에서는 이것이 default이다.
+- HTTP가 TCP 위에서 구현되었기 때문에 네트워크 관점에서 keep-alive는 옵션으로 connectionless의 연결비용을 줄이는 것을 장점으로 비연결지향이라 한다.

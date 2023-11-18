@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "165dc34c91db5c4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb336edee2d67d7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5305a8f9e75c37ce",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "JVM/canvas/JVM.canvas",
+                "viewState": {
+                  "x": 335,
+                  "y": 954.5,
+                  "zoom": -2.9695692416602624
+                }
+              }
+            }
+          },
+          {
+            "id": "f16fe57eea90abd2",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "44cbda10811947f3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "JVM/canvas/Garbage Collector.canvas",
+                "viewState": {
+                  "x": 1145,
+                  "y": -301.5,
+                  "zoom": -1.2625161033166727
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5c672727df320d28",
+    "type": "split",
+    "children": [
+      {
+        "id": "11aaba63ed9371aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95986b4e07f54c35",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7c5ee3fd6c882fbe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "52d1a250a2e110a5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed8190dd4e91a0af",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "04f33ba9f970347b",
+    "type": "split",
+    "children": [
+      {
+        "id": "18c817744563cff2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3155f552b4b0e79e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JVM/canvas/JVM.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c2cd9316394570fc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JVM/canvas/JVM.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cde5e175b9eab0ac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d0dc22bf1921b964",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JVM/canvas/JVM.canvas"
+              }
+            }
+          },
+          {
+            "id": "878fc8e047f71180",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "30ead3706c7a884a",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "excel:Create Excel File": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "30ead3706c7a884a",
+  "lastOpenFiles": [
+    "JVM/canvas/Garbage Collector.canvas",
+    "JVM/canvas/JVM.canvas",
+    "JVM/canvas/무제 파일.canvas",
+    "JVM/canvas/무제 파일.md",
+    "무제 파일.md",
+    "JVM/PC 레지스터.md",
+    "하이용.md",
+    "2023-11-15 yrdy.md",
+    "Clock/NTP.md",
+    "JVM/resources/네이티브 메소드 라이브러리.png",
+    "Clock/컴퓨터 시간 원리.canvas",
+    "JVM/resources/Unreachable Object.png",
+    "Clock/NTP 서버.md",
+    "test.css.md",
+    "obsidian-default.css",
+    "무제 폴더",
+    "test.css",
+    "JVM/resources/Stop The World.png",
+    "JVM/STW(Stop The World).md",
+    "JVM/canvas_png/JVM.png",
+    "JVM/JVM 동작 과정.md",
+    "JVM/canvas_png",
+    "JVM/네이티브 메소드 스택.md",
+    "JVM/가비지 컬렉터.md",
+    "JVM/canvas",
+    "JVM/클래스 파일 로딩 순서.md",
+    "JVM/네이티브 메소드 라이브러리.md",
+    "JVM/네이티브 메소드 인터페이스(JNI).md",
+    "JVM/스택 영역.md",
+    "JVM/JIT 컴파일러.md",
+    "JVM/힙 영역.md",
+    "JVM/메소드 영역.md",
+    "JVM/런타임 데이터 영역.md",
+    "JVM/실행 엔진.md",
+    "JVM/클래스 로더.md",
+    "JVM/JVM 구성.md",
+    "JVM/resources/JNI.png",
+    "JVM/resources/네이티브 메소드 스택 영역.png",
+    "JVM/resources/PC Register.png",
+    "JVM/resources/련타임 데이터 영역 동작.png",
+    "JVM/resources/런타임 데이터 영역.png",
+    "JVM/resources/런타임 데이터 영역 상세.png",
+    "Register/레지스터.canvas",
+    "Clock/RTC.md",
+    "Clock/ZonedDateTime.md",
+    "Clock",
+    "Language"
+  ]
+}
