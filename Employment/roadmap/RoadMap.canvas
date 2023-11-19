@@ -1,15 +1,19 @@
 {
 	"nodes":[
 		{"id":"53855cab72198001","type":"text","text":"# Java","x":-620,"y":-940,"width":119,"height":39},
-		{"id":"1e88f03b77ab2a6f","x":-820,"y":-780,"width":142,"height":29,"type":"text","text":"Java의 정석"},
-		{"id":"cadc4fe056bd817e","x":-649,"y":-680,"width":177,"height":29,"type":"text","text":"모던 자바 인 액션"},
-		{"id":"0e147417578300d7","x":-690,"y":-560,"width":260,"height":29,"type":"text","text":"오브젝트 디자인 스타일 가이드"},
-		{"id":"9edd60a6ae272d5b","x":-667,"y":-440,"width":214,"height":29,"type":"text","text":"Bad Code, Good Code"}
+		{"id":"1e88f03b77ab2a6f","type":"text","text":"Java의 정석","x":-820,"y":-780,"width":142,"height":29},
+		{"id":"cadc4fe056bd817e","type":"text","text":"모던 자바 인 액션","x":-649,"y":-680,"width":177,"height":29},
+		{"id":"e1389a7b3db209fb","type":"text","text":"리팩터링 2판","x":-520,"y":-440,"width":149,"height":29},
+		{"id":"9edd60a6ae272d5b","type":"text","text":"Bad Code, Good Code","x":-800,"y":-440,"width":214,"height":29},
+		{"id":"b2fcdf552093299b","x":-755,"y":-560,"width":155,"height":29,"type":"text","text":"이펙티브 자바"},
+		{"id":"0e147417578300d7","type":"text","text":"오브젝트 디자인 스타일 가이드","x":-520,"y":-560,"width":260,"height":29}
 	],
 	"edges":[
 		{"id":"5aaf999082a2fb53","fromNode":"53855cab72198001","fromSide":"bottom","toNode":"cadc4fe056bd817e","toSide":"top"},
 		{"id":"e60d1f231709dd96","fromNode":"53855cab72198001","fromSide":"bottom","toNode":"1e88f03b77ab2a6f","toSide":"top"},
 		{"id":"d3971df3415ffbb9","fromNode":"cadc4fe056bd817e","fromSide":"bottom","toNode":"0e147417578300d7","toSide":"top"},
-		{"id":"ae0d9a89f4d860b7","fromNode":"0e147417578300d7","fromSide":"bottom","toNode":"9edd60a6ae272d5b","toSide":"top"}
+		{"id":"ae0d9a89f4d860b7","fromNode":"0e147417578300d7","fromSide":"bottom","toNode":"9edd60a6ae272d5b","toSide":"top"},
+		{"id":"98d3c9062ca69cb8","fromNode":"0e147417578300d7","fromSide":"bottom","toNode":"e1389a7b3db209fb","toSide":"top"},
+		{"id":"c136bc57a78fb913","fromNode":"cadc4fe056bd817e","fromSide":"bottom","toNode":"b2fcdf552093299b","toSide":"top"}
 	]
 }
