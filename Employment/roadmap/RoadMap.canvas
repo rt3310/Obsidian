@@ -6,7 +6,9 @@
 		{"id":"b2fcdf552093299b","x":-755,"y":-560,"width":155,"height":29,"type":"text","text":"이펙티브 자바"},
 		{"id":"0e147417578300d7","type":"text","text":"오브젝트 디자인 스타일 가이드","x":-520,"y":-560,"width":260,"height":29},
 		{"id":"9edd60a6ae272d5b","type":"text","text":"Bad Code, Good Code","x":-649,"y":-440,"width":214,"height":29},
-		{"id":"e1389a7b3db209fb","type":"text","text":"리팩터링 2판","x":-334,"y":-440,"width":149,"height":29}
+		{"id":"e1389a7b3db209fb","type":"text","text":"리팩터링 2판","x":-334,"y":-440,"width":149,"height":29},
+		{"id":"5de6c3260285db25","x":-260,"y":-940,"width":142,"height":39,"type":"text","text":"# Spring"},
+		{"id":"4c3f8d08a0e1e2d9","x":-398,"y":-784,"width":165,"height":29,"type":"text","text":"토비의 스프링 1"}
 	],
 	"edges":[
 		{"id":"5aaf999082a2fb53","fromNode":"53855cab72198001","fromSide":"bottom","toNode":"cadc4fe056bd817e","toSide":"top"},
@@ -14,6 +16,7 @@
 		{"id":"d3971df3415ffbb9","fromNode":"cadc4fe056bd817e","fromSide":"bottom","toNode":"0e147417578300d7","toSide":"top"},
 		{"id":"ae0d9a89f4d860b7","fromNode":"0e147417578300d7","fromSide":"bottom","toNode":"9edd60a6ae272d5b","toSide":"top"},
 		{"id":"98d3c9062ca69cb8","fromNode":"0e147417578300d7","fromSide":"bottom","toNode":"e1389a7b3db209fb","toSide":"top"},
-		{"id":"c136bc57a78fb913","fromNode":"cadc4fe056bd817e","fromSide":"bottom","toNode":"b2fcdf552093299b","toSide":"top"}
+		{"id":"c136bc57a78fb913","fromNode":"cadc4fe056bd817e","fromSide":"bottom","toNode":"b2fcdf552093299b","toSide":"top"},
+		{"id":"38cbb15662537535","fromNode":"5de6c3260285db25","fromSide":"bottom","toNode":"4c3f8d08a0e1e2d9","toSide":"top"}
 	]
 }
