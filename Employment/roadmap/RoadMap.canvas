@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"5de6c3260285db25","type":"text","text":"# Spring","x":-128,"y":-940,"width":142,"height":39,"color":"4"},
 		{"id":"abd3d6df7e444c68","type":"text","text":"친절한 SQL 튜닝","x":724,"y":-660,"width":172,"height":29,"color":"5"},
 		{"id":"5cb1b5cda43190ee","type":"text","text":"# CS","x":458,"y":-940,"width":97,"height":39,"color":"5"},
 		{"id":"26dbe006c19aba86","type":"text","text":"Real MySQL 1","x":538,"y":-784,"width":158,"height":29,"color":"5"},
@@ -16,7 +15,9 @@
 		{"id":"53855cab72198001","type":"text","text":"# Java","x":-740,"y":-940,"width":119,"height":39,"color":"2"},
 		{"id":"1e88f03b77ab2a6f","type":"text","text":"Java의 정석","x":-940,"y":-780,"width":142,"height":29,"color":"2"},
 		{"id":"4c3f8d08a0e1e2d9","type":"text","text":"토비의 스프링 1","x":-305,"y":-784,"width":165,"height":29,"color":"4"},
-		{"id":"5134e1b93dae2419","type":"text","text":"Real MySQL 2","x":538,"y":-560,"width":160,"height":29,"color":"5"}
+		{"id":"5134e1b93dae2419","type":"text","text":"Real MySQL 2","x":538,"y":-560,"width":160,"height":29,"color":"5"},
+		{"id":"47f9ff58aaad9d7a","x":-311,"y":-665,"width":178,"height":29,"color":"4","type":"text","text":"Spring Security 1"},
+		{"id":"5de6c3260285db25","type":"text","text":"# Spring","x":-160,"y":-940,"width":142,"height":39,"color":"4"}
 	],
 	"edges":[
 		{"id":"5aaf999082a2fb53","fromNode":"53855cab72198001","fromSide":"bottom","toNode":"cadc4fe056bd817e","toSide":"top","color":"2"},
@@ -33,6 +34,7 @@
 		{"id":"ad9e437052d4762f","fromNode":"26dbe006c19aba86","fromSide":"bottom","toNode":"abd3d6df7e444c68","toSide":"top","color":"5"},
 		{"id":"b6f0ecfee1f6925e","fromNode":"9dc36d032b1b5bc5","fromSide":"bottom","toNode":"abd3d6df7e444c68","toSide":"top","color":"5"},
 		{"id":"c57cc7e2966e91a7","fromNode":"cadc4fe056bd817e","fromSide":"bottom","toNode":"e7b2457ce36811df","toSide":"top","color":"2"},
-		{"id":"e4b919339637990c","fromNode":"5de6c3260285db25","fromSide":"bottom","toNode":"f7ec2f495a416d36","toSide":"top","color":"4"}
+		{"id":"e4b919339637990c","fromNode":"5de6c3260285db25","fromSide":"bottom","toNode":"f7ec2f495a416d36","toSide":"top","color":"4"},
+		{"id":"34ebbf21455ec97c","fromNode":"4c3f8d08a0e1e2d9","fromSide":"bottom","toNode":"47f9ff58aaad9d7a","toSide":"top","color":"4"}
 	]
 }
