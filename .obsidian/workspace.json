@@ -11,9 +11,11 @@
             "id": "09f978acdccc6815",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Java/JVM/resources/Stop The World.png"
+                "file": "Employment/roadmap/무제 파일.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/resources/Stop The World.png",
+                "file": "Employment/roadmap/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/resources/Stop The World.png",
+                "file": "Employment/roadmap/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/resources/Stop The World.png"
+                "file": "Employment/roadmap/무제 파일.md"
               }
             }
           }
@@ -159,8 +161,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "09f978acdccc6815",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Java/JVM/resources/Stop The World.png",
+    "Employment/roadmap/무제 파일.md",
+    "Java/JVM/resources/스택 영역 위치.png",
+    "Java/JVM/resources/무제 파일.md",
+    "Employment/roadmap",
+    "Employment/무제 파일.md",
+    "Employment",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/가비지 컬렉터.md",
@@ -188,10 +197,8 @@
     "DB/Transaction/resources/non-repeatable read 1.png",
     "DB/Transaction/resources/read committed 1.png",
     "DB/Transaction/resources/read committed 2.png",
-    "DB/Transaction/resources/MySQL에서의 Phantom Read.png",
     "DB/Transaction/READ COMMITTED.md",
     "DB/Transaction/MySQL Phantom Read.md",
-    "Pasted image 20231119003228.png",
     "DB/Transaction/Phantom Read.md",
     "DB/Transaction/REPEATABLE READ 작동 방식.md",
     "DB/Transaction/SERIALIZABLE 작동 방식.md",
@@ -210,11 +217,6 @@
     "DB",
     "Network/무제 파일.canvas",
     "OS/무제 파일.canvas",
-    "OS/사용자 수준 쓰레드(ULT).md",
-    "OS/쓰레드 라이브러리.md",
-    "OS/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
-    "JVM",
-    "JVM/canvas/Garbage Collector.canvas",
-    "obsidian-default.css"
+    "JVM/canvas/Garbage Collector.canvas"
   ]
 }
