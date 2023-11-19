@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"53855cab72198001","type":"text","text":"# Java","x":-620,"y":-940,"width":119,"height":39},
+		{"id":"1e88f03b77ab2a6f","x":-820,"y":-780,"width":142,"height":29,"type":"text","text":"Java의 정석"},
+		{"id":"cadc4fe056bd817e","x":-649,"y":-680,"width":177,"height":29,"type":"text","text":"모던 자바 인 액션"},
+		{"id":"0e147417578300d7","x":-690,"y":-560,"width":260,"height":29,"type":"text","text":"오브젝트 디자인 스타일 가이드"}
+	],
+	"edges":[
+		{"id":"5aaf999082a2fb53","fromNode":"53855cab72198001","fromSide":"bottom","toNode":"cadc4fe056bd817e","toSide":"top"},
+		{"id":"e60d1f231709dd96","fromNode":"53855cab72198001","fromSide":"bottom","toNode":"1e88f03b77ab2a6f","toSide":"top"},
+		{"id":"d3971df3415ffbb9","fromNode":"cadc4fe056bd817e","fromSide":"bottom","toNode":"0e147417578300d7","toSide":"top"}
+	]
+}
