@@ -11,14 +11,9 @@
             "id": "09f978acdccc6815",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-                "viewState": {
-                  "x": -515.8673874080064,
-                  "y": -1088.8168272156518,
-                  "zoom": -0.3218903416508171
-                }
+                "file": "Java/JVM/resources/Stop The World.png"
               }
             }
           }
@@ -96,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Java/JVM/resources/Stop The World.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Java/JVM/resources/Stop The World.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+                "file": "Java/JVM/resources/Stop The World.png"
               }
             }
           }
@@ -166,10 +161,26 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
+    "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/canvas/JVM.canvas",
+    "Java/JVM/가비지 컬렉터.md",
+    "Java/JVM/네이티브 메소드 라이브러리.md",
+    "ComputerStructure/Register/canvas/레지스터.canvas",
+    "Java",
+    "ComputerStructure/Register/resources/x86-64 Register.png",
+    "ComputerStructure/Register/canvas",
+    "ComputerStructure/Register/무제 파일.md",
+    "Web/HttpSession/canvas/Cookie & Session.canvas",
+    "Web/HttpSession/resources/Cookie.png",
+    "Web/HttpSession/canvas/HttpSession.canvas",
+    "Web/HttpSession/Stateless.md",
+    "Web/HttpSession/HttpSession 인증처리 방식.md",
+    "Web/HttpSession/Cookie vs Session.md",
+    "Web/HttpSession/Connectionless.md",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Transaction/READ UNCOMMITTED의 Dirty Read.md",
     "DB/Transaction/resources/read uncommitted 2.png",
     "DB/Transaction/READ COMMITTED 작동 방식.md",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Transaction/READ UNCOMMITTED.md",
     "DB/Transaction/resources/read uncommitted 1.png",
     "DB/Transaction/Non-Repeatable Read.md",
@@ -183,43 +194,27 @@
     "Pasted image 20231119003228.png",
     "DB/Transaction/Phantom Read.md",
     "DB/Transaction/REPEATABLE READ 작동 방식.md",
-    "Pasted image 20231119002932.png",
-    "DB/Transaction/resources/gap lock 잠금 대기.png",
     "DB/Transaction/SERIALIZABLE 작동 방식.md",
     "DB/Transaction/SERIALIZABLE.md",
     "DB/Transaction/REPEATABLE READ.md",
     "DB/Transaction/MVCC.md",
     "DB/Transaction/canvas/무제 파일.md",
-    "ComputerStructure/JVM/canvas/JVM.canvas",
     "ComputerStructure/JVM/canvas/무제 파일.canvas",
     "DB/Transaction/canvas_png",
     "DB/Transaction/resources",
     "DB/Transaction/canvas",
     "DB/Transaction",
-    "ComputerStructure/JVM/네이티브 메소드 인터페이스(JNI).md",
-    "ComputerStructure/JVM/네이티브 메소드 스택.md",
-    "Web/HttpSession/canvas/Cookie & Session.canvas",
+    "Java/JVM/네이티브 메소드 인터페이스(JNI).md",
+    "Java/JVM/네이티브 메소드 스택.md",
     "무제 폴더 1",
     "DB",
     "Network/무제 파일.canvas",
-    "Web/HttpSession/canvas/HttpSession.canvas",
-    "Web/HttpSession/Cookie vs Session.md",
     "OS/무제 파일.canvas",
     "OS/사용자 수준 쓰레드(ULT).md",
     "OS/쓰레드 라이브러리.md",
     "OS/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
-    "JVM/클래스 로더.md",
-    "ComputerStructure/JVM/canvas/Garbage Collector.canvas",
-    "ComputerStructure/JVM/클래스 로더.md",
-    "ComputerStructure/JVM/실행 엔진.md",
     "JVM",
     "JVM/canvas/Garbage Collector.canvas",
-    "JVM/canvas/JVM.canvas",
-    "JVM/canvas/무제 파일.md",
-    "무제 파일.md",
-    "JVM/PC 레지스터.md",
-    "obsidian-default.css",
-    "test.css",
-    "JVM/canvas_png"
+    "obsidian-default.css"
   ]
 }
