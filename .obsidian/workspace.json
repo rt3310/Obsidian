@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Disk/RAID.canvas",
+                "file": "OS/Disk/canvas/RAID.canvas",
                 "viewState": {
-                  "x": 325.6750995593178,
-                  "y": 625.6536015104432,
-                  "zoom": -0.8290694882060287
+                  "x": 307.5,
+                  "y": 395,
+                  "zoom": -1.3536639913748685
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Disk/RAID.canvas",
+                "file": "OS/Disk/canvas/RAID.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Disk/RAID.canvas",
+                "file": "OS/Disk/canvas/RAID.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Disk/RAID.canvas"
+                "file": "OS/Disk/canvas/RAID.canvas"
               }
             }
           }
@@ -166,11 +166,14 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
-    "Pasted image 20231119155558.png",
-    "Pasted image 20231119155543.png",
-    "Pasted image 20231119155510.png",
-    "RAID 0.png",
-    "OS/Disk/RAID.canvas",
+    "OS/Disk/resources/RAID 5.png",
+    "OS/Disk/resources/RAID 6.png",
+    "OS/Disk/canvas/RAID.canvas",
+    "OS/Disk/resources/RAID 4.png",
+    "OS/Disk/resources/RAID 0.png",
+    "OS/Disk/resources",
+    "OS/Disk/canvas",
+    "OS/Disk/resources/RAID 1.png",
     "OS/Thread/무제 파일.canvas",
     "OS/Disk",
     "OS/Thread/사용자 수준 쓰레드(ULT).md",
@@ -203,12 +206,9 @@
     "Web/HttpSession/Connectionless.md",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Transaction/READ UNCOMMITTED의 Dirty Read.md",
-    "DB/Transaction/resources/read uncommitted 2.png",
     "DB/Transaction/READ COMMITTED 작동 방식.md",
     "DB/Transaction/READ UNCOMMITTED.md",
-    "DB/Transaction/resources/read uncommitted 1.png",
     "DB/Transaction/Non-Repeatable Read.md",
-    "DB/Transaction/resources/non-repeatable read 2.png",
     "DB/Transaction/READ COMMITTED.md",
     "DB/Transaction/MySQL Phantom Read.md",
     "DB/Transaction/Phantom Read.md",
@@ -219,8 +219,6 @@
     "DB/Transaction/MVCC.md",
     "ComputerStructure/JVM/canvas/무제 파일.canvas",
     "DB/Transaction/canvas_png",
-    "DB/Transaction/resources",
-    "DB/Transaction/canvas",
-    "DB/Transaction"
+    "DB/Transaction/resources"
   ]
 }
