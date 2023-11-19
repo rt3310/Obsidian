@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Thread/무제 파일.canvas",
+                "file": "OS/Disk/RAID.canvas",
                 "viewState": {
-                  "x": 900,
-                  "y": -294.07476070528946,
-                  "zoom": -1.5679034078954863
+                  "x": 581.143794667036,
+                  "y": -101.76277780488016,
+                  "zoom": -0.56
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Thread/무제 파일.canvas",
+                "file": "OS/Disk/RAID.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Thread/무제 파일.canvas",
+                "file": "OS/Disk/RAID.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Thread/무제 파일.canvas"
+                "file": "OS/Disk/RAID.canvas"
               }
             }
           }
@@ -166,6 +166,9 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
+    "OS/Thread/무제 파일.canvas",
+    "OS/Disk/RAID.canvas",
+    "OS/Disk",
     "OS/Thread/사용자 수준 쓰레드(ULT).md",
     "OS/Thread/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
     "OS/Thread/멀티 쓰레딩.md",
@@ -213,14 +216,11 @@
     "DB/Transaction/SERIALIZABLE.md",
     "DB/Transaction/REPEATABLE READ.md",
     "DB/Transaction/MVCC.md",
-    "DB/Transaction/canvas/무제 파일.md",
     "ComputerStructure/JVM/canvas/무제 파일.canvas",
     "DB/Transaction/canvas_png",
     "DB/Transaction/resources",
     "DB/Transaction/canvas",
     "DB/Transaction",
-    "무제 폴더 1",
-    "Network/무제 파일.canvas",
-    "OS/Thread/무제 파일.canvas"
+    "Network/무제 파일.canvas"
   ]
 }
