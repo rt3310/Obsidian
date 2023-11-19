@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Employment/roadmap/무제 파일.canvas",
+                "file": "OS/Thread/무제 파일.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 900,
+                  "y": -294.07476070528946,
+                  "zoom": -1.5679034078954863
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Employment/roadmap/무제 파일.canvas",
+                "file": "OS/Thread/무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Employment/roadmap/무제 파일.canvas",
+                "file": "OS/Thread/무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Employment/roadmap/무제 파일.canvas"
+                "file": "OS/Thread/무제 파일.canvas"
               }
             }
           }
@@ -166,8 +166,12 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
-    "Employment/roadmap/무제 파일.md",
+    "OS/Thread/사용자 수준 쓰레드(ULT).md",
+    "OS/Thread/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
+    "OS/Thread/멀티 쓰레딩.md",
+    "OS/Thread",
     "Employment/roadmap/무제 파일.canvas",
+    "Employment/roadmap/무제 파일.md",
     "Java/JVM/resources/Stop The World.png",
     "Java/JVM/resources/스택 영역 위치.png",
     "Java/JVM/resources/무제 파일.md",
@@ -215,11 +219,8 @@
     "DB/Transaction/resources",
     "DB/Transaction/canvas",
     "DB/Transaction",
-    "Java/JVM/네이티브 메소드 인터페이스(JNI).md",
-    "Java/JVM/네이티브 메소드 스택.md",
     "무제 폴더 1",
-    "DB",
     "Network/무제 파일.canvas",
-    "OS/무제 파일.canvas"
+    "OS/Thread/무제 파일.canvas"
   ]
 }
