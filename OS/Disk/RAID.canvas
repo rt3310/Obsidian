@@ -1,15 +1,19 @@
 {
 	"nodes":[
-		{"id":"410e092b9016c2e9","x":-172,"y":-353,"width":543,"height":88,"type":"text","text":"RAID(Redundant Array of Independent Disks)는 주로 하드 디스크와 SSD를 사용하는 기술로, 데이터의 안정성 혹은 높은 성능을 위해 여러 개의 물리적 보조기억장치를 마치 하나의 논리적 보조기억장치처럼 사용하는 기술이다."},
-		{"id":"b6387d47a0cfe8bc","x":-460,"y":-240,"width":127,"height":39,"type":"text","text":"# RAID"},
-		{"id":"f43664a3069d2226","x":-172,"y":-160,"width":335,"height":351,"type":"text","text":"RAID 구성 방법을 RAID 레벨이라 표현하는데 RAID 레벨에는 대표적으로 다음과 같다.\n- RAID 0\n- RAID 1\n- RAID 2\n- RAID 3\n- RAID 4\n- RAID 5\n- RAID 10\n- RAID 50\n현재 RAID 2, 3은 잘 활용되지 않는다."},
-		{"id":"623fadcf5bdefc58","x":421,"y":-208,"width":539,"height":247,"type":"text","text":"**RAID 0**은 **여러 개의 보조기억장치에 데이터를 단순히 나누어 저장하는 구성 방식**이다\n\n가령 1TB 하드 디스킅 네 개로 RAID 0을 구성했다고 가정해보자.\n이제 어떠한 데이터를 저장할 때 각 하드 디스크는 번갈아가며 데이터를 저장한다. 즉, 저장되는 데이터가 하드 디스크 개수만큼 나뉘어 저장되는 것이다.\n\n이때 마치 줄무늬처럼 분산되어 저장된 데이터를 스트라입이라 하고, 분산하여 저장하는 것을 스트라이핑이라고 한다."},
-		{"id":"cfe13fcdbe131222","x":1120,"y":-380,"width":457,"height":198,"type":"text","text":"데이터가 분산되어 저장되면, 다시 말해 스트라이핑되면 **저장된 데이터를 읽고 쓰는 속도가 빨라진다**.\n하나의 대용량 저장장치를 이용했더라면 여러 번에 걸쳐 읽고 썼을 데이터를 **동시에 읽고 쓸 수 있기 때문**이다.\n\n그렇기에 4TB 저장 장치 한 개를 읽고 쓰는 속도보다 RAID 0로 구성된 1TB 저장 장치 네 개의 속도가 이론상 네 배가량 빠르다."},
-		{"id":"88f0c3bb55466a53","x":421,"y":191,"width":417,"height":197,"type":"text","text":"RAID 1은 RAID 0의 단점을 보완하기 위해 등장했다.\n**RAID 1**은 **복사본을 만드는 방식**이다. 마치 거울처럼 완전한 복사본을 만드는 구성이기에 **미러링**이라고도 부른다.\n\nRAID 1에 어떠한 데이터를 쓸 때는 원본과 복사본 두 군데에 쓰기 때뭉네 쓰기 속도는 RAID 0보다 느리다."},
-		{"id":"5d52854b3e766bd4","x":1120,"y":-84,"width":449,"height":118,"type":"text","text":"그런데 RAID 0에는 단점이 있다.\n**저장된 정보가 안전하지 않다**는 것이다.\nRAID 0으로 구성된 하드 디스크 중에 하나에 문제가 생긴다면 다른 모든 하드 디스크의 정보를 읽는 데 문제가 생길 수 있다."},
-		{"id":"b27115302c504c5a","x":1040,"y":147,"width":405,"height":88,"type":"text","text":"RAID 1은 **복구가 매우 간단하다**는 장점이 있다.\n똑같은 디스크가 두 개 있는 셈이니, 하나에 문제가 발생해도 잃어버린 정보를 금방 되찾을 수 있기 때문이다."},
-		{"id":"54ba60ba8809a9c0","x":1034,"y":275,"width":535,"height":248,"type":"text","text":"하지만 RAID 1은 **하드 디스크 개수가 한정되었을 때 사용 가능한 용량이 적어지는 단점**이 있다.\n\n예를 들어, 1TB 하드 디스크 네 개로 구성했을 때 RAID 0은 4TB의 정보를 저장할 수 있는 반면, RAID 1에서는 2TB의 정보만 저장할 수 있다.\n즉, RAID 1에서는 복사본이 만들어지는 용량만큼 사용자가 사용하지 못한다.\n\n결국 **많은 양의 하드 디스크가 필요하게 되고, 비용이 증가한다**는 단점으로도 이어진다."},
-		{"id":"3d09d75f049ee846","x":417,"y":480,"width":421,"height":351,"type":"text","text":"**RAID 4**는 RAID 1처럼 완전한 복사본을 만드는 대신 **오류를 검출하고 복구하기 위한 정보를 저장한 장치를 두는 구성 방식**이다.\n이때 '오류를 검출하고 복구하기 위한 정보'를 패리티 비트"}
+		{"id":"410e092b9016c2e9","type":"text","text":"RAID(Redundant Array of Independent Disks)는 주로 하드 디스크와 SSD를 사용하는 기술로, 데이터의 안정성 혹은 높은 성능을 위해 여러 개의 물리적 보조기억장치를 마치 하나의 논리적 보조기억장치처럼 사용하는 기술이다.","x":-172,"y":-353,"width":543,"height":88},
+		{"id":"b6387d47a0cfe8bc","type":"text","text":"# RAID","x":-460,"y":-240,"width":127,"height":39},
+		{"id":"f43664a3069d2226","type":"text","text":"RAID 구성 방법을 RAID 레벨이라 표현하는데 RAID 레벨에는 대표적으로 다음과 같다.\n- RAID 0\n- RAID 1\n- RAID 2\n- RAID 3\n- RAID 4\n- RAID 5\n- RAID 10\n- RAID 50\n현재 RAID 2, 3은 잘 활용되지 않는다.","x":-172,"y":-160,"width":335,"height":351},
+		{"id":"cfe13fcdbe131222","type":"text","text":"데이터가 분산되어 저장되면, 다시 말해 스트라이핑되면 **저장된 데이터를 읽고 쓰는 속도가 빨라진다**.\n하나의 대용량 저장장치를 이용했더라면 여러 번에 걸쳐 읽고 썼을 데이터를 **동시에 읽고 쓸 수 있기 때문**이다.\n\n그렇기에 4TB 저장 장치 한 개를 읽고 쓰는 속도보다 RAID 0로 구성된 1TB 저장 장치 네 개의 속도가 이론상 네 배가량 빠르다.","x":1120,"y":-380,"width":457,"height":198},
+		{"id":"5d52854b3e766bd4","type":"text","text":"그런데 RAID 0에는 단점이 있다.\n**저장된 정보가 안전하지 않다**는 것이다.\nRAID 0으로 구성된 하드 디스크 중에 하나에 문제가 생긴다면 다른 모든 하드 디스크의 정보를 읽는 데 문제가 생길 수 있다.","x":1120,"y":-84,"width":449,"height":118},
+		{"id":"623fadcf5bdefc58","type":"text","text":"**RAID 0**은 **여러 개의 보조기억장치에 데이터를 단순히 나누어 저장하는 구성 방식**이다\n\n가령 1TB 하드 디스킅 네 개로 RAID 0을 구성했다고 가정해보자.\n이제 어떠한 데이터를 저장할 때 각 하드 디스크는 번갈아가며 데이터를 저장한다. 즉, 저장되는 데이터가 하드 디스크 개수만큼 나뉘어 저장되는 것이다.\n![[RAID 0.png]]\n이때 마치 줄무늬처럼 분산되어 저장된 데이터를 스트라입이라 하고, 분산하여 저장하는 것을 스트라이핑이라고 한다","x":397,"y":-403,"width":539,"height":486},
+		{"id":"88f0c3bb55466a53","type":"text","text":"RAID 1은 RAID 0의 단점을 보완하기 위해 등장했다.\n**RAID 1**은 **복사본을 만드는 방식**이다. 마치 거울처럼 완전한 복사본을 만드는 구성이기에 **미러링**이라고도 부른다.\n\n![[Pasted image 20231119155510.png]]\nRAID 1에 어떠한 데이터를 쓸 때는 원본과 복사본 두 군데에 쓰기 때문에 쓰기 속도는 RAID 0보다 느리다.","x":397,"y":106,"width":539,"height":429},
+		{"id":"54ba60ba8809a9c0","type":"text","text":"하지만 RAID 1은 **하드 디스크 개수가 한정되었을 때 사용 가능한 용량이 적어지는 단점**이 있다.\n\n예를 들어, 1TB 하드 디스크 네 개로 구성했을 때 RAID 0은 4TB의 정보를 저장할 수 있는 반면, RAID 1에서는 2TB의 정보만 저장할 수 있다.\n즉, RAID 1에서는 복사본이 만들어지는 용량만큼 사용자가 사용하지 못한다.\n\n결국 **많은 양의 하드 디스크가 필요하게 되고, 비용이 증가한다**는 단점으로도 이어진다.","x":1120,"y":287,"width":535,"height":248},
+		{"id":"b27115302c504c5a","type":"text","text":"RAID 1은 **복구가 매우 간단하다**는 장점이 있다.\n똑같은 디스크가 두 개 있는 셈이니, 하나에 문제가 발생해도 잃어버린 정보를 금방 되찾을 수 있기 때문이다.","x":1120,"y":106,"width":405,"height":88},
+		{"id":"9278f2bd5b01f471","x":-646,"y":360,"width":250,"height":60,"type":"text","text":""},
+		{"id":"9f848afb4943e990","type":"text","text":"**RAID 5**는 **패리티 정보를 분산하여 저장하는 방식**으로 RAID 4의 문제인 병목 현상을 해소한다\n\n![[Pasted image 20231119155558.png]]","x":-602,"y":740,"width":539,"height":372},
+		{"id":"3d09d75f049ee846","type":"text","text":"**RAID 4**는 RAID 1처럼 완전한 복사본을 만드는 대신 **오류를 검출하고 복구하기 위한 정보를 저장한 장치를 두는 구성 방식**이다.\n이때 '오류를 검출하고 복구하기 위한 정보'를 **패리티 비트(parity bit)** 라고 한다.\n\n![[Pasted image 20231119155543.png]]\nRAID 4에서는 패리티를 저장한 장치를 이용해 다른 장치들의 오류를 검출하고, 오류가 있다면 복구한다.\n\n이로써 RAID 4는 RAID 1보다 적은 하드디스크로도 데이터를 안전하게 보관할 수 있다.","x":60,"y":740,"width":539,"height":497},
+		{"id":"31a0fbe371026985","type":"text","text":"RAID 4는 어떤 새로운 데이터가 저장될 때마다 패리티를 저장하는 디스크에도 데이터를 쓰게되므로 **패리티를 저장하는 장치에 병목 현상이 발생한다**는 문제가 있다.","x":820,"y":1024,"width":407,"height":88},
+		{"id":"2ed92bec1756d8be","type":"text","text":"원래 패리티 비트는 오류 검출만 가능할 뿐 오류 복구는 불가능하다\n하지만 RAID에서는 패리티 값으로 오류 수정도 가능하다.\n- RAID 4에서는 패리티 저옵를 저장한 장치로써 나머지 장치들의 오류를 검출/복구한다.\n- 패리티 비트는 본래 오류 검출용 정보지만, RAID에서는 오류 복구도 가능하다.","x":820,"y":668,"width":632,"height":144,"color":"5"}
 	],
 	"edges":[
 		{"id":"490d8f4a5aa76474","fromNode":"b6387d47a0cfe8bc","fromSide":"right","toNode":"410e092b9016c2e9","toSide":"left","label":"RAID?"},
@@ -17,9 +21,13 @@
 		{"id":"0b5641d7202a9f60","fromNode":"f43664a3069d2226","fromSide":"right","toNode":"623fadcf5bdefc58","toSide":"left","label":"RAID 0?"},
 		{"id":"bc47df520dae50b7","fromNode":"623fadcf5bdefc58","fromSide":"right","toNode":"cfe13fcdbe131222","toSide":"left","label":"장점"},
 		{"id":"2d7b80fbedc86fdc","fromNode":"623fadcf5bdefc58","fromSide":"right","toNode":"5d52854b3e766bd4","toSide":"left","label":"단점"},
-		{"id":"08fab90e98eb7dc0","fromNode":"f43664a3069d2226","fromSide":"right","toNode":"88f0c3bb55466a53","toSide":"left","label":"RAID 1"},
+		{"id":"08fab90e98eb7dc0","fromNode":"f43664a3069d2226","fromSide":"right","toNode":"88f0c3bb55466a53","toSide":"left","label":"RAID 1?"},
 		{"id":"1375cd91575307ea","fromNode":"88f0c3bb55466a53","fromSide":"right","toNode":"b27115302c504c5a","toSide":"left","label":"장점"},
 		{"id":"67a0eb8a30ae6566","fromNode":"88f0c3bb55466a53","fromSide":"right","toNode":"54ba60ba8809a9c0","toSide":"left","label":"단점"},
-		{"id":"d1caff472111c93c","fromNode":"f43664a3069d2226","fromSide":"right","toNode":"3d09d75f049ee846","toSide":"left"}
+		{"id":"d1caff472111c93c","fromNode":"f43664a3069d2226","fromSide":"bottom","toNode":"3d09d75f049ee846","toSide":"top","label":"RAID 4?"},
+		{"id":"747109d06a3b2690","fromNode":"3d09d75f049ee846","fromSide":"right","toNode":"2ed92bec1756d8be","toSide":"left","label":"패리티 비트?"},
+		{"id":"0ff9605be501d514","fromNode":"3d09d75f049ee846","fromSide":"right","toNode":"31a0fbe371026985","toSide":"left","label":"단점"},
+		{"id":"a8d36203e977600a","fromNode":"f43664a3069d2226","fromSide":"bottom","toNode":"9f848afb4943e990","toSide":"top","label":"RAID 5?"},
+		{"id":"4e9fbc57496865ce","fromNode":"f43664a3069d2226","fromSide":"bottom","toNode":"9278f2bd5b01f471","toSide":"top"}
 	]
 }

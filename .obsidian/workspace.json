@@ -15,9 +15,9 @@
               "state": {
                 "file": "OS/Disk/RAID.canvas",
                 "viewState": {
-                  "x": 446.7788982031251,
-                  "y": -101.76277780488016,
-                  "zoom": -0.56
+                  "x": 325.6750995593178,
+                  "y": 625.6536015104432,
+                  "zoom": -0.8290694882060287
                 }
               }
             }
@@ -166,8 +166,12 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
-    "OS/Thread/무제 파일.canvas",
+    "Pasted image 20231119155558.png",
+    "Pasted image 20231119155543.png",
+    "Pasted image 20231119155510.png",
+    "RAID 0.png",
     "OS/Disk/RAID.canvas",
+    "OS/Thread/무제 파일.canvas",
     "OS/Disk",
     "OS/Thread/사용자 수준 쓰레드(ULT).md",
     "OS/Thread/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
@@ -205,9 +209,6 @@
     "DB/Transaction/resources/read uncommitted 1.png",
     "DB/Transaction/Non-Repeatable Read.md",
     "DB/Transaction/resources/non-repeatable read 2.png",
-    "DB/Transaction/resources/non-repeatable read 1.png",
-    "DB/Transaction/resources/read committed 1.png",
-    "DB/Transaction/resources/read committed 2.png",
     "DB/Transaction/READ COMMITTED.md",
     "DB/Transaction/MySQL Phantom Read.md",
     "DB/Transaction/Phantom Read.md",
@@ -220,7 +221,6 @@
     "DB/Transaction/canvas_png",
     "DB/Transaction/resources",
     "DB/Transaction/canvas",
-    "DB/Transaction",
-    "Network/무제 파일.canvas"
+    "DB/Transaction"
   ]
 }
