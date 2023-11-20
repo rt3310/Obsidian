@@ -30,9 +30,9 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 835.938555362327,
-                  "y": 1570.6245848358083,
-                  "zoom": 0.23608182228175972
+                  "x": 1507.303132931373,
+                  "y": 1458.7969774743246,
+                  "zoom": 1.1102230246251565e-16
                 }
               }
             }
@@ -181,13 +181,17 @@
   },
   "active": "3aad612b9421a7d3",
   "lastOpenFiles": [
+    "Java/JVM/canvas/JVM.canvas",
+    "Java/JVM/Eden.md",
+    "Java/JVM/Old 영역(Old Generation).md",
+    "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/Survivor 0, Survivor 1.md",
+    "Java/JVM/Permanent.md",
+    "Java/JVM/resources/permanent.png",
     "Java/JVM/resources/힙 영역 상세 2.png",
     "Java/JVM/resources/힙 영역 상세.png",
-    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/실행 엔진.md",
-    "Java/JVM/canvas/Old 영역(Old Generation).md",
-    "Java/JVM/canvas/Young 영역(Young Generation).md",
-    "Java/JVM/canvas/JVM.canvas",
+    "Java/JVM/Young 영역(Young Generation).md",
     "Java/JVM/resources/JVM 힙 영역.png",
     "Java/JVM/resources/가비지 컬렉션 동작 과정.png",
     "Java/JVM/GC의 Root Space.md",
@@ -212,8 +216,6 @@
     "Employment/roadmap/RoadMap.canvas",
     "OS/Disk/resources/RAID 5.png",
     "OS/Disk/resources/RAID 6.png",
-    "OS/Disk/resources/RAID 4.png",
-    "OS/Disk/resources/RAID 0.png",
     "OS/Disk/resources",
     "OS/Disk/canvas",
     "OS/Thread/무제 파일.canvas",
@@ -233,9 +235,6 @@
     "Web/HttpSession/canvas/Cookie & Session.canvas",
     "Web/HttpSession/Stateless.md",
     "Web/HttpSession/HttpSession 인증처리 방식.md",
-    "Web/HttpSession/Cookie vs Session.md",
-    "Web/HttpSession/Connectionless.md",
-    "DB/Transaction/READ UNCOMMITTED의 Dirty Read.md",
-    "DB/Transaction/READ COMMITTED 작동 방식.md"
+    "Web/HttpSession/Cookie vs Session.md"
   ]
 }
