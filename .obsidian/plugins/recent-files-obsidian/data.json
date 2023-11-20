@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "age 값",
-      "path": "Java/JVM/canvas/age 값.md"
-    },
-    {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "Major GC",
+      "path": "Java/JVM/canvas/Major GC.md"
+    },
+    {
+      "basename": "Major GC",
+      "path": "Java/JVM/resources/Major GC.png"
+    },
+    {
+      "basename": "Minor GC",
+      "path": "Java/JVM/canvas/Minor GC.md"
+    },
+    {
+      "basename": "age 값",
+      "path": "Java/JVM/canvas/age 값.md"
     },
     {
       "basename": "Minor GC 과정",
@@ -71,10 +83,6 @@
     {
       "basename": "minor gc 2",
       "path": "Java/JVM/resources/minor gc 2.png"
-    },
-    {
-      "basename": "Minor GC",
-      "path": "Java/JVM/canvas/Minor GC.md"
     },
     {
       "basename": "Minor GC",
@@ -191,14 +199,6 @@
     {
       "basename": "레지스터",
       "path": "ComputerStructure/Register/canvas/레지스터.canvas"
-    },
-    {
-      "basename": "RAID",
-      "path": "OS/Disk/canvas/RAID.canvas"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     }
   ],
   "omittedPaths": [],
