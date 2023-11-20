@@ -15,8 +15,8 @@
               "state": {
                 "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": -41.693728098017374,
-                  "y": -8.893144643579177,
+                  "x": 104.7875692063558,
+                  "y": -126.06580228380234,
                   "zoom": -0.3333333333333334
                 }
               }
@@ -165,6 +165,8 @@
   },
   "active": "bf67bd8dc35b1a22",
   "lastOpenFiles": [
+    "DB/Cache/canvas/캐시 쓰기 전략(Write Cache Strategy).md",
+    "DB/Cache/canvas/캐시 읽기 전략(Read Cache Strategy).md",
     "DB/Cache/canvas/무제 파일.md",
     "DB/Cache/canvas/Cache 전략.canvas",
     "Employment/roadmap/RoadMap.canvas",
@@ -211,7 +213,6 @@
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "Java/JVM/네이티브 메소드 라이브러리.md",
     "Java/JVM/가비지 컬렉터.html",
     "DB/Transaction/canvas/무제 파일.canvas",
     "OS/Disk/resources",

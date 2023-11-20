@@ -5,6 +5,14 @@
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
+      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
+      "path": "DB/Cache/canvas/캐시 쓰기 전략(Write Cache Strategy).md"
+    },
+    {
+      "basename": "캐시 읽기 전략(Read Cache Strategy)",
+      "path": "DB/Cache/canvas/캐시 읽기 전략(Read Cache Strategy).md"
+    },
+    {
       "basename": "RoadMap",
       "path": "Employment/roadmap/RoadMap.canvas"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "minor gc 7",
       "path": "Java/JVM/resources/minor gc 7.png"
-    },
-    {
-      "basename": "minor gc 6",
-      "path": "Java/JVM/resources/minor gc 6.png"
     }
   ],
   "omittedPaths": [],
