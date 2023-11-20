@@ -11,9 +11,13 @@
 		{"id":"0a057899f7e06bde","type":"file","file":"Java/JVM/Mark And Sweep.md","x":537,"y":-140,"width":600,"height":1020},
 		{"id":"82c370f33ddb3268","type":"file","file":"Java/JVM/GC의 Root Space.md","x":1262,"y":280,"width":941,"height":543,"color":"5"},
 		{"id":"952469617b567d2a","type":"text","text":"![[가비지 컬렉션 동작 과정.png]]","x":-560,"y":-167,"width":972,"height":719},
-		{"id":"0f96237946786ba0","type":"text","text":"JVM의 힙(heap) 영역은 동적으로 레퍼런스 데이터가 저장되는 공간으로서, 가비지 컬렉션에 대상이 되는 공간이다.\n\nHeap 영역은 처음 설계될 때 다음 2가지를 전제(Weak Generational Hypothesis)로 설계되었다.\n- 대부분의 객체는 금방 접근 불가능한 상태(Unreachable)가 된다.\n- 오래된 객체에서 새로운 객체로의 참조는 아주 적게 존재한다.\n\n즉, **객체는 대부분 일회성되며, 메모리에 오랫동안 남아있는 경우는 드물다**는 것이다.\n\n이러한 특성을 이용해 JVM 개발자들은 보다 효율적인 메모리 관리를 위해, 객체의 생존 기간에 따라 물리적인 Heap 영역을 나누게 되었고 **Young과 Old 총 2가지 영역**으로 설계하였다. (초기에는 Perm 영역도 존재하였지만 Java 8부터 제거되었다)\n\n![[JVM 힙 영역.png]]","x":-560,"y":823,"width":934,"height":640},
+		{"id":"0f96237946786ba0","type":"text","text":" JVM의 힙(heap) 영역은 동적으로 레퍼런스 데이터가 저장되는 공간으로서, 가비지 컬렉션에 대상이 되는 공간이다.\n\nHeap 영역은 처음 설계될 때 다음 2가지를 전제(Weak Generational Hypothesis)로 설계되었다.\n- 대부분의 객체는 금방 접근 불가능한 상태(Unreachable)가 된다.\n- 오래된 객체에서 새로운 객체로의 참조는 아주 적게 존재한다.\n\n즉, **객체는 대부분 일회성되며, 메모리에 오랫동안 남아있는 경우는 드물다**는 것이다.\n\n이러한 특성을 이용해 JVM 개발자들은 보다 효율적인 메모리 관리를 위해, 객체의 생존 기간에 따라 물리적인 Heap 영역을 나누게 되었고 **Young과 Old 총 2가지 영역**으로 설계하였다. (초기에는 Perm 영역도 존재하였지만 Java 8부터 제거되었다)\n\n![[JVM 힙 영역.png]]\n\n![[힙 영역 상세 2.png]]\n이렇게 하나의 힙 영역을 세부적으로 쪼갬으로서 객체의 생존 기간을 면밀하게 제어하여 GC를 보다 정확하게 불필요한 객체를 제거하는 프로세스를 실행하도록 한다.","x":-560,"y":823,"width":934,"height":1018},
 		{"id":"d9c683ba6bbf53b2","type":"file","file":"Java/JVM/canvas/Young 영역(Young Generation).md","x":620,"y":940,"width":765,"height":205},
-		{"id":"4ba13ee733bc919c","type":"file","file":"Java/JVM/canvas/Old 영역(Old Generation).md","x":620,"y":1240,"width":665,"height":171}
+		{"id":"4ba13ee733bc919c","type":"file","file":"Java/JVM/canvas/Old 영역(Old Generation).md","x":620,"y":1240,"width":665,"height":171},
+		{"id":"774dd808b323cc4a","type":"text","text":"- new를 통해 새로 생성된 객체가 위치한다.\n- 정기적인 쓰레기 수집 후 살아남은 객체들은 survivor 영역으로 보낸다.","x":1620,"y":908,"width":534,"height":64},
+		{"id":"ec8c38efddc58ab8","type":"text","text":"- 최소 1번의 GC 이상 살아남은 객체가 존재하는 영역\n- Survivor 영역에는 Survivor 0 또는 Survivor 1 둘 중 하나는 꼭 비어 있어야 한다는 특별한 규칙이 있다.","x":1620,"y":1098,"width":423,"height":94},
+		{"id":"4d831604295edca7","type":"text","text":"> [!INFO]\n> Old 영역이 Young 영역보다 크게 할당되는 이유는 Young 영역의 수명이 짧은 객체들은 큰 공간을 필요로 하지 않으며 큰 객체들은 Young 영역이 아니라 바로 Old 영역에 할당되기 때문이다.","x":-439,"y":1940,"width":693,"height":154,"color":"5"},
+		{"id":"abc4943c2bd90bba","x":587,"y":1606,"width":933,"height":334,"type":"text","text":"Permanent는 직역하면 영구적인 세대의 의미로서, 생성된 객체들의 정보의 주소 값이 저장된 공간이다.\n\n클래스 로더에 의해 load되는 Class, Method 등에 대한 Meta 정보가 저장되는 영역이고 JVM에 의해 사용된다."}
 	],
 	"edges":[
 		{"id":"5c1b1ca3881906d8","fromNode":"6ceb7188b6505ed9","fromSide":"right","toNode":"118349ead357f16c","toSide":"left","label":"가비지 컬렉션?"},
@@ -27,7 +31,11 @@
 		{"id":"c8a375b2e38bea18","fromNode":"1b5caf9a31100229","fromSide":"right","toNode":"45e3b0d99d0b9709","toSide":"left"},
 		{"id":"061a7a369a299768","fromNode":"118349ead357f16c","fromSide":"bottom","toNode":"952469617b567d2a","toSide":"top"},
 		{"id":"a6fe89f441fa607b","fromNode":"952469617b567d2a","fromSide":"bottom","toNode":"0f96237946786ba0","toSide":"top","label":"힙 영역"},
-		{"id":"060ad270327dba8c","fromNode":"0f96237946786ba0","fromSide":"right","toNode":"d9c683ba6bbf53b2","toSide":"left","label":"Young 영역"},
-		{"id":"140dbaf3982df51e","fromNode":"0f96237946786ba0","fromSide":"right","toNode":"4ba13ee733bc919c","toSide":"left","label":"Old 영역"}
+		{"id":"060ad270327dba8c","fromNode":"0f96237946786ba0","fromSide":"right","toNode":"d9c683ba6bbf53b2","toSide":"left","label":"Young 영역?"},
+		{"id":"140dbaf3982df51e","fromNode":"0f96237946786ba0","fromSide":"right","toNode":"4ba13ee733bc919c","toSide":"left","label":"Old 영역?"},
+		{"id":"4df5b745b316d537","fromNode":"0f96237946786ba0","fromSide":"bottom","toNode":"4d831604295edca7","toSide":"top"},
+		{"id":"9e12a6d16db79d2b","fromNode":"d9c683ba6bbf53b2","fromSide":"right","toNode":"774dd808b323cc4a","toSide":"left","label":"Eden?"},
+		{"id":"0444b17b487f2f77","fromNode":"d9c683ba6bbf53b2","fromSide":"right","toNode":"ec8c38efddc58ab8","toSide":"left","label":"survivor 0, 1?"},
+		{"id":"80f543514ec3dbfe","fromNode":"0f96237946786ba0","fromSide":"right","toNode":"abc4943c2bd90bba","toSide":"left"}
 	]
 }

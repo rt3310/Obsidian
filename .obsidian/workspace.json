@@ -30,9 +30,9 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 995.4771477311708,
-                  "y": 1200.4889884800098,
-                  "zoom": 0.2580265875261493
+                  "x": 835.938555362327,
+                  "y": 1570.6245848358083,
+                  "zoom": 0.23608182228175972
                 }
               }
             }
@@ -181,8 +181,10 @@
   },
   "active": "3aad612b9421a7d3",
   "lastOpenFiles": [
-    "Java/JVM/실행 엔진.md",
+    "Java/JVM/resources/힙 영역 상세 2.png",
+    "Java/JVM/resources/힙 영역 상세.png",
     "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/실행 엔진.md",
     "Java/JVM/canvas/Old 영역(Old Generation).md",
     "Java/JVM/canvas/Young 영역(Young Generation).md",
     "Java/JVM/canvas/JVM.canvas",
@@ -214,7 +216,6 @@
     "OS/Disk/resources/RAID 0.png",
     "OS/Disk/resources",
     "OS/Disk/canvas",
-    "OS/Disk/resources/RAID 1.png",
     "OS/Thread/무제 파일.canvas",
     "OS/Disk",
     "OS/Thread/사용자 수준 쓰레드(ULT).md",
@@ -235,7 +236,6 @@
     "Web/HttpSession/Cookie vs Session.md",
     "Web/HttpSession/Connectionless.md",
     "DB/Transaction/READ UNCOMMITTED의 Dirty Read.md",
-    "DB/Transaction/READ COMMITTED 작동 방식.md",
-    "DB/Transaction/READ UNCOMMITTED.md"
+    "DB/Transaction/READ COMMITTED 작동 방식.md"
   ]
 }

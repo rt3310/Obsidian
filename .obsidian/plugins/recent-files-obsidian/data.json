@@ -5,6 +5,14 @@
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
+      "basename": "힙 영역 상세 2",
+      "path": "Java/JVM/resources/힙 영역 상세 2.png"
+    },
+    {
+      "basename": "힙 영역 상세",
+      "path": "Java/JVM/resources/힙 영역 상세.png"
+    },
+    {
       "basename": "Young 영역(Young Generation)",
       "path": "Java/JVM/canvas/Young 영역(Young Generation).md"
     },
