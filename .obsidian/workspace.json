@@ -30,9 +30,9 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 2251.303132931373,
-                  "y": 2770.2969774743246,
-                  "zoom": 1.1102230246251565e-16
+                  "x": 3453.0129253382725,
+                  "y": 1195.672666203934,
+                  "zoom": -0.2622798925894027
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "Java/JVM/canvas/age 값.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "Java/JVM/canvas/age 값.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas"
+                "file": "Java/JVM/canvas/age 값.md"
               }
             }
           }
@@ -181,25 +181,27 @@
   },
   "active": "3aad612b9421a7d3",
   "lastOpenFiles": [
-    "Pasted image 20231120135839.png",
-    "Pasted image 20231120135816.png",
-    "Pasted image 20231120135751.png",
-    "Pasted image 20231120135722.png",
-    "Pasted image 20231120133458.png",
-    "Pasted image 20231120133413.png",
-    "Java/JVM/resources/Minor GC.png",
+    "Java/JVM/canvas/age 값.md",
+    "Java/JVM/resources/minor gc 1.png",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/JVM.canvas",
+    "Java/JVM/resources/minor gc 14.gif",
+    "Java/JVM/resources/minor gc 13.png",
+    "Java/JVM/resources/minor gc 11.png",
+    "Java/JVM/resources/minor gc 12.png",
+    "Java/JVM/resources/minor gc 10.png",
+    "Java/JVM/resources/minor gc 9.png",
+    "Java/JVM/resources/minor gc 8.png",
+    "Java/JVM/resources/minor gc 7.png",
+    "Java/JVM/resources/minor gc 6.png",
+    "Java/JVM/canvas/Minor GC 과정.md",
+    "Java/JVM/canvas/Minor GC.md",
     "Java/JVM/Eden.md",
     "Java/JVM/Old 영역(Old Generation).md",
     "Java/JVM/Survivor 0, Survivor 1.md",
     "Java/JVM/Permanent.md",
-    "Java/JVM/resources/permanent.png",
-    "Java/JVM/resources/힙 영역 상세 2.png",
-    "Java/JVM/resources/힙 영역 상세.png",
     "Java/JVM/실행 엔진.md",
     "Java/JVM/Young 영역(Young Generation).md",
-    "Java/JVM/resources/JVM 힙 영역.png",
     "Java/JVM/GC의 Root Space.md",
     "Java/JVM/Mark And Sweep.md",
     "Java/JVM/가비지 컬렉터.md",
@@ -234,8 +236,6 @@
     "ComputerStructure/Register/canvas",
     "ComputerStructure/Register/무제 파일.md",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
-    "Web/HttpSession/Stateless.md",
-    "Web/HttpSession/HttpSession 인증처리 방식.md",
-    "Web/HttpSession/Cookie vs Session.md"
+    "Web/HttpSession/Stateless.md"
   ]
 }

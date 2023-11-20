@@ -1,8 +1,80 @@
 {
   "recentFiles": [
     {
+      "basename": "age 값",
+      "path": "Java/JVM/canvas/age 값.md"
+    },
+    {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "Minor GC 과정",
+      "path": "Java/JVM/canvas/Minor GC 과정.md"
+    },
+    {
+      "basename": "minor gc 1",
+      "path": "Java/JVM/resources/minor gc 1.png"
+    },
+    {
+      "basename": "JVM",
+      "path": "Java/JVM/canvas/JVM.canvas"
+    },
+    {
+      "basename": "minor gc 14",
+      "path": "Java/JVM/resources/minor gc 14.gif"
+    },
+    {
+      "basename": "minor gc 13",
+      "path": "Java/JVM/resources/minor gc 13.png"
+    },
+    {
+      "basename": "minor gc 11",
+      "path": "Java/JVM/resources/minor gc 11.png"
+    },
+    {
+      "basename": "minor gc 12",
+      "path": "Java/JVM/resources/minor gc 12.png"
+    },
+    {
+      "basename": "minor gc 10",
+      "path": "Java/JVM/resources/minor gc 10.png"
+    },
+    {
+      "basename": "minor gc 9",
+      "path": "Java/JVM/resources/minor gc 9.png"
+    },
+    {
+      "basename": "minor gc 8",
+      "path": "Java/JVM/resources/minor gc 8.png"
+    },
+    {
+      "basename": "minor gc 7",
+      "path": "Java/JVM/resources/minor gc 7.png"
+    },
+    {
+      "basename": "minor gc 6",
+      "path": "Java/JVM/resources/minor gc 6.png"
+    },
+    {
+      "basename": "minor gc 5",
+      "path": "Java/JVM/resources/minor gc 5.png"
+    },
+    {
+      "basename": "minor gc 4",
+      "path": "Java/JVM/resources/minor gc 4.png"
+    },
+    {
+      "basename": "minor gc 3",
+      "path": "Java/JVM/resources/minor gc 3.png"
+    },
+    {
+      "basename": "minor gc 2",
+      "path": "Java/JVM/resources/minor gc 2.png"
+    },
+    {
+      "basename": "Minor GC",
+      "path": "Java/JVM/canvas/Minor GC.md"
     },
     {
       "basename": "Minor GC",
@@ -15,10 +87,6 @@
     {
       "basename": "Permanent",
       "path": "Java/JVM/Permanent.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "Java/JVM/canvas/JVM.canvas"
     },
     {
       "basename": "Eden",
@@ -131,14 +199,6 @@
     {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "REPEATABLE READ 작동 방식",
-      "path": "DB/Transaction/REPEATABLE READ 작동 방식.md"
-    },
-    {
-      "basename": "네이티브 메소드 라이브러리",
-      "path": "Java/JVM/네이티브 메소드 라이브러리.md"
     }
   ],
   "omittedPaths": [],
