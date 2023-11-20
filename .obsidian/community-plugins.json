@@ -23,9 +23,10 @@
   "better-word-count",
   "obsidian-hover-editor",
   "obsidian-itinerary",
-  "file-tree-alternative",
   "templater-obsidian",
   "obsidian-outliner",
   "dataview",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "recent-files-obsidian",
+  "cm-editor-syntax-highlight-obsidian"
 ]

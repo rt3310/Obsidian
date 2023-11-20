@@ -1,0 +1,31 @@
+{
+  "recentFiles": [
+    {
+      "basename": "STW(Stop The World)",
+      "path": "Java/JVM/STW(Stop The World).md"
+    },
+    {
+      "basename": "Stop The World",
+      "path": "Java/JVM/resources/Stop The World.png"
+    },
+    {
+      "basename": "Garbage Collector",
+      "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "JVM",
+      "path": "Java/JVM/canvas/JVM.canvas"
+    },
+    {
+      "basename": "가비지 컬렉터",
+      "path": "Java/JVM/가비지 컬렉터.md"
+    },
+    {
+      "basename": "네이티브 메소드 라이브러리",
+      "path": "Java/JVM/네이티브 메소드 라이브러리.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}
