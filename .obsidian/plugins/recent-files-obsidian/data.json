@@ -1,36 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Garbage Collector",
+      "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
       "basename": "CMS GC",
-      "path": "CMS GC.png"
+      "path": "Java/JVM/resources/CMS GC.png"
     },
     {
       "basename": "G1 GC",
-      "path": "G1 GC.png"
+      "path": "Java/JVM/resources/G1 GC.png"
     },
     {
       "basename": "Serial GC",
-      "path": "Serial GC.png"
+      "path": "Java/JVM/resources/Serial GC.png"
     },
     {
       "basename": "Parallel GC",
-      "path": "Parallel GC.png"
+      "path": "Java/JVM/resources/Parallel GC.png"
     },
     {
       "basename": "G1 GC Not Heap",
-      "path": "G1 GC Not Heap.png"
+      "path": "Java/JVM/resources/G1 GC Not Heap.png"
     },
     {
       "basename": "Shenandoah GC",
-      "path": "Shenandoah GC.png"
+      "path": "Java/JVM/resources/Shenandoah GC.png"
     },
     {
       "basename": "Shenandoah GC",
       "path": "Java/JVM/Shenandoah GC.md"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
       "basename": "JVM",
@@ -38,11 +38,11 @@
     },
     {
       "basename": "ZGC",
-      "path": "ZGC.png"
+      "path": "Java/JVM/resources/ZGC.png"
     },
     {
       "basename": "Parallel Compacting Collector",
-      "path": "Parallel Compacting Collector.png"
+      "path": "Java/JVM/resources/Parallel Compacting Collector.png"
     },
     {
       "basename": "Permanent",

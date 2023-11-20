@@ -15,25 +15,14 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 103.90792572385536,
-                  "y": 3861.8753831469357,
-                  "zoom": -1.0011719058439377
+                  "x": 709.3806431299629,
+                  "y": 1346.010178143723,
+                  "zoom": -2.334505239177271
                 }
               }
             }
-          },
-          {
-            "id": "6bed2bc29d99b3ff",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "CMS GC.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMS GC.png",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMS GC.png",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMS GC.png"
+                "file": "Java/JVM/canvas/Garbage Collector.canvas"
               }
             }
           }
@@ -174,19 +163,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "bf67bd8dc35b1a22",
   "lastOpenFiles": [
-    "G1 GC.png",
-    "Serial GC.png",
-    "Parallel GC.png",
-    "G1 GC Not Heap.png",
-    "Shenandoah GC.png",
+    "Java/JVM/resources/CMS GC.png",
+    "Java/JVM/resources/G1 GC.png",
+    "Java/JVM/resources/Serial GC.png",
+    "Java/JVM/resources/Parallel GC.png",
+    "Java/JVM/resources/G1 GC Not Heap.png",
+    "Java/JVM/resources/Shenandoah GC.png",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/Shenandoah GC.md",
     "Java/JVM/canvas/JVM.canvas",
-    "ZGC.png",
-    "CMS GC.png",
-    "Parallel Compacting Collector.png",
+    "Java/JVM/resources/ZGC.png",
+    "Java/JVM/resources/Parallel Compacting Collector.png",
     "Java/JVM/ZGC.md",
     "Java/JVM/G1 GC의 효율성.md",
     "Java/JVM/Pasted image 20231120144302.png] ![[Pasted image 20231120144351.png.md",
