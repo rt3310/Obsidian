@@ -1,10 +1,9 @@
 {
 	"nodes":[
-		{"id":"67bc1c16843b636d","x":1427,"y":3460,"width":1093,"height":620,"type":"file","file":"Java/JVM/canvas/ZGC.md"},
 		{"id":"118349ead357f16c","type":"text","text":"가비지 컬렉션(Garbage Collection, GC)은 자바의 메모리 관리 방법 중 하나로 **JVM의 Heap 영역에서 동적으로 할당했던 메모리 중 필요 없게 된 메모리 객체(garbage)를 모아 주기적으로 제거하는 프로세스**를 말한다.","x":460,"y":-397,"width":754,"height":58},
 		{"id":"6ceb7188b6505ed9","type":"text","text":"# Garbage Collector","x":-161,"y":-388,"width":305,"height":41},
 		{"id":"1e0368a6ba106e7e","type":"file","file":"Java/JVM/G1 GC.md","x":-960,"y":3560,"width":720,"height":962},
-		{"id":"288ad78baa324a23","x":-765,"y":4680,"width":331,"height":45,"type":"text","text":"```bash\njava -XX:+UseG1GC -jar Application.java\n```"},
+		{"id":"288ad78baa324a23","type":"text","text":"```bash\njava -XX:+UseG1GC -jar Application.java\n```","x":-765,"y":4680,"width":331,"height":45},
 		{"id":"531468359f520a87","type":"text","text":"C / C++ 에서는 이러한 가비지 컬렉션이 없어 프로그래머가 수동으로 메모리 할당과 해제를 일일이 해줘야 했었다.\n하지만 Java에서는 가비지 컬렉터가 메모리 관리를 대행해주기 때문에 Java 프로세스가 한정된 메모리를 효율적으로 사용할 수 있게 하고, **개발자 입장에서 메모리 관리, 메모리 누수(Memory Leak) 문제에 대해 관리하지 않아도 되어 개발에 집중할 수 있다는 장점**이 있다.","x":-172,"y":-825,"width":632,"height":148},
 		{"id":"69cdcbccc610b342","type":"text","text":"자동으로 처리해준다 해도 메모리가 언제 해제되는지 정확하게 알 수 없어 제어하기 힘들며, **가비지 컬렉션(GC)이 동작하는 동안에는 다른 동작을 멈추기 때문에 오버헤드가 발생되는 문제점**이 있다.\n\n이를 전문적인 용어로 **Stop-The-World**라 한다.\n\n이로 인해 **GC가 너무 자주 실행되면 소프트웨어 성능 하락의 문제**가 되기도 한다.\n예를 들면, IE는 이 가비지 컬렉션을 너무 자주 실행하여 성능 문제를 일으키는 것으로 악명이 높았다.\n\n이런 특성에 따라 실시간 성이 매우 강조되는 프로그램일 경우 GC에게 메모리를 맡기는 것은 맞지 않을 수 있다.\n따라서 애플리케이션 사용성을 유지하면서 효율적이게 GC를 실행하는 최적화 작업이 개발자의 숙제가 된다\n이러한 GC 최적화 작업을 **GC 튜닝**이라고 한다.","x":600,"y":-969,"width":757,"height":292},
 		{"id":"8881f9c1ea063717","type":"file","file":"Java/JVM/STW(Stop The World).md","x":1733,"y":-897,"width":569,"height":145},
@@ -29,7 +28,7 @@
 		{"id":"4d831604295edca7","type":"text","text":"> [!INFO]\n> Old 영역이 Young 영역보다 크게 할당되는 이유는 Young 영역의 수명이 짧은 객체들은 큰 공간을 필요로 하지 않으며 큰 객체들은 Young 영역이 아니라 바로 Old 영역에 할당되기 때문이다.","x":-1120,"y":343,"width":693,"height":154,"color":"5"},
 		{"id":"2babe5149a409fef","type":"file","file":"Java/JVM/CMS GC.md","x":-1840,"y":3143,"width":720,"height":637},
 		{"id":"36c555f8c06b5ad5","type":"text","text":"```bash\njava -XX:+UseConcMarkSweepGC -jar Application.java\n```","x":-2591,"y":3535,"width":420,"height":50},
-		{"id":"19c7eeaa383ba015","x":325,"y":4360,"width":390,"height":45,"type":"text","text":"```bash\njava -XX:+UseShenandoahGC -jar Application.java\n```"},
+		{"id":"19c7eeaa383ba015","type":"text","text":"```bash\njava -XX:+UseShenandoahGC -jar Application.java\n```","x":325,"y":4360,"width":390,"height":45},
 		{"id":"c6dcf1c2923caecf","type":"text","text":"자바가 발전됨에 따라 Heap의 사이즈가 커지면서 애플리케이션의 지연(Suspend) 현상이 두드러지게 되었고, 이를 최적화 위해 다양한 Garbage Collection(가비지 컬렉션) 알고리즘이 개발되었다.\n\n![[가비지 컬렉션 알고리즘 종류.png]]\n- Serial GC\n- Parallel GC\n- CMS GC\n- G1 GC\n- Shenandoah GC\n- ZGC","x":-240,"y":2460,"width":680,"height":693},
 		{"id":"943f775efc3be0da","type":"file","file":"Java/JVM/Serial GC.md","x":-1400,"y":1367,"width":720,"height":955},
 		{"id":"b97b8f73ba95e15d","type":"text","text":"- 자바 프로그램을 실행할 때 `-XX:+UseSerialGC` GC 옵션을 지정하여 해당 가비지 컬렉션 알고리즘으로 힙 메모리를 관리하도록 실행할 수 있다.\n```bash\njava -XX:+UseSerialGC -jar Application.java\n```","x":-2348,"y":1781,"width":538,"height":128},
@@ -38,7 +37,10 @@
 		{"id":"95beea70802f32f7","type":"text","text":"- Parallel GC를 개선한 버전\n- Young 영역 뿐만 아니라, Old 영역에서도 멀티스레드로 GC 수행\n- 새로운 가비지 컬렉션 청소 방식인 Mark-Summary-Compact 방식을 이용 (Old 영역도 멀티스레드로 처리)\n![[Pasted image 20231120143338.png]]","x":-2689,"y":2460,"width":733,"height":637},
 		{"id":"8381dc318175fabe","type":"text","text":"```bash\njava -XX:+UseParallelOldGC -jar Application.java\n```\n- `-XX:ParallelGCThreads=N`: 사용할 스레드의 개수","x":-2520,"y":3364,"width":395,"height":98},
 		{"id":"691a6bdfddd8f8c6","type":"file","file":"Java/JVM/G1 GC의 효율성.md","x":-2171,"y":3994,"width":904,"height":359,"color":"5"},
-		{"id":"c363ba9d5a80ae53","x":-160,"y":3680,"width":1360,"height":540,"type":"file","file":"Java/JVM/canvas/Shenandoah GC.md"}
+		{"id":"c363ba9d5a80ae53","type":"file","file":"Java/JVM/canvas/Shenandoah GC.md","x":-160,"y":3680,"width":1360,"height":540},
+		{"id":"67bc1c16843b636d","type":"file","file":"Java/JVM/canvas/ZGC.md","x":1332,"y":3462,"width":933,"height":807},
+		{"id":"44c9aa4333ac0f9b","x":1519,"y":4477,"width":560,"height":45,"type":"text","text":"```bash\njava -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -jar Application.java\n```"},
+		{"id":"84a73595c4c4c115","x":-2460,"y":764,"width":760,"height":148,"type":"text","text":"최근 Java 8에서 JVM 메모리 구조적인 개선 사항으로 Perm 영역이 Metaspace 영역으로 전환되고 기존 Perm 영역을 사라지게 되었다.\nMetaspace 영역은 Heap이 아닌 **Native 메모리 영역으로 취급**하게 된다.\n(Heap 영역은 JVM에 의해 관리된 영역이며, **Native 메모리는 OS 레벨에서 관리하는 영역**으로 구분된다)\nMetaspace가 Native 메모리를 이용함으로서 개발자는 영역 확보의 상한을 크게 의식할 필요가 없어지게 되었다."}
 	],
 	"edges":[
 		{"id":"5c1b1ca3881906d8","fromNode":"6ceb7188b6505ed9","fromSide":"right","toNode":"118349ead357f16c","toSide":"left","label":"가비지 컬렉션?"},
@@ -78,6 +80,8 @@
 		{"id":"3f415916eb18f224","fromNode":"1e0368a6ba106e7e","fromSide":"bottom","toNode":"288ad78baa324a23","toSide":"top","label":"G1 GC 실행 명령어"},
 		{"id":"96fae91c2986b33c","fromNode":"c6dcf1c2923caecf","fromSide":"bottom","toNode":"c363ba9d5a80ae53","toSide":"top","label":"Shenandoah GC?"},
 		{"id":"154efe99d82636a9","fromNode":"c363ba9d5a80ae53","fromSide":"bottom","toNode":"19c7eeaa383ba015","toSide":"top","label":"Shenandoah GC 실행 명령어"},
-		{"id":"e766dd58dbb1273a","fromNode":"c6dcf1c2923caecf","fromSide":"bottom","toNode":"67bc1c16843b636d","toSide":"top"}
+		{"id":"e766dd58dbb1273a","fromNode":"c6dcf1c2923caecf","fromSide":"bottom","toNode":"67bc1c16843b636d","toSide":"top","label":"ZGC?"},
+		{"id":"57cdd0ba3b56c7a5","fromNode":"67bc1c16843b636d","fromSide":"bottom","toNode":"44c9aa4333ac0f9b","toSide":"top","label":"ZGC 실행 명령어"},
+		{"id":"d654fcb8b79c59e1","fromNode":"73e8cd2dc87531e2","fromSide":"left","toNode":"84a73595c4c4c115","toSide":"right","label":"왜 제거되었는가?"}
 	]
 }

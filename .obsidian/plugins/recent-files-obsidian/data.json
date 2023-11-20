@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "ZGC",
-      "path": "Java/JVM/canvas/ZGC.md"
-    },
-    {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "Permanent",
+      "path": "Java/JVM/Permanent.md"
+    },
+    {
+      "basename": "ZGC",
+      "path": "Java/JVM/canvas/ZGC.md"
     },
     {
       "basename": "Shenandoah GC",
@@ -27,10 +31,6 @@
     {
       "basename": "CMS GC",
       "path": "Java/JVM/CMS GC.md"
-    },
-    {
-      "basename": "Permanent",
-      "path": "Java/JVM/Permanent.md"
     },
     {
       "basename": "age 값",
