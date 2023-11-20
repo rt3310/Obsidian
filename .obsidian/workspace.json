@@ -15,9 +15,9 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": -1867.059073890853,
-                  "y": 4233.8182057994,
-                  "zoom": -0.3333333333333332
+                  "x": 1539.118197933861,
+                  "y": 3583.33365545241,
+                  "zoom": -1.1102230246251565e-16
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "Java/JVM/canvas/ZGC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "Java/JVM/canvas/ZGC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas"
+                "file": "Java/JVM/canvas/ZGC.md"
               }
             }
           }
@@ -165,6 +165,10 @@
   },
   "active": "bf67bd8dc35b1a22",
   "lastOpenFiles": [
+    "Java/JVM/canvas/ZGC.md",
+    "Java/JVM/canvas/Shenandoah GC.md",
+    "Pasted image 20231120145224.png",
+    "Java/JVM/G1 GC의 효율성.md",
     "Java/JVM/Pasted image 20231120144302.png] ![[Pasted image 20231120144351.png.md",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/Major GC.md",
@@ -182,7 +186,6 @@
     "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
     "Java/JVM/resources/major gc 3.gif",
     "Java/JVM/resources/major gc 2.png",
-    "Java/JVM/resources/major gc 1.png",
     "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/Minor GC 과정.md",
     "Java/JVM/Minor GC.md",
@@ -207,13 +210,11 @@
     "DB/Transaction/canvas/무제 파일.canvas",
     "DB/Transaction/READ COMMITTED.md",
     "DB/Transaction/Phantom Read.md",
-    "DB/Transaction/Non-Repeatable Read.md",
     "Employment/roadmap/RoadMap.canvas",
     "OS/Disk/resources",
     "OS/Disk/canvas",
     "OS/Thread/무제 파일.canvas",
     "OS/Disk",
-    "OS/Thread/사용자 수준 쓰레드(ULT).md",
     "OS/Thread",
     "Employment/roadmap",
     "Employment",

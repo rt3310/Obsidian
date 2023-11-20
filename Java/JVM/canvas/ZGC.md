@@ -1,0 +1,2 @@
+- Java 15에 release
+- 대량의 메모리(8MB ~ 16TB)를 low-latency로 잘 처리하기 위해 ㄷ
