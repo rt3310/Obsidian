@@ -10,13 +10,13 @@
 		{"id":"d2a9ddeec67aa424","type":"file","file":"DB/Transaction/Phantom Read.md","x":2280,"y":-960,"width":880,"height":3010},
 		{"id":"859dbc88d79efbaa","type":"file","file":"DB/Transaction/MySQL Phantom Read.md","x":3480,"y":-960,"width":929,"height":2347},
 		{"id":"c03e762b8b9ce420","type":"text","text":"# 트랜잭션 내에서 SELECT vs 없이 SELECT\nREPEATABLE READ에서는 트랜잭션 번호를 바탕으로 실제 테이블 데이터와 언두 영역의 데이터 등을 비교하며 어떤 데이터를 조회할 지 판단한다. 즉, 트랜잭션 안에서 실행되는 SELECT 라면 항상 일관된 데이터를 조회하게 된다.\n하지만 트랜잭션 없이 실행된다면, 데이터의 정합성이 깨지는 상황이 생길 수 있다.\n\n커밋된 데이터만을 보여주는 READ COMMITTED 수준에서는 둘의 차이가 거의 없다.","x":3760,"y":1640,"width":593,"height":229,"color":"5"},
-		{"id":"5963306d0a3fcc90","type":"file","file":"DB/Transaction/READ COMMITTED.md","x":258,"y":-200,"width":506,"height":146},
+		{"id":"5963306d0a3fcc90","type":"file","file":"DB/Transaction/READ COMMITTED.md","x":258,"y":-200,"width":506,"height":175},
 		{"id":"c60cd8af68e59e5b","type":"file","file":"DB/Transaction/READ COMMITTED 작동 방식.md","x":141,"y":100,"width":740,"height":1326},
 		{"id":"63e30ca8e3ae6fff","type":"file","file":"DB/Transaction/Non-Repeatable Read.md","x":141,"y":1600,"width":740,"height":1414},
 		{"id":"299e28e22db03d3c","type":"file","file":"DB/Transaction/READ UNCOMMITTED의 Dirty Read.md","x":-620,"y":100,"width":672,"height":1346},
-		{"id":"8a354b978516fed9","type":"file","file":"DB/Transaction/READ UNCOMMITTED.md","x":-620,"y":-185,"width":672,"height":116},
+		{"id":"8a354b978516fed9","type":"file","file":"DB/Transaction/READ UNCOMMITTED.md","x":-620,"y":-185,"width":644,"height":145},
 		{"id":"3e0701bc6a8cbd11","type":"file","file":"DB/Transaction/MVCC.md","x":1191,"y":-800,"width":603,"height":346},
-		{"id":"73ab70cc7220a78d","x":-943,"y":-1340,"width":995,"height":354,"type":"text","text":"READ UNCOMMITTED는 부정합 문제가 지나치게 발생하고, SERIALIZABLE은 도잇성이 상당히 떨어지므로 READ COMMITED 또는 REPEATABLE READ를 사용하면 된다. 참고로 오라클에서는 READ COMMITED를 기본으로 사용하며, MySQL에서는 REPEATABLE READ를 기본으로 사용한다.\n\n||Dirty Read|Non-Repeatable Read|Phantom Read|\n|-|-|-|-|\n|READ UNCOMMITTED|발생|발생|발생|\n|READ COMMITTED|없음|발생|발생|\n|REPEATABLE READ|없음|없음|발생(MySQL은 거의 없음)|\n|SERIALIZABLE|없음|없음|없음|\n\n격리 수준이 높아질수록 MySQL 서버의 처리 성능이 많이 떨어질 것으로 생각하는데, 사실 SERIALIZABLE이 아니라면 크게 성능 개선 및 저하는 발생하지 않는다. 그 이유는 결국 언두 로그를 통해 레코드를 참조하는 과정이 거의 동일하기 때문이다. 따라서 MySQL은 갭락을 통해 Phantom Read까지 거의 발생하지 않고, READ COMMITTED 보다는 동시 처리 성능은 뛰어난 REPEATABLE READ를 사용한다.\n"}
+		{"id":"73ab70cc7220a78d","type":"text","text":"READ UNCOMMITTED는 부정합 문제가 지나치게 발생하고, SERIALIZABLE은 도잇성이 상당히 떨어지므로 READ COMMITED 또는 REPEATABLE READ를 사용하면 된다. 참고로 오라클에서는 READ COMMITED를 기본으로 사용하며, MySQL에서는 REPEATABLE READ를 기본으로 사용한다.\n\n||Dirty Read|Non-Repeatable Read|Phantom Read|\n|-|-|-|-|\n|READ UNCOMMITTED|발생|발생|발생|\n|READ COMMITTED|없음|발생|발생|\n|REPEATABLE READ|없음|없음|발생(MySQL은 거의 없음)|\n|SERIALIZABLE|없음|없음|없음|\n\n격리 수준이 높아질수록 MySQL 서버의 처리 성능이 많이 떨어질 것으로 생각하는데, 사실 SERIALIZABLE이 아니라면 크게 성능 개선 및 저하는 발생하지 않는다. 그 이유는 결국 언두 로그를 통해 레코드를 참조하는 과정이 거의 동일하기 때문이다. 따라서 MySQL은 갭락을 통해 Phantom Read까지 거의 발생하지 않고, READ COMMITTED 보다는 동시 처리 성능은 뛰어난 REPEATABLE READ를 사용한다.\n","x":-943,"y":-1340,"width":995,"height":354}
 	],
 	"edges":[
 		{"id":"024717a02585fb07","fromNode":"dcbb3435d83bc9d2","fromSide":"top","toNode":"c50d0668cf011443","toSide":"bottom","label":"트랜잭션 격리 수준?"},

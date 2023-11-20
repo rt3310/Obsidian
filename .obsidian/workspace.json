@@ -15,8 +15,8 @@
               "state": {
                 "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "viewState": {
-                  "x": 587.0432396099931,
-                  "y": 311.69214811276834,
+                  "x": 82.37554048722363,
+                  "y": 5.894046859268201,
                   "zoom": -0.14747840820349178
                 }
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/READ COMMITTED 작동 방식.md",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/READ COMMITTED 작동 방식.md",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/READ COMMITTED 작동 방식.md"
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
               }
             }
           }
