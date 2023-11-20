@@ -5,6 +5,10 @@
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
+      "basename": "mark and sweep",
+      "path": "Java/JVM/resources/mark and sweep.png"
+    },
+    {
       "basename": "STW(Stop The World)",
       "path": "Java/JVM/STW(Stop The World).md"
     },
