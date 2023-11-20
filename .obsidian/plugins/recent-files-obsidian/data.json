@@ -9,6 +9,14 @@
       "path": "Java/JVM/canvas/Serial GC.md"
     },
     {
+      "basename": "CMS GC",
+      "path": "Java/JVM/canvas/CMS GC.md"
+    },
+    {
+      "basename": "Parallel GC",
+      "path": "Java/JVM/canvas/Parallel GC.md"
+    },
+    {
       "basename": "Old 영역(Old Generation)",
       "path": "Java/JVM/Old 영역(Old Generation).md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "네이티브 메소드 스택",
       "path": "Java/JVM/네이티브 메소드 스택.md"
-    },
-    {
-      "basename": "Excel 2023-11-20 10.37.25.sheet",
-      "path": "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md"
-    },
-    {
-      "basename": "NTP 서버",
-      "path": "ComputerStructure/Clock/NTP 서버.md"
     }
   ],
   "omittedPaths": [],

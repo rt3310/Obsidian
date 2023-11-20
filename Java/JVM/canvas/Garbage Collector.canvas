@@ -25,9 +25,14 @@
 		{"id":"d9fdc6c7e5e864cd","type":"file","file":"Java/JVM/canvas/Minor GC 과정.md","x":2600,"y":280,"width":580,"height":2477},
 		{"id":"4ba13ee733bc919c","type":"file","file":"Java/JVM/Old 영역(Old Generation).md","x":620,"y":1500,"width":665,"height":171},
 		{"id":"c6dcf1c2923caecf","type":"text","text":"자바가 발전됨에 따라 Heap의 사이즈가 커지면서 애플리케이션의 지연(Suspend) 현상이 두드러지게 되었고, 이를 최적화 위해 다양한 Garbage Collection(가비지 컬렉션) 알고리즘이 개발되었다.\n\n![[가비지 컬렉션 알고리즘 종류.png]]\n- Serial GC\n- Parallel GC\n- CMS GC\n- G1 GC\n- Shenandoah GC\n- ZGC","x":-754,"y":2548,"width":680,"height":693},
-		{"id":"943f775efc3be0da","x":-1920,"y":1617,"width":720,"height":955,"type":"file","file":"Java/JVM/canvas/Serial GC.md"},
-		{"id":"30d4cc7137aa5740","x":-1980,"y":2779,"width":766,"height":501,"type":"text","text":""},
-		{"id":"b97b8f73ba95e15d","x":-3280,"y":1985,"width":538,"height":295,"type":"text","text":"- 자바 프로그램을 실행할 때 `-XX:+UseSerialGC` GC 옵션을 지정하여 해당 가비지 컬렉션 알고리즘으로 힙 메모리를 관리하도록 실행할 수 있다.\n```shell\njava -XX:+UseSerialGC -jar Application.java\n```"}
+		{"id":"b746fed2b9fe60f4","x":-1920,"y":2644,"width":720,"height":574,"type":"file","file":"Java/JVM/canvas/Parallel GC.md"},
+		{"id":"95beea70802f32f7","x":-3086,"y":2840,"width":733,"height":637,"type":"text","text":"- Parallel GC를 개선한 버전\n- Young 영역 뿐만 아니라, Old 영역에서도 멀티스레드로 GC 수행\n- 새로운 가비지 컬렉션 청소 방식인 Mark-Summary-Compact 방식을 이용 (Old 영역도 멀티스레드로 처리)\n![[Pasted image 20231120143338.png]]"},
+		{"id":"3d62e7f4fcc3f8ad","x":-3048,"y":2579,"width":695,"height":184,"type":"text","text":"- GC 스레드는 기본적으로 cpu 개수만큼 할당된다.\n- 옵션을 통해 GC를 수행할 쓰레드의 개수 등을 설정해줄 수 있다.\n```bash\njava -XX:+UseParallelGC - jar Application.java\n```\n- `-XX:ParallelGCThreads=N`: 사용할 스레드의 개수"},
+		{"id":"2babe5149a409fef","x":-1920,"y":3351,"width":720,"height":637,"type":"file","file":"Java/JVM/canvas/CMS GC.md"},
+		{"id":"943f775efc3be0da","x":-1920,"y":1540,"width":720,"height":955,"type":"file","file":"Java/JVM/canvas/Serial GC.md"},
+		{"id":"b97b8f73ba95e15d","x":-2891,"y":1953,"width":538,"height":128,"type":"text","text":"- 자바 프로그램을 실행할 때 `-XX:+UseSerialGC` GC 옵션을 지정하여 해당 가비지 컬렉션 알고리즘으로 힙 메모리를 관리하도록 실행할 수 있다.\n```bash\njava -XX:+UseSerialGC -jar Application.java\n```"},
+		{"id":"8381dc318175fabe","x":-3086,"y":3572,"width":733,"height":98,"type":"text","text":"```bash\njava -XX:+UseParallelOldGC -jar Application.java\n```\n- `-XX:ParallelGCThreads=N`: 사용할 스레드의 개수"},
+		{"id":"36c555f8c06b5ad5","x":-3020,"y":3780,"width":719,"height":139,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"5c1b1ca3881906d8","fromNode":"6ceb7188b6505ed9","fromSide":"right","toNode":"118349ead357f16c","toSide":"left","label":"가비지 컬렉션?"},
@@ -55,7 +60,12 @@
 		{"id":"ff813f88cd867a53","fromNode":"f441caa1dc637730","fromSide":"bottom","toNode":"c5eb38208cce15b2","toSide":"top","label":"Major GC의 성능 문제"},
 		{"id":"61dec93d0969b044","fromNode":"c5eb38208cce15b2","fromSide":"left","toNode":"c6dcf1c2923caecf","toSide":"right","label":"가비지 컬렉션 알고리즘 종류"},
 		{"id":"6b80e61879c81d10","fromNode":"c6dcf1c2923caecf","fromSide":"left","toNode":"943f775efc3be0da","toSide":"right","label":"Serial GC?"},
-		{"id":"f94864ab7e6a8ddb","fromNode":"c6dcf1c2923caecf","fromSide":"left","toNode":"30d4cc7137aa5740","toSide":"right"},
-		{"id":"cff32c96f7313c82","fromNode":"943f775efc3be0da","fromSide":"left","toNode":"b97b8f73ba95e15d","toSide":"right","label":"Serial GC 실행 명령어"}
+		{"id":"f94864ab7e6a8ddb","fromNode":"c6dcf1c2923caecf","fromSide":"left","toNode":"b746fed2b9fe60f4","toSide":"right","label":"Parallel GC?"},
+		{"id":"cff32c96f7313c82","fromNode":"943f775efc3be0da","fromSide":"left","toNode":"b97b8f73ba95e15d","toSide":"right","label":"Serial GC 실행 명령어"},
+		{"id":"15d088ccbca7e136","fromNode":"b746fed2b9fe60f4","fromSide":"left","toNode":"3d62e7f4fcc3f8ad","toSide":"right","label":"Parallel GC 실행 명령어"},
+		{"id":"21f01d786e900d0f","fromNode":"b746fed2b9fe60f4","fromSide":"left","toNode":"95beea70802f32f7","toSide":"right","label":"Parallel Old GC\n(Parallel Compacting Collector)"},
+		{"id":"fc8f5b0ec5764088","fromNode":"95beea70802f32f7","fromSide":"bottom","toNode":"8381dc318175fabe","toSide":"top","label":"Parallel Old GC 실행 명령어"},
+		{"id":"a55fc6826f842837","fromNode":"c6dcf1c2923caecf","fromSide":"left","toNode":"2babe5149a409fef","toSide":"right","label":"CMS GC?\n(Concurrent Mark Sweep)"},
+		{"id":"0a29dc7e7076eedc","fromNode":"2babe5149a409fef","fromSide":"left","toNode":"36c555f8c06b5ad5","toSide":"right","label":"CMS GC 실행 명령어"}
 	]
 }

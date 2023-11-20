@@ -15,9 +15,9 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": -2933.1914959536102,
-                  "y": 2121.561916597233,
-                  "zoom": 0.73677489517965
+                  "x": -2528.279901332481,
+                  "y": 3651.63346942698,
+                  "zoom": -0.26322510482034994
                 }
               }
             }
@@ -165,6 +165,11 @@
   },
   "active": "d849b1eb4ca3799c",
   "lastOpenFiles": [
+    "Java/JVM/canvas/CMS GC.md",
+    "Pasted image 20231120143743.png",
+    "Pasted image 20231120143338.png",
+    "Java/JVM/canvas/Parallel GC.md",
+    "Pasted image 20231120143020.png",
     "Java/JVM/canvas/Serial GC.md",
     "Pasted image 20231120142610.png",
     "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
@@ -177,9 +182,6 @@
     "Java/JVM/canvas/age 값.md",
     "Java/JVM/resources/minor gc 1.png",
     "Java/JVM/canvas/JVM.canvas",
-    "Java/JVM/resources/minor gc 14.gif",
-    "Java/JVM/resources/minor gc 13.png",
-    "Java/JVM/resources/minor gc 11.png",
     "Java/JVM/canvas/Minor GC 과정.md",
     "Java/JVM/canvas/Minor GC.md",
     "Java/JVM/Eden.md",
@@ -214,9 +216,7 @@
     "OS/Thread/멀티 쓰레딩.md",
     "OS/Thread",
     "Employment/roadmap/무제 파일.md",
-    "Java/JVM/resources/무제 파일.md",
     "Employment/roadmap",
-    "Employment/무제 파일.md",
     "Employment",
     "Java",
     "ComputerStructure/Register/canvas",
