@@ -19,7 +19,7 @@
 		{"id":"73e8cd2dc87531e2","type":"file","file":"Java/JVM/Permanent.md","x":-1600,"y":853,"width":933,"height":593,"color":"5"},
 		{"id":"4ba13ee733bc919c","type":"file","file":"Java/JVM/Old 영역(Old Generation).md","x":620,"y":1670,"width":665,"height":171},
 		{"id":"597a09e9c9d349f7","type":"text","text":"Young Generation 영역은 **짧게 살아남는 메모리들이 존재하는 공간**이다\n\n![[Minor GC.png]]\n모든 객체는 처음에는 Young Generation에 생성되게 된다.\nYoung Generation의 공간은 **Old Generation에 비해 상대적으로 작기 때문에 메모리 상의 객체를 찾아 제거하는데 적은 시간이 걸린다**.\n\n이 때문에 **Young Generation 영역에서 발생되는 GC**를 **Minor GC**라 불린다.","x":1620,"y":1260,"width":649,"height":510},
-		{"id":"56711534c4fcba1e","x":2380,"y":1230,"width":580,"height":470,"type":"text","text":"1. 처음 생성된 객체는 Young Generation 영역의 일부인 Eden 영역에 위치\n   ![[Pasted image 20231120133413.png]]\n   ![[Pasted image 20231120133458.png]]\n2. 객체가 계속 생성되어 Eden 영역이 꽉차게 되고 Minor GC가 실행"}
+		{"id":"56711534c4fcba1e","type":"text","text":"1. 처음 생성된 객체는 Young Generation 영역의 일부인 Eden 영역에 위치\n   ![[Pasted image 20231120133413.png]]\n   ![[Pasted image 20231120133458.png]]\n2. 객체가 계속 생성되어 Eden 영역이 꽉차게 되고 Minor GC가 실행\n   ![[Pasted image 20231120135722.png]]\n3. Mark 동작을 통해 reachable 객체를 탐색\n   ![[Pasted image 20231120135751.png]]\n4. Eden 영역에서 살아남은 객체는 1개의 Survivor 영역으로 이동\n   ![[Pasted image 20231120135816.png]]\n5. Eden 영역에서 사용되지 않는 객체(unreachable)의 메모리를 해제(sweep)\n   ![[Pasted image 20231120135839.png]]\n6. 살아남은 모","x":2380,"y":1230,"width":580,"height":1930}
 	],
 	"edges":[
 		{"id":"5c1b1ca3881906d8","fromNode":"6ceb7188b6505ed9","fromSide":"right","toNode":"118349ead357f16c","toSide":"left","label":"가비지 컬렉션?"},

@@ -31,7 +31,7 @@
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
                   "x": 2251.303132931373,
-                  "y": 1365.7969774743246,
+                  "y": 2770.2969774743246,
                   "zoom": 1.1102230246251565e-16
                 }
               }
@@ -181,6 +181,10 @@
   },
   "active": "3aad612b9421a7d3",
   "lastOpenFiles": [
+    "Pasted image 20231120135839.png",
+    "Pasted image 20231120135816.png",
+    "Pasted image 20231120135751.png",
+    "Pasted image 20231120135722.png",
     "Pasted image 20231120133458.png",
     "Pasted image 20231120133413.png",
     "Java/JVM/resources/Minor GC.png",
@@ -196,12 +200,8 @@
     "Java/JVM/실행 엔진.md",
     "Java/JVM/Young 영역(Young Generation).md",
     "Java/JVM/resources/JVM 힙 영역.png",
-    "Java/JVM/resources/가비지 컬렉션 동작 과정.png",
     "Java/JVM/GC의 Root Space.md",
-    "Java/JVM/resources/root space.png",
     "Java/JVM/Mark And Sweep.md",
-    "Java/JVM/resources/mark and sweep gif.gif",
-    "Java/JVM/resources/mark and sweep.png",
     "Java/JVM/가비지 컬렉터.md",
     "Java/JVM/네이티브 메소드 스택.md",
     "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
