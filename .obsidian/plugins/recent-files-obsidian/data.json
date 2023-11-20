@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "가비지 컬렉터",
+      "path": "Java/JVM/가비지 컬렉터.md"
+    },
+    {
+      "basename": "네이티브 메소드 스택",
+      "path": "Java/JVM/네이티브 메소드 스택.md"
+    },
+    {
+      "basename": "Excel 2023-11-20 10.37.25.sheet",
+      "path": "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md"
+    },
+    {
+      "basename": "NTP 서버",
+      "path": "ComputerStructure/Clock/NTP 서버.md"
+    },
+    {
+      "basename": "컴퓨터 시간 원리",
+      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "NTP",
+      "path": "ComputerStructure/Clock/NTP.md"
+    },
+    {
+      "basename": "RTC",
+      "path": "ComputerStructure/Clock/RTC.md"
+    },
+    {
+      "basename": "ZonedDateTime",
+      "path": "ComputerStructure/Clock/ZonedDateTime.md"
+    },
+    {
+      "basename": "레지스터",
+      "path": "ComputerStructure/Register/canvas/레지스터.canvas"
+    },
+    {
+      "basename": "RAID",
+      "path": "OS/Disk/canvas/RAID.canvas"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "REPEATABLE READ 작동 방식",
+      "path": "DB/Transaction/REPEATABLE READ 작동 방식.md"
+    },
+    {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
@@ -15,10 +63,6 @@
     {
       "basename": "JVM",
       "path": "Java/JVM/canvas/JVM.canvas"
-    },
-    {
-      "basename": "가비지 컬렉터",
-      "path": "Java/JVM/가비지 컬렉터.md"
     },
     {
       "basename": "네이티브 메소드 라이브러리",

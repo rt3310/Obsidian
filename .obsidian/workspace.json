@@ -4,31 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "ff979e650874f705",
-        "type": "tabs",
-        "dimension": 80.7741116751269,
-        "children": [
-          {
-            "id": "61f77dc4914331f8",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
-                "viewState": {
-                  "x": 1043.7516061496995,
-                  "y": -719.4890801930354,
-                  "zoom": -0.4617418227635827
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "65c3c16b9167f05b",
         "type": "tabs",
-        "dimension": 19.225888324873097,
         "children": [
           {
             "id": "473fac1bffc5c8df",
@@ -37,8 +14,21 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "520bcd88faa9005c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/JVM/가비지 컬렉터.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "Java/JVM/가비지 컬렉터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "Java/JVM/가비지 컬렉터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas"
+                "file": "Java/JVM/가비지 컬렉터.md"
               }
             }
           }
@@ -171,20 +161,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "61f77dc4914331f8",
+  "active": "520bcd88faa9005c",
   "lastOpenFiles": [
-    "Java/JVM/canvas/JVM.canvas",
+    "Java/JVM/네이티브 메소드 스택.md",
+    "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
+    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+    "ComputerStructure/Clock/canvas",
+    "ComputerStructure/Register/canvas/레지스터.canvas",
+    "OS/Disk/canvas/RAID.canvas",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/가비지 컬렉터.md",
     "Java/JVM/네이티브 메소드 라이브러리.md",
     "Java/JVM/가비지 컬렉터.html",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Transaction/canvas/무제 파일.canvas",
     "DB/Transaction/READ COMMITTED.md",
     "DB/Transaction/Phantom Read.md",
     "DB/Transaction/Non-Repeatable Read.md",
     "Employment/roadmap/RoadMap.canvas",
-    "OS/Disk/canvas/RAID.canvas",
     "OS/Disk/resources/RAID 5.png",
     "OS/Disk/resources/RAID 6.png",
     "OS/Disk/resources/RAID 4.png",
@@ -205,14 +200,12 @@
     "Employment/roadmap",
     "Employment/무제 파일.md",
     "Employment",
-    "ComputerStructure/Register/canvas/레지스터.canvas",
     "Java",
     "ComputerStructure/Register/resources/x86-64 Register.png",
     "ComputerStructure/Register/canvas",
     "ComputerStructure/Register/무제 파일.md",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
     "Web/HttpSession/resources/Cookie.png",
-    "Web/HttpSession/canvas/HttpSession.canvas",
     "Web/HttpSession/Stateless.md",
     "Web/HttpSession/HttpSession 인증처리 방식.md",
     "Web/HttpSession/Cookie vs Session.md",
@@ -224,8 +217,6 @@
     "DB/Transaction/REPEATABLE READ 작동 방식.md",
     "DB/Transaction/SERIALIZABLE 작동 방식.md",
     "DB/Transaction/SERIALIZABLE.md",
-    "DB/Transaction/REPEATABLE READ.md",
-    "DB/Transaction/MVCC.md",
-    "DB/Transaction/canvas_png"
+    "DB/Transaction/REPEATABLE READ.md"
   ]
 }
