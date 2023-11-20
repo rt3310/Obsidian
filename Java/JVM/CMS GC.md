@@ -4,4 +4,4 @@
 - **메모리 파편화 문제**
 - CMS GC는 **Java 9 버전부터 deprecated** 되었고 결국 **Java 14에서는 사용이 중지**
 
-![[Pasted image 20231120143743.png]]
+![[CMS GC.png]]

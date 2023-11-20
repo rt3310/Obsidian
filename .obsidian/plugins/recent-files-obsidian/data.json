@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "CMS GC",
+      "path": "CMS GC.png"
+    },
+    {
+      "basename": "G1 GC",
+      "path": "G1 GC.png"
+    },
+    {
+      "basename": "Serial GC",
+      "path": "Serial GC.png"
+    },
+    {
+      "basename": "Parallel GC",
+      "path": "Parallel GC.png"
+    },
+    {
+      "basename": "G1 GC Not Heap",
+      "path": "G1 GC Not Heap.png"
+    },
+    {
+      "basename": "Shenandoah GC",
+      "path": "Shenandoah GC.png"
+    },
+    {
+      "basename": "Shenandoah GC",
+      "path": "Java/JVM/Shenandoah GC.md"
+    },
+    {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "JVM",
+      "path": "Java/JVM/canvas/JVM.canvas"
+    },
+    {
+      "basename": "ZGC",
+      "path": "ZGC.png"
+    },
+    {
+      "basename": "Parallel Compacting Collector",
+      "path": "Parallel Compacting Collector.png"
     },
     {
       "basename": "Permanent",
@@ -10,11 +50,7 @@
     },
     {
       "basename": "ZGC",
-      "path": "Java/JVM/canvas/ZGC.md"
-    },
-    {
-      "basename": "Shenandoah GC",
-      "path": "Java/JVM/canvas/Shenandoah GC.md"
+      "path": "Java/JVM/ZGC.md"
     },
     {
       "basename": "G1 GC의 효율성",
@@ -117,10 +153,6 @@
       "path": "Java/JVM/resources/minor gc 1.png"
     },
     {
-      "basename": "JVM",
-      "path": "Java/JVM/canvas/JVM.canvas"
-    },
-    {
       "basename": "minor gc 14",
       "path": "Java/JVM/resources/minor gc 14.gif"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "minor gc 3",
       "path": "Java/JVM/resources/minor gc 3.png"
-    },
-    {
-      "basename": "minor gc 2",
-      "path": "Java/JVM/resources/minor gc 2.png"
-    },
-    {
-      "basename": "permanent",
-      "path": "Java/JVM/resources/permanent.png"
-    },
-    {
-      "basename": "힙 영역 상세 2",
-      "path": "Java/JVM/resources/힙 영역 상세 2.png"
-    },
-    {
-      "basename": "힙 영역 상세",
-      "path": "Java/JVM/resources/힙 영역 상세.png"
-    },
-    {
-      "basename": "실행 엔진",
-      "path": "Java/JVM/실행 엔진.md"
-    },
-    {
-      "basename": "JVM 힙 영역",
-      "path": "Java/JVM/resources/JVM 힙 영역.png"
-    },
-    {
-      "basename": "가비지 컬렉션 동작 과정",
-      "path": "Java/JVM/resources/가비지 컬렉션 동작 과정.png"
-    },
-    {
-      "basename": "root space",
-      "path": "Java/JVM/resources/root space.png"
     }
   ],
   "omittedPaths": [],

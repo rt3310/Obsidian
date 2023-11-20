@@ -5,5 +5,5 @@
 	- 전체 Heap 영역을 Region이라는 영역으로 **체스같이 분할아여 상황에 따라 Eden, Survivor, Old 등 역할을 고정이 아닌 동적으로 부여**
 - Garbage로 가득찬 영역을 빠르게 회수하여 빈 공간을 확보하므로, 결국 GC 빈도가 줄어드는 효과를 얻게 되는 원리
 
-![[Pasted image 20231120144302.png]]
- ![[Pasted image 20231120144351.png]]
+![[G1 GC Not Heap.png]]
+ ![[G1 GC.png]]

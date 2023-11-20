@@ -34,13 +34,13 @@
 		{"id":"b97b8f73ba95e15d","type":"text","text":"- 자바 프로그램을 실행할 때 `-XX:+UseSerialGC` GC 옵션을 지정하여 해당 가비지 컬렉션 알고리즘으로 힙 메모리를 관리하도록 실행할 수 있다.\n```bash\njava -XX:+UseSerialGC -jar Application.java\n```","x":-2348,"y":1781,"width":538,"height":128},
 		{"id":"b746fed2b9fe60f4","type":"file","file":"Java/JVM/Parallel GC.md","x":-1400,"y":2400,"width":720,"height":574},
 		{"id":"3d62e7f4fcc3f8ad","type":"text","text":"- GC 스레드는 기본적으로 cpu 개수만큼 할당된다.\n- 옵션을 통해 GC를 수행할 쓰레드의 개수 등을 설정해줄 수 있다.\n```bash\njava -XX:+UseParallelGC - jar Application.java\n```\n- `-XX:ParallelGCThreads=N`: 사용할 스레드의 개수","x":-2323,"y":2138,"width":489,"height":184},
-		{"id":"95beea70802f32f7","type":"text","text":"- Parallel GC를 개선한 버전\n- Young 영역 뿐만 아니라, Old 영역에서도 멀티스레드로 GC 수행\n- 새로운 가비지 컬렉션 청소 방식인 Mark-Summary-Compact 방식을 이용 (Old 영역도 멀티스레드로 처리)\n![[Pasted image 20231120143338.png]]","x":-2689,"y":2460,"width":733,"height":637},
+		{"id":"95beea70802f32f7","type":"text","text":"- Parallel GC를 개선한 버전\n- Young 영역 뿐만 아니라, Old 영역에서도 멀티스레드로 GC 수행\n- 새로운 가비지 컬렉션 청소 방식인 Mark-Summary-Compact 방식을 이용 (Old 영역도 멀티스레드로 처리)\n![[Parallel Compacting Collector.png]]","x":-2689,"y":2460,"width":733,"height":637},
 		{"id":"8381dc318175fabe","type":"text","text":"```bash\njava -XX:+UseParallelOldGC -jar Application.java\n```\n- `-XX:ParallelGCThreads=N`: 사용할 스레드의 개수","x":-2520,"y":3364,"width":395,"height":98},
 		{"id":"691a6bdfddd8f8c6","type":"file","file":"Java/JVM/G1 GC의 효율성.md","x":-2171,"y":3994,"width":904,"height":359,"color":"5"},
-		{"id":"c363ba9d5a80ae53","type":"file","file":"Java/JVM/canvas/Shenandoah GC.md","x":-160,"y":3680,"width":1360,"height":540},
-		{"id":"67bc1c16843b636d","type":"file","file":"Java/JVM/canvas/ZGC.md","x":1332,"y":3462,"width":933,"height":807},
-		{"id":"44c9aa4333ac0f9b","x":1519,"y":4477,"width":560,"height":45,"type":"text","text":"```bash\njava -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -jar Application.java\n```"},
-		{"id":"84a73595c4c4c115","x":-2460,"y":764,"width":760,"height":148,"type":"text","text":"최근 Java 8에서 JVM 메모리 구조적인 개선 사항으로 Perm 영역이 Metaspace 영역으로 전환되고 기존 Perm 영역을 사라지게 되었다.\nMetaspace 영역은 Heap이 아닌 **Native 메모리 영역으로 취급**하게 된다.\n(Heap 영역은 JVM에 의해 관리된 영역이며, **Native 메모리는 OS 레벨에서 관리하는 영역**으로 구분된다)\nMetaspace가 Native 메모리를 이용함으로서 개발자는 영역 확보의 상한을 크게 의식할 필요가 없어지게 되었다."}
+		{"id":"c363ba9d5a80ae53","type":"file","file":"Java/JVM/Shenandoah GC.md","x":-160,"y":3680,"width":1360,"height":540},
+		{"id":"67bc1c16843b636d","type":"file","file":"Java/JVM/ZGC.md","x":1332,"y":3462,"width":933,"height":807},
+		{"id":"44c9aa4333ac0f9b","type":"text","text":"```bash\njava -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -jar Application.java\n```","x":1519,"y":4477,"width":560,"height":45},
+		{"id":"84a73595c4c4c115","type":"text","text":"최근 Java 8에서 JVM 메모리 구조적인 개선 사항으로 Perm 영역이 Metaspace 영역으로 전환되고 기존 Perm 영역을 사라지게 되었다.\nMetaspace 영역은 Heap이 아닌 **Native 메모리 영역으로 취급**하게 된다.\n(Heap 영역은 JVM에 의해 관리된 영역이며, **Native 메모리는 OS 레벨에서 관리하는 영역**으로 구분된다)\nMetaspace가 Native 메모리를 이용함으로서 개발자는 영역 확보의 상한을 크게 의식할 필요가 없어지게 되었다.","x":-2400,"y":838,"width":760,"height":148}
 	],
 	"edges":[
 		{"id":"5c1b1ca3881906d8","fromNode":"6ceb7188b6505ed9","fromSide":"right","toNode":"118349ead357f16c","toSide":"left","label":"가비지 컬렉션?"},

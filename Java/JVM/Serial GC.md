@@ -3,4 +3,4 @@
 - Minor GC에는 **Mark-Sweep**을 사용하고, Major GC에는 **Mark-Sweep-Compact**를 사용한다.
 - 보통 실무에서 사용하는 경우는 없다. (디바이스 성능이 안좋아서 CPU 코어가 1개인 경우에만 사용)
 
-![[Pasted image 20231120142610.png]]
+![[Serial GC.png]]
