@@ -2,8 +2,8 @@
   "accentColor": "",
   "theme": "obsidian",
   "cssTheme": "Things",
-  "interfaceFontFamily": "Apple SD Gothic Neo",
-  "textFontFamily": "Apple SD Gothic Neo",
-  "monospaceFontFamily": "Apple SD Gothic Neo",
+  "interfaceFontFamily": "Apple SD Gothic Neo,AppleSDGothicNeoR00",
+  "textFontFamily": "Apple SD Gothic Neo,AppleSDGothicNeoR00",
+  "monospaceFontFamily": "Apple SD Gothic Neo,AppleSDGothicNeoR00",
   "enabledCssSnippets": []
 }

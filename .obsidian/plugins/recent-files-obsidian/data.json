@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Garbage Collector",
+      "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
       "basename": "STW(Stop The World)",
       "path": "Java/JVM/STW(Stop The World).md"
     },
     {
       "basename": "Stop The World",
       "path": "Java/JVM/resources/Stop The World.png"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
       "basename": "JVM",
