@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": 709.3806431299629,
-                  "y": 1346.010178143723,
-                  "zoom": -2.334505239177271
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas"
+                "file": "DB/Cache/canvas/Cache 전략.canvas"
               }
             }
           }
@@ -165,13 +165,19 @@
   },
   "active": "bf67bd8dc35b1a22",
   "lastOpenFiles": [
+    "DB/Cache/canvas/무제 파일.md",
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "Employment/roadmap/RoadMap.canvas",
+    "DB/Cache/resources",
+    "DB/Cache/canvas",
+    "DB/Cache",
+    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/resources/CMS GC.png",
     "Java/JVM/resources/G1 GC.png",
     "Java/JVM/resources/Serial GC.png",
     "Java/JVM/resources/Parallel GC.png",
     "Java/JVM/resources/G1 GC Not Heap.png",
     "Java/JVM/resources/Shenandoah GC.png",
-    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/Shenandoah GC.md",
     "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/resources/ZGC.png",
@@ -208,17 +214,11 @@
     "Java/JVM/네이티브 메소드 라이브러리.md",
     "Java/JVM/가비지 컬렉터.html",
     "DB/Transaction/canvas/무제 파일.canvas",
-    "DB/Transaction/READ COMMITTED.md",
-    "Employment/roadmap/RoadMap.canvas",
     "OS/Disk/resources",
     "OS/Disk/canvas",
     "OS/Thread/무제 파일.canvas",
     "OS/Disk",
     "OS/Thread",
-    "Employment/roadmap",
-    "Employment",
-    "Java",
-    "ComputerStructure/Register/canvas",
-    "Web/HttpSession/canvas/Cookie & Session.canvas"
+    "Employment/roadmap"
   ]
 }

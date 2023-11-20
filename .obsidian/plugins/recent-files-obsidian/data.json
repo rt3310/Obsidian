@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "RoadMap",
+      "path": "Employment/roadmap/RoadMap.canvas"
+    },
+    {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
@@ -187,18 +195,6 @@
     {
       "basename": "minor gc 6",
       "path": "Java/JVM/resources/minor gc 6.png"
-    },
-    {
-      "basename": "minor gc 5",
-      "path": "Java/JVM/resources/minor gc 5.png"
-    },
-    {
-      "basename": "minor gc 4",
-      "path": "Java/JVM/resources/minor gc 4.png"
-    },
-    {
-      "basename": "minor gc 3",
-      "path": "Java/JVM/resources/minor gc 3.png"
     }
   ],
   "omittedPaths": [],

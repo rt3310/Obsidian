@@ -38,5 +38,6 @@
   "Java/JVM": "FarStar",
   "OS/Disk": "FarStar",
   "OS/Thread": "FarStar",
-  "Web/HttpSession": "FarStar"
+  "Web/HttpSession": "FarStar",
+  "DB/Cache": "FarStar"
 }
