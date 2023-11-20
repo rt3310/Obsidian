@@ -19,11 +19,14 @@
             "id": "520bcd88faa9005c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Java/JVM/가비지 컬렉터.md",
-                "mode": "source",
-                "source": false
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "viewState": {
+                  "x": 1022.4849611552706,
+                  "y": -86.6458880210469,
+                  "zoom": 0.17962662612476882
+                }
               }
             }
           }
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/가비지 컬렉터.md",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/가비지 컬렉터.md",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/가비지 컬렉터.md"
+                "file": "Java/JVM/canvas/Garbage Collector.canvas"
               }
             }
           }
@@ -163,6 +166,7 @@
   },
   "active": "520bcd88faa9005c",
   "lastOpenFiles": [
+    "Java/JVM/가비지 컬렉터.md",
     "Java/JVM/네이티브 메소드 스택.md",
     "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
@@ -172,7 +176,6 @@
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/JVM.canvas",
-    "Java/JVM/가비지 컬렉터.md",
     "Java/JVM/네이티브 메소드 라이브러리.md",
     "Java/JVM/가비지 컬렉터.html",
     "DB/Transaction/canvas/무제 파일.canvas",
