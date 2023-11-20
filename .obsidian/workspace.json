@@ -8,30 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "473fac1bffc5c8df",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          },
-          {
-            "id": "520bcd88faa9005c",
+            "id": "d849b1eb4ca3799c",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 885.9217230265132,
-                  "y": -155.46161646843177,
-                  "zoom": -0.1542768297375764
+                  "x": 1909.307912952232,
+                  "y": 326.48219861661823,
+                  "zoom": -0.820943496404243
                 }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,6 +65,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "473fac1bffc5c8df",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -164,10 +163,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "520bcd88faa9005c",
+  "active": "d849b1eb4ca3799c",
   "lastOpenFiles": [
-    "Java/JVM/resources/mark and sweep.png",
+    "Java/JVM/GC의 Root Space.md",
+    "Java/JVM/resources/root space.png",
     "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/Mark And Sweep.md",
+    "Java/JVM/resources/mark and sweep gif.gif",
+    "Java/JVM/resources/mark and sweep.png",
     "Java/JVM/가비지 컬렉터.md",
     "Java/JVM/네이티브 메소드 스택.md",
     "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
@@ -205,11 +208,9 @@
     "Employment/무제 파일.md",
     "Employment",
     "Java",
-    "ComputerStructure/Register/resources/x86-64 Register.png",
     "ComputerStructure/Register/canvas",
     "ComputerStructure/Register/무제 파일.md",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
-    "Web/HttpSession/resources/Cookie.png",
     "Web/HttpSession/Stateless.md",
     "Web/HttpSession/HttpSession 인증처리 방식.md",
     "Web/HttpSession/Cookie vs Session.md",
@@ -219,7 +220,6 @@
     "DB/Transaction/READ UNCOMMITTED.md",
     "DB/Transaction/MySQL Phantom Read.md",
     "DB/Transaction/REPEATABLE READ 작동 방식.md",
-    "DB/Transaction/SERIALIZABLE 작동 방식.md",
-    "DB/Transaction/SERIALIZABLE.md"
+    "DB/Transaction/SERIALIZABLE 작동 방식.md"
   ]
 }

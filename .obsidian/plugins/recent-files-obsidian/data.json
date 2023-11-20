@@ -5,8 +5,8 @@
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
-      "basename": "mark and sweep",
-      "path": "Java/JVM/resources/mark and sweep.png"
+      "basename": "Unreachable Object",
+      "path": "Java/JVM/resources/Unreachable Object.png"
     },
     {
       "basename": "STW(Stop The World)",
@@ -17,8 +17,24 @@
       "path": "Java/JVM/resources/Stop The World.png"
     },
     {
-      "basename": "Unreachable Object",
-      "path": "Java/JVM/resources/Unreachable Object.png"
+      "basename": "GC의 Root Space",
+      "path": "Java/JVM/GC의 Root Space.md"
+    },
+    {
+      "basename": "Mark And Sweep",
+      "path": "Java/JVM/Mark And Sweep.md"
+    },
+    {
+      "basename": "root space",
+      "path": "Java/JVM/resources/root space.png"
+    },
+    {
+      "basename": "mark and sweep gif",
+      "path": "Java/JVM/resources/mark and sweep gif.gif"
+    },
+    {
+      "basename": "mark and sweep",
+      "path": "Java/JVM/resources/mark and sweep.png"
     },
     {
       "basename": "가비지 컬렉터",
