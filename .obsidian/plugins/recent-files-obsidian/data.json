@@ -5,6 +5,34 @@
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
+      "basename": "Serial GC",
+      "path": "Java/JVM/canvas/Serial GC.md"
+    },
+    {
+      "basename": "Old 영역(Old Generation)",
+      "path": "Java/JVM/Old 영역(Old Generation).md"
+    },
+    {
+      "basename": "가비지 컬렉션 알고리즘 종류",
+      "path": "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png"
+    },
+    {
+      "basename": "major gc 3",
+      "path": "Java/JVM/resources/major gc 3.gif"
+    },
+    {
+      "basename": "major gc 2",
+      "path": "Java/JVM/resources/major gc 2.png"
+    },
+    {
+      "basename": "major gc 1",
+      "path": "Java/JVM/resources/major gc 1.png"
+    },
+    {
+      "basename": "Minor GC 과정",
+      "path": "Java/JVM/canvas/Minor GC 과정.md"
+    },
+    {
       "basename": "Major GC",
       "path": "Java/JVM/canvas/Major GC.md"
     },
@@ -19,10 +47,6 @@
     {
       "basename": "age 값",
       "path": "Java/JVM/canvas/age 값.md"
-    },
-    {
-      "basename": "Minor GC 과정",
-      "path": "Java/JVM/canvas/Minor GC 과정.md"
     },
     {
       "basename": "minor gc 1",
@@ -87,10 +111,6 @@
     {
       "basename": "Minor GC",
       "path": "Java/JVM/resources/Minor GC.png"
-    },
-    {
-      "basename": "Old 영역(Old Generation)",
-      "path": "Java/JVM/Old 영역(Old Generation).md"
     },
     {
       "basename": "Permanent",
@@ -179,26 +199,6 @@
     {
       "basename": "NTP 서버",
       "path": "ComputerStructure/Clock/NTP 서버.md"
-    },
-    {
-      "basename": "컴퓨터 시간 원리",
-      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
-    },
-    {
-      "basename": "NTP",
-      "path": "ComputerStructure/Clock/NTP.md"
-    },
-    {
-      "basename": "RTC",
-      "path": "ComputerStructure/Clock/RTC.md"
-    },
-    {
-      "basename": "ZonedDateTime",
-      "path": "ComputerStructure/Clock/ZonedDateTime.md"
-    },
-    {
-      "basename": "레지스터",
-      "path": "ComputerStructure/Register/canvas/레지스터.canvas"
     }
   ],
   "omittedPaths": [],

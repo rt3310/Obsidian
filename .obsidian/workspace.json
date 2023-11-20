@@ -15,30 +15,14 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 263.37603324665884,
-                  "y": 403.85182990472117,
-                  "zoom": -0.596558438153683
-                }
-              }
-            }
-          },
-          {
-            "id": "3aad612b9421a7d3",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
-                "viewState": {
-                  "x": 1179.7444131423865,
-                  "y": 2822.277386603051,
-                  "zoom": 0.4043867740772639
+                  "x": -2933.1914959536102,
+                  "y": 2121.561916597233,
+                  "zoom": 0.73677489517965
                 }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,23 +163,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3aad612b9421a7d3",
+  "active": "d849b1eb4ca3799c",
   "lastOpenFiles": [
-    "img.gif",
-    "Pasted image 20231120141326.png",
-    "Pasted image 20231120141301.png",
+    "Java/JVM/canvas/Serial GC.md",
+    "Pasted image 20231120142610.png",
+    "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
+    "Java/JVM/resources/major gc 3.gif",
+    "Java/JVM/resources/major gc 2.png",
+    "Java/JVM/resources/major gc 1.png",
+    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/Major GC.md",
     "Java/JVM/resources/Major GC.png",
-    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/age 값.md",
     "Java/JVM/resources/minor gc 1.png",
     "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/resources/minor gc 14.gif",
     "Java/JVM/resources/minor gc 13.png",
     "Java/JVM/resources/minor gc 11.png",
-    "Java/JVM/resources/minor gc 12.png",
-    "Java/JVM/resources/minor gc 10.png",
-    "Java/JVM/resources/minor gc 9.png",
     "Java/JVM/canvas/Minor GC 과정.md",
     "Java/JVM/canvas/Minor GC.md",
     "Java/JVM/Eden.md",
