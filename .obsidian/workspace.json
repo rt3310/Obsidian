@@ -11,14 +11,11 @@
             "id": "61262e97b5a7492c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-                "viewState": {
-                  "x": 82.37554048722363,
-                  "y": 5.894046859268201,
-                  "zoom": -0.14747840820349178
-                }
+                "file": "Java/JVM/가비지 컬렉터.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Java/JVM/가비지 컬렉터.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Java/JVM/가비지 컬렉터.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+                "file": "Java/JVM/가비지 컬렉터.md"
               }
             }
           }
@@ -166,8 +163,9 @@
   },
   "active": "61262e97b5a7492c",
   "lastOpenFiles": [
-    "DB/Transaction/canvas/무제 파일.canvas",
+    "Java/JVM/가비지 컬렉터.html",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/Transaction/canvas/무제 파일.canvas",
     "DB/Transaction/READ COMMITTED.md",
     "DB/Transaction/Phantom Read.md",
     "DB/Transaction/Non-Repeatable Read.md",
@@ -218,7 +216,6 @@
     "DB/Transaction/SERIALIZABLE.md",
     "DB/Transaction/REPEATABLE READ.md",
     "DB/Transaction/MVCC.md",
-    "ComputerStructure/JVM/canvas/무제 파일.canvas",
     "DB/Transaction/canvas_png",
     "DB/Transaction/resources"
   ]

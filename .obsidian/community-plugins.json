@@ -26,5 +26,6 @@
   "file-tree-alternative",
   "templater-obsidian",
   "obsidian-outliner",
-  "dataview"
+  "dataview",
+  "obsidian-pandoc"
 ]
