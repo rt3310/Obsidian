@@ -30,8 +30,8 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 1507.303132931373,
-                  "y": 1458.7969774743246,
+                  "x": 2251.303132931373,
+                  "y": 1365.7969774743246,
                   "zoom": 1.1102230246251565e-16
                 }
               }
@@ -181,10 +181,13 @@
   },
   "active": "3aad612b9421a7d3",
   "lastOpenFiles": [
+    "Pasted image 20231120133458.png",
+    "Pasted image 20231120133413.png",
+    "Java/JVM/resources/Minor GC.png",
+    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/Eden.md",
     "Java/JVM/Old 영역(Old Generation).md",
-    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/Survivor 0, Survivor 1.md",
     "Java/JVM/Permanent.md",
     "Java/JVM/resources/permanent.png",
@@ -214,8 +217,6 @@
     "DB/Transaction/Phantom Read.md",
     "DB/Transaction/Non-Repeatable Read.md",
     "Employment/roadmap/RoadMap.canvas",
-    "OS/Disk/resources/RAID 5.png",
-    "OS/Disk/resources/RAID 6.png",
     "OS/Disk/resources",
     "OS/Disk/canvas",
     "OS/Thread/무제 파일.canvas",

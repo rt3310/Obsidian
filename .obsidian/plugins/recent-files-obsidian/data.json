@@ -5,6 +5,10 @@
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
+      "basename": "Minor GC",
+      "path": "Java/JVM/resources/Minor GC.png"
+    },
+    {
       "basename": "Old 영역(Old Generation)",
       "path": "Java/JVM/Old 영역(Old Generation).md"
     },

@@ -18,7 +18,8 @@
 		{"id":"91393fa34fe0896b","type":"file","file":"Java/JVM/Survivor 0, Survivor 1.md","x":1620,"y":1043,"width":423,"height":151},
 		{"id":"73e8cd2dc87531e2","type":"file","file":"Java/JVM/Permanent.md","x":-1600,"y":853,"width":933,"height":593,"color":"5"},
 		{"id":"4ba13ee733bc919c","type":"file","file":"Java/JVM/Old 영역(Old Generation).md","x":620,"y":1670,"width":665,"height":171},
-		{"id":"597a09e9c9d349f7","x":1311,"y":1282,"width":843,"height":388,"type":"text","text":"Young Generation 영역은 짧게 살아남는 메모리들이 존재하는 공간이다\n\n모든 객체는 처음에는 Young Generation에 생성되게 된다.\nYoung Generation의 공간은 Old Generation에 비해 상대적으로 작기 때문에 메모리 상의 객체를 찾아 제거하는데 적은 시간이 걸린다. "}
+		{"id":"597a09e9c9d349f7","type":"text","text":"Young Generation 영역은 **짧게 살아남는 메모리들이 존재하는 공간**이다\n\n![[Minor GC.png]]\n모든 객체는 처음에는 Young Generation에 생성되게 된다.\nYoung Generation의 공간은 **Old Generation에 비해 상대적으로 작기 때문에 메모리 상의 객체를 찾아 제거하는데 적은 시간이 걸린다**.\n\n이 때문에 **Young Generation 영역에서 발생되는 GC**를 **Minor GC**라 불린다.","x":1620,"y":1260,"width":649,"height":510},
+		{"id":"56711534c4fcba1e","x":2380,"y":1230,"width":580,"height":470,"type":"text","text":"1. 처음 생성된 객체는 Young Generation 영역의 일부인 Eden 영역에 위치\n   ![[Pasted image 20231120133413.png]]\n   ![[Pasted image 20231120133458.png]]\n2. 객체가 계속 생성되어 Eden 영역이 꽉차게 되고 Minor GC가 실행"}
 	],
 	"edges":[
 		{"id":"5c1b1ca3881906d8","fromNode":"6ceb7188b6505ed9","fromSide":"right","toNode":"118349ead357f16c","toSide":"left","label":"가비지 컬렉션?"},
@@ -38,6 +39,7 @@
 		{"id":"9e12a6d16db79d2b","fromNode":"d9c683ba6bbf53b2","fromSide":"right","toNode":"c335cc0f2dd93c55","toSide":"left","label":"Eden?"},
 		{"id":"0444b17b487f2f77","fromNode":"d9c683ba6bbf53b2","fromSide":"right","toNode":"91393fa34fe0896b","toSide":"left","label":"survivor 0, 1?"},
 		{"id":"80f543514ec3dbfe","fromNode":"0f96237946786ba0","fromSide":"left","toNode":"73e8cd2dc87531e2","toSide":"right"},
-		{"id":"fc48c685f52b68af","fromNode":"d9c683ba6bbf53b2","fromSide":"bottom","toNode":"597a09e9c9d349f7","toSide":"left","label":"Minor GC?"}
+		{"id":"fc48c685f52b68af","fromNode":"d9c683ba6bbf53b2","fromSide":"right","toNode":"597a09e9c9d349f7","toSide":"left","label":"Minor GC?"},
+		{"id":"e1cbfdf4efb46e63","fromNode":"597a09e9c9d349f7","fromSide":"right","toNode":"56711534c4fcba1e","toSide":"left"}
 	]
 }
