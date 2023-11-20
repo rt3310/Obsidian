@@ -17,22 +17,24 @@
 		{"id":"c335cc0f2dd93c55","type":"file","file":"Java/JVM/Eden.md","x":1620,"y":853,"width":534,"height":121},
 		{"id":"91393fa34fe0896b","type":"file","file":"Java/JVM/Survivor 0, Survivor 1.md","x":1620,"y":1043,"width":423,"height":151},
 		{"id":"73e8cd2dc87531e2","type":"file","file":"Java/JVM/Permanent.md","x":-1600,"y":853,"width":933,"height":593,"color":"5"},
-		{"id":"85a09b6f7a90f43d","type":"file","file":"Java/JVM/canvas/Minor GC.md","x":1620,"y":1260,"width":649,"height":556},
-		{"id":"629ec080149af24a","type":"file","file":"Java/JVM/canvas/age 값.md","x":3407,"y":914,"width":905,"height":335,"color":"5"},
-		{"id":"f441caa1dc637730","type":"file","file":"Java/JVM/canvas/Major GC.md","x":632,"y":2020,"width":641,"height":510},
+		{"id":"85a09b6f7a90f43d","type":"file","file":"Java/JVM/Minor GC.md","x":1620,"y":1260,"width":649,"height":556},
+		{"id":"629ec080149af24a","type":"file","file":"Java/JVM/age 값.md","x":3407,"y":914,"width":905,"height":335,"color":"5"},
+		{"id":"f441caa1dc637730","type":"file","file":"Java/JVM/Major GC.md","x":632,"y":2020,"width":641,"height":510},
 		{"id":"f6aa0f44654132ed","type":"text","text":"1. 객체의 age가 임계값(여기선 8로 설정)에 도달하게 되면,\n   ![[major gc 1.png]]\n2. 이 객체들은 Old Generation으로 이동된다. 이를 **promotion**이라 부른다.\n   ![[major gc 2.png]]\n3. 위 과정이 반복되어 Old Generation 영역의 공간(메모리)가 부족하게 되면 Major GC가 발생하게 된다.\n   ![[major gc 3.gif]]","x":1620,"y":1945,"width":680,"height":660},
 		{"id":"c5eb38208cce15b2","type":"text","text":"Major GC는 Old 영역의 데이터가 가득 차면 GC를 실행하는 단순한 방식이다.\n\nOld 영역에 할당된 메모리가 허용치를 넘게 되면, Old 영역에 있는 모든 객체들을 검사하여 참조되지 않는 객체들을 한꺼번에 삭제하는 Major GC가 실행되게 된다.\n하지만 **Old Generation은 Young Generation에 비해 상대적으로 큰 공간을 가지고 있어, 이 공간에서 메모리 상의 객체 제거에 많은 시간이 걸리게 된다**.\n\n예를 들어, Young 영역은 일반적으로 Old 영역보다 크기가 작기 때문에 GC가 보통 0.5초에서 1초 사이에 끝난다.\n그렇기 때문에 Minor GC는 애플리케이션에 크게 영향을 주지 않는다.\n하지만 Old 영역의 **Major GC는 일반적으로 Minor GC보다 시간이 오래걸리며, 10배 이상의 시간을 사용**한다.\n\n바로 여기서 **Stop-The-World** 문제가 발생하게 된다.\n**Major GC가 일어나면 Thread가 멈추고 Mark and Sweep 작업을 해야 해서 CPU에 부하를 주기 때문에 멈추거나 버벅이는 현상이 일어나기 때문**이다.\n따라서 자바 개발진들은 끊임 없이 가비지 컬렉션 알고리즘을 발전 시켜왔다.","x":573,"y":2700,"width":759,"height":388},
-		{"id":"d9fdc6c7e5e864cd","type":"file","file":"Java/JVM/canvas/Minor GC 과정.md","x":2600,"y":280,"width":580,"height":2477},
+		{"id":"d9fdc6c7e5e864cd","type":"file","file":"Java/JVM/Minor GC 과정.md","x":2600,"y":280,"width":580,"height":2477},
 		{"id":"4ba13ee733bc919c","type":"file","file":"Java/JVM/Old 영역(Old Generation).md","x":620,"y":1500,"width":665,"height":171},
 		{"id":"c6dcf1c2923caecf","type":"text","text":"자바가 발전됨에 따라 Heap의 사이즈가 커지면서 애플리케이션의 지연(Suspend) 현상이 두드러지게 되었고, 이를 최적화 위해 다양한 Garbage Collection(가비지 컬렉션) 알고리즘이 개발되었다.\n\n![[가비지 컬렉션 알고리즘 종류.png]]\n- Serial GC\n- Parallel GC\n- CMS GC\n- G1 GC\n- Shenandoah GC\n- ZGC","x":-754,"y":2548,"width":680,"height":693},
-		{"id":"b746fed2b9fe60f4","x":-1920,"y":2644,"width":720,"height":574,"type":"file","file":"Java/JVM/canvas/Parallel GC.md"},
-		{"id":"95beea70802f32f7","x":-3086,"y":2840,"width":733,"height":637,"type":"text","text":"- Parallel GC를 개선한 버전\n- Young 영역 뿐만 아니라, Old 영역에서도 멀티스레드로 GC 수행\n- 새로운 가비지 컬렉션 청소 방식인 Mark-Summary-Compact 방식을 이용 (Old 영역도 멀티스레드로 처리)\n![[Pasted image 20231120143338.png]]"},
-		{"id":"3d62e7f4fcc3f8ad","x":-3048,"y":2579,"width":695,"height":184,"type":"text","text":"- GC 스레드는 기본적으로 cpu 개수만큼 할당된다.\n- 옵션을 통해 GC를 수행할 쓰레드의 개수 등을 설정해줄 수 있다.\n```bash\njava -XX:+UseParallelGC - jar Application.java\n```\n- `-XX:ParallelGCThreads=N`: 사용할 스레드의 개수"},
-		{"id":"2babe5149a409fef","x":-1920,"y":3351,"width":720,"height":637,"type":"file","file":"Java/JVM/canvas/CMS GC.md"},
-		{"id":"943f775efc3be0da","x":-1920,"y":1540,"width":720,"height":955,"type":"file","file":"Java/JVM/canvas/Serial GC.md"},
-		{"id":"b97b8f73ba95e15d","x":-2891,"y":1953,"width":538,"height":128,"type":"text","text":"- 자바 프로그램을 실행할 때 `-XX:+UseSerialGC` GC 옵션을 지정하여 해당 가비지 컬렉션 알고리즘으로 힙 메모리를 관리하도록 실행할 수 있다.\n```bash\njava -XX:+UseSerialGC -jar Application.java\n```"},
-		{"id":"8381dc318175fabe","x":-3086,"y":3572,"width":733,"height":98,"type":"text","text":"```bash\njava -XX:+UseParallelOldGC -jar Application.java\n```\n- `-XX:ParallelGCThreads=N`: 사용할 스레드의 개수"},
-		{"id":"36c555f8c06b5ad5","x":-3020,"y":3780,"width":719,"height":139,"type":"text","text":""}
+		{"id":"b746fed2b9fe60f4","type":"file","file":"Java/JVM/Parallel GC.md","x":-1920,"y":2644,"width":720,"height":574},
+		{"id":"95beea70802f32f7","type":"text","text":"- Parallel GC를 개선한 버전\n- Young 영역 뿐만 아니라, Old 영역에서도 멀티스레드로 GC 수행\n- 새로운 가비지 컬렉션 청소 방식인 Mark-Summary-Compact 방식을 이용 (Old 영역도 멀티스레드로 처리)\n![[Pasted image 20231120143338.png]]","x":-3086,"y":2840,"width":733,"height":637},
+		{"id":"2babe5149a409fef","type":"file","file":"Java/JVM/CMS GC.md","x":-1920,"y":3351,"width":720,"height":637},
+		{"id":"943f775efc3be0da","type":"file","file":"Java/JVM/Serial GC.md","x":-1920,"y":1540,"width":720,"height":955},
+		{"id":"b97b8f73ba95e15d","type":"text","text":"- 자바 프로그램을 실행할 때 `-XX:+UseSerialGC` GC 옵션을 지정하여 해당 가비지 컬렉션 알고리즘으로 힙 메모리를 관리하도록 실행할 수 있다.\n```bash\njava -XX:+UseSerialGC -jar Application.java\n```","x":-2891,"y":1953,"width":538,"height":128},
+		{"id":"3d62e7f4fcc3f8ad","type":"text","text":"- GC 스레드는 기본적으로 cpu 개수만큼 할당된다.\n- 옵션을 통해 GC를 수행할 쓰레드의 개수 등을 설정해줄 수 있다.\n```bash\njava -XX:+UseParallelGC - jar Application.java\n```\n- `-XX:ParallelGCThreads=N`: 사용할 스레드의 개수","x":-2842,"y":2552,"width":489,"height":184},
+		{"id":"8381dc318175fabe","type":"text","text":"```bash\njava -XX:+UseParallelOldGC -jar Application.java\n```\n- `-XX:ParallelGCThreads=N`: 사용할 스레드의 개수","x":-2917,"y":3621,"width":395,"height":98},
+		{"id":"36c555f8c06b5ad5","type":"text","text":"```bash\njava -XX:+UseConcMarkSweepGC -jar Application.java\n```","x":-2620,"y":3780,"width":420,"height":45},
+		{"id":"1e0368a6ba106e7e","type":"file","file":"Java/JVM/G1 GC.md","x":-960,"y":3560,"width":720,"height":962},
+		{"id":"8cd09e8346d5bdbe","x":-2080,"y":4174,"width":892,"height":306,"type":"text","text":"> [!INFO]\n> Java 9+ 부터 기본 GC로 자리잡은 G1 GC에서는 이전의 GC들처럼 일일이 메모리를 탐색해 객체들을 제거하지 않는다.\n> 대신 메모리가 많이 차있는 영역(region)을 인식하는 기능을 통해 메모리가 많이 차있는 영역을 우선적으로 GC 한다.\n> 즉, G1 GC는 Heap Memory 전체를 탐색하는 것이 아닌 영역(region)을 나눠 탐색하고 영역(region)별로 GC가 일어난다.\n> \n> 또한 이전의 GC들은 Young Generation에 있는 객체들이 GC가 돌때마다 살아남으면 Eden -> Survivor 0 -> Survivor 1로 순차적으로 이동했지만, G1 GC에서는 순차적으로 이동하지는 않는다.\n> 대신 G1 GC는 더욱 효율적이라고 생각하는 위치로 객체를 Reallocate(재할당) 시킨다.\n> 예를 들어, "}
 	],
 	"edges":[
 		{"id":"5c1b1ca3881906d8","fromNode":"6ceb7188b6505ed9","fromSide":"right","toNode":"118349ead357f16c","toSide":"left","label":"가비지 컬렉션?"},
@@ -66,6 +68,8 @@
 		{"id":"21f01d786e900d0f","fromNode":"b746fed2b9fe60f4","fromSide":"left","toNode":"95beea70802f32f7","toSide":"right","label":"Parallel Old GC\n(Parallel Compacting Collector)"},
 		{"id":"fc8f5b0ec5764088","fromNode":"95beea70802f32f7","fromSide":"bottom","toNode":"8381dc318175fabe","toSide":"top","label":"Parallel Old GC 실행 명령어"},
 		{"id":"a55fc6826f842837","fromNode":"c6dcf1c2923caecf","fromSide":"left","toNode":"2babe5149a409fef","toSide":"right","label":"CMS GC?\n(Concurrent Mark Sweep)"},
-		{"id":"0a29dc7e7076eedc","fromNode":"2babe5149a409fef","fromSide":"left","toNode":"36c555f8c06b5ad5","toSide":"right","label":"CMS GC 실행 명령어"}
+		{"id":"0a29dc7e7076eedc","fromNode":"2babe5149a409fef","fromSide":"left","toNode":"36c555f8c06b5ad5","toSide":"right","label":"CMS GC 실행 명령어"},
+		{"id":"8e45aef69dd3d912","fromNode":"c6dcf1c2923caecf","fromSide":"bottom","toNode":"1e0368a6ba106e7e","toSide":"top","label":"G1 GC?"},
+		{"id":"ad62e73eea4867a3","fromNode":"1e0368a6ba106e7e","fromSide":"left","toNode":"8cd09e8346d5bdbe","toSide":"right"}
 	]
 }

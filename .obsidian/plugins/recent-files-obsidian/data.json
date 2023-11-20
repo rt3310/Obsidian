@@ -5,16 +5,28 @@
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
+      "basename": "G1 GC",
+      "path": "Java/JVM/G1 GC.md"
+    },
+    {
+      "basename": "Major GC",
+      "path": "Java/JVM/Major GC.md"
+    },
+    {
+      "basename": "age 값",
+      "path": "Java/JVM/age 값.md"
+    },
+    {
       "basename": "Serial GC",
-      "path": "Java/JVM/canvas/Serial GC.md"
+      "path": "Java/JVM/Serial GC.md"
     },
     {
       "basename": "CMS GC",
-      "path": "Java/JVM/canvas/CMS GC.md"
+      "path": "Java/JVM/CMS GC.md"
     },
     {
       "basename": "Parallel GC",
-      "path": "Java/JVM/canvas/Parallel GC.md"
+      "path": "Java/JVM/Parallel GC.md"
     },
     {
       "basename": "Old 영역(Old Generation)",
@@ -38,11 +50,7 @@
     },
     {
       "basename": "Minor GC 과정",
-      "path": "Java/JVM/canvas/Minor GC 과정.md"
-    },
-    {
-      "basename": "Major GC",
-      "path": "Java/JVM/canvas/Major GC.md"
+      "path": "Java/JVM/Minor GC 과정.md"
     },
     {
       "basename": "Major GC",
@@ -50,11 +58,7 @@
     },
     {
       "basename": "Minor GC",
-      "path": "Java/JVM/canvas/Minor GC.md"
-    },
-    {
-      "basename": "age 값",
-      "path": "Java/JVM/canvas/age 값.md"
+      "path": "Java/JVM/Minor GC.md"
     },
     {
       "basename": "minor gc 1",
@@ -191,14 +195,6 @@
     {
       "basename": "mark and sweep",
       "path": "Java/JVM/resources/mark and sweep.png"
-    },
-    {
-      "basename": "가비지 컬렉터",
-      "path": "Java/JVM/가비지 컬렉터.md"
-    },
-    {
-      "basename": "네이티브 메소드 스택",
-      "path": "Java/JVM/네이티브 메소드 스택.md"
     }
   ],
   "omittedPaths": [],

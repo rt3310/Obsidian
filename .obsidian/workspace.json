@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "65c3c16b9167f05b",
+        "id": "b01a6ea9b41a7736",
         "type": "tabs",
         "children": [
           {
-            "id": "d849b1eb4ca3799c",
+            "id": "bf67bd8dc35b1a22",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": -2528.279901332481,
-                  "y": 3651.63346942698,
-                  "zoom": -0.26322510482034994
+                  "x": -1867.059073890853,
+                  "y": 4233.8182057994,
+                  "zoom": -0.3333333333333332
                 }
               }
             }
@@ -163,27 +163,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d849b1eb4ca3799c",
+  "active": "bf67bd8dc35b1a22",
   "lastOpenFiles": [
-    "Java/JVM/canvas/CMS GC.md",
+    "Java/JVM/Pasted image 20231120144302.png] ![[Pasted image 20231120144351.png.md",
+    "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/Major GC.md",
+    "Java/JVM/age 값.md",
+    "Pasted image 20231120144351.png",
+    "Java/JVM/G1 GC.md",
+    "Pasted image 20231120144302.png",
+    "Java/JVM/CMS GC.md",
     "Pasted image 20231120143743.png",
     "Pasted image 20231120143338.png",
-    "Java/JVM/canvas/Parallel GC.md",
+    "Java/JVM/Parallel GC.md",
     "Pasted image 20231120143020.png",
-    "Java/JVM/canvas/Serial GC.md",
+    "Java/JVM/Serial GC.md",
     "Pasted image 20231120142610.png",
     "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
     "Java/JVM/resources/major gc 3.gif",
     "Java/JVM/resources/major gc 2.png",
     "Java/JVM/resources/major gc 1.png",
-    "Java/JVM/canvas/Garbage Collector.canvas",
-    "Java/JVM/canvas/Major GC.md",
-    "Java/JVM/resources/Major GC.png",
-    "Java/JVM/canvas/age 값.md",
-    "Java/JVM/resources/minor gc 1.png",
     "Java/JVM/canvas/JVM.canvas",
-    "Java/JVM/canvas/Minor GC 과정.md",
-    "Java/JVM/canvas/Minor GC.md",
+    "Java/JVM/Minor GC 과정.md",
+    "Java/JVM/Minor GC.md",
     "Java/JVM/Eden.md",
     "Java/JVM/Old 영역(Old Generation).md",
     "Java/JVM/Survivor 0, Survivor 1.md",
@@ -212,10 +214,7 @@
     "OS/Thread/무제 파일.canvas",
     "OS/Disk",
     "OS/Thread/사용자 수준 쓰레드(ULT).md",
-    "OS/Thread/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
-    "OS/Thread/멀티 쓰레딩.md",
     "OS/Thread",
-    "Employment/roadmap/무제 파일.md",
     "Employment/roadmap",
     "Employment",
     "Java",
