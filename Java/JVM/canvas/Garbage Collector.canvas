@@ -12,8 +12,8 @@
 		{"id":"82c370f33ddb3268","type":"file","file":"Java/JVM/GC의 Root Space.md","x":1262,"y":280,"width":941,"height":543,"color":"5"},
 		{"id":"952469617b567d2a","type":"text","text":"![[가비지 컬렉션 동작 과정.png]]","x":-560,"y":-167,"width":972,"height":719},
 		{"id":"0f96237946786ba0","type":"text","text":"JVM의 힙(heap) 영역은 동적으로 레퍼런스 데이터가 저장되는 공간으로서, 가비지 컬렉션에 대상이 되는 공간이다.\n\nHeap 영역은 처음 설계될 때 다음 2가지를 전제(Weak Generational Hypothesis)로 설계되었다.\n- 대부분의 객체는 금방 접근 불가능한 상태(Unreachable)가 된다.\n- 오래된 객체에서 새로운 객체로의 참조는 아주 적게 존재한다.\n\n즉, **객체는 대부분 일회성되며, 메모리에 오랫동안 남아있는 경우는 드물다**는 것이다.\n\n이러한 특성을 이용해 JVM 개발자들은 보다 효율적인 메모리 관리를 위해, 객체의 생존 기간에 따라 물리적인 Heap 영역을 나누게 되었고 **Young과 Old 총 2가지 영역**으로 설계하였다. (초기에는 Perm 영역도 존재하였지만 Java 8부터 제거되었다)\n\n![[JVM 힙 영역.png]]","x":-560,"y":823,"width":934,"height":640},
-		{"id":"d9c683ba6bbf53b2","x":620,"y":940,"width":765,"height":154,"type":"file","file":"Java/JVM/canvas/Young 영역(Young Generation).md"},
-		{"id":"f455a723d1cbef55","x":596,"y":1262,"width":250,"height":60,"type":"text","text":""}
+		{"id":"d9c683ba6bbf53b2","x":620,"y":940,"width":765,"height":171,"type":"file","file":"Java/JVM/canvas/Young 영역(Young Generation).md"},
+		{"id":"4ba13ee733bc919c","x":620,"y":1200,"width":665,"height":171,"type":"file","file":"Java/JVM/canvas/Old 영역(Old Generation).md"}
 	],
 	"edges":[
 		{"id":"5c1b1ca3881906d8","fromNode":"6ceb7188b6505ed9","fromSide":"right","toNode":"118349ead357f16c","toSide":"left","label":"가비지 컬렉션?"},
@@ -27,7 +27,7 @@
 		{"id":"c8a375b2e38bea18","fromNode":"1b5caf9a31100229","fromSide":"right","toNode":"45e3b0d99d0b9709","toSide":"left"},
 		{"id":"061a7a369a299768","fromNode":"118349ead357f16c","fromSide":"bottom","toNode":"952469617b567d2a","toSide":"top"},
 		{"id":"a6fe89f441fa607b","fromNode":"952469617b567d2a","fromSide":"bottom","toNode":"0f96237946786ba0","toSide":"top","label":"힙 영역"},
-		{"id":"060ad270327dba8c","fromNode":"0f96237946786ba0","fromSide":"right","toNode":"d9c683ba6bbf53b2","toSide":"left"},
-		{"id":"140dbaf3982df51e","fromNode":"0f96237946786ba0","fromSide":"right","toNode":"f455a723d1cbef55","toSide":"left"}
+		{"id":"060ad270327dba8c","fromNode":"0f96237946786ba0","fromSide":"right","toNode":"d9c683ba6bbf53b2","toSide":"left","label":"Young 영역"},
+		{"id":"140dbaf3982df51e","fromNode":"0f96237946786ba0","fromSide":"right","toNode":"4ba13ee733bc919c","toSide":"left","label":"Old 영역"}
 	]
 }

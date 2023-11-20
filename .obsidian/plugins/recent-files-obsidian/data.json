@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Garbage Collector",
+      "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "실행 엔진",
+      "path": "Java/JVM/실행 엔진.md"
+    },
+    {
       "basename": "Young 영역(Young Generation)",
       "path": "Java/JVM/canvas/Young 영역(Young Generation).md"
     },
     {
-      "basename": "Garbage Collector",
-      "path": "Java/JVM/canvas/Garbage Collector.canvas"
+      "basename": "Old 영역(Old Generation)",
+      "path": "Java/JVM/canvas/Old 영역(Old Generation).md"
     },
     {
       "basename": "JVM",
