@@ -15,14 +15,30 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 1909.307912952232,
-                  "y": 326.48219861661823,
-                  "zoom": -0.820943496404243
+                  "x": 263.37603324665884,
+                  "y": 403.85182990472117,
+                  "zoom": -0.596558438153683
+                }
+              }
+            }
+          },
+          {
+            "id": "3aad612b9421a7d3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "viewState": {
+                  "x": 940.8337012579086,
+                  "y": 1200.4889884800098,
+                  "zoom": 0.5913599208594826
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,11 +179,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d849b1eb4ca3799c",
+  "active": "3aad612b9421a7d3",
   "lastOpenFiles": [
+    "Java/JVM/canvas/Young 영역(Young Generation).md",
+    "Java/JVM/canvas/JVM.canvas",
+    "Java/JVM/resources/JVM 힙 영역.png",
+    "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/resources/가비지 컬렉션 동작 과정.png",
     "Java/JVM/GC의 Root Space.md",
     "Java/JVM/resources/root space.png",
-    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/Mark And Sweep.md",
     "Java/JVM/resources/mark and sweep gif.gif",
     "Java/JVM/resources/mark and sweep.png",
@@ -179,7 +199,6 @@
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/네이티브 메소드 라이브러리.md",
     "Java/JVM/가비지 컬렉터.html",
     "DB/Transaction/canvas/무제 파일.canvas",
@@ -201,8 +220,6 @@
     "OS/Thread/멀티 쓰레딩.md",
     "OS/Thread",
     "Employment/roadmap/무제 파일.md",
-    "Java/JVM/resources/Stop The World.png",
-    "Java/JVM/resources/스택 영역 위치.png",
     "Java/JVM/resources/무제 파일.md",
     "Employment/roadmap",
     "Employment/무제 파일.md",
@@ -219,7 +236,6 @@
     "DB/Transaction/READ COMMITTED 작동 방식.md",
     "DB/Transaction/READ UNCOMMITTED.md",
     "DB/Transaction/MySQL Phantom Read.md",
-    "DB/Transaction/REPEATABLE READ 작동 방식.md",
-    "DB/Transaction/SERIALIZABLE 작동 방식.md"
+    "DB/Transaction/REPEATABLE READ 작동 방식.md"
   ]
 }

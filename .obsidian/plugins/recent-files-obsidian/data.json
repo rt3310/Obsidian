@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Young 영역(Young Generation)",
+      "path": "Java/JVM/canvas/Young 영역(Young Generation).md"
+    },
+    {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "JVM",
+      "path": "Java/JVM/canvas/JVM.canvas"
+    },
+    {
+      "basename": "JVM 힙 영역",
+      "path": "Java/JVM/resources/JVM 힙 영역.png"
+    },
+    {
+      "basename": "가비지 컬렉션 동작 과정",
+      "path": "Java/JVM/resources/가비지 컬렉션 동작 과정.png"
+    },
+    {
+      "basename": "GC의 Root Space",
+      "path": "Java/JVM/GC의 Root Space.md"
+    },
+    {
+      "basename": "Mark And Sweep",
+      "path": "Java/JVM/Mark And Sweep.md"
     },
     {
       "basename": "Unreachable Object",
@@ -15,14 +39,6 @@
     {
       "basename": "Stop The World",
       "path": "Java/JVM/resources/Stop The World.png"
-    },
-    {
-      "basename": "GC의 Root Space",
-      "path": "Java/JVM/GC의 Root Space.md"
-    },
-    {
-      "basename": "Mark And Sweep",
-      "path": "Java/JVM/Mark And Sweep.md"
     },
     {
       "basename": "root space",
@@ -83,10 +99,6 @@
     {
       "basename": "REPEATABLE READ 작동 방식",
       "path": "DB/Transaction/REPEATABLE READ 작동 방식.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "Java/JVM/canvas/JVM.canvas"
     },
     {
       "basename": "네이티브 메소드 라이브러리",
