@@ -30,8 +30,8 @@
               "state": {
                 "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": 1067.64,
+                  "y": -146.94000000000023,
                   "zoom": 0
                 }
               }
@@ -189,6 +189,7 @@
   },
   "active": "59e1dafc5293db90",
   "lastOpenFiles": [
+    "OS/Bootstrap/canvas/ROM(Read-Only Memory).md",
     "DB/Cache/canvas/Cache 전략.canvas",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/canvas",
@@ -243,7 +244,6 @@
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/JVM.canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
-    "Web/HttpSession/canvas/Cookie & Session.canvas",
-    "Web/HttpSession/canvas/HttpSession.canvas"
+    "Web/HttpSession/canvas/Cookie & Session.canvas"
   ]
 }

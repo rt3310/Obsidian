@@ -5,6 +5,10 @@
       "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
     },
     {
+      "basename": "ROM(Read-Only Memory)",
+      "path": "OS/Bootstrap/canvas/ROM(Read-Only Memory).md"
+    },
+    {
       "basename": "Cache 전략",
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },

@@ -1,9 +1,15 @@
 {
 	"nodes":[
 		{"id":"2d7aa1ad00a7745e","x":-500,"y":-160,"width":266,"height":39,"type":"text","text":"# 컴퓨터의 부팅 과정"},
-		{"id":"21dddfec1c90341a","x":-400,"y":-540,"width":700,"height":207,"type":"text","text":"- 부팅(Booting)이란 컴퓨터 본체를 누르고 사용자가 시작할 수 있는 상태가 될 때 끼지의 과정\n- 컴퓨터에 전원을 공급하고 운영체제 가동 및 시스템을 사용하기 위해 준비하는 과정을 부팅이라고 함"}
+		{"id":"21dddfec1c90341a","x":-727,"y":-340,"width":720,"height":64,"type":"text","text":"- 부팅(Booting)이란 컴퓨터 본체를 누르고 사용자가 시작할 수 있는 상태가 될 때 끼지의 과정\n- 컴퓨터에 전원을 공급하고 운영체제 가동 및 시스템을 사용하기 위해 준비하는 과정을 부팅이라고 함"},
+		{"id":"cc216a71faa65c13","x":156,"y":-197,"width":606,"height":790,"type":"text","text":"### 1. 컴퓨터 전원 ON\n- 컴퓨터의 전원을 켜면 메인보드에 전력이 들어온다.\n- 메인보드에 장착된 장치들(CPU, 메모리, 디스크 등)에도 전력이 공급된다.\n### 2. ROM BIOS 동작\n- 메인보드에 장착된 CPU가 ROM(Read Only Memory)에 저장된 BIOS(Basic Input/Output System)를 실행한다.\n### 3. BIOS의 POST 과정\n- CPU에 의해 실행된 BIOS는 컴퓨터의 하드웨어 장치들(CPU를 제외한 메모리, 디스크 등)을 검사하는 POST(Power On Self Test)과정을 진행한다.\n- BIOS는 POST 과정이 진행된 후 부팅할 수 있는 보조기억장치(USB, 디스크 등)를 선택한다.\n- BOOT ORDER Priorities(부팅 우선 순위)에 다라 부팅할 보조기억장치를 찾는데 위 사진에서는 USB Hard Disk로 선택되어 있기 때문에 USB가 정상적으로 컴퓨터에 꽂혀 있고 제대로 인식이 되는지 확인하고 USB 내에 부티오가 관련된 부팅 이미지 파일(.iso 형식의 파일 등)을 먼저 읽는다.\n- POST 과정에서 오류가 발생하면 비프음이 발생한다.\n### 4. RAM에 OS를 적재(Loading)\n- BIOS는 주변 하드웨어 장치들을 검사하는 POST 과정 이후, 부팅할 보조기억장치를 선택하고 부팅할 하드디스크의 MBR(Master Boot Record)에 저장되어 있는 부트로더(Boot Loader)를 실행한다.\n- 부트로더는 하드디스크의 첫 섹터인 MBR내 OS를 RAM에 로드한다(OS Loading).\n"},
+		{"id":"8ecf50fa50507547","x":-80,"y":-680,"width":559,"height":276,"type":"file","file":"OS/Bootstrap/canvas/ROM(Read-Only Memory).md"},
+		{"id":"ee7ec66d56c78198","x":626,"y":-700,"width":614,"height":327,"type":"text","text":"- BIOS는 컴퓨터의 하드웨어 장치들의 I/O를 관리하는 펌웨어(Firmware)이다.\n- 컴퓨터에 전원이 공급되면 ROM에 저장되어 있던 BIOS가 가장 먼저 실행된다.\n- 컴퓨터의 하드웨어 장치들(H/W) <-> BIOS(Firmware) <-> 운영체제(S/W)\n- 컴퓨터의 하드웨어 장치들과 운영체제(OS)사이에 "}
 	],
 	"edges":[
-		{"id":"29d9021e35417783","fromNode":"2d7aa1ad00a7745e","fromSide":"top","toNode":"21dddfec1c90341a","toSide":"bottom","label":"부팅?"}
+		{"id":"29d9021e35417783","fromNode":"2d7aa1ad00a7745e","fromSide":"top","toNode":"21dddfec1c90341a","toSide":"bottom","label":"부팅?"},
+		{"id":"86acbe576afab261","fromNode":"2d7aa1ad00a7745e","fromSide":"right","toNode":"cc216a71faa65c13","toSide":"left"},
+		{"id":"2f6c884210eda322","fromNode":"cc216a71faa65c13","fromSide":"top","toNode":"8ecf50fa50507547","toSide":"bottom","label":"ROM?"},
+		{"id":"bdb85360827e9525","fromNode":"cc216a71faa65c13","fromSide":"top","toNode":"ee7ec66d56c78198","toSide":"bottom"}
 	]
 }
