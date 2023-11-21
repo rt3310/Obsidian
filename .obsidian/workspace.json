@@ -26,9 +26,14 @@
             "id": "59e1dafc5293db90",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "OS/Disk/resources/RAID 5.png"
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -115,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
               }
             }
           }
@@ -180,8 +187,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "59e1dafc5293db90",
   "lastOpenFiles": [
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "OS/Bootstrap/canvas",
+    "OS/Bootstrap",
+    "conflict-files-obsidian-git.md",
     "Web/HttpSession/md/Stateless.md",
     "Web/HttpSession/md/HttpSession 인증처리 방식.md",
     "Web/HttpSession/md/Cookie vs Session.md",
@@ -217,11 +229,8 @@
     "Java/JVM/md/STW(Stop The World).md",
     "Java/JVM/md/Permanent.md",
     "Java/JVM/md/Parallel GC.md",
-    "Java/JVM/md/PC 레지스터.md",
-    "Java/JVM/md/Old 영역(Old Generation).md",
     "Java/JVM/md",
     "DB/Transaction/md",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Cache/resources",
     "DB/Cache/md",
     "DB/Cache/canvas",
@@ -229,9 +238,7 @@
     "ComputerStructure/Clock/md",
     "Employment/roadmap/RoadMap.canvas",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
-    "ComputerStructure/Clock/canvas",
     "OS/Disk/canvas/RAID.canvas",
-    "OS/Disk/resources",
     "OS/Thread/무제 파일.canvas",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/JVM.canvas",

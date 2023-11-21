@@ -39,5 +39,6 @@
   "OS/Disk": "FarStar",
   "OS/Thread": "FarStar",
   "Web/HttpSession": "FarStar",
-  "DB/Cache": "FarStar"
+  "DB/Cache": "FarStar",
+  "OS/Bootstrap": "FarStar"
 }

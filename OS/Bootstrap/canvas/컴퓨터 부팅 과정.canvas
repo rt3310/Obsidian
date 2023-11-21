@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"2d7aa1ad00a7745e","x":-500,"y":-160,"width":266,"height":39,"type":"text","text":"# 컴퓨터의 부팅 과정"},
+		{"id":"21dddfec1c90341a","x":-400,"y":-540,"width":700,"height":207,"type":"text","text":"- 부팅(Booting)이란 컴퓨터 본체를 누르고 사용자가 시작할 수 있는 상태가 될 때 끼지의 과정\n- 컴퓨터에 전원을 공급하고 운영체제 가동 및 시스템을 사용하기 위해 준비하는 과정을 부팅이라고 함"}
+	],
+	"edges":[
+		{"id":"29d9021e35417783","fromNode":"2d7aa1ad00a7745e","fromSide":"top","toNode":"21dddfec1c90341a","toSide":"bottom","label":"부팅?"}
+	]
+}

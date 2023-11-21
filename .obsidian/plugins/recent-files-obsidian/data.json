@@ -1,204 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "컴퓨터 부팅 과정",
+      "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
+    },
+    {
       "basename": "Cache 전략",
       "path": "DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "Cache Stampede 현상",
-      "path": "DB/Cache/resources/Cache Stampede 현상.png"
-    },
-    {
-      "basename": "Cache Stampede 현상",
-      "path": "DB/Cache/md/Cache Stampede 현상.md"
-    },
-    {
-      "basename": "Connectionless",
-      "path": "Web/HttpSession/md/Connectionless.md"
-    },
-    {
-      "basename": "레지스터",
-      "path": "ComputerStructure/Register/canvas/레지스터.canvas"
-    },
-    {
-      "basename": "ZonedDateTime",
-      "path": "ComputerStructure/Clock/md/ZonedDateTime.md"
-    },
-    {
-      "basename": "RTC",
-      "path": "ComputerStructure/Clock/md/RTC.md"
-    },
-    {
-      "basename": "NTP 서버",
-      "path": "ComputerStructure/Clock/md/NTP 서버.md"
-    },
-    {
-      "basename": "NTP",
-      "path": "ComputerStructure/Clock/md/NTP.md"
-    },
-    {
-      "basename": "캐시 가용성 지침",
-      "path": "DB/Cache/md/캐시 가용성 지침.md"
-    },
-    {
-      "basename": "MVCC",
-      "path": "DB/Transaction/md/MVCC.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "Java/JVM/canvas/JVM.canvas"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Java/JVM/canvas/Garbage Collector.canvas"
-    },
-    {
-      "basename": "가비지 컬렉터",
-      "path": "Java/JVM/md/가비지 컬렉터.md"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "Read Through + Write Through 조합",
-      "path": "DB/Cache/md/Read Through + Write Through 조합.md"
-    },
-    {
-      "basename": "캐시 읽기 + 쓰기 전략 조합",
-      "path": "DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md"
-    },
-    {
-      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
-      "path": "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md"
-    },
-    {
-      "basename": "캐시 읽기 전략(Read Cache Strategy)",
-      "path": "DB/Cache/md/캐시 읽기 전략(Read Cache Strategy).md"
-    },
-    {
-      "basename": "Write Around 패턴",
-      "path": "DB/Cache/md/Write Around 패턴.md"
-    },
-    {
-      "basename": "DynamoDB Accelerator",
-      "path": "DB/Cache/resources/DynamoDB Accelerator.png"
-    },
-    {
-      "basename": "캐시 공유 방식 지침",
-      "path": "DB/Cache/md/캐시 공유 방식 지침.md"
     },
     {
       "basename": "파레토 법칙",
       "path": "DB/Cache/md/파레토 법칙.md"
     },
     {
+      "basename": "Cache Stampede 현상",
+      "path": "DB/Cache/md/Cache Stampede 현상.md"
+    },
+    {
       "basename": "캐시 제거 방식 지침",
       "path": "DB/Cache/md/캐시 제거 방식 지침.md"
     },
     {
-      "basename": "캐시 저장 방식 지침",
-      "path": "DB/Cache/md/캐시 저장 방식 지침.md"
-    },
-    {
-      "basename": "Look Aside + Write Around 조합",
-      "path": "DB/Cache/md/Look Aside + Write Around 조합.md"
-    },
-    {
-      "basename": "Read Through + Write Through",
-      "path": "DB/Cache/resources/Read Through + Write Through.png"
-    },
-    {
-      "basename": "Read Through + Write Around 조합",
-      "path": "DB/Cache/md/Read Through + Write Around 조합.md"
-    },
-    {
-      "basename": "Write Around",
-      "path": "DB/Cache/resources/Write Around.png"
-    },
-    {
-      "basename": "Read Through + Write Around",
-      "path": "DB/Cache/resources/Read Through + Write Around.png"
-    },
-    {
-      "basename": "Look Aside + Write Around",
-      "path": "DB/Cache/resources/Look Aside + Write Around.png"
-    },
-    {
-      "basename": "Read Through 패턴",
-      "path": "DB/Cache/md/Read Through 패턴.md"
-    },
-    {
-      "basename": "Look Aside 패턴",
-      "path": "DB/Cache/md/Look Aside 패턴.md"
-    },
-    {
-      "basename": "Write Through 패턴",
-      "path": "DB/Cache/md/Write Through 패턴.md"
-    },
-    {
-      "basename": "Write Back 패턴",
-      "path": "DB/Cache/md/Write Back 패턴.md"
-    },
-    {
-      "basename": "Write Through",
-      "path": "DB/Cache/resources/Write Through.png"
-    },
-    {
-      "basename": "Write Back",
-      "path": "DB/Cache/resources/Write Back.png"
-    },
-    {
-      "basename": "Read Through",
-      "path": "DB/Cache/resources/Read Through.png"
+      "basename": "캐시 공유 방식 지침",
+      "path": "DB/Cache/md/캐시 공유 방식 지침.md"
     },
     {
       "basename": "Cache Warming",
       "path": "DB/Cache/md/Cache Warming.md"
     },
     {
-      "basename": "Permanent",
-      "path": "Java/JVM/md/Permanent.md"
+      "basename": "캐시 읽기 전략(Read Cache Strategy)",
+      "path": "DB/Cache/md/캐시 읽기 전략(Read Cache Strategy).md"
     },
     {
-      "basename": "age 값",
-      "path": "Java/JVM/md/age 값.md"
+      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
+      "path": "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md"
     },
     {
-      "basename": "G1 GC의 효율성",
-      "path": "Java/JVM/md/G1 GC의 효율성.md"
-    },
-    {
-      "basename": "컴퓨터 시간 원리",
-      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
-    },
-    {
-      "basename": "Look Aside",
-      "path": "DB/Cache/resources/Look Aside.png"
+      "basename": "캐시 읽기 + 쓰기 전략 조합",
+      "path": "DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md"
     },
     {
       "basename": "RoadMap",
       "path": "Employment/roadmap/RoadMap.canvas"
     },
     {
-      "basename": "CMS GC",
-      "path": "Java/JVM/resources/CMS GC.png"
+      "basename": "Garbage Collector",
+      "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
-      "basename": "G1 GC",
-      "path": "Java/JVM/resources/G1 GC.png"
+      "basename": "JVM",
+      "path": "Java/JVM/canvas/JVM.canvas"
     },
     {
-      "basename": "Serial GC",
-      "path": "Java/JVM/resources/Serial GC.png"
+      "basename": "힙 영역 상세",
+      "path": "Java/JVM/resources/힙 영역 상세.png"
     },
     {
-      "basename": "Parallel GC",
-      "path": "Java/JVM/resources/Parallel GC.png"
+      "basename": "Unreachable Object",
+      "path": "Java/JVM/resources/Unreachable Object.png"
     },
     {
-      "basename": "G1 GC Not Heap",
-      "path": "Java/JVM/resources/G1 GC Not Heap.png"
+      "basename": "Stop The World",
+      "path": "Java/JVM/resources/Stop The World.png"
+    },
+    {
+      "basename": "Excel 2023-11-20 10.37.25.sheet",
+      "path": "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md"
+    },
+    {
+      "basename": "컴퓨터 시간 원리",
+      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "레지스터",
+      "path": "ComputerStructure/Register/canvas/레지스터.canvas"
+    },
+    {
+      "basename": "RAID",
+      "path": "OS/Disk/canvas/RAID.canvas"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     }
   ],
   "omittedPaths": [],
