@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "캐시 제거 방식 지침",
-      "path": "DB/Cache/canvas/캐시 제거 방식 지침.md"
+      "basename": "캐시 공유 방식 지침",
+      "path": "DB/Cache/canvas/캐시 공유 방식 지침.md"
     },
     {
       "basename": "Cache 전략",
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
-      "basename": "캐시 저장 방식 지침",
-      "path": "DB/Cache/canvas/캐시 저장 방식 지침.md"
+      "basename": "Cache Stampede 현상",
+      "path": "DB/Cache/canvas/Cache Stampede 현상.md"
     },
     {
       "basename": "파레토 법칙",
       "path": "DB/Cache/canvas/파레토 법칙.md"
+    },
+    {
+      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
+      "path": "DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md"
+    },
+    {
+      "basename": "캐시 읽기 전략(Read Cache Strategy)",
+      "path": "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md"
+    },
+    {
+      "basename": "캐시 제거 방식 지침",
+      "path": "DB/Cache/canvas/캐시 제거 방식 지침.md"
+    },
+    {
+      "basename": "캐시 저장 방식 지침",
+      "path": "DB/Cache/canvas/캐시 저장 방식 지침.md"
     },
     {
       "basename": "Look Aside + Write Around 조합",
@@ -79,14 +95,6 @@
     {
       "basename": "DynamoDB Accelerator",
       "path": "DB/Cache/resources/DynamoDB Accelerator.png"
-    },
-    {
-      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
-      "path": "DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md"
-    },
-    {
-      "basename": "캐시 읽기 전략(Read Cache Strategy)",
-      "path": "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md"
     },
     {
       "basename": "Read Through",
@@ -191,14 +199,6 @@
     {
       "basename": "Minor GC",
       "path": "Java/JVM/resources/Minor GC.png"
-    },
-    {
-      "basename": "Minor GC",
-      "path": "Java/JVM/Minor GC.md"
-    },
-    {
-      "basename": "Survivor 0, Survivor 1",
-      "path": "Java/JVM/Survivor 0, Survivor 1.md"
     }
   ],
   "omittedPaths": [],
