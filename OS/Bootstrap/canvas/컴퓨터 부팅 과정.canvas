@@ -10,7 +10,7 @@
 		{"id":"f050c5178b3d7314","type":"file","file":"OS/Bootstrap/md/마스터 부트 레코드(MBR).md","x":1950,"y":-866,"width":621,"height":353},
 		{"id":"826f1b0f729ec674","type":"file","file":"OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md","x":1950,"y":-440,"width":603,"height":740},
 		{"id":"dba313ebaa06f94e","type":"file","file":"OS/Bootstrap/md/BIOS(Basic Input-Output System).md","x":472,"y":-1393,"width":580,"height":1004},
-		{"id":"49b31f19aae4d0cf","x":880,"y":60,"width":652,"height":420,"type":"text","text":"운영체제를 시작하기 위해 OS를 RAM에 올려주는 부팅 전용 프로그램이다.\n- 부팅할 장치의 MBR은 보조기억장치의 첫 섹터(512bytes)에는 부트로더가 포함되어 있다."}
+		{"id":"859d2e180c8aecb0","x":1052,"y":231,"width":652,"height":138,"type":"file","file":"OS/Bootstrap/canvas/부트로더(Boot Loader).md"}
 	],
 	"edges":[
 		{"id":"29d9021e35417783","fromNode":"2d7aa1ad00a7745e","fromSide":"top","toNode":"21dddfec1c90341a","toSide":"bottom","label":"부팅?"},
@@ -22,6 +22,6 @@
 		{"id":"9aaa880d39d4c6b9","fromNode":"c28d358a115c999d","fromSide":"right","toNode":"f050c5178b3d7314","toSide":"left","label":"MBR?"},
 		{"id":"2b5b36bb06635cca","fromNode":"f050c5178b3d7314","fromSide":"top","toNode":"7ffffcc3a20aa939","toSide":"bottom","label":"Bootstrapping"},
 		{"id":"ccb4e48839f3efda","fromNode":"c28d358a115c999d","fromSide":"right","toNode":"826f1b0f729ec674","toSide":"left","label":"GPT?"},
-		{"id":"332f08f0ecd041e0","fromNode":"cc216a71faa65c13","fromSide":"right","toNode":"49b31f19aae4d0cf","toSide":"left"}
+		{"id":"332f08f0ecd041e0","fromNode":"cc216a71faa65c13","fromSide":"right","toNode":"859d2e180c8aecb0","toSide":"left","label":"부트로더?"}
 	]
 }

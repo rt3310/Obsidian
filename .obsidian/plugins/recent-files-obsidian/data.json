@@ -5,6 +5,14 @@
       "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
     },
     {
+      "basename": "마스터 부트 레코드(MBR)",
+      "path": "OS/Bootstrap/md/마스터 부트 레코드(MBR).md"
+    },
+    {
+      "basename": "부트로더(Boot Loader)",
+      "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
+    },
+    {
       "basename": "BOOT ORDER Priorities",
       "path": "OS/Bootstrap/resources/BOOT ORDER Priorities.png"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "펌웨어(Firmware)",
       "path": "OS/Bootstrap/md/펌웨어(Firmware).md"
-    },
-    {
-      "basename": "마스터 부트 레코드(MBR)",
-      "path": "OS/Bootstrap/md/마스터 부트 레코드(MBR).md"
     },
     {
       "basename": "BIOS",
