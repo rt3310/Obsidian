@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Read Through + Write Through",
+      "path": "DB/Cache/Read Through + Write Through.md"
+    },
+    {
+      "basename": "Look Aside + Write Around 조합",
+      "path": "DB/Cache/Look Aside + Write Around 조합.md"
+    },
+    {
+      "basename": "캐시 읽기 + 쓰기 전략 조합",
+      "path": "DB/Cache/캐시 읽기 + 쓰기 전략 조합.md"
+    },
+    {
       "basename": "Cache 전략",
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
-      "basename": "Look Aside + Write Around 조합",
-      "path": "DB/Cache/canvas/Look Aside + Write Around 조합.md"
+      "basename": "Read Through + Write Through",
+      "path": "DB/Cache/resources/Read Through + Write Through.png"
+    },
+    {
+      "basename": "Read Through + Write Around 조합",
+      "path": "DB/Cache/Read Through + Write Around 조합.md"
+    },
+    {
+      "basename": "Write Around",
+      "path": "DB/Cache/resources/Write Around.png"
+    },
+    {
+      "basename": "Write Around 패턴",
+      "path": "DB/Cache/Write Around 패턴.md"
+    },
+    {
+      "basename": "Read Through + Write Around",
+      "path": "DB/Cache/resources/Read Through + Write Around.png"
     },
     {
       "basename": "Look Aside + Write Around",
-      "path": "Look Aside + Write Around.png"
+      "path": "DB/Cache/resources/Look Aside + Write Around.png"
     },
     {
       "basename": "Read Through 패턴",
@@ -23,10 +51,6 @@
     {
       "basename": "Write Through 패턴",
       "path": "DB/Cache/Write Through 패턴.md"
-    },
-    {
-      "basename": "Write Around 패턴",
-      "path": "DB/Cache/canvas/Write Around 패턴.md"
     },
     {
       "basename": "Write Back 패턴",
@@ -175,30 +199,6 @@
     {
       "basename": "Young 영역(Young Generation)",
       "path": "Java/JVM/Young 영역(Young Generation).md"
-    },
-    {
-      "basename": "GC의 Root Space",
-      "path": "Java/JVM/GC의 Root Space.md"
-    },
-    {
-      "basename": "Mark And Sweep",
-      "path": "Java/JVM/Mark And Sweep.md"
-    },
-    {
-      "basename": "Unreachable Object",
-      "path": "Java/JVM/resources/Unreachable Object.png"
-    },
-    {
-      "basename": "Stop The World",
-      "path": "Java/JVM/resources/Stop The World.png"
-    },
-    {
-      "basename": "STW(Stop The World)",
-      "path": "Java/JVM/STW(Stop The World).md"
-    },
-    {
-      "basename": "G1 GC",
-      "path": "Java/JVM/G1 GC.md"
     }
   ],
   "omittedPaths": [],

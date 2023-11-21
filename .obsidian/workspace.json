@@ -11,29 +11,23 @@
             "id": "bf67bd8dc35b1a22",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
-                "viewState": {
-                  "x": 967.2677820739225,
-                  "y": 44.25417020721649,
-                  "zoom": -0.27003366122139777
-                }
+                "file": "DB/Cache/Look Aside + Write Around 조합.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "bba14bb05a7cb0ba",
+            "id": "3ae4b2471b796830",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
-                "viewState": {
-                  "x": -1718.191222505677,
-                  "y": 338.82834927323313,
-                  "zoom": -0.08834934613664053
-                }
+                "file": "DB/Cache/Read Through + Write Through.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -112,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Cache/Read Through + Write Through.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Cache/Read Through + Write Through.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas"
+                "file": "DB/Cache/Read Through + Write Through.md"
               }
             }
           }
@@ -179,13 +173,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bba14bb05a7cb0ba",
+  "active": "3ae4b2471b796830",
   "lastOpenFiles": [
-    "DB/Cache/canvas/Look Aside + Write Around 조합.md",
-    "Look Aside + Write Around.png",
+    "DB/Cache/Look Aside + Write Around 조합.md",
+    "DB/Cache/캐시 읽기 + 쓰기 전략 조합.md",
     "DB/Cache/canvas/Cache 전략.canvas",
-    "DB/Cache/canvas/Write Around 패턴.md",
-    "Pasted image 20231121101756.png",
+    "DB/Cache/Read Through + Write Through.md",
+    "DB/Cache/resources/Read Through + Write Through.png",
+    "DB/Cache/resources/Write Around.png",
+    "DB/Cache/resources/Read Through + Write Around.png",
+    "DB/Cache/Read Through + Write Around 조합.md",
+    "DB/Cache/resources/Look Aside + Write Around.png",
+    "DB/Cache/Write Around 패턴.md",
     "DB/Cache/Write Back 패턴.md",
     "DB/Cache/resources/Write Through.png",
     "DB/Cache/resources/Write Back.png",
@@ -207,8 +206,6 @@
     "DB/Cache/canvas",
     "DB/Cache",
     "Java/JVM/resources/CMS GC.png",
-    "Java/JVM/resources/G1 GC.png",
-    "Java/JVM/resources/Serial GC.png",
     "Java/JVM/Shenandoah GC.md",
     "Java/JVM/ZGC.md",
     "Java/JVM/G1 GC의 효율성.md",
@@ -221,10 +218,6 @@
     "Java/JVM/Serial GC.md",
     "Java/JVM/Minor GC 과정.md",
     "Java/JVM/Minor GC.md",
-    "Java/JVM/Eden.md",
-    "Java/JVM/Old 영역(Old Generation).md",
-    "Java/JVM/Survivor 0, Survivor 1.md",
-    "Java/JVM/Permanent.md",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",

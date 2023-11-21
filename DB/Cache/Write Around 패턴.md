@@ -2,7 +2,7 @@
 - Write Through 보다 훨씬 빠르다.
 - 따라서 **캐시와 DB 내의 데이터가 다를 수 있다**. (데이터 불일치)
 
-![[Pasted image 20231121101756.png]]
+![[Write Around.png]]
 
 Write Around 패턴은 속도가 빠르지만, cache miss가 발생하기 전에 데이터베이스에 저장된 데이터가 수정되었을 때, 사용자가 조회하는 cache와 데이터베이스 간의 데이터 불일치가 발생하게 된다.
 
