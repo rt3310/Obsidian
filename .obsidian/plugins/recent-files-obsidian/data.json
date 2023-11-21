@@ -5,6 +5,26 @@
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
+      "basename": "Look Aside + Write Around 조합",
+      "path": "DB/Cache/canvas/Look Aside + Write Around 조합.md"
+    },
+    {
+      "basename": "Look Aside + Write Around",
+      "path": "Look Aside + Write Around.png"
+    },
+    {
+      "basename": "Read Through 패턴",
+      "path": "DB/Cache/Read Through 패턴.md"
+    },
+    {
+      "basename": "Look Aside 패턴",
+      "path": "DB/Cache/Look Aside 패턴.md"
+    },
+    {
+      "basename": "Write Through 패턴",
+      "path": "DB/Cache/Write Through 패턴.md"
+    },
+    {
       "basename": "Write Around 패턴",
       "path": "DB/Cache/canvas/Write Around 패턴.md"
     },
@@ -25,24 +45,12 @@
       "path": "DB/Cache/resources/DynamoDB Accelerator.png"
     },
     {
-      "basename": "Write Through 패턴",
-      "path": "DB/Cache/Write Through 패턴.md"
-    },
-    {
-      "basename": "Read Through 패턴",
-      "path": "DB/Cache/Read Through 패턴.md"
-    },
-    {
       "basename": "캐시 쓰기 전략(Write Cache Strategy)",
       "path": "DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md"
     },
     {
       "basename": "캐시 읽기 전략(Read Cache Strategy)",
       "path": "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md"
-    },
-    {
-      "basename": "Look Aside 패턴",
-      "path": "DB/Cache/Look Aside 패턴.md"
     },
     {
       "basename": "Read Through",
@@ -191,14 +199,6 @@
     {
       "basename": "G1 GC",
       "path": "Java/JVM/G1 GC.md"
-    },
-    {
-      "basename": "가비지 컬렉션 알고리즘 종류",
-      "path": "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png"
-    },
-    {
-      "basename": "major gc 3",
-      "path": "Java/JVM/resources/major gc 3.gif"
     }
   ],
   "omittedPaths": [],

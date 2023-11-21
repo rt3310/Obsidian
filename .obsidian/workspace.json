@@ -30,9 +30,9 @@
               "state": {
                 "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": 253.6074884255823,
-                  "y": 458.0989201293873,
-                  "zoom": -1.4216826794699737
+                  "x": -1718.191222505677,
+                  "y": 338.82834927323313,
+                  "zoom": -0.08834934613664053
                 }
               }
             }
@@ -181,12 +181,14 @@
   },
   "active": "bba14bb05a7cb0ba",
   "lastOpenFiles": [
+    "DB/Cache/canvas/Look Aside + Write Around 조합.md",
+    "Look Aside + Write Around.png",
+    "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Cache/canvas/Write Around 패턴.md",
     "Pasted image 20231121101756.png",
     "DB/Cache/Write Back 패턴.md",
     "DB/Cache/resources/Write Through.png",
     "DB/Cache/resources/Write Back.png",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Cache/resources/DynamoDB Accelerator.png",
     "DB/Cache/Write Through 패턴.md",
     "DB/Cache/Read Through 패턴.md",
@@ -207,7 +209,6 @@
     "Java/JVM/resources/CMS GC.png",
     "Java/JVM/resources/G1 GC.png",
     "Java/JVM/resources/Serial GC.png",
-    "Java/JVM/resources/Parallel GC.png",
     "Java/JVM/Shenandoah GC.md",
     "Java/JVM/ZGC.md",
     "Java/JVM/G1 GC의 효율성.md",
@@ -224,7 +225,6 @@
     "Java/JVM/Old 영역(Old Generation).md",
     "Java/JVM/Survivor 0, Survivor 1.md",
     "Java/JVM/Permanent.md",
-    "Java/JVM/실행 엔진.md",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",
