@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "캐시 공유 방식 지침",
-      "path": "DB/Cache/canvas/캐시 공유 방식 지침.md"
-    },
-    {
       "basename": "Cache 전략",
       "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "캐시 가용성 지침",
+      "path": "DB/Cache/canvas/캐시 가용성 지침.md"
+    },
+    {
+      "basename": "캐시 공유 방식 지침",
+      "path": "DB/Cache/canvas/캐시 공유 방식 지침.md"
     },
     {
       "basename": "Cache Stampede 현상",
@@ -195,10 +199,6 @@
     {
       "basename": "Major GC",
       "path": "Java/JVM/Major GC.md"
-    },
-    {
-      "basename": "Minor GC",
-      "path": "Java/JVM/resources/Minor GC.png"
     }
   ],
   "omittedPaths": [],

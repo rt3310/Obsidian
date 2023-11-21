@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fa5e134a9e48b30e",
+        "id": "56fe35a031310ca2",
         "type": "tabs",
         "children": [
           {
-            "id": "a9acebca4fb41911",
+            "id": "9887829967eed14b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "DB/Cache/canvas/캐시 공유 방식 지침.md",
-                "mode": "source",
-                "source": false
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "viewState": {
+                  "x": -1183.6131888054063,
+                  "y": 593.6937482417961,
+                  "zoom": -1.1020380882346361
+                }
               }
             }
           }
@@ -93,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/canvas/캐시 공유 방식 지침.md",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/canvas/캐시 공유 방식 지침.md",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/canvas/캐시 공유 방식 지침.md"
+                "file": "DB/Cache/canvas/Cache 전략.canvas"
               }
             }
           }
@@ -160,8 +163,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a9acebca4fb41911",
+  "active": "9887829967eed14b",
   "lastOpenFiles": [
+    "DB/Cache/canvas/캐시 가용성 지침.md",
     "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Cache/canvas/캐시 공유 방식 지침.md",
     "DB/Cache/canvas/Cache Stampede 현상.md",
@@ -204,7 +208,6 @@
     "Java/JVM/Pasted image 20231120144302.png] ![[Pasted image 20231120144351.png.md",
     "Java/JVM/Major GC.md",
     "Java/JVM/age 값.md",
-    "Java/JVM/G1 GC.md",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",
