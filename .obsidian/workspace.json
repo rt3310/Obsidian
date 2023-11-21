@@ -26,9 +26,14 @@
             "id": "7a8e6e683c8357fa",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "DB/Cache/resources/Cache Stampede 현상.png"
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "viewState": {
+                  "x": -770.0099533318271,
+                  "y": 1661.2120807022031,
+                  "zoom": -0.43537142156796954
+                }
               }
             }
           }
@@ -107,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/resources/Cache Stampede 현상.png",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/resources/Cache Stampede 현상.png",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/resources/Cache Stampede 현상.png"
+                "file": "DB/Cache/canvas/Cache 전략.canvas"
               }
             }
           }
@@ -174,10 +179,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "7a8e6e683c8357fa",
   "lastOpenFiles": [
-    "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Cache/resources/Cache Stampede 현상.png",
+    "DB/Cache/canvas/Cache 전략.canvas",
     "Web/HttpSession/md/Connectionless.md",
     "Web/HttpSession/md",
     "ComputerStructure/Register/canvas/레지스터.canvas",
