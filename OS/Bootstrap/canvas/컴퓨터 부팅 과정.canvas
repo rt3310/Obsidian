@@ -7,7 +7,9 @@
 		{"id":"dba313ebaa06f94e","type":"file","file":"OS/Bootstrap/canvas/BIOS(Basic Input-Output System).md","x":472,"y":-1140,"width":580,"height":709},
 		{"id":"ea15de18f08fd1a1","type":"file","file":"OS/Bootstrap/canvas/펌웨어(Firmware).md","x":1197,"y":-1160,"width":551,"height":232},
 		{"id":"c28d358a115c999d","type":"file","file":"OS/Bootstrap/canvas/UEFI(Unified Extensible Firmware Interface).md","x":1197,"y":-860,"width":583,"height":694},
-		{"id":"c18da71ccbeac2c7","x":1958,"y":-750,"width":250,"height":60,"type":"text","text":"마스터 부트 레코드(MBR, master boot"}
+		{"id":"f050c5178b3d7314","x":1920,"y":-866,"width":621,"height":353,"type":"file","file":"OS/Bootstrap/canvas/마스터 부트 레코드(MBR).md"},
+		{"id":"7ffffcc3a20aa939","x":1890,"y":-1313,"width":681,"height":306,"type":"file","file":"OS/Bootstrap/canvas/MBR과 부트스트래핑.md"},
+		{"id":"5324a853150307b1","x":1911,"y":-337,"width":709,"height":257,"type":"text","text":"컴퓨터 하드웨어에서 GUID 파티션 테이블(GPT, GUID Partition Table)은 물리적인 하드 디스크에 대한 파티션 테이블 레이아웃 표준이다.\n확장 펌웨어 인터페이스(EFI) 표준의 일부로 형성되어 있기는 하지만 MBR 파티션 테이블의 제한 때문에 일부 바이오스 시스템에 사용되기도 한다.\nMBR 파티션 테이블의 경우 하나의 디스크 파티션 크기를 최대 2.2TB로 제한한다.\nGPT는 최대 디스크 및 파티션 크기를 9.4ZB까지 허용한다."}
 	],
 	"edges":[
 		{"id":"29d9021e35417783","fromNode":"2d7aa1ad00a7745e","fromSide":"top","toNode":"21dddfec1c90341a","toSide":"bottom","label":"부팅?"},
@@ -16,6 +18,8 @@
 		{"id":"bdb85360827e9525","fromNode":"cc216a71faa65c13","fromSide":"top","toNode":"dba313ebaa06f94e","toSide":"bottom","label":"BIOS?"},
 		{"id":"6cbac6e0cb9f2956","fromNode":"dba313ebaa06f94e","fromSide":"right","toNode":"ea15de18f08fd1a1","toSide":"left","label":"Firmware?"},
 		{"id":"e3f304ce9fb4fd4e","fromNode":"dba313ebaa06f94e","fromSide":"right","toNode":"c28d358a115c999d","toSide":"left","label":"UEFI?"},
-		{"id":"9aaa880d39d4c6b9","fromNode":"c28d358a115c999d","fromSide":"right","toNode":"c18da71ccbeac2c7","toSide":"left"}
+		{"id":"9aaa880d39d4c6b9","fromNode":"c28d358a115c999d","fromSide":"right","toNode":"f050c5178b3d7314","toSide":"left","label":"MBR?"},
+		{"id":"2b5b36bb06635cca","fromNode":"f050c5178b3d7314","fromSide":"top","toNode":"7ffffcc3a20aa939","toSide":"bottom","label":"Bootstrapping"},
+		{"id":"ccb4e48839f3efda","fromNode":"c28d358a115c999d","fromSide":"right","toNode":"5324a853150307b1","toSide":"left","label":"GPT?"}
 	]
 }

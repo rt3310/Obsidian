@@ -5,6 +5,14 @@
       "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
     },
     {
+      "basename": "MBR과 부트스트래핑",
+      "path": "OS/Bootstrap/canvas/MBR과 부트스트래핑.md"
+    },
+    {
+      "basename": "마스터 부트 레코드(MBR)",
+      "path": "OS/Bootstrap/canvas/마스터 부트 레코드(MBR).md"
+    },
+    {
       "basename": "펌웨어(Firmware)",
       "path": "OS/Bootstrap/canvas/펌웨어(Firmware).md"
     },
