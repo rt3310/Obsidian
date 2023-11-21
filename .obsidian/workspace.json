@@ -21,8 +21,19 @@
                 }
               }
             }
+          },
+          {
+            "id": "59e1dafc5293db90",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "OS/Disk/resources/RAID 5.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,6 +86,14 @@
               "type": "file-tree-view",
               "state": {}
             }
+          },
+          {
+            "id": "c28bc1c15218334b",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
@@ -96,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Employment/roadmap/RoadMap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Employment/roadmap/RoadMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Employment/roadmap/RoadMap.canvas"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -160,66 +177,66 @@
       "obsidian-full-calendar:Open Full Calendar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "09f978acdccc6815",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
+    "Web/HttpSession/md/Stateless.md",
+    "Web/HttpSession/md/HttpSession 인증처리 방식.md",
+    "Web/HttpSession/md/Cookie vs Session.md",
+    "Web/HttpSession/md/Connectionless.md",
+    "Web/HttpSession/md",
+    "Java/JVM/resources/힙 영역 상세 2.png",
+    "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
+    "Java/JVM/resources/가비지 컬렉션 동작 과정.png",
+    "Java/JVM/resources/root space.png",
+    "Java/JVM/resources/permanent.png",
+    "Java/JVM/resources/minor gc 9.png",
+    "Java/JVM/resources/minor gc 8.png",
+    "Java/JVM/resources/minor gc 7.png",
+    "Java/JVM/resources/minor gc 6.png",
+    "Java/JVM/resources/minor gc 5.png",
+    "Java/JVM/md/힙 영역.md",
+    "Java/JVM/md/클래스 파일 로딩 순서.md",
+    "Java/JVM/md/클래스 로더.md",
+    "Java/JVM/md/실행 엔진.md",
+    "Java/JVM/md/스택 영역.md",
+    "Java/JVM/md/메소드 영역.md",
+    "Java/JVM/md/런타임 데이터 영역.md",
+    "Java/JVM/md/네이티브 메소드 인터페이스(JNI).md",
+    "Java/JVM/md/네이티브 메소드 스택.md",
+    "Java/JVM/md/네이티브 메소드 라이브러리.md",
+    "Java/JVM/md/가비지 컬렉터.md",
+    "Java/JVM/md/age 값.md",
+    "Java/JVM/md/ZGC.md",
+    "Java/JVM/md/Young 영역(Young Generation).md",
+    "Java/JVM/md/Survivor 0, Survivor 1.md",
+    "Java/JVM/md/Shenandoah GC.md",
+    "Java/JVM/md/Serial GC.md",
+    "Java/JVM/md/STW(Stop The World).md",
+    "Java/JVM/md/Permanent.md",
+    "Java/JVM/md/Parallel GC.md",
+    "Java/JVM/md/PC 레지스터.md",
+    "Java/JVM/md/Old 영역(Old Generation).md",
+    "Java/JVM/md",
+    "DB/Transaction/md",
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Cache/resources",
+    "DB/Cache/md",
+    "DB/Cache/canvas",
+    "DB/Cache",
+    "ComputerStructure/Clock/md",
+    "Employment/roadmap/RoadMap.canvas",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "ComputerStructure/Clock/canvas",
     "OS/Disk/canvas/RAID.canvas",
-    "OS/Disk/resources/RAID 5.png",
-    "OS/Disk/resources/RAID 6.png",
-    "OS/Disk/resources/RAID 4.png",
-    "OS/Disk/resources/RAID 0.png",
     "OS/Disk/resources",
-    "OS/Disk/canvas",
-    "OS/Disk/resources/RAID 1.png",
     "OS/Thread/무제 파일.canvas",
-    "OS/Disk",
-    "OS/Thread/사용자 수준 쓰레드(ULT).md",
-    "OS/Thread/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
-    "OS/Thread/멀티 쓰레딩.md",
-    "OS/Thread",
-    "Employment/roadmap/RoadMap.canvas",
-    "Employment/roadmap/무제 파일.md",
-    "Java/JVM/resources/Stop The World.png",
-    "Java/JVM/resources/스택 영역 위치.png",
-    "Java/JVM/resources/무제 파일.md",
-    "Employment/roadmap",
-    "Employment/무제 파일.md",
-    "Employment",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/JVM.canvas",
-    "Java/JVM/가비지 컬렉터.md",
-    "Java/JVM/네이티브 메소드 라이브러리.md",
     "ComputerStructure/Register/canvas/레지스터.canvas",
-    "Java",
-    "ComputerStructure/Register/resources/x86-64 Register.png",
-    "ComputerStructure/Register/canvas",
-    "ComputerStructure/Register/무제 파일.md",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
-    "Web/HttpSession/resources/Cookie.png",
-    "Web/HttpSession/canvas/HttpSession.canvas",
-    "Web/HttpSession/Stateless.md",
-    "Web/HttpSession/HttpSession 인증처리 방식.md",
-    "Web/HttpSession/Cookie vs Session.md",
-    "Web/HttpSession/Connectionless.md",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "DB/Transaction/READ UNCOMMITTED의 Dirty Read.md",
-    "DB/Transaction/READ COMMITTED 작동 방식.md",
-    "DB/Transaction/READ UNCOMMITTED.md",
-    "DB/Transaction/Non-Repeatable Read.md",
-    "DB/Transaction/READ COMMITTED.md",
-    "DB/Transaction/MySQL Phantom Read.md",
-    "DB/Transaction/Phantom Read.md",
-    "DB/Transaction/REPEATABLE READ 작동 방식.md",
-    "DB/Transaction/SERIALIZABLE 작동 방식.md",
-    "DB/Transaction/SERIALIZABLE.md",
-    "DB/Transaction/REPEATABLE READ.md",
-    "DB/Transaction/MVCC.md",
-    "DB/Transaction/canvas_png"
+    "Web/HttpSession/canvas/HttpSession.canvas"
   ]
 }

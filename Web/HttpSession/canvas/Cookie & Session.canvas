@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"d0f587a5cdd6f883","type":"file","file":"Web/HttpSession/Cookie vs Session.md","x":115,"y":-340,"width":683,"height":500},
+		{"id":"d0f587a5cdd6f883","type":"file","file":"Web/HttpSession/md/Cookie vs Session.md","x":115,"y":-340,"width":683,"height":500},
 		{"id":"c1b716067f3e1670","type":"text","text":"# Cookie & Session","x":-560,"y":-120,"width":300,"height":62},
 		{"id":"2ac784ac67abaacd","type":"text","text":"HTTP 프로토콜의 특성이자 약점을 보완하기 위해 쿠키 또는 세션을 사용한다.","x":-410,"y":-360,"width":330,"height":78},
 		{"id":"7404354a3ac920f2","type":"text","text":"기본적으로 HTTP 프로토콜 환경은 **Connectionless**, **Stateless**한 특성을 가지기 때문에 서버는 클라이언트가 누구인지 매번 확인해야 한다.","x":-226,"y":-560,"width":406,"height":98},
-		{"id":"b68cb75bbeef07ae","type":"file","file":"Web/HttpSession/Connectionless.md","x":-633,"y":-1080,"width":553,"height":320},
-		{"id":"bd6476397f2f8f85","type":"file","file":"Web/HttpSession/Stateless.md","x":40,"y":-1088,"width":571,"height":328},
+		{"id":"b68cb75bbeef07ae","type":"file","file":"Web/HttpSession/md/Connectionless.md","x":-633,"y":-1080,"width":553,"height":320},
+		{"id":"bd6476397f2f8f85","type":"file","file":"Web/HttpSession/md/Stateless.md","x":40,"y":-1088,"width":571,"height":328},
 		{"id":"fda6299042e107c6","type":"text","text":"- 클라이언트(브라우저) 로컬에 저장되는 키와 값이 들어있는 작은 데이터 파일\n- 사용자 인증이 유효한 시간을 명시할 수 있으며, 유효 시간이 정해지면 브라우저가 종료되어도 인증이 유지된다는 특징이 있다.\n- 쿠키는 클라이언트의 상태 정보를 로컬에 저장했다가 참조한다.\n- 클라이언트에 300개 까지 쿠키 저장 가능, 하나의 도메인당 20개의 값만 가질 수 있음, 하나의 쿠키 값은 4KB까지 저장 가능하다.\n- Response-Header에 Set-Cookie 속성을 사용하면 클라이언트에 쿠키를 만들 수 있다.\n- 쿠키는 사용자가 따로 요청하지 않아도 브라우저가 Request 시에 Request Header를 넣어서 자동으로 서버에 전송한다.","x":-391,"y":239,"width":910,"height":200},
 		{"id":"7a0d8d09cc47b2fd","type":"text","text":"- 이름: 각각의 쿠키를 구별하는 데 사용되는 이름\n- 값: 쿠키의 이름과 관련된 값\n- 유효시간: 쿠키의 유지시간\n- 도메인: 쿠키를 전송할 도메인\n- 경로: 쿠키를 전송할 요청 경로","x":-425,"y":652,"width":399,"height":168},
 		{"id":"0308a17e3970e648","type":"text","text":"1. 클라이언트가 페이지를 요청\n2. 서버에서 쿠키를 생성\n3. HTTP 헤더에 쿠키를 포함시켜 응답\n4. 브라우저가 종료되어도 쿠키 만료 기간이 있다면 클라이언트에서 보관하고 있다.\n5. 같은 요청을 할 경우 HTTP 헤더에 쿠키를 함께 보냄\n6. 서버에서 쿠키를 읽어 이전 상태 정보를 변경할 필요가 있을 때 쿠키를 업데이트 하여 변경된 쿠키를 HTTP 헤더에 포함시켜 응답","x":180,"y":613,"width":552,"height":263},
