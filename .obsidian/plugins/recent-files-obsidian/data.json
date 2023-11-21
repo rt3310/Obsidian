@@ -1,40 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "컴퓨터 시간 원리",
-      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
-    },
-    {
       "basename": "Cache 전략",
       "path": "DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "Cache Warming",
-      "path": "DB/Cache/Cache Warming.md"
-    },
-    {
-      "basename": "Look Aside 패턴",
-      "path": "DB/Cache/Look Aside 패턴.md"
-    },
-    {
-      "basename": "Look Aside",
-      "path": "DB/Cache/resources/Look Aside.png"
-    },
-    {
-      "basename": "캐시 읽기 전략(Read Cache Strategy)",
-      "path": "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md"
     },
     {
       "basename": "캐시 쓰기 전략(Write Cache Strategy)",
       "path": "DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md"
     },
     {
-      "basename": "RoadMap",
-      "path": "Employment/roadmap/RoadMap.canvas"
+      "basename": "캐시 읽기 전략(Read Cache Strategy)",
+      "path": "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md"
+    },
+    {
+      "basename": "Read Through 패턴",
+      "path": "DB/Cache/Read Through 패턴.md"
+    },
+    {
+      "basename": "Look Aside 패턴",
+      "path": "DB/Cache/Look Aside 패턴.md"
+    },
+    {
+      "basename": "Read Through",
+      "path": "DB/Cache/resources/Read Through.png"
+    },
+    {
+      "basename": "Cache Warming",
+      "path": "DB/Cache/Cache Warming.md"
+    },
+    {
+      "basename": "JVM",
+      "path": "Java/JVM/canvas/JVM.canvas"
     },
     {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "Permanent",
+      "path": "Java/JVM/Permanent.md"
+    },
+    {
+      "basename": "age 값",
+      "path": "Java/JVM/age 값.md"
+    },
+    {
+      "basename": "G1 GC의 효율성",
+      "path": "Java/JVM/G1 GC의 효율성.md"
+    },
+    {
+      "basename": "컴퓨터 시간 원리",
+      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "Look Aside",
+      "path": "DB/Cache/resources/Look Aside.png"
+    },
+    {
+      "basename": "RoadMap",
+      "path": "Employment/roadmap/RoadMap.canvas"
     },
     {
       "basename": "CMS GC",
@@ -65,10 +89,6 @@
       "path": "Java/JVM/Shenandoah GC.md"
     },
     {
-      "basename": "JVM",
-      "path": "Java/JVM/canvas/JVM.canvas"
-    },
-    {
       "basename": "ZGC",
       "path": "Java/JVM/resources/ZGC.png"
     },
@@ -77,16 +97,8 @@
       "path": "Java/JVM/resources/Parallel Compacting Collector.png"
     },
     {
-      "basename": "Permanent",
-      "path": "Java/JVM/Permanent.md"
-    },
-    {
       "basename": "ZGC",
       "path": "Java/JVM/ZGC.md"
-    },
-    {
-      "basename": "G1 GC의 효율성",
-      "path": "Java/JVM/G1 GC의 효율성.md"
     },
     {
       "basename": "Parallel GC",
@@ -99,10 +111,6 @@
     {
       "basename": "CMS GC",
       "path": "Java/JVM/CMS GC.md"
-    },
-    {
-      "basename": "age 값",
-      "path": "Java/JVM/age 값.md"
     },
     {
       "basename": "Minor GC 과정",
@@ -191,14 +199,6 @@
     {
       "basename": "minor gc 13",
       "path": "Java/JVM/resources/minor gc 13.png"
-    },
-    {
-      "basename": "minor gc 11",
-      "path": "Java/JVM/resources/minor gc 11.png"
-    },
-    {
-      "basename": "minor gc 12",
-      "path": "Java/JVM/resources/minor gc 12.png"
     }
   ],
   "omittedPaths": [],

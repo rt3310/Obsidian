@@ -28,11 +28,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": 474.5,
-                  "y": 1424.6771507863093,
-                  "zoom": -1.5809531557390117
+                  "x": -1095.8602291531715,
+                  "y": 813.6374655177706,
+                  "zoom": 0.8116810192726478
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+                "file": "DB/Cache/canvas/Cache 전략.canvas"
               }
             }
           }
@@ -179,9 +179,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "bba14bb05a7cb0ba",
   "lastOpenFiles": [
+    "DB/Cache/Read Through 패턴.md",
+    "DB/Cache/resources/Read Through.png",
     "DB/Cache/canvas/Cache 전략.canvas",
+    "Java/JVM/canvas/JVM.canvas",
+    "Java/JVM/canvas/Garbage Collector.canvas",
+    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "DB/Cache/Cache Warming.md",
     "DB/Cache/resources/Look Aside.png",
     "DB/Cache/Look Aside 패턴.md",
@@ -192,7 +197,6 @@
     "DB/Cache/resources",
     "DB/Cache/canvas",
     "DB/Cache",
-    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/resources/CMS GC.png",
     "Java/JVM/resources/G1 GC.png",
     "Java/JVM/resources/Serial GC.png",
@@ -200,7 +204,6 @@
     "Java/JVM/resources/G1 GC Not Heap.png",
     "Java/JVM/resources/Shenandoah GC.png",
     "Java/JVM/Shenandoah GC.md",
-    "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/resources/ZGC.png",
     "Java/JVM/resources/Parallel Compacting Collector.png",
     "Java/JVM/ZGC.md",
@@ -212,7 +215,6 @@
     "Java/JVM/CMS GC.md",
     "Java/JVM/Parallel GC.md",
     "Java/JVM/Serial GC.md",
-    "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
     "Java/JVM/Minor GC 과정.md",
     "Java/JVM/Minor GC.md",
     "Java/JVM/Eden.md",
@@ -223,7 +225,6 @@
     "Java/JVM/Young 영역(Young Generation).md",
     "Java/JVM/GC의 Root Space.md",
     "Java/JVM/Mark And Sweep.md",
-    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",

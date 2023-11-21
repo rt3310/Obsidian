@@ -5,14 +5,16 @@
 		{"id":"bc42b45024fea32c","type":"text","text":"캐싱 전략은 웹 서비스 환경에서 시스템 성능 향상을 기대할 수 있는 중요한 기술이다.\n\n일반적으로 캐시(cache)는 메모리(RAM)를 사용하기 때문에 데이터베이스보다 훨씬 빠르게 데이터를 응답할 수 있어 이용자에게 빠르게 서비스를 제공할 수 있다.\n\n하지만 기본적으로 RAM의 용량은 커봐야 16 ~ 32G 정도라, 데이터를 모두 캐시에 저장해버리면 용량 부족 현상이 일어나 시스템이 다운 될 수 있다.\n\n따라서 어느 종류의 데이터를 캐시에 저장할지, 얼만큼 데이터를 캐시에 저장할지, 얼마동안 오래된 데이터를 캐시에서 제거하는지에 대한 지침 전략을 숙지할 필요가 있다.","x":109,"y":-334,"width":595,"height":268},
 		{"id":"42f060940bfe3d5a","type":"text","text":"> [!TIP]\n> 캐시를 효율적으로 이용하기 위해서는 캐시에 저장할 데이터 특성도 고려해야 한다.\n> 예를 들어, 자주 조회되는 데이터, 결과값이 자주 변동되지 않고 일정한 데이터, 조회하는데 연산이 필요한 데이터를 캐싱해두면 좋다.","x":100,"y":-600,"width":613,"height":184,"color":"5"},
 		{"id":"d5b733d7ce1aceeb","type":"text","text":"캐시를 이용하게 되면 반드시 닥쳐오는 문제점이 있는데 바로 데이터 정합성 문제이다.\n\n이전에는 그냥 DB에서 데이터 조회와 작성을 처리하였기 때문에 데이터 정합성 문제가 나타나지 않았지만, 캐시라는 또 다른 데이터 저장소를 이용하기 때문에, 결국 같은 종류의 데이터라도 두 저장소에서 저장된 값이 서로 다를 수 있는 현상이 일어날 수 밖에 없는 것이다.\n\n따라서 적절한 **캐시 읽기 전략(Read Cache Strategy)** 과 **캐시 쓰기 전략(Write Cache Strategy)** 을 통해, 캐시와 DB간의 데이터 불일치 문제를 극복하면서도 빠른 성능을 잃지 않게 하기 위해 고심히 연구를 할 필요가 있다.","x":-673,"y":60,"width":750,"height":218},
-		{"id":"9a0e1894497029e9","type":"file","file":"DB/Cache/캐시 읽기 전략(Read Cache Strategy).md","x":252,"y":0,"width":461,"height":121},
-		{"id":"8a226c96e4c197c1","type":"file","file":"DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md","x":252,"y":201,"width":465,"height":154},
-		{"id":"547b70fec82e202a","type":"text","text":"","x":960,"y":355,"width":250,"height":60},
-		{"id":"01c9d5f8570714b0","type":"file","file":"DB/Cache/Look Aside 패턴.md","x":960,"y":-780,"width":660,"height":924},
-		{"id":"622f373e093fd50e","type":"file","file":"DB/Cache/Cache Warming.md","x":1800,"y":-799,"width":730,"height":295,"color":"#0000ff"},
-		{"id":"bb07858f40df8adb","x":1600,"y":-1060,"width":512,"height":118,"type":"text","text":"Thundering Herd란 하나의 소켓에 대해서 select나 epoll 같이 통신 가능하게 되는 것을 기다리는 시스템 콜을 이용하여 복수의 프로세스(or 스레드)가 대기하고 있다면, 통신 가능하게 되었을 때 원래 하나의 프로세스만 일어나기를 원했는데 대기하던 모든 프로세스가 일어나는 문제이다."},
-		{"id":"3bf087926d1632be","x":2240,"y":-1000,"width":352,"height":58,"type":"text","text":"TTL(Time to live)는 컴퓨터나 네트워크에서 데이터의 유효 기간을 나타내기 위한 방법이다."},
-		{"id":"829202cb9df71a38","x":1967,"y":-377,"width":557,"height":154,"color":"5","type":"text","text":"> [!TIP]\n> Thundering Herd는 모든 지점에서 발생되는 것은 아니고, 서비스의 첫 페이지와 같은 대부분의 조회가 몰리는 지점에서 주로 발생된다고 보면 된다."}
+		{"id":"9a0e1894497029e9","type":"file","file":"DB/Cache/캐시 읽기 전략(Read Cache Strategy).md","x":360,"y":121,"width":461,"height":121},
+		{"id":"829202cb9df71a38","type":"text","text":"> [!TIP]\n> Thundering Herd는 모든 지점에서 발생되는 것은 아니고, 서비스의 첫 페이지와 같은 대부분의 조회가 몰리는 지점에서 주로 발생된다고 보면 된다.","x":2167,"y":-354,"width":557,"height":154,"color":"5"},
+		{"id":"622f373e093fd50e","type":"file","file":"DB/Cache/Cache Warming.md","x":2081,"y":-780,"width":730,"height":295,"color":"#0000ff"},
+		{"id":"bb07858f40df8adb","type":"text","text":"Thundering Herd란 하나의 소켓에 대해서 select나 epoll 같이 통신 가능하게 되는 것을 기다리는 시스템 콜을 이용하여 복수의 프로세스(or 스레드)가 대기하고 있다면, 통신 가능하게 되었을 때 원래 하나의 프로세스만 일어나기를 원했는데 대기하던 모든 프로세스가 일어나는 문제이다.","x":1860,"y":-1037,"width":512,"height":118},
+		{"id":"3bf087926d1632be","type":"text","text":"TTL(Time to live)는 컴퓨터나 네트워크에서 데이터의 유효 기간을 나타내기 위한 방법이다.","x":2500,"y":-977,"width":352,"height":58},
+		{"id":"4d88773336a05b57","x":2000,"y":691,"width":547,"height":124,"color":"5","type":"text","text":"> [!TIP]\n> 이 방식 또한 서비스 운영 초반에 cache warming을 수행하는 것이 좋다."},
+		{"id":"01c9d5f8570714b0","type":"file","file":"DB/Cache/Look Aside 패턴.md","x":1160,"y":-875,"width":700,"height":964},
+		{"id":"314826654ca21bb7","type":"file","file":"DB/Cache/Read Through 패턴.md","x":1160,"y":144,"width":700,"height":903},
+		{"id":"8a226c96e4c197c1","type":"file","file":"DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md","x":-530,"y":460,"width":465,"height":154},
+		{"id":"9ffdd4bf6f4d12ad","x":-1320,"y":800,"width":700,"height":680,"type":"text","text":"- Write Behind 패턴이라고도 불린다.\n- 캐시와 DB 사이에 비동기적으로 수행하기 때문에 동기화 과정이 생략된다.\n- 데이터를 저장할 때 DB에 바로 쿼리하지 않고, 캐시에 모아서 일정 주기 배치 작업을 통해 DB에 반영한다.\n- 캐시에 모아놨다가 DB에 쓰기 때문에 쓰기 쿼리 횟수 비용과 부하를 줄일 수 있다.\n- Write가 빈번하면서 Read를 하는데 많은 양의 Resource가 소모되는 서비스에 적합하다.\n- 데이터 정합성 확보\n- 자주 사용되지 않는 불필요한 리소스 저장"}
 	],
 	"edges":[
 		{"id":"bcfcc66754001d83","fromNode":"7b839874ead5e33b","fromSide":"right","toNode":"bc42b45024fea32c","toSide":"left","label":"캐시 전략이 왜 필요한가?"},
@@ -20,12 +22,14 @@
 		{"id":"4596bafe5655e570","fromNode":"7b839874ead5e33b","fromSide":"top","toNode":"dde7389d474c5d72","toSide":"bottom"},
 		{"id":"1af06804ff653cbe","fromNode":"7b839874ead5e33b","fromSide":"bottom","toNode":"d5b733d7ce1aceeb","toSide":"top","label":"캐시 전략 패턴 종류"},
 		{"id":"2b5229a9a1e0f5a5","fromNode":"d5b733d7ce1aceeb","fromSide":"right","toNode":"9a0e1894497029e9","toSide":"left","label":"캐시 읽기 전략"},
-		{"id":"f923a9963ee57343","fromNode":"d5b733d7ce1aceeb","fromSide":"right","toNode":"8a226c96e4c197c1","toSide":"left","label":"캐시 쓰기 전략"},
+		{"id":"f923a9963ee57343","fromNode":"d5b733d7ce1aceeb","fromSide":"bottom","toNode":"8a226c96e4c197c1","toSide":"top","label":"캐시 쓰기 전략"},
 		{"id":"c6af7447cb25ec0b","fromNode":"9a0e1894497029e9","fromSide":"right","toNode":"01c9d5f8570714b0","toSide":"left","label":"Look Aside 패턴?"},
-		{"id":"06a81747dfa30f2b","fromNode":"9a0e1894497029e9","fromSide":"right","toNode":"547b70fec82e202a","toSide":"left"},
+		{"id":"06a81747dfa30f2b","fromNode":"9a0e1894497029e9","fromSide":"right","toNode":"314826654ca21bb7","toSide":"left","label":"Read Through 패턴"},
 		{"id":"bcee46d6c9470948","fromNode":"01c9d5f8570714b0","fromSide":"right","toNode":"622f373e093fd50e","toSide":"left","label":"Cache Warming"},
 		{"id":"2e4b5eb564ec4ecf","fromNode":"622f373e093fd50e","fromSide":"top","toNode":"bb07858f40df8adb","toSide":"bottom","label":"Thundering Herd?"},
 		{"id":"53aae503741f0813","fromNode":"622f373e093fd50e","fromSide":"top","toNode":"3bf087926d1632be","toSide":"bottom","label":"TTL?"},
-		{"id":"e57f5f8c2630c740","fromNode":"622f373e093fd50e","fromSide":"bottom","toNode":"829202cb9df71a38","toSide":"top"}
+		{"id":"e57f5f8c2630c740","fromNode":"622f373e093fd50e","fromSide":"bottom","toNode":"829202cb9df71a38","toSide":"top"},
+		{"id":"f6bd6d66738fc2e3","fromNode":"314826654ca21bb7","fromSide":"right","toNode":"4d88773336a05b57","toSide":"left"},
+		{"id":"c03f950e8a86cde1","fromNode":"8a226c96e4c197c1","fromSide":"bottom","toNode":"9ffdd4bf6f4d12ad","toSide":"top"}
 	]
 }
