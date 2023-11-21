@@ -5,6 +5,10 @@
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
+      "basename": "Write Through 패턴",
+      "path": "DB/Cache/canvas/Write Through 패턴.md"
+    },
+    {
       "basename": "Write Back 패턴",
       "path": "DB/Cache/canvas/Write Back 패턴.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "minor gc 1",
       "path": "Java/JVM/resources/minor gc 1.png"
-    },
-    {
-      "basename": "minor gc 14",
-      "path": "Java/JVM/resources/minor gc 14.gif"
     }
   ],
   "omittedPaths": [],
