@@ -15,9 +15,9 @@
               "state": {
                 "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "viewState": {
-                  "x": 998.552758223122,
-                  "y": 51.65071694663016,
-                  "zoom": -0.9647008185427592
+                  "x": 962.7659025608981,
+                  "y": 262.10477462993805,
+                  "zoom": -0.7913674852094255
                 }
               }
             }
@@ -173,8 +173,9 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
-    "OS/Bootstrap/md/펌웨어(Firmware).md",
+    "OS/Bootstrap/resources/BOOT ORDER Priorities.png",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "OS/Bootstrap/md/펌웨어(Firmware).md",
     "OS/Bootstrap/md",
     "OS/Bootstrap/md/마스터 부트 레코드(MBR).md",
     "OS/Bootstrap/resources/ROM.png",
@@ -201,7 +202,6 @@
     "Java/JVM/resources/root space.png",
     "Java/JVM/resources/permanent.png",
     "Java/JVM/resources/minor gc 9.png",
-    "Java/JVM/resources/minor gc 8.png",
     "Java/JVM/md/힙 영역.md",
     "Java/JVM/md/클래스 파일 로딩 순서.md",
     "Java/JVM/md/클래스 로더.md",

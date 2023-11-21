@@ -5,6 +5,10 @@
       "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
     },
     {
+      "basename": "BOOT ORDER Priorities",
+      "path": "OS/Bootstrap/resources/BOOT ORDER Priorities.png"
+    },
+    {
       "basename": "BIOS(Basic Input-Output System)",
       "path": "OS/Bootstrap/md/BIOS(Basic Input-Output System).md"
     },
