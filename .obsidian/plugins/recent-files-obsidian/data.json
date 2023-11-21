@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Read Through + Write Through",
-      "path": "DB/Cache/Read Through + Write Through.md"
+      "basename": "캐시 제거 방식 지침",
+      "path": "DB/Cache/canvas/캐시 제거 방식 지침.md"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "캐시 저장 방식 지침",
+      "path": "DB/Cache/canvas/캐시 저장 방식 지침.md"
+    },
+    {
+      "basename": "파레토 법칙",
+      "path": "DB/Cache/canvas/파레토 법칙.md"
     },
     {
       "basename": "Look Aside + Write Around 조합",
       "path": "DB/Cache/Look Aside + Write Around 조합.md"
     },
     {
-      "basename": "캐시 읽기 + 쓰기 전략 조합",
-      "path": "DB/Cache/캐시 읽기 + 쓰기 전략 조합.md"
+      "basename": "Read Through + Write Through",
+      "path": "DB/Cache/Read Through + Write Through.md"
     },
     {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
+      "basename": "캐시 읽기 + 쓰기 전략 조합",
+      "path": "DB/Cache/캐시 읽기 + 쓰기 전략 조합.md"
     },
     {
       "basename": "Read Through + Write Through",
@@ -187,18 +199,6 @@
     {
       "basename": "Survivor 0, Survivor 1",
       "path": "Java/JVM/Survivor 0, Survivor 1.md"
-    },
-    {
-      "basename": "Eden",
-      "path": "Java/JVM/Eden.md"
-    },
-    {
-      "basename": "Old 영역(Old Generation)",
-      "path": "Java/JVM/Old 영역(Old Generation).md"
-    },
-    {
-      "basename": "Young 영역(Young Generation)",
-      "path": "Java/JVM/Young 영역(Young Generation).md"
     }
   ],
   "omittedPaths": [],

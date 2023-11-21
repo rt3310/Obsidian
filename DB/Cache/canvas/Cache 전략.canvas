@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"1732783a696a3387","x":-1780,"y":599,"width":781,"height":487,"type":"file","file":"DB/Cache/canvas/캐시 제거 방식 지침.md"},
 		{"id":"7b839874ead5e33b","type":"text","text":"# 캐시 전략","x":-380,"y":-220,"width":164,"height":39},
 		{"id":"dde7389d474c5d72","type":"text","text":"cache hit: 캐시 스토어에 데이터가 있을 경우 바로 가져옴\ncache miss: 캐시 스토어에 데이터가 없을 경우 어쩔 수 없이 DB에서 가져옴","x":-566,"y":-416,"width":536,"height":58},
 		{"id":"bc42b45024fea32c","type":"text","text":"캐싱 전략은 웹 서비스 환경에서 시스템 성능 향상을 기대할 수 있는 중요한 기술이다.\n\n일반적으로 캐시(cache)는 메모리(RAM)를 사용하기 때문에 데이터베이스보다 훨씬 빠르게 데이터를 응답할 수 있어 이용자에게 빠르게 서비스를 제공할 수 있다.\n\n하지만 기본적으로 RAM의 용량은 커봐야 16 ~ 32G 정도라, 데이터를 모두 캐시에 저장해버리면 용량 부족 현상이 일어나 시스템이 다운 될 수 있다.\n\n따라서 어느 종류의 데이터를 캐시에 저장할지, 얼만큼 데이터를 캐시에 저장할지, 얼마동안 오래된 데이터를 캐시에서 제거하는지에 대한 지침 전략을 숙지할 필요가 있다.","x":109,"y":-334,"width":595,"height":268},
@@ -13,18 +14,20 @@
 		{"id":"4d88773336a05b57","type":"text","text":"> [!TIP]\n> 이 방식 또한 서비스 운영 초반에 cache warming을 수행하는 것이 좋다.","x":2000,"y":691,"width":547,"height":124,"color":"5"},
 		{"id":"01c9d5f8570714b0","type":"file","file":"DB/Cache/Look Aside 패턴.md","x":1160,"y":-875,"width":700,"height":975},
 		{"id":"314826654ca21bb7","type":"file","file":"DB/Cache/Read Through 패턴.md","x":1160,"y":144,"width":700,"height":916},
-		{"id":"8a226c96e4c197c1","type":"file","file":"DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md","x":-530,"y":537,"width":465,"height":154},
-		{"id":"279c199c9f15c7c8","type":"file","file":"DB/Cache/Write Back 패턴.md","x":-1404,"y":957,"width":660,"height":914},
-		{"id":"b0fde20de29a865c","type":"file","file":"DB/Cache/Write Through 패턴.md","x":-611,"y":957,"width":627,"height":997},
-		{"id":"f08e18ca4f05ac6c","type":"text","text":"> [!TIP]\n> 이 전략 또한 캐시에 Replication이나 Cluster 구조를 적용함으로써 Cache 서비스의 가용성을 높이는 것이 좋으며, 캐시 읽기 전략인 Read-Through와 결합하면 가장 최근에 업데이트 된 데이터를 항상 캐시에서 사용할 수 있는 혼합 워크로드에 적합하다.","x":-1404,"y":1957,"width":660,"height":184,"color":"5"},
-		{"id":"815c7fbec8a01266","type":"text","text":"> [!TIP]\n> write through 패턴과 write back 패턴 둘 다 모두 자주 사용되지 않는 데이터가 저장되어 리소스 낭비가 발생되는 문제점을 안고 있기 때문에, TTL을 꼭 사용하여 사용되지 않는 데이터를 반드시 삭제해야 한다. (expire 명령어)","x":-1057,"y":2257,"width":627,"height":184,"color":"5"},
-		{"id":"0d7e01da2eaa24b6","type":"text","text":"> [!TIP]\n> Write-Through 패턴과 Read-Through 패턴을 함께 사용하면, 캐시의 최신 데이터 유지와 더불어 정합성 이점을 얻을 수 있다.\n> 대표적인 예로 AWS의 DynamoDB Accelerator (DAX)가 있다.\n> DAX 패턴을 통해 DynamoDB에 대한 읽기 및 쓰기를 효율적으로 수행할 수 있다.\n\n![[DynamoDB Accelerator.png]]","x":-384,"y":2141,"width":865,"height":654,"color":"5"},
-		{"id":"60a65bb2539c070f","type":"file","file":"DB/Cache/Write Around 패턴.md","x":196,"y":957,"width":560,"height":688},
-		{"id":"8a63bbe68b78f3d2","type":"text","text":"> [!TIP]\n> Write Around 패턴은 주로 Look aside, Read Through와 결합해서 사용된다.\n> 데이터가 한 번 쓰여지고, 덜 자주 읽히거나 읽지 않는 상황에서 좋은 성능을 제공한다.","x":162,"y":1786,"width":629,"height":154,"color":"5"},
-		{"id":"b177df6bb1adc858","x":-1404,"y":121,"width":344,"height":154,"type":"file","file":"DB/Cache/캐시 읽기 + 쓰기 전략 조합.md"},
-		{"id":"5aa4763e7ebbf06e","type":"file","file":"DB/Cache/Look Aside + Write Around 조합.md","x":-2480,"y":-521,"width":600,"height":445},
-		{"id":"aaed3b67173433d5","type":"file","file":"DB/Cache/Read Through + Write Around 조합.md","x":-2480,"y":-41,"width":600,"height":478},
-		{"id":"53f24b90dc40cf99","x":-2480,"y":479,"width":600,"height":496,"type":"file","file":"DB/Cache/Read Through + Write Through.md"}
+		{"id":"5aa4763e7ebbf06e","type":"file","file":"DB/Cache/Look Aside + Write Around 조합.md","x":-2560,"y":-550,"width":600,"height":445},
+		{"id":"aaed3b67173433d5","type":"file","file":"DB/Cache/Read Through + Write Around 조합.md","x":-2560,"y":-70,"width":600,"height":478},
+		{"id":"53f24b90dc40cf99","type":"file","file":"DB/Cache/Read Through + Write Through.md","x":-2560,"y":450,"width":600,"height":496},
+		{"id":"b177df6bb1adc858","type":"file","file":"DB/Cache/캐시 읽기 + 쓰기 전략 조합.md","x":-1484,"y":92,"width":344,"height":154},
+		{"id":"8a226c96e4c197c1","type":"file","file":"DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md","x":356,"y":869,"width":465,"height":154},
+		{"id":"279c199c9f15c7c8","type":"file","file":"DB/Cache/Write Back 패턴.md","x":-518,"y":1289,"width":660,"height":914},
+		{"id":"b0fde20de29a865c","type":"file","file":"DB/Cache/Write Through 패턴.md","x":275,"y":1289,"width":627,"height":997},
+		{"id":"f08e18ca4f05ac6c","type":"text","text":"> [!TIP]\n> 이 전략 또한 캐시에 Replication이나 Cluster 구조를 적용함으로써 Cache 서비스의 가용성을 높이는 것이 좋으며, 캐시 읽기 전략인 Read-Through와 결합하면 가장 최근에 업데이트 된 데이터를 항상 캐시에서 사용할 수 있는 혼합 워크로드에 적합하다.","x":-518,"y":2289,"width":660,"height":184,"color":"5"},
+		{"id":"815c7fbec8a01266","type":"text","text":"> [!TIP]\n> write through 패턴과 write back 패턴 둘 다 모두 자주 사용되지 않는 데이터가 저장되어 리소스 낭비가 발생되는 문제점을 안고 있기 때문에, TTL을 꼭 사용하여 사용되지 않는 데이터를 반드시 삭제해야 한다. (expire 명령어)","x":-171,"y":2589,"width":627,"height":184,"color":"5"},
+		{"id":"0d7e01da2eaa24b6","type":"text","text":"> [!TIP]\n> Write-Through 패턴과 Read-Through 패턴을 함께 사용하면, 캐시의 최신 데이터 유지와 더불어 정합성 이점을 얻을 수 있다.\n> 대표적인 예로 AWS의 DynamoDB Accelerator (DAX)가 있다.\n> DAX 패턴을 통해 DynamoDB에 대한 읽기 및 쓰기를 효율적으로 수행할 수 있다.\n\n![[DynamoDB Accelerator.png]]","x":502,"y":2473,"width":865,"height":654,"color":"5"},
+		{"id":"60a65bb2539c070f","type":"file","file":"DB/Cache/Write Around 패턴.md","x":1082,"y":1289,"width":560,"height":688},
+		{"id":"8a63bbe68b78f3d2","type":"text","text":"> [!TIP]\n> Write Around 패턴은 주로 Look aside, Read Through와 결합해서 사용된다.\n> 데이터가 한 번 쓰여지고, 덜 자주 읽히거나 읽지 않는 상황에서 좋은 성능을 제공한다.","x":1048,"y":2118,"width":629,"height":154,"color":"5"},
+		{"id":"b84b47aeedc21614","x":-1200,"y":1289,"width":640,"height":295,"color":"#0000ff","type":"file","file":"DB/Cache/canvas/파레토 법칙.md"},
+		{"id":"d530dcc36d9a0617","x":-800,"y":578,"width":783,"height":530,"type":"file","file":"DB/Cache/canvas/캐시 저장 방식 지침.md"}
 	],
 	"edges":[
 		{"id":"bcfcc66754001d83","fromNode":"7b839874ead5e33b","fromSide":"right","toNode":"bc42b45024fea32c","toSide":"left","label":"캐시 전략이 왜 필요한가?"},
@@ -32,7 +35,7 @@
 		{"id":"4596bafe5655e570","fromNode":"7b839874ead5e33b","fromSide":"top","toNode":"dde7389d474c5d72","toSide":"bottom"},
 		{"id":"1af06804ff653cbe","fromNode":"7b839874ead5e33b","fromSide":"bottom","toNode":"d5b733d7ce1aceeb","toSide":"top","label":"캐시 전략 패턴 종류"},
 		{"id":"2b5229a9a1e0f5a5","fromNode":"d5b733d7ce1aceeb","fromSide":"right","toNode":"9a0e1894497029e9","toSide":"left","label":"캐시 읽기 전략"},
-		{"id":"f923a9963ee57343","fromNode":"d5b733d7ce1aceeb","fromSide":"bottom","toNode":"8a226c96e4c197c1","toSide":"top","label":"캐시 쓰기 전략"},
+		{"id":"f923a9963ee57343","fromNode":"d5b733d7ce1aceeb","fromSide":"right","toNode":"8a226c96e4c197c1","toSide":"left","label":"캐시 쓰기 전략"},
 		{"id":"c6af7447cb25ec0b","fromNode":"9a0e1894497029e9","fromSide":"right","toNode":"01c9d5f8570714b0","toSide":"left","label":"Look Aside 패턴?"},
 		{"id":"bcee46d6c9470948","fromNode":"01c9d5f8570714b0","fromSide":"right","toNode":"622f373e093fd50e","toSide":"left","label":"Cache Warming"},
 		{"id":"2e4b5eb564ec4ecf","fromNode":"622f373e093fd50e","fromSide":"top","toNode":"bb07858f40df8adb","toSide":"bottom","label":"Thundering Herd?"},
@@ -50,6 +53,9 @@
 		{"id":"1b562f1521a97c77","fromNode":"d5b733d7ce1aceeb","fromSide":"left","toNode":"b177df6bb1adc858","toSide":"right","label":"캐시 읽기 + 쓰기 전략 조합"},
 		{"id":"2019b30c7214d002","fromNode":"b177df6bb1adc858","fromSide":"left","toNode":"5aa4763e7ebbf06e","toSide":"right","label":"Look Aside + Write Around"},
 		{"id":"22a6e9d62b57b5bc","fromNode":"b177df6bb1adc858","fromSide":"left","toNode":"aaed3b67173433d5","toSide":"right","label":"Read Through + Write Around"},
-		{"id":"5fc3615cca84ee32","fromNode":"b177df6bb1adc858","fromSide":"left","toNode":"53f24b90dc40cf99","toSide":"right","label":"Read Through + Write Through"}
+		{"id":"5fc3615cca84ee32","fromNode":"b177df6bb1adc858","fromSide":"left","toNode":"53f24b90dc40cf99","toSide":"right","label":"Read Through + Write Through"},
+		{"id":"d615d52e07b26f87","fromNode":"d5b733d7ce1aceeb","fromSide":"bottom","toNode":"d530dcc36d9a0617","toSide":"top","label":"캐시 저장 방식 지침"},
+		{"id":"b296ed3401c2b218","fromNode":"d530dcc36d9a0617","fromSide":"bottom","toNode":"b84b47aeedc21614","toSide":"top"},
+		{"id":"6c75124f3ddd87c6","fromNode":"d5b733d7ce1aceeb","fromSide":"bottom","toNode":"1732783a696a3387","toSide":"top"}
 	]
 }

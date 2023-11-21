@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b01a6ea9b41a7736",
+        "id": "537c6bd8a5459407",
         "type": "tabs",
         "children": [
           {
-            "id": "bf67bd8dc35b1a22",
+            "id": "03c1bd6c833489dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Cache/Look Aside + Write Around 조합.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ae4b2471b796830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/Cache/Read Through + Write Through.md",
+                "file": "DB/Cache/canvas/캐시 제거 방식 지침.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/Read Through + Write Through.md",
+                "file": "DB/Cache/canvas/캐시 제거 방식 지침.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/Read Through + Write Through.md",
+                "file": "DB/Cache/canvas/캐시 제거 방식 지침.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/Read Through + Write Through.md"
+                "file": "DB/Cache/canvas/캐시 제거 방식 지침.md"
               }
             }
           }
@@ -173,12 +160,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3ae4b2471b796830",
+  "active": "03c1bd6c833489dc",
   "lastOpenFiles": [
-    "DB/Cache/Look Aside + Write Around 조합.md",
-    "DB/Cache/캐시 읽기 + 쓰기 전략 조합.md",
     "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Cache/canvas/캐시 제거 방식 지침.md",
+    "DB/Cache/canvas/캐시 저장 방식 지침.md",
+    "DB/Cache/canvas/파레토 법칙.md",
+    "DB/Cache/Look Aside + Write Around 조합.md",
     "DB/Cache/Read Through + Write Through.md",
+    "DB/Cache/캐시 읽기 + 쓰기 전략 조합.md",
     "DB/Cache/resources/Read Through + Write Through.png",
     "DB/Cache/resources/Write Around.png",
     "DB/Cache/resources/Read Through + Write Around.png",
@@ -215,9 +205,6 @@
     "Java/JVM/G1 GC.md",
     "Java/JVM/CMS GC.md",
     "Java/JVM/Parallel GC.md",
-    "Java/JVM/Serial GC.md",
-    "Java/JVM/Minor GC 과정.md",
-    "Java/JVM/Minor GC.md",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",
