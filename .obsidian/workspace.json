@@ -30,9 +30,9 @@
               "state": {
                 "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": 533.7193849425066,
-                  "y": 1778.7811437358334,
-                  "zoom": 0.4783476859393145
+                  "x": 253.6074884255823,
+                  "y": 458.0989201293873,
+                  "zoom": -1.4216826794699737
                 }
               }
             }
@@ -181,13 +181,16 @@
   },
   "active": "bba14bb05a7cb0ba",
   "lastOpenFiles": [
-    "DB/Cache/canvas/Write Through 패턴.md",
-    "Pasted image 20231121100802.png",
-    "DB/Cache/canvas/Write Back 패턴.md",
-    "Pasted image 20231121095511.png",
+    "DB/Cache/canvas/Write Around 패턴.md",
+    "Pasted image 20231121101756.png",
+    "DB/Cache/Write Back 패턴.md",
+    "DB/Cache/resources/Write Through.png",
+    "DB/Cache/resources/Write Back.png",
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Cache/resources/DynamoDB Accelerator.png",
+    "DB/Cache/Write Through 패턴.md",
     "DB/Cache/Read Through 패턴.md",
     "DB/Cache/resources/Read Through.png",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
@@ -205,8 +208,6 @@
     "Java/JVM/resources/G1 GC.png",
     "Java/JVM/resources/Serial GC.png",
     "Java/JVM/resources/Parallel GC.png",
-    "Java/JVM/resources/G1 GC Not Heap.png",
-    "Java/JVM/resources/Shenandoah GC.png",
     "Java/JVM/Shenandoah GC.md",
     "Java/JVM/ZGC.md",
     "Java/JVM/G1 GC의 효율성.md",
@@ -224,7 +225,6 @@
     "Java/JVM/Survivor 0, Survivor 1.md",
     "Java/JVM/Permanent.md",
     "Java/JVM/실행 엔진.md",
-    "Java/JVM/Young 영역(Young Generation).md",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",

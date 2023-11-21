@@ -5,12 +5,28 @@
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
-      "basename": "Write Through 패턴",
-      "path": "DB/Cache/canvas/Write Through 패턴.md"
+      "basename": "Write Around 패턴",
+      "path": "DB/Cache/canvas/Write Around 패턴.md"
     },
     {
       "basename": "Write Back 패턴",
-      "path": "DB/Cache/canvas/Write Back 패턴.md"
+      "path": "DB/Cache/Write Back 패턴.md"
+    },
+    {
+      "basename": "Write Through",
+      "path": "DB/Cache/resources/Write Through.png"
+    },
+    {
+      "basename": "Write Back",
+      "path": "DB/Cache/resources/Write Back.png"
+    },
+    {
+      "basename": "DynamoDB Accelerator",
+      "path": "DB/Cache/resources/DynamoDB Accelerator.png"
+    },
+    {
+      "basename": "Write Through 패턴",
+      "path": "DB/Cache/Write Through 패턴.md"
     },
     {
       "basename": "Read Through 패턴",
@@ -183,22 +199,6 @@
     {
       "basename": "major gc 3",
       "path": "Java/JVM/resources/major gc 3.gif"
-    },
-    {
-      "basename": "major gc 2",
-      "path": "Java/JVM/resources/major gc 2.png"
-    },
-    {
-      "basename": "major gc 1",
-      "path": "Java/JVM/resources/major gc 1.png"
-    },
-    {
-      "basename": "Major GC",
-      "path": "Java/JVM/resources/Major GC.png"
-    },
-    {
-      "basename": "minor gc 1",
-      "path": "Java/JVM/resources/minor gc 1.png"
     }
   ],
   "omittedPaths": [],

@@ -9,7 +9,7 @@
 - 매 요청마다 두 번의 Write가 발생하게 됨으로써 빈번한 생성, 수정이 발생하는 서비스에서는 성능 이슈가 발생할 수 있다.
 - 기억장치 속도가 느릴 경우, 데이터를 기록할 때 CPU가 대기하는 시간이 필요하기 때문에 성능이 감소할 수 있다.
 
-![[Pasted image 20231121100802.png]]
+![[Write Through.png]]
 
 Write Through 패턴은 Cache Store에도 반영하고 Data Store에도 동시에 반영하는 방식이다. (Write Back은 일정 시간을 두고 나중에 한꺼번에 저장)
 
