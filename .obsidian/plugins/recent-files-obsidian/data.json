@@ -5,6 +5,14 @@
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
+      "basename": "Look Aside 패턴",
+      "path": "DB/Cache/Look Aside 패턴.md"
+    },
+    {
+      "basename": "Look Aside",
+      "path": "DB/Cache/resources/Look Aside.png"
+    },
+    {
       "basename": "캐시 읽기 전략(Read Cache Strategy)",
       "path": "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "minor gc 9",
       "path": "Java/JVM/resources/minor gc 9.png"
-    },
-    {
-      "basename": "minor gc 8",
-      "path": "Java/JVM/resources/minor gc 8.png"
-    },
-    {
-      "basename": "minor gc 7",
-      "path": "Java/JVM/resources/minor gc 7.png"
     }
   ],
   "omittedPaths": [],

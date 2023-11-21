@@ -15,14 +15,30 @@
               "state": {
                 "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": 334.5607320817021,
-                  "y": -65.21786361026949,
-                  "zoom": 0.06329967211193555
+                  "x": 967.2677820739225,
+                  "y": 44.25417020721649,
+                  "zoom": -0.27003366122139777
+                }
+              }
+            }
+          },
+          {
+            "id": "bba14bb05a7cb0ba",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "viewState": {
+                  "x": 818.2409902117233,
+                  "y": -72.95964467005075,
+                  "zoom": -0.7034222962777579
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Cache/Look Aside 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Cache/Look Aside 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas"
+                "file": "DB/Cache/Look Aside 패턴.md"
               }
             }
           }
@@ -163,10 +179,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bf67bd8dc35b1a22",
+  "active": "bba14bb05a7cb0ba",
   "lastOpenFiles": [
-    "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md",
+    "DB/Cache/resources/Look Aside.png",
     "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Cache/Look Aside 패턴.md",
+    "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md",
     "DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md",
     "DB/Cache/canvas/무제 파일.md",
     "Employment/roadmap/RoadMap.canvas",
@@ -194,7 +212,6 @@
     "Java/JVM/Parallel GC.md",
     "Java/JVM/Serial GC.md",
     "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
-    "Java/JVM/resources/major gc 3.gif",
     "Java/JVM/Minor GC 과정.md",
     "Java/JVM/Minor GC.md",
     "Java/JVM/Eden.md",
@@ -206,7 +223,6 @@
     "Java/JVM/GC의 Root Space.md",
     "Java/JVM/Mark And Sweep.md",
     "Java/JVM/가비지 컬렉터.md",
-    "Java/JVM/네이티브 메소드 스택.md",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
