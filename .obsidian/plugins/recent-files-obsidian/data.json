@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "컴퓨터 시간 원리",
+      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    },
+    {
       "basename": "Cache 전략",
       "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "Cache Warming",
+      "path": "DB/Cache/Cache Warming.md"
     },
     {
       "basename": "Look Aside 패턴",
@@ -191,14 +199,6 @@
     {
       "basename": "minor gc 12",
       "path": "Java/JVM/resources/minor gc 12.png"
-    },
-    {
-      "basename": "minor gc 10",
-      "path": "Java/JVM/resources/minor gc 10.png"
-    },
-    {
-      "basename": "minor gc 9",
-      "path": "Java/JVM/resources/minor gc 9.png"
     }
   ],
   "omittedPaths": [],

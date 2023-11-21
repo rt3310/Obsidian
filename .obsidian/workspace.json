@@ -28,11 +28,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "viewState": {
-                  "x": 818.2409902117233,
-                  "y": -72.95964467005075,
-                  "zoom": -0.7034222962777579
+                  "x": 474.5,
+                  "y": 1424.6771507863093,
+                  "zoom": -1.5809531557390117
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/Look Aside 패턴.md",
+                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/Look Aside 패턴.md",
+                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/Look Aside 패턴.md"
+                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
               }
             }
           }
@@ -179,10 +179,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bba14bb05a7cb0ba",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "DB/Cache/resources/Look Aside.png",
     "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Cache/Cache Warming.md",
+    "DB/Cache/resources/Look Aside.png",
     "DB/Cache/Look Aside 패턴.md",
     "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md",
     "DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md",
@@ -222,7 +223,6 @@
     "Java/JVM/Young 영역(Young Generation).md",
     "Java/JVM/GC의 Root Space.md",
     "Java/JVM/Mark And Sweep.md",
-    "Java/JVM/가비지 컬렉터.md",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
