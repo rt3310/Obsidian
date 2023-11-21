@@ -5,48 +5,104 @@
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
-      "basename": "캐시 가용성 지침",
-      "path": "DB/Cache/canvas/캐시 가용성 지침.md"
-    },
-    {
-      "basename": "캐시 공유 방식 지침",
-      "path": "DB/Cache/canvas/캐시 공유 방식 지침.md"
+      "basename": "Cache Stampede 현상",
+      "path": "DB/Cache/resources/Cache Stampede 현상.png"
     },
     {
       "basename": "Cache Stampede 현상",
-      "path": "DB/Cache/canvas/Cache Stampede 현상.md"
+      "path": "DB/Cache/md/Cache Stampede 현상.md"
     },
     {
-      "basename": "파레토 법칙",
-      "path": "DB/Cache/canvas/파레토 법칙.md"
+      "basename": "Connectionless",
+      "path": "Web/HttpSession/md/Connectionless.md"
     },
     {
-      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
-      "path": "DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md"
+      "basename": "레지스터",
+      "path": "ComputerStructure/Register/canvas/레지스터.canvas"
     },
     {
-      "basename": "캐시 읽기 전략(Read Cache Strategy)",
-      "path": "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md"
+      "basename": "ZonedDateTime",
+      "path": "ComputerStructure/Clock/md/ZonedDateTime.md"
     },
     {
-      "basename": "캐시 제거 방식 지침",
-      "path": "DB/Cache/canvas/캐시 제거 방식 지침.md"
+      "basename": "RTC",
+      "path": "ComputerStructure/Clock/md/RTC.md"
     },
     {
-      "basename": "캐시 저장 방식 지침",
-      "path": "DB/Cache/canvas/캐시 저장 방식 지침.md"
+      "basename": "NTP 서버",
+      "path": "ComputerStructure/Clock/md/NTP 서버.md"
     },
     {
-      "basename": "Look Aside + Write Around 조합",
-      "path": "DB/Cache/Look Aside + Write Around 조합.md"
+      "basename": "NTP",
+      "path": "ComputerStructure/Clock/md/NTP.md"
     },
     {
-      "basename": "Read Through + Write Through",
-      "path": "DB/Cache/Read Through + Write Through.md"
+      "basename": "캐시 가용성 지침",
+      "path": "DB/Cache/md/캐시 가용성 지침.md"
+    },
+    {
+      "basename": "MVCC",
+      "path": "DB/Transaction/md/MVCC.md"
+    },
+    {
+      "basename": "JVM",
+      "path": "Java/JVM/canvas/JVM.canvas"
+    },
+    {
+      "basename": "Garbage Collector",
+      "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "가비지 컬렉터",
+      "path": "Java/JVM/md/가비지 컬렉터.md"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "Read Through + Write Through 조합",
+      "path": "DB/Cache/md/Read Through + Write Through 조합.md"
     },
     {
       "basename": "캐시 읽기 + 쓰기 전략 조합",
-      "path": "DB/Cache/캐시 읽기 + 쓰기 전략 조합.md"
+      "path": "DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md"
+    },
+    {
+      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
+      "path": "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md"
+    },
+    {
+      "basename": "캐시 읽기 전략(Read Cache Strategy)",
+      "path": "DB/Cache/md/캐시 읽기 전략(Read Cache Strategy).md"
+    },
+    {
+      "basename": "Write Around 패턴",
+      "path": "DB/Cache/md/Write Around 패턴.md"
+    },
+    {
+      "basename": "DynamoDB Accelerator",
+      "path": "DB/Cache/resources/DynamoDB Accelerator.png"
+    },
+    {
+      "basename": "캐시 공유 방식 지침",
+      "path": "DB/Cache/md/캐시 공유 방식 지침.md"
+    },
+    {
+      "basename": "파레토 법칙",
+      "path": "DB/Cache/md/파레토 법칙.md"
+    },
+    {
+      "basename": "캐시 제거 방식 지침",
+      "path": "DB/Cache/md/캐시 제거 방식 지침.md"
+    },
+    {
+      "basename": "캐시 저장 방식 지침",
+      "path": "DB/Cache/md/캐시 저장 방식 지침.md"
+    },
+    {
+      "basename": "Look Aside + Write Around 조합",
+      "path": "DB/Cache/md/Look Aside + Write Around 조합.md"
     },
     {
       "basename": "Read Through + Write Through",
@@ -54,15 +110,11 @@
     },
     {
       "basename": "Read Through + Write Around 조합",
-      "path": "DB/Cache/Read Through + Write Around 조합.md"
+      "path": "DB/Cache/md/Read Through + Write Around 조합.md"
     },
     {
       "basename": "Write Around",
       "path": "DB/Cache/resources/Write Around.png"
-    },
-    {
-      "basename": "Write Around 패턴",
-      "path": "DB/Cache/Write Around 패턴.md"
     },
     {
       "basename": "Read Through + Write Around",
@@ -74,19 +126,19 @@
     },
     {
       "basename": "Read Through 패턴",
-      "path": "DB/Cache/Read Through 패턴.md"
+      "path": "DB/Cache/md/Read Through 패턴.md"
     },
     {
       "basename": "Look Aside 패턴",
-      "path": "DB/Cache/Look Aside 패턴.md"
+      "path": "DB/Cache/md/Look Aside 패턴.md"
     },
     {
       "basename": "Write Through 패턴",
-      "path": "DB/Cache/Write Through 패턴.md"
+      "path": "DB/Cache/md/Write Through 패턴.md"
     },
     {
       "basename": "Write Back 패턴",
-      "path": "DB/Cache/Write Back 패턴.md"
+      "path": "DB/Cache/md/Write Back 패턴.md"
     },
     {
       "basename": "Write Through",
@@ -97,36 +149,24 @@
       "path": "DB/Cache/resources/Write Back.png"
     },
     {
-      "basename": "DynamoDB Accelerator",
-      "path": "DB/Cache/resources/DynamoDB Accelerator.png"
-    },
-    {
       "basename": "Read Through",
       "path": "DB/Cache/resources/Read Through.png"
     },
     {
       "basename": "Cache Warming",
-      "path": "DB/Cache/Cache Warming.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "Java/JVM/canvas/JVM.canvas"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Java/JVM/canvas/Garbage Collector.canvas"
+      "path": "DB/Cache/md/Cache Warming.md"
     },
     {
       "basename": "Permanent",
-      "path": "Java/JVM/Permanent.md"
+      "path": "Java/JVM/md/Permanent.md"
     },
     {
       "basename": "age 값",
-      "path": "Java/JVM/age 값.md"
+      "path": "Java/JVM/md/age 값.md"
     },
     {
       "basename": "G1 GC의 효율성",
-      "path": "Java/JVM/G1 GC의 효율성.md"
+      "path": "Java/JVM/md/G1 GC의 효율성.md"
     },
     {
       "basename": "컴퓨터 시간 원리",
@@ -159,46 +199,6 @@
     {
       "basename": "G1 GC Not Heap",
       "path": "Java/JVM/resources/G1 GC Not Heap.png"
-    },
-    {
-      "basename": "Shenandoah GC",
-      "path": "Java/JVM/resources/Shenandoah GC.png"
-    },
-    {
-      "basename": "Shenandoah GC",
-      "path": "Java/JVM/Shenandoah GC.md"
-    },
-    {
-      "basename": "ZGC",
-      "path": "Java/JVM/resources/ZGC.png"
-    },
-    {
-      "basename": "Parallel Compacting Collector",
-      "path": "Java/JVM/resources/Parallel Compacting Collector.png"
-    },
-    {
-      "basename": "ZGC",
-      "path": "Java/JVM/ZGC.md"
-    },
-    {
-      "basename": "Parallel GC",
-      "path": "Java/JVM/Parallel GC.md"
-    },
-    {
-      "basename": "Serial GC",
-      "path": "Java/JVM/Serial GC.md"
-    },
-    {
-      "basename": "CMS GC",
-      "path": "Java/JVM/CMS GC.md"
-    },
-    {
-      "basename": "Minor GC 과정",
-      "path": "Java/JVM/Minor GC 과정.md"
-    },
-    {
-      "basename": "Major GC",
-      "path": "Java/JVM/Major GC.md"
     }
   ],
   "omittedPaths": [],

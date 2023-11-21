@@ -15,14 +15,25 @@
               "state": {
                 "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": -1183.6131888054063,
-                  "y": 593.6937482417961,
-                  "zoom": -1.1020380882346361
+                  "x": -929.3894457060243,
+                  "y": 1812.1238933414468,
+                  "zoom": -0.10203808823463623
                 }
               }
             }
+          },
+          {
+            "id": "7a8e6e683c8357fa",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "DB/Cache/resources/Cache Stampede 현상.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Cache/resources/Cache Stampede 현상.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Cache/resources/Cache Stampede 현상.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas"
+                "file": "DB/Cache/resources/Cache Stampede 현상.png"
               }
             }
           }
@@ -163,62 +174,62 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9887829967eed14b",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "DB/Cache/canvas/캐시 가용성 지침.md",
     "DB/Cache/canvas/Cache 전략.canvas",
-    "DB/Cache/canvas/캐시 공유 방식 지침.md",
-    "DB/Cache/canvas/Cache Stampede 현상.md",
-    "Pasted image 20231121122653.png",
-    "DB/Cache/canvas/파레토 법칙.md",
-    "DB/Cache/canvas/캐시 제거 방식 지침.md",
-    "DB/Cache/canvas/캐시 저장 방식 지침.md",
-    "DB/Cache/Look Aside + Write Around 조합.md",
-    "DB/Cache/Read Through + Write Through.md",
-    "DB/Cache/캐시 읽기 + 쓰기 전략 조합.md",
+    "DB/Cache/resources/Cache Stampede 현상.png",
+    "Web/HttpSession/md/Connectionless.md",
+    "Web/HttpSession/md",
+    "ComputerStructure/Register/canvas/레지스터.canvas",
+    "ComputerStructure/Clock/md/ZonedDateTime.md",
+    "ComputerStructure/Clock/md/RTC.md",
+    "ComputerStructure/Clock/md/NTP 서버.md",
+    "ComputerStructure/Clock/md/NTP.md",
+    "DB/Cache/md/캐시 가용성 지침.md",
+    "ComputerStructure/Clock/md",
+    "DB/Transaction/md/MVCC.md",
+    "DB/Cache/md",
+    "DB/Transaction/md",
+    "Java/JVM/canvas/JVM.canvas",
+    "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/md/가비지 컬렉터.md",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "Java/JVM/md",
+    "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md",
+    "DB/Cache/md/Write Around 패턴.md",
+    "DB/Cache/resources/DynamoDB Accelerator.png",
+    "DB/Cache/md/캐시 공유 방식 지침.md",
+    "DB/Cache/md/Cache Stampede 현상.md",
+    "DB/Cache/md/파레토 법칙.md",
+    "DB/Cache/md/캐시 제거 방식 지침.md",
+    "DB/Cache/md/캐시 저장 방식 지침.md",
+    "DB/Cache/md/Look Aside + Write Around 조합.md",
+    "DB/Cache/md/Read Through + Write Through 조합.md",
+    "DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md",
     "DB/Cache/resources/Read Through + Write Through.png",
     "DB/Cache/resources/Write Around.png",
     "DB/Cache/resources/Read Through + Write Around.png",
-    "DB/Cache/Read Through + Write Around 조합.md",
+    "DB/Cache/md/Read Through + Write Around 조합.md",
     "DB/Cache/resources/Look Aside + Write Around.png",
-    "DB/Cache/Write Around 패턴.md",
-    "DB/Cache/Write Back 패턴.md",
+    "DB/Cache/md/Write Back 패턴.md",
     "DB/Cache/resources/Write Through.png",
     "DB/Cache/resources/Write Back.png",
-    "DB/Cache/resources/DynamoDB Accelerator.png",
-    "DB/Cache/Write Through 패턴.md",
-    "DB/Cache/Read Through 패턴.md",
+    "DB/Cache/md/Write Through 패턴.md",
+    "DB/Cache/md/Read Through 패턴.md",
     "DB/Cache/resources/Read Through.png",
-    "Java/JVM/canvas/JVM.canvas",
-    "Java/JVM/canvas/Garbage Collector.canvas",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
-    "DB/Cache/Cache Warming.md",
+    "DB/Cache/md/Cache Warming.md",
     "DB/Cache/resources/Look Aside.png",
-    "DB/Cache/Look Aside 패턴.md",
-    "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md",
-    "DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md",
-    "DB/Cache/canvas/무제 파일.md",
+    "DB/Cache/md/Look Aside 패턴.md",
+    "DB/Cache/md/캐시 읽기 전략(Read Cache Strategy).md",
     "Employment/roadmap/RoadMap.canvas",
     "DB/Cache/resources",
     "DB/Cache/canvas",
     "DB/Cache",
-    "Java/JVM/Shenandoah GC.md",
-    "Java/JVM/ZGC.md",
-    "Java/JVM/G1 GC의 효율성.md",
-    "Java/JVM/Pasted image 20231120144302.png] ![[Pasted image 20231120144351.png.md",
-    "Java/JVM/Major GC.md",
-    "Java/JVM/age 값.md",
     "ComputerStructure/Clock/canvas",
-    "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Java/JVM/가비지 컬렉터.html",
     "DB/Transaction/canvas/무제 파일.canvas",
-    "OS/Disk/resources",
-    "OS/Disk/canvas",
-    "OS/Thread/무제 파일.canvas",
-    "OS/Disk",
-    "OS/Thread",
-    "Employment/roadmap"
+    "OS/Thread/무제 파일.canvas"
   ]
 }

@@ -1,3 +1,0 @@
-- Write Back 패턴
-- Write Through 패턴
-- Write Around 패턴

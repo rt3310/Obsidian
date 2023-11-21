@@ -1,4 +1,4 @@
-![[Pasted image 20231121122653.png]]
+![[Cache Stampede 현상.png]]
 대규모 트래픽 환경에서 **TTL 값이 너무 작게 설정되면 cache stampede 현상이 발생**할 가능성이 있다.
 
 Look Aside 패턴에서 redis에 데이터가 없다는 응답을 받은 서버가 직접 DB로 데이터를 요청한 뒤, 다시 redis에 저장하는 과정을 거친다.

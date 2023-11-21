@@ -1,2 +1,0 @@
-- Look Aside 패턴
-- Read Through 패턴
