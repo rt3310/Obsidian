@@ -15,9 +15,9 @@
               "state": {
                 "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": 104.7875692063558,
-                  "y": -126.06580228380234,
-                  "zoom": -0.3333333333333334
+                  "x": 334.5607320817021,
+                  "y": -65.21786361026949,
+                  "zoom": 0.06329967211193555
                 }
               }
             }
@@ -165,10 +165,10 @@
   },
   "active": "bf67bd8dc35b1a22",
   "lastOpenFiles": [
-    "DB/Cache/canvas/캐시 쓰기 전략(Write Cache Strategy).md",
-    "DB/Cache/canvas/캐시 읽기 전략(Read Cache Strategy).md",
-    "DB/Cache/canvas/무제 파일.md",
+    "DB/Cache/캐시 읽기 전략(Read Cache Strategy).md",
     "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md",
+    "DB/Cache/canvas/무제 파일.md",
     "Employment/roadmap/RoadMap.canvas",
     "DB/Cache/resources",
     "DB/Cache/canvas",
@@ -207,7 +207,6 @@
     "Java/JVM/Mark And Sweep.md",
     "Java/JVM/가비지 컬렉터.md",
     "Java/JVM/네이티브 메소드 스택.md",
-    "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",

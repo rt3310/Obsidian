@@ -5,8 +5,8 @@
 		{"id":"bc42b45024fea32c","x":109,"y":-334,"width":595,"height":268,"type":"text","text":"캐싱 전략은 웹 서비스 환경에서 시스템 성능 향상을 기대할 수 있는 중요한 기술이다.\n\n일반적으로 캐시(cache)는 메모리(RAM)를 사용하기 때문에 데이터베이스보다 훨씬 빠르게 데이터를 응답할 수 있어 이용자에게 빠르게 서비스를 제공할 수 있다.\n\n하지만 기본적으로 RAM의 용량은 커봐야 16 ~ 32G 정도라, 데이터를 모두 캐시에 저장해버리면 용량 부족 현상이 일어나 시스템이 다운 될 수 있다.\n\n따라서 어느 종류의 데이터를 캐시에 저장할지, 얼만큼 데이터를 캐시에 저장할지, 얼마동안 오래된 데이터를 캐시에서 제거하는지에 대한 지침 전략을 숙지할 필요가 있다."},
 		{"id":"42f060940bfe3d5a","x":100,"y":-600,"width":613,"height":184,"color":"5","type":"text","text":"> [!TIP]\n> 캐시를 효율적으로 이용하기 위해서는 캐시에 저장할 데이터 특성도 고려해야 한다.\n> 예를 들어, 자주 조회되는 데이터, 결과값이 자주 변동되지 않고 일정한 데이터, 조회하는데 연산이 필요한 데이터를 캐싱해두면 좋다."},
 		{"id":"d5b733d7ce1aceeb","x":-673,"y":60,"width":750,"height":218,"type":"text","text":"캐시를 이용하게 되면 반드시 닥쳐오는 문제점이 있는데 바로 데이터 정합성 문제이다.\n\n이전에는 그냥 DB에서 데이터 조회와 작성을 처리하였기 때문에 데이터 정합성 문제가 나타나지 않았지만, 캐시라는 또 다른 데이터 저장소를 이용하기 때문에, 결국 같은 종류의 데이터라도 두 저장소에서 저장된 값이 서로 다를 수 있는 현상이 일어날 수 밖에 없는 것이다.\n\n따라서 적절한 **캐시 읽기 전략(Read Cache Strategy)** 과 **캐시 쓰기 전략(Write Cache Strategy)** 을 통해, 캐시와 DB간의 데이터 불일치 문제를 극복하면서도 빠른 성능을 잃지 않게 하기 위해 고심히 연구를 할 필요가 있다."},
-		{"id":"9a0e1894497029e9","x":252,"y":0,"width":461,"height":121,"type":"file","file":"DB/Cache/canvas/캐시 읽기 전략(Read Cache Strategy).md"},
-		{"id":"8a226c96e4c197c1","x":252,"y":201,"width":465,"height":154,"type":"file","file":"DB/Cache/canvas/캐시 쓰기 전략(Write Cache Strategy).md"}
+		{"id":"9a0e1894497029e9","x":252,"y":0,"width":461,"height":121,"type":"file","file":"DB/Cache/캐시 읽기 전략(Read Cache Strategy).md"},
+		{"id":"8a226c96e4c197c1","x":252,"y":201,"width":465,"height":154,"type":"file","file":"DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md"}
 	],
 	"edges":[
 		{"id":"bcfcc66754001d83","fromNode":"7b839874ead5e33b","fromSide":"right","toNode":"bc42b45024fea32c","toSide":"left","label":"캐시 전략이 왜 필요한가?"},
