@@ -30,9 +30,9 @@
               "state": {
                 "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": -1095.8602291531715,
-                  "y": 813.6374655177706,
-                  "zoom": 0.8116810192726478
+                  "x": -798.5403395027907,
+                  "y": 1758.4586277070919,
+                  "zoom": 0.14501435260598117
                 }
               }
             }
@@ -181,6 +181,8 @@
   },
   "active": "bba14bb05a7cb0ba",
   "lastOpenFiles": [
+    "DB/Cache/canvas/Write Back 패턴.md",
+    "Pasted image 20231121095511.png",
     "DB/Cache/Read Through 패턴.md",
     "DB/Cache/resources/Read Through.png",
     "DB/Cache/canvas/Cache 전략.canvas",
@@ -205,7 +207,6 @@
     "Java/JVM/resources/Shenandoah GC.png",
     "Java/JVM/Shenandoah GC.md",
     "Java/JVM/resources/ZGC.png",
-    "Java/JVM/resources/Parallel Compacting Collector.png",
     "Java/JVM/ZGC.md",
     "Java/JVM/G1 GC의 효율성.md",
     "Java/JVM/Pasted image 20231120144302.png] ![[Pasted image 20231120144351.png.md",
@@ -224,7 +225,6 @@
     "Java/JVM/실행 엔진.md",
     "Java/JVM/Young 영역(Young Generation).md",
     "Java/JVM/GC의 Root Space.md",
-    "Java/JVM/Mark And Sweep.md",
     "ComputerStructure/Clock/canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "OS/Disk/canvas/RAID.canvas",

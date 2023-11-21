@@ -10,11 +10,12 @@
 		{"id":"622f373e093fd50e","type":"file","file":"DB/Cache/Cache Warming.md","x":2081,"y":-780,"width":730,"height":295,"color":"#0000ff"},
 		{"id":"bb07858f40df8adb","type":"text","text":"Thundering Herd란 하나의 소켓에 대해서 select나 epoll 같이 통신 가능하게 되는 것을 기다리는 시스템 콜을 이용하여 복수의 프로세스(or 스레드)가 대기하고 있다면, 통신 가능하게 되었을 때 원래 하나의 프로세스만 일어나기를 원했는데 대기하던 모든 프로세스가 일어나는 문제이다.","x":1860,"y":-1037,"width":512,"height":118},
 		{"id":"3bf087926d1632be","type":"text","text":"TTL(Time to live)는 컴퓨터나 네트워크에서 데이터의 유효 기간을 나타내기 위한 방법이다.","x":2500,"y":-977,"width":352,"height":58},
-		{"id":"4d88773336a05b57","x":2000,"y":691,"width":547,"height":124,"color":"5","type":"text","text":"> [!TIP]\n> 이 방식 또한 서비스 운영 초반에 cache warming을 수행하는 것이 좋다."},
+		{"id":"4d88773336a05b57","type":"text","text":"> [!TIP]\n> 이 방식 또한 서비스 운영 초반에 cache warming을 수행하는 것이 좋다.","x":2000,"y":691,"width":547,"height":124,"color":"5"},
 		{"id":"01c9d5f8570714b0","type":"file","file":"DB/Cache/Look Aside 패턴.md","x":1160,"y":-875,"width":700,"height":964},
 		{"id":"314826654ca21bb7","type":"file","file":"DB/Cache/Read Through 패턴.md","x":1160,"y":144,"width":700,"height":903},
 		{"id":"8a226c96e4c197c1","type":"file","file":"DB/Cache/캐시 쓰기 전략(Write Cache Strategy).md","x":-530,"y":460,"width":465,"height":154},
-		{"id":"9ffdd4bf6f4d12ad","x":-1320,"y":800,"width":700,"height":680,"type":"text","text":"- Write Behind 패턴이라고도 불린다.\n- 캐시와 DB 사이에 비동기적으로 수행하기 때문에 동기화 과정이 생략된다.\n- 데이터를 저장할 때 DB에 바로 쿼리하지 않고, 캐시에 모아서 일정 주기 배치 작업을 통해 DB에 반영한다.\n- 캐시에 모아놨다가 DB에 쓰기 때문에 쓰기 쿼리 횟수 비용과 부하를 줄일 수 있다.\n- Write가 빈번하면서 Read를 하는데 많은 양의 Resource가 소모되는 서비스에 적합하다.\n- 데이터 정합성 확보\n- 자주 사용되지 않는 불필요한 리소스 저장"}
+		{"id":"279c199c9f15c7c8","type":"file","file":"DB/Cache/canvas/Write Back 패턴.md","x":-1340,"y":780,"width":660,"height":901},
+		{"id":"f08e18ca4f05ac6c","x":-1151,"y":1765,"width":711,"height":235,"type":"text","text":"> [!TIP]\n> 이 전략 또한 캐시에 Replication이나 Cluster 구조를 적용함으로써 Cache 서비스의 가용성을 높이는 것이"}
 	],
 	"edges":[
 		{"id":"bcfcc66754001d83","fromNode":"7b839874ead5e33b","fromSide":"right","toNode":"bc42b45024fea32c","toSide":"left","label":"캐시 전략이 왜 필요한가?"},
@@ -30,6 +31,7 @@
 		{"id":"53aae503741f0813","fromNode":"622f373e093fd50e","fromSide":"top","toNode":"3bf087926d1632be","toSide":"bottom","label":"TTL?"},
 		{"id":"e57f5f8c2630c740","fromNode":"622f373e093fd50e","fromSide":"bottom","toNode":"829202cb9df71a38","toSide":"top"},
 		{"id":"f6bd6d66738fc2e3","fromNode":"314826654ca21bb7","fromSide":"right","toNode":"4d88773336a05b57","toSide":"left"},
-		{"id":"c03f950e8a86cde1","fromNode":"8a226c96e4c197c1","fromSide":"bottom","toNode":"9ffdd4bf6f4d12ad","toSide":"top"}
+		{"id":"c03f950e8a86cde1","fromNode":"8a226c96e4c197c1","fromSide":"bottom","toNode":"279c199c9f15c7c8","toSide":"top","label":"Write Back 패턴?"},
+		{"id":"a1ed8209ba78cd5d","fromNode":"279c199c9f15c7c8","fromSide":"bottom","toNode":"f08e18ca4f05ac6c","toSide":"top"}
 	]
 }
