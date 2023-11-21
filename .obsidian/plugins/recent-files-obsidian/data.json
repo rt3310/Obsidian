@@ -5,32 +5,40 @@
       "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
     },
     {
-      "basename": "MBR과 부트스트래핑",
-      "path": "OS/Bootstrap/canvas/MBR과 부트스트래핑.md"
+      "basename": "BIOS(Basic Input-Output System)",
+      "path": "OS/Bootstrap/md/BIOS(Basic Input-Output System).md"
     },
     {
-      "basename": "마스터 부트 레코드(MBR)",
-      "path": "OS/Bootstrap/canvas/마스터 부트 레코드(MBR).md"
+      "basename": "ROM",
+      "path": "OS/Bootstrap/resources/ROM.png"
     },
     {
       "basename": "펌웨어(Firmware)",
-      "path": "OS/Bootstrap/canvas/펌웨어(Firmware).md"
+      "path": "OS/Bootstrap/md/펌웨어(Firmware).md"
     },
     {
-      "basename": "UEFI(Unified Extensible Firmware Interface)",
-      "path": "OS/Bootstrap/canvas/UEFI(Unified Extensible Firmware Interface).md"
-    },
-    {
-      "basename": "BIOS(Basic Input-Output System)",
-      "path": "OS/Bootstrap/canvas/BIOS(Basic Input-Output System).md"
+      "basename": "마스터 부트 레코드(MBR)",
+      "path": "OS/Bootstrap/md/마스터 부트 레코드(MBR).md"
     },
     {
       "basename": "BIOS",
       "path": "OS/Bootstrap/resources/BIOS.png"
     },
     {
+      "basename": "UEFI(Unified Extensible Firmware Interface)",
+      "path": "OS/Bootstrap/md/UEFI(Unified Extensible Firmware Interface).md"
+    },
+    {
+      "basename": "GUID 파티션 테이블(GPT, GUID Partition Table)",
+      "path": "OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md"
+    },
+    {
+      "basename": "MBR과 부트스트래핑",
+      "path": "OS/Bootstrap/md/MBR과 부트스트래핑.md"
+    },
+    {
       "basename": "ROM(Read-Only Memory)",
-      "path": "OS/Bootstrap/canvas/ROM(Read-Only Memory).md"
+      "path": "OS/Bootstrap/md/ROM(Read-Only Memory).md"
     },
     {
       "basename": "Cache 전략",
