@@ -5,6 +5,22 @@
       "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
     },
     {
+      "basename": "펌웨어(Firmware)",
+      "path": "OS/Bootstrap/canvas/펌웨어(Firmware).md"
+    },
+    {
+      "basename": "UEFI(Unified Extensible Firmware Interface)",
+      "path": "OS/Bootstrap/canvas/UEFI(Unified Extensible Firmware Interface).md"
+    },
+    {
+      "basename": "BIOS(Basic Input-Output System)",
+      "path": "OS/Bootstrap/canvas/BIOS(Basic Input-Output System).md"
+    },
+    {
+      "basename": "BIOS",
+      "path": "OS/Bootstrap/resources/BIOS.png"
+    },
+    {
       "basename": "ROM(Read-Only Memory)",
       "path": "OS/Bootstrap/canvas/ROM(Read-Only Memory).md"
     },

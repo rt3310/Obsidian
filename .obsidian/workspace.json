@@ -30,8 +30,8 @@
               "state": {
                 "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "viewState": {
-                  "x": 1067.64,
-                  "y": -146.94000000000023,
+                  "x": 2076.6575,
+                  "y": -601.3581375122071,
                   "zoom": 0
                 }
               }
@@ -189,9 +189,15 @@
   },
   "active": "59e1dafc5293db90",
   "lastOpenFiles": [
+    "OS/Bootstrap/canvas/UEFI(Unified Extensible Firmware Interface).md",
+    "OS/Bootstrap/resources/UEFI.png",
+    "OS/Bootstrap/canvas/펌웨어(Firmware).md",
+    "OS/Bootstrap/resources",
+    "OS/Bootstrap/resources/BIOS.png",
+    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "OS/Bootstrap/canvas/BIOS(Basic Input-Output System).md",
     "OS/Bootstrap/canvas/ROM(Read-Only Memory).md",
     "DB/Cache/canvas/Cache 전략.canvas",
-    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/canvas",
     "OS/Bootstrap",
     "conflict-files-obsidian-git.md",
@@ -208,8 +214,6 @@
     "Java/JVM/resources/minor gc 9.png",
     "Java/JVM/resources/minor gc 8.png",
     "Java/JVM/resources/minor gc 7.png",
-    "Java/JVM/resources/minor gc 6.png",
-    "Java/JVM/resources/minor gc 5.png",
     "Java/JVM/md/힙 영역.md",
     "Java/JVM/md/클래스 파일 로딩 순서.md",
     "Java/JVM/md/클래스 로더.md",
@@ -227,16 +231,12 @@
     "Java/JVM/md/Survivor 0, Survivor 1.md",
     "Java/JVM/md/Shenandoah GC.md",
     "Java/JVM/md/Serial GC.md",
-    "Java/JVM/md/STW(Stop The World).md",
-    "Java/JVM/md/Permanent.md",
-    "Java/JVM/md/Parallel GC.md",
     "Java/JVM/md",
     "DB/Transaction/md",
     "DB/Cache/resources",
     "DB/Cache/md",
     "DB/Cache/canvas",
     "DB/Cache",
-    "ComputerStructure/Clock/md",
     "Employment/roadmap/RoadMap.canvas",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "OS/Disk/canvas/RAID.canvas",
