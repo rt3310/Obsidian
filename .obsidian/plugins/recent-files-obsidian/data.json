@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
+      "basename": "Cookie & Session",
+      "path": "Web/HttpSession/canvas/Cookie & Session.canvas"
+    },
+    {
+      "basename": "HttpSession",
+      "path": "Web/HttpSession/canvas/HttpSession.canvas"
+    },
+    {
+      "basename": "RAID",
+      "path": "OS/Disk/canvas/RAID.canvas"
     },
     {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "MySQL Phantom Read",
@@ -187,18 +199,6 @@
     {
       "basename": "Cache Warming",
       "path": "DB/Cache/md/Cache Warming.md"
-    },
-    {
-      "basename": "Permanent",
-      "path": "Java/JVM/md/Permanent.md"
-    },
-    {
-      "basename": "age 값",
-      "path": "Java/JVM/md/age 값.md"
-    },
-    {
-      "basename": "G1 GC의 효율성",
-      "path": "Java/JVM/md/G1 GC의 효율성.md"
     }
   ],
   "omittedPaths": [],

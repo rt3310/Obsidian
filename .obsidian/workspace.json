@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "Web/HttpSession/canvas/Cookie & Session.canvas",
                 "viewState": {
-                  "x": -2147.2187906496406,
-                  "y": -545.5968937027214,
-                  "zoom": -0.13715707571404795
+                  "x": -117.863278415618,
+                  "y": -521.104598169534,
+                  "zoom": -0.42947065311641947
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "Web/HttpSession/canvas/Cookie & Session.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "Web/HttpSession/canvas/Cookie & Session.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas"
+                "file": "Web/HttpSession/canvas/Cookie & Session.canvas"
               }
             }
           }
@@ -165,6 +165,9 @@
   },
   "active": "9887829967eed14b",
   "lastOpenFiles": [
+    "Web/HttpSession/canvas/HttpSession.canvas",
+    "Web/HttpSession/canvas/Cookie & Session.canvas",
+    "OS/Disk/canvas/RAID.canvas",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Transaction/md/READ UNCOMMITTED.md",
@@ -217,8 +220,6 @@
     "DB/Cache/resources/Look Aside + Write Around.png",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "Employment/roadmap/RoadMap.canvas",
-    "DB/Cache/resources",
-    "OS/Disk/canvas/RAID.canvas",
-    "DB/Transaction/canvas/무제 파일.canvas"
+    "DB/Cache/resources"
   ]
 }
