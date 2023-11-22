@@ -25,7 +25,7 @@
 		{"id":"d530dcc36d9a0617","type":"file","file":"DB/Cache/md/캐시 저장 방식 지침.md","x":-780,"y":888,"width":783,"height":530},
 		{"id":"b84b47aeedc21614","type":"file","file":"DB/Cache/md/파레토 법칙.md","x":-708,"y":1591,"width":642,"height":295,"color":"#0000ff"},
 		{"id":"1732783a696a3387","type":"file","file":"DB/Cache/md/캐시 제거 방식 지침.md","x":-1585,"y":888,"width":728,"height":474},
-		{"id":"573c34c22cb10dac","type":"file","file":"DB/Cache/md/Cache Stampede 현상.md","x":-1572,"y":1514,"width":715,"height":641},
+		{"id":"573c34c22cb10dac","type":"file","file":"DB/Cache/md/Cache Stampede 현상.md","x":-1572,"y":1514,"width":715,"height":642},
 		{"id":"3a1bf162d4cc39d3","type":"file","file":"DB/Cache/md/캐시 공유 방식 지침.md","x":-2400,"y":888,"width":720,"height":498},
 		{"id":"5aa4763e7ebbf06e","type":"file","file":"DB/Cache/md/Look Aside + Write Around 조합.md","x":-2480,"y":-1374,"width":600,"height":445},
 		{"id":"aaed3b67173433d5","type":"file","file":"DB/Cache/md/Read Through + Write Around 조합.md","x":-2480,"y":-894,"width":600,"height":478},

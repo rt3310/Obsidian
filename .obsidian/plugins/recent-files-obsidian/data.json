@@ -5,16 +5,48 @@
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
     {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "Cache Stampede 현상",
-      "path": "DB/Cache/resources/Cache Stampede 현상.png"
+      "basename": "MySQL Phantom Read",
+      "path": "DB/Transaction/md/MySQL Phantom Read.md"
     },
     {
       "basename": "Cache Stampede 현상",
       "path": "DB/Cache/md/Cache Stampede 현상.md"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "READ UNCOMMITTED",
+      "path": "DB/Transaction/md/READ UNCOMMITTED.md"
+    },
+    {
+      "basename": "REPEATABLE READ 작동 방식",
+      "path": "DB/Transaction/md/REPEATABLE READ 작동 방식.md"
+    },
+    {
+      "basename": "READ UNCOMMITTED의 Dirty Read",
+      "path": "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
+    },
+    {
+      "basename": "Non-Repeatable Read",
+      "path": "DB/Transaction/md/Non-Repeatable Read.md"
+    },
+    {
+      "basename": "READ COMMITTED 작동 방식",
+      "path": "DB/Transaction/md/READ COMMITTED 작동 방식.md"
+    },
+    {
+      "basename": "SERIALIZABLE 작동 방식",
+      "path": "DB/Transaction/md/SERIALIZABLE 작동 방식.md"
+    },
+    {
+      "basename": "SERIALIZABLE",
+      "path": "DB/Transaction/md/SERIALIZABLE.md"
+    },
+    {
+      "basename": "Cache Stampede 현상",
+      "path": "DB/Cache/resources/Cache Stampede 현상.png"
     },
     {
       "basename": "Connectionless",
@@ -167,38 +199,6 @@
     {
       "basename": "G1 GC의 효율성",
       "path": "Java/JVM/md/G1 GC의 효율성.md"
-    },
-    {
-      "basename": "컴퓨터 시간 원리",
-      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
-    },
-    {
-      "basename": "Look Aside",
-      "path": "DB/Cache/resources/Look Aside.png"
-    },
-    {
-      "basename": "RoadMap",
-      "path": "Employment/roadmap/RoadMap.canvas"
-    },
-    {
-      "basename": "CMS GC",
-      "path": "Java/JVM/resources/CMS GC.png"
-    },
-    {
-      "basename": "G1 GC",
-      "path": "Java/JVM/resources/G1 GC.png"
-    },
-    {
-      "basename": "Serial GC",
-      "path": "Java/JVM/resources/Serial GC.png"
-    },
-    {
-      "basename": "Parallel GC",
-      "path": "Java/JVM/resources/Parallel GC.png"
-    },
-    {
-      "basename": "G1 GC Not Heap",
-      "path": "Java/JVM/resources/G1 GC Not Heap.png"
     }
   ],
   "omittedPaths": [],

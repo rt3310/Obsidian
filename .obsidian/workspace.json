@@ -13,32 +13,16 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
-                "viewState": {
-                  "x": -929.3894457060243,
-                  "y": 1812.1238933414468,
-                  "zoom": -0.10203808823463623
-                }
-              }
-            }
-          },
-          {
-            "id": "7a8e6e683c8357fa",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
                 "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "viewState": {
-                  "x": 1.1929487243792778,
-                  "y": -631.8316656864685,
-                  "zoom": -1.015930729016237
+                  "x": 3028.5851215827392,
+                  "y": 1524.4025062387539,
+                  "zoom": -1.5256239603602637
                 }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,9 +163,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7a8e6e683c8357fa",
+  "active": "9887829967eed14b",
   "lastOpenFiles": [
     "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Transaction/md/READ UNCOMMITTED.md",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png",
     "OS/Bootstrap/resources/BOOT ORDER Priorities.png",
@@ -215,7 +201,6 @@
     "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/md/가비지 컬렉터.md",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Java/JVM/md",
     "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md",
     "DB/Cache/md/Write Around 패턴.md",
@@ -226,7 +211,6 @@
     "DB/Cache/md/캐시 제거 방식 지침.md",
     "DB/Cache/md/캐시 저장 방식 지침.md",
     "DB/Cache/md/Look Aside + Write Around 조합.md",
-    "DB/Cache/md/Read Through + Write Through 조합.md",
     "DB/Cache/resources/Read Through + Write Through.png",
     "DB/Cache/resources/Write Around.png",
     "DB/Cache/resources/Read Through + Write Around.png",
