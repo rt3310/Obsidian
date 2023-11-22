@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Cache Stampede 현상",
       "path": "DB/Cache/md/Cache Stampede 현상.md"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "READ UNCOMMITTED",

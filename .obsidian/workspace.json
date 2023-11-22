@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": 3028.5851215827392,
-                  "y": 1524.4025062387539,
-                  "zoom": -1.5256239603602637
+                  "x": -2402.907382351387,
+                  "y": -1056.9740771062138,
+                  "zoom": -0.13715707571404795
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+                "file": "DB/Cache/canvas/Cache 전략.canvas"
               }
             }
           }
@@ -165,9 +165,9 @@
   },
   "active": "9887829967eed14b",
   "lastOpenFiles": [
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Transaction/md/READ UNCOMMITTED.md",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png",
     "OS/Bootstrap/resources/BOOT ORDER Priorities.png",
