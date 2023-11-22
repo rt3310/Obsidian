@@ -28,11 +28,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "viewState": {
-                  "x": -770.0099533318271,
-                  "y": 1661.2120807022031,
-                  "zoom": -0.43537142156796954
+                  "x": 1.1929487243792778,
+                  "y": -631.8316656864685,
+                  "zoom": -1.015930729016237
                 }
               }
             }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas"
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
               }
             }
           }
@@ -181,6 +181,7 @@
   },
   "active": "7a8e6e683c8357fa",
   "lastOpenFiles": [
+    "DB/Cache/canvas/Cache 전략.canvas",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png",
     "OS/Bootstrap/resources/BOOT ORDER Priorities.png",
@@ -199,7 +200,6 @@
     "OS/Bootstrap/canvas",
     "OS/Bootstrap",
     "DB/Cache/resources/Cache Stampede 현상.png",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "Web/HttpSession/md/Connectionless.md",
     "Web/HttpSession/md",
     "ComputerStructure/Register/canvas/레지스터.canvas",
@@ -231,7 +231,6 @@
     "DB/Cache/resources/Write Around.png",
     "DB/Cache/resources/Read Through + Write Around.png",
     "DB/Cache/resources/Look Aside + Write Around.png",
-    "DB/Cache/resources/Write Through.png",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "Employment/roadmap/RoadMap.canvas",
     "DB/Cache/resources",
