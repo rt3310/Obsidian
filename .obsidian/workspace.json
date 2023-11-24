@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "56fe35a031310ca2",
+        "id": "3edf64070f5f7795",
         "type": "tabs",
         "children": [
           {
-            "id": "9887829967eed14b",
+            "id": "09f978acdccc6815",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "viewState": {
-                  "x": 1517.3382612470102,
-                  "y": -126.203254825686,
-                  "zoom": 0.4166666666666668
+                  "x": 2423.128632913174,
+                  "y": -575.35809905238,
+                  "zoom": 0.0352991814572417
                 }
               }
             }
@@ -69,7 +69,15 @@
             }
           },
           {
-            "id": "473fac1bffc5c8df",
+            "id": "ed8190dd4e91a0af",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "c28bc1c15218334b",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -96,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
               }
             }
           }
@@ -163,63 +171,63 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9887829967eed14b",
+  "active": "09f978acdccc6815",
   "lastOpenFiles": [
-    "Web/HttpSession/canvas/Cookie & Session.canvas",
     "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
-    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.md",
     "Design/사용자 수에 따른 규모 확장성/canvas",
     "Design/사용자 수에 따른 규모 확장성",
     "Design",
-    "Web/HttpSession/canvas/HttpSession.canvas",
-    "OS/Disk/canvas/RAID.canvas",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "DB/Cache/canvas/Cache 전략.canvas",
-    "DB/Transaction/md/READ UNCOMMITTED.md",
-    "OS/Bootstrap/resources/UEFI.png",
-    "OS/Bootstrap/resources/ROM.png",
-    "OS/Bootstrap/resources/BOOT ORDER Priorities.png",
-    "OS/Bootstrap/resources/BIOS.png",
-    "OS/Bootstrap/md/펌웨어(Firmware).md",
-    "OS/Bootstrap/md/마스터 부트 레코드(MBR).md",
-    "OS/Bootstrap/md/UEFI(Unified Extensible Firmware Interface).md",
-    "OS/Bootstrap/md/ROM(Read-Only Memory).md",
-    "OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
-    "OS/Bootstrap/md/MBR과 부트스트래핑.md",
-    "OS/Bootstrap/md/BIOS(Basic Input-Output System).md",
+    "OS/Bootstrap/resources/BOOT ORDER Priorities.png",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
-    "OS/Bootstrap/resources",
+    "OS/Bootstrap/md/펌웨어(Firmware).md",
     "OS/Bootstrap/md",
+    "OS/Bootstrap/md/마스터 부트 레코드(MBR).md",
+    "OS/Bootstrap/resources/ROM.png",
+    "OS/Bootstrap/resources/BIOS.png",
+    "OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md",
+    "OS/Bootstrap/md/MBR과 부트스트래핑.md",
+    "OS/Bootstrap/md/UEFI(Unified Extensible Firmware Interface).md",
+    "OS/Bootstrap/resources/UEFI.png",
+    "OS/Bootstrap/resources",
+    "OS/Bootstrap/md/BIOS(Basic Input-Output System).md",
+    "OS/Bootstrap/md/ROM(Read-Only Memory).md",
+    "DB/Cache/canvas/Cache 전략.canvas",
     "OS/Bootstrap/canvas",
     "OS/Bootstrap",
-    "DB/Cache/resources/Cache Stampede 현상.png",
+    "conflict-files-obsidian-git.md",
+    "Web/HttpSession/md/Stateless.md",
+    "Web/HttpSession/md/HttpSession 인증처리 방식.md",
+    "Web/HttpSession/md/Cookie vs Session.md",
     "Web/HttpSession/md/Connectionless.md",
     "Web/HttpSession/md",
-    "ComputerStructure/Register/canvas/레지스터.canvas",
-    "ComputerStructure/Clock/md/ZonedDateTime.md",
-    "ComputerStructure/Clock/md/RTC.md",
-    "ComputerStructure/Clock/md/NTP 서버.md",
-    "ComputerStructure/Clock/md/NTP.md",
-    "DB/Cache/md/캐시 가용성 지침.md",
-    "ComputerStructure/Clock/md",
-    "DB/Transaction/md/MVCC.md",
-    "DB/Cache/md",
-    "Java/JVM/canvas/JVM.canvas",
-    "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/resources/힙 영역 상세 2.png",
+    "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
+    "Java/JVM/resources/가비지 컬렉션 동작 과정.png",
+    "Java/JVM/resources/root space.png",
+    "Java/JVM/resources/permanent.png",
+    "Java/JVM/resources/minor gc 9.png",
+    "Java/JVM/md/힙 영역.md",
+    "Java/JVM/md/클래스 파일 로딩 순서.md",
+    "Java/JVM/md/클래스 로더.md",
+    "Java/JVM/md/실행 엔진.md",
+    "Java/JVM/md/스택 영역.md",
+    "Java/JVM/md/메소드 영역.md",
+    "Java/JVM/md/런타임 데이터 영역.md",
+    "Java/JVM/md/네이티브 메소드 인터페이스(JNI).md",
+    "Java/JVM/md/네이티브 메소드 스택.md",
+    "Java/JVM/md/네이티브 메소드 라이브러리.md",
     "Java/JVM/md/가비지 컬렉터.md",
-    "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md",
-    "DB/Cache/md/Write Around 패턴.md",
-    "DB/Cache/resources/DynamoDB Accelerator.png",
-    "DB/Cache/md/캐시 공유 방식 지침.md",
-    "DB/Cache/md/Cache Stampede 현상.md",
-    "DB/Cache/md/파레토 법칙.md",
-    "DB/Cache/md/캐시 제거 방식 지침.md",
-    "DB/Cache/md/캐시 저장 방식 지침.md",
-    "DB/Cache/resources/Read Through + Write Through.png",
-    "DB/Cache/resources/Write Around.png",
-    "DB/Cache/resources/Read Through + Write Around.png",
-    "DB/Cache/resources/Look Aside + Write Around.png",
-    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    "Java/JVM/md/age 값.md",
+    "Java/JVM/md",
+    "DB/Transaction/md",
+    "Employment/roadmap/RoadMap.canvas",
+    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+    "OS/Disk/canvas/RAID.canvas",
+    "OS/Thread/무제 파일.canvas",
+    "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/canvas/JVM.canvas",
+    "ComputerStructure/Register/canvas/레지스터.canvas",
+    "Web/HttpSession/canvas/Cookie & Session.canvas"
   ]
 }
