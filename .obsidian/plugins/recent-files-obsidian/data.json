@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제 파일",
+      "path": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
+    },
+    {
       "basename": "Cookie & Session",
       "path": "Web/HttpSession/canvas/Cookie & Session.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Read Through",
       "path": "DB/Cache/resources/Read Through.png"
-    },
-    {
-      "basename": "Cache Warming",
-      "path": "DB/Cache/md/Cache Warming.md"
     }
   ],
   "omittedPaths": [],

@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Web/HttpSession/canvas/Cookie & Session.canvas",
+                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": -117.863278415618,
-                  "y": -521.104598169534,
-                  "zoom": -0.42947065311641947
+                  "x": 763.3844878063544,
+                  "y": 276.49747483698593,
+                  "zoom": -0.8333333333333333
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/HttpSession/canvas/Cookie & Session.canvas",
+                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/HttpSession/canvas/Cookie & Session.canvas",
+                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/HttpSession/canvas/Cookie & Session.canvas"
+                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
               }
             }
           }
@@ -165,8 +165,13 @@
   },
   "active": "9887829967eed14b",
   "lastOpenFiles": [
-    "Web/HttpSession/canvas/HttpSession.canvas",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
+    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
+    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.md",
+    "Design/사용자 수에 따른 규모 확장성/canvas",
+    "Design/사용자 수에 따른 규모 확장성",
+    "Design",
+    "Web/HttpSession/canvas/HttpSession.canvas",
     "OS/Disk/canvas/RAID.canvas",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Cache/canvas/Cache 전략.canvas",
@@ -200,11 +205,9 @@
     "ComputerStructure/Clock/md",
     "DB/Transaction/md/MVCC.md",
     "DB/Cache/md",
-    "DB/Transaction/md",
     "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/md/가비지 컬렉터.md",
-    "Java/JVM/md",
     "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md",
     "DB/Cache/md/Write Around 패턴.md",
     "DB/Cache/resources/DynamoDB Accelerator.png",
@@ -213,13 +216,10 @@
     "DB/Cache/md/파레토 법칙.md",
     "DB/Cache/md/캐시 제거 방식 지침.md",
     "DB/Cache/md/캐시 저장 방식 지침.md",
-    "DB/Cache/md/Look Aside + Write Around 조합.md",
     "DB/Cache/resources/Read Through + Write Through.png",
     "DB/Cache/resources/Write Around.png",
     "DB/Cache/resources/Read Through + Write Around.png",
     "DB/Cache/resources/Look Aside + Write Around.png",
-    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
-    "Employment/roadmap/RoadMap.canvas",
-    "DB/Cache/resources"
+    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
   ]
 }

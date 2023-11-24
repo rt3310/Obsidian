@@ -40,5 +40,6 @@
   "OS/Thread": "FarStar",
   "Web/HttpSession": "FarStar",
   "DB/Cache": "FarStar",
-  "OS/Bootstrap": "FarStar"
+  "Design": "FarFolder",
+  "Design/사용자 수에 따른 규모 확장성": "FarStar"
 }
