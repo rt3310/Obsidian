@@ -5,8 +5,36 @@
       "path": "DB/Normalization/canvas/정규화.canvas"
     },
     {
+      "basename": "정규형",
+      "path": "DB/Normalization/canvas/정규형.md"
+    },
+    {
+      "basename": "정규화(Normalization)",
+      "path": "DB/Normalization/canvas/정규화(Normalization).md"
+    },
+    {
+      "basename": "완전 함수적 종속(Full Functional Dependency)",
+      "path": "DB/Normalization/canvas/완전 함수적 종속(Full Functional Dependency).md"
+    },
+    {
+      "basename": "부분 함수적 종속(Partial Functional Dependency)",
+      "path": "DB/Normalization/canvas/부분 함수적 종속(Partial Functional Dependency).md"
+    },
+    {
       "basename": "함수적 종속성",
       "path": "DB/Normalization/canvas/함수적 종속성.md"
+    },
+    {
+      "basename": "삭제이상",
+      "path": "DB/Normalization/canvas/삭제이상.md"
+    },
+    {
+      "basename": "갱신이상",
+      "path": "DB/Normalization/canvas/갱신이상.md"
+    },
+    {
+      "basename": "삽입이상",
+      "path": "DB/Normalization/canvas/삽입이상.md"
     },
     {
       "basename": "컴퓨터 부팅 과정",
@@ -171,34 +199,6 @@
     {
       "basename": "Read Through + Write Around 조합",
       "path": "DB/Cache/md/Read Through + Write Around 조합.md"
-    },
-    {
-      "basename": "Write Around",
-      "path": "DB/Cache/resources/Write Around.png"
-    },
-    {
-      "basename": "Read Through + Write Around",
-      "path": "DB/Cache/resources/Read Through + Write Around.png"
-    },
-    {
-      "basename": "Look Aside + Write Around",
-      "path": "DB/Cache/resources/Look Aside + Write Around.png"
-    },
-    {
-      "basename": "Read Through 패턴",
-      "path": "DB/Cache/md/Read Through 패턴.md"
-    },
-    {
-      "basename": "Look Aside 패턴",
-      "path": "DB/Cache/md/Look Aside 패턴.md"
-    },
-    {
-      "basename": "Write Through 패턴",
-      "path": "DB/Cache/md/Write Through 패턴.md"
-    },
-    {
-      "basename": "Write Back 패턴",
-      "path": "DB/Cache/md/Write Back 패턴.md"
     }
   ],
   "omittedPaths": [],

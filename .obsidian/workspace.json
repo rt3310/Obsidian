@@ -15,8 +15,8 @@
               "state": {
                 "file": "DB/Normalization/canvas/정규화.canvas",
                 "viewState": {
-                  "x": 284.5767385993728,
-                  "y": -29.516554726750826,
+                  "x": 44.63829651001811,
+                  "y": -346.38793962572305,
                   "zoom": -0.44666666666666666
                 }
               }
@@ -173,6 +173,13 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
+    "DB/Normalization/canvas/정규형.md",
+    "DB/Normalization/canvas/정규화(Normalization).md",
+    "DB/Normalization/canvas/완전 함수적 종속(Full Functional Dependency).md",
+    "DB/Normalization/canvas/부분 함수적 종속(Partial Functional Dependency).md",
+    "DB/Normalization/canvas/삭제이상.md",
+    "DB/Normalization/canvas/갱신이상.md",
+    "DB/Normalization/canvas/삽입이상.md",
     "DB/Normalization/canvas/함수적 종속성.md",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "DB/Normalization/canvas/정규화.canvas",
@@ -216,13 +223,6 @@
     "Java/JVM/md/클래스 로더.md",
     "Java/JVM/md/실행 엔진.md",
     "Java/JVM/md/스택 영역.md",
-    "Java/JVM/md/메소드 영역.md",
-    "Java/JVM/md/런타임 데이터 영역.md",
-    "Java/JVM/md/네이티브 메소드 인터페이스(JNI).md",
-    "Java/JVM/md/네이티브 메소드 스택.md",
-    "Java/JVM/md/네이티브 메소드 라이브러리.md",
-    "Java/JVM/md/가비지 컬렉터.md",
-    "Java/JVM/md/age 값.md",
     "Employment/roadmap/RoadMap.canvas",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "OS/Disk/canvas/RAID.canvas",
