@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "제 2정규형(2NF - Second Normal Form)",
+      "path": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
+    },
+    {
+      "basename": "제 1정규형 (1NF - First Normal Form)",
+      "path": "DB/Normalization/canvas/제 1정규형 (1NF - First Normal Form).md"
+    },
+    {
       "basename": "정규화",
       "path": "DB/Normalization/canvas/정규화.canvas"
+    },
+    {
+      "basename": "제 3정규형(3NF - Third Normal Form)",
+      "path": "DB/Normalization/canvas/제 3정규형(3NF - Third Normal Form).md"
     },
     {
       "basename": "정규형",
@@ -183,22 +195,6 @@
     {
       "basename": "캐시 제거 방식 지침",
       "path": "DB/Cache/md/캐시 제거 방식 지침.md"
-    },
-    {
-      "basename": "캐시 저장 방식 지침",
-      "path": "DB/Cache/md/캐시 저장 방식 지침.md"
-    },
-    {
-      "basename": "Look Aside + Write Around 조합",
-      "path": "DB/Cache/md/Look Aside + Write Around 조합.md"
-    },
-    {
-      "basename": "Read Through + Write Through",
-      "path": "DB/Cache/resources/Read Through + Write Through.png"
-    },
-    {
-      "basename": "Read Through + Write Around 조합",
-      "path": "DB/Cache/md/Read Through + Write Around 조합.md"
     }
   ],
   "omittedPaths": [],

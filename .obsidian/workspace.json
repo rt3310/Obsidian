@@ -11,14 +11,11 @@
             "id": "09f978acdccc6815",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
-                "viewState": {
-                  "x": 44.63829651001811,
-                  "y": -346.38793962572305,
-                  "zoom": -0.44666666666666666
-                }
+                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas"
+                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
               }
             }
           }
@@ -173,6 +170,11 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
+    "DB/Normalization/canvas/제 1정규형 (1NF - First Normal Form).md",
+    "DB/Normalization/canvas/정규화.canvas",
+    "DB/Normalization/canvas/제 1정규형(1NF - First Normal Form.md",
+    "DB/Normalization/canvas/제 3정규형(3NF - Third Normal Form).md",
+    "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
     "DB/Normalization/canvas/정규형.md",
     "DB/Normalization/canvas/정규화(Normalization).md",
     "DB/Normalization/canvas/완전 함수적 종속(Full Functional Dependency).md",
@@ -182,7 +184,6 @@
     "DB/Normalization/canvas/삽입이상.md",
     "DB/Normalization/canvas/함수적 종속성.md",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
-    "DB/Normalization/canvas/정규화.canvas",
     "DB/Normalization/canvas",
     "DB/Normalization",
     "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
@@ -218,11 +219,6 @@
     "Java/JVM/resources/root space.png",
     "Java/JVM/resources/permanent.png",
     "Java/JVM/resources/minor gc 9.png",
-    "Java/JVM/md/힙 영역.md",
-    "Java/JVM/md/클래스 파일 로딩 순서.md",
-    "Java/JVM/md/클래스 로더.md",
-    "Java/JVM/md/실행 엔진.md",
-    "Java/JVM/md/스택 영역.md",
     "Employment/roadmap/RoadMap.canvas",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "OS/Disk/canvas/RAID.canvas",
