@@ -15,9 +15,9 @@
               "state": {
                 "file": "DB/Normalization/canvas/정규화.canvas",
                 "viewState": {
-                  "x": 1526.8901843818448,
-                  "y": -245.71461594739995,
-                  "zoom": -0.7656538661321002
+                  "x": 284.5767385993728,
+                  "y": -29.516554726750826,
+                  "zoom": -0.44666666666666666
                 }
               }
             }
@@ -173,6 +173,7 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
+    "DB/Normalization/canvas/함수적 종속성.md",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "DB/Normalization/canvas/정규화.canvas",
     "DB/Normalization/canvas",
@@ -227,7 +228,6 @@
     "OS/Disk/canvas/RAID.canvas",
     "OS/Thread/무제 파일.canvas",
     "Java/JVM/canvas/Garbage Collector.canvas",
-    "Java/JVM/canvas/JVM.canvas",
-    "ComputerStructure/Register/canvas/레지스터.canvas"
+    "Java/JVM/canvas/JVM.canvas"
   ]
 }

@@ -5,6 +5,10 @@
       "path": "DB/Normalization/canvas/정규화.canvas"
     },
     {
+      "basename": "함수적 종속성",
+      "path": "DB/Normalization/canvas/함수적 종속성.md"
+    },
+    {
       "basename": "컴퓨터 부팅 과정",
       "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Write Back 패턴",
       "path": "DB/Cache/md/Write Back 패턴.md"
-    },
-    {
-      "basename": "Write Through",
-      "path": "DB/Cache/resources/Write Through.png"
     }
   ],
   "omittedPaths": [],
