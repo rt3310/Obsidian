@@ -1,52 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "제 2정규형(2NF - Second Normal Form)",
-      "path": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
-    },
-    {
-      "basename": "제 1정규형 (1NF - First Normal Form)",
-      "path": "DB/Normalization/canvas/제 1정규형 (1NF - First Normal Form).md"
-    },
-    {
       "basename": "정규화",
       "path": "DB/Normalization/canvas/정규화.canvas"
     },
     {
-      "basename": "제 3정규형(3NF - Third Normal Form)",
-      "path": "DB/Normalization/canvas/제 3정규형(3NF - Third Normal Form).md"
-    },
-    {
-      "basename": "정규형",
-      "path": "DB/Normalization/canvas/정규형.md"
-    },
-    {
-      "basename": "정규화(Normalization)",
-      "path": "DB/Normalization/canvas/정규화(Normalization).md"
-    },
-    {
-      "basename": "완전 함수적 종속(Full Functional Dependency)",
-      "path": "DB/Normalization/canvas/완전 함수적 종속(Full Functional Dependency).md"
-    },
-    {
-      "basename": "부분 함수적 종속(Partial Functional Dependency)",
-      "path": "DB/Normalization/canvas/부분 함수적 종속(Partial Functional Dependency).md"
-    },
-    {
-      "basename": "함수적 종속성",
-      "path": "DB/Normalization/canvas/함수적 종속성.md"
-    },
-    {
       "basename": "삭제이상",
-      "path": "DB/Normalization/canvas/삭제이상.md"
-    },
-    {
-      "basename": "갱신이상",
-      "path": "DB/Normalization/canvas/갱신이상.md"
+      "path": "DB/Normalization/md/삭제이상.md"
     },
     {
       "basename": "삽입이상",
-      "path": "DB/Normalization/canvas/삽입이상.md"
+      "path": "DB/Normalization/md/삽입이상.md"
+    },
+    {
+      "basename": "갱신이상",
+      "path": "DB/Normalization/md/갱신이상.md"
+    },
+    {
+      "basename": "제 1정규형 (1NF - First Normal Form)",
+      "path": "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md"
+    },
+    {
+      "basename": "정규화(Normalization)",
+      "path": "DB/Normalization/md/정규화(Normalization).md"
+    },
+    {
+      "basename": "제 2정규형(2NF - Second Normal Form)",
+      "path": "DB/Normalization/md/제 2정규형(2NF - Second Normal Form).md"
+    },
+    {
+      "basename": "제 3정규형(3NF - Third Normal Form)",
+      "path": "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md"
+    },
+    {
+      "basename": "정규형",
+      "path": "DB/Normalization/md/정규형.md"
+    },
+    {
+      "basename": "완전 함수적 종속(Full Functional Dependency)",
+      "path": "DB/Normalization/md/완전 함수적 종속(Full Functional Dependency).md"
+    },
+    {
+      "basename": "부분 함수적 종속(Partial Functional Dependency)",
+      "path": "DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md"
+    },
+    {
+      "basename": "함수적 종속성",
+      "path": "DB/Normalization/md/함수적 종속성.md"
     },
     {
       "basename": "컴퓨터 부팅 과정",

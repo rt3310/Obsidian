@@ -1,16 +1,16 @@
 {
 	"nodes":[
-		{"id":"5ee018d20ff7c1b5","type":"file","file":"DB/Normalization/canvas/함수적 종속성.md","x":1265,"y":-860,"width":345,"height":290},
-		{"id":"e0379787b7809b7f","type":"file","file":"DB/Normalization/canvas/삽입이상.md","x":-365,"y":-90,"width":512,"height":225},
-		{"id":"ad4abfe59ec0e598","type":"file","file":"DB/Normalization/canvas/갱신이상.md","x":220,"y":-90,"width":532,"height":195},
-		{"id":"46859359e8a4b480","type":"file","file":"DB/Normalization/canvas/삭제이상.md","x":820,"y":-90,"width":497,"height":195},
-		{"id":"ba3cc0d9d7a2fe15","type":"text","text":"이상 현상들이 발생하는 이유는 정규화가 되어 있지 않은 테이블 설계 때문이다. 코딩할 때도 관심사를 분리하면 코드의 재사용성과 유지보수의 편의성이 높아지는 것처럼 데이터베이스 설계에서도 비슷한 원칙이 적용된다.\n데이터베이스 설계의 경우 관심사를 분리하지 않아 생기는 문제는 코드에서의 문제보다 훨씬 치명적이다.\n\n이론적으로는 정규화를 수행하려면 속성들 간의 관련성을 파악해야 하는데, 이 속성들간의 관련성을 **함수적 종속성(Functional Dependency)** 이라고 한다. 일반적으로 하나의 릴레이션에는 하나의 함수적 종속성만이 존재하도록 정규화를 하게 된다.","x":1001,"y":-444,"width":874,"height":167},
-		{"id":"f2b687d1ab870b32","type":"file","file":"DB/Normalization/canvas/부분 함수적 종속(Partial Functional Dependency).md","x":1843,"y":-1020,"width":584,"height":206},
-		{"id":"ccc04674643ddd88","type":"file","file":"DB/Normalization/canvas/완전 함수적 종속(Full Functional Dependency).md","x":1843,"y":-668,"width":629,"height":196},
-		{"id":"8b8118a2d8a1be52","type":"file","file":"DB/Normalization/canvas/정규화(Normalization).md","x":-596,"y":-624,"width":463,"height":410},
+		{"id":"8b8118a2d8a1be52","type":"file","file":"DB/Normalization/md/정규화(Normalization).md","x":-596,"y":-624,"width":463,"height":410},
 		{"id":"33d43086edeeaf0c","type":"text","text":"데이터베이스를 잘못 설계하면 불필요한 데이터 중복으로 발생하는 공간낭비 및 부작용을 초래할 수 있다. 이러한 부작용을 이상(Anomaly)이라고 한다.\n이상 현상의 종류로는 삽입이상, 갱신이상, 삭제이상이 있다.","x":180,"y":-463,"width":540,"height":88},
-		{"id":"9998934f0f95bd66","type":"file","file":"DB/Normalization/canvas/정규형.md","x":-545,"y":-940,"width":362,"height":154},
-		{"id":"e2ecfc2a9a2fe389","type":"file","file":"DB/Normalization/canvas/제 1정규형 (1NF - First Normal Form).md","x":-60,"y":-1180,"width":546,"height":297}
+		{"id":"9998934f0f95bd66","type":"file","file":"DB/Normalization/md/정규형.md","x":-545,"y":-940,"width":362,"height":154},
+		{"id":"ba3cc0d9d7a2fe15","type":"text","text":"이상 현상들이 발생하는 이유는 정규화가 되어 있지 않은 테이블 설계 때문이다. 코딩할 때도 관심사를 분리하면 코드의 재사용성과 유지보수의 편의성이 높아지는 것처럼 데이터베이스 설계에서도 비슷한 원칙이 적용된다.\n데이터베이스 설계의 경우 관심사를 분리하지 않아 생기는 문제는 코드에서의 문제보다 훨씬 치명적이다.\n\n이론적으로는 정규화를 수행하려면 속성들 간의 관련성을 파악해야 하는데, 이 속성들간의 관련성을 **함수적 종속성(Functional Dependency)** 이라고 한다. 일반적으로 하나의 릴레이션에는 하나의 함수적 종속성만이 존재하도록 정규화를 하게 된다.","x":1053,"y":-502,"width":874,"height":167},
+		{"id":"5ee018d20ff7c1b5","type":"file","file":"DB/Normalization/md/함수적 종속성.md","x":1317,"y":-918,"width":345,"height":290},
+		{"id":"f2b687d1ab870b32","type":"file","file":"DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md","x":1895,"y":-1078,"width":584,"height":206},
+		{"id":"ccc04674643ddd88","type":"file","file":"DB/Normalization/md/완전 함수적 종속(Full Functional Dependency).md","x":1895,"y":-726,"width":629,"height":196},
+		{"id":"e2ecfc2a9a2fe389","type":"file","file":"DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md","x":-1040,"y":-1600,"width":546,"height":444},
+		{"id":"ad4abfe59ec0e598","type":"file","file":"DB/Normalization/md/갱신이상.md","x":184,"y":-75,"width":532,"height":195},
+		{"id":"e0379787b7809b7f","type":"file","file":"DB/Normalization/md/삽입이상.md","x":-389,"y":-75,"width":512,"height":225},
+		{"id":"46859359e8a4b480","type":"file","file":"DB/Normalization/md/삭제이상.md","x":805,"y":-75,"width":497,"height":195}
 	],
 	"edges":[
 		{"id":"7c74b8a7cef7ef02","fromNode":"8b8118a2d8a1be52","fromSide":"right","toNode":"33d43086edeeaf0c","toSide":"left","label":"왜 필요한가?"},
@@ -22,6 +22,6 @@
 		{"id":"e6f9d9c7be9a9a07","fromNode":"5ee018d20ff7c1b5","fromSide":"right","toNode":"ccc04674643ddd88","toSide":"left","label":"완전 함수적 종속"},
 		{"id":"e2d21a6dd6913648","fromNode":"5ee018d20ff7c1b5","fromSide":"right","toNode":"f2b687d1ab870b32","toSide":"left","label":"부분 함수적 종속"},
 		{"id":"7a7b89f044b31022","fromNode":"8b8118a2d8a1be52","fromSide":"top","toNode":"9998934f0f95bd66","toSide":"bottom"},
-		{"id":"194468d2d146ef10","fromNode":"9998934f0f95bd66","fromSide":"right","toNode":"e2ecfc2a9a2fe389","toSide":"left","label":"1NF"}
+		{"id":"194468d2d146ef10","fromNode":"9998934f0f95bd66","fromSide":"top","toNode":"e2ecfc2a9a2fe389","toSide":"bottom","label":"1NF"}
 	]
 }

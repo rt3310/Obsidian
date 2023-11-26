@@ -11,11 +11,14 @@
             "id": "09f978acdccc6815",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
-                "mode": "source",
-                "source": false
+                "file": "DB/Normalization/canvas/정규화.canvas",
+                "viewState": {
+                  "x": 576.363385721033,
+                  "y": -447.5057410640694,
+                  "zoom": -1.0273438679046005
+                }
               }
             }
           }
@@ -101,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
+                "file": "DB/Normalization/canvas/정규화.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
+                "file": "DB/Normalization/canvas/정규화.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
+                "file": "DB/Normalization/canvas/정규화.canvas"
               }
             }
           }
@@ -170,19 +173,21 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
-    "DB/Normalization/canvas/제 1정규형 (1NF - First Normal Form).md",
+    "DB/Normalization/md/정규화(Normalization).md",
+    "DB/Normalization/md/갱신이상.md",
     "DB/Normalization/canvas/정규화.canvas",
+    "DB/Normalization/md",
+    "DB/Normalization/무제 파일.md",
+    "DB/Normalization/md/제 2정규형(2NF - Second Normal Form).md",
+    "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md",
     "DB/Normalization/canvas/제 1정규형(1NF - First Normal Form.md",
-    "DB/Normalization/canvas/제 3정규형(3NF - Third Normal Form).md",
-    "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
-    "DB/Normalization/canvas/정규형.md",
-    "DB/Normalization/canvas/정규화(Normalization).md",
-    "DB/Normalization/canvas/완전 함수적 종속(Full Functional Dependency).md",
-    "DB/Normalization/canvas/부분 함수적 종속(Partial Functional Dependency).md",
-    "DB/Normalization/canvas/삭제이상.md",
-    "DB/Normalization/canvas/갱신이상.md",
-    "DB/Normalization/canvas/삽입이상.md",
-    "DB/Normalization/canvas/함수적 종속성.md",
+    "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md",
+    "DB/Normalization/md/정규형.md",
+    "DB/Normalization/md/완전 함수적 종속(Full Functional Dependency).md",
+    "DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md",
+    "DB/Normalization/md/삭제이상.md",
+    "DB/Normalization/md/삽입이상.md",
+    "DB/Normalization/md/함수적 종속성.md",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "DB/Normalization/canvas",
     "DB/Normalization",
@@ -211,8 +216,6 @@
     "Web/HttpSession/md/Stateless.md",
     "Web/HttpSession/md/HttpSession 인증처리 방식.md",
     "Web/HttpSession/md/Cookie vs Session.md",
-    "Web/HttpSession/md/Connectionless.md",
-    "Web/HttpSession/md",
     "Java/JVM/resources/힙 영역 상세 2.png",
     "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
     "Java/JVM/resources/가비지 컬렉션 동작 과정.png",
