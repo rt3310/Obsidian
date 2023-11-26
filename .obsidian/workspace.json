@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 576.363385721033,
-                  "y": -447.5057410640694,
-                  "zoom": -1.0273438679046005
+                  "x": -774.6864326016532,
+                  "y": 3477.496375731213,
+                  "zoom": -0.7866666666666666
                 }
               }
             }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "Java/JVM/md/CMS GC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "Java/JVM/md/CMS GC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas"
+                "file": "Java/JVM/md/CMS GC.md"
               }
             }
           }
@@ -173,9 +173,11 @@
   },
   "active": "09f978acdccc6815",
   "lastOpenFiles": [
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Normalization/canvas/정규화.canvas",
     "DB/Normalization/md/정규화(Normalization).md",
     "DB/Normalization/md/갱신이상.md",
-    "DB/Normalization/canvas/정규화.canvas",
     "DB/Normalization/md",
     "DB/Normalization/무제 파일.md",
     "DB/Normalization/md/제 2정규형(2NF - Second Normal Form).md",
@@ -209,7 +211,6 @@
     "OS/Bootstrap/resources",
     "OS/Bootstrap/md/BIOS(Basic Input-Output System).md",
     "OS/Bootstrap/md/ROM(Read-Only Memory).md",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "OS/Bootstrap/canvas",
     "OS/Bootstrap",
     "conflict-files-obsidian-git.md",
