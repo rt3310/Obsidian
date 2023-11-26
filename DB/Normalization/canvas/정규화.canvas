@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"5f39635a6aab92c3","type":"text","text":"# 정규화","x":-109,"y":-263,"width":122,"height":39},
+		{"id":"33d43086edeeaf0c","type":"text","text":"데이터베이스를 잘못 설계하면 불필요한 데이터 중복으로 발생하는 공간낭비 및 부작용을 초래할 수 있다. 이러한 부작용을 이상(Anomaly)이라고 한다.\n이상 현상의 종류로는 삽입이상, 갱신이상, 삭제이상이 있다.","x":180,"y":-380,"width":525,"height":88},
+		{"id":"2642e7d2541b6c02","x":-206,"y":-120,"width":386,"height":197,"type":"text","text":"새 데이터를 삽입하기 위해 불필요한 데이터도 함께 삽입해야 하는 문제를 **삽입이상**이라고 한다.\n\n예를 들어, Key로 지정된 Attribute는 NULL이 될 수 없다. 하지만 NULL인 하는 데이터가 있다면 그 데이터는 테이블에 추가될 수 없다. 그 데이터를 추가하려면 굳이 NULL용 속성을 따로 만들어서 삽입해야 한다."},
+		{"id":"292a143174119f91","x":220,"y":-90,"width":517,"height":138,"type":"text","text":"중복된 튜플 중 일부만 변경하여 데이터가 불일치하게 되는 모순의 문제를 갱신이상이라고 한다.\n\n예를 들어, 기본 키에 종속되어 있는 Attribute가 변경된다면 모두 변경되어야 한다. 여기서 모두 변경되지 않는 경우 데이터의 모순성이 발생하게 된다."},
+		{"id":"8072743b1df12d24","x":820,"y":-90,"width":482,"height":138,"type":"text","text":"튜플을 삭제할 때 꼭 필요한 데이터까지 함께 삭제되는 데이터 손실의 문제를 **삭제이상**이라고 한다.\n\n예를 들어, 튜플에서 특정 Attribute를 삭제하려고 할 때 그 Attribute가 기본키라면 해당 테이블에 반영하기 위해 모든 행을 삭제해야 한다."},
+		{"id":"ba3cc0d9d7a2fe15","x":846,"y":-368,"width":874,"height":148,"type":"text","text":"이상 현상들이 발생하는 이유는 정규화가 되어 있지 않은 테이블 설계 때문이다. 코딩할 때도 관심사를 분리하면 코드의 재사용성과 유지보수의 편의성이 높아지는 것처럼 데이터베이스 설계에서도 비슷"}
+	],
+	"edges":[
+		{"id":"7c74b8a7cef7ef02","fromNode":"5f39635a6aab92c3","fromSide":"right","toNode":"33d43086edeeaf0c","toSide":"left","label":"왜 필요한가?"},
+		{"id":"46995209ee7969f2","fromNode":"33d43086edeeaf0c","fromSide":"bottom","toNode":"2642e7d2541b6c02","toSide":"top"},
+		{"id":"78984ea7df143b8d","fromNode":"33d43086edeeaf0c","fromSide":"bottom","toNode":"292a143174119f91","toSide":"top"},
+		{"id":"7b55f5ae1fe43217","fromNode":"33d43086edeeaf0c","fromSide":"bottom","toNode":"8072743b1df12d24","toSide":"top"},
+		{"id":"069df8da801e9584","fromNode":"33d43086edeeaf0c","fromSide":"right","toNode":"ba3cc0d9d7a2fe15","toSide":"left"}
+	]
+}
