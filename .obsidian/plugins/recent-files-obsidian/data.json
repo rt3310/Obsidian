@@ -2,6 +2,14 @@
   "recentFiles": [
     {
       "basename": "무제 파일",
+      "path": "Java/Virtual Thread/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "정규화",
+      "path": "DB/Normalization/canvas/정규화.canvas"
+    },
+    {
+      "basename": "무제 파일",
       "path": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
     },
     {
@@ -47,10 +55,6 @@
     {
       "basename": "Cache 전략",
       "path": "DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "정규화",
-      "path": "DB/Normalization/canvas/정규화.canvas"
     },
     {
       "basename": "삭제이상",
@@ -195,10 +199,6 @@
     {
       "basename": "Read Through + Write Through 조합",
       "path": "DB/Cache/md/Read Through + Write Through 조합.md"
-    },
-    {
-      "basename": "캐시 읽기 + 쓰기 전략 조합",
-      "path": "DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md"
     }
   ],
   "omittedPaths": [],

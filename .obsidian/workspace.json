@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
+                "file": "Java/Virtual Thread/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 1517.3382612470102,
-                  "y": -126.203254825686,
-                  "zoom": 0.4166666666666668
+                  "x": 286,
+                  "y": -3,
+                  "zoom": 0
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
+                "file": "Java/Virtual Thread/canvas/무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
+                "file": "Java/Virtual Thread/canvas/무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
+                "file": "Java/Virtual Thread/canvas/무제 파일.canvas"
               }
             }
           }
@@ -165,6 +165,11 @@
   },
   "active": "9887829967eed14b",
   "lastOpenFiles": [
+    "DB/Normalization/canvas/정규화.canvas",
+    "Java/Virtual Thread/canvas/무제 파일.canvas",
+    "Java/Virtual Thread/canvas",
+    "Java/Virtual Thread",
+    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
     "DB/Normalization/md/함수적 종속성.md",
     "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md",
     "DB/Normalization/md/제 2정규형(2NF - Second Normal Form).md",
@@ -176,12 +181,10 @@
     "DB/Normalization/md/삽입이상.md",
     "DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md",
     "DB/Normalization/md/갱신이상.md",
-    "DB/Normalization/canvas/정규화.canvas",
     "DB/Normalization/md",
     "DB/Normalization/canvas",
     "DB/Normalization",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
-    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
     "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.md",
     "Design/사용자 수에 따른 규모 확장성/canvas",
     "Design/사용자 수에 따른 규모 확장성",
@@ -206,15 +209,12 @@
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/resources",
     "OS/Bootstrap/md",
-    "OS/Bootstrap/canvas",
-    "OS/Bootstrap",
     "DB/Cache/resources/Cache Stampede 현상.png",
     "Web/HttpSession/md/Connectionless.md",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "ComputerStructure/Clock/md/ZonedDateTime.md",
     "ComputerStructure/Clock/md/RTC.md",
     "ComputerStructure/Clock/md/NTP 서버.md",
-    "ComputerStructure/Clock/md/NTP.md",
     "Java/JVM/canvas/JVM.canvas",
     "DB/Cache/resources/DynamoDB Accelerator.png",
     "DB/Cache/resources/Read Through + Write Through.png",
