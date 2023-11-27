@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "56fe35a031310ca2",
+        "id": "3edf64070f5f7795",
         "type": "tabs",
         "children": [
           {
-            "id": "9887829967eed14b",
+            "id": "09f978acdccc6815",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Java/Virtual Thread/canvas/무제 파일.canvas",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 286,
-                  "y": -3,
-                  "zoom": 0
+                  "x": -774.6864326016532,
+                  "y": 3477.496375731213,
+                  "zoom": -0.7866666666666666
                 }
               }
             }
@@ -69,7 +69,15 @@
             }
           },
           {
-            "id": "473fac1bffc5c8df",
+            "id": "ed8190dd4e91a0af",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "c28bc1c15218334b",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -96,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Virtual Thread/canvas/무제 파일.canvas",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Virtual Thread/canvas/무제 파일.canvas",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Virtual Thread/canvas/무제 파일.canvas"
+                "file": "Java/JVM/canvas/Garbage Collector.canvas"
               }
             }
           }
@@ -163,63 +171,63 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9887829967eed14b",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "DB/Normalization/canvas/정규화.canvas",
     "Java/Virtual Thread/canvas/무제 파일.canvas",
     "Java/Virtual Thread/canvas",
     "Java/Virtual Thread",
-    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
-    "DB/Normalization/md/함수적 종속성.md",
-    "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md",
-    "DB/Normalization/md/제 2정규형(2NF - Second Normal Form).md",
-    "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Normalization/canvas/정규화.canvas",
     "DB/Normalization/md/정규화(Normalization).md",
-    "DB/Normalization/md/정규형.md",
-    "DB/Normalization/md/완전 함수적 종속(Full Functional Dependency).md",
-    "DB/Normalization/md/삭제이상.md",
-    "DB/Normalization/md/삽입이상.md",
-    "DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md",
     "DB/Normalization/md/갱신이상.md",
     "DB/Normalization/md",
+    "DB/Normalization/무제 파일.md",
+    "DB/Normalization/md/제 2정규형(2NF - Second Normal Form).md",
+    "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md",
+    "DB/Normalization/canvas/제 1정규형(1NF - First Normal Form.md",
+    "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md",
+    "DB/Normalization/md/정규형.md",
+    "DB/Normalization/md/완전 함수적 종속(Full Functional Dependency).md",
+    "DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md",
+    "DB/Normalization/md/삭제이상.md",
+    "DB/Normalization/md/삽입이상.md",
+    "DB/Normalization/md/함수적 종속성.md",
+    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "DB/Normalization/canvas",
     "DB/Normalization",
-    "Web/HttpSession/canvas/Cookie & Session.canvas",
-    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.md",
+    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
     "Design/사용자 수에 따른 규모 확장성/canvas",
     "Design/사용자 수에 따른 규모 확장성",
     "Design",
-    "Web/HttpSession/canvas/HttpSession.canvas",
-    "OS/Disk/canvas/RAID.canvas",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "DB/Cache/canvas/Cache 전략.canvas",
-    "DB/Transaction/md/READ UNCOMMITTED.md",
-    "OS/Bootstrap/resources/UEFI.png",
-    "OS/Bootstrap/resources/ROM.png",
-    "OS/Bootstrap/resources/BOOT ORDER Priorities.png",
-    "OS/Bootstrap/resources/BIOS.png",
-    "OS/Bootstrap/md/펌웨어(Firmware).md",
-    "OS/Bootstrap/md/마스터 부트 레코드(MBR).md",
-    "OS/Bootstrap/md/UEFI(Unified Extensible Firmware Interface).md",
-    "OS/Bootstrap/md/ROM(Read-Only Memory).md",
-    "OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
-    "OS/Bootstrap/md/MBR과 부트스트래핑.md",
-    "OS/Bootstrap/md/BIOS(Basic Input-Output System).md",
-    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
-    "OS/Bootstrap/resources",
+    "OS/Bootstrap/resources/BOOT ORDER Priorities.png",
+    "OS/Bootstrap/md/펌웨어(Firmware).md",
     "OS/Bootstrap/md",
-    "DB/Cache/resources/Cache Stampede 현상.png",
-    "Web/HttpSession/md/Connectionless.md",
-    "ComputerStructure/Register/canvas/레지스터.canvas",
-    "ComputerStructure/Clock/md/ZonedDateTime.md",
-    "ComputerStructure/Clock/md/RTC.md",
-    "ComputerStructure/Clock/md/NTP 서버.md",
-    "Java/JVM/canvas/JVM.canvas",
-    "DB/Cache/resources/DynamoDB Accelerator.png",
-    "DB/Cache/resources/Read Through + Write Through.png",
-    "DB/Cache/resources/Write Around.png",
-    "DB/Cache/resources/Read Through + Write Around.png",
-    "DB/Cache/resources/Look Aside + Write Around.png"
+    "OS/Bootstrap/md/마스터 부트 레코드(MBR).md",
+    "OS/Bootstrap/resources/ROM.png",
+    "OS/Bootstrap/resources/BIOS.png",
+    "OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md",
+    "OS/Bootstrap/md/MBR과 부트스트래핑.md",
+    "OS/Bootstrap/md/UEFI(Unified Extensible Firmware Interface).md",
+    "OS/Bootstrap/resources/UEFI.png",
+    "OS/Bootstrap/resources",
+    "OS/Bootstrap/md/BIOS(Basic Input-Output System).md",
+    "OS/Bootstrap/md/ROM(Read-Only Memory).md",
+    "conflict-files-obsidian-git.md",
+    "Web/HttpSession/md/Stateless.md",
+    "Web/HttpSession/md/HttpSession 인증처리 방식.md",
+    "Web/HttpSession/md/Cookie vs Session.md",
+    "Java/JVM/resources/힙 영역 상세 2.png",
+    "Java/JVM/resources/가비지 컬렉션 알고리즘 종류.png",
+    "Java/JVM/resources/가비지 컬렉션 동작 과정.png",
+    "Java/JVM/resources/root space.png",
+    "Java/JVM/resources/permanent.png",
+    "Java/JVM/resources/minor gc 9.png",
+    "Employment/roadmap/RoadMap.canvas",
+    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+    "OS/Disk/canvas/RAID.canvas",
+    "OS/Thread/무제 파일.canvas",
+    "Java/JVM/canvas/Garbage Collector.canvas"
   ]
 }
