@@ -2,10 +2,12 @@
 	"nodes":[
 		{"id":"13582db3306434c4","x":-519,"y":-72,"width":187,"height":39,"type":"text","text":"# 가상 스레드"},
 		{"id":"38d1d9b9473c6055","x":-174,"y":-113,"width":637,"height":118,"type":"text","text":"기존의 전통적인 Java 스레드에 더하여 새롭게 추가되는 경량 스레드이다. `Project Loom`의 결과물로 추가된 기능으로 OS 스레드를 그대로 사용하지 않고 JVM 자체적으로 내부 스케줄링을 통해서 사용할 수 있는 경량의 스레드를 제공한다.\n하나의 Java 프로세스가 수십만 ~ 수백만개의 스레드를 동시에 실행할 수 있게끔 설계되었다."},
-		{"id":"64f9b9ea9c4f8bd2","x":-168,"y":180,"width":626,"height":147,"type":"text","text":"Project Loom이란 경량의 스레드를 Java의 추가하기 위해서 가상 스레드를 비롯한 여러가지 기능들을 개발하는 프로젝트로 Loom이란 단어는 Thread의 사전적 정의가 **실**이라는데 착안하여 실을 엮어 **직물을 만든다는 뜻**이다.\nLoom 프로젝트의 결과로 탄생한 Virtual Thread도 처음에는 Fiber-섬유 라고하는 별도의 기능으로 개발되었으나, 최종적으로는 기존 스레드 문법과 호환될 수 있는 형태로 발전했다."}
+		{"id":"64f9b9ea9c4f8bd2","x":-168,"y":180,"width":626,"height":147,"type":"text","text":"Project Loom이란 경량의 스레드를 Java의 추가하기 위해서 가상 스레드를 비롯한 여러가지 기능들을 개발하는 프로젝트로 Loom이란 단어는 Thread의 사전적 정의가 **실**이라는데 착안하여 실을 엮어 **직물을 만든다는 뜻**이다.\nLoom 프로젝트의 결과로 탄생한 Virtual Thread도 처음에는 Fiber-섬유 라고하는 별도의 기능으로 개발되었으나, 최종적으로는 기존 스레드 문법과 호환될 수 있는 형태로 발전했다."},
+		{"id":"fcdada5a85d39101","x":780,"y":-153,"width":914,"height":199,"type":"text","text":"1. 자바의 스레드는 OS의 스레드를 기반으로 한다.\n\t1. 자바의 전통적인 스레드는 OS 스레드를 wrapping 한 것으로 이를 **플랫폼 스레드**라고 정의한다.\n\t2. 따라서 Java Application에서 스레드를 사용하는 코드는 실제적으로는 OS 스레드를 이용하는 방식으로 동작했다. \n\t3. OS 커널에서 사용할 수 있는 스레드는 개수가 제한적이고 생성과 유지 비용이 비싸다.\n\t4. 이 때문에 기존에 애플리케이션들은 비싼 자원인 플랫폼 스레드를 효율적으로 사용하기 위해서 **스레드 풀(Thread Pool)**을 만들어서 사용해왔다.\n2. 처리량(throughput)의 한계\n\t1. Spring Boot와 같은 애플리케이션의 기본적인 사용자 요청 처리 방식은 Thread Per Request이다. 이는 하나의 request(요청)을 처리하기 위해서 한"}
 	],
 	"edges":[
 		{"id":"4ca44f4b7aa79f2c","fromNode":"13582db3306434c4","fromSide":"right","toNode":"38d1d9b9473c6055","toSide":"left","label":"가상 스레드?"},
-		{"id":"7830d41e7ce55a05","fromNode":"38d1d9b9473c6055","fromSide":"bottom","toNode":"64f9b9ea9c4f8bd2","toSide":"top","label":"Loom Project?"}
+		{"id":"7830d41e7ce55a05","fromNode":"38d1d9b9473c6055","fromSide":"bottom","toNode":"64f9b9ea9c4f8bd2","toSide":"top","label":"Loom Project?"},
+		{"id":"fc291d0b1b110c32","fromNode":"38d1d9b9473c6055","fromSide":"right","toNode":"fcdada5a85d39101","toSide":"left","label":"나오게 된 배경"}
 	]
 }
