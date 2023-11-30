@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Virtual Thread 사용방식",
-      "path": "Java/Virtual Thread/resources/Virtual Thread 사용방식.png"
-    },
-    {
       "basename": "Virtual Thread",
       "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
+    },
+    {
+      "basename": "Virtual Thread 사용 자원 차이",
+      "path": "Java/Virtual Thread/canvas/Virtual Thread 사용 자원 차이.md"
+    },
+    {
+      "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
+      "path": "Java/Virtual Thread/canvas/플랫폼 스레드와 가상 스레드 구조 차이.md"
+    },
+    {
+      "basename": "Mount-Unmount Flow",
+      "path": "Java/Virtual Thread/resources/Mount-Unmount Flow.png"
+    },
+    {
+      "basename": "Virtual Thread가 나오게 된 배경",
+      "path": "Java/Virtual Thread/canvas/Virtual Thread가 나오게 된 배경.md"
+    },
+    {
+      "basename": "Virtual Thread 사용방식",
+      "path": "Java/Virtual Thread/resources/Virtual Thread 사용방식.png"
     },
     {
       "basename": "Virtual Thread 비교",
@@ -183,22 +199,6 @@
     {
       "basename": "ZonedDateTime",
       "path": "ComputerStructure/Clock/md/ZonedDateTime.md"
-    },
-    {
-      "basename": "RTC",
-      "path": "ComputerStructure/Clock/md/RTC.md"
-    },
-    {
-      "basename": "NTP 서버",
-      "path": "ComputerStructure/Clock/md/NTP 서버.md"
-    },
-    {
-      "basename": "NTP",
-      "path": "ComputerStructure/Clock/md/NTP.md"
-    },
-    {
-      "basename": "캐시 가용성 지침",
-      "path": "DB/Cache/md/캐시 가용성 지침.md"
     }
   ],
   "omittedPaths": [],
