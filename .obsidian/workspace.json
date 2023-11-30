@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "56fe35a031310ca2",
+        "id": "2ee7cd8105733233",
         "type": "tabs",
         "children": [
           {
-            "id": "9887829967eed14b",
+            "id": "ce7ea96c8947c658",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Java/Virtual Thread/canvas/무제 파일.canvas",
-                "viewState": {
-                  "x": 263.7683272506769,
-                  "y": -243.785988477232,
-                  "zoom": -0.3333333333333334
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -80,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -96,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Virtual Thread/canvas/무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Virtual Thread/canvas/무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Java/Virtual Thread/canvas/무제 파일.canvas"
-              }
+              "state": {}
             }
           }
         ],
@@ -163,10 +153,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9887829967eed14b",
+  "active": "ce7ea96c8947c658",
   "lastOpenFiles": [
+    "전통적인 Thread 사용방식.png",
+    "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+    "Pasted image 20231130103511.png",
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "Cache 전략.png",
     "DB/Normalization/canvas/정규화.canvas",
-    "Java/Virtual Thread/canvas/무제 파일.canvas",
     "Java/Virtual Thread/canvas",
     "Java/Virtual Thread",
     "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
@@ -192,7 +186,6 @@
     "Web/HttpSession/canvas/HttpSession.canvas",
     "OS/Disk/canvas/RAID.canvas",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Transaction/md/READ UNCOMMITTED.md",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png",
@@ -215,11 +208,7 @@
     "ComputerStructure/Clock/md/ZonedDateTime.md",
     "ComputerStructure/Clock/md/RTC.md",
     "ComputerStructure/Clock/md/NTP 서버.md",
-    "Java/JVM/canvas/JVM.canvas",
     "DB/Cache/resources/DynamoDB Accelerator.png",
-    "DB/Cache/resources/Read Through + Write Through.png",
-    "DB/Cache/resources/Write Around.png",
-    "DB/Cache/resources/Read Through + Write Around.png",
-    "DB/Cache/resources/Look Aside + Write Around.png"
+    "DB/Cache/resources/Read Through + Write Through.png"
   ]
 }

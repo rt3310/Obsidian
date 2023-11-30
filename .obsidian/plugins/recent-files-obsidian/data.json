@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "무제 파일",
-      "path": "Java/Virtual Thread/canvas/무제 파일.canvas"
+      "basename": "전통적인 Thread 사용방식",
+      "path": "전통적인 Thread 사용방식.png"
+    },
+    {
+      "basename": "Virtual Thread",
+      "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
+    },
+    {
+      "basename": "Pasted image 20231130103511",
+      "path": "Pasted image 20231130103511.png"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "정규화",
@@ -51,10 +63,6 @@
     {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "삭제이상",
@@ -191,14 +199,6 @@
     {
       "basename": "JVM",
       "path": "Java/JVM/canvas/JVM.canvas"
-    },
-    {
-      "basename": "가비지 컬렉터",
-      "path": "Java/JVM/md/가비지 컬렉터.md"
-    },
-    {
-      "basename": "Read Through + Write Through 조합",
-      "path": "DB/Cache/md/Read Through + Write Through 조합.md"
     }
   ],
   "omittedPaths": [],
