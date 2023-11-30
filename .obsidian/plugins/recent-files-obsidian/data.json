@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "전통적인 Thread 사용방식",
-      "path": "전통적인 Thread 사용방식.png"
+      "basename": "Virtual Thread 사용방식",
+      "path": "Java/Virtual Thread/resources/Virtual Thread 사용방식.png"
     },
     {
       "basename": "Virtual Thread",
       "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
     },
     {
-      "basename": "Pasted image 20231130103511",
-      "path": "Pasted image 20231130103511.png"
+      "basename": "Virtual Thread 비교",
+      "path": "Java/Virtual Thread/resources/Virtual Thread 비교.png"
+    },
+    {
+      "basename": "전통적인 Thread 사용방식",
+      "path": "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png"
+    },
+    {
+      "basename": "쓰레드",
+      "path": "OS/Thread/쓰레드.md"
     },
     {
       "basename": "Cache 전략",
@@ -191,14 +199,6 @@
     {
       "basename": "캐시 가용성 지침",
       "path": "DB/Cache/md/캐시 가용성 지침.md"
-    },
-    {
-      "basename": "MVCC",
-      "path": "DB/Transaction/md/MVCC.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "Java/JVM/canvas/JVM.canvas"
     }
   ],
   "omittedPaths": [],

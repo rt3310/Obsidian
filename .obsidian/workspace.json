@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2ee7cd8105733233",
+        "id": "d741ed1b93223c62",
         "type": "tabs",
         "children": [
           {
-            "id": "ce7ea96c8947c658",
+            "id": "53f322c16bc1d5b5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+                "viewState": {
+                  "x": 317.5,
+                  "y": 369.6114708603145,
+                  "zoom": -0.9511364192335948
+                }
+              }
             }
           }
         ]
@@ -73,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -90,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
+              }
             }
           }
         ],
@@ -153,11 +163,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ce7ea96c8947c658",
+  "active": "53f322c16bc1d5b5",
   "lastOpenFiles": [
-    "전통적인 Thread 사용방식.png",
+    "Java/Virtual Thread/resources/Virtual Thread 비교.png",
+    "Java/Virtual Thread/resources/Virtual Thread 사용방식.png",
     "Java/Virtual Thread/canvas/Virtual Thread.canvas",
-    "Pasted image 20231130103511.png",
+    "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png",
+    "Java/Virtual Thread/resources",
+    "OS/Thread/쓰레드.md",
     "DB/Cache/canvas/Cache 전략.canvas",
     "Cache 전략.png",
     "DB/Normalization/canvas/정규화.canvas",
@@ -201,14 +214,11 @@
     "OS/Bootstrap/md/BIOS(Basic Input-Output System).md",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/resources",
-    "OS/Bootstrap/md",
     "DB/Cache/resources/Cache Stampede 현상.png",
     "Web/HttpSession/md/Connectionless.md",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "ComputerStructure/Clock/md/ZonedDateTime.md",
     "ComputerStructure/Clock/md/RTC.md",
-    "ComputerStructure/Clock/md/NTP 서버.md",
-    "DB/Cache/resources/DynamoDB Accelerator.png",
-    "DB/Cache/resources/Read Through + Write Through.png"
+    "DB/Cache/resources/DynamoDB Accelerator.png"
   ]
 }
