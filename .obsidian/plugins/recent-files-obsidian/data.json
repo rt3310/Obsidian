@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Write Back 장점",
+      "path": "DB/Cache/canvas/Write Back 장점.md"
+    },
+    {
+      "basename": "Write Back 단점",
+      "path": "DB/Cache/canvas/Write Back 단점.md"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "정규화",
+      "path": "DB/Normalization/canvas/정규화.canvas"
+    },
+    {
+      "basename": "Write Back 패턴",
+      "path": "DB/Cache/md/Write Back 패턴.md"
+    },
+    {
+      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
+      "path": "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md"
+    },
+    {
       "basename": "Virtual Thread 사용 자원 차이",
       "path": "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md"
     },
@@ -39,14 +63,6 @@
     {
       "basename": "쓰레드",
       "path": "OS/Thread/쓰레드.md"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "정규화",
-      "path": "DB/Normalization/canvas/정규화.canvas"
     },
     {
       "basename": "Garbage Collector",
@@ -183,22 +199,6 @@
     {
       "basename": "SERIALIZABLE",
       "path": "DB/Transaction/md/SERIALIZABLE.md"
-    },
-    {
-      "basename": "Cache Stampede 현상",
-      "path": "DB/Cache/resources/Cache Stampede 현상.png"
-    },
-    {
-      "basename": "Connectionless",
-      "path": "Web/HttpSession/md/Connectionless.md"
-    },
-    {
-      "basename": "레지스터",
-      "path": "ComputerStructure/Register/canvas/레지스터.canvas"
-    },
-    {
-      "basename": "ZonedDateTime",
-      "path": "ComputerStructure/Clock/md/ZonedDateTime.md"
     }
   ],
   "omittedPaths": [],

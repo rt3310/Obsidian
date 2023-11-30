@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4f9979c06da74d3b",
+        "id": "3b64b67773c4c803",
         "type": "tabs",
         "children": [
           {
-            "id": "316a53bc082e2755",
+            "id": "b3d91c700d05b537",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "viewState": {
+                  "x": 53.19695344466936,
+                  "y": 2230.0237650052554,
+                  "zoom": -0.7687047549013029
+                }
+              }
             }
           }
         ]
@@ -89,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DB/Cache/canvas/Write Back 단점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DB/Cache/canvas/Write Back 단점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DB/Cache/canvas/Write Back 단점.md"
+              }
             }
           }
         ],
@@ -152,8 +163,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "316a53bc082e2755",
+  "active": "b3d91c700d05b537",
   "lastOpenFiles": [
+    "DB/Cache/canvas/Write Back 단점.md",
+    "DB/Cache/canvas/Write Back 장점.md",
+    "DB/Normalization/canvas/정규화.canvas",
+    "DB/Cache/md/Write Back 패턴.md",
+    "DB/Cache/canvas/Cache 전략.canvas",
     "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
@@ -166,9 +182,7 @@
     "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png",
     "Java/Virtual Thread/resources",
     "OS/Thread/쓰레드.md",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "Cache 전략.png",
-    "DB/Normalization/canvas/정규화.canvas",
     "Java/Virtual Thread/canvas",
     "Java/Virtual Thread",
     "DB/Normalization/md/함수적 종속성.md",
@@ -204,8 +218,6 @@
     "OS/Bootstrap/md/ROM(Read-Only Memory).md",
     "OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
-    "OS/Bootstrap/md/MBR과 부트스트래핑.md",
-    "OS/Bootstrap/md/BIOS(Basic Input-Output System).md",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "DB/Cache/resources/Cache Stampede 현상.png",
     "ComputerStructure/Register/canvas/레지스터.canvas"
