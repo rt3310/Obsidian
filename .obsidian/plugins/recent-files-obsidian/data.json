@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Virtual Thread 사용 자원 차이",
+      "path": "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md"
+    },
+    {
+      "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
+      "path": "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md"
+    },
+    {
       "basename": "Virtual Thread",
       "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
     },
     {
-      "basename": "Virtual Thread 사용 자원 차이",
-      "path": "Java/Virtual Thread/canvas/Virtual Thread 사용 자원 차이.md"
+      "basename": "무제 파일",
+      "path": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
     },
     {
-      "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
-      "path": "Java/Virtual Thread/canvas/플랫폼 스레드와 가상 스레드 구조 차이.md"
+      "basename": "Virtual Thread 비교",
+      "path": "Java/Virtual Thread/resources/Virtual Thread 비교.png"
     },
     {
       "basename": "Mount-Unmount Flow",
@@ -18,15 +26,11 @@
     },
     {
       "basename": "Virtual Thread가 나오게 된 배경",
-      "path": "Java/Virtual Thread/canvas/Virtual Thread가 나오게 된 배경.md"
+      "path": "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md"
     },
     {
       "basename": "Virtual Thread 사용방식",
       "path": "Java/Virtual Thread/resources/Virtual Thread 사용방식.png"
-    },
-    {
-      "basename": "Virtual Thread 비교",
-      "path": "Java/Virtual Thread/resources/Virtual Thread 비교.png"
     },
     {
       "basename": "전통적인 Thread 사용방식",
@@ -43,10 +47,6 @@
     {
       "basename": "정규화",
       "path": "DB/Normalization/canvas/정규화.canvas"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
     },
     {
       "basename": "Garbage Collector",
