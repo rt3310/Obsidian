@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3b64b67773c4c803",
+        "id": "7bac75528287664c",
         "type": "tabs",
         "children": [
           {
-            "id": "b3d91c700d05b537",
+            "id": "732eca4685c15678",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "Spring/JPA/canvas/JPA.canvas",
                 "viewState": {
-                  "x": 53.19695344466936,
-                  "y": 2230.0237650052554,
-                  "zoom": -0.7687047549013029
+                  "x": -12.917456504234249,
+                  "y": 57.02222775092138,
+                  "zoom": 0.6666666666666666
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/canvas/Write Back 단점.md",
+                "file": "Spring/JPA/canvas/ORM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/canvas/Write Back 단점.md",
+                "file": "Spring/JPA/canvas/ORM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/canvas/Write Back 단점.md"
+                "file": "Spring/JPA/canvas/ORM.md"
               }
             }
           }
@@ -163,13 +163,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3d91c700d05b537",
+  "active": "732eca4685c15678",
   "lastOpenFiles": [
+    "Spring/JPA/canvas/ORM.md",
+    "Spring/JPA/canvas/JPA.canvas",
+    "Spring/JPA/canvas/무제 파일.md",
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "Spring/JPA/canvas",
+    "Spring/JPA",
+    "Spring",
     "DB/Cache/canvas/Write Back 단점.md",
     "DB/Cache/canvas/Write Back 장점.md",
     "DB/Normalization/canvas/정규화.canvas",
     "DB/Cache/md/Write Back 패턴.md",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
@@ -201,9 +207,6 @@
     "DB/Normalization",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
     "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.md",
-    "Design/사용자 수에 따른 규모 확장성/canvas",
-    "Design/사용자 수에 따른 규모 확장성",
-    "Design",
     "Web/HttpSession/canvas/HttpSession.canvas",
     "OS/Disk/canvas/RAID.canvas",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
@@ -216,10 +219,7 @@
     "OS/Bootstrap/md/마스터 부트 레코드(MBR).md",
     "OS/Bootstrap/md/UEFI(Unified Extensible Firmware Interface).md",
     "OS/Bootstrap/md/ROM(Read-Only Memory).md",
-    "OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md",
-    "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
-    "DB/Cache/resources/Cache Stampede 현상.png",
-    "ComputerStructure/Register/canvas/레지스터.canvas"
+    "DB/Cache/resources/Cache Stampede 현상.png"
   ]
 }

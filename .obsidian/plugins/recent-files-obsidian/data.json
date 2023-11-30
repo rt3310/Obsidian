@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "JPA",
+      "path": "Spring/JPA/canvas/JPA.canvas"
+    },
+    {
+      "basename": "ORM",
+      "path": "Spring/JPA/canvas/ORM.md"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "Write Around 패턴",
+      "path": "DB/Cache/md/Write Around 패턴.md"
+    },
+    {
+      "basename": "Write Through 패턴",
+      "path": "DB/Cache/md/Write Through 패턴.md"
+    },
+    {
       "basename": "Write Back 장점",
       "path": "DB/Cache/canvas/Write Back 장점.md"
     },
     {
       "basename": "Write Back 단점",
       "path": "DB/Cache/canvas/Write Back 단점.md"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "정규화",
@@ -183,22 +199,6 @@
     {
       "basename": "READ UNCOMMITTED의 Dirty Read",
       "path": "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
-    },
-    {
-      "basename": "Non-Repeatable Read",
-      "path": "DB/Transaction/md/Non-Repeatable Read.md"
-    },
-    {
-      "basename": "READ COMMITTED 작동 방식",
-      "path": "DB/Transaction/md/READ COMMITTED 작동 방식.md"
-    },
-    {
-      "basename": "SERIALIZABLE 작동 방식",
-      "path": "DB/Transaction/md/SERIALIZABLE 작동 방식.md"
-    },
-    {
-      "basename": "SERIALIZABLE",
-      "path": "DB/Transaction/md/SERIALIZABLE.md"
     }
   ],
   "omittedPaths": [],
