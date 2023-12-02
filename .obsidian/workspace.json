@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "7bac75528287664c",
+        "id": "446aa752bdf33b87",
         "type": "tabs",
         "children": [
           {
-            "id": "732eca4685c15678",
+            "id": "b98003dc9b351cc3",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Spring/JPA/canvas/JPA.canvas",
+                "file": "Employment/learning/Ultra Learning.canvas",
                 "viewState": {
-                  "x": -12.917456504234249,
-                  "y": 57.02222775092138,
-                  "zoom": 0.6666666666666666
+                  "x": 1110.3508429396209,
+                  "y": -219.9501935165373,
+                  "zoom": -0.9033333333333331
                 }
               }
             }
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/JPA/canvas/ORM.md",
+                "file": "Employment/learning/Ultra Learning.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/JPA/canvas/ORM.md",
+                "file": "Employment/learning/Ultra Learning.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/JPA/canvas/ORM.md"
+                "file": "Employment/learning/Ultra Learning.canvas"
               }
             }
           }
@@ -163,34 +163,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "732eca4685c15678",
+  "active": "b98003dc9b351cc3",
   "lastOpenFiles": [
+    "Employment/learning/Ultra Learning.canvas",
+    "Employment/learning",
+    "Java/Virtual Thread/canvas/무제 파일.canvas",
     "Spring/JPA/canvas/ORM.md",
     "Spring/JPA/canvas/JPA.canvas",
-    "Spring/JPA/canvas/무제 파일.md",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "Spring/JPA/canvas",
     "Spring/JPA",
     "Spring",
-    "DB/Cache/canvas/Write Back 단점.md",
-    "DB/Cache/canvas/Write Back 장점.md",
-    "DB/Normalization/canvas/정규화.canvas",
-    "DB/Cache/md/Write Back 패턴.md",
-    "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
+    "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png",
+    "Java/Virtual Thread/resources/Virtual Thread 사용방식.png",
+    "Java/Virtual Thread/resources/Virtual Thread 비교.png",
+    "Java/Virtual Thread/resources/Mount-Unmount Flow.png",
+    "Java/Virtual Thread/resources",
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
-    "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+    "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
     "Java/Virtual Thread/md",
-    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
-    "Java/Virtual Thread/resources/Mount-Unmount Flow.png",
-    "Java/Virtual Thread/resources/Virtual Thread 비교.png",
-    "Java/Virtual Thread/resources/Virtual Thread 사용방식.png",
-    "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png",
-    "Java/Virtual Thread/resources",
-    "OS/Thread/쓰레드.md",
+    "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+    "DB/Cache/canvas/Write Back 장점.md",
+    "DB/Cache/canvas/Write Back 단점.md",
     "Cache 전략.png",
+    "DB/Normalization/canvas/정규화.canvas",
     "Java/Virtual Thread/canvas",
     "Java/Virtual Thread",
+    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
     "DB/Normalization/md/함수적 종속성.md",
     "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md",
     "DB/Normalization/md/제 2정규형(2NF - Second Normal Form).md",
@@ -204,12 +203,12 @@
     "DB/Normalization/md/갱신이상.md",
     "DB/Normalization/md",
     "DB/Normalization/canvas",
-    "DB/Normalization",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
     "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.md",
     "Web/HttpSession/canvas/HttpSession.canvas",
     "OS/Disk/canvas/RAID.canvas",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Transaction/md/READ UNCOMMITTED.md",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png",
@@ -219,7 +218,8 @@
     "OS/Bootstrap/md/마스터 부트 레코드(MBR).md",
     "OS/Bootstrap/md/UEFI(Unified Extensible Firmware Interface).md",
     "OS/Bootstrap/md/ROM(Read-Only Memory).md",
-    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md",
+    "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "DB/Cache/resources/Cache Stampede 현상.png"
   ]
 }

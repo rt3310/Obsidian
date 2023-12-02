@@ -1,84 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "JPA",
-      "path": "Spring/JPA/canvas/JPA.canvas"
-    },
-    {
-      "basename": "ORM",
-      "path": "Spring/JPA/canvas/ORM.md"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "Write Around 패턴",
-      "path": "DB/Cache/md/Write Around 패턴.md"
-    },
-    {
-      "basename": "Write Through 패턴",
-      "path": "DB/Cache/md/Write Through 패턴.md"
-    },
-    {
-      "basename": "Write Back 장점",
-      "path": "DB/Cache/canvas/Write Back 장점.md"
-    },
-    {
-      "basename": "Write Back 단점",
-      "path": "DB/Cache/canvas/Write Back 단점.md"
+      "basename": "Ultra Learning",
+      "path": "Employment/learning/Ultra Learning.canvas"
     },
     {
       "basename": "정규화",
       "path": "DB/Normalization/canvas/정규화.canvas"
     },
     {
-      "basename": "Write Back 패턴",
-      "path": "DB/Cache/md/Write Back 패턴.md"
-    },
-    {
-      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
-      "path": "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md"
-    },
-    {
-      "basename": "Virtual Thread 사용 자원 차이",
-      "path": "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md"
-    },
-    {
-      "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
-      "path": "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md"
-    },
-    {
-      "basename": "Virtual Thread",
-      "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
-    },
-    {
       "basename": "무제 파일",
       "path": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "Virtual Thread 비교",
-      "path": "Java/Virtual Thread/resources/Virtual Thread 비교.png"
-    },
-    {
-      "basename": "Mount-Unmount Flow",
-      "path": "Java/Virtual Thread/resources/Mount-Unmount Flow.png"
-    },
-    {
-      "basename": "Virtual Thread가 나오게 된 배경",
-      "path": "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md"
-    },
-    {
-      "basename": "Virtual Thread 사용방식",
-      "path": "Java/Virtual Thread/resources/Virtual Thread 사용방식.png"
-    },
-    {
-      "basename": "전통적인 Thread 사용방식",
-      "path": "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png"
-    },
-    {
-      "basename": "쓰레드",
-      "path": "OS/Thread/쓰레드.md"
     },
     {
       "basename": "Garbage Collector",
@@ -119,6 +51,10 @@
     {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "삭제이상",
@@ -199,6 +135,70 @@
     {
       "basename": "READ UNCOMMITTED의 Dirty Read",
       "path": "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
+    },
+    {
+      "basename": "Non-Repeatable Read",
+      "path": "DB/Transaction/md/Non-Repeatable Read.md"
+    },
+    {
+      "basename": "READ COMMITTED 작동 방식",
+      "path": "DB/Transaction/md/READ COMMITTED 작동 방식.md"
+    },
+    {
+      "basename": "SERIALIZABLE 작동 방식",
+      "path": "DB/Transaction/md/SERIALIZABLE 작동 방식.md"
+    },
+    {
+      "basename": "SERIALIZABLE",
+      "path": "DB/Transaction/md/SERIALIZABLE.md"
+    },
+    {
+      "basename": "Cache Stampede 현상",
+      "path": "DB/Cache/resources/Cache Stampede 현상.png"
+    },
+    {
+      "basename": "Connectionless",
+      "path": "Web/HttpSession/md/Connectionless.md"
+    },
+    {
+      "basename": "레지스터",
+      "path": "ComputerStructure/Register/canvas/레지스터.canvas"
+    },
+    {
+      "basename": "ZonedDateTime",
+      "path": "ComputerStructure/Clock/md/ZonedDateTime.md"
+    },
+    {
+      "basename": "RTC",
+      "path": "ComputerStructure/Clock/md/RTC.md"
+    },
+    {
+      "basename": "NTP 서버",
+      "path": "ComputerStructure/Clock/md/NTP 서버.md"
+    },
+    {
+      "basename": "NTP",
+      "path": "ComputerStructure/Clock/md/NTP.md"
+    },
+    {
+      "basename": "캐시 가용성 지침",
+      "path": "DB/Cache/md/캐시 가용성 지침.md"
+    },
+    {
+      "basename": "MVCC",
+      "path": "DB/Transaction/md/MVCC.md"
+    },
+    {
+      "basename": "JVM",
+      "path": "Java/JVM/canvas/JVM.canvas"
+    },
+    {
+      "basename": "가비지 컬렉터",
+      "path": "Java/JVM/md/가비지 컬렉터.md"
+    },
+    {
+      "basename": "Read Through + Write Through 조합",
+      "path": "DB/Cache/md/Read Through + Write Through 조합.md"
     }
   ],
   "omittedPaths": [],
