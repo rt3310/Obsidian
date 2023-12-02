@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Employment/learning/Ultra Learning.canvas",
+                "file": "Web/Session/Multi Session.canvas",
                 "viewState": {
-                  "x": 1110.3508429396209,
-                  "y": -219.9501935165373,
-                  "zoom": -0.9033333333333331
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Employment/learning/Ultra Learning.canvas",
+                "file": "Web/Session/Multi Session.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Employment/learning/Ultra Learning.canvas",
+                "file": "Web/Session/Multi Session.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Employment/learning/Ultra Learning.canvas"
+                "file": "Web/Session/Multi Session.canvas"
               }
             }
           }
@@ -165,7 +165,10 @@
   },
   "active": "b98003dc9b351cc3",
   "lastOpenFiles": [
+    "Cache 전략.png",
+    "Web/Session/Multi Session.canvas",
     "Employment/learning/Ultra Learning.canvas",
+    "Web/Session",
     "Employment/learning",
     "Java/Virtual Thread/canvas/무제 파일.canvas",
     "Spring/JPA/canvas/ORM.md",
@@ -185,7 +188,6 @@
     "Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "DB/Cache/canvas/Write Back 장점.md",
     "DB/Cache/canvas/Write Back 단점.md",
-    "Cache 전략.png",
     "DB/Normalization/canvas/정규화.canvas",
     "Java/Virtual Thread/canvas",
     "Java/Virtual Thread",
@@ -202,13 +204,10 @@
     "DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md",
     "DB/Normalization/md/갱신이상.md",
     "DB/Normalization/md",
-    "DB/Normalization/canvas",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
     "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.md",
     "Web/HttpSession/canvas/HttpSession.canvas",
     "OS/Disk/canvas/RAID.canvas",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Transaction/md/READ UNCOMMITTED.md",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png",

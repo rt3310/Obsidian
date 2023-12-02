@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Multi Session",
+      "path": "Web/Session/Multi Session.canvas"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "Cache 전략.png"
+    },
+    {
       "basename": "Ultra Learning",
       "path": "Employment/learning/Ultra Learning.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "JVM",
       "path": "Java/JVM/canvas/JVM.canvas"
-    },
-    {
-      "basename": "가비지 컬렉터",
-      "path": "Java/JVM/md/가비지 컬렉터.md"
-    },
-    {
-      "basename": "Read Through + Write Through 조합",
-      "path": "DB/Cache/md/Read Through + Write Through 조합.md"
     }
   ],
   "omittedPaths": [],
