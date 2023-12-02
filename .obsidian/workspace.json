@@ -11,14 +11,9 @@
             "id": "b98003dc9b351cc3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "Web/Session/Multi Session.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Cache 전략.png"
               }
             }
           }
@@ -96,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Session/Multi Session.canvas",
+                "file": "Cache 전략.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Session/Multi Session.canvas",
+                "file": "Cache 전략.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Session/Multi Session.canvas"
+                "file": "Cache 전략.png"
               }
             }
           }
@@ -165,8 +160,8 @@
   },
   "active": "b98003dc9b351cc3",
   "lastOpenFiles": [
-    "Cache 전략.png",
     "Web/Session/Multi Session.canvas",
+    "Cache 전략.png",
     "Employment/learning/Ultra Learning.canvas",
     "Web/Session",
     "Employment/learning",
