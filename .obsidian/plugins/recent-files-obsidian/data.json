@@ -5,6 +5,10 @@
       "path": "DB/SQL/SQL.canvas"
     },
     {
+      "basename": "반복계가 포장계에 성능적으로 질 수 밖에 없는 이유",
+      "path": "DB/SQL/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md"
+    },
+    {
       "basename": "반복계의 단점",
       "path": "DB/SQL/반복계의 단점.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "NTP",
       "path": "ComputerStructure/Clock/md/NTP.md"
-    },
-    {
-      "basename": "캐시 가용성 지침",
-      "path": "DB/Cache/md/캐시 가용성 지침.md"
     }
   ],
   "omittedPaths": [],
