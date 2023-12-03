@@ -5,6 +5,10 @@
       "path": "DB/SQL/SQL.canvas"
     },
     {
+      "basename": "결합 알고리즘 종류",
+      "path": "DB/SQL/결합 알고리즘 종류.md"
+    },
+    {
       "basename": "반복계가 포장계에 성능적으로 질 수 밖에 없는 이유",
       "path": "DB/SQL/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "NTP 서버",
       "path": "ComputerStructure/Clock/md/NTP 서버.md"
-    },
-    {
-      "basename": "NTP",
-      "path": "ComputerStructure/Clock/md/NTP.md"
     }
   ],
   "omittedPaths": [],

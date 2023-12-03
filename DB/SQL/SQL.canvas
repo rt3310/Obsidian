@@ -1,13 +1,18 @@
 {
 	"nodes":[
-		{"id":"d0073da8fb9ec9c6","x":120,"y":-304,"width":556,"height":151,"type":"file","file":"DB/SQL/반복계의 단점.md"},
-		{"id":"01304f18aa6c99ac","x":820,"y":-771,"width":657,"height":1084,"type":"file","file":"DB/SQL/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md"},
-		{"id":"a3e8dfd90e9305e5","x":-280,"y":-364,"width":250,"height":60,"type":"text","text":"# 반복계"},
-		{"id":"111eaf1956dadc82","x":122,"y":-560,"width":554,"height":171,"type":"text","text":""}
+		{"id":"d0073da8fb9ec9c6","type":"file","file":"DB/SQL/반복계의 단점.md","x":120,"y":-304,"width":556,"height":151},
+		{"id":"01304f18aa6c99ac","type":"file","file":"DB/SQL/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md","x":820,"y":-771,"width":657,"height":1084},
+		{"id":"a3e8dfd90e9305e5","type":"text","text":"# 반복계","x":-280,"y":-364,"width":250,"height":60},
+		{"id":"111eaf1956dadc82","type":"text","text":"- 실행 계획의 안정성\n- 예상 처리 시간의 정밀도\n- 트랜잭션 제어가 편리","x":122,"y":-560,"width":554,"height":171},
+		{"id":"dee0d4374ec7cbb0","type":"file","file":"DB/SQL/결합 알고리즘 종류.md","x":-144,"y":385,"width":429,"height":329},
+		{"id":"4388858d55e561aa","type":"text","text":"# 결합","x":-580,"y":520,"width":250,"height":60},
+		{"id":"e29dc3e33d4c0ed4","x":434,"y":468,"width":666,"height":1032,"type":"text","text":"Nested Loops는 이름 그대로 중첩 반복을 사용하는 알고리즘이다. SQL에서 결합은 한 번에 두 개의 테이블만 결합하므로 본질적으로 이중 반복과 같은 의미이다.\n\n- 특징\n\t- Table_A, Table_B의 결합 대상 레코드를 R(A), R(B)라고 하면 접근되는 레코드 수는 R(A) X R(B)가 된다. Nested Loops의 실행 시간은 이러한 레코드 수에 비례한다.\n\t- 한 번의 단계에서 처리하는 레코드 수가 적으므로 Hash 또는 Sort Merge에 비해 메모리 소비가 적다.\n\t- 모든 DBMS에서 지원한다.\n\t- 구동 테이블이 작을수록 Nested Loops의 성능이 좋아진다.\n- 구동 테이블의 중요성\n\t- 구동 테이블로는 작은 테이블을 선택하는 것이 좋다. 하지만 실제로 전제 조건이 없으면 의미가 없는 말이다.\n\t- 앞에서 설명한 Nested Loops의 구조를 전제한다면, 구동 테이블이 어떤 테이블이 되더라도 결과적으로 접근하는 레코드 수는 R(A) X R(B)로 나타나므로, 구동 테이블이 작건 크건 결합 비용에 차이는 없을 것으로 생각할 수 있다.\n\t- 실제로 이 '구동 테이블을 작게'라는 격언에는 다음과 같은 암묵적인 전제가 포함된다.\n\t\t- **내부 테이블의 결합 키 필드에 인덱스가 존재**\n\t- 만약 내부 테이블의 결합 키 필드에 인덱스가 존재한다면, 해당 인덱스를 통해 DBMS는 내부 테이블을 완전히 순환하지 않아도 된다. 달리 말하면 내부 테이블 반복을 어느 정도 건너뛸 수 있게 된다는 것이다.\n\t- 이상적인 경우는 구동 테이블의 레코드 한 개에 내부 테이블의 레코드 한 개가 대응하고, 해당 레코드를 내부 테이블의 인덱스를 사용해 찾을 수 있는 경우이다. 이렇게 되면 반복을 생략할 수 있다.\n\t\t- 이 경우 접근하는 레코드 수는 R(A) X 2가 된다."}
 	],
 	"edges":[
 		{"id":"c7c4aa7e9ce897d8","fromNode":"a3e8dfd90e9305e5","fromSide":"right","toNode":"d0073da8fb9ec9c6","toSide":"left"},
 		{"id":"0f5bfee24964da42","fromNode":"d0073da8fb9ec9c6","fromSide":"right","toNode":"01304f18aa6c99ac","toSide":"left"},
-		{"id":"5c6d23abcc6d3680","fromNode":"a3e8dfd90e9305e5","fromSide":"right","toNode":"111eaf1956dadc82","toSide":"left"}
+		{"id":"5c6d23abcc6d3680","fromNode":"a3e8dfd90e9305e5","fromSide":"right","toNode":"111eaf1956dadc82","toSide":"left"},
+		{"id":"2d2bdd60e915694c","fromNode":"4388858d55e561aa","fromSide":"right","toNode":"dee0d4374ec7cbb0","toSide":"left"},
+		{"id":"e5c4e5c8173ac307","fromNode":"dee0d4374ec7cbb0","fromSide":"right","toNode":"e29dc3e33d4c0ed4","toSide":"left"}
 	]
 }
