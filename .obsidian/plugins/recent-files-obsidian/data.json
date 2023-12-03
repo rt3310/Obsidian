@@ -5,6 +5,14 @@
       "path": "DB/SQL/SQL.canvas"
     },
     {
+      "basename": "인덱스를 사용할 수 없는 경우 대처",
+      "path": "DB/SQL/인덱스를 사용할 수 없는 경우 대처.md"
+    },
+    {
+      "basename": "인덱스를 사용할 수 없는 경우",
+      "path": "DB/SQL/인덱스를 사용할 수 없는 경우.md"
+    },
+    {
       "basename": "인덱스를 사용하는 것이 좋은지 판단",
       "path": "DB/SQL/인덱스를 사용하는 것이 좋은지 판단.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Non-Repeatable Read",
       "path": "DB/Transaction/md/Non-Repeatable Read.md"
-    },
-    {
-      "basename": "READ COMMITTED 작동 방식",
-      "path": "DB/Transaction/md/READ COMMITTED 작동 방식.md"
-    },
-    {
-      "basename": "SERIALIZABLE 작동 방식",
-      "path": "DB/Transaction/md/SERIALIZABLE 작동 방식.md"
     }
   ],
   "omittedPaths": [],
