@@ -13,7 +13,11 @@
 		{"id":"1429de098de68a9a","x":1240,"y":1440,"width":652,"height":244,"type":"file","file":"DB/SQL/Hash가 유용한 경우.md"},
 		{"id":"538cec540c8f50b2","x":1240,"y":1740,"width":652,"height":352,"type":"file","file":"DB/SQL/Hash 트레이드오프.md"},
 		{"id":"161c8af1f9cd0114","x":476,"y":2180,"width":602,"height":342,"type":"text","text":"Sort Merge는 결합 대상 테이블을 각각 결합 키로 정렬하고 일치하는 결합 키를 찾으면 결합한다.\n\n- 특징\n\t- 대상 테이블을 모두 정렬해야 하므로 Nested Loops보다 많은 메모리를 소비한다. Hash와 비교하면 규모에 따라 다르지만 Hash는 한쪽 테이블에 대해서만 해시 테이블을 만드므로 Hash보다 많은 메모리를 사용하기도 한다.\n\t- Hash와 다르게 동치 결합뿐만 아니라 부등오를 사용한 결합에도 사용할 수 있다. 하지만 부정 조건(<>) 결합에는 사용할 수 없다.\n\t- 원리적으로는 테이블이 결합 키로 정렬되어 있다면 정렬을 생략할 수 있다. 다만 이는 SQL에서 테이블에 있는 레코드의 물리적인 위치를 알고 있을 때이다. 따라서 이러한 생략은 구현 의존적이다."},
-		{"id":"e69218dd32ad90c3","x":1356,"y":2320,"width":624,"height":300,"type":"text","text":"Sort Merge 결합 자체에 걸리는 시간은 결합 대상 레코드 수가 많더라도 나쁘지 않은 편이지만, 테이블 정렬에 많은 시간과 리소스를 요구할 가능성이 있다.ㅇ\n따라서 테이블 정렬을 생략할 수 있는(상ㄷ)"}
+		{"id":"9deb3cdd53682807","x":1356,"y":2320,"width":571,"height":176,"type":"file","file":"DB/SQL/Soft Merge가 유용한 경우.md"},
+		{"id":"8fcbdb14e3e678e6","x":-260,"y":2661,"width":649,"height":291,"type":"text","text":"인덱스는 테이블의 특정 필드 집합에 대해 만든다. 이때 어떤 필드에 대해 인덱스를 작성할 것인지 기준이 되는 요소가 필드의 카디널리티와 선택률이다.\n\n- 카디널리티란 값의 균형을 나타내는 개념이다. 카디널리티가 가장 높은 필드는 모든 레코드에 다른 값이 들어가 있는 유일 키 필드이다. 반대로 모든 레코드에 같은 값이 들어가 있다면 카디널리티가 낮은 필드이다.\n- 선택률은 특정 필드 값을 지정했을 때 테이블 전체에서 몇 개의 레코드가 선택되는지를 나타내는 개념이다.\n\t- 예를 들어서 100개의 레코드를 가진 테이블에서 유일키로 'pkey=1'처럼 등호를 지정한다면 한 개의 레코드가 선택될 것이다. 따라서 1/100 = 0.01로 선택률은 1%이다."},
+		{"id":"5c371f64ceefd6fb","x":-740,"y":2860,"width":250,"height":60,"type":"text","text":"# 인덱스"},
+		{"id":"bd81d9d1266de109","x":-282,"y":3000,"width":671,"height":342,"type":"file","file":"DB/SQL/인덱스를 사용하는 것이 좋은지 판단.md"},
+		{"id":"a0480baad126f2a3","x":-289,"y":3491,"width":709,"height":329,"type":"text","text":"- 압축 조건이 존재하지 않음\n\t- 처음부터 SQL 구문에 데이터를 압축할 수 있는 조건이 전혀 없을 경우이다.\n- 레코드를 제대로 압축하지 못하는 경우\n\t- 이는 앞의 상황보다 더 자주 일어나고 그만큼 번거로운 경우이다.\n\t- 인덱스가 제대로 작동하려면 어디까지나 레코드를 크게 압축할 수 있는 검색 조건이 있어야 한다.\n- 인덱스를 사용하지 않는 검색 조건\n\t- 중간 일치, 후방 일치의 LIKE 연산자\n\t- 색인 필드로 연산하는 경우\n\t\t- 색인 필ㄷ"}
 	],
 	"edges":[
 		{"id":"c7c4aa7e9ce897d8","fromNode":"a3e8dfd90e9305e5","fromSide":"right","toNode":"d0073da8fb9ec9c6","toSide":"left"},
@@ -27,6 +31,9 @@
 		{"id":"620aeabb444e7d5d","fromNode":"ab6ffcea0a9f3a1c","fromSide":"right","toNode":"1429de098de68a9a","toSide":"left"},
 		{"id":"9ff6ae8fa5037a87","fromNode":"ab6ffcea0a9f3a1c","fromSide":"right","toNode":"538cec540c8f50b2","toSide":"left"},
 		{"id":"0c141e61c64eae4d","fromNode":"dee0d4374ec7cbb0","fromSide":"right","toNode":"161c8af1f9cd0114","toSide":"left"},
-		{"id":"1b1f0e123d7aeea7","fromNode":"161c8af1f9cd0114","fromSide":"right","toNode":"e69218dd32ad90c3","toSide":"left"}
+		{"id":"1b1f0e123d7aeea7","fromNode":"161c8af1f9cd0114","fromSide":"right","toNode":"9deb3cdd53682807","toSide":"left"},
+		{"id":"64cec5bed1a88bb9","fromNode":"5c371f64ceefd6fb","fromSide":"right","toNode":"8fcbdb14e3e678e6","toSide":"left"},
+		{"id":"8715d77d38ecd1c1","fromNode":"5c371f64ceefd6fb","fromSide":"right","toNode":"bd81d9d1266de109","toSide":"left"},
+		{"id":"3cf6f4651da0f2eb","fromNode":"5c371f64ceefd6fb","fromSide":"right","toNode":"a0480baad126f2a3","toSide":"left"}
 	]
 }

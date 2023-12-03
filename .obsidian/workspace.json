@@ -15,9 +15,9 @@
               "state": {
                 "file": "DB/SQL/SQL.canvas",
                 "viewState": {
-                  "x": 1271.1677325028754,
-                  "y": 2069.46177889005,
-                  "zoom": -0.603333333333333
+                  "x": -3.199999999999934,
+                  "y": 3474.258225097656,
+                  "zoom": 0
                 }
               }
             }
@@ -165,6 +165,8 @@
   },
   "active": "b98003dc9b351cc3",
   "lastOpenFiles": [
+    "DB/SQL/인덱스를 사용하는 것이 좋은지 판단.md",
+    "DB/SQL/Soft Merge가 유용한 경우.md",
     "DB/SQL/Hash 트레이드오프.md",
     "DB/SQL/Hash가 유용한 경우.md",
     "DB/SQL/Hash.md",
@@ -212,9 +214,7 @@
     "DB/Normalization/md/삭제이상.md",
     "DB/Normalization/md/삽입이상.md",
     "DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md",
-    "DB/Normalization/md/갱신이상.md",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
-    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.md",
     "Web/HttpSession/canvas/HttpSession.canvas",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png",

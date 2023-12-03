@@ -5,6 +5,14 @@
       "path": "DB/SQL/SQL.canvas"
     },
     {
+      "basename": "인덱스를 사용하는 것이 좋은지 판단",
+      "path": "DB/SQL/인덱스를 사용하는 것이 좋은지 판단.md"
+    },
+    {
+      "basename": "Soft Merge가 유용한 경우",
+      "path": "DB/SQL/Soft Merge가 유용한 경우.md"
+    },
+    {
       "basename": "Hash 트레이드오프",
       "path": "DB/SQL/Hash 트레이드오프.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "SERIALIZABLE 작동 방식",
       "path": "DB/Transaction/md/SERIALIZABLE 작동 방식.md"
-    },
-    {
-      "basename": "SERIALIZABLE",
-      "path": "DB/Transaction/md/SERIALIZABLE.md"
-    },
-    {
-      "basename": "Cache Stampede 현상",
-      "path": "DB/Cache/resources/Cache Stampede 현상.png"
     }
   ],
   "omittedPaths": [],
