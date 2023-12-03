@@ -15,9 +15,9 @@
               "state": {
                 "file": "DB/SQL/SQL.canvas",
                 "viewState": {
-                  "x": 737.872970659291,
-                  "y": 934.7813096283788,
-                  "zoom": -0.11666666666666656
+                  "x": 1271.1677325028754,
+                  "y": 921.6815064908837,
+                  "zoom": -0.603333333333333
                 }
               }
             }
@@ -165,6 +165,8 @@
   },
   "active": "b98003dc9b351cc3",
   "lastOpenFiles": [
+    "DB/SQL/Nested Loops.md",
+    "DB/SQL/구동 테이블의 중요성.md",
     "DB/SQL/결합 알고리즘 종류.md",
     "DB/SQL/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md",
     "DB/SQL/반복계의 단점.md",
@@ -218,8 +220,6 @@
     "OS/Bootstrap/resources/BIOS.png",
     "OS/Bootstrap/md/펌웨어(Firmware).md",
     "OS/Bootstrap/md/마스터 부트 레코드(MBR).md",
-    "OS/Bootstrap/md/UEFI(Unified Extensible Firmware Interface).md",
-    "OS/Bootstrap/md/ROM(Read-Only Memory).md",
     "DB/Cache/resources/Cache Stampede 현상.png"
   ]
 }

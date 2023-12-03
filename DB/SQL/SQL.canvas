@@ -1,18 +1,24 @@
 {
 	"nodes":[
 		{"id":"d0073da8fb9ec9c6","type":"file","file":"DB/SQL/반복계의 단점.md","x":120,"y":-304,"width":556,"height":151},
-		{"id":"01304f18aa6c99ac","type":"file","file":"DB/SQL/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md","x":820,"y":-771,"width":657,"height":1084},
 		{"id":"a3e8dfd90e9305e5","type":"text","text":"# 반복계","x":-280,"y":-364,"width":250,"height":60},
 		{"id":"111eaf1956dadc82","type":"text","text":"- 실행 계획의 안정성\n- 예상 처리 시간의 정밀도\n- 트랜잭션 제어가 편리","x":122,"y":-560,"width":554,"height":171},
 		{"id":"dee0d4374ec7cbb0","type":"file","file":"DB/SQL/결합 알고리즘 종류.md","x":-144,"y":385,"width":429,"height":329},
 		{"id":"4388858d55e561aa","type":"text","text":"# 결합","x":-580,"y":520,"width":250,"height":60},
-		{"id":"e29dc3e33d4c0ed4","x":434,"y":468,"width":666,"height":1032,"type":"text","text":"Nested Loops는 이름 그대로 중첩 반복을 사용하는 알고리즘이다. SQL에서 결합은 한 번에 두 개의 테이블만 결합하므로 본질적으로 이중 반복과 같은 의미이다.\n\n- 특징\n\t- Table_A, Table_B의 결합 대상 레코드를 R(A), R(B)라고 하면 접근되는 레코드 수는 R(A) X R(B)가 된다. Nested Loops의 실행 시간은 이러한 레코드 수에 비례한다.\n\t- 한 번의 단계에서 처리하는 레코드 수가 적으므로 Hash 또는 Sort Merge에 비해 메모리 소비가 적다.\n\t- 모든 DBMS에서 지원한다.\n\t- 구동 테이블이 작을수록 Nested Loops의 성능이 좋아진다.\n- 구동 테이블의 중요성\n\t- 구동 테이블로는 작은 테이블을 선택하는 것이 좋다. 하지만 실제로 전제 조건이 없으면 의미가 없는 말이다.\n\t- 앞에서 설명한 Nested Loops의 구조를 전제한다면, 구동 테이블이 어떤 테이블이 되더라도 결과적으로 접근하는 레코드 수는 R(A) X R(B)로 나타나므로, 구동 테이블이 작건 크건 결합 비용에 차이는 없을 것으로 생각할 수 있다.\n\t- 실제로 이 '구동 테이블을 작게'라는 격언에는 다음과 같은 암묵적인 전제가 포함된다.\n\t\t- **내부 테이블의 결합 키 필드에 인덱스가 존재**\n\t- 만약 내부 테이블의 결합 키 필드에 인덱스가 존재한다면, 해당 인덱스를 통해 DBMS는 내부 테이블을 완전히 순환하지 않아도 된다. 달리 말하면 내부 테이블 반복을 어느 정도 건너뛸 수 있게 된다는 것이다.\n\t- 이상적인 경우는 구동 테이블의 레코드 한 개에 내부 테이블의 레코드 한 개가 대응하고, 해당 레코드를 내부 테이블의 인덱스를 사용해 찾을 수 있는 경우이다. 이렇게 되면 반복을 생략할 수 있다.\n\t\t- 이 경우 접근하는 레코드 수는 R(A) X 2가 된다."}
+		{"id":"3a31f4fdb2fc520a","x":440,"y":379,"width":666,"height":342,"type":"file","file":"DB/SQL/Nested Loops.md"},
+		{"id":"01304f18aa6c99ac","type":"file","file":"DB/SQL/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md","x":920,"y":-931,"width":657,"height":1084},
+		{"id":"5af13ca78b01043d","x":1249,"y":318,"width":700,"height":464,"type":"file","file":"DB/SQL/구동 테이블의 중요성.md"},
+		{"id":"f0eba82ecd5cfcfb","x":1255,"y":912,"width":825,"height":728,"type":"text","text":"'구동 테이블이 작은 Nested Loops' + '내부 테이블의 결합 키에 인덱스'라는 조합만 있다면 성능은 충분하다고 생각할 수 있다. 하지만 기대만큼의 응답 시간이 나오지 않기도 한다.\n\n**보통 이런 경우는 결합 키로 내부 테이블에 접근할 대 히트되는 레코드가 너무 많기 때문**이다. 이는 앞에서 설명했던 **결합키가 내부 테이블에 대해 유일하지 않은 경우**에 발생할 수 있다. 여러가지 방법으로 인덱스를 사용해 반복을 생략할 수 있다고 해도, 결국 절대적인 양이 너무 많으면 반복이 많이 일어난다.\n\n예를 들어 점포 테이블과 점포에서 받은 주문 테이블을 생각해보자. 이런 경우 하나의 점포에 대해 여러 개의 주문이 대응하므로 점포 테이블이 당연히 작을 것이다. 따라서 점포 테이블을 구동 테이블로 만들고 점포 ID를 결합 키로 사용하면 될 것이다.\n여기까지는 굉장히 좋은 생각이지만, 한 개의 점포 ID에 수백만 건, 수천만 건의 레코드가 히트된다면 결국 내부 테이블에 대해 반복 횟수가 많아져서 Nested Loops 성능이 낮아진다.\n\n이 문제에 대처하는 방법은 두 가지이다.\n\n첫 번째는 **구동 테이블로 큰 테이블을 선택**하는 역설적인 방법이다.\n이렇게 하면 내부 테이블에 대한 점포 테이블의 접근이 기본 키(점포 ID)로 수행되므로, 항상 하나의 레코드로 접근하는 것이 보장된다.\n따라서 점포에 따른 성능 비균등 문제를 해결해서, 극단적으로 성능이 저하되는 것을 막을 수 있다. 이는 주문 테이블이라는 거대 테이블 접근 비용이 현실적인 범위라면 굉장히 효과적인 방법이다.\n\n두번째는 해시이다."},
+		{"id":"29a601bb17513e45","x":473,"y":973,"width":607,"height":427,"type":"text","text":"입력에 대해 어느 정도 유일성과 균일성을 가진 값을 출력하는 함수를 해시라고 한다.\n해시 결합은 일단 작은 테이블을 스캔하고 결합 키에 햇"}
 	],
 	"edges":[
 		{"id":"c7c4aa7e9ce897d8","fromNode":"a3e8dfd90e9305e5","fromSide":"right","toNode":"d0073da8fb9ec9c6","toSide":"left"},
 		{"id":"0f5bfee24964da42","fromNode":"d0073da8fb9ec9c6","fromSide":"right","toNode":"01304f18aa6c99ac","toSide":"left"},
 		{"id":"5c6d23abcc6d3680","fromNode":"a3e8dfd90e9305e5","fromSide":"right","toNode":"111eaf1956dadc82","toSide":"left"},
 		{"id":"2d2bdd60e915694c","fromNode":"4388858d55e561aa","fromSide":"right","toNode":"dee0d4374ec7cbb0","toSide":"left"},
-		{"id":"e5c4e5c8173ac307","fromNode":"dee0d4374ec7cbb0","fromSide":"right","toNode":"e29dc3e33d4c0ed4","toSide":"left"}
+		{"id":"e5c4e5c8173ac307","fromNode":"dee0d4374ec7cbb0","fromSide":"right","toNode":"3a31f4fdb2fc520a","toSide":"left"},
+		{"id":"58f2587be0279e0b","fromNode":"3a31f4fdb2fc520a","fromSide":"right","toNode":"5af13ca78b01043d","toSide":"left"},
+		{"id":"5f5fbfb5ad283caa","fromNode":"3a31f4fdb2fc520a","fromSide":"right","toNode":"f0eba82ecd5cfcfb","toSide":"left"},
+		{"id":"98e53b7f2135311f","fromNode":"dee0d4374ec7cbb0","fromSide":"right","toNode":"29a601bb17513e45","toSide":"left"}
 	]
 }
