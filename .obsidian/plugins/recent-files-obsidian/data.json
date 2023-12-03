@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SQL",
+      "path": "DB/SQL/SQL.canvas"
+    },
+    {
+      "basename": "반복계의 단점",
+      "path": "DB/SQL/반복계의 단점.md"
+    },
+    {
       "basename": "Cache 전략",
       "path": "Cache 전략.png"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "캐시 가용성 지침",
       "path": "DB/Cache/md/캐시 가용성 지침.md"
-    },
-    {
-      "basename": "MVCC",
-      "path": "DB/Transaction/md/MVCC.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "Java/JVM/canvas/JVM.canvas"
     }
   ],
   "omittedPaths": [],

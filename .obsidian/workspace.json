@@ -11,9 +11,14 @@
             "id": "b98003dc9b351cc3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "Cache 전략.png"
+                "file": "DB/SQL/SQL.canvas",
+                "viewState": {
+                  "x": 965.9780810546876,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -91,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cache 전략.png",
+                "file": "DB/SQL/SQL.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cache 전략.png",
+                "file": "DB/SQL/SQL.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cache 전략.png"
+                "file": "DB/SQL/SQL.canvas"
               }
             }
           }
@@ -160,8 +165,11 @@
   },
   "active": "b98003dc9b351cc3",
   "lastOpenFiles": [
-    "Web/Session/Multi Session.canvas",
+    "DB/SQL/반복계의 단점.md",
     "Cache 전략.png",
+    "DB/SQL/SQL.canvas",
+    "DB/SQL",
+    "Web/Session/Multi Session.canvas",
     "Employment/learning/Ultra Learning.canvas",
     "Web/Session",
     "Employment/learning",
@@ -198,11 +206,9 @@
     "DB/Normalization/md/삽입이상.md",
     "DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md",
     "DB/Normalization/md/갱신이상.md",
-    "DB/Normalization/md",
     "Web/HttpSession/canvas/Cookie & Session.canvas",
     "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.md",
     "Web/HttpSession/canvas/HttpSession.canvas",
-    "OS/Disk/canvas/RAID.canvas",
     "DB/Transaction/md/READ UNCOMMITTED.md",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png",
