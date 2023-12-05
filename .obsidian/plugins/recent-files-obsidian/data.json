@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Concurrency",
+      "path": "OS/Concurrency/canvas/Concurrency.canvas"
+    },
+    {
+      "basename": "메모리 인터리빙",
+      "path": "OS/Concurrency/md/메모리 인터리빙.md"
+    },
+    {
+      "basename": "Concurrent & Parallel",
+      "path": "OS/Concurrency/resources/Concurrent & Parallel.png"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "Write Back 단점",
+      "path": "DB/Cache/md/Write Back 단점.md"
+    },
+    {
+      "basename": "Write Back 장점",
+      "path": "DB/Cache/md/Write Back 장점.md"
+    },
+    {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "Shenandoah GC",
+      "path": "Java/JVM/md/Shenandoah GC.md"
+    },
+    {
+      "basename": "age 값",
+      "path": "Java/JVM/md/age 값.md"
     },
     {
       "basename": "JPA",
@@ -53,18 +85,6 @@
       "path": "Employment/learning/Ultra Learning.canvas"
     },
     {
-      "basename": "Concurrency",
-      "path": "OS/Concurrency/canvas/Concurrency.canvas"
-    },
-    {
-      "basename": "Concurrent & Parallel",
-      "path": "Concurrent & Parallel.png"
-    },
-    {
-      "basename": "메모리 인터리빙",
-      "path": "OS/Concurrency/canvas/메모리 인터리빙.md"
-    },
-    {
       "basename": "SQL",
       "path": "DB/SQL/canvas/SQL.canvas"
     },
@@ -109,10 +129,6 @@
       "path": "DB/SQL/md/반복계의 단점.md"
     },
     {
-      "basename": "Cache 전략",
-      "path": "Cache 전략.png"
-    },
-    {
       "basename": "무제 파일",
       "path": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
     },
@@ -123,10 +139,6 @@
     {
       "basename": "G1 GC의 효율성",
       "path": "Java/JVM/md/G1 GC의 효율성.md"
-    },
-    {
-      "basename": "age 값",
-      "path": "Java/JVM/md/age 값.md"
     },
     {
       "basename": "Minor GC",
@@ -151,10 +163,6 @@
     {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "삭제이상",
@@ -187,18 +195,6 @@
     {
       "basename": "정규형",
       "path": "DB/Normalization/md/정규형.md"
-    },
-    {
-      "basename": "완전 함수적 종속(Full Functional Dependency)",
-      "path": "DB/Normalization/md/완전 함수적 종속(Full Functional Dependency).md"
-    },
-    {
-      "basename": "부분 함수적 종속(Partial Functional Dependency)",
-      "path": "DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md"
-    },
-    {
-      "basename": "함수적 종속성",
-      "path": "DB/Normalization/md/함수적 종속성.md"
     }
   ],
   "omittedPaths": [],

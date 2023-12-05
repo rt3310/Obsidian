@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "OS/Concurrency/canvas/Concurrency.canvas",
                 "viewState": {
-                  "x": 2424.8442819700454,
-                  "y": 1002.0344877597512,
-                  "zoom": -0.45581790495055885
+                  "x": 521.5,
+                  "y": -11.5,
+                  "zoom": -1.2237953462339615
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "OS/Concurrency/canvas/Concurrency.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "OS/Concurrency/canvas/Concurrency.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas"
+                "file": "OS/Concurrency/canvas/Concurrency.canvas"
               }
             }
           }
@@ -163,8 +163,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "82361efd6e40cea2",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "OS/Concurrency/md",
+    "OS/Concurrency/md/메모리 인터리빙.md",
+    "OS/Concurrency/resources/Concurrent & Parallel.png",
+    "OS/Concurrency/resources",
+    "Pasted image 20231205204751.png",
+    "Cache 전략.png",
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Cache/md/Write Back 단점.md",
+    "DB/Cache/md/Write Back 장점.md",
+    "Java/JVM/canvas/Garbage Collector.canvas",
     "Spring/JPA/canvas/JPA.canvas",
     "Spring/JPA/canvas/ORM.md",
     "OS/Thread/md/프로세스.md",
@@ -183,9 +193,6 @@
     "DB/SQL/md/Soft Merge가 유용한 경우.md",
     "Employment/learning/Ultra Learning.canvas",
     "OS/Concurrency/canvas/Concurrency.canvas",
-    "Pasted image 20231205204751.png",
-    "OS/Concurrency/canvas/메모리 인터리빙.md",
-    "Concurrent & Parallel.png",
     "DB/SQL/canvas/SQL.canvas",
     "OS/Concurrency/canvas",
     "OS/Concurrency",
@@ -199,12 +206,9 @@
     "DB/SQL/md/구동 테이블의 중요성.md",
     "DB/SQL/md/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md",
     "DB/SQL/md/반복계의 단점.md",
-    "Cache 전략.png",
     "DB/SQL",
     "Web/Session",
     "Employment/learning",
-    "Java/Virtual Thread/canvas/무제 파일.canvas",
-    "Spring/JPA/canvas",
     "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png",
     "Java/Virtual Thread/resources/Virtual Thread 사용방식.png",
     "Java/Virtual Thread/resources/Virtual Thread 비교.png",
@@ -212,9 +216,6 @@
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
     "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
-    "Java/Virtual Thread/canvas/Virtual Thread.canvas",
-    "DB/Cache/canvas/Write Back 장점.md",
-    "DB/Cache/canvas/Write Back 단점.md",
     "DB/Normalization/md/함수적 종속성.md",
     "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md",
     "OS/Bootstrap/resources/UEFI.png",

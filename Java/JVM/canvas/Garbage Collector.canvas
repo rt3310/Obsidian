@@ -22,7 +22,7 @@
 		{"id":"f441caa1dc637730","type":"file","file":"Java/JVM/md/Major GC.md","x":1215,"y":1940,"width":641,"height":510},
 		{"id":"c5eb38208cce15b2","type":"text","text":"Major GC는 Old 영역의 데이터가 가득 차면 GC를 실행하는 단순한 방식이다.\n\nOld 영역에 할당된 메모리가 허용치를 넘게 되면, Old 영역에 있는 모든 객체들을 검사하여 참조되지 않는 객체들을 한꺼번에 삭제하는 Major GC가 실행되게 된다.\n하지만 **Old Generation은 Young Generation에 비해 상대적으로 큰 공간을 가지고 있어, 이 공간에서 메모리 상의 객체 제거에 많은 시간이 걸리게 된다**.\n\n예를 들어, Young 영역은 일반적으로 Old 영역보다 크기가 작기 때문에 GC가 보통 0.5초에서 1초 사이에 끝난다.\n그렇기 때문에 Minor GC는 애플리케이션에 크게 영향을 주지 않는다.\n하지만 Old 영역의 **Major GC는 일반적으로 Minor GC보다 시간이 오래걸리며, 10배 이상의 시간을 사용**한다.\n\n바로 여기서 **Stop-The-World** 문제가 발생하게 된다.\n**Major GC가 일어나면 Thread가 멈추고 Mark and Sweep 작업을 해야 해서 CPU에 부하를 주기 때문에 멈추거나 버벅이는 현상이 일어나기 때문**이다.\n따라서 자바 개발진들은 끊임 없이 가비지 컬렉션 알고리즘을 발전 시켜왔다.","x":1156,"y":2640,"width":762,"height":388},
 		{"id":"d9fdc6c7e5e864cd","type":"file","file":"Java/JVM/md/Minor GC 과정.md","x":3200,"y":24,"width":580,"height":2477},
-		{"id":"629ec080149af24a","type":"file","file":"Java/JVM/md/age 값.md","x":4040,"y":927,"width":905,"height":359,"color":"#0000ff"},
+		{"id":"629ec080149af24a","type":"file","file":"Java/JVM/md/age 값.md","x":4040,"y":927,"width":940,"height":335,"color":"#0000ff"},
 		{"id":"73e8cd2dc87531e2","type":"file","file":"Java/JVM/md/Permanent.md","x":-1400,"y":615,"width":933,"height":617,"color":"5"},
 		{"id":"4d831604295edca7","type":"text","text":"> [!INFO]\n> Old 영역이 Young 영역보다 크게 할당되는 이유는 Young 영역의 수명이 짧은 객체들은 큰 공간을 필요로 하지 않으며 큰 객체들은 Young 영역이 아니라 바로 Old 영역에 할당되기 때문이다.","x":-1120,"y":343,"width":696,"height":154,"color":"#0000ff"},
 		{"id":"2babe5149a409fef","type":"file","file":"Java/JVM/md/CMS GC.md","x":-1840,"y":3143,"width":720,"height":637},
@@ -37,7 +37,7 @@
 		{"id":"691a6bdfddd8f8c6","type":"file","file":"Java/JVM/md/G1 GC의 효율성.md","x":-2171,"y":3994,"width":931,"height":359,"color":"#0000ff"},
 		{"id":"67bc1c16843b636d","type":"file","file":"Java/JVM/md/ZGC.md","x":1332,"y":3462,"width":933,"height":807},
 		{"id":"44c9aa4333ac0f9b","type":"text","text":"```bash\njava -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -jar Application.java\n```","x":1519,"y":4477,"width":547,"height":45},
-		{"id":"c363ba9d5a80ae53","type":"file","file":"Java/JVM/md/Shenandoah GC.md","x":-145,"y":3680,"width":1360,"height":540},
+		{"id":"c363ba9d5a80ae53","type":"file","file":"Java/JVM/md/Shenandoah GC.md","x":-145,"y":3680,"width":1360,"height":559},
 		{"id":"19c7eeaa383ba015","type":"text","text":"```bash\njava -XX:+UseShenandoahGC -jar Application.java\n```","x":340,"y":4360,"width":391,"height":45},
 		{"id":"4ba13ee733bc919c","type":"file","file":"Java/JVM/md/Old 영역(Old Generation).md","x":1196,"y":1540,"width":680,"height":171},
 		{"id":"84a73595c4c4c115","type":"text","text":"최근 Java 8에서 JVM 메모리 구조적인 개선 사항으로 Perm 영역이 Metaspace 영역으로 전환되고 기존 Perm 영역을 사라지게 되었다.\nMetaspace 영역은 Heap이 아닌 **Native 메모리 영역으로 취급**하게 된다.\n(Heap 영역은 JVM에 의해 관리된 영역이며, **Native 메모리는 OS 레벨에서 관리하는 영역**으로 구분된다)\nMetaspace가 Native 메모리를 이용함으로서 개발자는 영역 확보의 상한을 크게 의식할 필요가 없어지게 되었다.","x":-2460,"y":850,"width":763,"height":148}

@@ -48,5 +48,6 @@
   "Web/Session": "FarStar",
   "DB/SQL": "FarStar",
   "OS/Concurrency": "FarStar",
-  "OS/Bootstrap": "FarStar"
+  "OS/Bootstrap": "FarStar",
+  "Spring": "FarFolder"
 }

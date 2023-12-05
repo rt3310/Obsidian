@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"7b839874ead5e33b","type":"text","text":"# 캐시 전략","x":-380,"y":-220,"width":167,"height":39},
-		{"id":"d5b733d7ce1aceeb","type":"text","text":"캐시를 이용하게 되면 반드시 닥쳐오는 문제점이 있는데 바로 데이터 정합성 문제이다.\n\n이전에는 그냥 DB에서 데이터 조회와 작성을 처리하였기 때문에 데이터 정합성 문제가 나타나지 않았지만, 캐시라는 또 다른 데이터 저장소를 이용하기 때문에, 결국 같은 종류의 데이터라도 두 저장소에서 저장된 값이 서로 다를 수 있는 현상이 일어날 수 밖에 없는 것이다.\n\n따라서 적절한 **[[캐시 읽기 전략(Read Cache Strategy)]]** 과 **[[캐시 쓰기 전략(Write Cache Strategy)]]** 을 통해, 캐시와 DB간의 데이터 불일치 문제를 극복하면서도 빠른 성능을 잃지 않게 하기 위해 고심히 연구를 할 필요가 있다.","x":-673,"y":60,"width":750,"height":218},
+		{"id":"d5b733d7ce1aceeb","type":"text","text":"캐시를 이용하게 되면 반드시 닥쳐오는 문제점이 있는데 바로 데이터 정합성 문제이다.\n\n이전에는 그냥 DB에서 데이터 조회와 작성을 처리하였기 때문에 데이터 정합성 문제가 나타나지 않았지만, 캐시라는 또 다른 데이터 저장소를 이용하기 때문에, 결국 같은 종류의 데이터라도 두 저장소에서 저장된 값이 서로 다를 수 있는 현상이 일어날 수 밖에 없는 것이다.\n\n따라서 적절한 **[[캐시 읽기 전략(Read Cache Strategy)]]** 과 **[[캐시 쓰기 전략(Write Cache Strategy)]]** 을 통해, 캐시와 DB간의 데이터 불일치 문제를 극복하면서도 빠른 성능을 잃지 않게 하기 위해 고심히 연구를 할 필요가 있다.","x":-673,"y":60,"width":755,"height":218},
 		{"id":"b177df6bb1adc858","type":"file","file":"DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md","x":-1380,"y":-416,"width":346,"height":154},
 		{"id":"dde7389d474c5d72","type":"text","text":"cache hit: 캐시 스토어에 데이터가 있을 경우 바로 가져옴\ncache miss: 캐시 스토어에 데이터가 없을 경우 어쩔 수 없이 DB에서 가져옴","x":-860,"y":-474,"width":539,"height":58},
 		{"id":"42f060940bfe3d5a","type":"text","text":"> [!TIP]\n> 캐시를 효율적으로 이용하기 위해서는 캐시에 저장할 데이터 특성도 고려해야 한다.\n> 예를 들어, 자주 조회되는 데이터, 결과값이 자주 변동되지 않고 일정한 데이터, 조회하는데 연산이 필요한 데이터를 캐싱해두면 좋다.","x":-22,"y":-950,"width":623,"height":184,"color":"5"},
@@ -30,9 +30,9 @@
 		{"id":"0d7e01da2eaa24b6","type":"text","text":"> [!TIP]\n> Write-Through 패턴과 Read-Through 패턴을 함께 사용하면, 캐시의 최신 데이터 유지와 더불어 정합성 이점을 얻을 수 있다.\n> 대표적인 예로 AWS의 DynamoDB Accelerator (DAX)가 있다.\n> DAX 패턴을 통해 DynamoDB에 대한 읽기 및 쓰기를 효율적으로 수행할 수 있다.\n\n![[DynamoDB Accelerator.png]]","x":1546,"y":2164,"width":865,"height":654,"color":"5"},
 		{"id":"815c7fbec8a01266","type":"text","text":"> [!TIP]\n> write through 패턴과 write back 패턴 둘 다 모두 자주 사용되지 않는 데이터가 저장되어 리소스 낭비가 발생되는 문제점을 안고 있기 때문에, TTL을 꼭 사용하여 사용되지 않는 데이터를 반드시 삭제해야 한다. (expire 명령어)","x":873,"y":2280,"width":627,"height":184,"color":"5"},
 		{"id":"f08e18ca4f05ac6c","type":"text","text":"> [!TIP]\n> 이 전략 또한 캐시에 Replication이나 Cluster 구조를 적용함으로써 Cache 서비스의 가용성을 높이는 것이 좋으며, 캐시 읽기 전략인 Read-Through와 결합하면 가장 최근에 업데이트 된 데이터를 항상 캐시에서 사용할 수 있는 혼합 워크로드에 적합하다.","x":410,"y":2064,"width":660,"height":184,"color":"5"},
-		{"id":"963c7f346e9913d7","x":80,"y":2372,"width":518,"height":214,"type":"file","file":"DB/Cache/canvas/Write Back 단점.md"},
-		{"id":"143c4d26db73ed4c","x":-269,"y":2063,"width":545,"height":217,"type":"file","file":"DB/Cache/canvas/Write Back 장점.md"},
-		{"id":"5d3759d15804aebb","x":-540,"y":2416,"width":582,"height":126,"color":"5","type":"text","text":"- 일부 개발자들은 cache-aside와 write-back에서 Peak 상태 둘 다 로드 기간 동안 트래픽 spike를 잘 처리하기 위해 Redis를 활용하기도 한다.\n- 대부분 RDBMS에서 스토리지 엔진은 기본적으로 후기입 캐시를 활성화한다.\n\t- 쿼리는 먼저 메모리에 기록되고 나중에 결국에 디스크로 플러시 되는 방식"},
+		{"id":"963c7f346e9913d7","type":"file","file":"DB/Cache/md/Write Back 단점.md","x":80,"y":2372,"width":518,"height":214},
+		{"id":"143c4d26db73ed4c","type":"file","file":"DB/Cache/md/Write Back 장점.md","x":-269,"y":2063,"width":545,"height":217},
+		{"id":"5d3759d15804aebb","type":"text","text":"- 일부 개발자들은 cache-aside와 write-back에서 Peak 상태 둘 다 로드 기간 동안 트래픽 spike를 잘 처리하기 위해 Redis를 활용하기도 한다.\n- 대부분 RDBMS에서 스토리지 엔진은 기본적으로 후기입 캐시를 활성화한다.\n\t- 쿼리는 먼저 메모리에 기록되고 나중에 결국에 디스크로 플러시 되는 방식","x":-540,"y":2416,"width":582,"height":126,"color":"5"},
 		{"id":"4d88773336a05b57","type":"text","text":"> [!TIP]\n> 이 방식 또한 서비스 운영 초반에 cache warming을 수행하는 것이 좋다.","x":2003,"y":176,"width":550,"height":124,"color":"5"}
 	],
 	"edges":[
