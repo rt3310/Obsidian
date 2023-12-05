@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"45dca9098be779bc","type":"text","text":"# Concurrency & Parallelism","x":-600,"y":-80,"width":372,"height":39},
+		{"id":"57dfd6616f40d057","type":"file","file":"Concurrent & Parallel.png","x":-100,"y":-168,"width":399,"height":215},
+		{"id":"47ddefa81bc6db3f","x":489,"y":-320,"width":610,"height":114,"type":"text","text":"여러 프로세스들이 서로 번갈아가면서 수행되는 것\n\n- 번갈아 수행되는 시간 간격이 매우 짧아, 마치 동시에 수행되는 것과 같은 효과 제공\n- 실제로 병렬 처리되는 것은 X"},
+		{"id":"f7147817ec125a82","x":1260,"y":-620,"width":493,"height":383,"type":"file","file":"OS/Concurrency/canvas/메모리 인터리빙.md"},
+		{"id":"eeb66e8ab501810c","x":489,"y":20,"width":511,"height":80,"type":"text","text":"두 개 이상의 프로세스들이 시간이 중첩되어 병행하여 수행되는 것\n\n- 다중 처리기 시스템 상에서 이루어짐"},
+		{"id":"031e692d32c966c0","x":14,"y":200,"width":646,"height":480,"type":"text","text":"단일 처리기 환경에서, 프로세스 간의 수행 순서는 비동기적이라는 다중 프로그래밍의 기본 특성에서 다음과 같은 문제가 발생한다.\n\n- "}
+	],
+	"edges":[
+		{"id":"9d63bc3536226cd7","fromNode":"45dca9098be779bc","fromSide":"right","toNode":"57dfd6616f40d057","toSide":"left"},
+		{"id":"ada94589cf6a3c0d","fromNode":"47ddefa81bc6db3f","fromSide":"right","toNode":"f7147817ec125a82","toSide":"left"},
+		{"id":"bcfcf33d758eb312","fromNode":"57dfd6616f40d057","fromSide":"right","toNode":"eeb66e8ab501810c","toSide":"left","label":"오버래핑?"},
+		{"id":"9eae5afeae737f1b","fromNode":"57dfd6616f40d057","fromSide":"right","toNode":"47ddefa81bc6db3f","toSide":"left","label":"인터리빙?"},
+		{"id":"b71c37c910d60aa9","fromNode":"57dfd6616f40d057","fromSide":"bottom","toNode":"031e692d32c966c0","toSide":"top"}
+	]
+}

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Concurrency",
+      "path": "OS/Concurrency/canvas/Concurrency.canvas"
+    },
+    {
+      "basename": "Concurrent & Parallel",
+      "path": "Concurrent & Parallel.png"
+    },
+    {
+      "basename": "메모리 인터리빙",
+      "path": "OS/Concurrency/canvas/메모리 인터리빙.md"
+    },
+    {
       "basename": "SQL",
       "path": "DB/SQL/SQL.canvas"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "READ UNCOMMITTED",
       "path": "DB/Transaction/md/READ UNCOMMITTED.md"
-    },
-    {
-      "basename": "REPEATABLE READ 작동 방식",
-      "path": "DB/Transaction/md/REPEATABLE READ 작동 방식.md"
-    },
-    {
-      "basename": "READ UNCOMMITTED의 Dirty Read",
-      "path": "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
-    },
-    {
-      "basename": "Non-Repeatable Read",
-      "path": "DB/Transaction/md/Non-Repeatable Read.md"
     }
   ],
   "omittedPaths": [],
