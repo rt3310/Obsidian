@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Concurrency/canvas/Concurrency.canvas",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 439.85819841958295,
-                  "y": 220.09580447193855,
-                  "zoom": 0.27333333333333326
+                  "x": 2424.8442819700454,
+                  "y": 1002.0344877597512,
+                  "zoom": -0.45581790495055885
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Concurrency/canvas/Concurrency.canvas",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Concurrency/canvas/Concurrency.canvas",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Concurrency/canvas/Concurrency.canvas"
+                "file": "Java/JVM/canvas/Garbage Collector.canvas"
               }
             }
           }
@@ -165,61 +165,60 @@
   },
   "active": "82361efd6e40cea2",
   "lastOpenFiles": [
+    "Spring/JPA/canvas/JPA.canvas",
+    "Spring/JPA/canvas/ORM.md",
+    "OS/Thread/md/프로세스.md",
+    "OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
+    "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
+    "OS/Thread/canvas/Thread.canvas",
+    "OS/Thread/md",
+    "OS/Thread/canvas",
+    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
+    "Web/Session/Multi Session.canvas",
+    "DB/Normalization/canvas/정규화.canvas",
+    "DB/SQL/md/결합 알고리즘 종류.md",
+    "DB/SQL/canvas",
+    "DB/SQL/md",
+    "DB/SQL/md/Soft Merge가 유용한 경우.md",
+    "Employment/learning/Ultra Learning.canvas",
+    "OS/Concurrency/canvas/Concurrency.canvas",
     "Pasted image 20231205204751.png",
     "OS/Concurrency/canvas/메모리 인터리빙.md",
     "Concurrent & Parallel.png",
-    "OS/Concurrency/canvas/Concurrency.canvas",
-    "DB/SQL/SQL.canvas",
+    "DB/SQL/canvas/SQL.canvas",
     "OS/Concurrency/canvas",
     "OS/Concurrency",
-    "DB/SQL/인덱스를 사용할 수 없는 경우 대처.md",
-    "DB/SQL/인덱스를 사용할 수 없는 경우.md",
-    "DB/SQL/인덱스를 사용하는 것이 좋은지 판단.md",
-    "DB/SQL/Soft Merge가 유용한 경우.md",
-    "DB/SQL/Hash 트레이드오프.md",
-    "DB/SQL/Hash가 유용한 경우.md",
-    "DB/SQL/Hash.md",
-    "DB/SQL/Nested Loops.md",
-    "DB/SQL/구동 테이블의 중요성.md",
-    "DB/SQL/결합 알고리즘 종류.md",
-    "DB/SQL/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md",
-    "DB/SQL/반복계의 단점.md",
+    "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md",
+    "DB/SQL/md/인덱스를 사용할 수 없는 경우.md",
+    "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md",
+    "DB/SQL/md/Hash 트레이드오프.md",
+    "DB/SQL/md/Hash가 유용한 경우.md",
+    "DB/SQL/md/Hash.md",
+    "DB/SQL/md/Nested Loops.md",
+    "DB/SQL/md/구동 테이블의 중요성.md",
+    "DB/SQL/md/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md",
+    "DB/SQL/md/반복계의 단점.md",
     "Cache 전략.png",
     "DB/SQL",
-    "Web/Session/Multi Session.canvas",
-    "Employment/learning/Ultra Learning.canvas",
     "Web/Session",
     "Employment/learning",
     "Java/Virtual Thread/canvas/무제 파일.canvas",
-    "Spring/JPA/canvas/ORM.md",
-    "Spring/JPA/canvas/JPA.canvas",
     "Spring/JPA/canvas",
-    "Spring/JPA",
-    "Spring",
     "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png",
     "Java/Virtual Thread/resources/Virtual Thread 사용방식.png",
     "Java/Virtual Thread/resources/Virtual Thread 비교.png",
     "Java/Virtual Thread/resources/Mount-Unmount Flow.png",
-    "Java/Virtual Thread/resources",
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
     "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
-    "Java/Virtual Thread/md",
     "Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "DB/Cache/canvas/Write Back 장점.md",
     "DB/Cache/canvas/Write Back 단점.md",
-    "DB/Normalization/canvas/정규화.canvas",
-    "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
     "DB/Normalization/md/함수적 종속성.md",
     "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md",
-    "DB/Normalization/md/제 2정규형(2NF - Second Normal Form).md",
-    "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md",
-    "DB/Normalization/md/정규화(Normalization).md",
-    "DB/Normalization/md/정규형.md",
-    "Web/HttpSession/canvas/Cookie & Session.canvas",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png",
-    "OS/Bootstrap/resources/BOOT ORDER Priorities.png",
-    "OS/Bootstrap/resources/BIOS.png"
+    "OS/Bootstrap/resources/BOOT ORDER Priorities.png"
   ]
 }

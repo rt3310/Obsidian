@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Garbage Collector",
+      "path": "Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "JPA",
+      "path": "Spring/JPA/canvas/JPA.canvas"
+    },
+    {
+      "basename": "ORM",
+      "path": "Spring/JPA/canvas/ORM.md"
+    },
+    {
+      "basename": "프로세스",
+      "path": "OS/Thread/md/프로세스.md"
+    },
+    {
+      "basename": "단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용",
+      "path": "OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "OS/Thread/canvas/Thread.canvas"
+    },
+    {
+      "basename": "컴퓨터 부팅 과정",
+      "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
+    },
+    {
+      "basename": "부트로더(Boot Loader)",
+      "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
+    },
+    {
+      "basename": "Multi Session",
+      "path": "Web/Session/Multi Session.canvas"
+    },
+    {
+      "basename": "정규화",
+      "path": "DB/Normalization/canvas/정규화.canvas"
+    },
+    {
+      "basename": "결합 알고리즘 종류",
+      "path": "DB/SQL/md/결합 알고리즘 종류.md"
+    },
+    {
+      "basename": "Soft Merge가 유용한 경우",
+      "path": "DB/SQL/md/Soft Merge가 유용한 경우.md"
+    },
+    {
+      "basename": "Ultra Learning",
+      "path": "Employment/learning/Ultra Learning.canvas"
+    },
+    {
       "basename": "Concurrency",
       "path": "OS/Concurrency/canvas/Concurrency.canvas"
     },
@@ -14,79 +66,55 @@
     },
     {
       "basename": "SQL",
-      "path": "DB/SQL/SQL.canvas"
+      "path": "DB/SQL/canvas/SQL.canvas"
     },
     {
       "basename": "인덱스를 사용할 수 없는 경우 대처",
-      "path": "DB/SQL/인덱스를 사용할 수 없는 경우 대처.md"
+      "path": "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md"
     },
     {
       "basename": "인덱스를 사용할 수 없는 경우",
-      "path": "DB/SQL/인덱스를 사용할 수 없는 경우.md"
+      "path": "DB/SQL/md/인덱스를 사용할 수 없는 경우.md"
     },
     {
       "basename": "인덱스를 사용하는 것이 좋은지 판단",
-      "path": "DB/SQL/인덱스를 사용하는 것이 좋은지 판단.md"
-    },
-    {
-      "basename": "Soft Merge가 유용한 경우",
-      "path": "DB/SQL/Soft Merge가 유용한 경우.md"
+      "path": "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md"
     },
     {
       "basename": "Hash 트레이드오프",
-      "path": "DB/SQL/Hash 트레이드오프.md"
-    },
-    {
-      "basename": "결합 알고리즘 종류",
-      "path": "DB/SQL/결합 알고리즘 종류.md"
+      "path": "DB/SQL/md/Hash 트레이드오프.md"
     },
     {
       "basename": "Hash",
-      "path": "DB/SQL/Hash.md"
+      "path": "DB/SQL/md/Hash.md"
     },
     {
       "basename": "Hash가 유용한 경우",
-      "path": "DB/SQL/Hash가 유용한 경우.md"
+      "path": "DB/SQL/md/Hash가 유용한 경우.md"
     },
     {
       "basename": "구동 테이블의 중요성",
-      "path": "DB/SQL/구동 테이블의 중요성.md"
+      "path": "DB/SQL/md/구동 테이블의 중요성.md"
     },
     {
       "basename": "반복계가 포장계에 성능적으로 질 수 밖에 없는 이유",
-      "path": "DB/SQL/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md"
+      "path": "DB/SQL/md/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md"
     },
     {
       "basename": "Nested Loops",
-      "path": "DB/SQL/Nested Loops.md"
+      "path": "DB/SQL/md/Nested Loops.md"
     },
     {
       "basename": "반복계의 단점",
-      "path": "DB/SQL/반복계의 단점.md"
+      "path": "DB/SQL/md/반복계의 단점.md"
     },
     {
       "basename": "Cache 전략",
       "path": "Cache 전략.png"
     },
     {
-      "basename": "Multi Session",
-      "path": "Web/Session/Multi Session.canvas"
-    },
-    {
-      "basename": "Ultra Learning",
-      "path": "Employment/learning/Ultra Learning.canvas"
-    },
-    {
-      "basename": "정규화",
-      "path": "DB/Normalization/canvas/정규화.canvas"
-    },
-    {
       "basename": "무제 파일",
       "path": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
       "basename": "CMS GC",
@@ -171,34 +199,6 @@
     {
       "basename": "함수적 종속성",
       "path": "DB/Normalization/md/함수적 종속성.md"
-    },
-    {
-      "basename": "컴퓨터 부팅 과정",
-      "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
-    },
-    {
-      "basename": "Cookie & Session",
-      "path": "Web/HttpSession/canvas/Cookie & Session.canvas"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Web/HttpSession/canvas/HttpSession.canvas"
-    },
-    {
-      "basename": "RAID",
-      "path": "OS/Disk/canvas/RAID.canvas"
-    },
-    {
-      "basename": "MySQL Phantom Read",
-      "path": "DB/Transaction/md/MySQL Phantom Read.md"
-    },
-    {
-      "basename": "Cache Stampede 현상",
-      "path": "DB/Cache/md/Cache Stampede 현상.md"
-    },
-    {
-      "basename": "READ UNCOMMITTED",
-      "path": "DB/Transaction/md/READ UNCOMMITTED.md"
     }
   ],
   "omittedPaths": [],

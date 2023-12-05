@@ -47,5 +47,6 @@
   "Employment/learning": "FarStar",
   "Web/Session": "FarStar",
   "DB/SQL": "FarStar",
-  "OS/Concurrency": "FarStar"
+  "OS/Concurrency": "FarStar",
+  "OS/Bootstrap": "FarStar"
 }
