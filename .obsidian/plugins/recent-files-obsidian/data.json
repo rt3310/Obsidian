@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "정규화",
+      "path": "DB/Normalization/canvas/정규화.canvas"
+    },
+    {
       "basename": "Concurrency",
       "path": "OS/Concurrency/canvas/Concurrency.canvas"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "Multi Session",
       "path": "Web/Session/Multi Session.canvas"
-    },
-    {
-      "basename": "정규화",
-      "path": "DB/Normalization/canvas/정규화.canvas"
     },
     {
       "basename": "결합 알고리즘 종류",
