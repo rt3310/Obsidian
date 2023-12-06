@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "트랜잭션 격리 수준",
+      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "Phantom Read",
+      "path": "DB/Transaction/md/Phantom Read.md"
+    },
+    {
+      "basename": "REPEATABLE READ 작동 방식",
+      "path": "DB/Transaction/md/REPEATABLE READ 작동 방식.md"
+    },
+    {
       "basename": "Semaphore",
       "path": "OS/Concurrency/canvas/Semaphore.canvas"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Survivor 0, Survivor 1",
       "path": "Java/JVM/md/Survivor 0, Survivor 1.md"
-    },
-    {
-      "basename": "Old 영역(Old Generation)",
-      "path": "Java/JVM/md/Old 영역(Old Generation).md"
-    },
-    {
-      "basename": "Young 영역(Young Generation)",
-      "path": "Java/JVM/md/Young 영역(Young Generation).md"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     }
   ],
   "omittedPaths": [],
