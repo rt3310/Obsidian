@@ -15,8 +15,8 @@
               "state": {
                 "file": "OS/Concurrency/canvas/Semaphore.canvas",
                 "viewState": {
-                  "x": 736.0801360029125,
-                  "y": -174.31938723090718,
+                  "x": 1008.9235962833383,
+                  "y": 1168.8971981825528,
                   "zoom": -0.4600000000000001
                 }
               }
@@ -165,6 +165,10 @@
   },
   "active": "82361efd6e40cea2",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/이진 세마포어.md",
+    "OS/Concurrency/canvas/뮤텍스.md",
+    "OS/Concurrency/canvas/범용 세마포어.md",
+    "Pasted image 20231206102422.png",
     "OS/Concurrency/canvas/세마포어(Semaphore).md",
     "OS/Concurrency/canvas/Concurrency.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
@@ -215,11 +219,7 @@
     "Java/Virtual Thread/resources/Mount-Unmount Flow.png",
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
-    "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
-    "DB/Normalization/md/함수적 종속성.md",
-    "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md",
     "OS/Bootstrap/resources/UEFI.png",
-    "OS/Bootstrap/resources/ROM.png",
-    "OS/Bootstrap/resources/BOOT ORDER Priorities.png"
+    "OS/Bootstrap/resources/ROM.png"
   ]
 }

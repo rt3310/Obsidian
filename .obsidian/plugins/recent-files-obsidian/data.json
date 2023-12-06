@@ -5,6 +5,18 @@
       "path": "OS/Concurrency/canvas/Semaphore.canvas"
     },
     {
+      "basename": "뮤텍스",
+      "path": "OS/Concurrency/canvas/뮤텍스.md"
+    },
+    {
+      "basename": "이진 세마포어",
+      "path": "OS/Concurrency/canvas/이진 세마포어.md"
+    },
+    {
+      "basename": "범용 세마포어",
+      "path": "OS/Concurrency/canvas/범용 세마포어.md"
+    },
+    {
       "basename": "세마포어(Semaphore)",
       "path": "OS/Concurrency/canvas/세마포어(Semaphore).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "제 1정규형 (1NF - First Normal Form)",
       "path": "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md"
-    },
-    {
-      "basename": "정규화(Normalization)",
-      "path": "DB/Normalization/md/정규화(Normalization).md"
-    },
-    {
-      "basename": "제 2정규형(2NF - Second Normal Form)",
-      "path": "DB/Normalization/md/제 2정규형(2NF - Second Normal Form).md"
-    },
-    {
-      "basename": "제 3정규형(3NF - Third Normal Form)",
-      "path": "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md"
     }
   ],
   "omittedPaths": [],

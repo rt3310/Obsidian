@@ -1,9 +1,23 @@
 {
 	"nodes":[
-		{"id":"bca960ef52500a51","x":-360,"y":-277,"width":640,"height":220,"type":"file","file":"OS/Concurrency/canvas/세마포어(Semaphore).md"},
-		{"id":"d74281a2638e7733","x":469,"y":-346,"width":1051,"height":486,"type":"text","text":"- 세마포어는 정수 값을 갖는 변수로 3가지 연산(primitive)으로 접근\n\t- 세마포어 초기화: 세마포어 값을 음이 아닌 값으로 초기화\n\t- semWait 연산(P 연산) -> 원자적(atomic) 수행\n\t\t- 세마포어 값을 감소\n\t\t- 감소된 값이 음수이면 호출한 프로세스는 블록된다. 음수가 아니면 프로셋는 계속 수행될 수 있다.\n\t- semSignal 연산(V 연산) -> 원자적(atomic) 수행\n\t\t- 세마포어 값을 증가\n\t\t- 증가된 값이 양수가 아니면 블록된 프로세스를 깨운다."}
+		{"id":"bca960ef52500a51","type":"file","file":"OS/Concurrency/canvas/세마포어(Semaphore).md","x":-360,"y":-277,"width":640,"height":220},
+		{"id":"d74281a2638e7733","type":"text","text":"- 세마포어는 정수 값을 갖는 변수로 3가지 연산(primitive)으로 접근\n\t- 세마포어 초기화: 세마포어 값을 음이 아닌 값으로 초기화\n\t- semWait 연산(P 연산) -> 원자적(atomic) 수행\n\t\t- 세마포어 값을 감소\n\t\t- 감소된 값이 음수이면 호출한 프로세스는 블록된다. 음수가 아니면 프로셋는 계속 수행될 수 있다.\n\t- semSignal 연산(V 연산) -> 원자적(atomic) 수행\n\t\t- 세마포어 값을 증가\n\t\t- 증가된 값이 양수가 아니면 블록된 프로세스를 깨운다.","x":460,"y":-620,"width":761,"height":261},
+		{"id":"16eadbe9bcc39edc","type":"text","text":"- 프로세스가 블록될지 여부를 세마포어를 감소시키기 전까지 알 수 없다  \n- 세마포어를 증가시켜 블록상태를 해제할 경우, 블록 되어 있는 프로세스가 복수개이면 어떤 프로세스가 즉시 수행될 지 알 수 없다.\n- 세마포어 시그널을 보낼 때 블록 중인 다른 프로세스가 존재하는지 알 필요가 없다.","x":460,"y":-230,"width":606,"height":126},
+		{"id":"0abee1598187bda0","type":"text","text":"- 범용 세마포어\n- 이진 세마포어\n- 뮤텍스","x":473,"y":120,"width":187,"height":96},
+		{"id":"ce254d8d55e43646","x":933,"y":-38,"width":667,"height":368,"type":"file","file":"OS/Concurrency/canvas/범용 세마포어.md"},
+		{"id":"ae236c5c416d9c15","x":914,"y":398,"width":535,"height":254,"type":"file","file":"OS/Concurrency/canvas/이진 세마포어.md"},
+		{"id":"97b71d4aeb70d226","x":924,"y":740,"width":686,"height":184,"type":"file","file":"OS/Concurrency/canvas/뮤텍스.md"},
+		{"id":"f91dc2f88e3d2de2","x":442,"y":708,"width":250,"height":64,"type":"text","text":"- 강성 세마포어\n- 약성 세마포어"},
+		{"id":"31eb995ac9294dff","x":179,"y":1006,"width":250,"height":60,"type":"text","text":"가장 오래된 프로세스를 깨우는 방식 "}
 	],
 	"edges":[
-		{"id":"9a6a9649df0fa492","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"d74281a2638e7733","toSide":"left"}
+		{"id":"9a6a9649df0fa492","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"d74281a2638e7733","toSide":"left","label":"연산"},
+		{"id":"4bb9e2712361d828","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"16eadbe9bcc39edc","toSide":"left"},
+		{"id":"33386acda06c12c5","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"0abee1598187bda0","toSide":"left"},
+		{"id":"1deba18147d34a6f","fromNode":"0abee1598187bda0","fromSide":"right","toNode":"ce254d8d55e43646","toSide":"left"},
+		{"id":"6bdbf6a63029e48b","fromNode":"0abee1598187bda0","fromSide":"right","toNode":"ae236c5c416d9c15","toSide":"left"},
+		{"id":"cbecc468a95a4571","fromNode":"0abee1598187bda0","fromSide":"right","toNode":"97b71d4aeb70d226","toSide":"left"},
+		{"id":"6453266907fc92f1","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"f91dc2f88e3d2de2","toSide":"left"},
+		{"id":"c6b76d959f0a28fc","fromNode":"f91dc2f88e3d2de2","fromSide":"bottom","toNode":"31eb995ac9294dff","toSide":"top"}
 	]
 }
