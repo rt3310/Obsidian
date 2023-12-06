@@ -5,8 +5,24 @@
       "path": "OS/Concurrency/canvas/Semaphore.canvas"
     },
     {
+      "basename": "semWait(x) 연산 (P 연산)",
+      "path": "OS/Concurrency/canvas/semWait(x) 연산 (P 연산).md"
+    },
+    {
       "basename": "뮤텍스",
       "path": "OS/Concurrency/canvas/뮤텍스.md"
+    },
+    {
+      "basename": "semSignal(x) 연산 (V 연산)",
+      "path": "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md"
+    },
+    {
+      "basename": "강성 세마포어",
+      "path": "OS/Concurrency/canvas/강성 세마포어.md"
+    },
+    {
+      "basename": "약성 세마포어",
+      "path": "OS/Concurrency/canvas/약성 세마포어.md"
     },
     {
       "basename": "이진 세마포어",
@@ -183,22 +199,6 @@
     {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "삭제이상",
-      "path": "DB/Normalization/md/삭제이상.md"
-    },
-    {
-      "basename": "삽입이상",
-      "path": "DB/Normalization/md/삽입이상.md"
-    },
-    {
-      "basename": "갱신이상",
-      "path": "DB/Normalization/md/갱신이상.md"
-    },
-    {
-      "basename": "제 1정규형 (1NF - First Normal Form)",
-      "path": "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md"
     }
   ],
   "omittedPaths": [],

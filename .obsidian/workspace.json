@@ -15,9 +15,9 @@
               "state": {
                 "file": "OS/Concurrency/canvas/Semaphore.canvas",
                 "viewState": {
-                  "x": 1008.9235962833383,
-                  "y": 1168.8971981825528,
-                  "zoom": -0.4600000000000001
+                  "x": 730.6530184057701,
+                  "y": 386.6972363696574,
+                  "zoom": -0.8666666666666666
                 }
               }
             }
@@ -165,6 +165,10 @@
   },
   "active": "82361efd6e40cea2",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md",
+    "OS/Concurrency/canvas/semWait(x) 연산 (P 연산).md",
+    "OS/Concurrency/canvas/약성 세마포어.md",
+    "OS/Concurrency/canvas/강성 세마포어.md",
     "OS/Concurrency/canvas/이진 세마포어.md",
     "OS/Concurrency/canvas/뮤텍스.md",
     "OS/Concurrency/canvas/범용 세마포어.md",
@@ -209,16 +213,12 @@
     "DB/SQL/md/Hash.md",
     "DB/SQL/md/Nested Loops.md",
     "DB/SQL/md/구동 테이블의 중요성.md",
-    "DB/SQL/md/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md",
-    "DB/SQL/md/반복계의 단점.md",
     "DB/SQL",
     "Web/Session",
     "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png",
     "Java/Virtual Thread/resources/Virtual Thread 사용방식.png",
     "Java/Virtual Thread/resources/Virtual Thread 비교.png",
     "Java/Virtual Thread/resources/Mount-Unmount Flow.png",
-    "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
-    "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
     "OS/Bootstrap/resources/UEFI.png",
     "OS/Bootstrap/resources/ROM.png"
   ]

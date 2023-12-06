@@ -8,16 +8,24 @@
 		{"id":"ae236c5c416d9c15","x":914,"y":398,"width":535,"height":254,"type":"file","file":"OS/Concurrency/canvas/이진 세마포어.md"},
 		{"id":"97b71d4aeb70d226","x":924,"y":740,"width":686,"height":184,"type":"file","file":"OS/Concurrency/canvas/뮤텍스.md"},
 		{"id":"f91dc2f88e3d2de2","x":442,"y":708,"width":250,"height":64,"type":"text","text":"- 강성 세마포어\n- 약성 세마포어"},
-		{"id":"31eb995ac9294dff","x":179,"y":1006,"width":250,"height":60,"type":"text","text":"가장 오래된 프로세스를 깨우는 방식 "}
+		{"id":"90ec84927363723e","x":-40,"y":1000,"width":445,"height":154,"type":"file","file":"OS/Concurrency/canvas/강성 세마포어.md"},
+		{"id":"89af6a06487dc4d7","x":620,"y":1000,"width":413,"height":151,"type":"file","file":"OS/Concurrency/canvas/약성 세마포어.md"},
+		{"id":"88c0a5eb54d8dec4","x":1314,"y":-400,"width":515,"height":154,"type":"file","file":"OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md"},
+		{"id":"27d7e57dda16bc65","x":1314,"y":-697,"width":593,"height":154,"type":"file","file":"OS/Concurrency/canvas/semWait(x) 연산 (P 연산).md"},
+		{"id":"9fc3ab50afd72ec0","x":-344,"y":175,"width":608,"height":311,"type":"text","text":"1. 자기 프로세스 내에서 P, V 연산을 모두 갖는 경우\n\t1. 특정 자원(임계영역)을 한 순간에 혼자 독점적으로 사용할 경우\n2. 한 프로세스 내에서 P연산만, 다른 프로세스 내에서 V연산만 사용하는 경우\n\t1. 특정 자원(임계영역)을 서로 공유하면서 처리가 되는 경우\n\t2. 세마포어의 상호배제를 위한 가장 일반적인 활용법\n\t\t1. 동일 임계자원을 동시에 사용 못하게 하는 구조\n\t3. 동기화를 할 경우 많이 사용\n\t\t1. A 프로세스가 특정 자원(임계영역)을 처리한 후 그 결과를 가지고 B 프로세스가 실행되어야 하는 경우에, B가 P연산을 하고 기다리면 A가 특정자원(임계영역)을 처리한 후 V 연산을 실시하여 B가 계속 진행되게 한다."}
 	],
 	"edges":[
 		{"id":"9a6a9649df0fa492","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"d74281a2638e7733","toSide":"left","label":"연산"},
-		{"id":"4bb9e2712361d828","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"16eadbe9bcc39edc","toSide":"left"},
-		{"id":"33386acda06c12c5","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"0abee1598187bda0","toSide":"left"},
+		{"id":"4bb9e2712361d828","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"16eadbe9bcc39edc","toSide":"left","label":"특징"},
+		{"id":"33386acda06c12c5","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"0abee1598187bda0","toSide":"left","label":"분류"},
 		{"id":"1deba18147d34a6f","fromNode":"0abee1598187bda0","fromSide":"right","toNode":"ce254d8d55e43646","toSide":"left"},
 		{"id":"6bdbf6a63029e48b","fromNode":"0abee1598187bda0","fromSide":"right","toNode":"ae236c5c416d9c15","toSide":"left"},
 		{"id":"cbecc468a95a4571","fromNode":"0abee1598187bda0","fromSide":"right","toNode":"97b71d4aeb70d226","toSide":"left"},
-		{"id":"6453266907fc92f1","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"f91dc2f88e3d2de2","toSide":"left"},
-		{"id":"c6b76d959f0a28fc","fromNode":"f91dc2f88e3d2de2","fromSide":"bottom","toNode":"31eb995ac9294dff","toSide":"top"}
+		{"id":"6453266907fc92f1","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"f91dc2f88e3d2de2","toSide":"left","label":"분류"},
+		{"id":"c6b76d959f0a28fc","fromNode":"f91dc2f88e3d2de2","fromSide":"bottom","toNode":"90ec84927363723e","toSide":"top"},
+		{"id":"6e0e79c539a86d20","fromNode":"f91dc2f88e3d2de2","fromSide":"bottom","toNode":"89af6a06487dc4d7","toSide":"top"},
+		{"id":"ce6921f7fb57153e","fromNode":"d74281a2638e7733","fromSide":"right","toNode":"27d7e57dda16bc65","toSide":"left"},
+		{"id":"7edfef83edf2bbcc","fromNode":"d74281a2638e7733","fromSide":"right","toNode":"88c0a5eb54d8dec4","toSide":"left"},
+		{"id":"bc4aba5664ce4c0b","fromNode":"bca960ef52500a51","fromSide":"bottom","toNode":"9fc3ab50afd72ec0","toSide":"top","label":"활용 방법"}
 	]
 }
