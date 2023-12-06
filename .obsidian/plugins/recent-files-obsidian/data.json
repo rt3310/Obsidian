@@ -5,24 +5,12 @@
       "path": "OS/Concurrency/canvas/Semaphore.canvas"
     },
     {
-      "basename": "semWait(x) 연산 (P 연산)",
-      "path": "OS/Concurrency/canvas/semWait(x) 연산 (P 연산).md"
-    },
-    {
       "basename": "뮤텍스",
       "path": "OS/Concurrency/canvas/뮤텍스.md"
     },
     {
-      "basename": "semSignal(x) 연산 (V 연산)",
-      "path": "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md"
-    },
-    {
-      "basename": "강성 세마포어",
-      "path": "OS/Concurrency/canvas/강성 세마포어.md"
-    },
-    {
-      "basename": "약성 세마포어",
-      "path": "OS/Concurrency/canvas/약성 세마포어.md"
+      "basename": "세마포어(Semaphore)",
+      "path": "OS/Concurrency/canvas/세마포어(Semaphore).md"
     },
     {
       "basename": "이진 세마포어",
@@ -33,8 +21,20 @@
       "path": "OS/Concurrency/canvas/범용 세마포어.md"
     },
     {
-      "basename": "세마포어(Semaphore)",
-      "path": "OS/Concurrency/canvas/세마포어(Semaphore).md"
+      "basename": "약성 세마포어",
+      "path": "OS/Concurrency/canvas/약성 세마포어.md"
+    },
+    {
+      "basename": "강성 세마포어",
+      "path": "OS/Concurrency/canvas/강성 세마포어.md"
+    },
+    {
+      "basename": "semSignal(x) 연산 (V 연산)",
+      "path": "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md"
+    },
+    {
+      "basename": "semWait(x) 연산 (P 연산)",
+      "path": "OS/Concurrency/canvas/semWait(x) 연산 (P 연산).md"
     },
     {
       "basename": "Concurrency",
