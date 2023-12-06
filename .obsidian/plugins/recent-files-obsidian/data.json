@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "정규화",
-      "path": "DB/Normalization/canvas/정규화.canvas"
+      "basename": "Semaphore",
+      "path": "OS/Concurrency/canvas/Semaphore.canvas"
+    },
+    {
+      "basename": "세마포어(Semaphore)",
+      "path": "OS/Concurrency/canvas/세마포어(Semaphore).md"
     },
     {
       "basename": "Concurrency",
       "path": "OS/Concurrency/canvas/Concurrency.canvas"
+    },
+    {
+      "basename": "정규화",
+      "path": "DB/Normalization/canvas/정규화.canvas"
     },
     {
       "basename": "메모리 인터리빙",
@@ -191,10 +199,6 @@
     {
       "basename": "제 3정규형(3NF - Third Normal Form)",
       "path": "DB/Normalization/md/제 3정규형(3NF - Third Normal Form).md"
-    },
-    {
-      "basename": "정규형",
-      "path": "DB/Normalization/md/정규형.md"
     }
   ],
   "omittedPaths": [],

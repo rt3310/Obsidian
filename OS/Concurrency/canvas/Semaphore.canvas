@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"bca960ef52500a51","x":-360,"y":-277,"width":640,"height":220,"type":"file","file":"OS/Concurrency/canvas/세마포어(Semaphore).md"},
+		{"id":"d74281a2638e7733","x":469,"y":-346,"width":1051,"height":486,"type":"text","text":"- 세마포어는 정수 값을 갖는 변수로 3가지 연산(primitive)으로 접근\n\t- 세마포어 초기화: 세마포어 값을 음이 아닌 값으로 초기화\n\t- semWait 연산(P 연산) -> 원자적(atomic) 수행\n\t\t- 세마포어 값을 감소\n\t\t- 감소된 값이 음수이면 호출한 프로세스는 블록된다. 음수가 아니면 프로셋는 계속 수행될 수 있다.\n\t- semSignal 연산(V 연산) -> 원자적(atomic) 수행\n\t\t- 세마포어 값을 증가\n\t\t- 증가된 값이 양수가 아니면 블록된 프로세스를 깨운다."}
+	],
+	"edges":[
+		{"id":"9a6a9649df0fa492","fromNode":"bca960ef52500a51","fromSide":"right","toNode":"d74281a2638e7733","toSide":"left"}
+	]
+}

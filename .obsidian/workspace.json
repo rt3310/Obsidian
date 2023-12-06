@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "OS/Concurrency/canvas/Semaphore.canvas",
                 "viewState": {
-                  "x": -165.7130150567413,
-                  "y": -438.07479835988966,
-                  "zoom": -1.0702093885902557
+                  "x": 736.0801360029125,
+                  "y": -174.31938723090718,
+                  "zoom": -0.4600000000000001
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "OS/Concurrency/canvas/Semaphore.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "OS/Concurrency/canvas/Semaphore.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas"
+                "file": "OS/Concurrency/canvas/Semaphore.canvas"
               }
             }
           }
@@ -165,7 +165,10 @@
   },
   "active": "82361efd6e40cea2",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/세마포어(Semaphore).md",
     "OS/Concurrency/canvas/Concurrency.canvas",
+    "OS/Concurrency/canvas/Semaphore.canvas",
+    "DB/Normalization/canvas/정규화.canvas",
     "OS/Concurrency/md",
     "OS/Concurrency/md/메모리 인터리빙.md",
     "OS/Concurrency/resources/Concurrent & Parallel.png",
@@ -187,13 +190,11 @@
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "Web/Session/Multi Session.canvas",
-    "DB/Normalization/canvas/정규화.canvas",
     "DB/SQL/md/결합 알고리즘 종류.md",
     "DB/SQL/canvas",
     "DB/SQL/md",
     "DB/SQL/md/Soft Merge가 유용한 경우.md",
     "Employment/learning/Ultra Learning.canvas",
-    "DB/SQL/canvas/SQL.canvas",
     "OS/Concurrency/canvas",
     "OS/Concurrency",
     "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md",
