@@ -1,6 +1,9 @@
 {
 	"nodes":[
-		{"id":"42a5762343f26cb1","type":"text","text":"# Session in Multi Server","x":-280,"y":-260,"width":334,"height":39}
+		{"id":"42a5762343f26cb1","type":"text","text":"# Session in Multi Server","x":-280,"y":-260,"width":334,"height":39},
+		{"id":"2e8bba703a9c0bfc","x":200,"y":-395,"width":500,"height":310,"type":"text","text":"세션은 서버 1대에 하나의 저장소가 형성된다.\n나누어진 세션 저장소에 대한 별도의 처리가 없다면 각각의 세션들은 정합성 이슈를 발생시킨다."}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"14262ed411618757","fromNode":"42a5762343f26cb1","fromSide":"right","toNode":"2e8bba703a9c0bfc","toSide":"left"}
+	]
 }
