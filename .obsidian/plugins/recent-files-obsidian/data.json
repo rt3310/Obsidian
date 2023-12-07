@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Session in Multi Server",
+      "path": "Web/Session/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "Pasted image 20231206102422",
+      "path": "Pasted image 20231206102422.png"
+    },
+    {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
@@ -117,10 +125,6 @@
       "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
     },
     {
-      "basename": "Multi Session",
-      "path": "Web/Session/Multi Session.canvas"
-    },
-    {
       "basename": "결합 알고리즘 종류",
       "path": "DB/SQL/md/결합 알고리즘 종류.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Eden",
       "path": "Java/JVM/md/Eden.md"
-    },
-    {
-      "basename": "Survivor 0, Survivor 1",
-      "path": "Java/JVM/md/Survivor 0, Survivor 1.md"
     }
   ],
   "omittedPaths": [],
