@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a6d511af36a5030d",
+        "id": "ef7785f9e0af2d19",
         "type": "tabs",
         "children": [
           {
-            "id": "82361efd6e40cea2",
+            "id": "2c0bc8428809d995",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-                "viewState": {
-                  "x": 1241.0689611406597,
-                  "y": -91.43955969350245,
-                  "zoom": -0.7766377605100022
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -96,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-              }
+              "state": {}
             }
           }
         ],
@@ -163,8 +152,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "82361efd6e40cea2",
+  "active": "2c0bc8428809d995",
   "lastOpenFiles": [
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md",
     "OS/Concurrency/canvas/semWait(x) 연산 (P 연산).md",
