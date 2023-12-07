@@ -5,6 +5,10 @@
       "path": "Web/Session/canvas/Session in Multi Server.canvas"
     },
     {
+      "basename": "DB Replication",
+      "path": "DB Replication.png"
+    },
+    {
       "basename": "primary-secondary session replication",
       "path": "primary-secondary session replication.png"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Nested Loops",
       "path": "DB/SQL/md/Nested Loops.md"
-    },
-    {
-      "basename": "반복계의 단점",
-      "path": "DB/SQL/md/반복계의 단점.md"
     }
   ],
   "omittedPaths": [],

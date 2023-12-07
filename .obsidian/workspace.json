@@ -15,9 +15,9 @@
               "state": {
                 "file": "Web/Session/canvas/Session in Multi Server.canvas",
                 "viewState": {
-                  "x": 2480.5803943487476,
-                  "y": 316.65690903133503,
-                  "zoom": -0.35645136525233584
+                  "x": 2530.612363036425,
+                  "y": 1637.7770805525224,
+                  "zoom": -0.5964513652523348
                 }
               }
             }
@@ -166,9 +166,10 @@
   },
   "active": "1b151f55aa819507",
   "lastOpenFiles": [
+    "DB Replication.png",
+    "Web/Session/canvas/Session in Multi Server.canvas",
     "Pasted image 20231207164644.png",
     "primary-secondary session replication.png",
-    "Web/Session/canvas/Session in Multi Server.canvas",
     "all-to-all session replication.png",
     "Sticky Session Problem.png",
     "Sticky Session.png",
@@ -193,7 +194,6 @@
     "OS/Concurrency/resources/Concurrent & Parallel.png",
     "OS/Concurrency/resources",
     "Pasted image 20231205204751.png",
-    "Cache 전략.png",
     "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Cache/md/Write Back 단점.md",
     "DB/Cache/md/Write Back 장점.md",
@@ -220,7 +220,6 @@
     "DB/SQL/md/Hash 트레이드오프.md",
     "DB/SQL/md/Hash가 유용한 경우.md",
     "DB/SQL/md/Hash.md",
-    "DB/SQL/md/Nested Loops.md",
-    "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png"
+    "DB/SQL/md/Nested Loops.md"
   ]
 }
