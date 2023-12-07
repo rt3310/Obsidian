@@ -5,6 +5,10 @@
       "path": "Web/Session/canvas/Session in Multi Server.canvas"
     },
     {
+      "basename": "primary-secondary session replication",
+      "path": "primary-secondary session replication.png"
+    },
+    {
       "basename": "all-to-all session replication",
       "path": "all-to-all session replication.png"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "반복계의 단점",
       "path": "DB/SQL/md/반복계의 단점.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
     }
   ],
   "omittedPaths": [],
