@@ -2,7 +2,11 @@
   "recentFiles": [
     {
       "basename": "Session in Multi Server",
-      "path": "Web/Session/Session in Multi Server.canvas"
+      "path": "Web/Session/canvas/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "Session per WAS",
+      "path": "Web/Session/resources/Session per WAS.png"
     },
     {
       "basename": "Pasted image 20231206102422",
@@ -195,10 +199,6 @@
     {
       "basename": "Minor GC",
       "path": "Java/JVM/md/Minor GC.md"
-    },
-    {
-      "basename": "Eden",
-      "path": "Java/JVM/md/Eden.md"
     }
   ],
   "omittedPaths": [],

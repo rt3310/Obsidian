@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ef7785f9e0af2d19",
+        "id": "c6477c643758b291",
         "type": "tabs",
         "children": [
           {
-            "id": "2c0bc8428809d995",
+            "id": "1b151f55aa819507",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Web/Session/Session in Multi Server.canvas",
+                "file": "Web/Session/canvas/Session in Multi Server.canvas",
                 "viewState": {
-                  "x": 397.68413131367157,
-                  "y": -220.67492625576446,
-                  "zoom": -0.6200000000000001
+                  "x": 1728.976049292764,
+                  "y": -345.3673042260782,
+                  "zoom": -0.06666666666666654
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Session/Session in Multi Server.canvas",
+                "file": "Web/Session/canvas/Session in Multi Server.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Session/Session in Multi Server.canvas",
+                "file": "Web/Session/canvas/Session in Multi Server.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Session/Session in Multi Server.canvas"
+                "file": "Web/Session/canvas/Session in Multi Server.canvas"
               }
             }
           }
@@ -163,9 +163,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2c0bc8428809d995",
+  "active": "1b151f55aa819507",
   "lastOpenFiles": [
-    "Web/Session/Session in Multi Server.canvas",
+    "Pasted image 20231207162555.png",
+    "Web/Session/canvas",
+    "Web/Session/resources",
+    "Web/Session/resources/Session per WAS.png",
+    "Web/Session/canvas/Session in Multi Server.canvas",
     "Pasted image 20231206102422.png",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
@@ -212,13 +216,10 @@
     "DB/SQL/md/Hash가 유용한 경우.md",
     "DB/SQL/md/Hash.md",
     "DB/SQL/md/Nested Loops.md",
-    "DB/SQL",
-    "Web/Session",
     "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png",
     "Java/Virtual Thread/resources/Virtual Thread 사용방식.png",
     "Java/Virtual Thread/resources/Virtual Thread 비교.png",
     "Java/Virtual Thread/resources/Mount-Unmount Flow.png",
-    "OS/Bootstrap/resources/UEFI.png",
-    "OS/Bootstrap/resources/ROM.png"
+    "OS/Bootstrap/resources/UEFI.png"
   ]
 }
