@@ -15,9 +15,9 @@
               "state": {
                 "file": "Web/Session/canvas/Session in Multi Server.canvas",
                 "viewState": {
-                  "x": 3466.767356484132,
-                  "y": 1633.9967580856096,
-                  "zoom": 0.010215301414332153
+                  "x": 3448.967722050762,
+                  "y": 1952.3351022345823,
+                  "zoom": -0.08978469858566807
                 }
               }
             }
@@ -166,6 +166,7 @@
   },
   "active": "1b151f55aa819507",
   "lastOpenFiles": [
+    "Pasted image 20231207173241.png",
     "DB Replication.png",
     "Web/Session/canvas/Session in Multi Server.canvas",
     "Pasted image 20231207164644.png",
