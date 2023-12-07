@@ -15,9 +15,9 @@
               "state": {
                 "file": "Web/Session/canvas/Session in Multi Server.canvas",
                 "viewState": {
-                  "x": 1728.976049292764,
-                  "y": -345.3673042260782,
-                  "zoom": -0.06666666666666654
+                  "x": 2872.886583398831,
+                  "y": 115.9404229795817,
+                  "zoom": -0.18666666666666665
                 }
               }
             }
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -165,11 +166,13 @@
   },
   "active": "1b151f55aa819507",
   "lastOpenFiles": [
-    "Pasted image 20231207162555.png",
+    "all-to-all session replication.png",
+    "Web/Session/canvas/Session in Multi Server.canvas",
+    "Sticky Session Problem.png",
+    "Sticky Session.png",
     "Web/Session/canvas",
     "Web/Session/resources",
     "Web/Session/resources/Session per WAS.png",
-    "Web/Session/canvas/Session in Multi Server.canvas",
     "Pasted image 20231206102422.png",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
@@ -217,9 +220,6 @@
     "DB/SQL/md/Hash.md",
     "DB/SQL/md/Nested Loops.md",
     "Java/Virtual Thread/resources/전통적인 Thread 사용방식.png",
-    "Java/Virtual Thread/resources/Virtual Thread 사용방식.png",
-    "Java/Virtual Thread/resources/Virtual Thread 비교.png",
-    "Java/Virtual Thread/resources/Mount-Unmount Flow.png",
-    "OS/Bootstrap/resources/UEFI.png"
+    "Java/Virtual Thread/resources/Virtual Thread 사용방식.png"
   ]
 }

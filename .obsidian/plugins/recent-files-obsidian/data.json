@@ -5,6 +5,18 @@
       "path": "Web/Session/canvas/Session in Multi Server.canvas"
     },
     {
+      "basename": "all-to-all session replication",
+      "path": "all-to-all session replication.png"
+    },
+    {
+      "basename": "Sticky Session Problem",
+      "path": "Sticky Session Problem.png"
+    },
+    {
+      "basename": "Sticky Session",
+      "path": "Sticky Session.png"
+    },
+    {
       "basename": "Session per WAS",
       "path": "Web/Session/resources/Session per WAS.png"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "무제 파일",
       "path": "Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "CMS GC",
-      "path": "Java/JVM/md/CMS GC.md"
-    },
-    {
-      "basename": "G1 GC의 효율성",
-      "path": "Java/JVM/md/G1 GC의 효율성.md"
-    },
-    {
-      "basename": "Minor GC",
-      "path": "Java/JVM/md/Minor GC.md"
     }
   ],
   "omittedPaths": [],
