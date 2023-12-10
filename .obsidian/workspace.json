@@ -4,21 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c6477c643758b291",
+        "id": "f71ffc8d571d68b5",
         "type": "tabs",
         "children": [
           {
-            "id": "1b151f55aa819507",
+            "id": "9403a80259aac1cf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "DB/SQL/canvas/SQL.canvas",
-                "viewState": {
-                  "x": -22.827943486906307,
-                  "y": 3759.072402088033,
-                  "zoom": -0.31770126331085063
-                }
+                "file": "Pasted image 20231207173241.png"
               }
             }
           }
@@ -96,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/canvas/SQL.canvas",
+                "file": "Pasted image 20231207173241.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/canvas/SQL.canvas",
+                "file": "Pasted image 20231207173241.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/canvas/SQL.canvas"
+                "file": "Pasted image 20231207173241.png"
               }
             }
           }
@@ -163,20 +158,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1b151f55aa819507",
+  "active": "9403a80259aac1cf",
   "lastOpenFiles": [
+    "Pasted image 20231207164644.png",
+    "Pasted image 20231206102422.png",
+    "Web/Session/resources/primary-secondary session replication.png",
+    "Web/Session/resources/all-to-all session replication.png",
+    "DB/SQL/canvas/SQL.canvas",
+    "DB/Cache/canvas/Cache 전략.canvas",
+    "Web/Session/resources/DB Replication.png",
+    "Web/Session/resources/Sticky Session.png",
+    "Web/Session/resources/Sticky Session Problem.png",
     "Web/Session/canvas/Session in Multi Server.canvas",
     "Pasted image 20231207173241.png",
-    "DB Replication.png",
-    "Pasted image 20231207164644.png",
-    "primary-secondary session replication.png",
-    "all-to-all session replication.png",
-    "Sticky Session Problem.png",
-    "Sticky Session.png",
     "Web/Session/canvas",
     "Web/Session/resources",
     "Web/Session/resources/Session per WAS.png",
-    "Pasted image 20231206102422.png",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md",
@@ -193,7 +190,6 @@
     "OS/Concurrency/md/메모리 인터리빙.md",
     "OS/Concurrency/resources/Concurrent & Parallel.png",
     "OS/Concurrency/resources",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Cache/md/Write Back 단점.md",
     "DB/Cache/md/Write Back 장점.md",
     "Java/JVM/canvas/Garbage Collector.canvas",
@@ -205,7 +201,6 @@
     "OS/Thread/canvas/Thread.canvas",
     "OS/Thread/md",
     "OS/Thread/canvas",
-    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "DB/SQL/md/결합 알고리즘 종류.md",
     "DB/SQL/canvas",

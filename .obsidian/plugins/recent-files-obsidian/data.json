@@ -1,40 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20231207173241",
+      "path": "Pasted image 20231207173241.png"
+    },
+    {
+      "basename": "Pasted image 20231207164644",
+      "path": "Pasted image 20231207164644.png"
+    },
+    {
+      "basename": "Pasted image 20231206102422",
+      "path": "Pasted image 20231206102422.png"
+    },
+    {
+      "basename": "primary-secondary session replication",
+      "path": "Web/Session/resources/primary-secondary session replication.png"
+    },
+    {
+      "basename": "all-to-all session replication",
+      "path": "Web/Session/resources/all-to-all session replication.png"
+    },
+    {
       "basename": "SQL",
       "path": "DB/SQL/canvas/SQL.canvas"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "DB Replication",
+      "path": "Web/Session/resources/DB Replication.png"
+    },
+    {
+      "basename": "Sticky Session",
+      "path": "Web/Session/resources/Sticky Session.png"
+    },
+    {
+      "basename": "Sticky Session Problem",
+      "path": "Web/Session/resources/Sticky Session Problem.png"
     },
     {
       "basename": "Session in Multi Server",
       "path": "Web/Session/canvas/Session in Multi Server.canvas"
     },
     {
-      "basename": "DB Replication",
-      "path": "DB Replication.png"
-    },
-    {
-      "basename": "primary-secondary session replication",
-      "path": "primary-secondary session replication.png"
-    },
-    {
-      "basename": "all-to-all session replication",
-      "path": "all-to-all session replication.png"
-    },
-    {
-      "basename": "Sticky Session Problem",
-      "path": "Sticky Session Problem.png"
-    },
-    {
-      "basename": "Sticky Session",
-      "path": "Sticky Session.png"
-    },
-    {
       "basename": "Session per WAS",
       "path": "Web/Session/resources/Session per WAS.png"
-    },
-    {
-      "basename": "Pasted image 20231206102422",
-      "path": "Pasted image 20231206102422.png"
     },
     {
       "basename": "트랜잭션 격리 수준",
@@ -99,10 +111,6 @@
     {
       "basename": "Concurrent & Parallel",
       "path": "OS/Concurrency/resources/Concurrent & Parallel.png"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "Write Back 단점",
@@ -191,14 +199,6 @@
     {
       "basename": "구동 테이블의 중요성",
       "path": "DB/SQL/md/구동 테이블의 중요성.md"
-    },
-    {
-      "basename": "반복계가 포장계에 성능적으로 질 수 밖에 없는 이유",
-      "path": "DB/SQL/md/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md"
-    },
-    {
-      "basename": "Nested Loops",
-      "path": "DB/SQL/md/Nested Loops.md"
     }
   ],
   "omittedPaths": [],
