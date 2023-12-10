@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SQL",
+      "path": "DB/SQL/canvas/SQL.canvas"
+    },
+    {
       "basename": "Session in Multi Server",
       "path": "Web/Session/canvas/Session in Multi Server.canvas"
     },
@@ -159,10 +163,6 @@
     {
       "basename": "Ultra Learning",
       "path": "Employment/learning/Ultra Learning.canvas"
-    },
-    {
-      "basename": "SQL",
-      "path": "DB/SQL/canvas/SQL.canvas"
     },
     {
       "basename": "인덱스를 사용할 수 없는 경우 대처",

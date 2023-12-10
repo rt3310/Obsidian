@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Web/Session/canvas/Session in Multi Server.canvas",
+                "file": "DB/SQL/canvas/SQL.canvas",
                 "viewState": {
-                  "x": 2867.0726526187805,
-                  "y": 1683.3020095070692,
-                  "zoom": -1.7133333333333334
+                  "x": -22.827943486906307,
+                  "y": 3759.072402088033,
+                  "zoom": -0.31770126331085063
                 }
               }
             }
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Session/canvas/Session in Multi Server.canvas",
+                "file": "DB/SQL/canvas/SQL.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Session/canvas/Session in Multi Server.canvas",
+                "file": "DB/SQL/canvas/SQL.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Session/canvas/Session in Multi Server.canvas"
+                "file": "DB/SQL/canvas/SQL.canvas"
               }
             }
           }
@@ -166,9 +165,9 @@
   },
   "active": "1b151f55aa819507",
   "lastOpenFiles": [
+    "Web/Session/canvas/Session in Multi Server.canvas",
     "Pasted image 20231207173241.png",
     "DB Replication.png",
-    "Web/Session/canvas/Session in Multi Server.canvas",
     "Pasted image 20231207164644.png",
     "primary-secondary session replication.png",
     "all-to-all session replication.png",
@@ -194,7 +193,6 @@
     "OS/Concurrency/md/메모리 인터리빙.md",
     "OS/Concurrency/resources/Concurrent & Parallel.png",
     "OS/Concurrency/resources",
-    "Pasted image 20231205204751.png",
     "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Cache/md/Write Back 단점.md",
     "DB/Cache/md/Write Back 장점.md",
