@@ -5,6 +5,10 @@
       "path": "DB/SQL/canvas/SQL.canvas"
     },
     {
+      "basename": "인덱스를 사용하는 것이 좋은지 판단",
+      "path": "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md"
+    },
+    {
       "basename": "인덱스를 사용할 수 없는 경우 대처",
       "path": "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "정규화",
       "path": "DB/Normalization/canvas/정규화.canvas"
-    },
-    {
-      "basename": "인덱스를 사용하는 것이 좋은지 판단",
-      "path": "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md"
     },
     {
       "basename": "Hash 트레이드오프",
