@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "DB/SQL/canvas/SQL.canvas",
                 "viewState": {
-                  "x": -313.6288104245375,
-                  "y": -446.01444634777846,
-                  "zoom": -0.2799986045769554
+                  "x": 162.93670514029046,
+                  "y": 3344.8924665004474,
+                  "zoom": -0.7010155681322892
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "DB/SQL/canvas/SQL.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas",
+                "file": "DB/SQL/canvas/SQL.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Normalization/canvas/정규화.canvas"
+                "file": "DB/SQL/canvas/SQL.canvas"
               }
             }
           }
@@ -165,6 +165,7 @@
   },
   "active": "9403a80259aac1cf",
   "lastOpenFiles": [
+    "DB/Normalization/canvas/정규화.canvas",
     "DB/SQL/canvas/SQL.canvas",
     "Web/Session/resources/all-to-all session replication.png",
     "Web/Session/resources/Integrated Session Storage.png",
@@ -190,7 +191,6 @@
     "OS/Concurrency/canvas/범용 세마포어.md",
     "OS/Concurrency/canvas/세마포어(Semaphore).md",
     "OS/Concurrency/canvas/Concurrency.canvas",
-    "DB/Normalization/canvas/정규화.canvas",
     "OS/Concurrency/md",
     "OS/Concurrency/md/메모리 인터리빙.md",
     "OS/Concurrency/resources/Concurrent & Parallel.png",
