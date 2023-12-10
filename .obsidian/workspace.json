@@ -11,9 +11,14 @@
             "id": "9403a80259aac1cf",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "Pasted image 20231207173241.png"
+                "file": "DB/Normalization/canvas/정규화.canvas",
+                "viewState": {
+                  "x": -313.6288104245375,
+                  "y": -446.01444634777846,
+                  "zoom": -0.2799986045769554
+                }
               }
             }
           }
@@ -91,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20231207173241.png",
+                "file": "DB/Normalization/canvas/정규화.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20231207173241.png",
+                "file": "DB/Normalization/canvas/정규화.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20231207173241.png"
+                "file": "DB/Normalization/canvas/정규화.canvas"
               }
             }
           }
@@ -160,20 +165,20 @@
   },
   "active": "9403a80259aac1cf",
   "lastOpenFiles": [
-    "Pasted image 20231207164644.png",
-    "Pasted image 20231206102422.png",
-    "Web/Session/resources/primary-secondary session replication.png",
-    "Web/Session/resources/all-to-all session replication.png",
     "DB/SQL/canvas/SQL.canvas",
+    "Web/Session/resources/all-to-all session replication.png",
+    "Web/Session/resources/Integrated Session Storage.png",
+    "Web/Session/resources/memcached.png",
+    "Web/Session/resources/primary-secondary session replication.png",
+    "Web/Session/resources/Session per WAS.png",
+    "semaphore code.png",
     "DB/Cache/canvas/Cache 전략.canvas",
     "Web/Session/resources/DB Replication.png",
     "Web/Session/resources/Sticky Session.png",
     "Web/Session/resources/Sticky Session Problem.png",
     "Web/Session/canvas/Session in Multi Server.canvas",
-    "Pasted image 20231207173241.png",
     "Web/Session/canvas",
     "Web/Session/resources",
-    "Web/Session/resources/Session per WAS.png",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md",
