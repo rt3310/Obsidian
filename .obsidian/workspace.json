@@ -15,9 +15,9 @@
               "state": {
                 "file": "Network/NAT/canvas/NAT.canvas",
                 "viewState": {
-                  "x": 716.6413110368992,
-                  "y": 83.70000000000002,
-                  "zoom": -0.3833333333333333
+                  "x": 1477.652742968939,
+                  "y": 590.0359235198038,
+                  "zoom": -0.08666666666666673
                 }
               }
             }
@@ -166,6 +166,8 @@
   },
   "active": "9403a80259aac1cf",
   "lastOpenFiles": [
+    "Pasted image 20231212003842.png",
+    "Pasted image 20231212003703.png",
     "Pasted image 20231212002734.png",
     "Network/NAT/canvas/NAT(Network Address Translation).md",
     "DB/SQL/canvas/SQL.canvas",
@@ -184,7 +186,6 @@
     "DB/Cache/canvas/Cache 전략.canvas",
     "Web/Session/resources/DB Replication.png",
     "Web/Session/resources/Sticky Session.png",
-    "Web/Session/resources/Sticky Session Problem.png",
     "Web/Session/canvas/Session in Multi Server.canvas",
     "Web/Session/canvas",
     "Web/Session/resources",
@@ -201,7 +202,6 @@
     "OS/Concurrency/canvas/Concurrency.canvas",
     "OS/Concurrency/md",
     "OS/Concurrency/md/메모리 인터리빙.md",
-    "OS/Concurrency/resources/Concurrent & Parallel.png",
     "OS/Concurrency/resources",
     "DB/Cache/md/Write Back 단점.md",
     "DB/Cache/md/Write Back 장점.md",
