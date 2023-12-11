@@ -1,6 +1,11 @@
 {
 	"nodes":[
-		{"id":"8129cd98de61b581","x":-265,"y":-148,"width":565,"height":348,"type":"text","text":"- 네트워크 주소 변환(NAT, network address translation)은 컴퓨터 네트워킹에서 쓰이는 용어로서, IP 패킷의 TCP/UDP 포트 숫자와 소스 및 목적지의 IP 주소 등을 재기록하면서 라우터를 통해 네트워크 트래픽을 주고 받는 기술을 말한다.\n\t- 한 마디로 Network Address인 IP를 변환(Translation)하겠다는 뜻이다.\n- NAT를 이용하는 이유는 대개 사설 네트워크(Private Network)에"}
+		{"id":"6cfea8d9c1836e22","type":"file","file":"Network/NAT/canvas/NAT(Network Address Translation).md","x":-265,"y":-148,"width":593,"height":244},
+		{"id":"8d34aee9477dfbdc","x":520,"y":-113,"width":443,"height":174,"type":"text","text":"IP 주소에는 Public IP(공인 IP)와 Private IP(사설 IP)가 있다.\n- IP를 굳이 두 종류로 나눈 이유는 IPv4 주소의 낭비를 막고 공인 인터넷을 굳이 사용하지 않아도 되는 단말들에게 어느 망이든 중복 사용 가능한 IP를 주기 위함이다.\n- 공인망에서는 공인 IP만이 유통된다."},
+		{"id":"e4125113df9b14b1","x":500,"y":220,"width":720,"height":360,"type":"text","text":"단말의 IP는 어떻게 변화할까?\n\n예륻 들어, 카페에서 노트북을 한다고 했을 때 보통 wifi로 노트북과 인터넷을 연결할 것이다. 무선 공유기를 통해 IP를 할당받았고 그 정보는 다음과 같다.\n![[Pasted image 20231212002734.png]]\n\n여기서 172.30.1.36은 Private Network에 속하는 약속된 Private IP(사설 IP) 범위대이다.\n따라서 카페에 이"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"8dd1c10b0c7d4871","fromNode":"6cfea8d9c1836e22","fromSide":"right","toNode":"8d34aee9477dfbdc","toSide":"left","label":"공인/사설 IP?"},
+		{"id":"d3f1c80404ece936","fromNode":"8d34aee9477dfbdc","fromSide":"bottom","toNode":"e4125113df9b14b1","toSide":"top","label":"사설 IP를 할당받은 단말이 인터넷을 사용해야 한다면?"}
+	]
 }

@@ -1,0 +1,3 @@
+- **네트워크 주소 변환(NAT, network address translation)** 은 컴퓨터 네트워킹에서 쓰이는 용어로서, IP 패킷의 **TCP/UDP 포트 숫자와 소스 및 목적지의 IP 주소 등을 재기록**하면서 라우터를 통해 네트워크 트래픽을 주고 받는 기술을 말한다.
+	- 한 마디로 Network Address인 IP를 변환(Translation)하겠다는 뜻이다.
+- NAT를 이용하는 이유는 대개 **사설 네트워크(Private Network)에 속한 여러 개의 호스트가 하나의 공인 IP 주소를 사용하여 인터넷에 접속하기 위함**이다.

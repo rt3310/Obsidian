@@ -5,6 +5,10 @@
       "path": "Network/NAT/canvas/NAT.canvas"
     },
     {
+      "basename": "NAT(Network Address Translation)",
+      "path": "Network/NAT/canvas/NAT(Network Address Translation).md"
+    },
+    {
       "basename": "SQL",
       "path": "DB/SQL/canvas/SQL.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Hash",
       "path": "DB/SQL/md/Hash.md"
-    },
-    {
-      "basename": "Hash가 유용한 경우",
-      "path": "DB/SQL/md/Hash가 유용한 경우.md"
     }
   ],
   "omittedPaths": [],

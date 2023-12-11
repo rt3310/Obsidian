@@ -15,9 +15,9 @@
               "state": {
                 "file": "Network/NAT/canvas/NAT.canvas",
                 "viewState": {
-                  "x": 2.603046875000061,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 716.6413110368992,
+                  "y": 83.70000000000002,
+                  "zoom": -0.3833333333333333
                 }
               }
             }
@@ -166,6 +166,8 @@
   },
   "active": "9403a80259aac1cf",
   "lastOpenFiles": [
+    "Pasted image 20231212002734.png",
+    "Network/NAT/canvas/NAT(Network Address Translation).md",
     "DB/SQL/canvas/SQL.canvas",
     "Network/NAT/canvas/NAT.canvas",
     "Network/NAT/md",
@@ -209,7 +211,6 @@
     "OS/Thread/md/프로세스.md",
     "OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
     "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
-    "OS/Thread/canvas/Thread.canvas",
     "OS/Thread/md",
     "OS/Thread/canvas",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
@@ -220,7 +221,6 @@
     "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md",
     "DB/SQL/md/Hash 트레이드오프.md",
     "DB/SQL/md/Hash가 유용한 경우.md",
-    "DB/SQL/md/Hash.md",
-    "DB/SQL/md/Nested Loops.md"
+    "DB/SQL/md/Hash.md"
   ]
 }
