@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "NAT",
+      "path": "Network/NAT/canvas/NAT.canvas"
+    },
+    {
       "basename": "SQL",
       "path": "DB/SQL/canvas/SQL.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Hash가 유용한 경우",
       "path": "DB/SQL/md/Hash가 유용한 경우.md"
-    },
-    {
-      "basename": "구동 테이블의 중요성",
-      "path": "DB/SQL/md/구동 테이블의 중요성.md"
     }
   ],
   "omittedPaths": [],

@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/SQL/canvas/SQL.canvas",
+                "file": "Network/NAT/canvas/NAT.canvas",
                 "viewState": {
-                  "x": 83.26776363920122,
-                  "y": 3166.167033211629,
-                  "zoom": -0.16768223479895672
+                  "x": 2.603046875000061,
+                  "y": 0,
+                  "zoom": 0
                 }
               }
             }
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/canvas/SQL.canvas",
+                "file": "Network/NAT/canvas/NAT.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/canvas/SQL.canvas",
+                "file": "Network/NAT/canvas/NAT.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/canvas/SQL.canvas"
+                "file": "Network/NAT/canvas/NAT.canvas"
               }
             }
           }
@@ -165,8 +166,13 @@
   },
   "active": "9403a80259aac1cf",
   "lastOpenFiles": [
-    "DB/Normalization/canvas/정규화.canvas",
     "DB/SQL/canvas/SQL.canvas",
+    "Network/NAT/canvas/NAT.canvas",
+    "Network/NAT/md",
+    "Network/NAT/resources",
+    "Network/NAT/canvas",
+    "Network/NAT",
+    "DB/Normalization/canvas/정규화.canvas",
     "Web/Session/resources/all-to-all session replication.png",
     "Web/Session/resources/Integrated Session Storage.png",
     "Web/Session/resources/memcached.png",
@@ -208,11 +214,7 @@
     "OS/Thread/canvas",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "DB/SQL/md/결합 알고리즘 종류.md",
-    "DB/SQL/canvas",
-    "DB/SQL/md",
     "DB/SQL/md/Soft Merge가 유용한 경우.md",
-    "OS/Concurrency/canvas",
-    "OS/Concurrency",
     "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md",
     "DB/SQL/md/인덱스를 사용할 수 없는 경우.md",
     "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md",
