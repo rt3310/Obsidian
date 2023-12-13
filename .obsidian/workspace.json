@@ -11,14 +11,9 @@
             "id": "9403a80259aac1cf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "Network/GSLB/canvas/GSLB.canvas",
-                "viewState": {
-                  "x": 69.43508099466732,
-                  "y": -107.99270692509809,
-                  "zoom": -0.8066666666666668
-                }
+                "file": "Pasted image 20231213175700.png"
               }
             }
           }
@@ -97,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/GSLB/canvas/GSLB.canvas",
+                "file": "Pasted image 20231213175700.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/GSLB/canvas/GSLB.canvas",
+                "file": "Pasted image 20231213175700.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/GSLB/canvas/GSLB.canvas"
+                "file": "Pasted image 20231213175700.png"
               }
             }
           }
@@ -166,9 +161,10 @@
   },
   "active": "9403a80259aac1cf",
   "lastOpenFiles": [
+    "Network/GSLB/canvas/GSLB.canvas",
+    "Pasted image 20231213175700.png",
     "Pasted image 20231213174509.png",
     "Pasted image 20231213174457.png",
-    "Network/GSLB/canvas/GSLB.canvas",
     "Pasted image 20231213174132.png",
     "Pasted image 20231213174112.png",
     "Pasted image 20231213173943.png",
@@ -176,14 +172,12 @@
     "Pasted image 20231213173740.png",
     "Pasted image 20231213173653.png",
     "Pasted image 20231213173413.png",
-    "Pasted image 20231213173343.png",
     "Network/GSLB/canvas/GSLB(Global Server Load Balancing).md",
     "Network/NAT/canvas/NAT.canvas",
     "Network/GSLB/md",
     "Network/GSLB/resources",
     "Network/GSLB/canvas",
     "Network/GSLB",
-    "Pasted image 20231212003842.png",
     "Network/NAT/canvas/NAT(Network Address Translation).md",
     "DB/SQL/canvas/SQL.canvas",
     "Network/NAT/md",

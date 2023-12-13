@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20231213175700",
+      "path": "Pasted image 20231213175700.png"
+    },
+    {
       "basename": "GSLB",
       "path": "Network/GSLB/canvas/GSLB.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "결합 알고리즘 종류",
       "path": "DB/SQL/md/결합 알고리즘 종류.md"
-    },
-    {
-      "basename": "Soft Merge가 유용한 경우",
-      "path": "DB/SQL/md/Soft Merge가 유용한 경우.md"
     }
   ],
   "omittedPaths": [],
