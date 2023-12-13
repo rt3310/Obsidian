@@ -2,12 +2,18 @@
 	"nodes":[
 		{"id":"6242fb70888c1eca","type":"file","file":"Network/GSLB/canvas/GSLB(Global Server Load Balancing).md","x":-340,"y":-80,"width":489,"height":145},
 		{"id":"99e86a3f748e3447","type":"text","text":"DNS는 도메인 주소와 IP를 매핑하여 도메인으로 요청이 들어왔을 때 타겟의 주소로 변환해주는 서비스이다.\n\n하나의 도메인 주소에 대해서 여러 개의 IP 주소를 넘겨줄 수 있는데, 이 기능을 이용해서 가용성 구성과 로드 밸런싱 기능을 수행하기도 한다.\nDNS 뒤에 여러 IP를 붙여 고가용성과 로드 밸런싱 역할을 할 수 있긴 하겠지만 근본적으로는 한계가 있다.\n- 왜냐하면 DNS의 로드 밸런싱은 IP 목록 중 하나를 반환할 뿐, 네트워크 지연, 성능, 트래픽 유입, 서비스 실패 등을 전혀 고려하지 않기 때문이다.\n\n이를 해결하기 위해 나온 것이 GSLB이다.","x":460,"y":-166,"width":544,"height":318},
-		{"id":"e359d07972e49bf7","type":"text","text":"### DNS\n![[Pasted image 20231213173343.png]]\nDNS는 서버의 상태를 알 수 없기 때문에 실패하는 유저들이 다수 존재한다.\n\n### GSLB\n![[Pasted image 20231213173413.png]]\nGSLB는 서버의 상태를 모니터링하기 때문에 실패한 서버의 IP는 응답(Converting Domain to IP response)에서 제외하므로, 유저는 서비스를 계속해서 이용할 수 있다. 물론 어떠한 상황이냐에 따라 응답에 실패하는 경우가 존재할 것이다.","x":1240,"y":-861,"width":580,"height":854},
-		{"id":"c5217df009b95bbf","x":1280,"y":152,"width":669,"height":791,"type":"text","text":"### DNS\n![[Pasted image 20231213173653.png]]\nDNS는 Round Rob"}
+		{"id":"e359d07972e49bf7","type":"text","text":"### DNS\n![[Pasted image 20231213173343.png]]\nDNS는 서버의 상태를 알 수 없기 때문에 실패하는 유저들이 다수 존재한다.\n\n### GSLB\n![[Pasted image 20231213173413.png]]\nGSLB는 서버의 상태를 모니터링하기 때문에 실패한 서버의 IP는 응답(Converting Domain to IP response)에서 제외하므로, 유저는 서비스를 계속해서 이용할 수 있다. 물론 어떠한 상황이냐에 따라 응답에 실패하는 경우가 존재할 것이다.","x":560,"y":-1400,"width":580,"height":854},
+		{"id":"9be3eb73edc20404","type":"text","text":"### DNS\n![[Pasted image 20231213174112.png]]\nDNS는 Round Robin 방식으로 서버에 연결된다.\n### GSLB\n![[Pasted image 20231213174132.png]]\nGSLB는 유저의 지역정보를 기반해서 가까운 지역의 서버로 연결하게 한다.","x":460,"y":440,"width":540,"height":738},
+		{"id":"c5217df009b95bbf","type":"text","text":"### DNS\n![[Pasted image 20231213173653.png]]\nDNS는 Round Robin 방식으로 로드밸런싱한다. 즉, 정교한 로드밸런싱이 불가능하다. 작은 서비스는 크게 문제가 없겠지만 트래픽이 아주 높은 서비스 같은 경우는 정교한 로드 밸런싱이 필요하다.\n### GSLB\n![[Pasted image 20231213173740.png]]\nGSLB는 서버의 로드(상태)를 모니터링하기 때문에 트래픽이 몰리지 않은 서버의 IP를 반환해준다. 때문에 DNS보다 정교한 로드밸런싱이 가능하다.","x":1360,"y":-779,"width":580,"height":844},
+		{"id":"0e79a53292981071","type":"text","text":"### DNS\n![[Pasted image 20231213173911.png]]\nDNS는 Round Robin 방식을 사용하기 때문에 유저는 자신이 위치한 곳과 아주 먼 곳에 떨어진 서버로 연결이 될 수도 있다.\n### GSLB\n![[Pasted image 20231213173943.png]]\nGSLB는 각 지역별로 서버에 대한 레이턴시(latency) 정보를 가지고 있기 때문에 해당 유저로부터 레이턴시가 작은 서버의 IP를 반환해준다.","x":1360,"y":200,"width":580,"height":820},
+		{"id":"046eb1606e6c13da","x":-425,"y":220,"width":660,"height":996,"color":"#ffffff","type":"text","text":"- Health Check\n\t- GSLB는 등록된 호스트들에 대해서 주기적으로 Health check 요청을 보내기 때문에, Health check가 실패한 서비스는 DNS 응답에서 해당 서버를 제외한다.\n\t- 실패한 서버에 대한 접근을 사전 차단하기 때문에 사전에 장애 방지가 가능하고, 사용자로 하여금 서비스 실패 확률을 낮춰준다.\n- 네트워크 거리 & 지역\n\t- 주기적으로 성능을 측정하고 그 결과를 저장하기 때문에 DNS 요청이 오면 지리적으로 가까운 서버를 반환하거나 네트워크 거리가 가까운 서버를 반환한다.\n\t- 지리적으로 가까운 서버의 경우 RTT(Round Trip Time)도 짧기 때문에, 동일한 결과를 반환하는 경우가 많다.\n- 상세 작동 프로세스\n\t- DNS\n\t\t- ![[Pasted image 20231213174457.png]]\n\t- GSLB\n\t\t- ![[Pasted image 20231213174509.png]]\n\t- 작동 방식은 세부적으로 살펴보면 많은 점이 다를 수 있겠지만 크게 IP를 선택하는 데 있어서 GSLB Policy에 따라 어떤 IP를 반환할지 결정하는 부분이 존재하는 것이다.\n\t- 위와 같이 위치 기반, 레이턴시 기반 등의 정책을 거쳐 선택이 될 수 있고 혹은 Admin이 설정한 정책에 따라 선택이 될 수도 있다."}
 	],
 	"edges":[
 		{"id":"84714683bbab2c0d","fromNode":"6242fb70888c1eca","fromSide":"right","toNode":"99e86a3f748e3447","toSide":"left","label":"DNS와 차이"},
-		{"id":"2d3fe7bb9c7d824e","fromNode":"99e86a3f748e3447","fromSide":"right","toNode":"e359d07972e49bf7","toSide":"left","label":"재해복구 차이"},
-		{"id":"942c4bba1afafba7","fromNode":"99e86a3f748e3447","fromSide":"right","toNode":"c5217df009b95bbf","toSide":"left","label":"로드밸런싱 차이"}
+		{"id":"2d3fe7bb9c7d824e","fromNode":"99e86a3f748e3447","fromSide":"top","toNode":"e359d07972e49bf7","toSide":"bottom","label":"재해복구 동작 차이"},
+		{"id":"942c4bba1afafba7","fromNode":"99e86a3f748e3447","fromSide":"right","toNode":"c5217df009b95bbf","toSide":"left","label":"로드밸런싱 동작 차이"},
+		{"id":"b72ffeb5e9f218c1","fromNode":"99e86a3f748e3447","fromSide":"right","toNode":"0e79a53292981071","toSide":"left","label":"레이턴시 기반 동작 차이"},
+		{"id":"8f5dfaa724afdf91","fromNode":"99e86a3f748e3447","fromSide":"bottom","toNode":"9be3eb73edc20404","toSide":"top","label":"위치 기반 동작 차이"},
+		{"id":"a2f11124bcd20406","fromNode":"6242fb70888c1eca","fromSide":"bottom","toNode":"046eb1606e6c13da","toSide":"top","label":"GSLB의 주요 기능"}
 	]
 }
