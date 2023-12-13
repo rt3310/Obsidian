@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Virtual Thread",
+      "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
+    },
+    {
+      "basename": "Virtual Thread 비교",
+      "path": "Java/Virtual Thread/resources/Virtual Thread 비교.png"
+    },
+    {
       "basename": "GSLB",
       "path": "Network/GSLB/canvas/GSLB.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Shenandoah GC",
       "path": "Java/JVM/md/Shenandoah GC.md"
-    },
-    {
-      "basename": "age 값",
-      "path": "Java/JVM/md/age 값.md"
-    },
-    {
-      "basename": "JPA",
-      "path": "Spring/JPA/canvas/JPA.canvas"
     }
   ],
   "omittedPaths": [],
