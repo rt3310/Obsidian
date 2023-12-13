@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Pasted image 20231213175700",
-      "path": "Pasted image 20231213175700.png"
-    },
-    {
       "basename": "GSLB",
       "path": "Network/GSLB/canvas/GSLB.canvas"
     },
     {
+      "basename": "GSLB Policy",
+      "path": "Network/GSLB/resources/GSLB Policy.png"
+    },
+    {
       "basename": "GSLB(Global Server Load Balancing)",
-      "path": "Network/GSLB/canvas/GSLB(Global Server Load Balancing).md"
+      "path": "Network/GSLB/md/GSLB(Global Server Load Balancing).md"
+    },
+    {
+      "basename": "semaphore code",
+      "path": "OS/Concurrency/resources/semaphore code.png"
+    },
+    {
+      "basename": "Pasted image 20231212002734",
+      "path": "Network/NAT/resources/Pasted image 20231212002734.png"
+    },
+    {
+      "basename": "Pasted image 20231213173343",
+      "path": "Network/GSLB/resources/Pasted image 20231213173343.png"
+    },
+    {
+      "basename": "Pasted image 20231213173653",
+      "path": "Network/GSLB/resources/Pasted image 20231213173653.png"
+    },
+    {
+      "basename": "Pasted image 20231213173413",
+      "path": "Network/GSLB/resources/Pasted image 20231213173413.png"
+    },
+    {
+      "basename": "Pasted image 20231212003842",
+      "path": "Network/NAT/resources/Pasted image 20231212003842.png"
+    },
+    {
+      "basename": "Pasted image 20231212003703",
+      "path": "Network/NAT/resources/Pasted image 20231212003703.png"
     },
     {
       "basename": "NAT",
@@ -18,7 +46,7 @@
     },
     {
       "basename": "NAT(Network Address Translation)",
-      "path": "Network/NAT/canvas/NAT(Network Address Translation).md"
+      "path": "Network/NAT/md/NAT(Network Address Translation).md"
     },
     {
       "basename": "SQL",
@@ -63,10 +91,6 @@
     {
       "basename": "Session per WAS",
       "path": "Web/Session/resources/Session per WAS.png"
-    },
-    {
-      "basename": "semaphore code",
-      "path": "semaphore code.png"
     },
     {
       "basename": "Cache 전략",
@@ -175,30 +199,6 @@
     {
       "basename": "ORM",
       "path": "Spring/JPA/canvas/ORM.md"
-    },
-    {
-      "basename": "프로세스",
-      "path": "OS/Thread/md/프로세스.md"
-    },
-    {
-      "basename": "단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용",
-      "path": "OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md"
-    },
-    {
-      "basename": "Thread",
-      "path": "OS/Thread/canvas/Thread.canvas"
-    },
-    {
-      "basename": "컴퓨터 부팅 과정",
-      "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
-    },
-    {
-      "basename": "부트로더(Boot Loader)",
-      "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
-    },
-    {
-      "basename": "결합 알고리즘 종류",
-      "path": "DB/SQL/md/결합 알고리즘 종류.md"
     }
   ],
   "omittedPaths": [],

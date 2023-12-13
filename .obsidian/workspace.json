@@ -4,16 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f71ffc8d571d68b5",
+        "id": "e7f9cc27ae1f3fe4",
         "type": "tabs",
         "children": [
           {
-            "id": "9403a80259aac1cf",
+            "id": "c38f4584a7d89757",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "Pasted image 20231213175700.png"
+                "file": "Network/GSLB/canvas/GSLB.canvas",
+                "viewState": {
+                  "x": 28.286360444902726,
+                  "y": -800.6188508696374,
+                  "zoom": -1.08327020186519
+                }
               }
             }
           }
@@ -75,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -92,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20231213175700.png",
+                "file": "Network/GSLB/canvas/GSLB.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20231213175700.png",
+                "file": "Network/GSLB/canvas/GSLB.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20231213175700.png"
+                "file": "Network/GSLB/canvas/GSLB.canvas"
               }
             }
           }
@@ -159,26 +163,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9403a80259aac1cf",
+  "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "Network/GSLB/md/GSLB(Global Server Load Balancing).md",
     "Network/GSLB/canvas/GSLB.canvas",
-    "Pasted image 20231213175700.png",
-    "Pasted image 20231213174509.png",
-    "Pasted image 20231213174457.png",
-    "Pasted image 20231213174132.png",
-    "Pasted image 20231213174112.png",
-    "Pasted image 20231213173943.png",
-    "Pasted image 20231213173911.png",
-    "Pasted image 20231213173740.png",
-    "Pasted image 20231213173653.png",
-    "Pasted image 20231213173413.png",
-    "Network/GSLB/canvas/GSLB(Global Server Load Balancing).md",
+    "OS/Concurrency/resources/semaphore code.png",
+    "Network/NAT/resources/Pasted image 20231212002734.png",
+    "Network/GSLB/resources/GSLB Policy.png",
+    "Network/GSLB/resources/Pasted image 20231213173343.png",
+    "Network/GSLB/resources/Pasted image 20231213173653.png",
+    "Network/GSLB/resources/Pasted image 20231213173413.png",
+    "Network/NAT/resources/Pasted image 20231212003842.png",
+    "Network/NAT/resources/Pasted image 20231212003703.png",
+    "Network/GSLB/resources/Pasted image 20231213174509.png",
+    "Network/GSLB/resources/Pasted image 20231213174457.png",
     "Network/NAT/canvas/NAT.canvas",
     "Network/GSLB/md",
     "Network/GSLB/resources",
     "Network/GSLB/canvas",
     "Network/GSLB",
-    "Network/NAT/canvas/NAT(Network Address Translation).md",
+    "Network/NAT/md/NAT(Network Address Translation).md",
     "DB/SQL/canvas/SQL.canvas",
     "Network/NAT/md",
     "Network/NAT/resources",
