@@ -51,5 +51,7 @@
   "OS/Bootstrap": "FarStar",
   "Spring": "FarFolder",
   "Network/NAT": "FarStar",
-  "Network/GSLB": "FarStar"
+  "Network/GSLB": "FarStar",
+  "HTTP": "FarFolder",
+  "HTTP/URL": "FarStar"
 }

@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Network/GSLB/canvas/GSLB.canvas",
+                "file": "HTTP/URL/canvas/URL.canvas",
                 "viewState": {
-                  "x": 28.286360444902726,
-                  "y": -800.6188508696374,
-                  "zoom": -1.08327020186519
+                  "x": -0.49418945312500284,
+                  "y": 0,
+                  "zoom": 0
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/GSLB/canvas/GSLB.canvas",
+                "file": "HTTP/URL/canvas/URL.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/GSLB/canvas/GSLB.canvas",
+                "file": "HTTP/URL/canvas/URL.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/GSLB/canvas/GSLB.canvas"
+                "file": "HTTP/URL/canvas/URL.canvas"
               }
             }
           }
@@ -165,8 +165,14 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
-    "Network/GSLB/md/GSLB(Global Server Load Balancing).md",
     "Network/GSLB/canvas/GSLB.canvas",
+    "HTTP/URL/canvas/URL.canvas",
+    "HTTP/URL/md",
+    "HTTP/URL/resources",
+    "HTTP/URL/canvas",
+    "HTTP/URL",
+    "HTTP",
+    "Network/GSLB/md/GSLB(Global Server Load Balancing).md",
     "OS/Concurrency/resources/semaphore code.png",
     "Network/NAT/resources/Pasted image 20231212002734.png",
     "Network/GSLB/resources/GSLB Policy.png",
@@ -185,14 +191,9 @@
     "Network/NAT/md/NAT(Network Address Translation).md",
     "DB/SQL/canvas/SQL.canvas",
     "Network/NAT/md",
-    "Network/NAT/resources",
-    "Network/NAT/canvas",
-    "Network/NAT",
     "DB/Normalization/canvas/정규화.canvas",
     "DB/Cache/canvas/Cache 전략.canvas",
     "Web/Session/canvas/Session in Multi Server.canvas",
-    "Web/Session/canvas",
-    "Web/Session/resources",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md",
