@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "URL",
-      "path": "HTTP/URL/canvas/URL.canvas"
-    },
-    {
       "basename": "GSLB",
       "path": "Network/GSLB/canvas/GSLB.canvas"
+    },
+    {
+      "basename": "URL",
+      "path": "HTTP/URL/canvas/URL.canvas"
     },
     {
       "basename": "GSLB Policy",
