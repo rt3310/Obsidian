@@ -49,5 +49,7 @@
   "DB/SQL": "FarStar",
   "OS/Concurrency": "FarStar",
   "OS/Bootstrap": "FarStar",
-  "Spring": "FarFolder"
+  "Spring": "FarFolder",
+  "Network/NAT": "FarStar",
+  "Network/GSLB": "FarStar"
 }

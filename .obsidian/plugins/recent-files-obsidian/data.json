@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "GSLB",
+      "path": "Network/GSLB/canvas/GSLB.canvas"
+    },
+    {
+      "basename": "GSLB(Global Server Load Balancing)",
+      "path": "Network/GSLB/canvas/GSLB(Global Server Load Balancing).md"
+    },
+    {
       "basename": "NAT",
       "path": "Network/NAT/canvas/NAT.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Soft Merge가 유용한 경우",
       "path": "DB/SQL/md/Soft Merge가 유용한 경우.md"
-    },
-    {
-      "basename": "Ultra Learning",
-      "path": "Employment/learning/Ultra Learning.canvas"
-    },
-    {
-      "basename": "Hash",
-      "path": "DB/SQL/md/Hash.md"
     }
   ],
   "omittedPaths": [],

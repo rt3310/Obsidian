@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"6242fb70888c1eca","type":"file","file":"Network/GSLB/canvas/GSLB(Global Server Load Balancing).md","x":-340,"y":-80,"width":489,"height":145},
+		{"id":"99e86a3f748e3447","type":"text","text":"DNS는 도메인 주소와 IP를 매핑하여 도메인으로 요청이 들어왔을 때 타겟의 주소로 변환해주는 서비스이다.\n\n하나의 도메인 주소에 대해서 여러 개의 IP 주소를 넘겨줄 수 있는데, 이 기능을 이용해서 가용성 구성과 로드 밸런싱 기능을 수행하기도 한다.\nDNS 뒤에 여러 IP를 붙여 고가용성과 로드 밸런싱 역할을 할 수 있긴 하겠지만 근본적으로는 한계가 있다.\n- 왜냐하면 DNS의 로드 밸런싱은 IP 목록 중 하나를 반환할 뿐, 네트워크 지연, 성능, 트래픽 유입, 서비스 실패 등을 전혀 고려하지 않기 때문이다.\n\n이를 해결하기 위해 나온 것이 GSLB이다.","x":460,"y":-166,"width":544,"height":318},
+		{"id":"e359d07972e49bf7","type":"text","text":"### DNS\n![[Pasted image 20231213173343.png]]\nDNS는 서버의 상태를 알 수 없기 때문에 실패하는 유저들이 다수 존재한다.\n\n### GSLB\n![[Pasted image 20231213173413.png]]\nGSLB는 서버의 상태를 모니터링하기 때문에 실패한 서버의 IP는 응답(Converting Domain to IP response)에서 제외하므로, 유저는 서비스를 계속해서 이용할 수 있다. 물론 어떠한 상황이냐에 따라 응답에 실패하는 경우가 존재할 것이다.","x":1240,"y":-861,"width":580,"height":854},
+		{"id":"c5217df009b95bbf","x":1280,"y":152,"width":669,"height":791,"type":"text","text":"### DNS\n![[Pasted image 20231213173653.png]]\nDNS는 Round Rob"}
+	],
+	"edges":[
+		{"id":"84714683bbab2c0d","fromNode":"6242fb70888c1eca","fromSide":"right","toNode":"99e86a3f748e3447","toSide":"left","label":"DNS와 차이"},
+		{"id":"2d3fe7bb9c7d824e","fromNode":"99e86a3f748e3447","fromSide":"right","toNode":"e359d07972e49bf7","toSide":"left","label":"재해복구 차이"},
+		{"id":"942c4bba1afafba7","fromNode":"99e86a3f748e3447","fromSide":"right","toNode":"c5217df009b95bbf","toSide":"left","label":"로드밸런싱 차이"}
+	]
+}

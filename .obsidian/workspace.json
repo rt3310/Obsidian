@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Network/NAT/canvas/NAT.canvas",
+                "file": "Network/GSLB/canvas/GSLB.canvas",
                 "viewState": {
-                  "x": 949.8638350232736,
-                  "y": 279.89003208841444,
-                  "zoom": -1.0966666666666671
+                  "x": 1691.5747553265767,
+                  "y": 492.68145616912847,
+                  "zoom": -0.3199999999999997
                 }
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/NAT/canvas/NAT.canvas",
+                "file": "Network/GSLB/canvas/GSLB.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/NAT/canvas/NAT.canvas",
+                "file": "Network/GSLB/canvas/GSLB.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/NAT/canvas/NAT.canvas"
+                "file": "Network/GSLB/canvas/GSLB.canvas"
               }
             }
           }
@@ -166,12 +166,21 @@
   },
   "active": "9403a80259aac1cf",
   "lastOpenFiles": [
+    "Pasted image 20231213173653.png",
+    "Pasted image 20231213173413.png",
+    "Pasted image 20231213173343.png",
+    "Network/GSLB/canvas/GSLB(Global Server Load Balancing).md",
+    "Network/NAT/canvas/NAT.canvas",
+    "Network/GSLB/canvas/GSLB.canvas",
+    "Network/GSLB/md",
+    "Network/GSLB/resources",
+    "Network/GSLB/canvas",
+    "Network/GSLB",
     "Pasted image 20231212003842.png",
     "Pasted image 20231212003703.png",
     "Pasted image 20231212002734.png",
     "Network/NAT/canvas/NAT(Network Address Translation).md",
     "DB/SQL/canvas/SQL.canvas",
-    "Network/NAT/canvas/NAT.canvas",
     "Network/NAT/md",
     "Network/NAT/resources",
     "Network/NAT/canvas",
@@ -182,10 +191,7 @@
     "Web/Session/resources/memcached.png",
     "Web/Session/resources/primary-secondary session replication.png",
     "Web/Session/resources/Session per WAS.png",
-    "semaphore code.png",
     "DB/Cache/canvas/Cache 전략.canvas",
-    "Web/Session/resources/DB Replication.png",
-    "Web/Session/resources/Sticky Session.png",
     "Web/Session/canvas/Session in Multi Server.canvas",
     "Web/Session/canvas",
     "Web/Session/resources",
@@ -200,19 +206,14 @@
     "OS/Concurrency/canvas/범용 세마포어.md",
     "OS/Concurrency/canvas/세마포어(Semaphore).md",
     "OS/Concurrency/canvas/Concurrency.canvas",
-    "OS/Concurrency/md",
     "OS/Concurrency/md/메모리 인터리빙.md",
-    "OS/Concurrency/resources",
     "DB/Cache/md/Write Back 단점.md",
     "DB/Cache/md/Write Back 장점.md",
     "Java/JVM/canvas/Garbage Collector.canvas",
-    "Spring/JPA/canvas/JPA.canvas",
     "Spring/JPA/canvas/ORM.md",
     "OS/Thread/md/프로세스.md",
     "OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
     "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
-    "OS/Thread/md",
-    "OS/Thread/canvas",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "DB/SQL/md/결합 알고리즘 종류.md",
     "DB/SQL/md/Soft Merge가 유용한 경우.md",
@@ -220,7 +221,6 @@
     "DB/SQL/md/인덱스를 사용할 수 없는 경우.md",
     "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md",
     "DB/SQL/md/Hash 트레이드오프.md",
-    "DB/SQL/md/Hash가 유용한 경우.md",
-    "DB/SQL/md/Hash.md"
+    "DB/SQL/md/Hash가 유용한 경우.md"
   ]
 }
