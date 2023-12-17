@@ -1,10 +1,17 @@
 {
 	"nodes":[
-		{"id":"98b787ae75d2ff5e","x":-324,"y":-800,"width":610,"height":465,"type":"file","file":"OS/Concurrency/canvas/프로세스에서의 자원 이용.md"},
-		{"id":"5daf3a96ffcab2be","x":-321,"y":-180,"width":604,"height":264,"type":"file","file":"OS/Concurrency/canvas/교착상태(DeadLock).md"},
-		{"id":"bb79ecf4d107ab02","x":454,"y":-617,"width":250,"height":60,"type":"text","text":""}
+		{"id":"2d28505c11f04acb","x":469,"y":-180,"width":671,"height":380,"type":"file","file":"OS/Concurrency/canvas/교착상태 발생 조건.md"},
+		{"id":"98b787ae75d2ff5e","type":"file","file":"OS/Concurrency/canvas/프로세스에서의 자원 이용.md","x":-324,"y":-800,"width":610,"height":465},
+		{"id":"5daf3a96ffcab2be","type":"file","file":"OS/Concurrency/canvas/교착상태(DeadLock).md","x":-321,"y":-180,"width":604,"height":264},
+		{"id":"bb79ecf4d107ab02","type":"text","text":"![[Pasted image 20231217204644.png]]","x":800,"y":-808,"width":760,"height":473},
+		{"id":"081dee261c030069","type":"text","text":"만약 프로세스 P가 **자원 A, B를 동시에 사용하지 않는 경우는 교착상태가 발생하지 않는다**.\n![[Pasted image 20231217204742.png]]","x":858,"y":-1480,"width":645,"height":472},
+		{"id":"813dc3b002f3155b","x":-1240,"y":-771,"width":588,"height":407,"type":"text","text":"### 재사용 가능 자원(reusable)\n- 사용 후에도 없어지지 않는 자원\n- 프로세스에 의해 사용 후 반납해야 한다.\n- **반납이 제대로 안될 경우 교착상태**에 빠질 수 있다.\n- ex) 처리기, 입출력 채널, 주/보조 메모리, 장치, 파일, 데이터베이스, 세마포어와 같은 데이터 구조들\n\n### 소모성 자원(consumable)\n- 블록되지 않은 프로세스에 의해 필요에 따라 몇개라도 생성(produced) 되고 사용 후 사라진다(consumed).\n- **수신 primitive가 blocking 형태(받을 때까지 대기)면 교착상태**에 빠질 수 있다.\n- ex) 인터럽트, 시그널, 메시지, I/O 버퍼에 존재하는 정보"}
 	],
 	"edges":[
-		{"id":"519608cfb5f34610","fromNode":"98b787ae75d2ff5e","fromSide":"right","toNode":"bb79ecf4d107ab02","toSide":"left"}
+		{"id":"519608cfb5f34610","fromNode":"98b787ae75d2ff5e","fromSide":"right","toNode":"bb79ecf4d107ab02","toSide":"left","label":"교착상태는 어떻게 발생하는가?"},
+		{"id":"d6bfd1fae3d3086a","fromNode":"5daf3a96ffcab2be","fromSide":"top","toNode":"98b787ae75d2ff5e","toSide":"bottom","label":"프로세스에서의 자원 이용"},
+		{"id":"d3df46c081e1b7d5","fromNode":"bb79ecf4d107ab02","fromSide":"top","toNode":"081dee261c030069","toSide":"bottom","label":"만약 P가 A, B를 동시에 사용하지 않는다면?"},
+		{"id":"ec62317fdb2320ed","fromNode":"98b787ae75d2ff5e","fromSide":"left","toNode":"813dc3b002f3155b","toSide":"right","label":"프로세스의 자원 종류"},
+		{"id":"8266b482dac076dc","fromNode":"5daf3a96ffcab2be","fromSide":"right","toNode":"2d28505c11f04acb","toSide":"left"}
 	]
 }
