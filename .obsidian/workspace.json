@@ -15,8 +15,8 @@
               "state": {
                 "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "viewState": {
-                  "x": -36.188681666376766,
-                  "y": 273.10516304449243,
+                  "x": 774.7976193127233,
+                  "y": 427.19218309775505,
                   "zoom": -0.05398559570312461
                 }
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Concurrency/canvas/DeadLock.canvas",
+                "file": "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Concurrency/canvas/DeadLock.canvas",
+                "file": "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Concurrency/canvas/DeadLock.canvas"
+                "file": "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md"
               }
             }
           }
@@ -166,6 +166,7 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md",
     "OS/Concurrency/canvas/교착상태 발생 조건.md",
     "Pasted image 20231217204742.png",
     "Pasted image 20231217204647.png",
@@ -220,7 +221,6 @@
     "DB/SQL/md/결합 알고리즘 종류.md",
     "DB/SQL/md/Soft Merge가 유용한 경우.md",
     "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md",
-    "DB/SQL/md/인덱스를 사용할 수 없는 경우.md",
-    "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md"
+    "DB/SQL/md/인덱스를 사용할 수 없는 경우.md"
   ]
 }

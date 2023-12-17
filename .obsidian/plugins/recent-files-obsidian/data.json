@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "교착상태 예방(deadlock prevention)",
+      "path": "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md"
+    },
+    {
       "basename": "DeadLock",
       "path": "OS/Concurrency/canvas/DeadLock.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "범용 세마포어",
       "path": "OS/Concurrency/md/범용 세마포어.md"
-    },
-    {
-      "basename": "약성 세마포어",
-      "path": "OS/Concurrency/md/약성 세마포어.md"
     }
   ],
   "omittedPaths": [],
