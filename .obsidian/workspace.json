@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Concurrency/canvas/DeadLock.canvas",
+                "file": "OS/Concurrency/canvas/Semaphore.canvas",
                 "viewState": {
-                  "x": -106.26312603449482,
-                  "y": 331.9807848798673,
-                  "zoom": -0.6619293800112421
+                  "x": 977.2614410909468,
+                  "y": 149.95077408733252,
+                  "zoom": -0.3991598939113531
                 }
               }
             }
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Concurrency/md/교착상태 발견(deadlock detection).md",
+                "file": "OS/Concurrency/canvas/Semaphore.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Concurrency/md/교착상태 발견(deadlock detection).md",
+                "file": "OS/Concurrency/canvas/Semaphore.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Concurrency/md/교착상태 발견(deadlock detection).md"
+                "file": "OS/Concurrency/canvas/Semaphore.canvas"
               }
             }
           }
@@ -166,9 +165,9 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/md/교착상태 발견 특징.md",
     "OS/Concurrency/md/프로세스에서의 자원 이용.md",
-    "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Thread/canvas/Thread.canvas",
     "OS/Concurrency/md/식사하는 철학자 문제.md",
     "OS/Concurrency/md/교착상태 회복(recovery) 알고리즘.md",

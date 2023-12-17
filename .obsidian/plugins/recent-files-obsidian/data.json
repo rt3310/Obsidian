@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Semaphore",
+      "path": "OS/Concurrency/canvas/Semaphore.canvas"
+    },
+    {
       "basename": "교착상태 발견(deadlock detection)",
       "path": "OS/Concurrency/md/교착상태 발견(deadlock detection).md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "Pasted image 20231217204644",
       "path": "Pasted image 20231217204644.png"
-    },
-    {
-      "basename": "Semaphore",
-      "path": "OS/Concurrency/canvas/Semaphore.canvas"
     },
     {
       "basename": "semWait(x) 연산 (P 연산)",
