@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "교착상태 발견(deadlock detection)",
+      "path": "OS/Concurrency/md/교착상태 발견(deadlock detection).md"
+    },
+    {
       "basename": "DeadLock",
       "path": "OS/Concurrency/canvas/DeadLock.canvas"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "교착상태 회복(recovery) 알고리즘",
       "path": "OS/Concurrency/md/교착상태 회복(recovery) 알고리즘.md"
-    },
-    {
-      "basename": "교착상태 발견(deadlock detection)",
-      "path": "OS/Concurrency/md/교착상태 발견(deadlock detection).md"
     },
     {
       "basename": "교착상태 회피 단점",
