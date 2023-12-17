@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Thread/canvas/Thread.canvas",
+                "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "viewState": {
-                  "x": 77.17036273281866,
-                  "y": 48.445976656961875,
-                  "zoom": -0.8409238107559849
+                  "x": 257.7912223492075,
+                  "y": -39.33358852088157,
+                  "zoom": -0.2488129249331173
                 }
               }
             }
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Thread/canvas/Thread.canvas",
+                "file": "OS/Concurrency/md/교착상태 발생 조건.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Thread/canvas/Thread.canvas",
+                "file": "OS/Concurrency/md/교착상태 발생 조건.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Thread/canvas/Thread.canvas"
+                "file": "OS/Concurrency/md/교착상태 발생 조건.md"
               }
             }
           }
@@ -165,29 +166,29 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "OS/Concurrency/md/교착상태 발견 특징.md",
+    "OS/Concurrency/md/프로세스에서의 자원 이용.md",
     "OS/Concurrency/canvas/DeadLock.canvas",
-    "OS/Concurrency/canvas/식사하는 철학자 문제.md",
-    "OS/Concurrency/canvas/교착상태 회복(recovery) 알고리즘.md",
-    "OS/Concurrency/canvas/교착상태 발견 특징.md",
-    "OS/Concurrency/canvas/교착상태 발견(deadlock detection).md",
-    "OS/Concurrency/canvas/교착상태 회피 단점.md",
-    "OS/Concurrency/canvas/교착상태 회피 장점.md",
+    "OS/Thread/canvas/Thread.canvas",
+    "OS/Concurrency/md/식사하는 철학자 문제.md",
+    "OS/Concurrency/md/교착상태 회복(recovery) 알고리즘.md",
+    "OS/Concurrency/md/교착상태 발견(deadlock detection).md",
+    "OS/Concurrency/md/교착상태 회피 단점.md",
+    "OS/Concurrency/md/교착상태 회피 장점.md",
     "Pasted image 20231217214906.png",
-    "OS/Concurrency/canvas/자원 할당 거부(은행원 알고리즘).md",
-    "OS/Concurrency/canvas/프로세스 시작 거부.md",
-    "OS/Concurrency/canvas/교착상태 회피(deadlock avoidance).md",
-    "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md",
-    "OS/Concurrency/canvas/교착상태 발생 조건.md",
+    "OS/Concurrency/md/자원 할당 거부(은행원 알고리즘).md",
+    "OS/Concurrency/md/프로세스 시작 거부.md",
+    "OS/Concurrency/md/교착상태 회피(deadlock avoidance).md",
+    "OS/Concurrency/md/교착상태 예방(deadlock prevention).md",
+    "OS/Concurrency/md/교착상태 발생 조건.md",
     "Pasted image 20231217204742.png",
     "Pasted image 20231217204647.png",
     "Pasted image 20231217204644.png",
-    "OS/Concurrency/canvas/프로세스에서의 자원 이용.md",
-    "OS/Concurrency/canvas/교착상태(DeadLock).md",
+    "OS/Concurrency/md/교착상태(DeadLock).md",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/무제 폴더",
     "OS/Concurrency/md/semWait(x) 연산 (P 연산).md",
     "OS/Concurrency/md/이진 세마포어.md",
-    "OS/Thread/canvas/Thread.canvas",
     "Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "Network/GSLB/canvas/GSLB.canvas",
     "HTTP/URL/canvas/URL.canvas",
