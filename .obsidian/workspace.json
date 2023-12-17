@@ -15,9 +15,9 @@
               "state": {
                 "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "viewState": {
-                  "x": 774.7976193127233,
-                  "y": 427.19218309775505,
-                  "zoom": -0.05398559570312461
+                  "x": 1266.2095497742184,
+                  "y": 1278.6334335763615,
+                  "zoom": -0.8048767089843747
                 }
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md",
+                "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md",
+                "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md"
+                "file": "OS/Concurrency/canvas/DeadLock.canvas"
               }
             }
           }
@@ -166,6 +166,7 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/교착상태 회피(deadlock avoidance).md",
     "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md",
     "OS/Concurrency/canvas/교착상태 발생 조건.md",
     "Pasted image 20231217204742.png",
@@ -220,7 +221,6 @@
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "DB/SQL/md/결합 알고리즘 종류.md",
     "DB/SQL/md/Soft Merge가 유용한 경우.md",
-    "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md",
-    "DB/SQL/md/인덱스를 사용할 수 없는 경우.md"
+    "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md"
   ]
 }

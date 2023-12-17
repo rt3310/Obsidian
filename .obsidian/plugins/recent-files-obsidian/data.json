@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "교착상태 예방(deadlock prevention)",
-      "path": "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md"
-    },
-    {
       "basename": "DeadLock",
       "path": "OS/Concurrency/canvas/DeadLock.canvas"
+    },
+    {
+      "basename": "교착상태 회피(deadlock avoidance)",
+      "path": "OS/Concurrency/canvas/교착상태 회피(deadlock avoidance).md"
+    },
+    {
+      "basename": "교착상태 예방(deadlock prevention)",
+      "path": "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md"
     },
     {
       "basename": "교착상태 발생 조건",
@@ -195,10 +199,6 @@
     {
       "basename": "세마포어(Semaphore)",
       "path": "OS/Concurrency/md/세마포어(Semaphore).md"
-    },
-    {
-      "basename": "범용 세마포어",
-      "path": "OS/Concurrency/md/범용 세마포어.md"
     }
   ],
   "omittedPaths": [],
