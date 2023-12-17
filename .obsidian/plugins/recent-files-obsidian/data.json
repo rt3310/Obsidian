@@ -5,6 +5,26 @@
       "path": "OS/Concurrency/canvas/DeadLock.canvas"
     },
     {
+      "basename": "교착상태 발견(deadlock detection)",
+      "path": "OS/Concurrency/canvas/교착상태 발견(deadlock detection).md"
+    },
+    {
+      "basename": "교착상태 회피 장점",
+      "path": "OS/Concurrency/canvas/교착상태 회피 장점.md"
+    },
+    {
+      "basename": "교착상태 회피 단점",
+      "path": "OS/Concurrency/canvas/교착상태 회피 단점.md"
+    },
+    {
+      "basename": "자원 할당 거부(은행원 알고리즘)",
+      "path": "OS/Concurrency/canvas/자원 할당 거부(은행원 알고리즘).md"
+    },
+    {
+      "basename": "프로세스 시작 거부",
+      "path": "OS/Concurrency/canvas/프로세스 시작 거부.md"
+    },
+    {
       "basename": "교착상태 회피(deadlock avoidance)",
       "path": "OS/Concurrency/canvas/교착상태 회피(deadlock avoidance).md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Session in Multi Server",
       "path": "Web/Session/canvas/Session in Multi Server.canvas"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "Phantom Read",
-      "path": "DB/Transaction/md/Phantom Read.md"
-    },
-    {
-      "basename": "REPEATABLE READ 작동 방식",
-      "path": "DB/Transaction/md/REPEATABLE READ 작동 방식.md"
-    },
-    {
-      "basename": "뮤텍스",
-      "path": "OS/Concurrency/md/뮤텍스.md"
-    },
-    {
-      "basename": "세마포어(Semaphore)",
-      "path": "OS/Concurrency/md/세마포어(Semaphore).md"
     }
   ],
   "omittedPaths": [],

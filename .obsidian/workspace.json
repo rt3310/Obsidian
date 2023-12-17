@@ -15,9 +15,9 @@
               "state": {
                 "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "viewState": {
-                  "x": 1266.2095497742184,
-                  "y": 1278.6334335763615,
-                  "zoom": -0.8048767089843747
+                  "x": -1033.086947988491,
+                  "y": 1441.2851057127825,
+                  "zoom": -0.48815307617187487
                 }
               }
             }
@@ -166,6 +166,13 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/교착상태 발견(deadlock detection).md",
+    "OS/Concurrency/canvas/교착상태 회피 단점.md",
+    "OS/Concurrency/canvas/교착상태 회피 장점.md",
+    "Pasted image 20231217214906.png",
+    "OS/Concurrency/canvas/DeadLock.canvas",
+    "OS/Concurrency/canvas/자원 할당 거부(은행원 알고리즘).md",
+    "OS/Concurrency/canvas/프로세스 시작 거부.md",
     "OS/Concurrency/canvas/교착상태 회피(deadlock avoidance).md",
     "OS/Concurrency/canvas/교착상태 예방(deadlock prevention).md",
     "OS/Concurrency/canvas/교착상태 발생 조건.md",
@@ -175,7 +182,6 @@
     "OS/Concurrency/canvas/프로세스에서의 자원 이용.md",
     "OS/Concurrency/canvas/교착상태(DeadLock).md",
     "OS/Concurrency/canvas/Semaphore.canvas",
-    "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/canvas/무제 폴더",
     "OS/Concurrency/md/semWait(x) 연산 (P 연산).md",
     "OS/Concurrency/md/이진 세마포어.md",
@@ -195,7 +201,6 @@
     "Network/GSLB/resources/Pasted image 20231213173343.png",
     "Network/GSLB/resources/Pasted image 20231213173653.png",
     "Network/GSLB/resources/Pasted image 20231213173413.png",
-    "Network/NAT/resources/Pasted image 20231212003842.png",
     "Network/NAT/canvas/NAT.canvas",
     "Network/GSLB/md",
     "Network/GSLB/resources",
@@ -216,11 +221,6 @@
     "DB/Cache/md/Write Back 장점.md",
     "Spring/JPA/canvas/ORM.md",
     "OS/Thread/md/프로세스.md",
-    "OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
-    "OS/Thread/Excel 2023-11-20 10.37.25.sheet.md",
-    "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
-    "DB/SQL/md/결합 알고리즘 종류.md",
-    "DB/SQL/md/Soft Merge가 유용한 경우.md",
-    "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md"
+    "OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md"
   ]
 }
