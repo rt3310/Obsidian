@@ -1,48 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "교착상태 발생 조건",
-      "path": "OS/Concurrency/md/교착상태 발생 조건.md"
-    },
-    {
-      "basename": "교착상태(DeadLock)",
-      "path": "OS/Concurrency/md/교착상태(DeadLock).md"
-    },
-    {
       "basename": "DeadLock",
       "path": "OS/Concurrency/canvas/DeadLock.canvas"
-    },
-    {
-      "basename": "프로세스에서의 자원 이용",
-      "path": "OS/Concurrency/md/프로세스에서의 자원 이용.md"
-    },
-    {
-      "basename": "교착상태 예방(deadlock prevention)",
-      "path": "OS/Concurrency/md/교착상태 예방(deadlock prevention).md"
-    },
-    {
-      "basename": "교착상태 발견 특징",
-      "path": "OS/Concurrency/md/교착상태 발견 특징.md"
-    },
-    {
-      "basename": "Thread",
-      "path": "OS/Thread/canvas/Thread.canvas"
     },
     {
       "basename": "식사하는 철학자 문제",
       "path": "OS/Concurrency/md/식사하는 철학자 문제.md"
     },
     {
-      "basename": "교착상태 회피 단점",
-      "path": "OS/Concurrency/md/교착상태 회피 단점.md"
-    },
-    {
-      "basename": "프로세스 시작 거부",
-      "path": "OS/Concurrency/md/프로세스 시작 거부.md"
-    },
-    {
-      "basename": "자원 할당 거부(은행원 알고리즘)",
-      "path": "OS/Concurrency/md/자원 할당 거부(은행원 알고리즘).md"
+      "basename": "교착상태 발견 특징",
+      "path": "OS/Concurrency/md/교착상태 발견 특징.md"
     },
     {
       "basename": "교착상태 회복(recovery) 알고리즘",
@@ -53,8 +21,40 @@
       "path": "OS/Concurrency/md/교착상태 발견(deadlock detection).md"
     },
     {
+      "basename": "교착상태 회피 단점",
+      "path": "OS/Concurrency/md/교착상태 회피 단점.md"
+    },
+    {
       "basename": "교착상태 회피 장점",
       "path": "OS/Concurrency/md/교착상태 회피 장점.md"
+    },
+    {
+      "basename": "자원 할당 거부(은행원 알고리즘)",
+      "path": "OS/Concurrency/md/자원 할당 거부(은행원 알고리즘).md"
+    },
+    {
+      "basename": "프로세스 시작 거부",
+      "path": "OS/Concurrency/md/프로세스 시작 거부.md"
+    },
+    {
+      "basename": "교착상태 예방(deadlock prevention)",
+      "path": "OS/Concurrency/md/교착상태 예방(deadlock prevention).md"
+    },
+    {
+      "basename": "교착상태 발생 조건",
+      "path": "OS/Concurrency/md/교착상태 발생 조건.md"
+    },
+    {
+      "basename": "교착상태(DeadLock)",
+      "path": "OS/Concurrency/md/교착상태(DeadLock).md"
+    },
+    {
+      "basename": "프로세스에서의 자원 이용",
+      "path": "OS/Concurrency/md/프로세스에서의 자원 이용.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "OS/Thread/canvas/Thread.canvas"
     },
     {
       "basename": "교착상태 회피(deadlock avoidance)",
