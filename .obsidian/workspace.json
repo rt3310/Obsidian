@@ -15,9 +15,9 @@
               "state": {
                 "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "viewState": {
-                  "x": -1033.086947988491,
-                  "y": 1441.2851057127825,
-                  "zoom": -0.48815307617187487
+                  "x": -44.768516950216224,
+                  "y": 903.7883463554215,
+                  "zoom": -2.256339518229167
                 }
               }
             }
@@ -166,6 +166,9 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/식사하는 철학자 문제.md",
+    "OS/Concurrency/canvas/교착상태 회복(recovery) 알고리즘.md",
+    "OS/Concurrency/canvas/교착상태 발견 특징.md",
     "OS/Concurrency/canvas/교착상태 발견(deadlock detection).md",
     "OS/Concurrency/canvas/교착상태 회피 단점.md",
     "OS/Concurrency/canvas/교착상태 회피 장점.md",
@@ -218,9 +221,6 @@
     "OS/Concurrency/md/세마포어(Semaphore).md",
     "OS/Concurrency/md/메모리 인터리빙.md",
     "DB/Cache/md/Write Back 단점.md",
-    "DB/Cache/md/Write Back 장점.md",
-    "Spring/JPA/canvas/ORM.md",
-    "OS/Thread/md/프로세스.md",
-    "OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md"
+    "DB/Cache/md/Write Back 장점.md"
   ]
 }
