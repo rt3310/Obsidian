@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"98b787ae75d2ff5e","x":-324,"y":-800,"width":610,"height":465,"type":"file","file":"OS/Concurrency/canvas/프로세스에서의 자원 이용.md"},
+		{"id":"5daf3a96ffcab2be","x":-321,"y":-180,"width":604,"height":264,"type":"file","file":"OS/Concurrency/canvas/교착상태(DeadLock).md"},
+		{"id":"bb79ecf4d107ab02","x":454,"y":-617,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"519608cfb5f34610","fromNode":"98b787ae75d2ff5e","fromSide":"right","toNode":"bb79ecf4d107ab02","toSide":"left"}
+	]
+}

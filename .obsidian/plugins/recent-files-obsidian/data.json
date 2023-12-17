@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "프로세스에서의 자원 이용",
+      "path": "OS/Concurrency/canvas/프로세스에서의 자원 이용.md"
+    },
+    {
+      "basename": "교착상태(DeadLock)",
+      "path": "OS/Concurrency/canvas/교착상태(DeadLock).md"
+    },
+    {
+      "basename": "DeadLock",
+      "path": "OS/Concurrency/canvas/DeadLock.canvas"
+    },
+    {
+      "basename": "Semaphore",
+      "path": "OS/Concurrency/canvas/Semaphore.canvas"
+    },
+    {
+      "basename": "semWait(x) 연산 (P 연산)",
+      "path": "OS/Concurrency/md/semWait(x) 연산 (P 연산).md"
+    },
+    {
+      "basename": "이진 세마포어",
+      "path": "OS/Concurrency/md/이진 세마포어.md"
+    },
+    {
       "basename": "Thread",
       "path": "OS/Thread/canvas/Thread.canvas"
     },
@@ -153,52 +177,28 @@
       "path": "DB/Transaction/md/REPEATABLE READ 작동 방식.md"
     },
     {
-      "basename": "Semaphore",
-      "path": "OS/Concurrency/canvas/Semaphore.canvas"
-    },
-    {
       "basename": "뮤텍스",
-      "path": "OS/Concurrency/canvas/뮤텍스.md"
+      "path": "OS/Concurrency/md/뮤텍스.md"
     },
     {
       "basename": "세마포어(Semaphore)",
-      "path": "OS/Concurrency/canvas/세마포어(Semaphore).md"
-    },
-    {
-      "basename": "이진 세마포어",
-      "path": "OS/Concurrency/canvas/이진 세마포어.md"
+      "path": "OS/Concurrency/md/세마포어(Semaphore).md"
     },
     {
       "basename": "범용 세마포어",
-      "path": "OS/Concurrency/canvas/범용 세마포어.md"
+      "path": "OS/Concurrency/md/범용 세마포어.md"
     },
     {
       "basename": "약성 세마포어",
-      "path": "OS/Concurrency/canvas/약성 세마포어.md"
+      "path": "OS/Concurrency/md/약성 세마포어.md"
     },
     {
       "basename": "강성 세마포어",
-      "path": "OS/Concurrency/canvas/강성 세마포어.md"
+      "path": "OS/Concurrency/md/강성 세마포어.md"
     },
     {
       "basename": "semSignal(x) 연산 (V 연산)",
-      "path": "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md"
-    },
-    {
-      "basename": "semWait(x) 연산 (P 연산)",
-      "path": "OS/Concurrency/canvas/semWait(x) 연산 (P 연산).md"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "OS/Concurrency/canvas/Concurrency.canvas"
-    },
-    {
-      "basename": "메모리 인터리빙",
-      "path": "OS/Concurrency/md/메모리 인터리빙.md"
-    },
-    {
-      "basename": "Concurrent & Parallel",
-      "path": "OS/Concurrency/resources/Concurrent & Parallel.png"
+      "path": "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md"
     }
   ],
   "omittedPaths": [],

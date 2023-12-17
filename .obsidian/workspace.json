@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Thread/canvas/Thread.canvas",
+                "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "viewState": {
-                  "x": 429.09641288207484,
-                  "y": -1167.5487743333451,
-                  "zoom": -1.1769368489583334
+                  "x": 355.95814532613565,
+                  "y": -409.9494244819967,
+                  "zoom": -0.8750447591145833
                 }
               }
             }
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Thread/canvas/Thread.canvas",
+                "file": "OS/Concurrency/canvas/프로세스에서의 자원 이용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Thread/canvas/Thread.canvas",
+                "file": "OS/Concurrency/canvas/프로세스에서의 자원 이용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Thread/canvas/Thread.canvas"
+                "file": "OS/Concurrency/canvas/프로세스에서의 자원 이용.md"
               }
             }
           }
@@ -165,6 +166,14 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/프로세스에서의 자원 이용.md",
+    "OS/Concurrency/canvas/교착상태(DeadLock).md",
+    "OS/Concurrency/canvas/Semaphore.canvas",
+    "OS/Concurrency/canvas/DeadLock.canvas",
+    "OS/Concurrency/canvas/무제 폴더",
+    "OS/Concurrency/md/semWait(x) 연산 (P 연산).md",
+    "OS/Concurrency/md/이진 세마포어.md",
+    "OS/Thread/canvas/Thread.canvas",
     "Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "Network/GSLB/canvas/GSLB.canvas",
     "HTTP/URL/canvas/URL.canvas",
@@ -191,21 +200,14 @@
     "Network/GSLB",
     "Network/NAT/md/NAT(Network Address Translation).md",
     "DB/SQL/canvas/SQL.canvas",
-    "Network/NAT/md",
     "DB/Normalization/canvas/정규화.canvas",
     "DB/Cache/canvas/Cache 전략.canvas",
-    "Web/Session/canvas/Session in Multi Server.canvas",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "OS/Concurrency/canvas/Semaphore.canvas",
-    "OS/Concurrency/canvas/semSignal(x) 연산 (V 연산).md",
-    "OS/Concurrency/canvas/semWait(x) 연산 (P 연산).md",
-    "OS/Concurrency/canvas/약성 세마포어.md",
-    "OS/Concurrency/canvas/강성 세마포어.md",
-    "OS/Concurrency/canvas/이진 세마포어.md",
-    "OS/Concurrency/canvas/뮤텍스.md",
-    "OS/Concurrency/canvas/범용 세마포어.md",
-    "OS/Concurrency/canvas/세마포어(Semaphore).md",
-    "OS/Concurrency/canvas/Concurrency.canvas",
+    "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md",
+    "OS/Concurrency/md/약성 세마포어.md",
+    "OS/Concurrency/md/강성 세마포어.md",
+    "OS/Concurrency/md/뮤텍스.md",
+    "OS/Concurrency/md/범용 세마포어.md",
+    "OS/Concurrency/md/세마포어(Semaphore).md",
     "OS/Concurrency/md/메모리 인터리빙.md",
     "DB/Cache/md/Write Back 단점.md",
     "DB/Cache/md/Write Back 장점.md",
@@ -219,7 +221,6 @@
     "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md",
     "DB/SQL/md/인덱스를 사용할 수 없는 경우.md",
     "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md",
-    "DB/SQL/md/Hash 트레이드오프.md",
-    "DB/SQL/md/Hash가 유용한 경우.md"
+    "DB/SQL/md/Hash 트레이드오프.md"
   ]
 }
