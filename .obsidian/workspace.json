@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Concurrency/canvas/DeadLock.canvas",
+                "file": "OS/Thread/canvas/Thread.canvas",
                 "viewState": {
-                  "x": -44.768516950216224,
-                  "y": 903.7883463554215,
-                  "zoom": -2.256339518229167
+                  "x": 77.17036273281866,
+                  "y": 48.445976656961875,
+                  "zoom": -0.8409238107559849
                 }
               }
             }
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Concurrency/canvas/DeadLock.canvas",
+                "file": "OS/Thread/canvas/Thread.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Concurrency/canvas/DeadLock.canvas",
+                "file": "OS/Thread/canvas/Thread.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Concurrency/canvas/DeadLock.canvas"
+                "file": "OS/Thread/canvas/Thread.canvas"
               }
             }
           }
@@ -166,6 +165,7 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/canvas/식사하는 철학자 문제.md",
     "OS/Concurrency/canvas/교착상태 회복(recovery) 알고리즘.md",
     "OS/Concurrency/canvas/교착상태 발견 특징.md",
@@ -173,7 +173,6 @@
     "OS/Concurrency/canvas/교착상태 회피 단점.md",
     "OS/Concurrency/canvas/교착상태 회피 장점.md",
     "Pasted image 20231217214906.png",
-    "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/canvas/자원 할당 거부(은행원 알고리즘).md",
     "OS/Concurrency/canvas/프로세스 시작 거부.md",
     "OS/Concurrency/canvas/교착상태 회피(deadlock avoidance).md",
@@ -220,7 +219,6 @@
     "OS/Concurrency/md/범용 세마포어.md",
     "OS/Concurrency/md/세마포어(Semaphore).md",
     "OS/Concurrency/md/메모리 인터리빙.md",
-    "DB/Cache/md/Write Back 단점.md",
-    "DB/Cache/md/Write Back 장점.md"
+    "DB/Cache/md/Write Back 단점.md"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Thread",
+      "path": "OS/Thread/canvas/Thread.canvas"
+    },
+    {
       "basename": "DeadLock",
       "path": "OS/Concurrency/canvas/DeadLock.canvas"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "이진 세마포어",
       "path": "OS/Concurrency/md/이진 세마포어.md"
-    },
-    {
-      "basename": "Thread",
-      "path": "OS/Thread/canvas/Thread.canvas"
     },
     {
       "basename": "쓰레드",
