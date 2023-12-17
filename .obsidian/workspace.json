@@ -15,9 +15,9 @@
               "state": {
                 "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "viewState": {
-                  "x": 677.3546465655949,
-                  "y": -30.888042832434053,
-                  "zoom": -0.6287740071614579
+                  "x": -36.188681666376766,
+                  "y": 273.10516304449243,
+                  "zoom": -0.05398559570312461
                 }
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Concurrency/canvas/교착상태 발생 조건.md",
+                "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Concurrency/canvas/교착상태 발생 조건.md",
+                "file": "OS/Concurrency/canvas/DeadLock.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Concurrency/canvas/교착상태 발생 조건.md"
+                "file": "OS/Concurrency/canvas/DeadLock.canvas"
               }
             }
           }

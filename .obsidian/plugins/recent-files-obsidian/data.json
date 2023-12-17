@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "DeadLock",
+      "path": "OS/Concurrency/canvas/DeadLock.canvas"
+    },
+    {
       "basename": "교착상태 발생 조건",
       "path": "OS/Concurrency/canvas/교착상태 발생 조건.md"
     },
     {
-      "basename": "DeadLock",
-      "path": "OS/Concurrency/canvas/DeadLock.canvas"
+      "basename": "교착상태(DeadLock)",
+      "path": "OS/Concurrency/canvas/교착상태(DeadLock).md"
     },
     {
       "basename": "프로세스에서의 자원 이용",
@@ -15,10 +19,6 @@
     {
       "basename": "Pasted image 20231217204644",
       "path": "Pasted image 20231217204644.png"
-    },
-    {
-      "basename": "교착상태(DeadLock)",
-      "path": "OS/Concurrency/canvas/교착상태(DeadLock).md"
     },
     {
       "basename": "Semaphore",
