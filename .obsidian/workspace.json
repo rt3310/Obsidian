@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+                "file": "OS/Thread/canvas/Thread.canvas",
                 "viewState": {
-                  "x": 252.83224532014046,
-                  "y": -174.28115971854854,
-                  "zoom": 0.033333333333333215
+                  "x": 429.09641288207484,
+                  "y": -1167.5487743333451,
+                  "zoom": -1.1769368489583334
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+                "file": "OS/Thread/canvas/Thread.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+                "file": "OS/Thread/canvas/Thread.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
+                "file": "OS/Thread/canvas/Thread.canvas"
               }
             }
           }
@@ -165,6 +165,7 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "Network/GSLB/canvas/GSLB.canvas",
     "HTTP/URL/canvas/URL.canvas",
     "HTTP/URL/md",
@@ -208,7 +209,6 @@
     "OS/Concurrency/md/메모리 인터리빙.md",
     "DB/Cache/md/Write Back 단점.md",
     "DB/Cache/md/Write Back 장점.md",
-    "Java/JVM/canvas/Garbage Collector.canvas",
     "Spring/JPA/canvas/ORM.md",
     "OS/Thread/md/프로세스.md",
     "OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Thread",
+      "path": "OS/Thread/canvas/Thread.canvas"
+    },
+    {
+      "basename": "쓰레드",
+      "path": "OS/Thread/md/쓰레드.md"
+    },
+    {
+      "basename": "커널 수준 쓰레드(KLT)",
+      "path": "OS/Thread/md/커널 수준 쓰레드(KLT).md"
+    },
+    {
+      "basename": "사용자 수준 쓰레드(ULT)",
+      "path": "OS/Thread/md/사용자 수준 쓰레드(ULT).md"
+    },
+    {
       "basename": "Virtual Thread",
       "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Concurrent & Parallel",
       "path": "OS/Concurrency/resources/Concurrent & Parallel.png"
-    },
-    {
-      "basename": "Write Back 단점",
-      "path": "DB/Cache/md/Write Back 단점.md"
-    },
-    {
-      "basename": "Write Back 장점",
-      "path": "DB/Cache/md/Write Back 장점.md"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Java/JVM/canvas/Garbage Collector.canvas"
-    },
-    {
-      "basename": "Shenandoah GC",
-      "path": "Java/JVM/md/Shenandoah GC.md"
     }
   ],
   "omittedPaths": [],
