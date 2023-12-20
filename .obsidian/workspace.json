@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Concurrency/canvas/Semaphore.canvas",
+                "file": "Java/JVM/canvas/JVM.canvas",
                 "viewState": {
-                  "x": 977.2614410909468,
-                  "y": 149.95077408733252,
-                  "zoom": -0.3991598939113531
+                  "x": -314.7786220498995,
+                  "y": -283.65974100625743,
+                  "zoom": 1
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Concurrency/canvas/Semaphore.canvas",
+                "file": "Java/JVM/canvas/JVM(Java Virtual Machine).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Concurrency/canvas/Semaphore.canvas",
+                "file": "Java/JVM/canvas/JVM(Java Virtual Machine).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Concurrency/canvas/Semaphore.canvas"
+                "file": "Java/JVM/canvas/JVM(Java Virtual Machine).md"
               }
             }
           }
@@ -165,6 +165,9 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "Java/JVM/canvas/JVM(Java Virtual Machine).md",
+    "Java/JVM/canvas/Garbage Collector.canvas",
+    "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/md/교착상태 발견 특징.md",
     "OS/Concurrency/md/프로세스에서의 자원 이용.md",
@@ -184,7 +187,6 @@
     "Pasted image 20231217204647.png",
     "Pasted image 20231217204644.png",
     "OS/Concurrency/md/교착상태(DeadLock).md",
-    "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/무제 폴더",
     "OS/Concurrency/md/semWait(x) 연산 (P 연산).md",
     "OS/Concurrency/md/이진 세마포어.md",
@@ -211,7 +213,6 @@
     "Network/NAT/md/NAT(Network Address Translation).md",
     "DB/SQL/canvas/SQL.canvas",
     "DB/Normalization/canvas/정규화.canvas",
-    "DB/Cache/canvas/Cache 전략.canvas",
     "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md",
     "OS/Concurrency/md/약성 세마포어.md",
     "OS/Concurrency/md/강성 세마포어.md",
