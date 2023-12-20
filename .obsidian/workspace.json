@@ -15,9 +15,9 @@
               "state": {
                 "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": 970.7082404737947,
-                  "y": -298.2902386276301,
-                  "zoom": -0.18241718802921017
+                  "x": -509.3379743265268,
+                  "y": 3907.6442535549545,
+                  "zoom": -0.2690838546958769
                 }
               }
             }
@@ -166,8 +166,8 @@
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
     "Java/JVM/canvas/JVM.canvas",
-    "Java/JVM/canvas/JVM(Java Virtual Machine).md",
     "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/md/JVM(Java Virtual Machine).md",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/md/교착상태 발견 특징.md",
@@ -213,7 +213,6 @@
     "Network/GSLB",
     "Network/NAT/md/NAT(Network Address Translation).md",
     "DB/SQL/canvas/SQL.canvas",
-    "DB/Normalization/canvas/정규화.canvas",
     "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md",
     "OS/Concurrency/md/약성 세마포어.md",
     "OS/Concurrency/md/강성 세마포어.md",
