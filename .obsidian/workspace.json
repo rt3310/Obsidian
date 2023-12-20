@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Java/JVM/canvas/JVM.canvas",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "viewState": {
-                  "x": -314.7786220498995,
-                  "y": -283.65974100625743,
-                  "zoom": 1
+                  "x": 970.7082404737947,
+                  "y": -298.2902386276301,
+                  "zoom": -0.18241718802921017
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/canvas/JVM(Java Virtual Machine).md",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/canvas/JVM(Java Virtual Machine).md",
+                "file": "Java/JVM/canvas/Garbage Collector.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/canvas/JVM(Java Virtual Machine).md"
+                "file": "Java/JVM/canvas/Garbage Collector.canvas"
               }
             }
           }
@@ -165,6 +165,7 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
+    "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/canvas/JVM(Java Virtual Machine).md",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
@@ -219,7 +220,6 @@
     "OS/Concurrency/md/뮤텍스.md",
     "OS/Concurrency/md/범용 세마포어.md",
     "OS/Concurrency/md/세마포어(Semaphore).md",
-    "OS/Concurrency/md/메모리 인터리빙.md",
-    "DB/Cache/md/Write Back 단점.md"
+    "OS/Concurrency/md/메모리 인터리빙.md"
   ]
 }

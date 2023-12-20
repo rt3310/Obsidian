@@ -56,7 +56,7 @@
 		{"id":"011a37cc183cdfde","type":"file","file":"Java/JVM/resources/JVM 수행 과정.png","x":-2240,"y":-559,"width":640,"height":477},
 		{"id":"a97a64a6f33d7968","type":"text","text":"자바 애플리케이션을 클래스 로더를 통해 읽어 자바 API와 함께 실행하는 것","x":-307,"y":-680,"width":338,"height":63},
 		{"id":"176b264d0dbd883a","type":"file","file":"Java/JVM/resources/자바 컴파일 과정.png","x":-771,"y":-680,"width":400,"height":83},
-		{"id":"680c8d43f4ab06c8","type":"file","file":"Java/JVM/canvas/JVM(Java Virtual Machine).md","x":-546,"y":-472,"width":394,"height":303}
+		{"id":"680c8d43f4ab06c8","type":"file","file":"Java/JVM/canvas/JVM(Java Virtual Machine).md","x":-540,"y":-520,"width":394,"height":375}
 	],
 	"edges":[
 		{"id":"f019c3748c0f6840","fromNode":"680c8d43f4ab06c8","fromSide":"top","toNode":"a97a64a6f33d7968","toSide":"bottom","label":"역할"},

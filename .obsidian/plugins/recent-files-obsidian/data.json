@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "JVM(Java Virtual Machine)",
-      "path": "Java/JVM/canvas/JVM(Java Virtual Machine).md"
+      "basename": "Garbage Collector",
+      "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
       "basename": "JVM",
       "path": "Java/JVM/canvas/JVM.canvas"
+    },
+    {
+      "basename": "JVM(Java Virtual Machine)",
+      "path": "Java/JVM/canvas/JVM(Java Virtual Machine).md"
     },
     {
       "basename": "JVM 수행 과정",
@@ -15,10 +19,6 @@
     {
       "basename": "JVM 동작 과정",
       "path": "Java/JVM/md/JVM 동작 과정.md"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
       "basename": "Semaphore",
