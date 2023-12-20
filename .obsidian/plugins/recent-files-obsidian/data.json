@@ -5,6 +5,10 @@
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
     {
+      "basename": "G1 GC",
+      "path": "Java/JVM/md/G1 GC.md"
+    },
+    {
       "basename": "JVM",
       "path": "Java/JVM/canvas/JVM.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "all-to-all session replication",
       "path": "Web/Session/resources/all-to-all session replication.png"
-    },
-    {
-      "basename": "Integrated Session Storage",
-      "path": "Web/Session/resources/Integrated Session Storage.png"
     }
   ],
   "omittedPaths": [],
