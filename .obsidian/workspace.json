@@ -11,11 +11,14 @@
             "id": "c38f4584a7d89757",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
-                "mode": "source",
-                "source": false
+                "file": "DB/Normalization/canvas/정규화.canvas",
+                "viewState": {
+                  "x": -246.74888385025875,
+                  "y": -1426.656447610684,
+                  "zoom": -0.44159402182702107
+                }
               }
             }
           }
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
+                "file": "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
+                "file": "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
+                "file": "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md"
               }
             }
           }
@@ -163,8 +166,9 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
-    "DB/Normalization/canvas/정규화.canvas",
+    "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md",
     "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
+    "DB/Normalization/canvas/정규화.canvas",
     "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/md/JVM(Java Virtual Machine).md",
@@ -212,7 +216,6 @@
     "Network/GSLB/canvas",
     "Network/GSLB",
     "Network/NAT/md/NAT(Network Address Translation).md",
-    "DB/SQL/canvas/SQL.canvas",
     "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md",
     "OS/Concurrency/md/약성 세마포어.md",
     "OS/Concurrency/md/강성 세마포어.md",

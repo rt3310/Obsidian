@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "제 2정규형(2NF - Second Normal Form)",
-      "path": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
+      "basename": "제 3정규형 (3NF - Third Normal Form)",
+      "path": "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md"
     },
     {
       "basename": "정규화",
       "path": "DB/Normalization/canvas/정규화.canvas"
+    },
+    {
+      "basename": "제 2정규형(2NF - Second Normal Form)",
+      "path": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
     },
     {
       "basename": "제 1정규형 (1NF - First Normal Form)",
@@ -195,10 +199,6 @@
     {
       "basename": "인덱스를 사용할 수 없는 경우 대처",
       "path": "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md"
-    },
-    {
-      "basename": "인덱스를 사용할 수 없는 경우",
-      "path": "DB/SQL/md/인덱스를 사용할 수 없는 경우.md"
     }
   ],
   "omittedPaths": [],
