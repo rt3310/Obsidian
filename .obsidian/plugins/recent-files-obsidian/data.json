@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Working Set 알고리즘",
+      "path": "OS/Thrashing/md/Working Set 알고리즘.md"
+    },
+    {
       "basename": "무제 파일",
       "path": "OS/Thrashing/canvas/무제 파일.canvas"
     },
     {
+      "basename": "PFF(Page Fault Frequency) 알고리즘",
+      "path": "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md"
+    },
+    {
       "basename": "스레싱(Thrashing)",
-      "path": "OS/Thrashing/canvas/스레싱(Thrashing).md"
+      "path": "OS/Thrashing/md/스레싱(Thrashing).md"
     },
     {
       "basename": "Pasted image 20231217204647",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20231213173413",
       "path": "Network/GSLB/resources/Pasted image 20231213173413.png"
-    },
-    {
-      "basename": "Pasted image 20231212003842",
-      "path": "Network/NAT/resources/Pasted image 20231212003842.png"
-    },
-    {
-      "basename": "Pasted image 20231212003703",
-      "path": "Network/NAT/resources/Pasted image 20231212003703.png"
     }
   ],
   "omittedPaths": [],

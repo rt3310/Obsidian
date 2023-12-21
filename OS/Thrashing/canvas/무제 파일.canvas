@@ -1,11 +1,17 @@
 {
 	"nodes":[
-		{"id":"377992fa13b75bb3","type":"file","file":"OS/Thrashing/canvas/스레싱(Thrashing).md","x":-280,"y":-180,"width":491,"height":115},
+		{"id":"377992fa13b75bb3","type":"file","file":"OS/Thrashing/md/스레싱(Thrashing).md","x":-280,"y":-180,"width":491,"height":115},
 		{"id":"5285087ea5e58a73","type":"text","text":"컴퓨터에는 여러 프로그램이 동시에 메모리에 올라와있기 마련이다. 즉, 메모리에 올라와 있는 프로그램의 개수(Degree Of Multiprogramming)에 맞게 한정된 메모리 자원을 사이좋게 나눠 가져야한다.\n\n하지만, 프로그램마다 용량이 다르기 때문에 어느정도 빈부격차가 발생할 수 밖에 없다.\n결국 운영체제가 특정 프로그램에 메모리를 너무 적게 할당해줄 때 발생한다.","x":360,"y":-191,"width":688,"height":138},
-		{"id":"8727440b0d0443eb","type":"text","text":"일반적으로 Degree Of Multiprogramming이 증가함에 따라 CPU 이용률도 증가한다.\n\n메모리에 프로그램이 하나만 올라와 있으면, CPU 이용률은 낮아진다. CPU가 프로그램을 실행하다가 I/O 작업이 발생해서 Blocking 상태 등이 된다면 더 이상 CPU가 실행할 프로그램이 없기 때문이다.\n\n하지만, 프로그램을 메모리에 계속 올리다 보면 아래 그림처럼 CPU 이용률이 뚝 떨어지는 것을 볼 수 있다.\n![[Pasted image 20231221164018.png]]\n프로그램이 충분한 메모리 공간을 가져간다면 페이지 교체가 적게 발생해서 페이지 적중(Page Hit) 비율이 증가하는데, 프로그램이 너무 많이 올라오면 프로그램마다 할당되는 메모리 공간이 적어지고 페이지 부재(Page Fault)비율이 증가해서 결국 스레싱이 발생하는 것이다.\n\n운영체제는 CPU 이용률이 낮으면 프로그램을 더 올려야 한다고 판단한다. 그럼 각 프로세스가 갖고 있는 메모리 용량이 낮아지고, 낮아지면 페이지 부재가 더 발생하고 CPU이용률이 낮아지고 더 올리려하고... 계속 이 현상이 반복된다.","x":-404,"y":60,"width":739,"height":723}
+		{"id":"8727440b0d0443eb","type":"text","text":"일반적으로 Degree Of Multiprogramming이 증가함에 따라 CPU 이용률도 증가한다.\n\n메모리에 프로그램이 하나만 올라와 있으면, CPU 이용률은 낮아진다. CPU가 프로그램을 실행하다가 I/O 작업이 발생해서 Blocking 상태 등이 된다면 더 이상 CPU가 실행할 프로그램이 없기 때문이다.\n\n하지만, 프로그램을 메모리에 계속 올리다 보면 아래 그림처럼 CPU 이용률이 뚝 떨어지는 것을 볼 수 있다.\n![[Pasted image 20231221164018.png]]\n프로그램이 충분한 메모리 공간을 가져간다면 페이지 교체가 적게 발생해서 페이지 적중(Page Hit) 비율이 증가하는데, 프로그램이 너무 많이 올라오면 프로그램마다 할당되는 메모리 공간이 적어지고 페이지 부재(Page Fault)비율이 증가해서 결국 스레싱이 발생하는 것이다.\n\n운영체제는 CPU 이용률이 낮으면 프로그램을 더 올려야 한다고 판단한다. 그럼 각 프로세스가 갖고 있는 메모리 용량이 낮아지고, 낮아지면 페이지 부재가 더 발생하고 CPU이용률이 낮아지고 더 올리려하고... 계속 이 현상이 반복된다.","x":-404,"y":60,"width":739,"height":723},
+		{"id":"d185a5388823e22b","type":"text","text":"1. [[Working Set 알고리즘]]\n2. [[PFF(Page Fault Frequency) 알고리즘]]","x":500,"y":390,"width":338,"height":64},
+		{"id":"159120d7fcaef510","type":"file","file":"OS/Thrashing/md/Working Set 알고리즘.md","x":1006,"y":-53,"width":580,"height":533},
+		{"id":"10612df7fe0c7f80","type":"file","file":"OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md","x":1006,"y":560,"width":592,"height":400}
 	],
 	"edges":[
 		{"id":"bbe385f262b712ce","fromNode":"377992fa13b75bb3","fromSide":"right","toNode":"5285087ea5e58a73","toSide":"left","label":"왜 발생할까?"},
-		{"id":"8a191612596b3a7c","fromNode":"377992fa13b75bb3","fromSide":"bottom","toNode":"8727440b0d0443eb","toSide":"top","label":"스레싱 발생 워"}
+		{"id":"8a191612596b3a7c","fromNode":"377992fa13b75bb3","fromSide":"bottom","toNode":"8727440b0d0443eb","toSide":"top","label":"스레싱이 왜 발생하는가?"},
+		{"id":"e179edfb03495399","fromNode":"8727440b0d0443eb","fromSide":"right","toNode":"d185a5388823e22b","toSide":"left","label":"해결 방법"},
+		{"id":"58d360f73558d3e8","fromNode":"d185a5388823e22b","fromSide":"right","toNode":"159120d7fcaef510","toSide":"left"},
+		{"id":"cf736973e9430eb4","fromNode":"d185a5388823e22b","fromSide":"right","toNode":"10612df7fe0c7f80","toSide":"left"}
 	]
 }

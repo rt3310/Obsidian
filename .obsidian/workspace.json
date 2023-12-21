@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e7f9cc27ae1f3fe4",
+        "id": "1e351fdd27128e0a",
         "type": "tabs",
         "children": [
           {
-            "id": "c38f4584a7d89757",
+            "id": "cd676b1aa9a28bc7",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "OS/Thrashing/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": -149.7802320369214,
-                  "y": 343.55245117187485,
-                  "zoom": -0.41333333333333333
+                  "x": 1204.1075345280037,
+                  "y": 616.8086343827287,
+                  "zoom": -0.06808009831281912
                 }
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Thrashing/canvas/무제 파일.canvas",
+                "file": "OS/Thrashing/md/Working Set 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Thrashing/canvas/무제 파일.canvas",
+                "file": "OS/Thrashing/md/Working Set 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Thrashing/canvas/무제 파일.canvas"
+                "file": "OS/Thrashing/md/Working Set 알고리즘.md"
               }
             }
           }
@@ -164,12 +164,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c38f4584a7d89757",
+  "active": "cd676b1aa9a28bc7",
   "lastOpenFiles": [
-    "Pasted image 20231221164018.png",
-    "OS/Thrashing/canvas/스레싱(Thrashing).md",
-    "OS/Concurrency/resources/Pasted image 20231217204647.png",
+    "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md",
     "OS/Thrashing/canvas/무제 파일.canvas",
+    "OS/Thrashing/md/Working Set 알고리즘.md",
+    "Pasted image 20231221164018.png",
+    "OS/Thrashing/md/스레싱(Thrashing).md",
+    "OS/Concurrency/resources/Pasted image 20231217204647.png",
     "OS/Thread/canvas/Thread.canvas",
     "OS/Concurrency/resources/semaphore code.png",
     "OS/Concurrency/resources/Concurrent & Parallel.png",
@@ -216,11 +218,8 @@
     "Network/NAT/resources/Pasted image 20231212002734.png",
     "Network/GSLB/resources/GSLB Policy.png",
     "Network/GSLB/resources/Pasted image 20231213173343.png",
-    "Network/GSLB/resources/Pasted image 20231213173653.png",
     "Network/NAT/md/NAT(Network Address Translation).md",
     "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md",
-    "OS/Concurrency/md/약성 세마포어.md",
-    "OS/Concurrency/md/강성 세마포어.md",
-    "OS/Concurrency/md/뮤텍스.md"
+    "OS/Concurrency/md/약성 세마포어.md"
   ]
 }
