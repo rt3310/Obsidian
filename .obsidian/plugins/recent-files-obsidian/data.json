@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "제 2정규형(2NF - Second Normal Form)",
+      "path": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
+    },
+    {
+      "basename": "정규화",
+      "path": "DB/Normalization/canvas/정규화.canvas"
+    },
+    {
+      "basename": "제 1정규형 (1NF - First Normal Form)",
+      "path": "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md"
+    },
+    {
       "basename": "Garbage Collector",
       "path": "Java/JVM/canvas/Garbage Collector.canvas"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "인덱스를 사용할 수 없는 경우",
       "path": "DB/SQL/md/인덱스를 사용할 수 없는 경우.md"
-    },
-    {
-      "basename": "정규화",
-      "path": "DB/Normalization/canvas/정규화.canvas"
-    },
-    {
-      "basename": "Hash 트레이드오프",
-      "path": "DB/SQL/md/Hash 트레이드오프.md"
-    },
-    {
-      "basename": "all-to-all session replication",
-      "path": "Web/Session/resources/all-to-all session replication.png"
     }
   ],
   "omittedPaths": [],

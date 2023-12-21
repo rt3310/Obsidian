@@ -11,14 +11,11 @@
             "id": "c38f4584a7d89757",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
-                "viewState": {
-                  "x": 1546.8606736416882,
-                  "y": 2138.3690436579504,
-                  "zoom": -2.309083854695877
-                }
+                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -80,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -96,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas",
+                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/JVM/canvas/Garbage Collector.canvas"
+                "file": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
               }
             }
           }
@@ -165,8 +163,10 @@
   },
   "active": "c38f4584a7d89757",
   "lastOpenFiles": [
-    "Java/JVM/canvas/JVM.canvas",
+    "DB/Normalization/canvas/정규화.canvas",
+    "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
     "Java/JVM/canvas/Garbage Collector.canvas",
+    "Java/JVM/canvas/JVM.canvas",
     "Java/JVM/md/JVM(Java Virtual Machine).md",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas",
@@ -218,7 +218,6 @@
     "OS/Concurrency/md/강성 세마포어.md",
     "OS/Concurrency/md/뮤텍스.md",
     "OS/Concurrency/md/범용 세마포어.md",
-    "OS/Concurrency/md/세마포어(Semaphore).md",
-    "OS/Concurrency/md/메모리 인터리빙.md"
+    "OS/Concurrency/md/세마포어(Semaphore).md"
   ]
 }

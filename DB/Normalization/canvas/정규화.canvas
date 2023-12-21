@@ -7,10 +7,11 @@
 		{"id":"5ee018d20ff7c1b5","type":"file","file":"DB/Normalization/md/함수적 종속성.md","x":1317,"y":-918,"width":345,"height":290},
 		{"id":"f2b687d1ab870b32","type":"file","file":"DB/Normalization/md/부분 함수적 종속(Partial Functional Dependency).md","x":1895,"y":-1078,"width":584,"height":206},
 		{"id":"ccc04674643ddd88","type":"file","file":"DB/Normalization/md/완전 함수적 종속(Full Functional Dependency).md","x":1895,"y":-726,"width":629,"height":196},
-		{"id":"e2ecfc2a9a2fe389","type":"file","file":"DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md","x":-1040,"y":-1600,"width":546,"height":444},
 		{"id":"ad4abfe59ec0e598","type":"file","file":"DB/Normalization/md/갱신이상.md","x":184,"y":-75,"width":532,"height":195},
 		{"id":"e0379787b7809b7f","type":"file","file":"DB/Normalization/md/삽입이상.md","x":-389,"y":-75,"width":512,"height":225},
-		{"id":"46859359e8a4b480","type":"file","file":"DB/Normalization/md/삭제이상.md","x":805,"y":-75,"width":497,"height":195}
+		{"id":"46859359e8a4b480","type":"file","file":"DB/Normalization/md/삭제이상.md","x":805,"y":-75,"width":497,"height":195},
+		{"id":"e2ecfc2a9a2fe389","type":"file","file":"DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md","x":-1320,"y":-1599,"width":546,"height":444},
+		{"id":"45e4790641f99edb","x":-649,"y":-1599,"width":516,"height":442,"type":"file","file":"DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"}
 	],
 	"edges":[
 		{"id":"7c74b8a7cef7ef02","fromNode":"8b8118a2d8a1be52","fromSide":"right","toNode":"33d43086edeeaf0c","toSide":"left","label":"왜 필요한가?"},
@@ -22,6 +23,7 @@
 		{"id":"e6f9d9c7be9a9a07","fromNode":"5ee018d20ff7c1b5","fromSide":"right","toNode":"ccc04674643ddd88","toSide":"left","label":"완전 함수적 종속"},
 		{"id":"e2d21a6dd6913648","fromNode":"5ee018d20ff7c1b5","fromSide":"right","toNode":"f2b687d1ab870b32","toSide":"left","label":"부분 함수적 종속"},
 		{"id":"7a7b89f044b31022","fromNode":"8b8118a2d8a1be52","fromSide":"top","toNode":"9998934f0f95bd66","toSide":"bottom"},
-		{"id":"194468d2d146ef10","fromNode":"9998934f0f95bd66","fromSide":"top","toNode":"e2ecfc2a9a2fe389","toSide":"bottom","label":"1NF"}
+		{"id":"194468d2d146ef10","fromNode":"9998934f0f95bd66","fromSide":"top","toNode":"e2ecfc2a9a2fe389","toSide":"bottom","label":"1NF"},
+		{"id":"0093580bf696b8f1","fromNode":"9998934f0f95bd66","fromSide":"top","toNode":"45e4790641f99edb","toSide":"bottom"}
 	]
 }
