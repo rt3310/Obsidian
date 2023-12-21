@@ -53,5 +53,6 @@
   "Network/NAT": "FarStar",
   "Network/GSLB": "FarStar",
   "HTTP": "FarFolder",
-  "HTTP/URL": "FarStar"
+  "HTTP/URL": "FarStar",
+  "OS/Thrashing": "FarStar"
 }

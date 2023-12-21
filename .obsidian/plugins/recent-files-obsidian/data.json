@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "무제 파일",
+      "path": "OS/Thrashing/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "스레싱(Thrashing)",
+      "path": "OS/Thrashing/canvas/스레싱(Thrashing).md"
+    },
+    {
+      "basename": "Pasted image 20231217204647",
+      "path": "OS/Concurrency/resources/Pasted image 20231217204647.png"
+    },
+    {
+      "basename": "Thread",
+      "path": "OS/Thread/canvas/Thread.canvas"
+    },
+    {
+      "basename": "semaphore code",
+      "path": "OS/Concurrency/resources/semaphore code.png"
+    },
+    {
+      "basename": "Concurrent & Parallel",
+      "path": "OS/Concurrency/resources/Concurrent & Parallel.png"
+    },
+    {
+      "basename": "DeadLock",
+      "path": "OS/Concurrency/canvas/DeadLock.canvas"
+    },
+    {
+      "basename": "Concurrency",
+      "path": "OS/Concurrency/canvas/Concurrency.canvas"
+    },
+    {
+      "basename": "Semaphore",
+      "path": "OS/Concurrency/canvas/Semaphore.canvas"
+    },
+    {
+      "basename": "Pasted image 20231217214906",
+      "path": "OS/Concurrency/resources/Pasted image 20231217214906.png"
+    },
+    {
       "basename": "정규화",
       "path": "DB/Normalization/canvas/정규화.canvas"
     },
@@ -41,16 +81,8 @@
       "path": "Java/JVM/md/JVM 동작 과정.md"
     },
     {
-      "basename": "Semaphore",
-      "path": "OS/Concurrency/canvas/Semaphore.canvas"
-    },
-    {
       "basename": "교착상태 발견(deadlock detection)",
       "path": "OS/Concurrency/md/교착상태 발견(deadlock detection).md"
-    },
-    {
-      "basename": "DeadLock",
-      "path": "OS/Concurrency/canvas/DeadLock.canvas"
     },
     {
       "basename": "식사하는 철학자 문제",
@@ -97,16 +129,8 @@
       "path": "OS/Concurrency/md/프로세스에서의 자원 이용.md"
     },
     {
-      "basename": "Thread",
-      "path": "OS/Thread/canvas/Thread.canvas"
-    },
-    {
       "basename": "교착상태 회피(deadlock avoidance)",
       "path": "OS/Concurrency/md/교착상태 회피(deadlock avoidance).md"
-    },
-    {
-      "basename": "Pasted image 20231217204644",
-      "path": "Pasted image 20231217204644.png"
     },
     {
       "basename": "semWait(x) 연산 (P 연산)",
@@ -153,10 +177,6 @@
       "path": "Network/GSLB/md/GSLB(Global Server Load Balancing).md"
     },
     {
-      "basename": "semaphore code",
-      "path": "OS/Concurrency/resources/semaphore code.png"
-    },
-    {
       "basename": "Pasted image 20231212002734",
       "path": "Network/NAT/resources/Pasted image 20231212002734.png"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Pasted image 20231212003703",
       "path": "Network/NAT/resources/Pasted image 20231212003703.png"
-    },
-    {
-      "basename": "NAT",
-      "path": "Network/NAT/canvas/NAT.canvas"
-    },
-    {
-      "basename": "NAT(Network Address Translation)",
-      "path": "Network/NAT/md/NAT(Network Address Translation).md"
-    },
-    {
-      "basename": "SQL",
-      "path": "DB/SQL/canvas/SQL.canvas"
-    },
-    {
-      "basename": "인덱스를 사용하는 것이 좋은지 판단",
-      "path": "DB/SQL/md/인덱스를 사용하는 것이 좋은지 판단.md"
-    },
-    {
-      "basename": "인덱스를 사용할 수 없는 경우 대처",
-      "path": "DB/SQL/md/인덱스를 사용할 수 없는 경우 대처.md"
     }
   ],
   "omittedPaths": [],
