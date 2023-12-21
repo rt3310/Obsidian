@@ -5,12 +5,12 @@
       "path": "OS/Thrashing/md/Working Set 알고리즘.md"
     },
     {
-      "basename": "무제 파일",
-      "path": "OS/Thrashing/canvas/무제 파일.canvas"
-    },
-    {
       "basename": "PFF(Page Fault Frequency) 알고리즘",
       "path": "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "OS/Thrashing/canvas/무제 파일.canvas"
     },
     {
       "basename": "스레싱(Thrashing)",
