@@ -15,9 +15,9 @@
               "state": {
                 "file": "DB/Normalization/canvas/정규화.canvas",
                 "viewState": {
-                  "x": -246.74888385025875,
-                  "y": -1426.656447610684,
-                  "zoom": -0.44159402182702107
+                  "x": 360.4234215690254,
+                  "y": -1931.51622169383,
+                  "zoom": -1.0749273551603544
                 }
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md",
+                "file": "DB/Normalization/canvas/정규화.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md",
+                "file": "DB/Normalization/canvas/정규화.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md"
+                "file": "DB/Normalization/canvas/정규화.canvas"
               }
             }
           }
