@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/SQL/canvas/Join.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": -356.2604159615202,
+                  "y": -527.1445587962723,
+                  "zoom": 0.5399954202773851
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/canvas/Join.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/canvas/Join.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/canvas/Join.canvas"
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
               }
             }
           }
@@ -165,9 +165,10 @@
   },
   "active": "cd676b1aa9a28bc7",
   "lastOpenFiles": [
-    "DB/SQL/canvas/NL 조인.md",
-    "OS/Thrashing/canvas/무제 파일.canvas",
+    "DB/SQL/canvas/SQL.canvas",
     "DB/SQL/canvas/Join.canvas",
+    "DB/SQL/md/NL 조인.md",
+    "OS/Thrashing/canvas/무제 파일.canvas",
     "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md",
     "OS/Thrashing/md/Working Set 알고리즘.md",
     "Pasted image 20231221164018.png",
@@ -219,7 +220,6 @@
     "Network/GSLB/resources/GSLB Policy.png",
     "Network/GSLB/resources/Pasted image 20231213173343.png",
     "Network/NAT/md/NAT(Network Address Translation).md",
-    "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md",
-    "OS/Concurrency/md/약성 세마포어.md"
+    "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md"
   ]
 }

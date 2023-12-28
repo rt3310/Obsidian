@@ -6,7 +6,7 @@
 		{"id":"63e30ca8e3ae6fff","type":"file","file":"DB/Transaction/md/Non-Repeatable Read.md","x":141,"y":1600,"width":740,"height":1704},
 		{"id":"8a354b978516fed9","type":"file","file":"DB/Transaction/md/READ UNCOMMITTED.md","x":-620,"y":-185,"width":644,"height":145},
 		{"id":"3e0701bc6a8cbd11","type":"file","file":"DB/Transaction/md/MVCC.md","x":1191,"y":-800,"width":603,"height":346},
-		{"id":"dcbb3435d83bc9d2","type":"text","text":"# Transaction 격리 수준","x":-775,"y":-584,"width":310,"height":39},
+		{"id":"dcbb3435d83bc9d2","type":"text","text":"# Transaction 격리 수준","x":-775,"y":-584,"width":328,"height":39},
 		{"id":"c50d0668cf011443","type":"text","text":"여러 트랜잭션이 동시에 처리될 때, 특정 트랜잭션이 다른 트랜잭션에서 변경하거나 조회하는 데이터를 볼 수 있게 허용할지 여부를 결정하는 것","x":-873,"y":-843,"width":507,"height":87},
 		{"id":"1a3a712d3cd012fb","type":"file","file":"DB/Transaction/md/SERIALIZABLE.md","x":320,"y":-986,"width":631,"height":176},
 		{"id":"434c95c3c3bafa5a","type":"file","file":"DB/Transaction/md/SERIALIZABLE 작동 방식.md","x":1191,"y":-1220,"width":664,"height":322},

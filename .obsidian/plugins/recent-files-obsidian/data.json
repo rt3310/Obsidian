@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Join",
-      "path": "DB/SQL/canvas/Join.canvas"
+      "basename": "트랜잭션 격리 수준",
+      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "SQL",
+      "path": "DB/SQL/canvas/SQL.canvas"
     },
     {
       "basename": "NL 조인",
-      "path": "DB/SQL/canvas/NL 조인.md"
+      "path": "DB/SQL/md/NL 조인.md"
+    },
+    {
+      "basename": "Join",
+      "path": "DB/SQL/canvas/Join.canvas"
     },
     {
       "basename": "무제 파일",
@@ -191,14 +199,6 @@
     {
       "basename": "GSLB(Global Server Load Balancing)",
       "path": "Network/GSLB/md/GSLB(Global Server Load Balancing).md"
-    },
-    {
-      "basename": "Pasted image 20231212002734",
-      "path": "Network/NAT/resources/Pasted image 20231212002734.png"
-    },
-    {
-      "basename": "Pasted image 20231213173343",
-      "path": "Network/GSLB/resources/Pasted image 20231213173343.png"
     }
   ],
   "omittedPaths": [],
