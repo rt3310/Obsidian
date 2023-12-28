@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"d52a494ff0838809","x":-600,"y":-220,"width":116,"height":60,"type":"text","text":"# Join"},
+		{"id":"80227bdd4f6f2afa","x":-300,"y":-255,"width":201,"height":130,"type":"text","text":"- NL 조인\n- 소트머지 조인\n- 해시 조인\n- 서브쿼리 조인"},
+		{"id":"80b035dc0e915550","x":55,"y":-346,"width":545,"height":246,"type":"file","file":"DB/SQL/canvas/NL 조인.md"}
+	],
+	"edges":[
+		{"id":"f6fd51ea54930034","fromNode":"d52a494ff0838809","fromSide":"right","toNode":"80227bdd4f6f2afa","toSide":"left","label":"방식"},
+		{"id":"57d785d533cf1128","fromNode":"80227bdd4f6f2afa","fromSide":"right","toNode":"80b035dc0e915550","toSide":"left"}
+	]
+}
