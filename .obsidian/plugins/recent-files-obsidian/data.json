@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제 파일",
+      "path": "OS/Thrashing/canvas/무제 파일.canvas"
+    },
+    {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Join",
       "path": "DB/SQL/canvas/Join.canvas"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "OS/Thrashing/canvas/무제 파일.canvas"
     },
     {
       "basename": "PFF(Page Fault Frequency) 알고리즘",
