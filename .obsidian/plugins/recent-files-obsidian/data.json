@@ -5,6 +5,14 @@
       "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
+      "basename": "TCP 커넥션",
+      "path": "HTTP/Connection/md/TCP 커넥션.md"
+    },
+    {
+      "basename": "HTTP 커넥션",
+      "path": "HTTP/Connection/md/HTTP 커넥션.md"
+    },
+    {
       "basename": "병렬 커넥션",
       "path": "HTTP/Connection/md/병렬 커넥션.md"
     },
@@ -29,10 +37,6 @@
       "path": "HTTP/Connection/md/HTTP 커넥션 성능 향상 기술.md"
     },
     {
-      "basename": "HTTP 커넥션",
-      "path": "HTTP/Connection/md/HTTP 커넥션.md"
-    },
-    {
       "basename": "IP 패킷 구성",
       "path": "HTTP/Connection/md/IP 패킷 구성.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "TCP 소켓 프로그래밍",
       "path": "HTTP/Connection/md/TCP 소켓 프로그래밍.md"
-    },
-    {
-      "basename": "TCP 커넥션",
-      "path": "HTTP/Connection/md/TCP 커넥션.md"
     },
     {
       "basename": "TCP 데이터 전송",
