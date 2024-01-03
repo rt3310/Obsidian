@@ -8,7 +8,7 @@
 		{"id":"9201bd97269512d0","type":"file","file":"HTTP/Connection/md/IP 헤더 구성.md","x":940,"y":483,"width":275,"height":154},
 		{"id":"fe7764d244e1d106","x":216,"y":742,"width":515,"height":154,"type":"file","file":"HTTP/Connection/canvas/TCP 세그먼트 헤더 구성.md"},
 		{"id":"f05eded8e2400426","type":"file","file":"HTTP/Connection/md/TCP 데이터 전송.md","x":-650,"y":399,"width":673,"height":322},
-		{"id":"a7a6170af572e459","x":-501,"y":959,"width":561,"height":221,"type":"text","text":"컴퓨터는 항상 TCP 커넥션을 여러 개 가지고 있다.\nTCP는 포트 번호를 통해서 이런 여러 개의 커넥션을 유지한다.\n\nTCP 커넥션은 네 가지 값으로"}
+		{"id":"a7a6170af572e459","x":-594,"y":896,"width":561,"height":247,"type":"text","text":"컴퓨터는 항상 TCP 커넥션을 여러 개 가지고 있다.\nTCP는 포트 번호를 통해서 이런 여러 개의 커넥션을 유지한다.\n\nTCP 커넥션은 네 가지 값으로 식별한다.\n**<발신지 IP 주소, 발신지 포트, 수신지 IP 주소, 수신지 포트>**\n\n어떤 커넥션들은 같은 목적지 포트 번호를 가리킬 수 있다.\n하지만 네 가지 커넥션 구성요소를 모두 똑같이 가리키고 있는 커넥션은 있을 수 없다."}
 	],
 	"edges":[
 		{"id":"dec4ddf94090fde1","fromNode":"c61938553c630481","fromSide":"right","toNode":"220e30899fdfd2b1","toSide":"left","label":"브라우저에 주소를 입력하면?"},
@@ -18,6 +18,6 @@
 		{"id":"599be0061c2ed2a7","fromNode":"5e803365927ed469","fromSide":"right","toNode":"9201bd97269512d0","toSide":"left","label":"IP 헤더 구성"},
 		{"id":"f8ddb6dbfa2fb191","fromNode":"5e803365927ed469","fromSide":"top","toNode":"a5942026ca893e5a","toSide":"bottom"},
 		{"id":"e2221c8964e43758","fromNode":"5e803365927ed469","fromSide":"bottom","toNode":"fe7764d244e1d106","toSide":"top","label":"TCP 세그먼트 헤더 구성"},
-		{"id":"87978136b524f987","fromNode":"f05eded8e2400426","fromSide":"bottom","toNode":"a7a6170af572e459","toSide":"top"}
+		{"id":"87978136b524f987","fromNode":"f05eded8e2400426","fromSide":"bottom","toNode":"a7a6170af572e459","toSide":"top","label":"TCP 커넥션 유지"}
 	]
 }
