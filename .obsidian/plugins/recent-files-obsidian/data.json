@@ -5,20 +5,28 @@
       "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
+      "basename": "병렬 커넥션",
+      "path": "HTTP/Connection/md/병렬 커넥션.md"
+    },
+    {
+      "basename": "NAT",
+      "path": "Network/NAT/canvas/NAT.canvas"
+    },
+    {
+      "basename": "NAT(Network Address Translation)",
+      "path": "Network/NAT/md/NAT(Network Address Translation).md"
+    },
+    {
       "basename": "병렬 커넥션 vs 지속 커넥션",
-      "path": "HTTP/Connection/canvas/병렬 커넥션 vs 지속 커넥션.md"
+      "path": "HTTP/Connection/md/병렬 커넥션 vs 지속 커넥션.md"
     },
     {
       "basename": "지속 커넥션",
-      "path": "HTTP/Connection/canvas/지속 커넥션.md"
-    },
-    {
-      "basename": "병렬 커넥션",
-      "path": "HTTP/Connection/canvas/병렬 커넥션.md"
+      "path": "HTTP/Connection/md/지속 커넥션.md"
     },
     {
       "basename": "HTTP 커넥션 성능 향상 기술",
-      "path": "HTTP/Connection/canvas/HTTP 커넥션 성능 향상 기술.md"
+      "path": "HTTP/Connection/md/HTTP 커넥션 성능 향상 기술.md"
     },
     {
       "basename": "HTTP 커넥션",
@@ -191,14 +199,6 @@
     {
       "basename": "프로세스 시작 거부",
       "path": "OS/Concurrency/md/프로세스 시작 거부.md"
-    },
-    {
-      "basename": "교착상태 예방(deadlock prevention)",
-      "path": "OS/Concurrency/md/교착상태 예방(deadlock prevention).md"
-    },
-    {
-      "basename": "교착상태 발생 조건",
-      "path": "OS/Concurrency/md/교착상태 발생 조건.md"
     }
   ],
   "omittedPaths": [],
