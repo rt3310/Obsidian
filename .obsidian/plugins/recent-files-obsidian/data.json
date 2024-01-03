@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "HTTP Connection",
+      "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
+    },
+    {
+      "basename": "TCP 커넥션",
+      "path": "HTTP/Connection/canvas/TCP 커넥션.md"
+    },
+    {
       "basename": "무제 파일",
       "path": "OS/Thrashing/canvas/무제 파일.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "URL",
       "path": "HTTP/URL/canvas/URL.canvas"
-    },
-    {
-      "basename": "GSLB Policy",
-      "path": "Network/GSLB/resources/GSLB Policy.png"
-    },
-    {
-      "basename": "GSLB(Global Server Load Balancing)",
-      "path": "Network/GSLB/md/GSLB(Global Server Load Balancing).md"
     }
   ],
   "omittedPaths": [],

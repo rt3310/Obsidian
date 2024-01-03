@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"c61938553c630481","x":-540,"y":-60,"width":452,"height":145,"type":"file","file":"HTTP/Connection/canvas/TCP 커넥션.md"},
+		{"id":"220e30899fdfd2b1","x":40,"y":-298,"width":441,"height":238,"type":"text","text":"1. 브라우저가 url의 호스트명을 추출한다.\n2. 브라우저가 호스트명에 댛"}
+	],
+	"edges":[
+		{"id":"dec4ddf94090fde1","fromNode":"c61938553c630481","fromSide":"right","toNode":"220e30899fdfd2b1","toSide":"left"}
+	]
+}

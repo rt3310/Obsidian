@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Thrashing/canvas/무제 파일.canvas",
+                "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
                 "viewState": {
-                  "x": 1141.2632258288486,
-                  "y": 537.0727224338023,
-                  "zoom": -0.9800000000000005
+                  "x": 306.66693115234375,
+                  "y": 0,
+                  "zoom": 0
                 }
               }
             }
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Thrashing/canvas/무제 파일.canvas",
+                "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Thrashing/canvas/무제 파일.canvas",
+                "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Thrashing/canvas/무제 파일.canvas"
+                "file": "HTTP/Connection/canvas/HTTP Connection.canvas"
               }
             }
           }
@@ -166,10 +165,16 @@
   },
   "active": "cd676b1aa9a28bc7",
   "lastOpenFiles": [
+    "HTTP/Connection/canvas/TCP 커넥션.md",
+    "OS/Thrashing/canvas/무제 파일.canvas",
+    "HTTP/Connection/canvas/HTTP Connection.canvas",
+    "HTTP/Connection/resources",
+    "HTTP/Connection/md",
+    "HTTP/Connection/canvas",
+    "HTTP/Connection",
     "DB/SQL/md/NL 조인.md",
     "DB/SQL/canvas/Join.canvas",
     "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md",
-    "OS/Thrashing/canvas/무제 파일.canvas",
     "OS/Thrashing/md/Working Set 알고리즘.md",
     "Pasted image 20231221164018.png",
     "OS/Thrashing/md/스레싱(Thrashing).md",
@@ -209,18 +214,12 @@
     "OS/Concurrency/canvas/무제 폴더",
     "OS/Concurrency/md/semWait(x) 연산 (P 연산).md",
     "OS/Concurrency/md/이진 세마포어.md",
-    "Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "HTTP/URL/md",
-    "HTTP/URL/resources",
-    "HTTP/URL/canvas",
-    "HTTP/URL",
-    "HTTP",
     "Network/GSLB/md/GSLB(Global Server Load Balancing).md",
     "Network/NAT/resources/Pasted image 20231212002734.png",
     "Network/GSLB/resources/GSLB Policy.png",
     "Network/GSLB/resources/Pasted image 20231213173343.png",
     "Network/NAT/md/NAT(Network Address Translation).md",
-    "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md",
-    "OS/Concurrency/md/약성 세마포어.md"
+    "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md"
   ]
 }

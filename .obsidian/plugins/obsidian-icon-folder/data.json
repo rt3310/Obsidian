@@ -54,5 +54,6 @@
   "Network/GSLB": "FarStar",
   "HTTP": "FarFolder",
   "HTTP/URL": "FarStar",
-  "OS/Thrashing": "FarStar"
+  "OS/Thrashing": "FarStar",
+  "HTTP/Connection": "FarStar"
 }
