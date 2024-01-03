@@ -51,9 +51,9 @@
               "state": {
                 "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
                 "viewState": {
-                  "x": -124.59591878999942,
-                  "y": -105.9512486038214,
-                  "zoom": -0.5
+                  "x": -137.23491444385428,
+                  "y": 176.57401381749065,
+                  "zoom": -0.980850602272203
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
+                "file": "HTTP/Connection/md/HTTP 커넥션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
+                "file": "HTTP/Connection/md/HTTP 커넥션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP/Connection/canvas/HTTP Connection.canvas"
+                "file": "HTTP/Connection/md/HTTP 커넥션.md"
               }
             }
           }
@@ -202,14 +202,15 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
-    "HTTP/Connection/canvas/TCP 세그먼트 헤더 구성.md",
+    "HTTP/Connection/md/TCP 세그먼트 헤더 구성.md",
+    "HTTP/Connection/canvas/HTTP Connection.canvas",
+    "HTTP/Connection/md/TCP 소켓 프로그래밍.md",
     "HTTP/Connection/md/HTTP 커넥션.md",
     "HTTP/Connection/md/TCP 데이터 전송.md",
     "HTTP/Connection/md/IP 헤더 구성.md",
     "Pasted image 20231221164018.png",
     "HTTP/Connection/md/IP 패킷 구성.md",
     "HTTP/Connection/md/TCP 커넥션.md",
-    "HTTP/Connection/canvas/HTTP Connection.canvas",
     "HTTP/Connection/resources/IP 패킷.png",
     "OS/Thrashing/canvas/무제 파일.canvas",
     "HTTP/Connection/resources",
@@ -252,8 +253,6 @@
     "OS/Concurrency/md/프로세스 시작 거부.md",
     "OS/Concurrency/md/교착상태 회피(deadlock avoidance).md",
     "OS/Concurrency/md/교착상태 예방(deadlock prevention).md",
-    "OS/Concurrency/md/교착상태 발생 조건.md",
-    "OS/Concurrency/md/교착상태(DeadLock).md",
     "OS/Concurrency/canvas/무제 폴더",
     "HTTP/URL/md",
     "Network/NAT/resources/Pasted image 20231212002734.png",

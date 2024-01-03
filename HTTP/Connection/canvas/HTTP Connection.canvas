@@ -1,15 +1,15 @@
 {
 	"nodes":[
-		{"id":"d0edd324b279af6d","type":"file","file":"HTTP/Connection/md/HTTP 커넥션.md","x":-1160,"y":-60,"width":551,"height":145},
 		{"id":"5e803365927ed469","type":"file","file":"HTTP/Connection/md/IP 패킷 구성.md","x":236,"y":483,"width":474,"height":154},
-		{"id":"a5942026ca893e5a","type":"file","file":"HTTP/Connection/resources/IP 패킷.png","x":273,"y":13,"width":400,"height":375},
-		{"id":"220e30899fdfd2b1","type":"text","text":"1. 브라우저가 url의 호스트명을 추출한다.\n2. 브라우저가 호스트명에 대한 IP 주소를 찾는다\n3. 브라우저가 포트 번호(80)를 얻는다.\n4. 브라우저가 IP의 포트(80)로 TCP 커넥션을 생성한다.\n5. 브라우저가 서버로 HTTP GET 요청 메시지를 보낸다.\n6. 브라우저가 서버에서 온 HTTP 응답 메시지를 읽는다.\n7. 브라우저가 커넥션을 끊는다.","x":273,"y":-360,"width":472,"height":229},
 		{"id":"9201bd97269512d0","type":"file","file":"HTTP/Connection/md/IP 헤더 구성.md","x":940,"y":483,"width":275,"height":154},
-		{"id":"fe7764d244e1d106","x":216,"y":742,"width":515,"height":154,"type":"file","file":"HTTP/Connection/canvas/TCP 세그먼트 헤더 구성.md"},
 		{"id":"f05eded8e2400426","type":"file","file":"HTTP/Connection/md/TCP 데이터 전송.md","x":-650,"y":399,"width":673,"height":322},
-		{"id":"a7a6170af572e459","x":-594,"y":896,"width":561,"height":247,"type":"text","text":"컴퓨터는 항상 TCP 커넥션을 여러 개 가지고 있다.\nTCP는 포트 번호를 통해서 이런 여러 개의 커넥션을 유지한다.\n\nTCP 커넥션은 네 가지 값으로 식별한다.\n**<발신지 IP 주소, 발신지 포트, 수신지 IP 주소, 수신지 포트>**\n\n어떤 커넥션들은 같은 목적지 포트 번호를 가리킬 수 있다.\n하지만 네 가지 커넥션 구성요소를 모두 똑같이 가리키고 있는 커넥션은 있을 수 없다."},
+		{"id":"a7a6170af572e459","type":"text","text":"컴퓨터는 항상 TCP 커넥션을 여러 개 가지고 있다.\nTCP는 포트 번호를 통해서 이런 여러 개의 커넥션을 유지한다.\n\nTCP 커넥션은 네 가지 값으로 식별한다.\n**<발신지 IP 주소, 발신지 포트, 수신지 IP 주소, 수신지 포트>**\n\n어떤 커넥션들은 같은 목적지 포트 번호를 가리킬 수 있다.\n하지만 네 가지 커넥션 구성요소를 모두 똑같이 가리키고 있는 커넥션은 있을 수 없다.","x":-594,"y":896,"width":561,"height":247},
 		{"id":"c61938553c630481","type":"file","file":"HTTP/Connection/md/TCP 커넥션.md","x":-539,"y":-60,"width":452,"height":145},
-		{"id":"7ee658970a5509d8","x":-600,"y":-545,"width":575,"height":370,"type":"text","text":"소켓 API를 사용하면, TCP 종단(endpoint)"}
+		{"id":"ef5290e3a1b00b6f","type":"file","file":"HTTP/Connection/md/TCP 소켓 프로그래밍.md","x":-533,"y":-488,"width":439,"height":256},
+		{"id":"fe7764d244e1d106","type":"file","file":"HTTP/Connection/md/TCP 세그먼트 헤더 구성.md","x":216,"y":819,"width":515,"height":154},
+		{"id":"a5942026ca893e5a","type":"file","file":"HTTP/Connection/resources/IP 패킷.png","x":815,"y":819,"width":400,"height":375},
+		{"id":"220e30899fdfd2b1","type":"text","text":"1. 브라우저가 url의 호스트명을 추출한다.\n2. 브라우저가 호스트명에 대한 IP 주소를 찾는다\n3. 브라우저가 포트 번호(80)를 얻는다.\n4. 브라우저가 IP의 포트(80)로 TCP 커넥션을 생성한다.\n5. 브라우저가 서버로 HTTP GET 요청 메시지를 보낸다.\n6. 브라우저가 서버에서 온 HTTP 응답 메시지를 읽는다.\n7. 브라우저가 커넥션을 끊는다.","x":400,"y":-102,"width":472,"height":229},
+		{"id":"d0edd324b279af6d","type":"file","file":"HTTP/Connection/md/HTTP 커넥션.md","x":-1240,"y":-60,"width":551,"height":145}
 	],
 	"edges":[
 		{"id":"dec4ddf94090fde1","fromNode":"c61938553c630481","fromSide":"right","toNode":"220e30899fdfd2b1","toSide":"left","label":"브라우저에 주소를 입력하면?"},
@@ -17,9 +17,9 @@
 		{"id":"803938f632f27c65","fromNode":"c61938553c630481","fromSide":"bottom","toNode":"f05eded8e2400426","toSide":"top","label":"데이터 전송 방식"},
 		{"id":"5b3ae9640a1d9cd0","fromNode":"f05eded8e2400426","fromSide":"right","toNode":"5e803365927ed469","toSide":"left","label":"IP 패킷 구성"},
 		{"id":"599be0061c2ed2a7","fromNode":"5e803365927ed469","fromSide":"right","toNode":"9201bd97269512d0","toSide":"left","label":"IP 헤더 구성"},
-		{"id":"f8ddb6dbfa2fb191","fromNode":"5e803365927ed469","fromSide":"top","toNode":"a5942026ca893e5a","toSide":"bottom"},
+		{"id":"f8ddb6dbfa2fb191","fromNode":"5e803365927ed469","fromSide":"bottom","toNode":"a5942026ca893e5a","toSide":"top"},
 		{"id":"e2221c8964e43758","fromNode":"5e803365927ed469","fromSide":"bottom","toNode":"fe7764d244e1d106","toSide":"top","label":"TCP 세그먼트 헤더 구성"},
 		{"id":"87978136b524f987","fromNode":"f05eded8e2400426","fromSide":"bottom","toNode":"a7a6170af572e459","toSide":"top","label":"TCP 커넥션 유지"},
-		{"id":"ebbe7c89288215cb","fromNode":"c61938553c630481","fromSide":"top","toNode":"7ee658970a5509d8","toSide":"bottom"}
+		{"id":"ebbe7c89288215cb","fromNode":"c61938553c630481","fromSide":"top","toNode":"ef5290e3a1b00b6f","toSide":"bottom","label":"TCP 소켓 프로그래밍"}
 	]
 }
