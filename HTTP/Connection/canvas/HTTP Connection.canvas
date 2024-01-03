@@ -20,8 +20,9 @@
 		{"id":"2689ce1341d03bb4","x":-2426,"y":-1182,"width":550,"height":126,"type":"text","text":"- 각 트랜잭션마다, 새로운 커넥션을 맺고 끊기 때문에 시간과 대역폭이 소요된다.\n- 각각의 새로운 커넥션은 TCP 느린 시작 때문에 성능이 떨어진다.\n- 실제로 연결할 수 있는 병렬 커넥션 수에는 제한이 있다."},
 		{"id":"bcb5b9c767a64470","x":-1837,"y":-994,"width":503,"height":394,"type":"file","file":"HTTP/Connection/canvas/지속 커넥션.md"},
 		{"id":"27a504d3b7b34e1a","x":-1848,"y":-1513,"width":526,"height":394,"type":"file","file":"HTTP/Connection/canvas/병렬 커넥션 vs 지속 커넥션.md"},
-		{"id":"bf93f49145ed3498","x":-1832,"y":-1940,"width":494,"height":275,"type":"text","text":""},
-		{"id":"804733d8f52f1c1e","x":-1124,"y":-1924,"width":464,"height":244,"type":"text","text":"keep-alive는 사용하지 않기로 결정되어 HTTP/1.1 명세에서 빠졌다. 하지만 아직도 브라우저와 서버 간에 keep-alive 핸드셰이크가 널리 사용되고 있기 때문에, HTTP 애플리케이션은 그것을 처리할 수 있게 개발해야 한다."}
+		{"id":"804733d8f52f1c1e","x":-1120,"y":-2040,"width":502,"height":332,"type":"text","text":"keep-alive는 사용하지 않기로 결정되어 HTTP/1.1 명세에서 빠졌다. 하지만 아직도 브라우저와 서버 간에 keep-alive 핸드셰이크가 널리 사용되고 있기 때문에, HTTP 애플리케이션은 그것을 처리할 수 있게 개발해야 한다.\n\nHTTP/1.0 keep-alive 커넥션을 구현한 클라이언트는 커넥션을 유지하기 위해서 요청에 Connection:Keep-Alive 헤더를 포함시킨다. 이 요청을 받는 서버는 그다음 요청도 이 커넥션을 통해 받고자 한다면, 응답 메시지에 같은 헤더를 포함시켜 응답한다.\n응답에 Connection: Keep-Alive 헤더가 없으면, 클라이언트는 서버가 keep-alive를 지원하지 않으며, 응답 메시지가 전소오디고 나면 서버 커넥션을 끊을 것이라 추청한다."},
+		{"id":"e8398d59c95e38f4","x":-1120,"y":-1619,"width":512,"height":500,"type":"text","text":"Keep-Alive 헤더는 커넥션을 유지하기를 바라는 요청일 뿐이다.\n클라이언트나 서버가 keep-alive 요청을 받았다고 해서 무조건 그것을 따를 필요는 없다. 언제든지 현재의 keep-alive 커넥션을 끊을 수 있으며 keep-alive 커넥션에서 처리되는 트랜잭션의 수를 제한할 수도 있다.\n- timeout\n\t- Keep-Alive 응답 헤더를 통해 보낸다.\n\t- 커넥션이 얼마간 유지될 것인지를 의미한다.\n\t- 이대로 동작한다는 보장은 없다.\n- max\n\t- Keep-Alive 응답 헤더를 통해 보낸다.\n\t- 커넥션이 몇 개의 HTTP 트랜잭션을 처리할 때까지 유지될 것인지를 의미한다.\n\t- 이대로 동작한다는 보장은 없다.\n- Keep-Alive 헤더는 진단이나 디버깅을 주목적으로 하는, 처리되지는 않는 임의의 속성들을 지원하기도 한다.\n\t- 이름[=값] 같은 식이다."},
+		{"id":"bf93f49145ed3498","x":-1832,"y":-1874,"width":494,"height":208,"type":"text","text":"많은 HTTP/1.0 브라우저와 서버들은 일찍부터 다소 실험적이었던 keep-alive 커넥션이라는 지속 커넥션을 지원하기 위해 확장되었다.\n이 초기의 지속 커넥션은 상호 운용과 관련된 설계에 문제가 있었지만, 아직 많은 클라이언트와 서버는 이 초기 keep-alive 커넥션을 사용하고 있다. 그리고 설계상의 문제는 HTTP/1.1에서 수정되었다."}
 	],
 	"edges":[
 		{"id":"d8cae87fbd8c692b","fromNode":"d0edd324b279af6d","fromSide":"right","toNode":"c61938553c630481","toSide":"left"},
@@ -44,6 +45,7 @@
 		{"id":"a1f70f1aca143398","fromNode":"8cc9b9580a8ff4d3","fromSide":"top","toNode":"2689ce1341d03bb4","toSide":"bottom","label":"단점"},
 		{"id":"ef2561c71acfb286","fromNode":"bcb5b9c767a64470","fromSide":"top","toNode":"27a504d3b7b34e1a","toSide":"bottom","label":"병렬 커넥션 vs 지속 커넥션"},
 		{"id":"860c66a8c04e9923","fromNode":"27a504d3b7b34e1a","fromSide":"top","toNode":"bf93f49145ed3498","toSide":"bottom","label":"Keep-Alive 커넥션"},
-		{"id":"612ca9a6cf6bc46e","fromNode":"bf93f49145ed3498","fromSide":"right","toNode":"804733d8f52f1c1e","toSide":"left"}
+		{"id":"612ca9a6cf6bc46e","fromNode":"bf93f49145ed3498","fromSide":"right","toNode":"804733d8f52f1c1e","toSide":"left","label":"동작"},
+		{"id":"14af3332bab29903","fromNode":"bf93f49145ed3498","fromSide":"right","toNode":"e8398d59c95e38f4","toSide":"left","label":"옵션"}
 	]
 }
