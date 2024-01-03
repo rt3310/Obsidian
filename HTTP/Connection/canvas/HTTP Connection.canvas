@@ -11,7 +11,9 @@
 		{"id":"d0edd324b279af6d","type":"file","file":"HTTP/Connection/md/HTTP 커넥션.md","x":-1240,"y":-60,"width":551,"height":145},
 		{"id":"220e30899fdfd2b1","type":"text","text":"1. 브라우저가 url의 호스트명을 추출한다.\n2. 브라우저가 호스트명에 대한 IP 주소를 찾는다\n3. 브라우저가 포트 번호(80)를 얻는다.\n4. 브라우저가 IP의 포트(80)로 TCP 커넥션을 생성한다.\n5. 브라우저가 서버로 HTTP GET 요청 메시지를 보낸다.\n6. 브라우저가 서버에서 온 HTTP 응답 메시지를 읽는다.\n7. 브라우저가 커넥션을 끊는다.","x":280,"y":120,"width":472,"height":229},
 		{"id":"d101e3bce685181e","type":"text","text":"HTTP는 TCP 바로 위에 있는 계층이기 때문에 HTTP 트랜잭션의 성능은 그 아래 계층인 TCP 성능에 영향을 받는다.","x":283,"y":-232,"width":466,"height":58},
-		{"id":"9612403ecccb1d44","x":853,"y":-502,"width":250,"height":60,"type":"text","text":"HTTP 트랜잭션 지연"}
+		{"id":"9612403ecccb1d44","type":"text","text":"HTTP 트랜잭션 지연","x":853,"y":-502,"width":250,"height":60},
+		{"id":"8d7c79ebf5348066","type":"text","text":"HTTP는 클라이언트와 서버 사이에 proxy 서버, cache 서버 등과 같은 중개 서버가 놓이는 것을 허락한다.\nHTTP 메시지는 클라이언트에서 서버까지 중개 서버들을 하나하나 거치면서 전달된다.\n\n어떤 경우에는, 두 개의 인접한 HTTP 애플리케이션이 현재 맺고 있는 커넥션에만 적용된 옵션을 지정해야 할 때가 있다.\nHTTP Connection 헤더 필드는 **커넥션 토큰을 쉼표로 구분**하여 가지고 있으며, 그 값들은 다른 커넥션에 전달되지 않는다.\n예를 들어, 다음 메시지를 보낸 다음 끊어져야 할 커넥션은 Connection: close라고 명시할 수 있다.\n\n커넥션 토큰이 HTTP 헤더 필드 명을 가지고 있으면, 해당 필드들은 현재 커넥션만을 위한 정보이므로 다음 커넥션에 전달하면 안된다.\nConneciton 헤더에 있는 모든 헤더 필드는 메시지를 다른 곳으로 전달하는 시점에 삭제되어야 한다.\nConnection 헤더는 홉별 헤더 명을 기술하는데, 이것을 **헤더 보호하기**라 한다.","x":-1268,"y":-600,"width":608,"height":444},
+		{"id":"b8c24aa50b91b220","x":-2200,"y":-177,"width":500,"height":380,"type":"text","text":"커넥션 관리가 제대로 이루어지지 않으면 TCP 성능이 매우 안좋아질 수 있다.\n순차적인 처리로 인한 지연에는 물리적인 지연뿐 아니라, 하나의 이미지를 내려받고 있는 중에는 웹페이지의 나머지공간에 아무런 변화가 없어서 느껴지는 심리적인 지연도 있다.\n\n순차적으로 로드하는 방식의 또 하나의 단점은, 특정 브라우저의 경우 객체를 화면에 배치하려면 객체의 크기를 알아야 하기 때문에, 모든 객체를 내려받기 전까지는 텅 빈 화면을 보여준다는 것이다. 이 경우 브라우저는 객체들을 연속해서 하나씩 내려받는 것이 효율적이겠으나, 사용자는 어떻게 진행되고 있는지 모르는 상태로 흰색의 텅 빈 화면만 보게 된다."}
 	],
 	"edges":[
 		{"id":"d8cae87fbd8c692b","fromNode":"d0edd324b279af6d","fromSide":"right","toNode":"c61938553c630481","toSide":"left"},
@@ -24,6 +26,8 @@
 		{"id":"ebbe7c89288215cb","fromNode":"c61938553c630481","fromSide":"top","toNode":"ef5290e3a1b00b6f","toSide":"bottom","label":"TCP 소켓 프로그래밍"},
 		{"id":"dec4ddf94090fde1","fromNode":"c61938553c630481","fromSide":"right","toNode":"220e30899fdfd2b1","toSide":"left","label":"브라우저에 주소를 입력하면?"},
 		{"id":"b05c3aec5b98c7d3","fromNode":"c61938553c630481","fromSide":"right","toNode":"d101e3bce685181e","toSide":"left","label":"TCP 성능"},
-		{"id":"660f2187138dc09e","fromNode":"d101e3bce685181e","fromSide":"right","toNode":"9612403ecccb1d44","toSide":"left"}
+		{"id":"660f2187138dc09e","fromNode":"d101e3bce685181e","fromSide":"right","toNode":"9612403ecccb1d44","toSide":"left"},
+		{"id":"352c3e9356d5a4e0","fromNode":"d0edd324b279af6d","fromSide":"top","toNode":"8d7c79ebf5348066","toSide":"bottom","label":"Connection 헤더"},
+		{"id":"4fa2835ef33a8889","fromNode":"d0edd324b279af6d","fromSide":"left","toNode":"b8c24aa50b91b220","toSide":"right","label":"순차적인 트랜잭션 처리에 의한 지연"}
 	]
 }

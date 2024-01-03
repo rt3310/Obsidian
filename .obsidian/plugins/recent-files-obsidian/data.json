@@ -5,12 +5,12 @@
       "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
-      "basename": "IP 패킷 구성",
-      "path": "HTTP/Connection/md/IP 패킷 구성.md"
-    },
-    {
       "basename": "HTTP 커넥션",
       "path": "HTTP/Connection/md/HTTP 커넥션.md"
+    },
+    {
+      "basename": "IP 패킷 구성",
+      "path": "HTTP/Connection/md/IP 패킷 구성.md"
     },
     {
       "basename": "IP 패킷",
