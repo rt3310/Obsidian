@@ -51,8 +51,8 @@
               "state": {
                 "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
                 "viewState": {
-                  "x": -1687.753630096772,
-                  "y": -341.65687573874516,
+                  "x": -2311.655628755695,
+                  "y": -1120.382837277207,
                   "zoom": -0.480850602272203
                 }
               }
@@ -202,6 +202,9 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "HTTP/Connection/canvas/지속 커넥션.md",
+    "HTTP/Connection/canvas/병렬 커넥션.md",
+    "HTTP/Connection/canvas/HTTP 커넥션 성능 향상 기술.md",
     "HTTP/Connection/md/TCP 세그먼트 헤더 구성.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "HTTP/Connection/md/TCP 소켓 프로그래밍.md",
@@ -251,8 +254,6 @@
     "OS/Concurrency/md/교착상태 회피 장점.md",
     "OS/Concurrency/md/자원 할당 거부(은행원 알고리즘).md",
     "OS/Concurrency/md/프로세스 시작 거부.md",
-    "OS/Concurrency/md/교착상태 회피(deadlock avoidance).md",
-    "OS/Concurrency/md/교착상태 예방(deadlock prevention).md",
     "OS/Concurrency/canvas/무제 폴더",
     "HTTP/URL/md",
     "Network/NAT/resources/Pasted image 20231212002734.png",

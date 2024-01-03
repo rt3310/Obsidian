@@ -1,0 +1,4 @@
+- 병렬(parallel) 커넥션
+- 지속(persistent) 커넥션
+- 파이프라인(pipelined) 커넥션
+- 다중(multiplexed) 커넥션

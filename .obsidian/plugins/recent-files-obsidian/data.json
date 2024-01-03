@@ -5,6 +5,18 @@
       "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
+      "basename": "지속 커넥션",
+      "path": "HTTP/Connection/canvas/지속 커넥션.md"
+    },
+    {
+      "basename": "병렬 커넥션",
+      "path": "HTTP/Connection/canvas/병렬 커넥션.md"
+    },
+    {
+      "basename": "HTTP 커넥션 성능 향상 기술",
+      "path": "HTTP/Connection/canvas/HTTP 커넥션 성능 향상 기술.md"
+    },
+    {
       "basename": "HTTP 커넥션",
       "path": "HTTP/Connection/md/HTTP 커넥션.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "교착상태(DeadLock)",
       "path": "OS/Concurrency/md/교착상태(DeadLock).md"
-    },
-    {
-      "basename": "프로세스에서의 자원 이용",
-      "path": "OS/Concurrency/md/프로세스에서의 자원 이용.md"
-    },
-    {
-      "basename": "교착상태 회피(deadlock avoidance)",
-      "path": "OS/Concurrency/md/교착상태 회피(deadlock avoidance).md"
-    },
-    {
-      "basename": "semWait(x) 연산 (P 연산)",
-      "path": "OS/Concurrency/md/semWait(x) 연산 (P 연산).md"
     }
   ],
   "omittedPaths": [],
