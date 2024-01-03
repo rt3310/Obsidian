@@ -5,6 +5,14 @@
       "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
+      "basename": "TCP 데이터 전송",
+      "path": "HTTP/Connection/canvas/TCP 데이터 전송.md"
+    },
+    {
+      "basename": "HTTP 커넥션",
+      "path": "HTTP/Connection/canvas/HTTP 커넥션.md"
+    },
+    {
       "basename": "TCP 커넥션",
       "path": "HTTP/Connection/canvas/TCP 커넥션.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Virtual Thread 비교",
       "path": "Java/Virtual Thread/resources/Virtual Thread 비교.png"
-    },
-    {
-      "basename": "GSLB",
-      "path": "Network/GSLB/canvas/GSLB.canvas"
-    },
-    {
-      "basename": "URL",
-      "path": "HTTP/URL/canvas/URL.canvas"
     }
   ],
   "omittedPaths": [],

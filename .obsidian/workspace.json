@@ -15,8 +15,8 @@
               "state": {
                 "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
                 "viewState": {
-                  "x": 306.66693115234375,
-                  "y": 0,
+                  "x": 523.6674194335938,
+                  "y": 139.5,
                   "zoom": 0
                 }
               }
@@ -165,6 +165,8 @@
   },
   "active": "cd676b1aa9a28bc7",
   "lastOpenFiles": [
+    "HTTP/Connection/canvas/TCP 데이터 전송.md",
+    "HTTP/Connection/canvas/HTTP 커넥션.md",
     "HTTP/Connection/canvas/TCP 커넥션.md",
     "OS/Thrashing/canvas/무제 파일.canvas",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
@@ -218,8 +220,6 @@
     "Network/GSLB/md/GSLB(Global Server Load Balancing).md",
     "Network/NAT/resources/Pasted image 20231212002734.png",
     "Network/GSLB/resources/GSLB Policy.png",
-    "Network/GSLB/resources/Pasted image 20231213173343.png",
-    "Network/NAT/md/NAT(Network Address Translation).md",
-    "OS/Concurrency/md/semSignal(x) 연산 (V 연산).md"
+    "Network/GSLB/resources/Pasted image 20231213173343.png"
   ]
 }
