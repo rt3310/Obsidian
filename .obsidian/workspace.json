@@ -4,25 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "1e351fdd27128e0a",
+        "id": "acce2d13127a3def",
         "type": "tabs",
         "children": [
           {
-            "id": "cd676b1aa9a28bc7",
+            "id": "092290aa057533f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP/Connection/md/HTTP 커넥션.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a49d8cdd0856c468",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP/Connection/md/IP 패킷 구성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff0b77d002117f6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP/Connection/md/TCP 커넥션.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "764dea1cc8fb4166",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
                 "viewState": {
-                  "x": 523.6674194335938,
-                  "y": 139.5,
-                  "zoom": 0
+                  "x": -124.59591878999942,
+                  "y": 485.89712724931894,
+                  "zoom": -0.5
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -163,13 +200,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cd676b1aa9a28bc7",
+  "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
-    "HTTP/Connection/canvas/TCP 데이터 전송.md",
-    "HTTP/Connection/canvas/HTTP 커넥션.md",
-    "HTTP/Connection/canvas/TCP 커넥션.md",
-    "OS/Thrashing/canvas/무제 파일.canvas",
+    "HTTP/Connection/canvas/TCP 세그먼트 헤더 구성.md",
+    "HTTP/Connection/md/HTTP 커넥션.md",
+    "HTTP/Connection/md/TCP 데이터 전송.md",
+    "HTTP/Connection/md/IP 헤더 구성.md",
+    "Pasted image 20231221164018.png",
+    "HTTP/Connection/md/IP 패킷 구성.md",
+    "HTTP/Connection/md/TCP 커넥션.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
+    "HTTP/Connection/resources/IP 패킷.png",
+    "OS/Thrashing/canvas/무제 파일.canvas",
     "HTTP/Connection/resources",
     "HTTP/Connection/md",
     "HTTP/Connection/canvas",
@@ -178,7 +220,6 @@
     "DB/SQL/canvas/Join.canvas",
     "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md",
     "OS/Thrashing/md/Working Set 알고리즘.md",
-    "Pasted image 20231221164018.png",
     "OS/Thrashing/md/스레싱(Thrashing).md",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
     "OS/Thread/canvas/Thread.canvas",
@@ -214,12 +255,8 @@
     "OS/Concurrency/md/교착상태 발생 조건.md",
     "OS/Concurrency/md/교착상태(DeadLock).md",
     "OS/Concurrency/canvas/무제 폴더",
-    "OS/Concurrency/md/semWait(x) 연산 (P 연산).md",
-    "OS/Concurrency/md/이진 세마포어.md",
     "HTTP/URL/md",
-    "Network/GSLB/md/GSLB(Global Server Load Balancing).md",
     "Network/NAT/resources/Pasted image 20231212002734.png",
-    "Network/GSLB/resources/GSLB Policy.png",
-    "Network/GSLB/resources/Pasted image 20231213173343.png"
+    "Network/GSLB/resources/GSLB Policy.png"
   ]
 }

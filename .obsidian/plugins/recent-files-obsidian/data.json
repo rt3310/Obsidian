@@ -6,15 +6,35 @@
     },
     {
       "basename": "TCP 데이터 전송",
-      "path": "HTTP/Connection/canvas/TCP 데이터 전송.md"
+      "path": "HTTP/Connection/md/TCP 데이터 전송.md"
+    },
+    {
+      "basename": "TCP 세그먼트 헤더 구성",
+      "path": "HTTP/Connection/canvas/TCP 세그먼트 헤더 구성.md"
+    },
+    {
+      "basename": "IP 헤더 구성",
+      "path": "HTTP/Connection/md/IP 헤더 구성.md"
+    },
+    {
+      "basename": "IP 패킷",
+      "path": "HTTP/Connection/resources/IP 패킷.png"
     },
     {
       "basename": "HTTP 커넥션",
-      "path": "HTTP/Connection/canvas/HTTP 커넥션.md"
+      "path": "HTTP/Connection/md/HTTP 커넥션.md"
+    },
+    {
+      "basename": "Pasted image 20231221164018",
+      "path": "Pasted image 20231221164018.png"
+    },
+    {
+      "basename": "IP 패킷 구성",
+      "path": "HTTP/Connection/md/IP 패킷 구성.md"
     },
     {
       "basename": "TCP 커넥션",
-      "path": "HTTP/Connection/canvas/TCP 커넥션.md"
+      "path": "HTTP/Connection/md/TCP 커넥션.md"
     },
     {
       "basename": "무제 파일",
@@ -179,26 +199,6 @@
     {
       "basename": "이진 세마포어",
       "path": "OS/Concurrency/md/이진 세마포어.md"
-    },
-    {
-      "basename": "쓰레드",
-      "path": "OS/Thread/md/쓰레드.md"
-    },
-    {
-      "basename": "커널 수준 쓰레드(KLT)",
-      "path": "OS/Thread/md/커널 수준 쓰레드(KLT).md"
-    },
-    {
-      "basename": "사용자 수준 쓰레드(ULT)",
-      "path": "OS/Thread/md/사용자 수준 쓰레드(ULT).md"
-    },
-    {
-      "basename": "Virtual Thread",
-      "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
-    },
-    {
-      "basename": "Virtual Thread 비교",
-      "path": "Java/Virtual Thread/resources/Virtual Thread 비교.png"
     }
   ],
   "omittedPaths": [],
