@@ -5,6 +5,10 @@
       "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
+      "basename": "TCP 커넥션",
+      "path": "HTTP/Connection/md/TCP 커넥션.md"
+    },
+    {
       "basename": "TCP 데이터 전송",
       "path": "HTTP/Connection/md/TCP 데이터 전송.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "IP 패킷 구성",
       "path": "HTTP/Connection/md/IP 패킷 구성.md"
-    },
-    {
-      "basename": "TCP 커넥션",
-      "path": "HTTP/Connection/md/TCP 커넥션.md"
     },
     {
       "basename": "무제 파일",
