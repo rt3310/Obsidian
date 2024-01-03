@@ -5,6 +5,10 @@
       "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
+      "basename": "IP 패킷 구성",
+      "path": "HTTP/Connection/md/IP 패킷 구성.md"
+    },
+    {
       "basename": "HTTP 커넥션",
       "path": "HTTP/Connection/md/HTTP 커넥션.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Pasted image 20231221164018",
       "path": "Pasted image 20231221164018.png"
-    },
-    {
-      "basename": "IP 패킷 구성",
-      "path": "HTTP/Connection/md/IP 패킷 구성.md"
     },
     {
       "basename": "무제 파일",
