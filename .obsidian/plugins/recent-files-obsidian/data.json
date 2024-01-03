@@ -5,6 +5,10 @@
       "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
+      "basename": "병렬 커넥션 vs 지속 커넥션",
+      "path": "HTTP/Connection/canvas/병렬 커넥션 vs 지속 커넥션.md"
+    },
+    {
       "basename": "지속 커넥션",
       "path": "HTTP/Connection/canvas/지속 커넥션.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "교착상태 발생 조건",
       "path": "OS/Concurrency/md/교착상태 발생 조건.md"
-    },
-    {
-      "basename": "교착상태(DeadLock)",
-      "path": "OS/Concurrency/md/교착상태(DeadLock).md"
     }
   ],
   "omittedPaths": [],
