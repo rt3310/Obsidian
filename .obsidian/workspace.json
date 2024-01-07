@@ -51,8 +51,8 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 3058.50886379839,
-                  "y": -66.47010255052065,
+                  "x": -945.8144838890063,
+                  "y": 328.09548135157297,
                   "zoom": -0.5
                 }
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/memory/canvas/배치 알고리즘.md",
+                "file": "OS/memory/canvas/메모리 관리.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/memory/canvas/배치 알고리즘.md",
+                "file": "OS/memory/canvas/메모리 관리.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/memory/canvas/배치 알고리즘.md"
+                "file": "OS/memory/canvas/메모리 관리.canvas"
               }
             }
           }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/버디(Buddy) 시스템.md",
     "OS/memory/canvas/배치 알고리즘.md",
     "OS/memory/canvas/메모리 집약 vs 메모리 통합.md",
     "OS/memory/canvas/동적 분할.md",
@@ -235,7 +236,6 @@
     "HTTP/Connection/md/IP 헤더 구성.md",
     "Pasted image 20231221164018.png",
     "HTTP/Connection/md/IP 패킷 구성.md",
-    "HTTP/Connection/md/TCP 커넥션.md",
     "HTTP/Connection/resources/IP 패킷.png",
     "OS/Thrashing/canvas/무제 파일.canvas",
     "HTTP/Connection/resources",

@@ -21,7 +21,9 @@
 		{"id":"438184394c8f8582","x":1938,"y":231,"width":592,"height":154,"color":"#0000ff","type":"text","text":"> [!INFO]\n> 메모리 집약과는 다르게 이동은 하지 않고 단지 연속된 빈 공간들을 모아서 더 큰 공간을 만드는 것을 **통합(garbage collection)**이라고 한다."},
 		{"id":"8f8ced8f0d5f3b65","x":2718,"y":198,"width":715,"height":220,"type":"file","file":"OS/memory/canvas/메모리 집약 vs 메모리 통합.md"},
 		{"id":"5981179a0fc035f7","type":"file","file":"OS/memory/canvas/동적 분할.md","x":1940,"y":-190,"width":588,"height":280},
-		{"id":"8c2fec2be65feb97","x":2740,"y":-204,"width":660,"height":309,"type":"file","file":"OS/memory/canvas/배치 알고리즘.md"}
+		{"id":"8c2fec2be65feb97","x":2740,"y":-204,"width":660,"height":309,"type":"file","file":"OS/memory/canvas/배치 알고리즘.md"},
+		{"id":"32ae751b00adf2f0","x":1134,"y":-744,"width":603,"height":181,"type":"file","file":"OS/memory/canvas/버디(Buddy) 시스템.md"},
+		{"id":"861674b3e418366d","x":-1580,"y":740,"width":662,"height":320,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"5b612337588bbd15","fromNode":"28bd8edc5be1a8f5","fromSide":"bottom","toNode":"918a071ee1e6c80c","toSide":"top","label":"요구조건"},
@@ -44,6 +46,8 @@
 		{"id":"55b1e50c4b9cf159","fromNode":"5c44bdeee23d5cdd","fromSide":"right","toNode":"5981179a0fc035f7","toSide":"left","label":"동적 분할"},
 		{"id":"a3eaebc20f67dcba","fromNode":"5981179a0fc035f7","fromSide":"bottom","toNode":"438184394c8f8582","toSide":"top"},
 		{"id":"3655825484c400b6","fromNode":"438184394c8f8582","fromSide":"right","toNode":"8f8ced8f0d5f3b65","toSide":"left","label":"집약 vs 통합"},
-		{"id":"b076ba55c7283ba0","fromNode":"5981179a0fc035f7","fromSide":"right","toNode":"8c2fec2be65feb97","toSide":"left","label":"배치 알고리즘"}
+		{"id":"b076ba55c7283ba0","fromNode":"5981179a0fc035f7","fromSide":"right","toNode":"8c2fec2be65feb97","toSide":"left","label":"배치 알고리즘"},
+		{"id":"04962aac36be70ea","fromNode":"5c44bdeee23d5cdd","fromSide":"top","toNode":"32ae751b00adf2f0","toSide":"bottom","label":"버디 시스템"},
+		{"id":"d0b94612266eac78","fromNode":"26f7aeefe02b2574","fromSide":"bottom","toNode":"861674b3e418366d","toSide":"top"}
 	]
 }
