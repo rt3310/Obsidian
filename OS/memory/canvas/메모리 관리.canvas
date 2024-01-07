@@ -31,13 +31,15 @@
 		{"id":"fb6220af2bbfe216","type":"text","text":"- 세그먼트 크기를 프로그래머가 알아야 한다.\n- 논리주소와 물리주소 관계가 복잡하다.","x":2118,"y":850,"width":409,"height":66},
 		{"id":"28bd8edc5be1a8f5","type":"file","file":"OS/memory/md/메모리 관리.md","x":-400,"y":-220,"width":694,"height":218},
 		{"id":"dd1f4e279a11de73","type":"text","text":"주기억장치 = 운영체제 + 수행 중인 프로그램을 위한 공간","x":-289,"y":-360,"width":473,"height":29},
-		{"id":"99c47ad550d6f23a","type":"file","file":"OS/memory/md/프로세스 활성화.md","x":-345,"y":730,"width":733,"height":188},
-		{"id":"923a42761ea55c92","type":"file","file":"OS/memory/md/로딩.md","x":-747,"y":1080,"width":694,"height":386},
-		{"id":"40e58106e84afe41","type":"file","file":"OS/memory/md/링킹.md","x":184,"y":1083,"width":681,"height":283},
 		{"id":"2471c00b40aeec50","type":"text","text":"- 페이지: 고정크기\n- 세그먼트: 가변크기 + 보호","x":1438,"y":1161,"width":288,"height":64,"color":"5"},
 		{"id":"6686d6f3fef91545","x":-480,"y":382,"width":546,"height":176,"type":"file","file":"OS/memory/canvas/MMU.md"},
 		{"id":"89516f1cd7d26e72","x":244,"y":80,"width":523,"height":223,"type":"text","text":"- 모든 프로세스마다 같은 주소를 사용할 수 있게 한다.\n\t- 실제 물리 주소가 13번지, 15번지, 29번지 일 때 MMU는 가상주소로 이를 모두 1번지로 표현할 수 있다.\n- CPU는 프로세스 관리 및 구현이 간단하다.\n- 서로 떨어져 있는 데이터를 연속된 데이터를 표현할 수 있다.\n\t- 실제 물리 주소가 13번지, 15번지, 29번지 일 때 연속된 데이터처럼 1번지, 2번지, 3번지로 표현이 가능하다."},
-		{"id":"54d703622a03d6f6","x":186,"y":459,"width":594,"height":201,"type":"text","text":"프로세스는 독립적인 메모리 공간을 가져야 한다.\n따라서 MMU는 한 프로세스에게 합법적인 주소 영역을 설정하고, 잘못된 접근이 오면 trap을 발생시키며 보호한다."}
+		{"id":"54d703622a03d6f6","x":320,"y":514,"width":471,"height":88,"type":"text","text":"프로세스는 독립적인 메모리 공간을 가져야 한다.\n따라서 MMU는 한 프로세스에게 합법적인 주소 영역을 설정하고, 잘못된 접근이 오면 trap을 발생시키며 보호한다."},
+		{"id":"99c47ad550d6f23a","type":"file","file":"OS/memory/md/프로세스 활성화.md","x":-614,"y":1520,"width":733,"height":188},
+		{"id":"923a42761ea55c92","type":"file","file":"OS/memory/md/로딩.md","x":-1016,"y":1870,"width":694,"height":386},
+		{"id":"40e58106e84afe41","type":"file","file":"OS/memory/md/링킹.md","x":-85,"y":1873,"width":681,"height":283},
+		{"id":"92cec3cc7d73fc97","x":239,"y":776,"width":633,"height":184,"color":"#0000ff","type":"text","text":"> [!INFO]\n> **base와 limit 레지스터를 활용한 메모리 보호 기법**\n> base 레지스터: 메모리 상의 프로세스 시작 주소를 물리 주소로 저장\n> limit 레지스터: 프로세스의 사이즈를 저장"},
+		{"id":"a953c3b9cc995235","x":-856,"y":729,"width":786,"height":496,"type":"text","text":"가상 메모리를 사용하면 실제 메모리 사이즈보다 더 큰 사이즈의 메모리를 사용하는 것처럼 보일 수 있다. 하지만 과할당 상황에서는 사용자를 속인 것을 들킬만한 상황이 존재한다.\n\n프로세스 실행 도중 page fault가 발생하면, page fault를 발생시킨 페이지 위치를 디스크에서 찾는다. 이 때, 메모리의 빈 프레임에 페이지를 올려야 하는데, 모든 메모리가 사용 중 이라면 빈 프레임이 없는 상황이 발생한다.\n\n이러한 과할당을 해결하기 위해선, swapping 기법을 통해 빈 프레임을 확보하여 페이지 교체가 이루어져야 한다.\n\n=> swapping 기법"}
 	],
 	"edges":[
 		{"id":"5b612337588bbd15","fromNode":"28bd8edc5be1a8f5","fromSide":"left","toNode":"918a071ee1e6c80c","toSide":"right","label":"요구조건"},
@@ -75,6 +77,8 @@
 		{"id":"b84e5e7e2387cb11","fromNode":"99c47ad550d6f23a","fromSide":"bottom","toNode":"40e58106e84afe41","toSide":"top","label":"링킹"},
 		{"id":"54f5efd9d59fbdba","fromNode":"4f0553220394ab9a","fromSide":"right","toNode":"6686d6f3fef91545","toSide":"left","label":"MMU?"},
 		{"id":"97e6e620264d662f","fromNode":"6686d6f3fef91545","fromSide":"right","toNode":"89516f1cd7d26e72","toSide":"left","label":"장점"},
-		{"id":"adf359ce93e4137e","fromNode":"6686d6f3fef91545","fromSide":"right","toNode":"54d703622a03d6f6","toSide":"left","label":"MMU의 "}
+		{"id":"adf359ce93e4137e","fromNode":"6686d6f3fef91545","fromSide":"right","toNode":"54d703622a03d6f6","toSide":"left","label":"MMU의 메모리 보호"},
+		{"id":"e41c6d56a8541c2f","fromNode":"54d703622a03d6f6","fromSide":"bottom","toNode":"92cec3cc7d73fc97","toSide":"top"},
+		{"id":"9848ac8167588b34","fromNode":"6686d6f3fef91545","fromSide":"bottom","toNode":"a953c3b9cc995235","toSide":"top","label":"메모리 과할당(Over Allocating)"}
 	]
 }
