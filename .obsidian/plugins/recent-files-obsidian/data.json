@@ -5,6 +5,14 @@
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
     {
+      "basename": "Swapping 기법",
+      "path": "OS/memory/canvas/Swapping 기법.md"
+    },
+    {
+      "basename": "메모리 과할당(Over Allocating)",
+      "path": "OS/memory/canvas/메모리 과할당(Over Allocating).md"
+    },
+    {
       "basename": "MMU",
       "path": "OS/memory/canvas/MMU.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "NL 조인",
       "path": "DB/SQL/md/NL 조인.md"
-    },
-    {
-      "basename": "Join",
-      "path": "DB/SQL/canvas/Join.canvas"
-    },
-    {
-      "basename": "PFF(Page Fault Frequency) 알고리즘",
-      "path": "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md"
     }
   ],
   "omittedPaths": [],
