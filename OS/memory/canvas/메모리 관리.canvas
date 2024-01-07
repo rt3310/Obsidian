@@ -31,10 +31,9 @@
 		{"id":"fb6220af2bbfe216","type":"text","text":"- 세그먼트 크기를 프로그래머가 알아야 한다.\n- 논리주소와 물리주소 관계가 복잡하다.","x":2118,"y":850,"width":409,"height":66},
 		{"id":"28bd8edc5be1a8f5","type":"file","file":"OS/memory/md/메모리 관리.md","x":-400,"y":-220,"width":694,"height":218},
 		{"id":"dd1f4e279a11de73","type":"text","text":"주기억장치 = 운영체제 + 수행 중인 프로그램을 위한 공간","x":-289,"y":-360,"width":473,"height":29},
-		{"id":"99c47ad550d6f23a","type":"file","file":"OS/memory/canvas/프로세스 활성화.md","x":-345,"y":730,"width":733,"height":188},
-		{"id":"923a42761ea55c92","type":"file","file":"OS/memory/canvas/로딩.md","x":-747,"y":1080,"width":694,"height":386},
-		{"id":"40e58106e84afe41","type":"file","file":"OS/memory/canvas/링킹.md","x":184,"y":1083,"width":681,"height":283},
-		{"id":"ffe60796088d37a2","x":206,"y":-379,"width":250,"height":60,"type":"text","text":""},
+		{"id":"99c47ad550d6f23a","type":"file","file":"OS/memory/md/프로세스 활성화.md","x":-345,"y":730,"width":733,"height":188},
+		{"id":"923a42761ea55c92","type":"file","file":"OS/memory/md/로딩.md","x":-747,"y":1080,"width":694,"height":386},
+		{"id":"40e58106e84afe41","type":"file","file":"OS/memory/md/링킹.md","x":184,"y":1083,"width":681,"height":283},
 		{"id":"2471c00b40aeec50","type":"text","text":"- 페이지: 고정크기\n- 세그먼트: 가변크기 + 보호","x":1438,"y":1161,"width":288,"height":64,"color":"5"}
 	],
 	"edges":[

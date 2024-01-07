@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Disk/canvas/RAID.canvas",
+                "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 307.5,
-                  "y": 395,
-                  "zoom": -1.6678398105380443
+                  "x": 943,
+                  "y": 1152.6974276527335,
+                  "zoom": -2.8712182344268955
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Disk/canvas/RAID.canvas",
+                "file": "OS/memory/canvas/메모리 관리.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Disk/canvas/RAID.canvas",
+                "file": "OS/memory/canvas/메모리 관리.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Disk/canvas/RAID.canvas"
+                "file": "OS/memory/canvas/메모리 관리.canvas"
               }
             }
           }
@@ -202,14 +202,15 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/md/로딩.md",
+    "OS/Disk/canvas/RAID.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/canvas/Concurrency.canvas",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "OS/memory/canvas/메모리 관리.canvas",
-    "OS/memory/canvas/링킹.md",
-    "OS/memory/canvas/로딩.md",
-    "OS/memory/canvas/프로세스 활성화.md",
+    "OS/memory/md/링킹.md",
+    "OS/memory/md/프로세스 활성화.md",
     "OS/memory/md/동적 분할.md",
     "OS/memory/md/메모리 집약 vs 메모리 통합.md",
     "OS/memory/md/세그먼테이션.md",
@@ -252,7 +253,6 @@
     "Pasted image 20231217204742.png",
     "Pasted image 20231217204644.png",
     "OS/Concurrency/resources/Pasted image 20231217214906.png",
-    "DB/Normalization/canvas/정규화.canvas",
     "OS/Thrashing/resources",
     "OS/Thrashing/md",
     "Network/NAT/resources/Pasted image 20231212002734.png",

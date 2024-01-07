@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "메모리 관리",
+      "path": "OS/memory/canvas/메모리 관리.canvas"
+    },
+    {
+      "basename": "로딩",
+      "path": "OS/memory/md/로딩.md"
+    },
+    {
       "basename": "RAID",
       "path": "OS/Disk/canvas/RAID.canvas"
     },
@@ -21,20 +29,12 @@
       "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
     },
     {
-      "basename": "메모리 관리",
-      "path": "OS/memory/canvas/메모리 관리.canvas"
-    },
-    {
       "basename": "링킹",
-      "path": "OS/memory/canvas/링킹.md"
-    },
-    {
-      "basename": "로딩",
-      "path": "OS/memory/canvas/로딩.md"
+      "path": "OS/memory/md/링킹.md"
     },
     {
       "basename": "프로세스 활성화",
-      "path": "OS/memory/canvas/프로세스 활성화.md"
+      "path": "OS/memory/md/프로세스 활성화.md"
     },
     {
       "basename": "메모리 관리",
