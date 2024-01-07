@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "배치 알고리즘",
+      "path": "OS/memory/canvas/배치 알고리즘.md"
+    },
+    {
       "basename": "메모리 관리",
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "제 3정규형 (3NF - Third Normal Form)",
       "path": "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md"
-    },
-    {
-      "basename": "제 2정규형(2NF - Second Normal Form)",
-      "path": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
     }
   ],
   "omittedPaths": [],

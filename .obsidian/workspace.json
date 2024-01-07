@@ -51,8 +51,8 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 2894.460090563111,
-                  "y": -180.5057988115951,
+                  "x": 3058.50886379839,
+                  "y": -66.47010255052065,
                   "zoom": -0.5
                 }
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/memory/canvas/메모리 관리.canvas",
+                "file": "OS/memory/canvas/배치 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/memory/canvas/메모리 관리.canvas",
+                "file": "OS/memory/canvas/배치 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/memory/canvas/메모리 관리.canvas"
+                "file": "OS/memory/canvas/배치 알고리즘.md"
               }
             }
           }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/배치 알고리즘.md",
     "OS/memory/canvas/메모리 집약 vs 메모리 통합.md",
     "OS/memory/canvas/동적 분할.md",
     "OS/memory/canvas/비균등 분할.md",
@@ -241,7 +242,6 @@
     "HTTP/Connection/md",
     "HTTP/Connection/canvas",
     "HTTP/Connection",
-    "DB/SQL/md/NL 조인.md",
     "DB/SQL/canvas/Join.canvas",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
     "OS/Thread/canvas/Thread.canvas",
