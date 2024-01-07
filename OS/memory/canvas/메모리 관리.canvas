@@ -4,11 +4,15 @@
 		{"id":"dd1f4e279a11de73","type":"text","text":"주기억장치 = 운영체제 + 수행 중인 프로그램을 위한 공간","x":-229,"y":-360,"width":473,"height":29},
 		{"id":"918a071ee1e6c80c","type":"text","text":"- 재배치(Relocation)\n- 보호(Protection)\n- 공유(Sharing)\n- 논리적 구성(Logical organization)\n- 물리적 구성(Physical organization)","x":-163,"y":120,"width":343,"height":163},
 		{"id":"26f7aeefe02b2574","type":"file","file":"OS/memory/canvas/재배치(Relocation).md","x":-1449,"y":452,"width":431,"height":148},
-		{"id":"f5cf05458f2eb94e","x":-918,"y":433,"width":640,"height":187,"type":"file","file":"OS/memory/canvas/보호(Protection).md"},
-		{"id":"024e43ba5b21e256","x":-229,"y":432,"width":688,"height":188,"type":"file","file":"OS/memory/canvas/공유(Sharing).md"},
-		{"id":"b81205c4aa37ebe5","x":579,"y":438,"width":506,"height":121,"type":"file","file":"OS/memory/canvas/논리적인 구성.md"},
-		{"id":"a084a1b10be6ef6b","x":512,"y":760,"width":641,"height":96,"type":"text","text":"- 모듈의 작성과 컴파일이 독립적으로 이루어진다.\n- 비교적 적은 추가비용으로 모듈마다 서로 다른 보호 등급을 적용할 수 있다.\n- 프로세스 간 모듈 공유 기법을 제공한다."},
-		{"id":"4f0553220394ab9a","x":1260,"y":438,"width":620,"height":220,"type":"file","file":"OS/memory/canvas/물리적인 구성.md"}
+		{"id":"f5cf05458f2eb94e","type":"file","file":"OS/memory/canvas/보호(Protection).md","x":-918,"y":433,"width":640,"height":187},
+		{"id":"024e43ba5b21e256","type":"file","file":"OS/memory/canvas/공유(Sharing).md","x":-229,"y":432,"width":688,"height":188},
+		{"id":"b81205c4aa37ebe5","type":"file","file":"OS/memory/canvas/논리적인 구성.md","x":579,"y":438,"width":506,"height":121},
+		{"id":"a084a1b10be6ef6b","type":"text","text":"- 모듈의 작성과 컴파일이 독립적으로 이루어진다.\n- 비교적 적은 추가비용으로 모듈마다 서로 다른 보호 등급을 적용할 수 있다.\n- 프로세스 간 모듈 공유 기법을 제공한다.","x":512,"y":760,"width":641,"height":96},
+		{"id":"4f0553220394ab9a","type":"file","file":"OS/memory/canvas/물리적인 구성.md","x":1260,"y":438,"width":620,"height":220},
+		{"id":"c67247f8582359cc","x":1060,"y":-40,"width":604,"height":238,"type":"file","file":"OS/memory/canvas/불연속 메모리 관리.md"},
+		{"id":"5c44bdeee23d5cdd","x":1060,"y":-440,"width":695,"height":220,"type":"file","file":"OS/memory/canvas/연속 메모리 관리.md"},
+		{"id":"3c23aea662b6ad82","type":"text","text":"- 연속 메모리 관리\n- 불연속 메모리 관리","x":596,"y":-143,"width":237,"height":64},
+		{"id":"e419223cc6c7d2fd","x":-200,"y":-660,"width":1054,"height":357,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"5b612337588bbd15","fromNode":"28bd8edc5be1a8f5","fromSide":"bottom","toNode":"918a071ee1e6c80c","toSide":"top","label":"요구조건"},
@@ -18,6 +22,10 @@
 		{"id":"f0d02403fa6b2941","fromNode":"918a071ee1e6c80c","fromSide":"bottom","toNode":"024e43ba5b21e256","toSide":"top","label":"공유"},
 		{"id":"6fbbce06524a65a2","fromNode":"918a071ee1e6c80c","fromSide":"right","toNode":"b81205c4aa37ebe5","toSide":"top","label":"논리적인 구성"},
 		{"id":"174c9d74f56ab696","fromNode":"b81205c4aa37ebe5","fromSide":"bottom","toNode":"a084a1b10be6ef6b","toSide":"top","label":"운영체제 및 하드웨어의 모듈 단위 처리 시 이점"},
-		{"id":"9c859b0cd23abd1e","fromNode":"918a071ee1e6c80c","fromSide":"right","toNode":"4f0553220394ab9a","toSide":"top","label":"물리적인 구성"}
+		{"id":"9c859b0cd23abd1e","fromNode":"918a071ee1e6c80c","fromSide":"right","toNode":"4f0553220394ab9a","toSide":"top","label":"물리적인 구성"},
+		{"id":"a6c99e5e40ff7044","fromNode":"28bd8edc5be1a8f5","fromSide":"right","toNode":"3c23aea662b6ad82","toSide":"left","label":"메모리 분할"},
+		{"id":"a3d5db0f5f424bc8","fromNode":"3c23aea662b6ad82","fromSide":"right","toNode":"5c44bdeee23d5cdd","toSide":"left","label":"연속 메모리 관리"},
+		{"id":"50fd57a29bf14bac","fromNode":"3c23aea662b6ad82","fromSide":"right","toNode":"c67247f8582359cc","toSide":"left","label":"불연속 메모리 관리"},
+		{"id":"91eb92e61ee6ee3a","fromNode":"3c23aea662b6ad82","fromSide":"top","toNode":"e419223cc6c7d2fd","toSide":"bottom"}
 	]
 }

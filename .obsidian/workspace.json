@@ -51,8 +51,8 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": -959.7406312637693,
-                  "y": 347.4843370940154,
+                  "x": 574.9182539762743,
+                  "y": -441.6468307101718,
                   "zoom": -0.5
                 }
               }
@@ -202,6 +202,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/불연속 메모리 관리.md",
+    "OS/memory/canvas/연속 메모리 관리.md",
     "OS/memory/canvas/물리적인 구성.md",
     "OS/memory/canvas/논리적인 구성.md",
     "OS/memory/canvas/공유(Sharing).md",
@@ -254,8 +256,6 @@
     "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md",
     "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
     "Java/JVM/md/JVM(Java Virtual Machine).md",
-    "OS/Concurrency/md/교착상태 발견 특징.md",
-    "OS/Concurrency/md/프로세스에서의 자원 이용.md",
     "Network/NAT/resources/Pasted image 20231212002734.png",
     "Network/GSLB/resources/GSLB Policy.png"
   ]
