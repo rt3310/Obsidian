@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "프로세스 활성화",
-      "path": "OS/memory/canvas/프로세스 활성화.md"
-    },
-    {
       "basename": "메모리 관리",
       "path": "OS/memory/canvas/메모리 관리.canvas"
+    },
+    {
+      "basename": "링킹",
+      "path": "OS/memory/canvas/링킹.md"
+    },
+    {
+      "basename": "로딩",
+      "path": "OS/memory/canvas/로딩.md"
+    },
+    {
+      "basename": "프로세스 활성화",
+      "path": "OS/memory/canvas/프로세스 활성화.md"
     },
     {
       "basename": "메모리 관리",
@@ -191,14 +199,6 @@
     {
       "basename": "Concurrent & Parallel",
       "path": "OS/Concurrency/resources/Concurrent & Parallel.png"
-    },
-    {
-      "basename": "DeadLock",
-      "path": "OS/Concurrency/canvas/DeadLock.canvas"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "OS/Concurrency/canvas/Concurrency.canvas"
     }
   ],
   "omittedPaths": [],

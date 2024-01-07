@@ -51,7 +51,7 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 165.8583689040613,
+                  "x": 568.3664108958087,
                   "y": 631.9561119916757,
                   "zoom": -1
                 }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/memory/canvas/프로세스 활성화.md",
+                "file": "OS/memory/canvas/링킹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/memory/canvas/프로세스 활성화.md",
+                "file": "OS/memory/canvas/링킹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/memory/canvas/프로세스 활성화.md"
+                "file": "OS/memory/canvas/링킹.md"
               }
             }
           }
@@ -202,6 +202,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/링킹.md",
+    "OS/memory/canvas/로딩.md",
     "OS/memory/canvas/프로세스 활성화.md",
     "OS/memory/md/동적 분할.md",
     "OS/memory/md/메모리 집약 vs 메모리 통합.md",
@@ -233,8 +235,6 @@
     "HTTP/Connection/md/지속 커넥션.md",
     "HTTP/Connection/md/HTTP 커넥션 성능 향상 기술.md",
     "HTTP/Connection/md/TCP 세그먼트 헤더 구성.md",
-    "HTTP/Connection/md/TCP 소켓 프로그래밍.md",
-    "HTTP/Connection/md/HTTP 커넥션.md",
     "Pasted image 20231221164018.png",
     "HTTP/Connection/resources/IP 패킷.png",
     "OS/Thrashing/canvas/무제 파일.canvas",
