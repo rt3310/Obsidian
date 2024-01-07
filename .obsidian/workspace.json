@@ -51,7 +51,7 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 1802.2184560508858,
+                  "x": -959.7406312637693,
                   "y": 347.4843370940154,
                   "zoom": -0.5
                 }
@@ -202,6 +202,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/물리적인 구성.md",
+    "OS/memory/canvas/논리적인 구성.md",
     "OS/memory/canvas/공유(Sharing).md",
     "OS/memory/canvas/보호(Protection).md",
     "OS/memory/canvas/재배치(Relocation).md",
@@ -254,8 +256,6 @@
     "Java/JVM/md/JVM(Java Virtual Machine).md",
     "OS/Concurrency/md/교착상태 발견 특징.md",
     "OS/Concurrency/md/프로세스에서의 자원 이용.md",
-    "OS/Concurrency/md/식사하는 철학자 문제.md",
-    "OS/Concurrency/md/교착상태 회복(recovery) 알고리즘.md",
     "Network/NAT/resources/Pasted image 20231212002734.png",
     "Network/GSLB/resources/GSLB Policy.png"
   ]

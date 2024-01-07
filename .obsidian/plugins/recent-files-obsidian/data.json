@@ -5,6 +5,18 @@
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
     {
+      "basename": "물리적인 구성",
+      "path": "OS/memory/canvas/물리적인 구성.md"
+    },
+    {
+      "basename": "논리적인 구성",
+      "path": "OS/memory/canvas/논리적인 구성.md"
+    },
+    {
+      "basename": "메모리 관리",
+      "path": "OS/memory/md/메모리 관리.md"
+    },
+    {
       "basename": "공유(Sharing)",
       "path": "OS/memory/canvas/공유(Sharing).md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "재배치(Relocation)",
       "path": "OS/memory/canvas/재배치(Relocation).md"
-    },
-    {
-      "basename": "메모리 관리",
-      "path": "OS/memory/md/메모리 관리.md"
     },
     {
       "basename": "HTTP Connection",
@@ -191,14 +199,6 @@
     {
       "basename": "교착상태 발견(deadlock detection)",
       "path": "OS/Concurrency/md/교착상태 발견(deadlock detection).md"
-    },
-    {
-      "basename": "식사하는 철학자 문제",
-      "path": "OS/Concurrency/md/식사하는 철학자 문제.md"
-    },
-    {
-      "basename": "교착상태 발견 특징",
-      "path": "OS/Concurrency/md/교착상태 발견 특징.md"
     }
   ],
   "omittedPaths": [],
