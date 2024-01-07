@@ -51,9 +51,9 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 1235.1183432682583,
-                  "y": 481.73865176218266,
-                  "zoom": -1.5
+                  "x": 165.8583689040613,
+                  "y": 631.9561119916757,
+                  "zoom": -1
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/memory/canvas/메모리 관리.canvas",
+                "file": "OS/memory/canvas/프로세스 활성화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/memory/canvas/메모리 관리.canvas",
+                "file": "OS/memory/canvas/프로세스 활성화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/memory/canvas/메모리 관리.canvas"
+                "file": "OS/memory/canvas/프로세스 활성화.md"
               }
             }
           }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/프로세스 활성화.md",
     "OS/memory/md/동적 분할.md",
     "OS/memory/md/메모리 집약 vs 메모리 통합.md",
     "OS/memory/canvas/메모리 관리.canvas",

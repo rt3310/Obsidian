@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "프로세스 활성화",
+      "path": "OS/memory/canvas/프로세스 활성화.md"
+    },
+    {
       "basename": "메모리 관리",
       "path": "OS/memory/canvas/메모리 관리.canvas"
+    },
+    {
+      "basename": "메모리 관리",
+      "path": "OS/memory/md/메모리 관리.md"
     },
     {
       "basename": "세그먼테이션",
@@ -71,10 +79,6 @@
     {
       "basename": "논리적인 구성",
       "path": "OS/memory/md/논리적인 구성.md"
-    },
-    {
-      "basename": "메모리 관리",
-      "path": "OS/memory/md/메모리 관리.md"
     },
     {
       "basename": "HTTP Connection",
@@ -195,10 +199,6 @@
     {
       "basename": "Concurrency",
       "path": "OS/Concurrency/canvas/Concurrency.canvas"
-    },
-    {
-      "basename": "Semaphore",
-      "path": "OS/Concurrency/canvas/Semaphore.canvas"
     }
   ],
   "omittedPaths": [],

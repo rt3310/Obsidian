@@ -1,7 +1,5 @@
 {
 	"nodes":[
-		{"id":"28bd8edc5be1a8f5","type":"file","file":"OS/memory/md/메모리 관리.md","x":-339,"y":-220,"width":694,"height":218},
-		{"id":"dd1f4e279a11de73","type":"text","text":"주기억장치 = 운영체제 + 수행 중인 프로그램을 위한 공간","x":-229,"y":-360,"width":473,"height":29},
 		{"id":"3c23aea662b6ad82","type":"text","text":"- 연속 메모리 관리\n- 불연속 메모리 관리","x":596,"y":-143,"width":237,"height":64},
 		{"id":"438184394c8f8582","type":"text","text":"> [!INFO]\n> 메모리 집약과는 다르게 이동은 하지 않고 단지 연속된 빈 공간들을 모아서 더 큰 공간을 만드는 것을 **통합(garbage collection)**이라고 한다.","x":2133,"y":-143,"width":592,"height":154,"color":"#0000ff"},
 		{"id":"8f8ced8f0d5f3b65","type":"file","file":"OS/memory/md/메모리 집약 vs 메모리 통합.md","x":2913,"y":-176,"width":715,"height":220},
@@ -31,7 +29,10 @@
 		{"id":"b3f736fcaed50e94","type":"text","text":"- 페이지 크기(=프레임 크기)는 2의 거듭제곱으로 구성\n\t- MMU 하드웨어의 구현이 간단\n\t- 논리 주소(페이지 번호, 오프셋) = 상대주소\n\t- ex) 64K 주소공간을 1K 단위의 페이지로 나눈 경우\n\t\t- 페이지 개수 = 64K / 1K (페이지 크기) = 64개\n\t\t- 주소 16bit = 페이지 번호 6bit + 오프셋 10bit\n\t\t- 논리주소 1502d = 000001 0111011110(2)","x":2159,"y":560,"width":489,"height":229},
 		{"id":"39ee70b453ea2299","type":"file","file":"OS/memory/md/세그먼테이션.md","x":1236,"y":740,"width":692,"height":220},
 		{"id":"fb6220af2bbfe216","x":2118,"y":850,"width":409,"height":66,"type":"text","text":"- 세그먼트 크기를 프로그래머가 알아야 한다.\n- 논리주소와 물리주소 관계가 복잡하다."},
-		{"id":"2471c00b40aeec50","x":1487,"y":1160,"width":288,"height":64,"color":"5","type":"text","text":"- 페이지: 고정크기\n- 세그먼트: 가변크기 + 보호"}
+		{"id":"2471c00b40aeec50","x":1487,"y":1160,"width":288,"height":64,"color":"5","type":"text","text":"- 페이지: 고정크기\n- 세그먼트: 가변크기 + 보호"},
+		{"id":"28bd8edc5be1a8f5","type":"file","file":"OS/memory/md/메모리 관리.md","x":-400,"y":-220,"width":694,"height":218},
+		{"id":"dd1f4e279a11de73","type":"text","text":"주기억장치 = 운영체제 + 수행 중인 프로그램을 위한 공간","x":-289,"y":-360,"width":473,"height":29},
+		{"id":"99c47ad550d6f23a","x":-345,"y":730,"width":733,"height":188,"type":"file","file":"OS/memory/canvas/프로세스 활성화.md"}
 	],
 	"edges":[
 		{"id":"5b612337588bbd15","fromNode":"28bd8edc5be1a8f5","fromSide":"left","toNode":"918a071ee1e6c80c","toSide":"right","label":"요구조건"},
