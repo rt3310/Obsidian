@@ -51,9 +51,9 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 1257.9031288942592,
-                  "y": 124.02207234683902,
-                  "zoom": -0.8712182344268955
+                  "x": -910.3806429108722,
+                  "y": 726.3926718768319,
+                  "zoom": 0.1287817655731045
                 }
               }
             }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "Pasted image 20240107225608.png",
     "OS/memory/canvas/Swapping 기법.md",
     "OS/memory/canvas/메모리 과할당(Over Allocating).md",
     "OS/memory/canvas/MMU.md",
@@ -237,7 +238,6 @@
     "OS/memory/md",
     "OS/memory/canvas",
     "OS/memory",
-    "HTTP/Connection/md/병렬 커넥션.md",
     "Network/NAT/canvas/NAT.canvas",
     "Pasted image 20231221164018.png",
     "HTTP/Connection/resources/IP 패킷.png",

@@ -39,8 +39,9 @@
 		{"id":"923a42761ea55c92","type":"file","file":"OS/memory/md/로딩.md","x":-1016,"y":1870,"width":694,"height":386},
 		{"id":"40e58106e84afe41","type":"file","file":"OS/memory/md/링킹.md","x":-85,"y":1873,"width":681,"height":283},
 		{"id":"92cec3cc7d73fc97","x":239,"y":776,"width":633,"height":184,"color":"#0000ff","type":"text","text":"> [!INFO]\n> **base와 limit 레지스터를 활용한 메모리 보호 기법**\n> base 레지스터: 메모리 상의 프로세스 시작 주소를 물리 주소로 저장\n> limit 레지스터: 프로세스의 사이즈를 저장"},
-		{"id":"df9c73af487e2d9f","x":-496,"y":684,"width":579,"height":322,"type":"file","file":"OS/memory/canvas/메모리 과할당(Over Allocating).md"},
-		{"id":"5eb66f82088f88ff","x":-482,"y":1140,"width":551,"height":175,"type":"file","file":"OS/memory/canvas/Swapping 기법.md"}
+		{"id":"df9c73af487e2d9f","x":-496,"y":684,"width":579,"height":386,"type":"file","file":"OS/memory/canvas/메모리 과할당(Over Allocating).md"},
+		{"id":"5eb66f82088f88ff","x":-480,"y":1180,"width":551,"height":175,"type":"file","file":"OS/memory/canvas/Swapping 기법.md"},
+		{"id":"82091ca1c9e20713","x":-1304,"y":684,"width":687,"height":493,"type":"text","text":"오버레이 기법은 주기억장치보다 큰 사용자 프로그램을 실행하기 위한 기법이다.\n\n보조기억장치에 저장된 하나의 프로그램을 여러 개의 조각으로 분할한 후 필요한 조각을 차례로 주기억장치에 적재하여 프로그램을 실행한다.\n\n프로그램이 실행되면서 주기억장치의 공간이 부족하면 주기억장치에 적재된 프로그램의 조각 중 불필요한 조각이 위치한 장소에 프로그램이 조각을 중첩(Overlay)하여 적재한다.\n![[Pasted image 20240107225608.png]]"}
 	],
 	"edges":[
 		{"id":"5b612337588bbd15","fromNode":"28bd8edc5be1a8f5","fromSide":"left","toNode":"918a071ee1e6c80c","toSide":"right","label":"요구조건"},
@@ -81,6 +82,7 @@
 		{"id":"adf359ce93e4137e","fromNode":"6686d6f3fef91545","fromSide":"right","toNode":"54d703622a03d6f6","toSide":"left","label":"MMU의 메모리 보호"},
 		{"id":"e41c6d56a8541c2f","fromNode":"54d703622a03d6f6","fromSide":"bottom","toNode":"92cec3cc7d73fc97","toSide":"top"},
 		{"id":"9848ac8167588b34","fromNode":"6686d6f3fef91545","fromSide":"bottom","toNode":"df9c73af487e2d9f","toSide":"top","label":"메모리 과할당(Over Allocating)"},
-		{"id":"066c1bc21917ba92","fromNode":"df9c73af487e2d9f","fromSide":"bottom","toNode":"5eb66f82088f88ff","toSide":"top","label":"Swapping 기법"}
+		{"id":"066c1bc21917ba92","fromNode":"df9c73af487e2d9f","fromSide":"bottom","toNode":"5eb66f82088f88ff","toSide":"top","label":"Swapping 기법"},
+		{"id":"45e90c3b53cf6858","fromNode":"4f0553220394ab9a","fromSide":"bottom","toNode":"82091ca1c9e20713","toSide":"top","label":"Overlay 기법"}
 	]
 }

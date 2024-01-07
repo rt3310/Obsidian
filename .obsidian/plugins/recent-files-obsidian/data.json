@@ -5,16 +5,16 @@
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
     {
-      "basename": "불연속 메모리 관리",
-      "path": "OS/memory/md/불연속 메모리 관리.md"
-    },
-    {
       "basename": "Swapping 기법",
       "path": "OS/memory/canvas/Swapping 기법.md"
     },
     {
       "basename": "메모리 과할당(Over Allocating)",
       "path": "OS/memory/canvas/메모리 과할당(Over Allocating).md"
+    },
+    {
+      "basename": "불연속 메모리 관리",
+      "path": "OS/memory/md/불연속 메모리 관리.md"
     },
     {
       "basename": "MMU",
