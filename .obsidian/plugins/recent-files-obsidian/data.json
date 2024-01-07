@@ -5,6 +5,34 @@
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
     {
+      "basename": "페이징",
+      "path": "OS/memory/canvas/페이징.md"
+    },
+    {
+      "basename": "불연속 메모리 관리",
+      "path": "OS/memory/canvas/불연속 메모리 관리.md"
+    },
+    {
+      "basename": "물리적인 구성",
+      "path": "OS/memory/canvas/물리적인 구성.md"
+    },
+    {
+      "basename": "공유(Sharing)",
+      "path": "OS/memory/canvas/공유(Sharing).md"
+    },
+    {
+      "basename": "보호(Protection)",
+      "path": "OS/memory/canvas/보호(Protection).md"
+    },
+    {
+      "basename": "재배치(Relocation)",
+      "path": "OS/memory/canvas/재배치(Relocation).md"
+    },
+    {
+      "basename": "단편화(Fragmentation)",
+      "path": "OS/memory/canvas/단편화(Fragmentation).md"
+    },
+    {
       "basename": "버디(Buddy) 시스템",
       "path": "OS/memory/canvas/버디(Buddy) 시스템.md"
     },
@@ -33,20 +61,8 @@
       "path": "OS/memory/canvas/고정 분할.md"
     },
     {
-      "basename": "불연속 메모리 관리",
-      "path": "OS/memory/canvas/불연속 메모리 관리.md"
-    },
-    {
       "basename": "연속 메모리 관리",
       "path": "OS/memory/canvas/연속 메모리 관리.md"
-    },
-    {
-      "basename": "단편화(Fragmentation)",
-      "path": "OS/memory/canvas/단편화(Fragmentation).md"
-    },
-    {
-      "basename": "물리적인 구성",
-      "path": "OS/memory/canvas/물리적인 구성.md"
     },
     {
       "basename": "논리적인 구성",
@@ -55,18 +71,6 @@
     {
       "basename": "메모리 관리",
       "path": "OS/memory/md/메모리 관리.md"
-    },
-    {
-      "basename": "공유(Sharing)",
-      "path": "OS/memory/canvas/공유(Sharing).md"
-    },
-    {
-      "basename": "보호(Protection)",
-      "path": "OS/memory/canvas/보호(Protection).md"
-    },
-    {
-      "basename": "재배치(Relocation)",
-      "path": "OS/memory/canvas/재배치(Relocation).md"
     },
     {
       "basename": "HTTP Connection",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20231217214906",
       "path": "OS/Concurrency/resources/Pasted image 20231217214906.png"
-    },
-    {
-      "basename": "정규화",
-      "path": "DB/Normalization/canvas/정규화.canvas"
     }
   ],
   "omittedPaths": [],
