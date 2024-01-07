@@ -5,6 +5,10 @@
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
     {
+      "basename": "메모리 집약 vs 메모리 통합",
+      "path": "OS/memory/canvas/메모리 집약 vs 메모리 통합.md"
+    },
+    {
       "basename": "동적 분할",
       "path": "OS/memory/canvas/동적 분할.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "제 2정규형(2NF - Second Normal Form)",
       "path": "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md"
-    },
-    {
-      "basename": "제 1정규형 (1NF - First Normal Form)",
-      "path": "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md"
     }
   ],
   "omittedPaths": [],

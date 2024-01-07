@@ -51,8 +51,8 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 2105.3289227589235,
-                  "y": -377.7885907626419,
+                  "x": 2894.460090563111,
+                  "y": -180.5057988115951,
                   "zoom": -0.5
                 }
               }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/메모리 집약 vs 메모리 통합.md",
     "OS/memory/canvas/동적 분할.md",
     "OS/memory/canvas/비균등 분할.md",
     "OS/memory/canvas/균등 분할.md",
@@ -242,7 +243,6 @@
     "HTTP/Connection",
     "DB/SQL/md/NL 조인.md",
     "DB/SQL/canvas/Join.canvas",
-    "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
     "OS/Thread/canvas/Thread.canvas",
     "OS/Concurrency/resources/semaphore code.png",
