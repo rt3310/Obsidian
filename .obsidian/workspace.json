@@ -51,8 +51,8 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 574.9182539762743,
-                  "y": -441.6468307101718,
+                  "x": 2105.3289227589235,
+                  "y": -377.7885907626419,
                   "zoom": -0.5
                 }
               }
@@ -202,6 +202,11 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/동적 분할.md",
+    "OS/memory/canvas/비균등 분할.md",
+    "OS/memory/canvas/균등 분할.md",
+    "OS/memory/canvas/고정 분할.md",
+    "OS/memory/canvas/단편화(Fragmentation).md",
     "OS/memory/canvas/불연속 메모리 관리.md",
     "OS/memory/canvas/연속 메모리 관리.md",
     "OS/memory/canvas/물리적인 구성.md",
@@ -238,8 +243,6 @@
     "DB/SQL/md/NL 조인.md",
     "DB/SQL/canvas/Join.canvas",
     "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md",
-    "OS/Thrashing/md/Working Set 알고리즘.md",
-    "OS/Thrashing/md/스레싱(Thrashing).md",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
     "OS/Thread/canvas/Thread.canvas",
     "OS/Concurrency/resources/semaphore code.png",
@@ -253,9 +256,6 @@
     "DB/Normalization/canvas/정규화.canvas",
     "OS/Thrashing/resources",
     "OS/Thrashing/md",
-    "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md",
-    "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
-    "Java/JVM/md/JVM(Java Virtual Machine).md",
     "Network/NAT/resources/Pasted image 20231212002734.png",
     "Network/GSLB/resources/GSLB Policy.png"
   ]

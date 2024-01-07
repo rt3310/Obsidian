@@ -5,12 +5,32 @@
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
     {
+      "basename": "동적 분할",
+      "path": "OS/memory/canvas/동적 분할.md"
+    },
+    {
+      "basename": "비균등 분할",
+      "path": "OS/memory/canvas/비균등 분할.md"
+    },
+    {
+      "basename": "균등 분할",
+      "path": "OS/memory/canvas/균등 분할.md"
+    },
+    {
+      "basename": "고정 분할",
+      "path": "OS/memory/canvas/고정 분할.md"
+    },
+    {
       "basename": "불연속 메모리 관리",
       "path": "OS/memory/canvas/불연속 메모리 관리.md"
     },
     {
       "basename": "연속 메모리 관리",
       "path": "OS/memory/canvas/연속 메모리 관리.md"
+    },
+    {
+      "basename": "단편화(Fragmentation)",
+      "path": "OS/memory/canvas/단편화(Fragmentation).md"
     },
     {
       "basename": "물리적인 구성",
@@ -179,26 +199,6 @@
     {
       "basename": "제 1정규형 (1NF - First Normal Form)",
       "path": "DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Java/JVM/canvas/Garbage Collector.canvas"
-    },
-    {
-      "basename": "G1 GC",
-      "path": "Java/JVM/md/G1 GC.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "Java/JVM/canvas/JVM.canvas"
-    },
-    {
-      "basename": "JVM(Java Virtual Machine)",
-      "path": "Java/JVM/md/JVM(Java Virtual Machine).md"
-    },
-    {
-      "basename": "JVM 수행 과정",
-      "path": "Java/JVM/resources/JVM 수행 과정.png"
     }
   ],
   "omittedPaths": [],
