@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
+                "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": -1754.6830252227148,
-                  "y": -261.7982040387374,
-                  "zoom": 0.5
+                  "x": 1802.2184560508858,
+                  "y": 347.4843370940154,
+                  "zoom": -0.5
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
+                "file": "OS/memory/canvas/메모리 관리.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP/Connection/canvas/HTTP Connection.canvas",
+                "file": "OS/memory/canvas/메모리 관리.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP/Connection/canvas/HTTP Connection.canvas"
+                "file": "OS/memory/canvas/메모리 관리.canvas"
               }
             }
           }
@@ -202,9 +202,18 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/공유(Sharing).md",
+    "OS/memory/canvas/보호(Protection).md",
+    "OS/memory/canvas/재배치(Relocation).md",
+    "OS/memory/md/메모리 관리.md",
+    "HTTP/Connection/canvas/HTTP Connection.canvas",
+    "OS/memory/canvas/메모리 관리.canvas",
+    "OS/memory/resources",
+    "OS/memory/md",
+    "OS/memory/canvas",
+    "OS/memory",
     "HTTP/Connection/md/병렬 커넥션.md",
     "Network/NAT/canvas/NAT.canvas",
-    "HTTP/Connection/canvas/HTTP Connection.canvas",
     "HTTP/Connection/md/병렬 커넥션 vs 지속 커넥션.md",
     "HTTP/Connection/md/지속 커넥션.md",
     "HTTP/Connection/md/HTTP 커넥션 성능 향상 기술.md",
@@ -240,21 +249,13 @@
     "DB/Normalization/canvas/정규화.canvas",
     "OS/Thrashing/resources",
     "OS/Thrashing/md",
-    "OS/Thrashing/canvas",
-    "OS/Thrashing",
     "DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md",
     "DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md",
-    "Java/JVM/canvas/Garbage Collector.canvas",
     "Java/JVM/md/JVM(Java Virtual Machine).md",
     "OS/Concurrency/md/교착상태 발견 특징.md",
     "OS/Concurrency/md/프로세스에서의 자원 이용.md",
     "OS/Concurrency/md/식사하는 철학자 문제.md",
     "OS/Concurrency/md/교착상태 회복(recovery) 알고리즘.md",
-    "OS/Concurrency/md/교착상태 발견(deadlock detection).md",
-    "OS/Concurrency/md/교착상태 회피 단점.md",
-    "OS/Concurrency/md/교착상태 회피 장점.md",
-    "OS/Concurrency/canvas/무제 폴더",
-    "HTTP/URL/md",
     "Network/NAT/resources/Pasted image 20231212002734.png",
     "Network/GSLB/resources/GSLB Policy.png"
   ]

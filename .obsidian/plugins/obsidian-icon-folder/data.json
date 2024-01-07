@@ -55,5 +55,6 @@
   "HTTP": "FarFolder",
   "HTTP/URL": "FarStar",
   "OS/Thrashing": "FarStar",
-  "HTTP/Connection": "FarStar"
+  "HTTP/Connection": "FarStar",
+  "OS/memory": "FarStar"
 }
