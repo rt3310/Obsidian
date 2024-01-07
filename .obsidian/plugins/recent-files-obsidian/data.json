@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "RAID",
+      "path": "OS/Disk/canvas/RAID.canvas"
+    },
+    {
+      "basename": "Semaphore",
+      "path": "OS/Concurrency/canvas/Semaphore.canvas"
+    },
+    {
+      "basename": "DeadLock",
+      "path": "OS/Concurrency/canvas/DeadLock.canvas"
+    },
+    {
+      "basename": "Concurrency",
+      "path": "OS/Concurrency/canvas/Concurrency.canvas"
+    },
+    {
+      "basename": "부트로더(Boot Loader)",
+      "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
+    },
+    {
       "basename": "메모리 관리",
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Working Set 알고리즘",
       "path": "OS/Thrashing/md/Working Set 알고리즘.md"
-    },
-    {
-      "basename": "스레싱(Thrashing)",
-      "path": "OS/Thrashing/md/스레싱(Thrashing).md"
-    },
-    {
-      "basename": "Pasted image 20231217204647",
-      "path": "OS/Concurrency/resources/Pasted image 20231217204647.png"
-    },
-    {
-      "basename": "Thread",
-      "path": "OS/Thread/canvas/Thread.canvas"
-    },
-    {
-      "basename": "semaphore code",
-      "path": "OS/Concurrency/resources/semaphore code.png"
-    },
-    {
-      "basename": "Concurrent & Parallel",
-      "path": "OS/Concurrency/resources/Concurrent & Parallel.png"
     }
   ],
   "omittedPaths": [],
