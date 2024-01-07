@@ -5,6 +5,10 @@
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
     {
+      "basename": "MMU",
+      "path": "OS/memory/canvas/MMU.md"
+    },
+    {
       "basename": "로딩",
       "path": "OS/memory/md/로딩.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PFF(Page Fault Frequency) 알고리즘",
       "path": "OS/Thrashing/md/PFF(Page Fault Frequency) 알고리즘.md"
-    },
-    {
-      "basename": "Working Set 알고리즘",
-      "path": "OS/Thrashing/md/Working Set 알고리즘.md"
     }
   ],
   "omittedPaths": [],

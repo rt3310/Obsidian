@@ -34,7 +34,10 @@
 		{"id":"99c47ad550d6f23a","type":"file","file":"OS/memory/md/프로세스 활성화.md","x":-345,"y":730,"width":733,"height":188},
 		{"id":"923a42761ea55c92","type":"file","file":"OS/memory/md/로딩.md","x":-747,"y":1080,"width":694,"height":386},
 		{"id":"40e58106e84afe41","type":"file","file":"OS/memory/md/링킹.md","x":184,"y":1083,"width":681,"height":283},
-		{"id":"2471c00b40aeec50","type":"text","text":"- 페이지: 고정크기\n- 세그먼트: 가변크기 + 보호","x":1438,"y":1161,"width":288,"height":64,"color":"5"}
+		{"id":"2471c00b40aeec50","type":"text","text":"- 페이지: 고정크기\n- 세그먼트: 가변크기 + 보호","x":1438,"y":1161,"width":288,"height":64,"color":"5"},
+		{"id":"6686d6f3fef91545","x":-480,"y":382,"width":546,"height":176,"type":"file","file":"OS/memory/canvas/MMU.md"},
+		{"id":"89516f1cd7d26e72","x":244,"y":80,"width":523,"height":223,"type":"text","text":"- 모든 프로세스마다 같은 주소를 사용할 수 있게 한다.\n\t- 실제 물리 주소가 13번지, 15번지, 29번지 일 때 MMU는 가상주소로 이를 모두 1번지로 표현할 수 있다.\n- CPU는 프로세스 관리 및 구현이 간단하다.\n- 서로 떨어져 있는 데이터를 연속된 데이터를 표현할 수 있다.\n\t- 실제 물리 주소가 13번지, 15번지, 29번지 일 때 연속된 데이터처럼 1번지, 2번지, 3번지로 표현이 가능하다."},
+		{"id":"54d703622a03d6f6","x":186,"y":459,"width":594,"height":201,"type":"text","text":"프로세스는 독립적인 메모리 공간을 가져야 한다.\n따라서 MMU는 한 프로세스에게 합법적인 주소 영역을 설정하고, 잘못된 접근이 오면 trap을 발생시키며 보호한다."}
 	],
 	"edges":[
 		{"id":"5b612337588bbd15","fromNode":"28bd8edc5be1a8f5","fromSide":"left","toNode":"918a071ee1e6c80c","toSide":"right","label":"요구조건"},
@@ -69,6 +72,9 @@
 		{"id":"916f10381bb66b22","fromNode":"39ee70b453ea2299","fromSide":"right","toNode":"fb6220af2bbfe216","toSide":"left","label":"문제점"},
 		{"id":"2f7804c32cd4f52c","fromNode":"39ee70b453ea2299","fromSide":"bottom","toNode":"2471c00b40aeec50","toSide":"top","label":"페이지 vs 세그먼트"},
 		{"id":"3d43a44aa43ac27b","fromNode":"99c47ad550d6f23a","fromSide":"bottom","toNode":"923a42761ea55c92","toSide":"top","label":"로딩"},
-		{"id":"b84e5e7e2387cb11","fromNode":"99c47ad550d6f23a","fromSide":"bottom","toNode":"40e58106e84afe41","toSide":"top","label":"링킹"}
+		{"id":"b84e5e7e2387cb11","fromNode":"99c47ad550d6f23a","fromSide":"bottom","toNode":"40e58106e84afe41","toSide":"top","label":"링킹"},
+		{"id":"54f5efd9d59fbdba","fromNode":"4f0553220394ab9a","fromSide":"right","toNode":"6686d6f3fef91545","toSide":"left","label":"MMU?"},
+		{"id":"97e6e620264d662f","fromNode":"6686d6f3fef91545","fromSide":"right","toNode":"89516f1cd7d26e72","toSide":"left","label":"장점"},
+		{"id":"adf359ce93e4137e","fromNode":"6686d6f3fef91545","fromSide":"right","toNode":"54d703622a03d6f6","toSide":"left","label":"MMU의 "}
 	]
 }

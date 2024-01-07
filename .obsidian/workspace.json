@@ -51,9 +51,9 @@
               "state": {
                 "file": "OS/memory/canvas/메모리 관리.canvas",
                 "viewState": {
-                  "x": 943,
-                  "y": 1152.6974276527335,
-                  "zoom": -2.8712182344268955
+                  "x": 374.07159423263795,
+                  "y": 165.7375478080368,
+                  "zoom": -0.3712182344268955
                 }
               }
             }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/memory/canvas/MMU.md",
     "OS/memory/md/로딩.md",
     "OS/Disk/canvas/RAID.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
