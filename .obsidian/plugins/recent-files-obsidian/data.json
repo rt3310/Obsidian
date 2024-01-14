@@ -5,6 +5,22 @@
       "path": "DB/Sharding/canvas/Sharding.canvas"
     },
     {
+      "basename": "샤딩(Sharding)",
+      "path": "DB/Sharding/canvas/샤딩(Sharding).md"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "READ UNCOMMITTED의 Dirty Read",
+      "path": "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
+    },
+    {
+      "basename": "READ COMMITTED 작동 방식",
+      "path": "DB/Transaction/md/READ COMMITTED 작동 방식.md"
+    },
+    {
       "basename": "레인지샤딩 룰 설정",
       "path": "DB/Sharding/canvas/레인지샤딩 룰 설정.md"
     },
@@ -15,10 +31,6 @@
     {
       "basename": "yaml 설정",
       "path": "DB/Sharding/canvas/yaml 설정.md"
-    },
-    {
-      "basename": "샤딩(Sharding)",
-      "path": "DB/Sharding/canvas/샤딩(Sharding).md"
     },
     {
       "basename": "Config 클래스",
@@ -187,18 +199,6 @@
     {
       "basename": "IP 패킷",
       "path": "HTTP/Connection/resources/IP 패킷.png"
-    },
-    {
-      "basename": "IP 헤더 구성",
-      "path": "HTTP/Connection/md/IP 헤더 구성.md"
-    },
-    {
-      "basename": "IP 패킷 구성",
-      "path": "HTTP/Connection/md/IP 패킷 구성.md"
-    },
-    {
-      "basename": "TCP 커넥션",
-      "path": "HTTP/Connection/md/TCP 커넥션.md"
     }
   ],
   "omittedPaths": [],

@@ -51,9 +51,9 @@
               "state": {
                 "file": "DB/Sharding/canvas/Sharding.canvas",
                 "viewState": {
-                  "x": -1715.0873258753104,
-                  "y": 135.2845271258765,
-                  "zoom": -0.41847252345818475
+                  "x": 54.41274401598247,
+                  "y": -152.54879927816762,
+                  "zoom": 0.08152747654181525
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Sharding/canvas/Sharding.canvas",
+                "file": "DB/Sharding/canvas/샤딩(Sharding).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Sharding/canvas/Sharding.canvas",
+                "file": "DB/Sharding/canvas/샤딩(Sharding).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Sharding/canvas/Sharding.canvas"
+                "file": "DB/Sharding/canvas/샤딩(Sharding).md"
               }
             }
           }
@@ -202,6 +202,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/Sharding/canvas/Sharding.canvas",
     "DB/Sharding/canvas/Config 클래스.md",
     "DB/Sharding/canvas/Property 클래스.md",
     "DB/Sharding/canvas/모듈러샤딩 룰 설정.md",
@@ -212,7 +214,6 @@
     "DB/Sharding/canvas/모듈러 샤딩(Modular Sharding).md",
     "DB/Sharding/canvas/샤딩(Sharding).md",
     "HTTP/Connection/md/HTTP 커넥션.md",
-    "DB/Sharding/canvas/Sharding.canvas",
     "DB/Sharding/resources",
     "DB/Sharding/md",
     "DB/Sharding/canvas",
@@ -238,7 +239,6 @@
     "OS/memory/md/배치 알고리즘.md",
     "OS/memory/md/비균등 분할.md",
     "OS/memory/md/균등 분할.md",
-    "OS/memory/md/고정 분할.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "OS/memory/resources",
     "OS/memory/md",
