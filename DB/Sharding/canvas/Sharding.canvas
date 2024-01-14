@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"df34e867a28dbd41","x":-345,"y":-318,"width":548,"height":168,"type":"file","file":"DB/Sharding/canvas/샤딩(Sharding).md"},
 		{"id":"2dfffecfe42146cb","x":-620,"y":-601,"width":455,"height":126,"type":"text","text":"- Scale-out이 가능\n- 스캔 범위를 줄여서 쿼리 반응 속도를 빠르게 한다.\n- 장애가 샤드 단위로 발생한다."},
 		{"id":"78042644e067f4ab","x":-70,"y":-605,"width":557,"height":130,"type":"text","text":"- 프로그래밍 복잡도 증가\n- 데이터가 한 쪽 샤드로 몰릴 경우(Hotspot), 샤딩이 무의미해진다.\n- 잘못 사용할 경우 리스크가 크다.\n- 한 번 샤딩 사용 시 이전 구조로 돌아가기 힘들다."},
 		{"id":"75ae713a6b542333","x":400,"y":-442,"width":596,"height":124,"type":"text","text":"- 기존의 데이터베이스 시스템은 단일 서버에서 모든 데이터를 처리하므로 데이터 양이 많아질수록 성능 저하나 확장에 어려움을 겪을 수 있다.\n- 이에 비해 샤딩은 데이터를 분산시킴으로서 여러 대의 서버를 사용하고 **병렬로 처리함으로써 확장성과 성능을 향상시킬 수 있다.**"},
@@ -14,7 +13,8 @@
 		{"id":"1f8069ee231f7b34","x":-2098,"y":289,"width":625,"height":549,"type":"file","file":"DB/Sharding/canvas/레인지샤딩 룰 설정.md"},
 		{"id":"64e23af8451e9d49","x":-2632,"y":-55,"width":534,"height":303,"type":"file","file":"DB/Sharding/canvas/모듈러샤딩 룰 설정.md"},
 		{"id":"fe604bc70e3d5c04","x":-3029,"y":-1262,"width":795,"height":1000,"type":"file","file":"DB/Sharding/canvas/Property 클래스.md"},
-		{"id":"985204366397276d","x":-2022,"y":-1836,"width":912,"height":1148,"type":"file","file":"DB/Sharding/canvas/Config 클래스.md"}
+		{"id":"985204366397276d","x":-1785,"y":-1686,"width":912,"height":1148,"type":"file","file":"DB/Sharding/canvas/Config 클래스.md"},
+		{"id":"df34e867a28dbd41","x":-392,"y":-262,"width":548,"height":168,"type":"file","file":"DB/Sharding/canvas/샤딩(Sharding).md"}
 	],
 	"edges":[
 		{"id":"08633048028ece7c","fromNode":"df34e867a28dbd41","fromSide":"right","toNode":"75ae713a6b542333","toSide":"left","label":"왜 필요한가?"},
