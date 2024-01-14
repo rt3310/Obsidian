@@ -51,8 +51,8 @@
               "state": {
                 "file": "DB/Sharding/canvas/Sharding.canvas",
                 "viewState": {
-                  "x": 54.41274401598247,
-                  "y": -152.54879927816762,
+                  "x": -1263.9411056686372,
+                  "y": 374.79274059568013,
                   "zoom": 0.08152747654181525
                 }
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Sharding/canvas/샤딩(Sharding).md",
+                "file": "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Sharding/canvas/샤딩(Sharding).md",
+                "file": "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Sharding/canvas/샤딩(Sharding).md"
+                "file": "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md"
               }
             }
           }
