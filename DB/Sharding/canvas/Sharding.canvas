@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"df34e867a28dbd41","x":-345,"y":-318,"width":548,"height":168,"type":"file","file":"DB/Sharding/canvas/샤딩(Sharding).md"},
+		{"id":"75ae713a6b542333","x":380,"y":-296,"width":596,"height":124,"type":"text","text":"- 기존의 데이터베이스 시스템은 단일 서버에서 모든 데이터를 처리하므로 데이터 양이 많아질수록 성능 저하나 확장에 어려움을 겪을 수 있다.\n- 이에 비해 샤딩은 데이터를 분산시킴으로서 여러 대의 서버를 사용하고 **병렬로 처리함으로써 확장성과 성능을 향상시킬 수 있다.**"},
+		{"id":"ed0875c87e3d3ac2","x":-322,"y":-20,"width":503,"height":329,"type":"text","text":"샤딩은 수평 파티셔닝의 일종으로 볼 수 있다.\n그러나, 수평적 파티셔닝은 동일한 DB 서버 내에서 테이블을 분할하는 것이고 샤딩은 DB 서버를 분할한다는 차이점이 있다.\n\n즉, 샤딩은 DB 서버의 부하를 분산할 수 있다는 것이고, 데이터베이스 차원의 수평 확장(scale-out)인 셈이다."},
+		{"id":"2dfffecfe42146cb","x":-361,"y":-680,"width":309,"height":126,"type":"text","text":"- Scale-out이 가능\n- 스캔 범위를 줄여서 쿼리 반응 속도를 빠르게 한다.\n- 장애가 샤드 단위로 발생한다."}
+	],
+	"edges":[
+		{"id":"08633048028ece7c","fromNode":"df34e867a28dbd41","fromSide":"right","toNode":"75ae713a6b542333","toSide":"left","label":"왜 필요한가?"},
+		{"id":"6c1de22bf9fd6317","fromNode":"df34e867a28dbd41","fromSide":"bottom","toNode":"ed0875c87e3d3ac2","toSide":"top","label":"수평 파티셔닝 vs 샤딩"},
+		{"id":"d7a861949c209608","fromNode":"df34e867a28dbd41","fromSide":"top","toNode":"2dfffecfe42146cb","toSide":"bottom","label":"장점"}
+	]
+}

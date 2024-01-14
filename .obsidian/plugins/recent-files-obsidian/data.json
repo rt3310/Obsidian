@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Sharding",
+      "path": "DB/Sharding/canvas/Sharding.canvas"
+    },
+    {
+      "basename": "샤딩(Sharding)",
+      "path": "DB/Sharding/canvas/샤딩(Sharding).md"
+    },
+    {
       "basename": "HTTP 커넥션",
       "path": "HTTP/Connection/md/HTTP 커넥션.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "SQL",
-      "path": "DB/SQL/canvas/SQL.canvas"
-    },
-    {
-      "basename": "NL 조인",
-      "path": "DB/SQL/md/NL 조인.md"
     }
   ],
   "omittedPaths": [],

@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/memory/canvas/메모리 관리.canvas",
+                "file": "DB/Sharding/canvas/Sharding.canvas",
                 "viewState": {
-                  "x": -66.24651750998416,
-                  "y": 633.785417353071,
-                  "zoom": -0.3712182344268955
+                  "x": -347.49981689453125,
+                  "y": -272.3333740234375,
+                  "zoom": 0
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP/Connection/md/HTTP 커넥션.md",
+                "file": "DB/Sharding/canvas/Sharding.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP/Connection/md/HTTP 커넥션.md",
+                "file": "DB/Sharding/canvas/Sharding.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP/Connection/md/HTTP 커넥션.md"
+                "file": "DB/Sharding/canvas/Sharding.canvas"
               }
             }
           }
@@ -200,8 +200,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "DB/Sharding/canvas/샤딩(Sharding).md",
+    "HTTP/Connection/md/HTTP 커넥션.md",
+    "DB/Sharding/canvas/Sharding.canvas",
+    "DB/Sharding/resources",
+    "DB/Sharding/md",
+    "DB/Sharding/canvas",
+    "DB/Sharding",
     "Pasted image 20240107225608.png",
     "OS/memory/canvas/Swapping 기법.md",
     "OS/memory/canvas/메모리 과할당(Over Allocating).md",
@@ -232,7 +239,6 @@
     "OS/memory/md/공유(Sharing).md",
     "OS/memory/md/보호(Protection).md",
     "OS/memory/md/재배치(Relocation).md",
-    "OS/memory/md/메모리 관리.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "OS/memory/resources",
     "OS/memory/md",
@@ -244,19 +250,13 @@
     "OS/Thrashing/canvas/무제 파일.canvas",
     "HTTP/Connection/resources",
     "HTTP/Connection/md",
-    "HTTP/Connection/canvas",
-    "HTTP/Connection",
     "DB/SQL/canvas/Join.canvas",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
-    "OS/Thread/canvas/Thread.canvas",
     "OS/Concurrency/resources/semaphore code.png",
     "OS/Concurrency/resources/Concurrent & Parallel.png",
     "Pasted image 20231217204742.png",
     "Pasted image 20231217204644.png",
     "OS/Concurrency/resources/Pasted image 20231217214906.png",
-    "OS/Thrashing/resources",
-    "OS/Thrashing/md",
-    "Network/NAT/resources/Pasted image 20231212002734.png",
-    "Network/GSLB/resources/GSLB Policy.png"
+    "Network/NAT/resources/Pasted image 20231212002734.png"
   ]
 }
