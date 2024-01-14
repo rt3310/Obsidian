@@ -51,8 +51,8 @@
               "state": {
                 "file": "DB/Sharding/canvas/Sharding.canvas",
                 "viewState": {
-                  "x": 1269.3467086651056,
-                  "y": 666.8828552546908,
+                  "x": -760.5232957424278,
+                  "y": -915.0057413059257,
                   "zoom": -0.5
                 }
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md",
+                "file": "DB/Sharding/canvas/Sharding.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md",
+                "file": "DB/Sharding/canvas/Sharding.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md"
+                "file": "DB/Sharding/canvas/Sharding.canvas"
               }
             }
           }
@@ -202,6 +202,9 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "DB/Sharding/canvas/모듈러샤딩 룰 설정.md",
+    "DB/Sharding/canvas/레인지샤딩 룰 설정.md",
+    "DB/Sharding/canvas/yaml 설정.md",
     "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md",
     "DB/Sharding/canvas/레인지 샤딩(Range Sharding).md",
     "DB/Sharding/canvas/모듈러 샤딩(Modular Sharding).md",
@@ -236,9 +239,6 @@
     "OS/memory/md/고정 분할.md",
     "OS/memory/md/단편화(Fragmentation).md",
     "OS/memory/md/불연속 메모리 관리.md",
-    "OS/memory/md/연속 메모리 관리.md",
-    "OS/memory/md/물리적인 구성.md",
-    "OS/memory/md/논리적인 구성.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "OS/memory/resources",
     "OS/memory/md",

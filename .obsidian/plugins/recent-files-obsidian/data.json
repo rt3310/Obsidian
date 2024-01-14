@@ -5,6 +5,18 @@
       "path": "DB/Sharding/canvas/Sharding.canvas"
     },
     {
+      "basename": "레인지샤딩 룰 설정",
+      "path": "DB/Sharding/canvas/레인지샤딩 룰 설정.md"
+    },
+    {
+      "basename": "모듈러샤딩 룰 설정",
+      "path": "DB/Sharding/canvas/모듈러샤딩 룰 설정.md"
+    },
+    {
+      "basename": "yaml 설정",
+      "path": "DB/Sharding/canvas/yaml 설정.md"
+    },
+    {
       "basename": "디렉토리 샤딩(Directory Sharding)",
       "path": "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "NAT",
       "path": "Network/NAT/canvas/NAT.canvas"
-    },
-    {
-      "basename": "NAT(Network Address Translation)",
-      "path": "Network/NAT/md/NAT(Network Address Translation).md"
-    },
-    {
-      "basename": "병렬 커넥션 vs 지속 커넥션",
-      "path": "HTTP/Connection/md/병렬 커넥션 vs 지속 커넥션.md"
-    },
-    {
-      "basename": "지속 커넥션",
-      "path": "HTTP/Connection/md/지속 커넥션.md"
     }
   ],
   "omittedPaths": [],
