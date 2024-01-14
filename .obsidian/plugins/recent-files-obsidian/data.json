@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HTTP 커넥션",
+      "path": "HTTP/Connection/md/HTTP 커넥션.md"
+    },
+    {
       "basename": "메모리 관리",
       "path": "OS/memory/canvas/메모리 관리.canvas"
     },
@@ -155,10 +159,6 @@
     {
       "basename": "TCP 커넥션",
       "path": "HTTP/Connection/md/TCP 커넥션.md"
-    },
-    {
-      "basename": "HTTP 커넥션",
-      "path": "HTTP/Connection/md/HTTP 커넥션.md"
     },
     {
       "basename": "병렬 커넥션",
