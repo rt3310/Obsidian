@@ -9,12 +9,12 @@
 		{"id":"147447a080ba4691","x":387,"y":240,"width":201,"height":96,"type":"text","text":"- 모듈러 샤딩\n- 레인지 샤딩\n- 디렉토리 샤딩"},
 		{"id":"e2524ed0eb0155d2","x":840,"y":125,"width":632,"height":327,"type":"file","file":"DB/Sharding/canvas/레인지 샤딩(Range Sharding).md"},
 		{"id":"239d6e4c779085c4","x":840,"y":580,"width":680,"height":204,"type":"file","file":"DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md"},
-		{"id":"4114f8951b4988d0","x":-1220,"y":-380,"width":440,"height":360,"type":"text","text":"- [[yaml 설정]]\n- [[레인지샤딩 룰 설정]]\n- [[모듈러샤딩 룰 설정]]"},
-		{"id":"3a8811b3207749ea","x":-1420,"y":140,"width":840,"height":642,"type":"file","file":"DB/Sharding/canvas/yaml 설정.md"},
-		{"id":"1f8069ee231f7b34","x":-2200,"y":-51,"width":625,"height":549,"type":"file","file":"DB/Sharding/canvas/레인지샤딩 룰 설정.md"},
-		{"id":"64e23af8451e9d49","x":-2154,"y":-480,"width":534,"height":303,"type":"file","file":"DB/Sharding/canvas/모듈러샤딩 룰 설정.md"},
-		{"id":"0324251033bf4ae8","x":-2040,"y":-1660,"width":795,"height":954,"type":"text","text":"### ShardingDataSourceProperty\n```java\n@Getter\n@Setter\npublic class ShardingDataSourceProperty {\n    private List<Shard> shards;\n\n    @Getter\n    @Setter\n    public static class Shard {\n        private String username;\n        private String password;\n        private Property master;\n        private List<Property> slaves;\n    }\n\n    @Getter\n    @Setter\n    public static class Property {\n        private String name;\n        private String url;\n    }\n}\n```\n\n### ShardingProperty\n```java\n@Getter\n@Setter\npublic class ShardingProperty {\n    private ShardingStrategy strategy;\n    private List<ShardingRule> rules;\n    private int mod;\n\n    @Getter\n    @Setter\n    public static class ShardingRule {\n        private int shardNo;\n        private long rangeMin;\n        private long rangeMax;\n    }\n}\n```"},
-		{"id":"5970e3099b9d088d","x":-943,"y":-1620,"width":523,"height":914,"type":"text","text":""}
+		{"id":"4114f8951b4988d0","x":-1550,"y":-262,"width":440,"height":163,"type":"text","text":"- [[yaml 설정]]\n- [[레인지샤딩 룰 설정]]\n- [[모듈러샤딩 룰 설정]]\n- [[Property 클래스]]\n- [[Config 클래스]]"},
+		{"id":"3a8811b3207749ea","x":-1294,"y":164,"width":840,"height":642,"type":"file","file":"DB/Sharding/canvas/yaml 설정.md"},
+		{"id":"1f8069ee231f7b34","x":-2098,"y":289,"width":625,"height":549,"type":"file","file":"DB/Sharding/canvas/레인지샤딩 룰 설정.md"},
+		{"id":"64e23af8451e9d49","x":-2632,"y":-55,"width":534,"height":303,"type":"file","file":"DB/Sharding/canvas/모듈러샤딩 룰 설정.md"},
+		{"id":"fe604bc70e3d5c04","x":-3029,"y":-1262,"width":795,"height":1000,"type":"file","file":"DB/Sharding/canvas/Property 클래스.md"},
+		{"id":"985204366397276d","x":-2022,"y":-1836,"width":912,"height":1148,"type":"file","file":"DB/Sharding/canvas/Config 클래스.md"}
 	],
 	"edges":[
 		{"id":"08633048028ece7c","fromNode":"df34e867a28dbd41","fromSide":"right","toNode":"75ae713a6b542333","toSide":"left","label":"왜 필요한가?"},
@@ -27,9 +27,9 @@
 		{"id":"1f6aad5a4058c119","fromNode":"147447a080ba4691","fromSide":"right","toNode":"239d6e4c779085c4","toSide":"left","label":"디렉토리 샤딩"},
 		{"id":"e3b2d64137c7dfaf","fromNode":"df34e867a28dbd41","fromSide":"left","toNode":"4114f8951b4988d0","toSide":"right","label":"in Spring"},
 		{"id":"d4b971a2448314d9","fromNode":"4114f8951b4988d0","fromSide":"bottom","toNode":"3a8811b3207749ea","toSide":"top","label":"yaml 설정"},
-		{"id":"677e8d76b248a320","fromNode":"4114f8951b4988d0","fromSide":"left","toNode":"1f8069ee231f7b34","toSide":"right","label":"레인지샤딩 룰 설정"},
+		{"id":"677e8d76b248a320","fromNode":"4114f8951b4988d0","fromSide":"bottom","toNode":"1f8069ee231f7b34","toSide":"top","label":"레인지샤딩 룰 설정"},
 		{"id":"72422612bcfd6c39","fromNode":"4114f8951b4988d0","fromSide":"left","toNode":"64e23af8451e9d49","toSide":"right","label":"모듈러샤딩 룰 설정"},
-		{"id":"f73cde4533c5c0e4","fromNode":"4114f8951b4988d0","fromSide":"top","toNode":"0324251033bf4ae8","toSide":"bottom"},
-		{"id":"804e06255d2cb957","fromNode":"4114f8951b4988d0","fromSide":"top","toNode":"5970e3099b9d088d","toSide":"bottom"}
+		{"id":"f73cde4533c5c0e4","fromNode":"4114f8951b4988d0","fromSide":"left","toNode":"fe604bc70e3d5c04","toSide":"right"},
+		{"id":"804e06255d2cb957","fromNode":"4114f8951b4988d0","fromSide":"top","toNode":"985204366397276d","toSide":"bottom"}
 	]
 }
