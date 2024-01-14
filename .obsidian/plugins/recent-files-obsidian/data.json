@@ -5,6 +5,18 @@
       "path": "DB/Sharding/canvas/Sharding.canvas"
     },
     {
+      "basename": "레인지샤딩 룰 설정",
+      "path": "DB/Sharding/canvas/레인지샤딩 룰 설정.md"
+    },
+    {
+      "basename": "모듈러샤딩 룰 설정",
+      "path": "DB/Sharding/canvas/모듈러샤딩 룰 설정.md"
+    },
+    {
+      "basename": "yaml 설정",
+      "path": "DB/Sharding/canvas/yaml 설정.md"
+    },
+    {
       "basename": "샤딩(Sharding)",
       "path": "DB/Sharding/canvas/샤딩(Sharding).md"
     },
@@ -15,18 +27,6 @@
     {
       "basename": "Property 클래스",
       "path": "DB/Sharding/canvas/Property 클래스.md"
-    },
-    {
-      "basename": "모듈러샤딩 룰 설정",
-      "path": "DB/Sharding/canvas/모듈러샤딩 룰 설정.md"
-    },
-    {
-      "basename": "레인지샤딩 룰 설정",
-      "path": "DB/Sharding/canvas/레인지샤딩 룰 설정.md"
-    },
-    {
-      "basename": "yaml 설정",
-      "path": "DB/Sharding/canvas/yaml 설정.md"
     },
     {
       "basename": "디렉토리 샤딩(Directory Sharding)",
