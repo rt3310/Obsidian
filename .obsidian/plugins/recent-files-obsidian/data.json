@@ -9,12 +9,12 @@
       "path": "DB/SQL/canvas/해시 조인.md"
     },
     {
-      "basename": "NL 조인",
-      "path": "DB/SQL/md/NL 조인.md"
-    },
-    {
       "basename": "서브쿼리 조인",
       "path": "DB/SQL/canvas/서브쿼리 조인.md"
+    },
+    {
+      "basename": "NL 조인",
+      "path": "DB/SQL/md/NL 조인.md"
     },
     {
       "basename": "Phantom Read",
