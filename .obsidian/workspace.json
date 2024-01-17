@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "DB/SQL/canvas/Join.canvas",
                 "viewState": {
-                  "x": 2846.2159898271025,
-                  "y": -614.0388851200108,
-                  "zoom": 0.03999542027738512
+                  "x": 1342.0106015500953,
+                  "y": -65.15319878141662,
+                  "zoom": -0.4732102100784999
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/md/Phantom Read.md",
+                "file": "DB/SQL/canvas/Join.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/md/Phantom Read.md",
+                "file": "DB/SQL/canvas/Join.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/md/Phantom Read.md"
+                "file": "DB/SQL/canvas/Join.canvas"
               }
             }
           }
@@ -202,10 +202,10 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
-    "DB/SQL/canvas/Join.canvas",
     "DB/SQL/canvas/해시 조인.md",
-    "DB/Sharding/canvas/Sharding.canvas",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/SQL/canvas/Join.canvas",
+    "DB/Sharding/canvas/Sharding.canvas",
     "DB/Sharding/canvas/Config 클래스.md",
     "DB/Sharding/canvas/Property 클래스.md",
     "DB/Sharding/canvas/모듈러샤딩 룰 설정.md",
@@ -248,7 +248,6 @@
     "Network/NAT/canvas/NAT.canvas",
     "Pasted image 20231221164018.png",
     "HTTP/Connection/resources/IP 패킷.png",
-    "OS/Thrashing/canvas/무제 파일.canvas",
     "HTTP/Connection/resources",
     "HTTP/Connection/md",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
