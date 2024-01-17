@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Phantom Read",
+      "path": "DB/Transaction/md/Phantom Read.md"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "Join",
+      "path": "DB/SQL/canvas/Join.canvas"
+    },
+    {
+      "basename": "해시 조인",
+      "path": "DB/SQL/canvas/해시 조인.md"
+    },
+    {
+      "basename": "NL 조인",
+      "path": "DB/SQL/md/NL 조인.md"
+    },
+    {
       "basename": "Sharding",
       "path": "DB/Sharding/canvas/Sharding.canvas"
     },
@@ -19,10 +39,6 @@
     {
       "basename": "샤딩(Sharding)",
       "path": "DB/Sharding/canvas/샤딩(Sharding).md"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
     {
       "basename": "READ UNCOMMITTED의 Dirty Read",
@@ -183,22 +199,6 @@
     {
       "basename": "HTTP 커넥션 성능 향상 기술",
       "path": "HTTP/Connection/md/HTTP 커넥션 성능 향상 기술.md"
-    },
-    {
-      "basename": "TCP 소켓 프로그래밍",
-      "path": "HTTP/Connection/md/TCP 소켓 프로그래밍.md"
-    },
-    {
-      "basename": "TCP 데이터 전송",
-      "path": "HTTP/Connection/md/TCP 데이터 전송.md"
-    },
-    {
-      "basename": "TCP 세그먼트 헤더 구성",
-      "path": "HTTP/Connection/md/TCP 세그먼트 헤더 구성.md"
-    },
-    {
-      "basename": "IP 패킷",
-      "path": "HTTP/Connection/resources/IP 패킷.png"
     }
   ],
   "omittedPaths": [],

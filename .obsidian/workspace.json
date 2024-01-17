@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Sharding/canvas/Sharding.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "viewState": {
-                  "x": -576.0881930043033,
-                  "y": -195.27901314310458,
-                  "zoom": -1.4184725234581848
+                  "x": 2846.2159898271025,
+                  "y": -614.0388851200108,
+                  "zoom": 0.03999542027738512
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Sharding/canvas/Sharding.canvas",
+                "file": "DB/Transaction/md/Phantom Read.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Sharding/canvas/Sharding.canvas",
+                "file": "DB/Transaction/md/Phantom Read.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Sharding/canvas/Sharding.canvas"
+                "file": "DB/Transaction/md/Phantom Read.md"
               }
             }
           }
@@ -202,8 +202,10 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/SQL/canvas/Join.canvas",
+    "DB/SQL/canvas/해시 조인.md",
     "DB/Sharding/canvas/Sharding.canvas",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Sharding/canvas/Config 클래스.md",
     "DB/Sharding/canvas/Property 클래스.md",
     "DB/Sharding/canvas/모듈러샤딩 룰 설정.md",
@@ -238,7 +240,6 @@
     "OS/memory/md/버디(Buddy) 시스템.md",
     "OS/memory/md/배치 알고리즘.md",
     "OS/memory/md/비균등 분할.md",
-    "OS/memory/md/균등 분할.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "OS/memory/resources",
     "OS/memory/md",
@@ -250,7 +251,6 @@
     "OS/Thrashing/canvas/무제 파일.canvas",
     "HTTP/Connection/resources",
     "HTTP/Connection/md",
-    "DB/SQL/canvas/Join.canvas",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
     "OS/Concurrency/resources/semaphore code.png",
     "OS/Concurrency/resources/Concurrent & Parallel.png",
