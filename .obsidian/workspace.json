@@ -51,8 +51,8 @@
               "state": {
                 "file": "DB/SQL/canvas/Join.canvas",
                 "viewState": {
-                  "x": 1342.0106015500953,
-                  "y": -65.15319878141662,
+                  "x": 962.1078822688614,
+                  "y": 1099.5423838537702,
                   "zoom": -0.4732102100784999
                 }
               }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "DB/SQL/canvas/서브쿼리 조인.md",
     "DB/SQL/canvas/해시 조인.md",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/SQL/canvas/Join.canvas",

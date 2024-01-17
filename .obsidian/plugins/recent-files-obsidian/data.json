@@ -9,16 +9,20 @@
       "path": "DB/SQL/canvas/해시 조인.md"
     },
     {
+      "basename": "NL 조인",
+      "path": "DB/SQL/md/NL 조인.md"
+    },
+    {
+      "basename": "서브쿼리 조인",
+      "path": "DB/SQL/canvas/서브쿼리 조인.md"
+    },
+    {
       "basename": "Phantom Read",
       "path": "DB/Transaction/md/Phantom Read.md"
     },
     {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "NL 조인",
-      "path": "DB/SQL/md/NL 조인.md"
     },
     {
       "basename": "Sharding",
@@ -195,10 +199,6 @@
     {
       "basename": "HTTP Connection",
       "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
-    },
-    {
-      "basename": "HTTP 커넥션 성능 향상 기술",
-      "path": "HTTP/Connection/md/HTTP 커넥션 성능 향상 기술.md"
     }
   ],
   "omittedPaths": [],
