@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "무제 파일",
+      "path": "HTTP/Web Server/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "웹 서버",
+      "path": "HTTP/Web Server/canvas/웹 서버.md"
+    },
+    {
       "basename": "Join",
       "path": "DB/SQL/canvas/Join.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "연속 메모리 관리",
       "path": "OS/memory/md/연속 메모리 관리.md"
-    },
-    {
-      "basename": "논리적인 구성",
-      "path": "OS/memory/md/논리적인 구성.md"
-    },
-    {
-      "basename": "HTTP Connection",
-      "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
     }
   ],
   "omittedPaths": [],

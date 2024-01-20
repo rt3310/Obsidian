@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"e1fb798ede82c62c","x":-340,"y":-240,"width":478,"height":298,"type":"file","file":"HTTP/Web Server/canvas/웹 서버.md"},
+		{"id":"a5889d53a8a61974","x":260,"y":-188,"width":540,"height":308,"type":"text","text":"웹 서버는 HTTP 및 그와 관련된 TCP 처리를 구현한 것이다.\n\n웹 서버는 자신이 제공하는 리소스를 관리하고 웹 서버를 설정, 통제, 확장하기 위한 관리 기능을 제공한다."}
+	],
+	"edges":[
+		{"id":"b64a1dc7d9490e3c","fromNode":"e1fb798ede82c62c","fromSide":"right","toNode":"a5889d53a8a61974","toSide":"left"}
+	]
+}

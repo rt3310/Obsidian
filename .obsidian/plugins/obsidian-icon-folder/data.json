@@ -57,5 +57,6 @@
   "OS/Thrashing": "FarStar",
   "HTTP/Connection": "FarStar",
   "OS/memory": "FarStar",
-  "DB/Sharding": "FarStar"
+  "DB/Sharding": "FarStar",
+  "HTTP/Web Server": "FarStar"
 }

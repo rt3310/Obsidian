@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/SQL/canvas/Join.canvas",
+                "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 613.7937063511795,
-                  "y": 534.4537386905563,
-                  "zoom": 0.5
+                  "x": 418.5,
+                  "y": 0,
+                  "zoom": 0
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/SQL/canvas/Join.canvas",
+                "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/SQL/canvas/Join.canvas",
+                "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/SQL/canvas/Join.canvas"
+                "file": "HTTP/Web Server/canvas/무제 파일.canvas"
               }
             }
           }
@@ -202,10 +202,16 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "HTTP/Web Server/canvas/웹 서버.md",
+    "DB/SQL/canvas/Join.canvas",
+    "HTTP/Web Server/canvas/무제 파일.canvas",
+    "HTTP/Web Server/canvas",
+    "HTTP/Web Server/md",
+    "HTTP/Web Server/resources",
+    "HTTP/Web Server",
     "DB/SQL/canvas/서브쿼리 조인.md",
     "DB/SQL/canvas/해시 조인.md",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "DB/SQL/canvas/Join.canvas",
     "DB/Sharding/canvas/Sharding.canvas",
     "DB/Sharding/canvas/Config 클래스.md",
     "DB/Sharding/canvas/Property 클래스.md",
@@ -240,17 +246,11 @@
     "OS/memory/md/페이징.md",
     "OS/memory/md/버디(Buddy) 시스템.md",
     "OS/memory/md/배치 알고리즘.md",
-    "OS/memory/md/비균등 분할.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "OS/memory/resources",
     "OS/memory/md",
-    "OS/memory/canvas",
-    "OS/memory",
-    "Network/NAT/canvas/NAT.canvas",
     "Pasted image 20231221164018.png",
     "HTTP/Connection/resources/IP 패킷.png",
-    "HTTP/Connection/resources",
-    "HTTP/Connection/md",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
     "OS/Concurrency/resources/semaphore code.png",
     "OS/Concurrency/resources/Concurrent & Parallel.png",
