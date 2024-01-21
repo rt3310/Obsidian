@@ -52,7 +52,7 @@
                 "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
                   "x": 567.500244140625,
-                  "y": 476.9996109008789,
+                  "y": 1453.499610900879,
                   "zoom": 0
                 }
               }
@@ -203,6 +203,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "Pasted image 20240121164447.png",
     "Pasted image 20240121104335.png",
     "HTTP/Web Server/canvas/무제 파일.canvas",
     "HTTP/Web Server/canvas/웹 서버.md",
@@ -257,7 +258,6 @@
     "OS/Concurrency/resources/Concurrent & Parallel.png",
     "Pasted image 20231217204742.png",
     "Pasted image 20231217204644.png",
-    "OS/Concurrency/resources/Pasted image 20231217214906.png",
-    "Network/NAT/resources/Pasted image 20231212002734.png"
+    "OS/Concurrency/resources/Pasted image 20231217214906.png"
   ]
 }
