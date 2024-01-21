@@ -17,7 +17,7 @@
 		{"id":"4bccbc9649291f2b","type":"file","file":"HTTP/Web Server/canvas/멀티프로세스와 멀티스레드 웹 서버.md","x":2842,"y":2225,"width":610,"height":322},
 		{"id":"45577bb9c1239d80","type":"file","file":"HTTP/Web Server/canvas/다중 I/다중 IO 서버.md","x":2842,"y":2665,"width":701,"height":298},
 		{"id":"96666000948afe26","type":"file","file":"HTTP/Web Server/canvas/다중 멀티스레드 웹 서버.md","x":2842,"y":3085,"width":645,"height":195},
-		{"id":"b801e27325b8e234","x":-1500,"y":2040,"width":855,"height":365,"type":"text","text":"웹 서버는 여러 종류의 리소스 매핑을 지원한다.\n하지만 리소스 매핑의 가장 단순한 형태는 요청 URI를 웹 서버의 파일 시스템 안에 있는 파일 이름을 사용하는 것이다.\n일반적으로 웹 서버 파일 시스템의 특별한 폴더를 웹 콘텐츠를 위해 예약해 둔다. 이 폴더는 문서 루트 혹은 docroot로 불린다.\n웹 서버는 요청 메시지에서 URI 를"}
+		{"id":"b801e27325b8e234","x":-1500,"y":2040,"width":855,"height":365,"type":"text","text":"웹 서버는 여러 종류의 리소스 매핑을 지원한다.\n하지만 리소스 매핑의 가장 단순한 형태는 요청 URI를 웹 서버의 파일 시스템 안에 있는 파일 이름을 사용하는 것이다.\n일반적으로 웹 서버 파일 시스템의 특별한 폴더를 웹 콘텐츠를 위해 예약해 둔다. 이 폴더는 문서 루트 혹은 docroot로 불린다.\n웹 서버는 요청 메시지에서 URI를 가져와서 문서 루트 뒤에 붙인다."}
 	],
 	"edges":[
 		{"id":"b64a1dc7d9490e3c","fromNode":"e1fb798ede82c62c","fromSide":"right","toNode":"a5889d53a8a61974","toSide":"left"},
