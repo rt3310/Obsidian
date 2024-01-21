@@ -5,16 +5,20 @@
       "path": "HTTP/Web Server/canvas/무제 파일.canvas"
     },
     {
+      "basename": "6. 응답 보내기",
+      "path": "HTTP/Web Server/canvas/6. 응답 보내기.md"
+    },
+    {
+      "basename": "2. 요청 메시지 수신",
+      "path": "HTTP/Web Server/canvas/2. 요청 메시지 수신.md"
+    },
+    {
       "basename": "Pasted image 20240121204044",
       "path": "Pasted image 20240121204044.png"
     },
     {
       "basename": "7. 로깅",
       "path": "HTTP/Web Server/canvas/7. 로깅.md"
-    },
-    {
-      "basename": "6. 응답 보내기",
-      "path": "HTTP/Web Server/canvas/6. 응답 보내기.md"
     },
     {
       "basename": "5. 응답 만들기",
@@ -31,10 +35,6 @@
     {
       "basename": "1. 클라이언트 커넥션 수락",
       "path": "HTTP/Web Server/canvas/1. 클라이언트 커넥션 수락.md"
-    },
-    {
-      "basename": "2. 요청 메시지 수신",
-      "path": "HTTP/Web Server/canvas/2. 요청 메시지 수신.md"
     },
     {
       "basename": "다중 멀티스레드 웹 서버",
