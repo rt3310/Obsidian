@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "6. 응답 보내기",
+      "path": "HTTP/Web Server/canvas/6. 응답 보내기.md"
+    },
+    {
       "basename": "무제 파일",
       "path": "HTTP/Web Server/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "5. 응답 만들기",
+      "path": "HTTP/Web Server/canvas/5. 응답 만들기.md"
     },
     {
       "basename": "3. 요청 처리",
@@ -191,14 +199,6 @@
     {
       "basename": "메모리 관리",
       "path": "OS/memory/md/메모리 관리.md"
-    },
-    {
-      "basename": "세그먼테이션",
-      "path": "OS/memory/md/세그먼테이션.md"
-    },
-    {
-      "basename": "동적 분할",
-      "path": "OS/memory/md/동적 분할.md"
     }
   ],
   "omittedPaths": [],
