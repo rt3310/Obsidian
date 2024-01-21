@@ -1,9 +1,11 @@
 {
 	"nodes":[
 		{"id":"e1fb798ede82c62c","x":-340,"y":-240,"width":478,"height":298,"type":"file","file":"HTTP/Web Server/canvas/웹 서버.md"},
-		{"id":"a5889d53a8a61974","x":260,"y":-188,"width":570,"height":294,"type":"text","text":"웹 서버는 HTTP 및 그와 관련된 TCP 처리를 구현한 것이다.\n\n- 웹 서버는 자신이 제공하는 리소스를 관리하고 웹 서버를 설정, 통제, 확장하기 위한 관리 기능을 제공한다.\n- 웹 서버는 HTTP 프로토콜을 구현하고, 웹 리소스를 관리하고, 웹 서버 관리 기능을 제공한다.\n- 웹 서버는 TCP 커넥션 관리에 대한 책임을 운영체제와 나눠 갖는다.\n\t- 운영체제는 컴퓨터 시스템의 하드웨어를 관리하고 TCP/IP 네트워크 지원, 웹 리소스를 유지하기 위한 파일 시스템, 현재 연산 활동을 제어하기 위한 프로세스 관리를 제공한다."}
+		{"id":"a5889d53a8a61974","x":260,"y":-238,"width":570,"height":294,"type":"text","text":"웹 서버는 HTTP 및 그와 관련된 TCP 처리를 구현한 것이다.\n\n- 웹 서버는 자신이 제공하는 리소스를 관리하고 웹 서버를 설정, 통제, 확장하기 위한 관리 기능을 제공한다.\n- 웹 서버는 HTTP 프로토콜을 구현하고, 웹 리소스를 관리하고, 웹 서버 관리 기능을 제공한다.\n- 웹 서버는 TCP 커넥션 관리에 대한 책임을 운영체제와 나눠 갖는다.\n\t- 운영체제는 컴퓨터 시스템의 하드웨어를 관리하고 TCP/IP 네트워크 지원, 웹 리소스를 유지하기 위한 파일 시스템, 현재 연산 활동을 제어하기 위한 프로세스 관리를 제공한다."},
+		{"id":"3fc514c0546b5507","x":-227,"y":147,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
-		{"id":"b64a1dc7d9490e3c","fromNode":"e1fb798ede82c62c","fromSide":"right","toNode":"a5889d53a8a61974","toSide":"left"}
+		{"id":"b64a1dc7d9490e3c","fromNode":"e1fb798ede82c62c","fromSide":"right","toNode":"a5889d53a8a61974","toSide":"left"},
+		{"id":"c9c12a225d80bd97","fromNode":"e1fb798ede82c62c","fromSide":"bottom","toNode":"3fc514c0546b5507","toSide":"top"}
 	]
 }
