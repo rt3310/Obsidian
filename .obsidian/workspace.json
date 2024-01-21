@@ -51,8 +51,8 @@
               "state": {
                 "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": -139.5,
-                  "y": -139.5,
+                  "x": 567.500244140625,
+                  "y": 476.9996109008789,
                   "zoom": 0
                 }
               }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "Pasted image 20240121104335.png",
     "HTTP/Web Server/canvas/무제 파일.canvas",
     "HTTP/Web Server/canvas/웹 서버.md",
     "DB/SQL/canvas/Join.canvas",
