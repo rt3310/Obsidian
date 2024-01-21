@@ -52,7 +52,7 @@
                 "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
                   "x": -949.2961819270063,
-                  "y": 1859.7078274409073,
+                  "y": 2705.920909546435,
                   "zoom": -0.5
                 }
               }
@@ -203,6 +203,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "Pasted image 20240121185044.png",
+    "Pasted image 20240121184556.png",
     "HTTP/Web Server/canvas/4. 리소스의 매핑과 접근.md",
     "HTTP/Web Server/canvas/3. 요청 처리.md",
     "HTTP/Web Server/canvas/2. 요청 메시지 수신.md",
@@ -242,7 +244,6 @@
     "DB/Sharding/canvas/레인지 샤딩(Range Sharding).md",
     "DB/Sharding/canvas/모듈러 샤딩(Modular Sharding).md",
     "DB/Sharding/canvas/샤딩(Sharding).md",
-    "HTTP/Connection/md/HTTP 커넥션.md",
     "DB/Sharding/resources",
     "DB/Sharding/md",
     "DB/Sharding/canvas",
@@ -257,7 +258,6 @@
     "OS/memory/resources",
     "Pasted image 20231221164018.png",
     "HTTP/Connection/resources/IP 패킷.png",
-    "OS/Concurrency/resources/Pasted image 20231217204647.png",
-    "OS/Concurrency/resources/semaphore code.png"
+    "OS/Concurrency/resources/Pasted image 20231217204647.png"
   ]
 }
