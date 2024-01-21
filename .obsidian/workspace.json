@@ -51,9 +51,9 @@
               "state": {
                 "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 863.1239628975568,
-                  "y": 2817.8972470547233,
-                  "zoom": 0
+                  "x": 2924.256753914917,
+                  "y": 2702.0711692411746,
+                  "zoom": -0.5
                 }
               }
             }
@@ -203,6 +203,15 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "HTTP/Web Server/canvas/멀티프로세스와 멀티스레드 웹 서버.md",
+    "HTTP/Web Server/canvas/단일 스레드 웹 서버.md",
+    "HTTP/Web Server/canvas/커넥션 입출력 처리 아키텍처.md",
+    "HTTP/Web Server/canvas/메시지의 내부 표현.md",
+    "HTTP/Web Server/canvas/클라이언트 커넥션 수락.md",
+    "HTTP/Web Server/canvas/ident를 통해 클라이언트 사용자 알아내기.md",
+    "HTTP/Web Server/canvas/클라이언트 호스트 명 식별.md",
+    "HTTP/Web Server/canvas/새 커넥션 다루기.md",
+    "Pasted image 20240121175948.png",
     "Pasted image 20240121175747.png",
     "Pasted image 20240121175321.png",
     "Pasted image 20240121164447.png",
@@ -243,21 +252,12 @@
     "OS/Concurrency/canvas/Concurrency.canvas",
     "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "OS/memory/canvas/메모리 관리.canvas",
-    "OS/memory/md/링킹.md",
-    "OS/memory/md/프로세스 활성화.md",
-    "OS/memory/md/동적 분할.md",
-    "OS/memory/md/메모리 집약 vs 메모리 통합.md",
-    "OS/memory/md/세그먼테이션.md",
-    "OS/memory/md/페이징.md",
-    "OS/memory/md/버디(Buddy) 시스템.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "OS/memory/resources",
     "OS/memory/md",
     "Pasted image 20231221164018.png",
     "HTTP/Connection/resources/IP 패킷.png",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
-    "OS/Concurrency/resources/semaphore code.png",
-    "OS/Concurrency/resources/Concurrent & Parallel.png",
-    "Pasted image 20231217204742.png"
+    "OS/Concurrency/resources/semaphore code.png"
   ]
 }

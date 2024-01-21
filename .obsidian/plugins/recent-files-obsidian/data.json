@@ -5,6 +5,38 @@
       "path": "HTTP/Web Server/canvas/무제 파일.canvas"
     },
     {
+      "basename": "멀티프로세스와 멀티스레드 웹 서버",
+      "path": "HTTP/Web Server/canvas/멀티프로세스와 멀티스레드 웹 서버.md"
+    },
+    {
+      "basename": "커넥션 입출력 처리 아키텍처",
+      "path": "HTTP/Web Server/canvas/커넥션 입출력 처리 아키텍처.md"
+    },
+    {
+      "basename": "단일 스레드 웹 서버",
+      "path": "HTTP/Web Server/canvas/단일 스레드 웹 서버.md"
+    },
+    {
+      "basename": "메시지의 내부 표현",
+      "path": "HTTP/Web Server/canvas/메시지의 내부 표현.md"
+    },
+    {
+      "basename": "새 커넥션 다루기",
+      "path": "HTTP/Web Server/canvas/새 커넥션 다루기.md"
+    },
+    {
+      "basename": "클라이언트 커넥션 수락",
+      "path": "HTTP/Web Server/canvas/클라이언트 커넥션 수락.md"
+    },
+    {
+      "basename": "ident를 통해 클라이언트 사용자 알아내기",
+      "path": "HTTP/Web Server/canvas/ident를 통해 클라이언트 사용자 알아내기.md"
+    },
+    {
+      "basename": "클라이언트 호스트 명 식별",
+      "path": "HTTP/Web Server/canvas/클라이언트 호스트 명 식별.md"
+    },
+    {
       "basename": "웹 서버",
       "path": "HTTP/Web Server/canvas/웹 서버.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "보호(Protection)",
       "path": "OS/memory/md/보호(Protection).md"
-    },
-    {
-      "basename": "재배치(Relocation)",
-      "path": "OS/memory/md/재배치(Relocation).md"
-    },
-    {
-      "basename": "단편화(Fragmentation)",
-      "path": "OS/memory/md/단편화(Fragmentation).md"
-    },
-    {
-      "basename": "버디(Buddy) 시스템",
-      "path": "OS/memory/md/버디(Buddy) 시스템.md"
-    },
-    {
-      "basename": "배치 알고리즘",
-      "path": "OS/memory/md/배치 알고리즘.md"
-    },
-    {
-      "basename": "비균등 분할",
-      "path": "OS/memory/md/비균등 분할.md"
-    },
-    {
-      "basename": "균등 분할",
-      "path": "OS/memory/md/균등 분할.md"
-    },
-    {
-      "basename": "고정 분할",
-      "path": "OS/memory/md/고정 분할.md"
-    },
-    {
-      "basename": "연속 메모리 관리",
-      "path": "OS/memory/md/연속 메모리 관리.md"
     }
   ],
   "omittedPaths": [],
