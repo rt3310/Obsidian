@@ -18,7 +18,9 @@
 		{"id":"45577bb9c1239d80","type":"file","file":"HTTP/Web Server/canvas/다중 I/다중 IO 서버.md","x":2842,"y":2665,"width":701,"height":298},
 		{"id":"96666000948afe26","type":"file","file":"HTTP/Web Server/canvas/다중 멀티스레드 웹 서버.md","x":2842,"y":3085,"width":645,"height":195},
 		{"id":"b801e27325b8e234","type":"text","text":"웹 서버는 여러 종류의 리소스 매핑을 지원한다.\n하지만 리소스 매핑의 가장 단순한 형태는 요청 URI를 웹 서버의 파일 시스템 안에 있는 파일 이름을 사용하는 것이다.\n일반적으로 웹 서버 파일 시스템의 특별한 폴더를 웹 콘텐츠를 위해 예약해 둔다. 이 폴더는 문서 루트 혹은 docroot로 불린다.\n웹 서버는 요청 메시지에서 URI를 가져와서 문서 루트 뒤에 붙인다.\n\n![[Pasted image 20240121184556.png]]\n위 그림에서, /specials/saw-blade.gif에 대한 요청이 도착했다. 이 예에서 웹 서버는 문서 루트 /usr/local/httpd/files를 갖고 있다. 또 /usr/local/httpd/files/specials/saw-blade.gif 파일을 반환한다.\n\n다음과 같이 httpd.conf 설정 파일에 DocumentRoot 줄을 추가하여 아파치 웹 서버의 문서 루트를 설정할 수 있다.\n`DocumentRoot /usr/local/httpd/files`\n\n서버는 상대적인 url이 docroot를 벗어나서 파일 시스템의 docroot 이외 부분이 노출되는 일이 생기지 않도록 주의해야 한다.\n예를 들어 대부분의 성숙한 웹 서버는 Joe's Hardware의 문서 루트 위의 파일을 보려고 하는 이와 같은 URI를 허용하지 않는다.\n`http://www.joes-hardware.com/../`","x":-1500,"y":2040,"width":760,"height":720},
-		{"id":"32554fd6fd882a09","type":"text","text":"가상 호스팅 웹 서버는, 각 사이트에 **그들만의 분리된 문서 루트를 주는 방법**으로 한 웹 서버에서 여러 개의 웹 사이트를 호스팅 한다.\n가상 호스팅 웹 서버는 URI나 Host 헤더에서 얻는 IP 주소나 호스트 명을 이용해 올바른 문서 루트를 식별한다.\n이 방법으로, 하나의 웹 서버 위에서 두 개의 사이트가 완전히 분리된 콘텐츠를 갖고 호스팅 되도록 할 수 있다.\n\n![[Pasted image 20240121185044.png]]\n위 그림에서, 서버는 두 사이트 www.joes-hardware.com와 www.marys-antiques.com을 호스팅 한다.\n서버는 두 웹 사이트를 HTTP Host 헤더나 서로 다른 IP 주소를 이용해 구분할 수 있다.\n- 요청 A가 도착했을 때, 서버는 /docs/joe/index.html 파일을 가져온다.\n- 요청 B가 도착했을 때, 서버는 /docs/mary/index.html 파일을 가져온다.","x":-1384,"y":2880,"width":528,"height":487}
+		{"id":"32554fd6fd882a09","type":"text","text":"가상 호스팅 웹 서버는, 각 사이트에 **그들만의 분리된 문서 루트를 주는 방법**으로 한 웹 서버에서 여러 개의 웹 사이트를 호스팅 한다.\n가상 호스팅 웹 서버는 URI나 Host 헤더에서 얻는 IP 주소나 호스트 명을 이용해 올바른 문서 루트를 식별한다.\n이 방법으로, 하나의 웹 서버 위에서 두 개의 사이트가 완전히 분리된 콘텐츠를 갖고 호스팅 되도록 할 수 있다.\n\n![[Pasted image 20240121185044.png]]\n위 그림에서, 서버는 두 사이트 www.joes-hardware.com와 www.marys-antiques.com을 호스팅 한다.\n서버는 두 웹 사이트를 HTTP Host 헤더나 서로 다른 IP 주소를 이용해 구분할 수 있다.\n- 요청 A가 도착했을 때, 서버는 /docs/joe/index.html 파일을 가져온다.\n- 요청 B가 도착했을 때, 서버는 /docs/mary/index.html 파일을 가져온다.","x":-980,"y":2960,"width":840,"height":544},
+		{"id":"33e4a79827dd17f8","x":40,"y":3020,"width":639,"height":425,"type":"text","text":"가상으로 호스팅 되는 docroot 설정은 대부분의 웹 서버에서 간단하다.\n널리 쓰이는 아파치 웹 서버에서는, 각 가상 웹 사이트의 VirtualHost 블록이 가상 서버에 대한 DocumentRoot 지시자를 포함하도록 설정해야 한다.\n\n```xml\n<VirtualHost www.joes-hardware.com>\n  ServerName www.joes-hardware.com\n  DocumentRoot /docs/joe\n  TransferLog /logs/joe.access_log\n  ErrorLog /logs/joe.error_log\n</VirtualHost>\n\n<VirtualHost www.marys-hardware.com>\n  ServerName www.marys-hardware.com\n  DocumentRoot /docs/mary\n  TransferLog /logs/mary.access_log\n  ErrorLog /logs/mary.error_log\n</VirtualHost>\n```"},
+		{"id":"79b21a6682d90b7b","x":-2000,"y":2886,"width":799,"height":534,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"b64a1dc7d9490e3c","fromNode":"e1fb798ede82c62c","fromSide":"right","toNode":"a5889d53a8a61974","toSide":"left"},
@@ -38,6 +40,8 @@
 		{"id":"1ffdf0b7e5651d72","fromNode":"3fc514c0546b5507","fromSide":"bottom","toNode":"ec051ade21cb2270","toSide":"top","label":"3. 요청 처리"},
 		{"id":"64f1b40d268b4c1d","fromNode":"3fc514c0546b5507","fromSide":"bottom","toNode":"cce11f1b63592510","toSide":"top","label":"4. 리소스의 매핑과 접근"},
 		{"id":"25e4c88595ca1d35","fromNode":"cce11f1b63592510","fromSide":"bottom","toNode":"b801e27325b8e234","toSide":"top","label":"Docroot"},
-		{"id":"8b19fe6f7e8d6748","fromNode":"b801e27325b8e234","fromSide":"bottom","toNode":"32554fd6fd882a09","toSide":"top"}
+		{"id":"8b19fe6f7e8d6748","fromNode":"b801e27325b8e234","fromSide":"bottom","toNode":"32554fd6fd882a09","toSide":"top","label":"가상 호스팅 된 docroot"},
+		{"id":"13dfe78bdc9651d6","fromNode":"32554fd6fd882a09","fromSide":"right","toNode":"33e4a79827dd17f8","toSide":"left"},
+		{"id":"294a7aa0d98fa896","fromNode":"b801e27325b8e234","fromSide":"bottom","toNode":"79b21a6682d90b7b","toSide":"top"}
 	]
 }
