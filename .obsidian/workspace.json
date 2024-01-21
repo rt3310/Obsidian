@@ -51,8 +51,8 @@
               "state": {
                 "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 1823.000244140625,
-                  "y": 616.4996109008789,
+                  "x": 863.1239628975568,
+                  "y": 2817.8972470547233,
                   "zoom": 0
                 }
               }
@@ -203,6 +203,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "Pasted image 20240121175747.png",
+    "Pasted image 20240121175321.png",
     "Pasted image 20240121164447.png",
     "Pasted image 20240121104335.png",
     "HTTP/Web Server/canvas/무제 파일.canvas",
@@ -256,8 +258,6 @@
     "OS/Concurrency/resources/Pasted image 20231217204647.png",
     "OS/Concurrency/resources/semaphore code.png",
     "OS/Concurrency/resources/Concurrent & Parallel.png",
-    "Pasted image 20231217204742.png",
-    "Pasted image 20231217204644.png",
-    "OS/Concurrency/resources/Pasted image 20231217214906.png"
+    "Pasted image 20231217204742.png"
   ]
 }
