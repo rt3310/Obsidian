@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "6. 응답 보내기",
-      "path": "HTTP/Web Server/canvas/6. 응답 보내기.md"
-    },
-    {
       "basename": "무제 파일",
       "path": "HTTP/Web Server/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "Pasted image 20240121204044",
+      "path": "Pasted image 20240121204044.png"
+    },
+    {
+      "basename": "7. 로깅",
+      "path": "HTTP/Web Server/canvas/7. 로깅.md"
+    },
+    {
+      "basename": "6. 응답 보내기",
+      "path": "HTTP/Web Server/canvas/6. 응답 보내기.md"
     },
     {
       "basename": "5. 응답 만들기",
@@ -191,14 +199,6 @@
     {
       "basename": "링킹",
       "path": "OS/memory/md/링킹.md"
-    },
-    {
-      "basename": "프로세스 활성화",
-      "path": "OS/memory/md/프로세스 활성화.md"
-    },
-    {
-      "basename": "메모리 관리",
-      "path": "OS/memory/md/메모리 관리.md"
     }
   ],
   "omittedPaths": [],

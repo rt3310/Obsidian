@@ -51,9 +51,9 @@
               "state": {
                 "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": -1015.9531393370247,
-                  "y": -152.3827235094722,
-                  "zoom": 0
+                  "x": -1997.1391026925112,
+                  "y": 572.5389232109054,
+                  "zoom": -0.5
                 }
               }
             }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP/Web Server/canvas/6. 응답 보내기.md",
+                "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP/Web Server/canvas/6. 응답 보내기.md",
+                "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP/Web Server/canvas/6. 응답 보내기.md"
+                "file": "HTTP/Web Server/canvas/무제 파일.canvas"
               }
             }
           }
@@ -203,6 +203,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "HTTP/Web Server/canvas/7. 로깅.md",
     "HTTP/Web Server/canvas/6. 응답 보내기.md",
     "Pasted image 20240121204044.png",
     "HTTP/Web Server/canvas/5. 응답 만들기.md",
@@ -247,7 +248,6 @@
     "DB/Sharding/canvas/yaml 설정.md",
     "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md",
     "DB/Sharding/canvas/레인지 샤딩(Range Sharding).md",
-    "DB/Sharding/canvas/모듈러 샤딩(Modular Sharding).md",
     "DB/Sharding/resources",
     "DB/Sharding/md",
     "DB/Sharding/canvas",
