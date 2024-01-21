@@ -51,9 +51,9 @@
               "state": {
                 "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": -1343.8617658291,
-                  "y": 3297.7692853995754,
-                  "zoom": -0.5
+                  "x": 103.85832647429368,
+                  "y": 2093.0010706404864,
+                  "zoom": 0
                 }
               }
             }
@@ -203,6 +203,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "Pasted image 20240121195611.png",
+    "Pasted image 20240121195551.png",
     "Pasted image 20240121185044.png",
     "Pasted image 20240121184556.png",
     "HTTP/Web Server/canvas/4. 리소스의 매핑과 접근.md",
@@ -256,8 +258,6 @@
     "OS/memory/canvas/메모리 관리.canvas",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "OS/memory/resources",
-    "Pasted image 20231221164018.png",
-    "HTTP/Connection/resources/IP 패킷.png",
-    "OS/Concurrency/resources/Pasted image 20231217204647.png"
+    "Pasted image 20231221164018.png"
   ]
 }
