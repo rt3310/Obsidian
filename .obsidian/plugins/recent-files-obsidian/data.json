@@ -1,80 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "무제 파일",
-      "path": "HTTP/Web Server/canvas/무제 파일.canvas"
+      "basename": "웹 서버",
+      "path": "HTTP/Web Server/canvas/웹 서버.canvas"
     },
     {
       "basename": "6. 응답 보내기",
-      "path": "HTTP/Web Server/canvas/6. 응답 보내기.md"
-    },
-    {
-      "basename": "2. 요청 메시지 수신",
-      "path": "HTTP/Web Server/canvas/2. 요청 메시지 수신.md"
-    },
-    {
-      "basename": "Pasted image 20240121204044",
-      "path": "Pasted image 20240121204044.png"
-    },
-    {
-      "basename": "7. 로깅",
-      "path": "HTTP/Web Server/canvas/7. 로깅.md"
-    },
-    {
-      "basename": "5. 응답 만들기",
-      "path": "HTTP/Web Server/canvas/5. 응답 만들기.md"
-    },
-    {
-      "basename": "3. 요청 처리",
-      "path": "HTTP/Web Server/canvas/3. 요청 처리.md"
-    },
-    {
-      "basename": "4. 리소스의 매핑과 접근",
-      "path": "HTTP/Web Server/canvas/4. 리소스의 매핑과 접근.md"
-    },
-    {
-      "basename": "1. 클라이언트 커넥션 수락",
-      "path": "HTTP/Web Server/canvas/1. 클라이언트 커넥션 수락.md"
-    },
-    {
-      "basename": "다중 멀티스레드 웹 서버",
-      "path": "HTTP/Web Server/canvas/다중 멀티스레드 웹 서버.md"
-    },
-    {
-      "basename": "다중 IO 서버",
-      "path": "HTTP/Web Server/canvas/다중 I/다중 IO 서버.md"
-    },
-    {
-      "basename": "단일 스레드 웹 서버",
-      "path": "HTTP/Web Server/canvas/단일 스레드 웹 서버.md"
-    },
-    {
-      "basename": "멀티프로세스와 멀티스레드 웹 서버",
-      "path": "HTTP/Web Server/canvas/멀티프로세스와 멀티스레드 웹 서버.md"
-    },
-    {
-      "basename": "커넥션 입출력 처리 아키텍처",
-      "path": "HTTP/Web Server/canvas/커넥션 입출력 처리 아키텍처.md"
+      "path": "HTTP/Web Server/md/6. 응답 보내기.md"
     },
     {
       "basename": "메시지의 내부 표현",
-      "path": "HTTP/Web Server/canvas/메시지의 내부 표현.md"
+      "path": "HTTP/Web Server/md/메시지의 내부 표현.md"
     },
     {
       "basename": "새 커넥션 다루기",
-      "path": "HTTP/Web Server/canvas/새 커넥션 다루기.md"
+      "path": "HTTP/Web Server/md/새 커넥션 다루기.md"
     },
     {
       "basename": "ident를 통해 클라이언트 사용자 알아내기",
-      "path": "HTTP/Web Server/canvas/ident를 통해 클라이언트 사용자 알아내기.md"
+      "path": "HTTP/Web Server/md/ident를 통해 클라이언트 사용자 알아내기.md"
+    },
+    {
+      "basename": "다중 IO 서버",
+      "path": "HTTP/Web Server/md/다중 IO 서버.md"
+    },
+    {
+      "basename": "Pasted image 20231221164018",
+      "path": "HTTP/Web Server/resources/Pasted image 20231221164018.png"
+    },
+    {
+      "basename": "2. 요청 메시지 수신",
+      "path": "HTTP/Web Server/md/2. 요청 메시지 수신.md"
+    },
+    {
+      "basename": "Pasted image 20240121204044",
+      "path": "HTTP/Web Server/resources/Pasted image 20240121204044.png"
+    },
+    {
+      "basename": "7. 로깅",
+      "path": "HTTP/Web Server/md/7. 로깅.md"
+    },
+    {
+      "basename": "5. 응답 만들기",
+      "path": "HTTP/Web Server/md/5. 응답 만들기.md"
+    },
+    {
+      "basename": "3. 요청 처리",
+      "path": "HTTP/Web Server/md/3. 요청 처리.md"
+    },
+    {
+      "basename": "4. 리소스의 매핑과 접근",
+      "path": "HTTP/Web Server/md/4. 리소스의 매핑과 접근.md"
+    },
+    {
+      "basename": "1. 클라이언트 커넥션 수락",
+      "path": "HTTP/Web Server/md/1. 클라이언트 커넥션 수락.md"
+    },
+    {
+      "basename": "다중 멀티스레드 웹 서버",
+      "path": "HTTP/Web Server/md/다중 멀티스레드 웹 서버.md"
+    },
+    {
+      "basename": "단일 스레드 웹 서버",
+      "path": "HTTP/Web Server/md/단일 스레드 웹 서버.md"
+    },
+    {
+      "basename": "멀티프로세스와 멀티스레드 웹 서버",
+      "path": "HTTP/Web Server/md/멀티프로세스와 멀티스레드 웹 서버.md"
+    },
+    {
+      "basename": "커넥션 입출력 처리 아키텍처",
+      "path": "HTTP/Web Server/md/커넥션 입출력 처리 아키텍처.md"
     },
     {
       "basename": "클라이언트 호스트 명 식별",
-      "path": "HTTP/Web Server/canvas/클라이언트 호스트 명 식별.md"
+      "path": "HTTP/Web Server/md/클라이언트 호스트 명 식별.md"
     },
     {
       "basename": "웹 서버",
-      "path": "HTTP/Web Server/canvas/웹 서버.md"
+      "path": "HTTP/Web Server/md/웹 서버.md"
     },
     {
       "basename": "Join",
@@ -195,10 +199,6 @@
     {
       "basename": "부트로더(Boot Loader)",
       "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
-    },
-    {
-      "basename": "링킹",
-      "path": "OS/memory/md/링킹.md"
     }
   ],
   "omittedPaths": [],

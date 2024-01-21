@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "HTTP/Web Server/canvas/무제 파일.canvas",
+                "file": "HTTP/Web Server/canvas/웹 서버.canvas",
                 "viewState": {
-                  "x": 314.6285341840758,
-                  "y": 1511.393888132675,
-                  "zoom": -1.5
+                  "x": 206.50013807247842,
+                  "y": 1363.3947111376438,
+                  "zoom": -1.3951285884822342
                 }
               }
             }
@@ -117,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP/Web Server/canvas/무제 파일.canvas",
+                "file": "HTTP/Web Server/canvas/웹 서버.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP/Web Server/canvas/무제 파일.canvas",
+                "file": "HTTP/Web Server/canvas/웹 서버.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP/Web Server/canvas/무제 파일.canvas"
+                "file": "HTTP/Web Server/canvas/웹 서버.canvas"
               }
             }
           }
@@ -203,35 +202,35 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
-    "HTTP/Web Server/canvas/7. 로깅.md",
-    "HTTP/Web Server/canvas/6. 응답 보내기.md",
-    "Pasted image 20240121204044.png",
-    "HTTP/Web Server/canvas/5. 응답 만들기.md",
-    "Pasted image 20240121195611.png",
-    "Pasted image 20240121195551.png",
-    "Pasted image 20240121185044.png",
-    "Pasted image 20240121184556.png",
-    "HTTP/Web Server/canvas/4. 리소스의 매핑과 접근.md",
-    "HTTP/Web Server/canvas/3. 요청 처리.md",
-    "HTTP/Web Server/canvas/2. 요청 메시지 수신.md",
-    "HTTP/Web Server/canvas/다중 멀티스레드 웹 서버.md",
-    "HTTP/Web Server/canvas/다중 I/다중 IO 서버.md",
+    "HTTP/Web Server/md/메시지의 내부 표현.md",
+    "HTTP/Web Server/md/새 커넥션 다루기.md",
+    "HTTP/Web Server/md/ident를 통해 클라이언트 사용자 알아내기.md",
+    "HTTP/Web Server/md/다중 IO 서버.md",
+    "HTTP/Web Server/resources/Pasted image 20231221164018.png",
+    "HTTP/Web Server/canvas/웹 서버.canvas",
+    "HTTP/Web Server/md/7. 로깅.md",
+    "HTTP/Web Server/md/6. 응답 보내기.md",
+    "HTTP/Web Server/resources/Pasted image 20240121204044.png",
+    "HTTP/Web Server/md/5. 응답 만들기.md",
+    "HTTP/Web Server/resources/Pasted image 20240121195611.png",
+    "HTTP/Web Server/resources/Pasted image 20240121195551.png",
+    "HTTP/Web Server/resources/Pasted image 20240121185044.png",
+    "HTTP/Web Server/resources/Pasted image 20240121184556.png",
+    "HTTP/Web Server/md/4. 리소스의 매핑과 접근.md",
+    "HTTP/Web Server/md/3. 요청 처리.md",
+    "HTTP/Web Server/md/2. 요청 메시지 수신.md",
+    "HTTP/Web Server/md/다중 멀티스레드 웹 서버.md",
     "HTTP/Web Server/canvas/다중 I",
-    "HTTP/Web Server/canvas/멀티프로세스와 멀티스레드 웹 서버.md",
-    "HTTP/Web Server/canvas/단일 스레드 웹 서버.md",
-    "HTTP/Web Server/canvas/커넥션 입출력 처리 아키텍처.md",
-    "HTTP/Web Server/canvas/메시지의 내부 표현.md",
-    "HTTP/Web Server/canvas/1. 클라이언트 커넥션 수락.md",
-    "HTTP/Web Server/canvas/ident를 통해 클라이언트 사용자 알아내기.md",
-    "HTTP/Web Server/canvas/클라이언트 호스트 명 식별.md",
-    "HTTP/Web Server/canvas/새 커넥션 다루기.md",
-    "Pasted image 20240121175948.png",
-    "Pasted image 20240121175747.png",
-    "Pasted image 20240121175321.png",
-    "Pasted image 20240121164447.png",
-    "Pasted image 20240121104335.png",
-    "HTTP/Web Server/canvas/무제 파일.canvas",
-    "HTTP/Web Server/canvas/웹 서버.md",
+    "HTTP/Web Server/md/멀티프로세스와 멀티스레드 웹 서버.md",
+    "HTTP/Web Server/md/단일 스레드 웹 서버.md",
+    "HTTP/Web Server/md/커넥션 입출력 처리 아키텍처.md",
+    "HTTP/Web Server/md/1. 클라이언트 커넥션 수락.md",
+    "HTTP/Web Server/md/클라이언트 호스트 명 식별.md",
+    "HTTP/Web Server/resources/Pasted image 20240121175948.png",
+    "HTTP/Web Server/resources/Pasted image 20240121175747.png",
+    "HTTP/Web Server/resources/Pasted image 20240121175321.png",
+    "HTTP/Web Server/resources/Pasted image 20240121164447.png",
+    "HTTP/Web Server/md/웹 서버.md",
     "DB/SQL/canvas/Join.canvas",
     "HTTP/Web Server/canvas",
     "HTTP/Web Server/md",
@@ -247,7 +246,6 @@
     "DB/Sharding/canvas/레인지샤딩 룰 설정.md",
     "DB/Sharding/canvas/yaml 설정.md",
     "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md",
-    "DB/Sharding/canvas/레인지 샤딩(Range Sharding).md",
     "DB/Sharding/resources",
     "DB/Sharding/md",
     "DB/Sharding/canvas",
