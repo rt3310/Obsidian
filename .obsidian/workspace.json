@@ -51,7 +51,7 @@
               "state": {
                 "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 976.5,
+                  "x": -139.5,
                   "y": -139.5,
                   "zoom": 0
                 }
@@ -202,9 +202,9 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "HTTP/Web Server/canvas/무제 파일.canvas",
     "HTTP/Web Server/canvas/웹 서버.md",
     "DB/SQL/canvas/Join.canvas",
-    "HTTP/Web Server/canvas/무제 파일.canvas",
     "HTTP/Web Server/canvas",
     "HTTP/Web Server/md",
     "HTTP/Web Server/resources",
@@ -245,7 +245,6 @@
     "OS/memory/md/세그먼테이션.md",
     "OS/memory/md/페이징.md",
     "OS/memory/md/버디(Buddy) 시스템.md",
-    "OS/memory/md/배치 알고리즘.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "OS/memory/resources",
     "OS/memory/md",
