@@ -5,12 +5,12 @@
       "path": "HTTP/Web Server/canvas/무제 파일.canvas"
     },
     {
-      "basename": "4. 리소스의 매핑과 접근",
-      "path": "HTTP/Web Server/canvas/4. 리소스의 매핑과 접근.md"
-    },
-    {
       "basename": "3. 요청 처리",
       "path": "HTTP/Web Server/canvas/3. 요청 처리.md"
+    },
+    {
+      "basename": "4. 리소스의 매핑과 접근",
+      "path": "HTTP/Web Server/canvas/4. 리소스의 매핑과 접근.md"
     },
     {
       "basename": "1. 클라이언트 커넥션 수락",
