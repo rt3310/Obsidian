@@ -51,9 +51,9 @@
               "state": {
                 "file": "HTTP/Web Server/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 2924.256753914917,
-                  "y": 2702.0711692411746,
-                  "zoom": -0.5
+                  "x": 2269.9958231338596,
+                  "y": 2904.620145544585,
+                  "zoom": -1.5
                 }
               }
             }
@@ -203,11 +203,17 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "HTTP/Web Server/canvas/4. 리소스의 매핑과 접근.md",
+    "HTTP/Web Server/canvas/3. 요청 처리.md",
+    "HTTP/Web Server/canvas/2. 요청 메시지 수신.md",
+    "HTTP/Web Server/canvas/다중 멀티스레드 웹 서버.md",
+    "HTTP/Web Server/canvas/다중 I/다중 IO 서버.md",
+    "HTTP/Web Server/canvas/다중 I",
     "HTTP/Web Server/canvas/멀티프로세스와 멀티스레드 웹 서버.md",
     "HTTP/Web Server/canvas/단일 스레드 웹 서버.md",
     "HTTP/Web Server/canvas/커넥션 입출력 처리 아키텍처.md",
     "HTTP/Web Server/canvas/메시지의 내부 표현.md",
-    "HTTP/Web Server/canvas/클라이언트 커넥션 수락.md",
+    "HTTP/Web Server/canvas/1. 클라이언트 커넥션 수락.md",
     "HTTP/Web Server/canvas/ident를 통해 클라이언트 사용자 알아내기.md",
     "HTTP/Web Server/canvas/클라이언트 호스트 명 식별.md",
     "HTTP/Web Server/canvas/새 커넥션 다루기.md",
@@ -242,19 +248,13 @@
     "DB/Sharding/canvas",
     "DB/Sharding",
     "Pasted image 20240107225608.png",
-    "OS/memory/canvas/Swapping 기법.md",
-    "OS/memory/canvas/메모리 과할당(Over Allocating).md",
-    "OS/memory/canvas/MMU.md",
-    "OS/memory/md/로딩.md",
     "OS/Disk/canvas/RAID.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/canvas/Concurrency.canvas",
-    "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
     "OS/memory/canvas/메모리 관리.canvas",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "OS/memory/resources",
-    "OS/memory/md",
     "Pasted image 20231221164018.png",
     "HTTP/Connection/resources/IP 패킷.png",
     "OS/Concurrency/resources/Pasted image 20231217204647.png",

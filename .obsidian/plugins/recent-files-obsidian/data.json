@@ -5,6 +5,34 @@
       "path": "HTTP/Web Server/canvas/무제 파일.canvas"
     },
     {
+      "basename": "4. 리소스의 매핑과 접근",
+      "path": "HTTP/Web Server/canvas/4. 리소스의 매핑과 접근.md"
+    },
+    {
+      "basename": "3. 요청 처리",
+      "path": "HTTP/Web Server/canvas/3. 요청 처리.md"
+    },
+    {
+      "basename": "1. 클라이언트 커넥션 수락",
+      "path": "HTTP/Web Server/canvas/1. 클라이언트 커넥션 수락.md"
+    },
+    {
+      "basename": "2. 요청 메시지 수신",
+      "path": "HTTP/Web Server/canvas/2. 요청 메시지 수신.md"
+    },
+    {
+      "basename": "다중 멀티스레드 웹 서버",
+      "path": "HTTP/Web Server/canvas/다중 멀티스레드 웹 서버.md"
+    },
+    {
+      "basename": "다중 IO 서버",
+      "path": "HTTP/Web Server/canvas/다중 I/다중 IO 서버.md"
+    },
+    {
+      "basename": "단일 스레드 웹 서버",
+      "path": "HTTP/Web Server/canvas/단일 스레드 웹 서버.md"
+    },
+    {
       "basename": "멀티프로세스와 멀티스레드 웹 서버",
       "path": "HTTP/Web Server/canvas/멀티프로세스와 멀티스레드 웹 서버.md"
     },
@@ -13,20 +41,12 @@
       "path": "HTTP/Web Server/canvas/커넥션 입출력 처리 아키텍처.md"
     },
     {
-      "basename": "단일 스레드 웹 서버",
-      "path": "HTTP/Web Server/canvas/단일 스레드 웹 서버.md"
-    },
-    {
       "basename": "메시지의 내부 표현",
       "path": "HTTP/Web Server/canvas/메시지의 내부 표현.md"
     },
     {
       "basename": "새 커넥션 다루기",
       "path": "HTTP/Web Server/canvas/새 커넥션 다루기.md"
-    },
-    {
-      "basename": "클라이언트 커넥션 수락",
-      "path": "HTTP/Web Server/canvas/클라이언트 커넥션 수락.md"
     },
     {
       "basename": "ident를 통해 클라이언트 사용자 알아내기",
@@ -179,26 +199,6 @@
     {
       "basename": "동적 분할",
       "path": "OS/memory/md/동적 분할.md"
-    },
-    {
-      "basename": "메모리 집약 vs 메모리 통합",
-      "path": "OS/memory/md/메모리 집약 vs 메모리 통합.md"
-    },
-    {
-      "basename": "페이징",
-      "path": "OS/memory/md/페이징.md"
-    },
-    {
-      "basename": "물리적인 구성",
-      "path": "OS/memory/md/물리적인 구성.md"
-    },
-    {
-      "basename": "공유(Sharing)",
-      "path": "OS/memory/md/공유(Sharing).md"
-    },
-    {
-      "basename": "보호(Protection)",
-      "path": "OS/memory/md/보호(Protection).md"
     }
   ],
   "omittedPaths": [],
