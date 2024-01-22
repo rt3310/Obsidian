@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Virtual Memory",
+      "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
+    },
+    {
       "basename": "웹 서버",
       "path": "HTTP/Web Server/canvas/웹 서버.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Concurrency",
       "path": "OS/Concurrency/canvas/Concurrency.canvas"
-    },
-    {
-      "basename": "부트로더(Boot Loader)",
-      "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
     }
   ],
   "omittedPaths": [],

@@ -58,5 +58,6 @@
   "HTTP/Connection": "FarStar",
   "OS/memory": "FarStar",
   "DB/Sharding": "FarStar",
-  "HTTP/Web Server": "FarStar"
+  "HTTP/Web Server": "FarStar",
+  "OS/VirtualMemory": "FarStar"
 }

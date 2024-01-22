@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "HTTP/Web Server/canvas/웹 서버.canvas",
+                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
-                  "x": 1677.5820316554496,
-                  "y": 189.5458280107663,
-                  "zoom": -0.3951285884822342
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               }
             }
@@ -117,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -133,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP/Web Server/canvas/웹 서버.canvas",
+                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP/Web Server/canvas/웹 서버.canvas",
+                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP/Web Server/canvas/웹 서버.canvas"
+                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
               }
             }
           }
@@ -202,12 +203,18 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "HTTP/Web Server/canvas/웹 서버.canvas",
+    "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "OS/VirtualMemory/resources",
+    "OS/VirtualMemory/md",
+    "OS/VirtualMemory/canvas",
+    "OS/VirtualMemory",
+    "무제 폴더",
     "HTTP/Web Server/md/메시지의 내부 표현.md",
     "HTTP/Web Server/md/새 커넥션 다루기.md",
     "HTTP/Web Server/md/ident를 통해 클라이언트 사용자 알아내기.md",
     "HTTP/Web Server/md/다중 IO 서버.md",
     "HTTP/Web Server/resources/Pasted image 20231221164018.png",
-    "HTTP/Web Server/canvas/웹 서버.canvas",
     "HTTP/Web Server/md/7. 로깅.md",
     "HTTP/Web Server/md/6. 응답 보내기.md",
     "HTTP/Web Server/resources/Pasted image 20240121204044.png",
@@ -246,16 +253,11 @@
     "DB/Sharding/canvas/레인지샤딩 룰 설정.md",
     "DB/Sharding/canvas/yaml 설정.md",
     "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md",
-    "DB/Sharding/resources",
-    "DB/Sharding/md",
-    "DB/Sharding/canvas",
-    "DB/Sharding",
     "OS/Disk/canvas/RAID.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/canvas/Concurrency.canvas",
     "OS/memory/canvas/메모리 관리.canvas",
-    "HTTP/Connection/canvas/HTTP Connection.canvas",
-    "OS/memory/resources"
+    "HTTP/Connection/canvas/HTTP Connection.canvas"
   ]
 }
