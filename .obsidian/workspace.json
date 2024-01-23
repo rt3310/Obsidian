@@ -52,7 +52,7 @@
                 "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
                   "x": 0,
-                  "y": 0,
+                  "y": 279,
                   "zoom": 0
                 }
               }
@@ -203,6 +203,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md",
     "HTTP/Web Server/canvas/웹 서버.canvas",
     "OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "OS/VirtualMemory/resources",
@@ -257,7 +258,6 @@
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas",
     "OS/Concurrency/canvas/Concurrency.canvas",
-    "OS/memory/canvas/메모리 관리.canvas",
-    "HTTP/Connection/canvas/HTTP Connection.canvas"
+    "OS/memory/canvas/메모리 관리.canvas"
   ]
 }

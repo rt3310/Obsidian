@@ -5,6 +5,10 @@
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
+      "basename": "가상 메모리(Virtual Memory)",
+      "path": "OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md"
+    },
+    {
       "basename": "웹 서버",
       "path": "HTTP/Web Server/canvas/웹 서버.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DeadLock",
       "path": "OS/Concurrency/canvas/DeadLock.canvas"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "OS/Concurrency/canvas/Concurrency.canvas"
     }
   ],
   "omittedPaths": [],
