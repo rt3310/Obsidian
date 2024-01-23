@@ -1,6 +1,11 @@
 {
 	"nodes":[
-		{"id":"9a598b39cb856d3b","x":-429,"y":-57,"width":625,"height":731,"type":"file","file":"OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md"}
+		{"id":"9a598b39cb856d3b","type":"file","file":"OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md","x":-400,"y":-60,"width":625,"height":731},
+		{"id":"298d6247f8b29341","type":"text","text":"- **보다 많은 개수의 프로세스를 주기억장치에 유지할 수 있다.**\n\t- 준비 상태 프로세스가 존재할 가능성이 높아져 처리기 활용도가 높아진다.\n- **주기억장치보다 큰 프로세스를 수행할 수 있다.**\n\t- 오버레이 기법을 적용하기 위한 프로그래머의 부담을 운영체제가 담당한다.","x":540,"y":116,"width":519,"height":190},
+		{"id":"9712ae46e94a717d","type":"text","text":"- 가상주소를 물리주소로 변환하는 과정은 MMU(메모리 관리장치)에 의해 수행\n- 주소 간의 변환관계를 정의한 정보는 페이지 테이블(Page Table)에 보관 <- OS가 관리\n![[Pasted image 20240124031836.png]]\n![[Pasted image 20240124031951.png]]\n\n- 가상 주소공간은 4GB 공간이고 페이지 크기가 4KB일 때\n- 논리주소가 0000 0000 0000 0001 1001 / 0000 0000 0011b일 경우 -> 페이지 번호 25, 변위는 3\n\t- 페에지 테이블의 25위치에 저장된 프레임 번호는 00002, 페이지 변위가 003이므로\n\t- 생성되는 물리적 주소는 (00002#003)16 = (00002003)16 = (8195)10","x":540,"y":420,"width":700,"height":1160}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"457e469b8fea6eb8","fromNode":"9a598b39cb856d3b","fromSide":"right","toNode":"298d6247f8b29341","toSide":"left","label":"부분적재 수행 이점"},
+		{"id":"f69a987866a3315e","fromNode":"9a598b39cb856d3b","fromSide":"right","toNode":"9712ae46e94a717d","toSide":"left","label":"가상메모리/물리메모리 매핑"}
+	]
 }

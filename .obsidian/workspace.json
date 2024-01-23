@@ -51,8 +51,8 @@
               "state": {
                 "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 279,
+                  "x": 784.5001220703125,
+                  "y": 942.8332481384277,
                   "zoom": 0
                 }
               }
@@ -203,6 +203,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "Pasted image 20240124031951.png",
+    "Pasted image 20240124031836.png",
     "OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md",
     "HTTP/Web Server/canvas/웹 서버.canvas",
     "OS/VirtualMemory/canvas/Virtual Memory.canvas",
@@ -237,7 +239,6 @@
     "HTTP/Web Server/resources/Pasted image 20240121175948.png",
     "HTTP/Web Server/resources/Pasted image 20240121175747.png",
     "HTTP/Web Server/resources/Pasted image 20240121175321.png",
-    "HTTP/Web Server/resources/Pasted image 20240121164447.png",
     "HTTP/Web Server/md/웹 서버.md",
     "DB/SQL/canvas/Join.canvas",
     "HTTP/Web Server/canvas",
@@ -253,7 +254,6 @@
     "DB/Sharding/canvas/모듈러샤딩 룰 설정.md",
     "DB/Sharding/canvas/레인지샤딩 룰 설정.md",
     "DB/Sharding/canvas/yaml 설정.md",
-    "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md",
     "OS/Disk/canvas/RAID.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas",
