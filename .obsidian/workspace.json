@@ -52,8 +52,8 @@
                 "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
                   "x": 784.5001220703125,
-                  "y": 942.8332481384277,
-                  "zoom": 0
+                  "y": 524.3332481384277,
+                  "zoom": -1
                 }
               }
             }
@@ -203,6 +203,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "Pasted image 20240124035314.png",
     "Pasted image 20240124031951.png",
     "Pasted image 20240124031836.png",
     "OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md",
@@ -238,7 +239,6 @@
     "HTTP/Web Server/md/클라이언트 호스트 명 식별.md",
     "HTTP/Web Server/resources/Pasted image 20240121175948.png",
     "HTTP/Web Server/resources/Pasted image 20240121175747.png",
-    "HTTP/Web Server/resources/Pasted image 20240121175321.png",
     "HTTP/Web Server/md/웹 서버.md",
     "DB/SQL/canvas/Join.canvas",
     "HTTP/Web Server/canvas",

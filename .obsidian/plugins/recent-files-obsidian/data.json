@@ -5,6 +5,10 @@
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
+      "basename": "Pasted image 20240124031951",
+      "path": "Pasted image 20240124031951.png"
+    },
+    {
       "basename": "가상 메모리(Virtual Memory)",
       "path": "OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Semaphore",
       "path": "OS/Concurrency/canvas/Semaphore.canvas"
-    },
-    {
-      "basename": "DeadLock",
-      "path": "OS/Concurrency/canvas/DeadLock.canvas"
     }
   ],
   "omittedPaths": [],
