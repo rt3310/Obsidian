@@ -5,6 +5,10 @@
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
+      "basename": "페이징과 세그먼테이션의 결합",
+      "path": "OS/VirtualMemory/canvas/페이징과 세그먼테이션의 결합.md"
+    },
+    {
       "basename": "세그먼테이션(segmentation)",
       "path": "OS/VirtualMemory/canvas/세그먼테이션(segmentation).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "서브쿼리 조인",
       "path": "DB/SQL/canvas/서브쿼리 조인.md"
-    },
-    {
-      "basename": "NL 조인",
-      "path": "DB/SQL/md/NL 조인.md"
     }
   ],
   "omittedPaths": [],

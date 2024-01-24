@@ -51,8 +51,8 @@
               "state": {
                 "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
-                  "x": 578.2685929967867,
-                  "y": -347.6949421887416,
+                  "x": 553.5472928618442,
+                  "y": -742.2605260908351,
                   "zoom": -0.5
                 }
               }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/VirtualMemory/canvas/페이징과 세그먼테이션의 결합.md",
     "OS/VirtualMemory/canvas/세그먼테이션(segmentation).md",
     "Pasted image 20240124212835.png",
     "OS/VirtualMemory/canvas/페이지 크기.md",
@@ -248,7 +249,6 @@
     "HTTP/Web Server/md/멀티프로세스와 멀티스레드 웹 서버.md",
     "HTTP/Web Server/md/단일 스레드 웹 서버.md",
     "HTTP/Web Server/md/커넥션 입출력 처리 아키텍처.md",
-    "HTTP/Web Server/md/1. 클라이언트 커넥션 수락.md",
     "DB/SQL/canvas/Join.canvas",
     "HTTP/Web Server/canvas",
     "HTTP/Web Server/md",

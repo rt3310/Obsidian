@@ -15,9 +15,10 @@
 		{"id":"916c9cbe7c0f7464","type":"text","text":"- TLB 내에 원하는 페이지 번호가 있는지는 연관사상 방식으로 검색 -> 연관 검색\n\t- TLB 내에 모든 페이지 번호들이 있지 않기 때문에 빠른 연관메모리와 하드웨어의 도움을 받아 전체 TLB 내에서 원하는 페이지 번호가 있는지를 빠르게 검색","x":-217,"y":-1477,"width":685,"height":94},
 		{"id":"d8adec7a1bf2ebcf","type":"text","text":"- 연관 기억 장치 또는 내용 지정 메모리(CAM: Content Addressable Memory)\n- 병렬 판독 회로를 내장하고 있어서 한번에 전체 내용의 비교 가능\n\t- 캐시 메모리 보다도 훨씬 빠르나 가격이 매우 비싸다\n- 작은 용량의 IC 메모리를 사용하며 캐시 메모리나 가상 메모리(TLB)의 주소 검색에 많이 사용\n### 구성\n- 검색 데이터 레지스터\n\t- 찾고자 하는 내용의 일부분을 입력\n- 마스크 레지스터\n\t- 검색에 필요 없는 부분을 마스크\n- CAM 영역\n\t- 태그+데이터를 한 라인으로 하여 m개의 라인\n- 일치 레지스터\n\t- 태그 영역에서 일치하는 단어를 찾았을 경우 해당 태그의 데이터 영역 값을 출력","x":-152,"y":-2100,"width":556,"height":522},
 		{"id":"c003c5a3e71edfff","type":"file","file":"OS/VirtualMemory/canvas/페이지 크기.md","x":-1920,"y":-592,"width":780,"height":296},
-		{"id":"64801c3a3fcad815","x":-2000,"y":-989,"width":581,"height":291,"type":"file","file":"Pasted image 20240124212835.png"},
-		{"id":"7bfd7100c36b32f7","x":-75,"y":-457,"width":643,"height":184,"type":"file","file":"OS/VirtualMemory/canvas/세그먼테이션(segmentation).md"},
-		{"id":"16cad29a67508126","x":810,"y":-584,"width":739,"height":342,"type":"text","text":"- **세그먼트 크기의 동적 설정**\n\t- 확장성 자료구조에 대한 처리 단순화 가능\n\t- 필요 시 운영체제가 해당 세그먼트 크기를 축소, 확대(필요 시 위치 이동까지) 가능\n\t- 공간이 없을 경우 세그먼트 단위로 스왑-아웃, 스왑-인 가능\n- **세그먼트 별로 독립적인 수정, 재컴파일 가능**\n\t- 프로그램 전체에 대한 재연결(relink), 재적재(reloading) 없이도 가능\n- **세그먼트 공유**\n\t- 프로그래머가 지정하면 프로세스들이 세그먼트를 공유할 수 있다.\n- **세그먼트 보호**\n\t- 논리적 개체(유틸리티 코드, 데이터 테이블 등)를 세그먼트로 설정하여 공유/보호 가능\n\t- 프로그래머나 시스템 관리자가 기능을 부여할 수 있다."}
+		{"id":"64801c3a3fcad815","type":"file","file":"Pasted image 20240124212835.png","x":-2000,"y":-989,"width":581,"height":291},
+		{"id":"7bfd7100c36b32f7","type":"file","file":"OS/VirtualMemory/canvas/세그먼테이션(segmentation).md","x":-75,"y":-457,"width":643,"height":184},
+		{"id":"16cad29a67508126","type":"text","text":"- **세그먼트 크기의 동적 설정**\n\t- 확장성 자료구조에 대한 처리 단순화 가능\n\t- 필요 시 운영체제가 해당 세그먼트 크기를 축소, 확대(필요 시 위치 이동까지) 가능\n\t- 공간이 없을 경우 세그먼트 단위로 스왑-아웃, 스왑-인 가능\n- **세그먼트 별로 독립적인 수정, 재컴파일 가능**\n\t- 프로그램 전체에 대한 재연결(relink), 재적재(reloading) 없이도 가능\n- **세그먼트 공유**\n\t- 프로그래머가 지정하면 프로세스들이 세그먼트를 공유할 수 있다.\n- **세그먼트 보호**\n\t- 논리적 개체(유틸리티 코드, 데이터 테이블 등)를 세그먼트로 설정하여 공유/보호 가능\n\t- 프로그래머나 시스템 관리자가 기능을 부여할 수 있다.","x":810,"y":-584,"width":739,"height":342},
+		{"id":"ac680f1238279963","type":"file","file":"OS/VirtualMemory/canvas/페이징과 세그먼테이션의 결합.md","x":179,"y":-1076,"width":579,"height":492}
 	],
 	"edges":[
 		{"id":"457e469b8fea6eb8","fromNode":"9a598b39cb856d3b","fromSide":"right","toNode":"298d6247f8b29341","toSide":"left","label":"부분적재 수행 이점"},
@@ -36,6 +37,7 @@
 		{"id":"53eefea3b2ad8f22","fromNode":"98029daaf949d618","fromSide":"left","toNode":"c003c5a3e71edfff","toSide":"right","label":"페이지 크기"},
 		{"id":"1e0cccbead233c1f","fromNode":"c003c5a3e71edfff","fromSide":"top","toNode":"64801c3a3fcad815","toSide":"bottom"},
 		{"id":"b058c595841eb004","fromNode":"9a598b39cb856d3b","fromSide":"top","toNode":"7bfd7100c36b32f7","toSide":"bottom","label":"세그먼테이션"},
-		{"id":"7dd86e8503d54725","fromNode":"7bfd7100c36b32f7","fromSide":"right","toNode":"16cad29a67508126","toSide":"left","label":"장점"}
+		{"id":"7dd86e8503d54725","fromNode":"7bfd7100c36b32f7","fromSide":"right","toNode":"16cad29a67508126","toSide":"left","label":"장점"},
+		{"id":"47305efcd2b3efe1","fromNode":"7bfd7100c36b32f7","fromSide":"top","toNode":"ac680f1238279963","toSide":"bottom","label":"페이징과의 결합"}
 	]
 }
