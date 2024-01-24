@@ -51,9 +51,9 @@
               "state": {
                 "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
-                  "x": -1378.955087371247,
-                  "y": -446.336338164265,
-                  "zoom": 0.5
+                  "x": 578.2685929967867,
+                  "y": -347.6949421887416,
+                  "zoom": -0.5
                 }
               }
             }
@@ -202,6 +202,9 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/VirtualMemory/canvas/세그먼테이션(segmentation).md",
+    "Pasted image 20240124212835.png",
+    "OS/VirtualMemory/canvas/페이지 크기.md",
     "OS/VirtualMemory/canvas/TLB(Translation Lookahead Buffer).md",
     "Pasted image 20240124211327.png",
     "Pasted image 20240124211313.png",
@@ -237,7 +240,6 @@
     "HTTP/Web Server/md/6. 응답 보내기.md",
     "HTTP/Web Server/resources/Pasted image 20240121204044.png",
     "HTTP/Web Server/md/5. 응답 만들기.md",
-    "HTTP/Web Server/resources/Pasted image 20240121195611.png",
     "HTTP/Web Server/md/4. 리소스의 매핑과 접근.md",
     "HTTP/Web Server/md/3. 요청 처리.md",
     "HTTP/Web Server/md/2. 요청 메시지 수신.md",
@@ -247,8 +249,6 @@
     "HTTP/Web Server/md/단일 스레드 웹 서버.md",
     "HTTP/Web Server/md/커넥션 입출력 처리 아키텍처.md",
     "HTTP/Web Server/md/1. 클라이언트 커넥션 수락.md",
-    "HTTP/Web Server/md/클라이언트 호스트 명 식별.md",
-    "HTTP/Web Server/md/웹 서버.md",
     "DB/SQL/canvas/Join.canvas",
     "HTTP/Web Server/canvas",
     "HTTP/Web Server/md",

@@ -5,6 +5,18 @@
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
+      "basename": "세그먼테이션(segmentation)",
+      "path": "OS/VirtualMemory/canvas/세그먼테이션(segmentation).md"
+    },
+    {
+      "basename": "Pasted image 20240124212835",
+      "path": "Pasted image 20240124212835.png"
+    },
+    {
+      "basename": "페이지 크기",
+      "path": "OS/VirtualMemory/canvas/페이지 크기.md"
+    },
+    {
       "basename": "TLB(Translation Lookahead Buffer)",
       "path": "OS/VirtualMemory/canvas/TLB(Translation Lookahead Buffer).md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "NL 조인",
       "path": "DB/SQL/md/NL 조인.md"
-    },
-    {
-      "basename": "Phantom Read",
-      "path": "DB/Transaction/md/Phantom Read.md"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "Sharding",
-      "path": "DB/Sharding/canvas/Sharding.canvas"
     }
   ],
   "omittedPaths": [],
