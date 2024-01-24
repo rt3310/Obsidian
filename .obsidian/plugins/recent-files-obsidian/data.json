@@ -5,6 +5,10 @@
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
+      "basename": "TLB(Translation Lookahead Buffer)",
+      "path": "OS/VirtualMemory/canvas/TLB(Translation Lookahead Buffer).md"
+    },
+    {
       "basename": "페이지 테이블 크기",
       "path": "OS/VirtualMemory/canvas/페이지 테이블 크기.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Sharding",
       "path": "DB/Sharding/canvas/Sharding.canvas"
-    },
-    {
-      "basename": "디렉토리 샤딩(Directory Sharding)",
-      "path": "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md"
     }
   ],
   "omittedPaths": [],

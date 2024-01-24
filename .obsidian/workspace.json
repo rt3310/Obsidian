@@ -51,9 +51,9 @@
               "state": {
                 "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
-                  "x": -926.9976007673105,
-                  "y": -1316.206334573826,
-                  "zoom": -0.23728923944088942
+                  "x": -1378.955087371247,
+                  "y": -446.336338164265,
+                  "zoom": 0.5
                 }
               }
             }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/VirtualMemory/canvas/TLB(Translation Lookahead Buffer).md",
     "Pasted image 20240124211327.png",
     "Pasted image 20240124211313.png",
     "Pasted image 20240124211303.png",
@@ -237,7 +238,6 @@
     "HTTP/Web Server/resources/Pasted image 20240121204044.png",
     "HTTP/Web Server/md/5. 응답 만들기.md",
     "HTTP/Web Server/resources/Pasted image 20240121195611.png",
-    "HTTP/Web Server/resources/Pasted image 20240121195551.png",
     "HTTP/Web Server/md/4. 리소스의 매핑과 접근.md",
     "HTTP/Web Server/md/3. 요청 처리.md",
     "HTTP/Web Server/md/2. 요청 메시지 수신.md",
