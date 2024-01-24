@@ -5,6 +5,10 @@
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
+      "basename": "가상메모리의 실용성",
+      "path": "OS/VirtualMemory/md/가상메모리의 실용성.md"
+    },
+    {
       "basename": "RAID",
       "path": "OS/Disk/canvas/RAID.canvas"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "페이징(Paging)",
       "path": "OS/VirtualMemory/md/페이징(Paging).md"
-    },
-    {
-      "basename": "가상메모리의 실용성",
-      "path": "OS/VirtualMemory/md/가상메모리의 실용성.md"
     },
     {
       "basename": "지역성(Locality)의 원리",
