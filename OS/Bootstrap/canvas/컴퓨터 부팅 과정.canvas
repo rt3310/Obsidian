@@ -8,7 +8,7 @@
 		{"id":"7ffffcc3a20aa939","type":"file","file":"OS/Bootstrap/md/MBR과 부트스트래핑.md","x":1920,"y":-1313,"width":759,"height":306},
 		{"id":"f050c5178b3d7314","type":"file","file":"OS/Bootstrap/md/마스터 부트 레코드(MBR).md","x":1950,"y":-866,"width":672,"height":353},
 		{"id":"826f1b0f729ec674","type":"file","file":"OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md","x":1950,"y":-440,"width":670,"height":740},
-		{"id":"859d2e180c8aecb0","type":"file","file":"OS/Bootstrap/canvas/부트로더(Boot Loader).md","x":1052,"y":231,"width":728,"height":138},
+		{"id":"859d2e180c8aecb0","type":"file","file":"OS/Bootstrap/md/부트로더(Boot Loader).md","x":1052,"y":231,"width":728,"height":138},
 		{"id":"21dddfec1c90341a","type":"text","text":"- 부팅(Booting)이란 컴퓨터 본체를 누르고 사용자가 시작할 수 있는 상태가 될 때 끼지의 과정\n- 컴퓨터에 전원을 공급하고 운영체제 가동 및 시스템을 사용하기 위해 준비하는 과정을 부팅이라고 함","x":-771,"y":-340,"width":809,"height":64},
 		{"id":"dba313ebaa06f94e","type":"file","file":"OS/Bootstrap/md/BIOS(Basic Input-Output System).md","x":468,"y":-1478,"width":580,"height":1100}
 	],

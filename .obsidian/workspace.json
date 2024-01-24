@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+                "file": "OS/Disk/canvas/RAID.canvas",
                 "viewState": {
-                  "x": 827.4711856467918,
-                  "y": -1077.6592009419685,
-                  "zoom": -0.01951945071942429
+                  "x": -15.579220085470098,
+                  "y": 168.43686489697893,
+                  "zoom": -0.7173190513312837
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+                "file": "OS/Disk/canvas/RAID.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+                "file": "OS/Disk/canvas/RAID.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
+                "file": "OS/Disk/canvas/RAID.canvas"
               }
             }
           }
@@ -202,31 +202,31 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
-    "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
+    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "OS/Bootstrap/md/부트로더(Boot Loader).md",
     "OS/VirtualMemory/canvas/Virtual Memory.canvas",
-    "OS/VirtualMemory/canvas/페이징과 세그먼테이션의 결합.md",
-    "OS/VirtualMemory/canvas/세그먼테이션(segmentation).md",
+    "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",
+    "OS/Disk/canvas/RAID.canvas",
+    "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md",
+    "OS/VirtualMemory/md/세그먼테이션(segmentation).md",
     "Pasted image 20240124212835.png",
-    "OS/VirtualMemory/canvas/페이지 크기.md",
-    "OS/VirtualMemory/canvas/TLB(Translation Lookahead Buffer).md",
+    "OS/VirtualMemory/md/페이지 크기.md",
+    "OS/VirtualMemory/md/TLB(Translation Lookahead Buffer).md",
     "Pasted image 20240124211327.png",
     "Pasted image 20240124211313.png",
     "Pasted image 20240124211303.png",
-    "OS/VirtualMemory/canvas/페이지 테이블 크기.md",
-    "OS/VirtualMemory/canvas/무제 파일.md",
-    "OS/VirtualMemory/canvas/페이징(Paging).md",
-    "OS/VirtualMemory/canvas/지역성(Locality)의 원리.md",
-    "OS/VirtualMemory/canvas/가상메모리의 실용성.md",
-    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
-    "OS/Disk/canvas/RAID.canvas",
+    "OS/VirtualMemory/md/페이지 테이블 크기.md",
+    "OS/VirtualMemory/md/무제 파일.md",
+    "OS/VirtualMemory/md/페이징(Paging).md",
+    "OS/VirtualMemory/md/지역성(Locality)의 원리.md",
+    "OS/VirtualMemory/md/가상메모리의 실용성.md",
     "OS/Thrashing/canvas/무제 파일.canvas",
-    "OS/VirtualMemory/canvas/가상메모리 동작원리.md",
+    "OS/VirtualMemory/md/가상메모리 동작원리.md",
     "Pasted image 20240124201624.png",
-    "OS/VirtualMemory/canvas/페이지 테이블 구조.md",
+    "OS/VirtualMemory/md/페이지 테이블 구조.md",
     "Pasted image 20240124035314.png",
     "Pasted image 20240124031951.png",
     "Pasted image 20240124031836.png",
-    "OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md",
     "HTTP/Web Server/canvas/웹 서버.canvas",
     "OS/VirtualMemory/resources",
     "OS/VirtualMemory/md",
@@ -248,7 +248,6 @@
     "HTTP/Web Server/md/다중 멀티스레드 웹 서버.md",
     "HTTP/Web Server/canvas/다중 I",
     "HTTP/Web Server/md/멀티프로세스와 멀티스레드 웹 서버.md",
-    "HTTP/Web Server/md/단일 스레드 웹 서버.md",
     "DB/SQL/canvas/Join.canvas",
     "HTTP/Web Server/canvas",
     "HTTP/Web Server/md",

@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "RAID",
+      "path": "OS/Disk/canvas/RAID.canvas"
+    },
+    {
       "basename": "컴퓨터 부팅 과정",
       "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
     },
     {
       "basename": "부트로더(Boot Loader)",
-      "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
+      "path": "OS/Bootstrap/md/부트로더(Boot Loader).md"
     },
     {
       "basename": "Virtual Memory",
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
+      "basename": "가상 메모리(Virtual Memory)",
+      "path": "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md"
+    },
+    {
       "basename": "페이징과 세그먼테이션의 결합",
-      "path": "OS/VirtualMemory/canvas/페이징과 세그먼테이션의 결합.md"
+      "path": "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md"
     },
     {
       "basename": "세그먼테이션(segmentation)",
-      "path": "OS/VirtualMemory/canvas/세그먼테이션(segmentation).md"
+      "path": "OS/VirtualMemory/md/세그먼테이션(segmentation).md"
     },
     {
       "basename": "Pasted image 20240124212835",
@@ -26,31 +34,31 @@
     },
     {
       "basename": "페이지 크기",
-      "path": "OS/VirtualMemory/canvas/페이지 크기.md"
+      "path": "OS/VirtualMemory/md/페이지 크기.md"
     },
     {
       "basename": "TLB(Translation Lookahead Buffer)",
-      "path": "OS/VirtualMemory/canvas/TLB(Translation Lookahead Buffer).md"
+      "path": "OS/VirtualMemory/md/TLB(Translation Lookahead Buffer).md"
     },
     {
       "basename": "페이지 테이블 크기",
-      "path": "OS/VirtualMemory/canvas/페이지 테이블 크기.md"
+      "path": "OS/VirtualMemory/md/페이지 테이블 크기.md"
     },
     {
       "basename": "무제 파일",
-      "path": "OS/VirtualMemory/canvas/무제 파일.md"
+      "path": "OS/VirtualMemory/md/무제 파일.md"
     },
     {
       "basename": "페이징(Paging)",
-      "path": "OS/VirtualMemory/canvas/페이징(Paging).md"
+      "path": "OS/VirtualMemory/md/페이징(Paging).md"
     },
     {
       "basename": "가상메모리의 실용성",
-      "path": "OS/VirtualMemory/canvas/가상메모리의 실용성.md"
+      "path": "OS/VirtualMemory/md/가상메모리의 실용성.md"
     },
     {
       "basename": "지역성(Locality)의 원리",
-      "path": "OS/VirtualMemory/canvas/지역성(Locality)의 원리.md"
+      "path": "OS/VirtualMemory/md/지역성(Locality)의 원리.md"
     },
     {
       "basename": "GUID 파티션 테이블(GPT, GUID Partition Table)",
@@ -81,10 +89,6 @@
       "path": "OS/Bootstrap/md/ROM(Read-Only Memory).md"
     },
     {
-      "basename": "RAID",
-      "path": "OS/Disk/canvas/RAID.canvas"
-    },
-    {
       "basename": "RAID 6",
       "path": "OS/Disk/resources/RAID 6.png"
     },
@@ -94,15 +98,11 @@
     },
     {
       "basename": "가상메모리 동작원리",
-      "path": "OS/VirtualMemory/canvas/가상메모리 동작원리.md"
+      "path": "OS/VirtualMemory/md/가상메모리 동작원리.md"
     },
     {
       "basename": "페이지 테이블 구조",
-      "path": "OS/VirtualMemory/canvas/페이지 테이블 구조.md"
-    },
-    {
-      "basename": "가상 메모리(Virtual Memory)",
-      "path": "OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md"
+      "path": "OS/VirtualMemory/md/페이지 테이블 구조.md"
     },
     {
       "basename": "Pasted image 20240124031951",
