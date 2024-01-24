@@ -51,8 +51,8 @@
               "state": {
                 "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
-                  "x": -675.2050637773355,
-                  "y": -822.8886992840572,
+                  "x": -1273.4750779391013,
+                  "y": -658.4494875208009,
                   "zoom": -0.23728923944088942
                 }
               }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/VirtualMemory/canvas/페이징(Paging).md",
     "OS/VirtualMemory/canvas/지역성(Locality)의 원리.md",
     "OS/VirtualMemory/canvas/가상메모리의 실용성.md",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
@@ -255,7 +256,6 @@
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Sharding/canvas/Sharding.canvas",
     "DB/Sharding/canvas/Config 클래스.md",
-    "DB/Sharding/canvas/Property 클래스.md",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas"
   ]

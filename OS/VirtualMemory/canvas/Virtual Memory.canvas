@@ -5,9 +5,10 @@
 		{"id":"9712ae46e94a717d","type":"text","text":"- 가상주소를 물리주소로 변환하는 과정은 **MMU(메모리 관리장치)**에 의해 수행\n- 주소 간의 변환관계를 정의한 정보는 **페이지 테이블(Page Table)**에 보관 <- OS가 관리\n![[Pasted image 20240124031836.png]]\n![[Pasted image 20240124031951.png]]\n\n- 가상 주소공간은 4GB 공간이고 페이지 크기가 4KB일 때\n- 논리주소가 0000 0000 0000 0001 1001 / 0000 0000 0011b일 경우 -> 페이지 번호 25, 변위는 3\n\t- 페에지 테이블의 25위치에 저장된 프레임 번호는 00002, 페이지 변위가 003이므로\n\t- 생성되는 물리적 주소는 (00002#003)16 = (00002003)16 = (8195)10\n![[Pasted image 20240124035314.png]]","x":660,"y":125,"width":720,"height":1180},
 		{"id":"f5afcd0014b208ef","type":"file","file":"OS/VirtualMemory/canvas/페이지 테이블 구조.md","x":640,"y":1545,"width":760,"height":503},
 		{"id":"6bc29ca54ae4aa07","type":"file","file":"OS/VirtualMemory/canvas/가상메모리 동작원리.md","x":1660,"y":464,"width":760,"height":503},
-		{"id":"933b46546eb6c875","x":-60,"y":940,"width":642,"height":916,"type":"file","file":"OS/VirtualMemory/canvas/가상메모리의 실용성.md"},
-		{"id":"d91d00f1c7b302be","x":-780,"y":940,"width":544,"height":362,"type":"file","file":"OS/VirtualMemory/canvas/지역성(Locality)의 원리.md"},
-		{"id":"c175981aefa15b91","x":-1120,"y":-960,"width":691,"height":597,"type":"text","text":"- 페이지와 (페이지) 프레임\n\t- 가상메모리(HDD)는 **고정크기의 페이지**로 분할되고, 물리메모리(주기억장치)는 **페이지 크기의 프레임**(페이지 프레임)들로 분할 -> 페이지 크기 = 프레임 크기\n- 페이지 테이블 (page table)\n\t- 프로세스 별로 각각의 페이지 테이블을 설정\n\t- 선택된 프로세스의 실행 시 가상 주소의 페이지 번호를 이용하여 대응된 페이지 테이블 항목을 찾고, 그로부터 해당 페이지가"}
+		{"id":"933b46546eb6c875","type":"file","file":"OS/VirtualMemory/canvas/가상메모리의 실용성.md","x":-60,"y":940,"width":642,"height":916},
+		{"id":"d91d00f1c7b302be","type":"file","file":"OS/VirtualMemory/canvas/지역성(Locality)의 원리.md","x":-780,"y":940,"width":544,"height":362},
+		{"id":"98029daaf949d618","x":-920,"y":-620,"width":691,"height":352,"type":"file","file":"OS/VirtualMemory/canvas/페이징(Paging).md"},
+		{"id":"b1bfc06fa6d6c3ee","x":-1380,"y":-1080,"width":810,"height":380,"type":"text","text":"- 가상주소공간의 크기가 커질수록 페이지 테이블의 크기가 증가하고, 주기억장치 상에 보다 큰 페이지 테이블 적재 공간이 필요해 지는 문제점 발생"}
 	],
 	"edges":[
 		{"id":"457e469b8fea6eb8","fromNode":"9a598b39cb856d3b","fromSide":"right","toNode":"298d6247f8b29341","toSide":"left","label":"부분적재 수행 이점"},
@@ -16,6 +17,7 @@
 		{"id":"78fd43ed903137df","fromNode":"9712ae46e94a717d","fromSide":"right","toNode":"6bc29ca54ae4aa07","toSide":"left","label":"동작원리"},
 		{"id":"ce39dc92e00998f7","fromNode":"9a598b39cb856d3b","fromSide":"bottom","toNode":"933b46546eb6c875","toSide":"top","label":"실용성"},
 		{"id":"a421942ed10051c7","fromNode":"9a598b39cb856d3b","fromSide":"bottom","toNode":"d91d00f1c7b302be","toSide":"top","label":"지역성의 원리"},
-		{"id":"e9bafac9c77b1fd6","fromNode":"9a598b39cb856d3b","fromSide":"top","toNode":"c175981aefa15b91","toSide":"bottom"}
+		{"id":"e9bafac9c77b1fd6","fromNode":"9a598b39cb856d3b","fromSide":"top","toNode":"98029daaf949d618","toSide":"bottom"},
+		{"id":"12e6b1c65bc144c5","fromNode":"98029daaf949d618","fromSide":"top","toNode":"b1bfc06fa6d6c3ee","toSide":"bottom"}
 	]
 }
