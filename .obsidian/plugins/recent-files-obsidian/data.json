@@ -5,12 +5,16 @@
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
-      "basename": "Pasted image 20240124031951",
-      "path": "Pasted image 20240124031951.png"
+      "basename": "페이지 테이블 구조",
+      "path": "OS/VirtualMemory/canvas/페이지 테이블 구조.md"
     },
     {
       "basename": "가상 메모리(Virtual Memory)",
       "path": "OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md"
+    },
+    {
+      "basename": "Pasted image 20240124031951",
+      "path": "Pasted image 20240124031951.png"
     },
     {
       "basename": "웹 서버",
@@ -195,10 +199,6 @@
     {
       "basename": "RAID",
       "path": "OS/Disk/canvas/RAID.canvas"
-    },
-    {
-      "basename": "Semaphore",
-      "path": "OS/Concurrency/canvas/Semaphore.canvas"
     }
   ],
   "omittedPaths": [],
