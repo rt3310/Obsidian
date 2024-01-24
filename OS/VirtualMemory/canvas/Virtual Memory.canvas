@@ -1,15 +1,17 @@
 {
 	"nodes":[
 		{"id":"9a598b39cb856d3b","type":"file","file":"OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md","x":-400,"y":-60,"width":625,"height":731},
-		{"id":"298d6247f8b29341","type":"text","text":"- **보다 많은 개수의 프로세스를 주기억장치에 유지할 수 있다.**\n\t- 준비 상태 프로세스가 존재할 가능성이 높아져 처리기 활용도가 높아진다.\n- **주기억장치보다 큰 프로세스를 수행할 수 있다.**\n\t- 오버레이 기법을 적용하기 위한 프로그래머의 부담을 운영체제가 담당한다.","x":540,"y":116,"width":519,"height":190},
-		{"id":"9712ae46e94a717d","type":"text","text":"- 가상주소를 물리주소로 변환하는 과정은 **MMU(메모리 관리장치)**에 의해 수행\n- 주소 간의 변환관계를 정의한 정보는 **페이지 테이블(Page Table)**에 보관 <- OS가 관리\n![[Pasted image 20240124031836.png]]\n![[Pasted image 20240124031951.png]]\n\n- 가상 주소공간은 4GB 공간이고 페이지 크기가 4KB일 때\n- 논리주소가 0000 0000 0000 0001 1001 / 0000 0000 0011b일 경우 -> 페이지 번호 25, 변위는 3\n\t- 페에지 테이블의 25위치에 저장된 프레임 번호는 00002, 페이지 변위가 003이므로\n\t- 생성되는 물리적 주소는 (00002#003)16 = (00002003)16 = (8195)10\n![[Pasted image 20240124035314.png]]","x":540,"y":400,"width":720,"height":1180},
-		{"id":"f5afcd0014b208ef","x":520,"y":1820,"width":760,"height":503,"type":"file","file":"OS/VirtualMemory/canvas/페이지 테이블 구조.md"},
-		{"id":"30cfc0115d39ad39","x":1549,"y":440,"width":691,"height":607,"type":"text","text":"- CPU, MMU, OS 세 부분이 관여\n- 운영체제에서 프로세스 당 가상메모리 공간을 4GB로 설정, 물리메모리가 1GB 있을 때\n\t- CPU는 4GB의 주소공간 중 특정 주소를 접근 (가상주소/물리주소)\n\t- MMU는 이 주소가 현재 물리메모리에 있는지를 페이지 테이블(페이지 번호)을 참조해 판단\n\t- 현재 물리메모리에 있는 주소라면 물리주소로 바꾸어 CPU의 해당 물리 메모리 접근을 허용\n\t- 현재 물리메모리에 없는 주소이면\n\t\t- 운영체제는 물리메모리에 빈공간을 만들고 HDD에서 해당 주소의 냉"}
+		{"id":"298d6247f8b29341","type":"text","text":"- **보다 많은 개수의 프로세스를 주기억장치에 유지할 수 있다.**\n\t- 준비 상태 프로세스가 존재할 가능성이 높아져 처리기 활용도가 높아진다.\n- **주기억장치보다 큰 프로세스를 수행할 수 있다.**\n\t- 오버레이 기법을 적용하기 위한 프로그래머의 부담을 운영체제가 담당한다.","x":660,"y":-159,"width":519,"height":190},
+		{"id":"9712ae46e94a717d","type":"text","text":"- 가상주소를 물리주소로 변환하는 과정은 **MMU(메모리 관리장치)**에 의해 수행\n- 주소 간의 변환관계를 정의한 정보는 **페이지 테이블(Page Table)**에 보관 <- OS가 관리\n![[Pasted image 20240124031836.png]]\n![[Pasted image 20240124031951.png]]\n\n- 가상 주소공간은 4GB 공간이고 페이지 크기가 4KB일 때\n- 논리주소가 0000 0000 0000 0001 1001 / 0000 0000 0011b일 경우 -> 페이지 번호 25, 변위는 3\n\t- 페에지 테이블의 25위치에 저장된 프레임 번호는 00002, 페이지 변위가 003이므로\n\t- 생성되는 물리적 주소는 (00002#003)16 = (00002003)16 = (8195)10\n![[Pasted image 20240124035314.png]]","x":660,"y":125,"width":720,"height":1180},
+		{"id":"f5afcd0014b208ef","x":640,"y":1545,"width":760,"height":503,"type":"file","file":"OS/VirtualMemory/canvas/페이지 테이블 구조.md"},
+		{"id":"6bc29ca54ae4aa07","x":1660,"y":464,"width":760,"height":503,"type":"file","file":"OS/VirtualMemory/canvas/가상메모리 동작원리.md"},
+		{"id":"9fbbeb85bfb760ba","x":-417,"y":880,"width":642,"height":553,"type":"text","text":"- 프로그램 수행에 필요한 블록(페이지)만 적재하므로, 비사용 블록 적재로 인한 낭비절감 -> 요구 페이징(demand paging)\n- 블록(페이지) 적재 요구가 얼마나 빈번한지가 가상메모리 실용성의 최대 관건\n\t- 프로세스 수행 시간 중 임의의 짧은 구간을 관찰했을 떄 메모리 참조 행태가 너무 분산되지 않아야 하며, 한 번 주기억장치에 적재된 블록들이 내보내지기 전까지 최대한 많이 참조되도록 관리해야 "}
 	],
 	"edges":[
 		{"id":"457e469b8fea6eb8","fromNode":"9a598b39cb856d3b","fromSide":"right","toNode":"298d6247f8b29341","toSide":"left","label":"부분적재 수행 이점"},
 		{"id":"f69a987866a3315e","fromNode":"9a598b39cb856d3b","fromSide":"right","toNode":"9712ae46e94a717d","toSide":"left","label":"가상메모리/물리메모리 매핑"},
 		{"id":"f72c2d7c166bd8ad","fromNode":"9712ae46e94a717d","fromSide":"bottom","toNode":"f5afcd0014b208ef","toSide":"top","label":"페이지 테이블 구조"},
-		{"id":"78fd43ed903137df","fromNode":"9712ae46e94a717d","fromSide":"right","toNode":"30cfc0115d39ad39","toSide":"left"}
+		{"id":"78fd43ed903137df","fromNode":"9712ae46e94a717d","fromSide":"right","toNode":"6bc29ca54ae4aa07","toSide":"left","label":"동작원리"},
+		{"id":"ce39dc92e00998f7","fromNode":"9a598b39cb856d3b","fromSide":"bottom","toNode":"9fbbeb85bfb760ba","toSide":"top"}
 	]
 }

@@ -51,9 +51,9 @@
               "state": {
                 "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
-                  "x": 1968.4888322238078,
-                  "y": 870.9073246792169,
-                  "zoom": -0.5
+                  "x": -13.167954735095066,
+                  "y": 885.2419098733837,
+                  "zoom": 0.2627107605591106
                 }
               }
             }
@@ -117,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -203,13 +202,18 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "OS/Disk/canvas/RAID.canvas",
+    "OS/Thrashing/canvas/무제 파일.canvas",
+    "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "OS/VirtualMemory/canvas/가상메모리 동작원리.md",
+    "Pasted image 20240124201624.png",
     "OS/VirtualMemory/canvas/페이지 테이블 구조.md",
     "Pasted image 20240124035314.png",
     "Pasted image 20240124031951.png",
     "Pasted image 20240124031836.png",
     "OS/VirtualMemory/canvas/가상 메모리(Virtual Memory).md",
     "HTTP/Web Server/canvas/웹 서버.canvas",
-    "OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "OS/VirtualMemory/resources",
     "OS/VirtualMemory/md",
     "OS/VirtualMemory/canvas",
@@ -238,7 +242,6 @@
     "HTTP/Web Server/md/커넥션 입출력 처리 아키텍처.md",
     "HTTP/Web Server/md/1. 클라이언트 커넥션 수락.md",
     "HTTP/Web Server/md/클라이언트 호스트 명 식별.md",
-    "HTTP/Web Server/resources/Pasted image 20240121175948.png",
     "HTTP/Web Server/md/웹 서버.md",
     "DB/SQL/canvas/Join.canvas",
     "HTTP/Web Server/canvas",
@@ -252,12 +255,8 @@
     "DB/Sharding/canvas/Config 클래스.md",
     "DB/Sharding/canvas/Property 클래스.md",
     "DB/Sharding/canvas/모듈러샤딩 룰 설정.md",
-    "DB/Sharding/canvas/레인지샤딩 룰 설정.md",
-    "DB/Sharding/canvas/yaml 설정.md",
-    "OS/Disk/canvas/RAID.canvas",
     "OS/Concurrency/canvas/Semaphore.canvas",
     "OS/Concurrency/canvas/DeadLock.canvas",
-    "OS/Concurrency/canvas/Concurrency.canvas",
-    "OS/memory/canvas/메모리 관리.canvas"
+    "OS/Concurrency/canvas/Concurrency.canvas"
   ]
 }
