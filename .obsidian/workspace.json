@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "viewState": {
-                  "x": 553.5472928618442,
-                  "y": -742.2605260908351,
-                  "zoom": -0.5
+                  "x": 827.4711856467918,
+                  "y": -1077.6592009419685,
+                  "zoom": -0.01951945071942429
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
+                "file": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
               }
             }
           }
@@ -202,6 +202,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/Bootstrap/canvas/부트로더(Boot Loader).md",
+    "OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "OS/VirtualMemory/canvas/페이징과 세그먼테이션의 결합.md",
     "OS/VirtualMemory/canvas/세그먼테이션(segmentation).md",
     "Pasted image 20240124212835.png",
@@ -212,7 +214,6 @@
     "Pasted image 20240124211303.png",
     "OS/VirtualMemory/canvas/페이지 테이블 크기.md",
     "OS/VirtualMemory/canvas/무제 파일.md",
-    "OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "OS/VirtualMemory/canvas/페이징(Paging).md",
     "OS/VirtualMemory/canvas/지역성(Locality)의 원리.md",
     "OS/VirtualMemory/canvas/가상메모리의 실용성.md",
@@ -248,7 +249,6 @@
     "HTTP/Web Server/canvas/다중 I",
     "HTTP/Web Server/md/멀티프로세스와 멀티스레드 웹 서버.md",
     "HTTP/Web Server/md/단일 스레드 웹 서버.md",
-    "HTTP/Web Server/md/커넥션 입출력 처리 아키텍처.md",
     "DB/SQL/canvas/Join.canvas",
     "HTTP/Web Server/canvas",
     "HTTP/Web Server/md",

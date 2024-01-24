@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "컴퓨터 부팅 과정",
+      "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
+    },
+    {
+      "basename": "부트로더(Boot Loader)",
+      "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
+    },
+    {
       "basename": "Virtual Memory",
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
@@ -43,14 +51,6 @@
     {
       "basename": "지역성(Locality)의 원리",
       "path": "OS/VirtualMemory/canvas/지역성(Locality)의 원리.md"
-    },
-    {
-      "basename": "컴퓨터 부팅 과정",
-      "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
-    },
-    {
-      "basename": "부트로더(Boot Loader)",
-      "path": "OS/Bootstrap/canvas/부트로더(Boot Loader).md"
     },
     {
       "basename": "GUID 파티션 테이블(GPT, GUID Partition Table)",
