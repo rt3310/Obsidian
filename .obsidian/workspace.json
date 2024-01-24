@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/Disk/canvas/RAID.canvas",
+                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "viewState": {
-                  "x": -15.579220085470098,
-                  "y": 168.43686489697893,
-                  "zoom": -0.7173190513312837
+                  "x": 184.02777777777777,
+                  "y": -167.19691054026293,
+                  "zoom": -1.3769694584453243
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Disk/canvas/RAID.canvas",
+                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Disk/canvas/RAID.canvas",
+                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Disk/canvas/RAID.canvas"
+                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
               }
             }
           }
@@ -202,11 +202,11 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "OS/Disk/canvas/RAID.canvas",
+    "OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/md/부트로더(Boot Loader).md",
-    "OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",
-    "OS/Disk/canvas/RAID.canvas",
     "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md",
     "OS/VirtualMemory/md/세그먼테이션(segmentation).md",
     "Pasted image 20240124212835.png",

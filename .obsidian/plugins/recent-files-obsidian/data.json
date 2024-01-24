@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Virtual Memory",
+      "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
+    },
+    {
       "basename": "RAID",
       "path": "OS/Disk/canvas/RAID.canvas"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "부트로더(Boot Loader)",
       "path": "OS/Bootstrap/md/부트로더(Boot Loader).md"
-    },
-    {
-      "basename": "Virtual Memory",
-      "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
       "basename": "가상 메모리(Virtual Memory)",
