@@ -5,6 +5,14 @@
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
+      "basename": "가상메모리의 실용성",
+      "path": "OS/VirtualMemory/canvas/가상메모리의 실용성.md"
+    },
+    {
+      "basename": "지역성(Locality)의 원리",
+      "path": "OS/VirtualMemory/canvas/지역성(Locality)의 원리.md"
+    },
+    {
       "basename": "컴퓨터 부팅 과정",
       "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "샤딩(Sharding)",
       "path": "DB/Sharding/canvas/샤딩(Sharding).md"
-    },
-    {
-      "basename": "READ UNCOMMITTED의 Dirty Read",
-      "path": "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
-    },
-    {
-      "basename": "READ COMMITTED 작동 방식",
-      "path": "DB/Transaction/md/READ COMMITTED 작동 방식.md"
     }
   ],
   "omittedPaths": [],
