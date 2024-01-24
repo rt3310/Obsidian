@@ -5,6 +5,14 @@
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
+      "basename": "페이지 테이블 크기",
+      "path": "OS/VirtualMemory/canvas/페이지 테이블 크기.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "OS/VirtualMemory/canvas/무제 파일.md"
+    },
+    {
       "basename": "페이징(Paging)",
       "path": "OS/VirtualMemory/canvas/페이징(Paging).md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "디렉토리 샤딩(Directory Sharding)",
       "path": "DB/Sharding/canvas/디렉토리 샤딩(Directory Sharding).md"
-    },
-    {
-      "basename": "레인지 샤딩(Range Sharding)",
-      "path": "DB/Sharding/canvas/레인지 샤딩(Range Sharding).md"
-    },
-    {
-      "basename": "모듈러 샤딩(Modular Sharding)",
-      "path": "DB/Sharding/canvas/모듈러 샤딩(Modular Sharding).md"
     }
   ],
   "omittedPaths": [],
