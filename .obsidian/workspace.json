@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": -1494.506291707034,
-                  "y": -409.48146247995555,
-                  "zoom": 0
+                  "x": 1324.3744353961024,
+                  "y": -1101.9101579577846,
+                  "zoom": -1
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "DB/Cache/canvas/Cache 전략.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
+                "file": "DB/Cache/canvas/Cache 전략.canvas"
               }
             }
           }
@@ -202,8 +202,8 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
-    "OS/Disk/canvas/RAID.canvas",
     "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "OS/Disk/canvas/RAID.canvas",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/md/부트로더(Boot Loader).md",
     "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",

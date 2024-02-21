@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "Cache Warming",
+      "path": "DB/Cache/md/Cache Warming.md"
+    },
+    {
+      "basename": "캐시 읽기 + 쓰기 전략 조합",
+      "path": "DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md"
+    },
+    {
+      "basename": "Read Through + Write Around 조합",
+      "path": "DB/Cache/md/Read Through + Write Around 조합.md"
+    },
+    {
+      "basename": "Look Aside + Write Around 조합",
+      "path": "DB/Cache/md/Look Aside + Write Around 조합.md"
+    },
+    {
+      "basename": "Look Aside + Write Around",
+      "path": "DB/Cache/resources/Look Aside + Write Around.png"
+    },
+    {
+      "basename": "Read Through + Write Through 조합",
+      "path": "DB/Cache/md/Read Through + Write Through 조합.md"
+    },
+    {
+      "basename": "캐시 가용성 지침",
+      "path": "DB/Cache/md/캐시 가용성 지침.md"
+    },
+    {
+      "basename": "캐시 공유 방식 지침",
+      "path": "DB/Cache/md/캐시 공유 방식 지침.md"
+    },
+    {
+      "basename": "캐시 제거 방식 지침",
+      "path": "DB/Cache/md/캐시 제거 방식 지침.md"
+    },
+    {
+      "basename": "Cache Stampede 현상",
+      "path": "DB/Cache/md/Cache Stampede 현상.md"
+    },
+    {
+      "basename": "파레토 법칙",
+      "path": "DB/Cache/md/파레토 법칙.md"
+    },
+    {
+      "basename": "캐시 저장 방식 지침",
+      "path": "DB/Cache/md/캐시 저장 방식 지침.md"
+    },
+    {
+      "basename": "Write Back 장점",
+      "path": "DB/Cache/md/Write Back 장점.md"
+    },
+    {
+      "basename": "Write Back 단점",
+      "path": "DB/Cache/md/Write Back 단점.md"
+    },
+    {
+      "basename": "Write Around 패턴",
+      "path": "DB/Cache/md/Write Around 패턴.md"
+    },
+    {
+      "basename": "Write Through 패턴",
+      "path": "DB/Cache/md/Write Through 패턴.md"
+    },
+    {
+      "basename": "Write Back 패턴",
+      "path": "DB/Cache/md/Write Back 패턴.md"
+    },
+    {
+      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
+      "path": "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md"
+    },
+    {
+      "basename": "캐시 읽기 전략(Read Cache Strategy)",
+      "path": "DB/Cache/md/캐시 읽기 전략(Read Cache Strategy).md"
+    },
+    {
+      "basename": "Look Aside 패턴",
+      "path": "DB/Cache/md/Look Aside 패턴.md"
+    },
+    {
+      "basename": "Read Through 패턴",
+      "path": "DB/Cache/md/Read Through 패턴.md"
+    },
+    {
       "basename": "Virtual Memory",
       "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
@@ -111,94 +199,6 @@
     {
       "basename": "웹 서버",
       "path": "HTTP/Web Server/canvas/웹 서버.canvas"
-    },
-    {
-      "basename": "1. 클라이언트 커넥션 수락",
-      "path": "HTTP/Web Server/md/1. 클라이언트 커넥션 수락.md"
-    },
-    {
-      "basename": "6. 응답 보내기",
-      "path": "HTTP/Web Server/md/6. 응답 보내기.md"
-    },
-    {
-      "basename": "7. 로깅",
-      "path": "HTTP/Web Server/md/7. 로깅.md"
-    },
-    {
-      "basename": "메시지의 내부 표현",
-      "path": "HTTP/Web Server/md/메시지의 내부 표현.md"
-    },
-    {
-      "basename": "새 커넥션 다루기",
-      "path": "HTTP/Web Server/md/새 커넥션 다루기.md"
-    },
-    {
-      "basename": "ident를 통해 클라이언트 사용자 알아내기",
-      "path": "HTTP/Web Server/md/ident를 통해 클라이언트 사용자 알아내기.md"
-    },
-    {
-      "basename": "다중 IO 서버",
-      "path": "HTTP/Web Server/md/다중 IO 서버.md"
-    },
-    {
-      "basename": "Pasted image 20231221164018",
-      "path": "HTTP/Web Server/resources/Pasted image 20231221164018.png"
-    },
-    {
-      "basename": "2. 요청 메시지 수신",
-      "path": "HTTP/Web Server/md/2. 요청 메시지 수신.md"
-    },
-    {
-      "basename": "Pasted image 20240121204044",
-      "path": "HTTP/Web Server/resources/Pasted image 20240121204044.png"
-    },
-    {
-      "basename": "5. 응답 만들기",
-      "path": "HTTP/Web Server/md/5. 응답 만들기.md"
-    },
-    {
-      "basename": "3. 요청 처리",
-      "path": "HTTP/Web Server/md/3. 요청 처리.md"
-    },
-    {
-      "basename": "4. 리소스의 매핑과 접근",
-      "path": "HTTP/Web Server/md/4. 리소스의 매핑과 접근.md"
-    },
-    {
-      "basename": "다중 멀티스레드 웹 서버",
-      "path": "HTTP/Web Server/md/다중 멀티스레드 웹 서버.md"
-    },
-    {
-      "basename": "단일 스레드 웹 서버",
-      "path": "HTTP/Web Server/md/단일 스레드 웹 서버.md"
-    },
-    {
-      "basename": "멀티프로세스와 멀티스레드 웹 서버",
-      "path": "HTTP/Web Server/md/멀티프로세스와 멀티스레드 웹 서버.md"
-    },
-    {
-      "basename": "커넥션 입출력 처리 아키텍처",
-      "path": "HTTP/Web Server/md/커넥션 입출력 처리 아키텍처.md"
-    },
-    {
-      "basename": "클라이언트 호스트 명 식별",
-      "path": "HTTP/Web Server/md/클라이언트 호스트 명 식별.md"
-    },
-    {
-      "basename": "웹 서버",
-      "path": "HTTP/Web Server/md/웹 서버.md"
-    },
-    {
-      "basename": "Join",
-      "path": "DB/SQL/canvas/Join.canvas"
-    },
-    {
-      "basename": "해시 조인",
-      "path": "DB/SQL/canvas/해시 조인.md"
-    },
-    {
-      "basename": "서브쿼리 조인",
-      "path": "DB/SQL/canvas/서브쿼리 조인.md"
     }
   ],
   "omittedPaths": [],
