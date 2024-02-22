@@ -9,6 +9,10 @@
       "path": "DB/Cache/md/Cache Warming.md"
     },
     {
+      "basename": "Look Aside 패턴",
+      "path": "DB/Cache/md/Look Aside 패턴.md"
+    },
+    {
       "basename": "캐시 읽기 + 쓰기 전략 조합",
       "path": "DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "캐시 읽기 전략(Read Cache Strategy)",
       "path": "DB/Cache/md/캐시 읽기 전략(Read Cache Strategy).md"
-    },
-    {
-      "basename": "Look Aside 패턴",
-      "path": "DB/Cache/md/Look Aside 패턴.md"
     },
     {
       "basename": "Read Through 패턴",
