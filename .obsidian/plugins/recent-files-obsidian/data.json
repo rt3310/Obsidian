@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "트랜잭션 격리 수준",
+      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "READ COMMITTED",
+      "path": "DB/Transaction/md/READ COMMITTED.md"
+    },
+    {
+      "basename": "READ UNCOMMITTED",
+      "path": "DB/Transaction/md/READ UNCOMMITTED.md"
+    },
+    {
+      "basename": "REPEATABLE READ",
+      "path": "DB/Transaction/md/REPEATABLE READ.md"
+    },
+    {
+      "basename": "SERIALIZABLE",
+      "path": "DB/Transaction/md/SERIALIZABLE.md"
+    },
+    {
       "basename": "Cache 전략",
       "path": "DB/Cache/canvas/Cache 전략.canvas"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "RAID 6",
       "path": "OS/Disk/resources/RAID 6.png"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "OS/Thrashing/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "가상메모리 동작원리",
-      "path": "OS/VirtualMemory/md/가상메모리 동작원리.md"
-    },
-    {
-      "basename": "페이지 테이블 구조",
-      "path": "OS/VirtualMemory/md/페이지 테이블 구조.md"
-    },
-    {
-      "basename": "Pasted image 20240124031951",
-      "path": "Pasted image 20240124031951.png"
-    },
-    {
-      "basename": "웹 서버",
-      "path": "HTTP/Web Server/canvas/웹 서버.canvas"
     }
   ],
   "omittedPaths": [],

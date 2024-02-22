@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "viewState": {
-                  "x": 2307.8744353961024,
-                  "y": -1001.7747438342494,
-                  "zoom": 0
+                  "x": -243.4057081148613,
+                  "y": 1314.4272965918035,
+                  "zoom": -0.5
                 }
               }
             }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Cache/canvas/Cache 전략.canvas"
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
               }
             }
           }
@@ -202,6 +202,7 @@
   },
   "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "DB/Cache/canvas/Cache 전략.canvas",
     "OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "OS/Disk/canvas/RAID.canvas",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
