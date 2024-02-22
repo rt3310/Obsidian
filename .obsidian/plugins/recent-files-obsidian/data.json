@@ -5,6 +5,10 @@
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
     {
+      "basename": "READ UNCOMMITTED의 Dirty Read",
+      "path": "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
+    },
+    {
       "basename": "READ COMMITTED",
       "path": "DB/Transaction/md/READ COMMITTED.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ROM(Read-Only Memory)",
       "path": "OS/Bootstrap/md/ROM(Read-Only Memory).md"
-    },
-    {
-      "basename": "RAID 6",
-      "path": "OS/Disk/resources/RAID 6.png"
     }
   ],
   "omittedPaths": [],
