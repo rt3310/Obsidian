@@ -2,8 +2,8 @@
   "accentColor": "",
   "theme": "moonstone",
   "cssTheme": "Things",
-  "interfaceFontFamily": "Apple SD Gothic Neo,AppleSDGothicNeoR00",
-  "textFontFamily": "Apple SD Gothic Neo,AppleSDGothicNeoR00",
-  "monospaceFontFamily": "Apple SD Gothic Neo,AppleSDGothicNeoR00",
+  "interfaceFontFamily": "NanumBarunGothic,NanumSquare",
+  "textFontFamily": "NanumBarunGothic,NanumSquare",
+  "monospaceFontFamily": "NanumBarunGothic,NanumSquare",
   "enabledCssSnippets": []
 }

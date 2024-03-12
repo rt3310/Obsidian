@@ -49,11 +49,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
                 "viewState": {
-                  "x": -243.4057081148613,
-                  "y": -855.6834148697111,
-                  "zoom": -0.5
+                  "x": -785.5750034719881,
+                  "y": -109.33371531651562,
+                  "zoom": -1.029585859079166
                 }
               }
             }
@@ -113,8 +113,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
               }
             }
           }
@@ -201,22 +200,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "764dea1cc8fb4166",
   "lastOpenFiles": [
+    "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
+    "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
+    "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
+    "Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "DB/Cache/canvas/Cache 전략.canvas",
+    "DB/Cache/md/캐시 가용성 지침.md",
+    "DB/Cache/resources/Cache Stampede 현상.png",
+    "DB/Cache/md/캐시 공유 방식 지침.md",
+    "OS/VirtualMemory/resources/Pasted image 20240124212835.png",
+    "OS/VirtualMemory/resources/Pasted image 20240124211327.png",
+    "OS/VirtualMemory/resources/Pasted image 20240124211313.png",
+    "OS/VirtualMemory/resources/Pasted image 20240124211303.png",
+    "OS/VirtualMemory/resources/Pasted image 20240124201624.png",
+    "OS/VirtualMemory/resources/Pasted image 20240124035314.png",
+    "OS/VirtualMemory/resources/Pasted image 20240124031951.png",
+    "OS/VirtualMemory/resources/Pasted image 20240124031836.png",
     "OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "OS/VirtualMemory/resources",
+    "OS/VirtualMemory/canvas/무제 파일.md",
+    "Spring/JPA/canvas/JPA.canvas",
+    "DB/Cache/md/Cache Warming.md",
+    "DB/Cache/resources/Look Aside + Write Around.png",
+    "DB/Cache/md/Read Through + Write Through 조합.md",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md",
+    "DB/Transaction/md/READ COMMITTED.md",
+    "DB/Transaction/md/READ UNCOMMITTED.md",
+    "DB/Transaction/md/SERIALIZABLE.md",
+    "DB/Cache/md/Look Aside + Write Around 조합.md",
+    "DB/Cache/md/Read Through + Write Around 조합.md",
     "OS/Disk/canvas/RAID.canvas",
     "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/md/부트로더(Boot Loader).md",
     "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",
     "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md",
     "OS/VirtualMemory/md/세그먼테이션(segmentation).md",
-    "Pasted image 20240124212835.png",
     "OS/VirtualMemory/md/페이지 크기.md",
     "OS/VirtualMemory/md/TLB(Translation Lookahead Buffer).md",
-    "Pasted image 20240124211327.png",
-    "Pasted image 20240124211313.png",
-    "Pasted image 20240124211303.png",
     "OS/VirtualMemory/md/페이지 테이블 크기.md",
     "OS/VirtualMemory/md/무제 파일.md",
     "OS/VirtualMemory/md/페이징(Paging).md",
@@ -224,40 +247,16 @@
     "OS/VirtualMemory/md/가상메모리의 실용성.md",
     "OS/Thrashing/canvas/무제 파일.canvas",
     "OS/VirtualMemory/md/가상메모리 동작원리.md",
-    "Pasted image 20240124201624.png",
-    "OS/VirtualMemory/md/페이지 테이블 구조.md",
-    "Pasted image 20240124035314.png",
-    "Pasted image 20240124031951.png",
-    "Pasted image 20240124031836.png",
     "HTTP/Web Server/canvas/웹 서버.canvas",
     "OS/VirtualMemory/resources",
     "OS/VirtualMemory/md",
     "OS/VirtualMemory/canvas",
     "OS/VirtualMemory",
     "무제 폴더",
-    "HTTP/Web Server/md/메시지의 내부 표현.md",
-    "HTTP/Web Server/md/새 커넥션 다루기.md",
-    "HTTP/Web Server/md/ident를 통해 클라이언트 사용자 알아내기.md",
-    "HTTP/Web Server/md/다중 IO 서버.md",
-    "HTTP/Web Server/resources/Pasted image 20231221164018.png",
-    "HTTP/Web Server/md/7. 로깅.md",
-    "HTTP/Web Server/md/6. 응답 보내기.md",
-    "HTTP/Web Server/resources/Pasted image 20240121204044.png",
-    "HTTP/Web Server/md/5. 응답 만들기.md",
-    "HTTP/Web Server/md/4. 리소스의 매핑과 접근.md",
-    "HTTP/Web Server/md/3. 요청 처리.md",
-    "HTTP/Web Server/md/2. 요청 메시지 수신.md",
-    "HTTP/Web Server/md/다중 멀티스레드 웹 서버.md",
     "HTTP/Web Server/canvas/다중 I",
-    "HTTP/Web Server/md/멀티프로세스와 멀티스레드 웹 서버.md",
     "DB/SQL/canvas/Join.canvas",
     "HTTP/Web Server/canvas",
     "HTTP/Web Server/md",
-    "HTTP/Web Server/resources",
-    "HTTP/Web Server",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "DB/Sharding/canvas/Sharding.canvas",
-    "OS/Concurrency/canvas/Semaphore.canvas",
-    "OS/Concurrency/canvas/DeadLock.canvas"
+    "HTTP/Web Server/resources"
   ]
 }

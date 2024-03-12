@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "Virtual Thread",
+      "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
+    },
+    {
+      "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
+      "path": "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md"
+    },
+    {
+      "basename": "Virtual Thread가 나오게 된 배경",
+      "path": "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md"
+    },
+    {
+      "basename": "Virtual Thread 사용 자원 차이",
+      "path": "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "캐시 가용성 지침",
+      "path": "DB/Cache/md/캐시 가용성 지침.md"
+    },
+    {
+      "basename": "Cache Stampede 현상",
+      "path": "DB/Cache/resources/Cache Stampede 현상.png"
+    },
+    {
+      "basename": "캐시 공유 방식 지침",
+      "path": "DB/Cache/md/캐시 공유 방식 지침.md"
+    },
+    {
+      "basename": "Pasted image 20240124212835",
+      "path": "OS/VirtualMemory/resources/Pasted image 20240124212835.png"
+    },
+    {
+      "basename": "Pasted image 20240124211327",
+      "path": "OS/VirtualMemory/resources/Pasted image 20240124211327.png"
+    },
+    {
+      "basename": "Pasted image 20240124211313",
+      "path": "OS/VirtualMemory/resources/Pasted image 20240124211313.png"
+    },
+    {
+      "basename": "Pasted image 20240124211303",
+      "path": "OS/VirtualMemory/resources/Pasted image 20240124211303.png"
+    },
+    {
+      "basename": "Pasted image 20240124201624",
+      "path": "OS/VirtualMemory/resources/Pasted image 20240124201624.png"
+    },
+    {
+      "basename": "Pasted image 20240124035314",
+      "path": "OS/VirtualMemory/resources/Pasted image 20240124035314.png"
+    },
+    {
+      "basename": "Pasted image 20240124031951",
+      "path": "OS/VirtualMemory/resources/Pasted image 20240124031951.png"
+    },
+    {
+      "basename": "Pasted image 20240124031836",
+      "path": "OS/VirtualMemory/resources/Pasted image 20240124031836.png"
+    },
+    {
+      "basename": "Virtual Memory",
+      "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "OS/VirtualMemory/canvas/무제 파일.md"
+    },
+    {
+      "basename": "JPA",
+      "path": "Spring/JPA/canvas/JPA.canvas"
+    },
+    {
+      "basename": "Cache Warming",
+      "path": "DB/Cache/md/Cache Warming.md"
+    },
+    {
+      "basename": "Look Aside + Write Around",
+      "path": "DB/Cache/resources/Look Aside + Write Around.png"
+    },
+    {
+      "basename": "Read Through + Write Through 조합",
+      "path": "DB/Cache/md/Read Through + Write Through 조합.md"
+    },
+    {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
@@ -17,20 +105,20 @@
       "path": "DB/Transaction/md/READ UNCOMMITTED.md"
     },
     {
-      "basename": "REPEATABLE READ",
-      "path": "DB/Transaction/md/REPEATABLE READ.md"
-    },
-    {
       "basename": "SERIALIZABLE",
       "path": "DB/Transaction/md/SERIALIZABLE.md"
     },
     {
-      "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
+      "basename": "Look Aside + Write Around 조합",
+      "path": "DB/Cache/md/Look Aside + Write Around 조합.md"
     },
     {
-      "basename": "Cache Warming",
-      "path": "DB/Cache/md/Cache Warming.md"
+      "basename": "Read Through + Write Around 조합",
+      "path": "DB/Cache/md/Read Through + Write Around 조합.md"
+    },
+    {
+      "basename": "REPEATABLE READ",
+      "path": "DB/Transaction/md/REPEATABLE READ.md"
     },
     {
       "basename": "Look Aside 패턴",
@@ -39,30 +127,6 @@
     {
       "basename": "캐시 읽기 + 쓰기 전략 조합",
       "path": "DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md"
-    },
-    {
-      "basename": "Read Through + Write Around 조합",
-      "path": "DB/Cache/md/Read Through + Write Around 조합.md"
-    },
-    {
-      "basename": "Look Aside + Write Around 조합",
-      "path": "DB/Cache/md/Look Aside + Write Around 조합.md"
-    },
-    {
-      "basename": "Look Aside + Write Around",
-      "path": "DB/Cache/resources/Look Aside + Write Around.png"
-    },
-    {
-      "basename": "Read Through + Write Through 조합",
-      "path": "DB/Cache/md/Read Through + Write Through 조합.md"
-    },
-    {
-      "basename": "캐시 가용성 지침",
-      "path": "DB/Cache/md/캐시 가용성 지침.md"
-    },
-    {
-      "basename": "캐시 공유 방식 지침",
-      "path": "DB/Cache/md/캐시 공유 방식 지침.md"
     },
     {
       "basename": "캐시 제거 방식 지침",
@@ -113,10 +177,6 @@
       "path": "DB/Cache/md/Read Through 패턴.md"
     },
     {
-      "basename": "Virtual Memory",
-      "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
-    },
-    {
       "basename": "가상메모리의 실용성",
       "path": "OS/VirtualMemory/md/가상메모리의 실용성.md"
     },
@@ -139,66 +199,6 @@
     {
       "basename": "페이징과 세그먼테이션의 결합",
       "path": "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md"
-    },
-    {
-      "basename": "세그먼테이션(segmentation)",
-      "path": "OS/VirtualMemory/md/세그먼테이션(segmentation).md"
-    },
-    {
-      "basename": "Pasted image 20240124212835",
-      "path": "Pasted image 20240124212835.png"
-    },
-    {
-      "basename": "페이지 크기",
-      "path": "OS/VirtualMemory/md/페이지 크기.md"
-    },
-    {
-      "basename": "TLB(Translation Lookahead Buffer)",
-      "path": "OS/VirtualMemory/md/TLB(Translation Lookahead Buffer).md"
-    },
-    {
-      "basename": "페이지 테이블 크기",
-      "path": "OS/VirtualMemory/md/페이지 테이블 크기.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "OS/VirtualMemory/md/무제 파일.md"
-    },
-    {
-      "basename": "페이징(Paging)",
-      "path": "OS/VirtualMemory/md/페이징(Paging).md"
-    },
-    {
-      "basename": "지역성(Locality)의 원리",
-      "path": "OS/VirtualMemory/md/지역성(Locality)의 원리.md"
-    },
-    {
-      "basename": "GUID 파티션 테이블(GPT, GUID Partition Table)",
-      "path": "OS/Bootstrap/md/GUID 파티션 테이블(GPT, GUID Partition Table).md"
-    },
-    {
-      "basename": "마스터 부트 레코드(MBR)",
-      "path": "OS/Bootstrap/md/마스터 부트 레코드(MBR).md"
-    },
-    {
-      "basename": "MBR과 부트스트래핑",
-      "path": "OS/Bootstrap/md/MBR과 부트스트래핑.md"
-    },
-    {
-      "basename": "UEFI(Unified Extensible Firmware Interface)",
-      "path": "OS/Bootstrap/md/UEFI(Unified Extensible Firmware Interface).md"
-    },
-    {
-      "basename": "펌웨어(Firmware)",
-      "path": "OS/Bootstrap/md/펌웨어(Firmware).md"
-    },
-    {
-      "basename": "BIOS(Basic Input-Output System)",
-      "path": "OS/Bootstrap/md/BIOS(Basic Input-Output System).md"
-    },
-    {
-      "basename": "ROM(Read-Only Memory)",
-      "path": "OS/Bootstrap/md/ROM(Read-Only Memory).md"
     }
   ],
   "omittedPaths": [],
