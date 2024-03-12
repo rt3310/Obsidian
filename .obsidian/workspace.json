@@ -113,7 +113,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -200,7 +201,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "764dea1cc8fb4166",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "DB/Cache/canvas/Cache 전략.canvas",
     "OS/VirtualMemory/canvas/Virtual Memory.canvas",
