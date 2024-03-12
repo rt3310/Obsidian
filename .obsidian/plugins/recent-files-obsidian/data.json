@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "컴퓨터 시간 원리",
+      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "웹 서버",
+      "path": "HTTP/Web Server/canvas/웹 서버.canvas"
+    },
+    {
+      "basename": "HTTP 커넥션",
+      "path": "HTTP/Connection/md/HTTP 커넥션.md"
+    },
+    {
+      "basename": "병렬 커넥션 vs 지속 커넥션",
+      "path": "HTTP/Connection/md/병렬 커넥션 vs 지속 커넥션.md"
+    },
+    {
+      "basename": "병렬 커넥션",
+      "path": "HTTP/Connection/md/병렬 커넥션.md"
+    },
+    {
+      "basename": "HTTP Connection",
+      "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
+    },
+    {
+      "basename": "Ultra Learning",
+      "path": "Employment/learning/Ultra Learning.canvas"
+    },
+    {
+      "basename": "레지스터",
+      "path": "ComputerStructure/Register/canvas/레지스터.canvas"
+    },
+    {
+      "basename": "NTP",
+      "path": "ComputerStructure/Clock/md/NTP.md"
+    },
+    {
       "basename": "HashMap",
       "path": "Java/HashMap/canvas/HashMap.canvas"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Write Around 패턴",
       "path": "DB/Cache/md/Write Around 패턴.md"
-    },
-    {
-      "basename": "Write Through 패턴",
-      "path": "DB/Cache/md/Write Through 패턴.md"
-    },
-    {
-      "basename": "Write Back 패턴",
-      "path": "DB/Cache/md/Write Back 패턴.md"
-    },
-    {
-      "basename": "캐시 쓰기 전략(Write Cache Strategy)",
-      "path": "DB/Cache/md/캐시 쓰기 전략(Write Cache Strategy).md"
-    },
-    {
-      "basename": "캐시 읽기 전략(Read Cache Strategy)",
-      "path": "DB/Cache/md/캐시 읽기 전략(Read Cache Strategy).md"
-    },
-    {
-      "basename": "Read Through 패턴",
-      "path": "DB/Cache/md/Read Through 패턴.md"
-    },
-    {
-      "basename": "가상메모리의 실용성",
-      "path": "OS/VirtualMemory/md/가상메모리의 실용성.md"
-    },
-    {
-      "basename": "RAID",
-      "path": "OS/Disk/canvas/RAID.canvas"
-    },
-    {
-      "basename": "컴퓨터 부팅 과정",
-      "path": "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
-    },
-    {
-      "basename": "부트로더(Boot Loader)",
-      "path": "OS/Bootstrap/md/부트로더(Boot Loader).md"
     }
   ],
   "omittedPaths": [],

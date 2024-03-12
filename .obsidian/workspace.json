@@ -37,11 +37,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas",
+                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 141.5265312624403,
+                  "y": 740.9549943292261,
+                  "zoom": -0.7302638640474137
                 }
               }
             }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas",
+                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas",
+                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas"
+                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
               }
             }
           }
@@ -190,8 +190,17 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
-    "HTTP/Connection/md/TCP 커넥션.md",
+    "HTTP/Web Server/canvas/웹 서버.canvas",
+    "HTTP/Connection/md/HTTP 커넥션.md",
+    "HTTP/Connection/md/병렬 커넥션 vs 지속 커넥션.md",
+    "HTTP/Connection/md/병렬 커넥션.md",
+    "HTTP/Connection/canvas/HTTP Connection.canvas",
+    "Employment/learning/Ultra Learning.canvas",
+    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+    "ComputerStructure/Register/canvas/레지스터.canvas",
+    "ComputerStructure/Clock/md/NTP.md",
     "Java/HashMap/canvas/HashMap.canvas",
+    "HTTP/Connection/md/TCP 커넥션.md",
     "Java/HashMap/canvas/무제 파일.md",
     "Java/HashMap/md",
     "Java/HashMap/canvas",
@@ -228,19 +237,11 @@
     "DB/Transaction/md/SERIALIZABLE.md",
     "DB/Cache/md/Look Aside + Write Around 조합.md",
     "DB/Cache/md/Read Through + Write Around 조합.md",
-    "OS/Disk/canvas/RAID.canvas",
-    "OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
     "OS/Bootstrap/md/부트로더(Boot Loader).md",
     "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",
     "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md",
     "OS/VirtualMemory/md/세그먼테이션(segmentation).md",
     "OS/VirtualMemory/md/페이지 크기.md",
-    "OS/VirtualMemory/md/TLB(Translation Lookahead Buffer).md",
-    "OS/VirtualMemory/md/페이지 테이블 크기.md",
-    "OS/VirtualMemory/md/무제 파일.md",
-    "OS/VirtualMemory/md/페이징(Paging).md",
-    "OS/Thrashing/canvas/무제 파일.canvas",
-    "HTTP/Web Server/canvas/웹 서버.canvas",
     "OS/VirtualMemory/resources",
     "OS/VirtualMemory/md",
     "OS/VirtualMemory/canvas",
