@@ -37,11 +37,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "viewState": {
-                  "x": 746.3106013544754,
-                  "y": -85.994652531312,
-                  "zoom": -0.7302638640474137
+                  "x": 1712.2633770066984,
+                  "y": 301.2074283028091,
+                  "zoom": -1.7567204794460547
                 }
               }
             }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
               }
             }
           }
@@ -190,13 +190,13 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "HTTP/Web Server/canvas/웹 서버.canvas",
     "HTTP/Connection/md/HTTP 커넥션.md",
     "HTTP/Connection/md/병렬 커넥션 vs 지속 커넥션.md",
     "HTTP/Connection/md/병렬 커넥션.md",
     "HTTP/Connection/canvas/HTTP Connection.canvas",
     "Employment/learning/Ultra Learning.canvas",
-    "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "ComputerStructure/Clock/md/NTP.md",
     "Java/HashMap/canvas/HashMap.canvas",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "트랜잭션 격리 수준",
+      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+    },
+    {
       "basename": "컴퓨터 시간 원리",
       "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
     },
@@ -131,10 +135,6 @@
     {
       "basename": "Read Through + Write Through 조합",
       "path": "DB/Cache/md/Read Through + Write Through 조합.md"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
     {
       "basename": "READ UNCOMMITTED의 Dirty Read",
