@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "HashMap",
+      "path": "Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
+      "basename": "TCP 커넥션",
+      "path": "HTTP/Connection/md/TCP 커넥션.md"
+    },
+    {
       "basename": "Virtual Thread",
       "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "부트로더(Boot Loader)",
       "path": "OS/Bootstrap/md/부트로더(Boot Loader).md"
-    },
-    {
-      "basename": "가상 메모리(Virtual Memory)",
-      "path": "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md"
-    },
-    {
-      "basename": "페이징과 세그먼테이션의 결합",
-      "path": "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md"
     }
   ],
   "omittedPaths": [],

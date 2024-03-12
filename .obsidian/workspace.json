@@ -35,31 +35,19 @@
             "id": "ff0b77d002117f6a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTTP/Connection/md/TCP 커넥션.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "764dea1cc8fb4166",
-            "type": "leaf",
-            "state": {
               "type": "canvas",
               "state": {
-                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+                "file": "Java/HashMap/canvas/HashMap.canvas",
                 "viewState": {
-                  "x": -785.5750034719881,
-                  "y": -109.33371531651562,
-                  "zoom": -1.029585859079166
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+                "file": "Java/HashMap/canvas/HashMap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+                "file": "Java/HashMap/canvas/HashMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
+                "file": "Java/HashMap/canvas/HashMap.canvas"
               }
             }
           }
@@ -200,12 +188,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "764dea1cc8fb4166",
+  "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "HTTP/Connection/md/TCP 커넥션.md",
+    "Java/HashMap/canvas/HashMap.canvas",
+    "Java/HashMap/canvas/무제 파일.md",
+    "Java/HashMap/md",
+    "Java/HashMap/canvas",
+    "Java/Virtual Thread/canvas/Virtual Thread.canvas",
+    "Java/HashMap",
+    "무제 폴더 1",
+    "무제 폴더",
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
     "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
-    "Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "DB/Cache/canvas/Cache 전략.canvas",
     "DB/Cache/md/캐시 가용성 지침.md",
     "DB/Cache/resources/Cache Stampede 현상.png",
@@ -243,20 +239,11 @@
     "OS/VirtualMemory/md/페이지 테이블 크기.md",
     "OS/VirtualMemory/md/무제 파일.md",
     "OS/VirtualMemory/md/페이징(Paging).md",
-    "OS/VirtualMemory/md/지역성(Locality)의 원리.md",
-    "OS/VirtualMemory/md/가상메모리의 실용성.md",
     "OS/Thrashing/canvas/무제 파일.canvas",
-    "OS/VirtualMemory/md/가상메모리 동작원리.md",
     "HTTP/Web Server/canvas/웹 서버.canvas",
     "OS/VirtualMemory/resources",
     "OS/VirtualMemory/md",
     "OS/VirtualMemory/canvas",
-    "OS/VirtualMemory",
-    "무제 폴더",
-    "HTTP/Web Server/canvas/다중 I",
-    "DB/SQL/canvas/Join.canvas",
-    "HTTP/Web Server/canvas",
-    "HTTP/Web Server/md",
-    "HTTP/Web Server/resources"
+    "OS/VirtualMemory"
   ]
 }

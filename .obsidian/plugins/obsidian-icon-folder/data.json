@@ -59,5 +59,6 @@
   "OS/memory": "FarStar",
   "DB/Sharding": "FarStar",
   "HTTP/Web Server": "FarStar",
-  "OS/VirtualMemory": "FarStar"
+  "OS/VirtualMemory": "FarStar",
+  "Java/HashMap": "FarStar"
 }
