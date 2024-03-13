@@ -57,5 +57,8 @@ static final class TreeNode<K, V> extends LinkedHashMap.Entry<K, V> {
 	final Node<K, V> untreeify(HashMap<K, V> map) {
 		// 트리를 링크드 리스트로 변환한다.
 	}
+
+	final TreeNode<K, V> putTreeVal(HashMap<K, V> map, Node<K, V>[] tab,
+								int h, K k, )
 }
 ```

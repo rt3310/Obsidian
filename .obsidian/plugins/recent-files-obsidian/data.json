@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "HashMap",
-      "path": "Java/HashMap/canvas/HashMap.canvas"
-    },
-    {
       "basename": "Java 8 HashMap에서의 Separate Chaning",
       "path": "Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md"
+    },
+    {
+      "basename": "HashMap",
+      "path": "Java/HashMap/canvas/HashMap.canvas"
     },
     {
       "basename": "해시 충돌",
