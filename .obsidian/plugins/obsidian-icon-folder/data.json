@@ -62,5 +62,6 @@
   "OS/VirtualMemory": "FarStar",
   "Java/HashMap": "FarStar",
   "Container": "FarFolder",
-  "Container/Docker": "FarStar"
+  "Container/Docker": "FarStar",
+  "Java/final": "FarStar"
 }

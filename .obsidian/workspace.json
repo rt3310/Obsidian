@@ -35,14 +35,11 @@
             "id": "ff0b77d002117f6a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Container/Docker/canvas/Docker.canvas",
-                "viewState": {
-                  "x": 27.075761285991135,
-                  "y": 135.72767558069523,
-                  "zoom": -0.15999999999999942
-                }
+                "file": "Java/final/final.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -121,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Container/Docker/canvas/Docker.canvas",
+                "file": "Java/final/final.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Container/Docker/canvas/Docker.canvas",
+                "file": "Java/final/final.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Container/Docker/canvas/Docker.canvas"
+                "file": "Java/final/final.md"
               }
             }
           }
@@ -190,12 +187,14 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Container/Docker/canvas/Docker.canvas",
+    "Java/final/final.md",
+    "Java/final",
     "Container/Docker/canvas/Cgroups.md",
     "Container/Docker/canvas/Namespace.md",
     "Container/Docker/canvas/LXC.md",
     "Container/Docker/canvas/컨테이너 가상화.md",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "Container/Docker/canvas/Docker.canvas",
     "Container/Docker/canvas",
     "Container/Docker",
     "Container",
@@ -242,9 +241,6 @@
     "DB/Transaction/md/SERIALIZABLE.md",
     "DB/Cache/md/Look Aside + Write Around 조합.md",
     "DB/Cache/md/Read Through + Write Around 조합.md",
-    "OS/Bootstrap/md/부트로더(Boot Loader).md",
-    "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",
-    "OS/VirtualMemory/resources",
-    "OS/VirtualMemory/md"
+    "OS/VirtualMemory/resources"
   ]
 }

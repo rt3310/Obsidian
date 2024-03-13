@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "final",
+      "path": "Java/final/final.md"
+    },
+    {
       "basename": "컨테이너 가상화",
       "path": "Container/Docker/canvas/컨테이너 가상화.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "캐시 제거 방식 지침",
       "path": "DB/Cache/md/캐시 제거 방식 지침.md"
-    },
-    {
-      "basename": "Cache Stampede 현상",
-      "path": "DB/Cache/md/Cache Stampede 현상.md"
     }
   ],
   "omittedPaths": [],
