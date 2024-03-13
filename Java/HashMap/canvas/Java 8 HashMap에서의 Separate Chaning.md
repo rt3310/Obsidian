@@ -59,6 +59,18 @@ static final class TreeNode<K, V> extends LinkedHashMap.Entry<K, V> {
 	}
 
 	final TreeNode<K, V> putTreeVal(HashMap<K, V> map, Node<K, V>[] tab,
-								int h, K k, )
+								int h, K k, V v) { }
+	final void removeTreeNode(HashMap<K, V> map, Node<K, V>[] tab, boolean movable) { }
+
+	// Red Black 구성 규칙에 따라 균형을 유지하기 위한 것이다.
+	final void split(...)
+	static <K, V> TreeNode<K, V> rotateLeft(...)
+	static <K, V> TreeNode<K, V> rotateRight(...)
+	static <K, V> TreeNode<K, V> balanceInsertion(...)
+	static <K, V> TreeNode<K, V> balanceDeletion(...)
+
+	static <K, V> boolean checkInvariants(TreeNode<K, V> t) {
+		// Tree가 규칙에 맞게 잘 생성된 것인지 판단하는 메서드다.
+	}
 }
 ```
