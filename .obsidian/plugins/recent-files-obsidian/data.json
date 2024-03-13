@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "컨테이너 가상화",
+      "path": "Container/Docker/canvas/컨테이너 가상화.md"
+    },
+    {
       "basename": "Docker",
       "path": "Container/Docker/canvas/Docker.canvas"
     },
     {
-      "basename": "컨테이너 가상화",
-      "path": "Container/Docker/canvas/컨테이너 가상화.md"
+      "basename": "Cgroups",
+      "path": "Container/Docker/canvas/Cgroups.md"
     },
     {
       "basename": "Namespace",
@@ -195,10 +199,6 @@
     {
       "basename": "Cache Stampede 현상",
       "path": "DB/Cache/md/Cache Stampede 현상.md"
-    },
-    {
-      "basename": "파레토 법칙",
-      "path": "DB/Cache/md/파레토 법칙.md"
     }
   ],
   "omittedPaths": [],

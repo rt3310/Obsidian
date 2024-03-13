@@ -39,9 +39,9 @@
               "state": {
                 "file": "Container/Docker/canvas/Docker.canvas",
                 "viewState": {
-                  "x": 520.9547928910755,
-                  "y": 791.6451516405432,
-                  "zoom": -0.24666666666666642
+                  "x": 27.075761285991135,
+                  "y": 135.72767558069523,
+                  "zoom": -0.15999999999999942
                 }
               }
             }
@@ -190,6 +190,7 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Container/Docker/canvas/Cgroups.md",
     "Container/Docker/canvas/Namespace.md",
     "Container/Docker/canvas/LXC.md",
     "Container/Docker/canvas/컨테이너 가상화.md",
@@ -243,7 +244,6 @@
     "DB/Cache/md/Read Through + Write Around 조합.md",
     "OS/Bootstrap/md/부트로더(Boot Loader).md",
     "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",
-    "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md",
     "OS/VirtualMemory/resources",
     "OS/VirtualMemory/md"
   ]
