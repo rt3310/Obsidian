@@ -39,9 +39,9 @@
               "state": {
                 "file": "Container/Docker/canvas/Docker.canvas",
                 "viewState": {
-                  "x": -214.20869873046897,
-                  "y": 230.63999999999993,
-                  "zoom": 0
+                  "x": 520.9547928910755,
+                  "y": 791.6451516405432,
+                  "zoom": -0.24666666666666642
                 }
               }
             }
@@ -190,6 +190,7 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Container/Docker/canvas/Namespace.md",
     "Container/Docker/canvas/LXC.md",
     "Container/Docker/canvas/컨테이너 가상화.md",
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
@@ -243,7 +244,6 @@
     "OS/Bootstrap/md/부트로더(Boot Loader).md",
     "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",
     "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md",
-    "OS/VirtualMemory/md/세그먼테이션(segmentation).md",
     "OS/VirtualMemory/resources",
     "OS/VirtualMemory/md"
   ]
