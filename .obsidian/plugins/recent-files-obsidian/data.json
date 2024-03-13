@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "final",
-      "path": "Java/final/final.md"
+      "basename": "HashMap",
+      "path": "Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
+      "basename": "HashMap vs HashTable",
+      "path": "Java/HashMap/canvas/HashMap vs HashTable.md"
+    },
+    {
+      "basename": "fianl",
+      "path": "Java/final/canvas/fianl.canvas"
+    },
+    {
+      "basename": "final method",
+      "path": "Java/final/canvas/final method.md"
+    },
+    {
+      "basename": "final class",
+      "path": "Java/final/final class.md"
     },
     {
       "basename": "컨테이너 가상화",
@@ -63,10 +79,6 @@
     {
       "basename": "NTP",
       "path": "ComputerStructure/Clock/md/NTP.md"
-    },
-    {
-      "basename": "HashMap",
-      "path": "Java/HashMap/canvas/HashMap.canvas"
     },
     {
       "basename": "TCP 커넥션",
@@ -187,18 +199,6 @@
     {
       "basename": "REPEATABLE READ",
       "path": "DB/Transaction/md/REPEATABLE READ.md"
-    },
-    {
-      "basename": "Look Aside 패턴",
-      "path": "DB/Cache/md/Look Aside 패턴.md"
-    },
-    {
-      "basename": "캐시 읽기 + 쓰기 전략 조합",
-      "path": "DB/Cache/md/캐시 읽기 + 쓰기 전략 조합.md"
-    },
-    {
-      "basename": "캐시 제거 방식 지침",
-      "path": "DB/Cache/md/캐시 제거 방식 지침.md"
     }
   ],
   "omittedPaths": [],

@@ -35,7 +35,6 @@
   "ComputerStructure/Register": "FarStar",
   "DB/Transaction": "FarStar",
   "Employment/roadmap": "FarStar",
-  "Java/JVM": "FarStar",
   "OS/Disk": "FarStar",
   "OS/Thread": "FarStar",
   "Web/HttpSession": "FarStar",
@@ -63,5 +62,6 @@
   "Java/HashMap": "FarStar",
   "Container": "FarFolder",
   "Container/Docker": "FarStar",
-  "Java/final": "FarStar"
+  "Java/final": "FarStar",
+  "JVM": "FarStar"
 }

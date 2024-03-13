@@ -1,6 +1,9 @@
 {
 	"nodes":[
-		{"id":"ccb3bd3090f381ce","x":-260,"y":-120,"width":250,"height":60,"type":"text","text":""}
+		{"id":"2a7a1b3281fd1480","x":-260,"y":-120,"width":740,"height":490,"type":"file","file":"Java/HashMap/canvas/HashMap vs HashTable.md"},
+		{"id":"dd924627b9549788","x":638,"y":-38,"width":642,"height":358,"type":"text","text":""}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"f2e5993fcf00241a","fromNode":"2a7a1b3281fd1480","fromSide":"right","toNode":"dd924627b9549788","toSide":"left"}
+	]
 }
