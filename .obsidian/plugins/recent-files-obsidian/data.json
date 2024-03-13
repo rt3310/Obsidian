@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "해시 충돌",
+      "path": "Java/HashMap/canvas/해시 충돌.md"
+    },
+    {
       "basename": "HashMap",
       "path": "Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
+      "basename": "해시 분포",
+      "path": "Java/HashMap/canvas/해시 분포.md"
     },
     {
       "basename": "HashMap vs HashTable",
@@ -191,14 +199,6 @@
     {
       "basename": "Look Aside + Write Around 조합",
       "path": "DB/Cache/md/Look Aside + Write Around 조합.md"
-    },
-    {
-      "basename": "Read Through + Write Around 조합",
-      "path": "DB/Cache/md/Read Through + Write Around 조합.md"
-    },
-    {
-      "basename": "REPEATABLE READ",
-      "path": "DB/Transaction/md/REPEATABLE READ.md"
     }
   ],
   "omittedPaths": [],

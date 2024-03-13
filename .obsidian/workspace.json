@@ -39,9 +39,9 @@
               "state": {
                 "file": "Java/HashMap/canvas/HashMap.canvas",
                 "viewState": {
-                  "x": 1063.774743652344,
-                  "y": -8,
-                  "zoom": 0
+                  "x": 1784.9363090223915,
+                  "y": 456.62347345827857,
+                  "zoom": -1.1866666666666665
                 }
               }
             }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas",
+                "file": "Java/HashMap/canvas/해시 충돌.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas",
+                "file": "Java/HashMap/canvas/해시 충돌.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas"
+                "file": "Java/HashMap/canvas/해시 충돌.md"
               }
             }
           }
@@ -190,6 +190,10 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Java/HashMap/canvas/해시 충돌.md",
+    "Java/HashMap/resources",
+    "Java/HashMap/resources/Pasted image 20240313181553.png",
+    "Java/HashMap/canvas/해시 분포.md",
     "Java/HashMap/canvas/HashMap vs HashTable.md",
     "Java/Collections/canvas/무제 파일.canvas",
     "Java/final/canvas/fianl.canvas",
@@ -224,7 +228,6 @@
     "HTTP/Connection/md/TCP 커넥션.md",
     "Java/HashMap/canvas/무제 파일.md",
     "Java/HashMap/md",
-    "Java/HashMap/canvas",
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
     "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
@@ -241,10 +244,7 @@
     "OS/VirtualMemory/resources/Pasted image 20240124031836.png",
     "OS/VirtualMemory/canvas/무제 파일.md",
     "DB/Cache/md/Cache Warming.md",
-    "DB/Cache/resources/Look Aside + Write Around.png",
     "DB/Cache/md/Read Through + Write Through 조합.md",
-    "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md",
-    "DB/Transaction/md/READ COMMITTED.md",
-    "DB/Transaction/md/READ UNCOMMITTED.md"
+    "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
   ]
 }
