@@ -39,9 +39,9 @@
               "state": {
                 "file": "Java/HashMap/canvas/HashMap.canvas",
                 "viewState": {
-                  "x": 1784.9363090223915,
-                  "y": 456.62347345827857,
-                  "zoom": -1.1866666666666665
+                  "x": 1691.8916566676262,
+                  "y": 1609.4096186448307,
+                  "zoom": -0.07999999999999988
                 }
               }
             }
@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/HashMap/canvas/해시 충돌.md",
+                "file": "Java/HashMap/canvas/HashMap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/HashMap/canvas/해시 충돌.md",
+                "file": "Java/HashMap/canvas/HashMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/HashMap/canvas/해시 충돌.md"
+                "file": "Java/HashMap/canvas/HashMap.canvas"
               }
             }
           }
