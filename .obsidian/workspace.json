@@ -37,11 +37,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Container/Docker/canvas/Docker.canvas",
                 "viewState": {
-                  "x": 1699.6924154523742,
-                  "y": 320.0638706342954,
-                  "zoom": -1.7567204794460547
+                  "x": -214.20869873046897,
+                  "y": 230.63999999999993,
+                  "zoom": 0
                 }
               }
             }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Container/Docker/canvas/Docker.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "file": "Container/Docker/canvas/Docker.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+                "file": "Container/Docker/canvas/Docker.canvas"
               }
             }
           }
@@ -190,6 +190,13 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Container/Docker/canvas/LXC.md",
+    "Container/Docker/canvas/컨테이너 가상화.md",
+    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "Container/Docker/canvas/Docker.canvas",
+    "Container/Docker/canvas",
+    "Container/Docker",
+    "Container",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "HTTP/Web Server/canvas/웹 서버.canvas",
     "HTTP/Connection/md/HTTP 커넥션.md",
@@ -207,7 +214,6 @@
     "Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "Java/HashMap",
     "무제 폴더 1",
-    "무제 폴더",
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
     "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
@@ -223,14 +229,11 @@
     "OS/VirtualMemory/resources/Pasted image 20240124035314.png",
     "OS/VirtualMemory/resources/Pasted image 20240124031951.png",
     "OS/VirtualMemory/resources/Pasted image 20240124031836.png",
-    "OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "OS/VirtualMemory/resources",
     "OS/VirtualMemory/canvas/무제 파일.md",
-    "Spring/JPA/canvas/JPA.canvas",
     "DB/Cache/md/Cache Warming.md",
     "DB/Cache/resources/Look Aside + Write Around.png",
     "DB/Cache/md/Read Through + Write Through 조합.md",
-    "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md",
     "DB/Transaction/md/READ COMMITTED.md",
     "DB/Transaction/md/READ UNCOMMITTED.md",
@@ -241,10 +244,7 @@
     "OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",
     "OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md",
     "OS/VirtualMemory/md/세그먼테이션(segmentation).md",
-    "OS/VirtualMemory/md/페이지 크기.md",
     "OS/VirtualMemory/resources",
-    "OS/VirtualMemory/md",
-    "OS/VirtualMemory/canvas",
-    "OS/VirtualMemory"
+    "OS/VirtualMemory/md"
   ]
 }

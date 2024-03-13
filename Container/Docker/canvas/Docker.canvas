@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"72eb244f81502b77","type":"file","file":"Container/Docker/canvas/컨테이너 가상화.md","x":-254,"y":-195,"width":318,"height":115},
+		{"id":"5e2f0bd3b154ecef","x":-314,"y":40,"width":439,"height":554,"type":"file","file":"Container/Docker/canvas/LXC.md"}
+	],
+	"edges":[
+		{"id":"4da23f0db529e9e0","fromNode":"72eb244f81502b77","fromSide":"bottom","toNode":"5e2f0bd3b154ecef","toSide":"top","label":"lxc?"}
+	]
+}

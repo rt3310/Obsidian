@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "Container/Docker/canvas/Docker.canvas"
+    },
+    {
+      "basename": "LXC",
+      "path": "Container/Docker/canvas/LXC.md"
+    },
+    {
+      "basename": "컨테이너 가상화",
+      "path": "Container/Docker/canvas/컨테이너 가상화.md"
+    },
+    {
       "basename": "트랜잭션 격리 수준",
       "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "캐시 저장 방식 지침",
       "path": "DB/Cache/md/캐시 저장 방식 지침.md"
-    },
-    {
-      "basename": "Write Back 장점",
-      "path": "DB/Cache/md/Write Back 장점.md"
-    },
-    {
-      "basename": "Write Back 단점",
-      "path": "DB/Cache/md/Write Back 단점.md"
-    },
-    {
-      "basename": "Write Around 패턴",
-      "path": "DB/Cache/md/Write Around 패턴.md"
     }
   ],
   "omittedPaths": [],
