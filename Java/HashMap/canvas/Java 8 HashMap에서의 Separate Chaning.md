@@ -12,5 +12,50 @@ Java 8 HashMap에서는 Entry 클래스 대신 Node 클래스를 사용한다. N
 이때 사용하는 트리는 **Red-Black Tree**인데, Java Collections Framework의 **TreeMap과 구현이 거의 같다**. 트리 순회 시 사용하는 **대소 판단 기준은 해시 함수 값**이다. 해시 값을 대소 판단 기준으로 사용하면 **Total Ordering**에 문제가 생기는데, Java 8 HashMap에서는 이를 **tieBreakOrder() 메서드로 해결**한다.
 
 ```java
-transient Node<K, 
+transient Node<K, V>[] table;
+
+static class Node<K, V> implements Map.Entry<K, V> {
+	// 클래스 이름은 다르지만, Java 7의 Entry 클래스와 구현 내용은 같다.
+}
+
+// LinkedHashMap.Entry는 HashMap.Node를 상속한 클래스다.
+// 따라서 TreeNode 객체를 table 배열에 저장할 수 있다.
+static final class TreeNode<K, V> extends LinkedHashMap.Entry<K, V> {
+	TreeNode<K, V> parent;
+	TreeNode<K, V> left;
+	TreeNode<K, V> right;
+	TreeNode<K, V> prev;
+
+	boolean red; // Red Black Tree에서 노드는 Red이거나 Black이다.
+
+	TreeNode(int hash, K key, V val, Node<K, V> next) {
+		super(hash, key, val, next);
+	}
+
+	final TreeNode<K, V> root() {
+		// Tree 노드의 root를 반환한다.
+	}
+
+	static <K, V> void moveRootToFront(Node<K, V>[] tab, TreeNode<K, V> root) {
+		// 해시 버킷에 트리를 저장할 때에는, root 노드에 가장 먼저 접근해야 한다.
+	}
+
+	// 순회하며 트리 노드 조회
+	final TreeNode<K, V> find(int h, Object k, Class<?> kc) {}
+	final TreeNode<K, V> getTreeNode(int h, Object k) {}
+
+	static int tieBreakOrder(Object a, Object b) {
+		// TreeNode에서 어떤 두 키의 comparator 값이 같다면 서로 동등하게 취급한다.
+		// 그런데 어떤 두 개의 키 hash 값이 서로 같아도 이 둘은 서로 동등하지 않을 수 있다.
+		// 따라서 어떤 두 개의 키에 대한 해시 함수 값이 같을 경우, 임의로 대소 관계를 지정할 필요가 있는 경우가 있다.
+	}
+
+	final void treeify(Node<K, V>[] tab) {
+		// LinkedList로 트리를 변환한다.
+	}
+
+	final Node<K, V> untreeify(HashMap<K, V> map) {
+		// 트리를 링크드 리스트로 변환한다.
+	}
+}
 ```
