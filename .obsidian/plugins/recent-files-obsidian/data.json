@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "보조 해시 함수",
-      "path": "Java/HashMap/canvas/보조 해시 함수.md"
-    },
-    {
       "basename": "HashMap",
       "path": "Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
+      "basename": "String 객체에 대한 해시 함수",
+      "path": "Java/HashMap/canvas/String 객체에 대한 해시 함수.md"
+    },
+    {
+      "basename": "보조 해시 함수",
+      "path": "Java/HashMap/canvas/보조 해시 함수.md"
     },
     {
       "basename": "해시 버킷 동적 확장",
@@ -195,10 +199,6 @@
     {
       "basename": "READ UNCOMMITTED의 Dirty Read",
       "path": "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
-    },
-    {
-      "basename": "READ COMMITTED",
-      "path": "DB/Transaction/md/READ COMMITTED.md"
     }
   ],
   "omittedPaths": [],
