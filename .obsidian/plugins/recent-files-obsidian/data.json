@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "보조 해시 함수",
+      "path": "Java/HashMap/canvas/보조 해시 함수.md"
+    },
+    {
       "basename": "HashMap",
       "path": "Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
+      "basename": "해시 버킷 동적 확장",
+      "path": "Java/HashMap/canvas/해시 버킷 동적 확장.md"
     },
     {
       "basename": "HashMap vs HashTable",
@@ -191,14 +199,6 @@
     {
       "basename": "READ COMMITTED",
       "path": "DB/Transaction/md/READ COMMITTED.md"
-    },
-    {
-      "basename": "READ UNCOMMITTED",
-      "path": "DB/Transaction/md/READ UNCOMMITTED.md"
-    },
-    {
-      "basename": "SERIALIZABLE",
-      "path": "DB/Transaction/md/SERIALIZABLE.md"
     }
   ],
   "omittedPaths": [],
