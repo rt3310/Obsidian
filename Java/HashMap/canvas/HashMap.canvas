@@ -9,7 +9,7 @@
 		{"id":"0ea0adc42c7c3740","type":"file","file":"Java/HashMap/canvas/해시 버킷 동적 확장.md","x":-216,"y":-2320,"width":658,"height":1653},
 		{"id":"218162e198e02bcf","type":"file","file":"Java/HashMap/canvas/보조 해시 함수.md","x":680,"y":-2200,"width":689,"height":1089},
 		{"id":"d3133d624c476fd3","x":-1240,"y":-1007,"width":748,"height":1206,"type":"file","file":"Java/HashMap/canvas/String 객체에 대한 해시 함수.md"},
-		{"id":"955f04633d41961d","x":-1100,"y":337,"width":367,"height":503,"type":"text","text":""}
+		{"id":"084e35aac6dca075","x":-1190,"y":300,"width":649,"height":902,"color":"3","type":"file","file":"Java/HashMap/canvas/Java 7에서 String 객체에 대한 별도의 해시 함수.md"}
 	],
 	"edges":[
 		{"id":"90b35b2135cfab1b","fromNode":"be4544eef9902c1f","fromSide":"right","toNode":"60c0d83b025e0fa1","toSide":"left"},
@@ -20,6 +20,6 @@
 		{"id":"55dea71510827f02","fromNode":"2008ea7ce240ed6e","fromSide":"top","toNode":"0ea0adc42c7c3740","toSide":"bottom","label":"해시 버킷 동적 확장"},
 		{"id":"317349858f5e100b","fromNode":"0ea0adc42c7c3740","fromSide":"right","toNode":"218162e198e02bcf","toSide":"left","label":"보조 해시 함"},
 		{"id":"e810dbb75d59e6bc","fromNode":"2008ea7ce240ed6e","fromSide":"left","toNode":"d3133d624c476fd3","toSide":"right","label":"String 객체에 대한 해시 함수"},
-		{"id":"ba8b9b55a329cdd2","fromNode":"d3133d624c476fd3","fromSide":"bottom","toNode":"955f04633d41961d","toSide":"top"}
+		{"id":"ba8b9b55a329cdd2","fromNode":"d3133d624c476fd3","fromSide":"bottom","toNode":"084e35aac6dca075","toSide":"top"}
 	]
 }

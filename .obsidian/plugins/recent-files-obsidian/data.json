@@ -5,6 +5,10 @@
       "path": "Java/HashMap/canvas/HashMap.canvas"
     },
     {
+      "basename": "Java 7에서 String 객체에 대한 별도의 해시 함수",
+      "path": "Java/HashMap/canvas/Java 7에서 String 객체에 대한 별도의 해시 함수.md"
+    },
+    {
       "basename": "String 객체에 대한 해시 함수",
       "path": "Java/HashMap/canvas/String 객체에 대한 해시 함수.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Read Through + Write Through 조합",
       "path": "DB/Cache/md/Read Through + Write Through 조합.md"
-    },
-    {
-      "basename": "READ UNCOMMITTED의 Dirty Read",
-      "path": "DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
     }
   ],
   "omittedPaths": [],
