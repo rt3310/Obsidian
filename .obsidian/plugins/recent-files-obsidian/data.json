@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Java 8 HashMap에서의 Separate Chaning",
+      "path": "Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md"
+    },
+    {
       "basename": "HashMap",
       "path": "Java/HashMap/canvas/HashMap.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SERIALIZABLE",
       "path": "DB/Transaction/md/SERIALIZABLE.md"
-    },
-    {
-      "basename": "Look Aside + Write Around 조합",
-      "path": "DB/Cache/md/Look Aside + Write Around 조합.md"
     }
   ],
   "omittedPaths": [],
