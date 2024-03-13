@@ -39,9 +39,9 @@
               "state": {
                 "file": "Java/HashMap/canvas/HashMap.canvas",
                 "viewState": {
-                  "x": 2469.4840371845376,
-                  "y": 1754.4602578017032,
-                  "zoom": -1.5
+                  "x": 380.68158748143014,
+                  "y": -209.94400584672394,
+                  "zoom": -1
                 }
               }
             }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md",
+                "file": "Java/HashMap/canvas/HashMap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md",
+                "file": "Java/HashMap/canvas/HashMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md"
+                "file": "Java/HashMap/canvas/HashMap.canvas"
               }
             }
           }

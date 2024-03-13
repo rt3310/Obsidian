@@ -58,6 +58,7 @@ static final class TreeNode<K, V> extends LinkedHashMap.Entry<K, V> {
 		// 트리를 링크드 리스트로 변환한다.
 	}
 
+	// 다음 두 개 메서드의 역할은 메서드 이름만 읽어도 알 수 있다.
 	final TreeNode<K, V> putTreeVal(HashMap<K, V> map, Node<K, V>[] tab,
 								int h, K k, V v) { }
 	final void removeTreeNode(HashMap<K, V> map, Node<K, V>[] tab, boolean movable) { }
