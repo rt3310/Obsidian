@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled Kanban",
+      "path": "Projects/Plan/Untitled Kanban.md"
+    },
+    {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "무제 파일",
       "path": "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md"
-    },
-    {
-      "basename": "JPA",
-      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
     }
   ],
   "omittedPaths": [],

@@ -32,27 +32,19 @@
             }
           },
           {
-            "id": "195a45f637521137",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
             "id": "df43a1cbbb764882",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md",
+                "file": "Projects/Plan/Untitled Kanban.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md",
+                "file": "Projects/Plan/Untitled Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,9 +135,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
+                "file": "Projects/Plan/Untitled Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -166,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md"
+                "file": "Projects/Plan/Untitled Kanban.md"
               }
             }
           },
@@ -177,14 +169,21 @@
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "b52bee15fbe4345c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,8 +202,12 @@
   },
   "active": "df43a1cbbb764882",
   "lastOpenFiles": [
-    "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md",
     "Projects/Plan/공부할 것들.md",
+    "Projects/Plan/Untitled Kanban.md",
+    "2024-W11.md",
+    "Projects/Plan/무제 파일.canvas",
+    "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md",
+    "Excel 2024-03-14 16.01.16.sheet.md",
     "Projects/Plan",
     "Archives",
     "Resources",
@@ -245,11 +248,7 @@
     "Projects/Study/HTTP/Connection/md/병렬 커넥션.md",
     "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
     "Projects/Study/Employment/learning/Ultra Learning.canvas",
-    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
     "Projects/Study/ComputerStructure/Clock/md/NTP.md",
-    "Projects/Study/HTTP/Connection/md/TCP 커넥션.md",
-    "Java/HashMap/canvas/무제 파일.md",
-    "Projects/Study/Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Projects/Study/DB/Cache/resources/Cache Stampede 현상.png",
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124212835.png",
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211327.png",

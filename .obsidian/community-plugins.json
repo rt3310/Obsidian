@@ -28,5 +28,7 @@
   "dataview",
   "obsidian-pandoc",
   "recent-files-obsidian",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "calendar",
+  "obsidian-kanban"
 ]
