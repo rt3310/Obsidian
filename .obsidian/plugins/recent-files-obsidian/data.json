@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+      "basename": "무제 파일",
+      "path": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "실수 표현 방식",
+      "path": "Projects/Study/ComputerStructure/실수/canvas/실수 표현 방식.md"
     },
     {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
     },
     {
       "basename": "Tomcat",
@@ -191,14 +199,6 @@
     {
       "basename": "TCP 커넥션",
       "path": "Projects/Study/HTTP/Connection/md/TCP 커넥션.md"
-    },
-    {
-      "basename": "Virtual Thread",
-      "path": "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas"
-    },
-    {
-      "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
-      "path": "Projects/Study/Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md"
     }
   ],
   "omittedPaths": [],
