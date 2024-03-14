@@ -23,14 +23,11 @@
             "id": "a49d8cdd0856c468",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
-                "viewState": {
-                  "x": -446.4773093167199,
-                  "y": 1275.8667283818822,
-                  "zoom": -0.5
-                }
+                "file": "Projects/Plan/공부할 것들.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -109,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
+                "file": "Projects/Plan/공부할 것들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
+                "file": "Projects/Plan/공부할 것들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
+                "file": "Projects/Plan/공부할 것들.md"
               }
             }
           },
@@ -194,8 +191,9 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
-    "Projects/Study/Web/Tomcat/canvas/The Server.md",
     "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
+    "Projects/Plan/공부할 것들.md",
+    "Projects/Study/Web/Tomcat/canvas/The Server.md",
     "Projects/Study/Web/Tomcat/canvas/The Context.md",
     "Projects/Study/Web/Tomcat/canvas/The Host.md",
     "Projects/Study/Web/Tomcat/canvas/The Loggers.md",
@@ -212,7 +210,6 @@
     "Projects/Study/Web/Tomcat/canvas",
     "Projects/Study/Web/Tomcat",
     "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas",
-    "Projects/Plan/공부할 것들.md",
     "Projects/Study/Spring/JPA/canvas/ORM.md",
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/HTTP/Connection/md/IP 패킷 구성.md",

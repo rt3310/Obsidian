@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
       "basename": "Tomcat",
       "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "Cookie & Session",
       "path": "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
     },
     {
       "basename": "IP 패킷 구성",
