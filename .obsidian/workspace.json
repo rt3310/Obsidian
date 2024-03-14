@@ -28,7 +28,7 @@
                 "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
                 "viewState": {
                   "x": -84.87005768508881,
-                  "y": -167.91434998371682,
+                  "y": 1410.3479856246574,
                   "zoom": -0.5
                 }
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
+                "file": "Projects/Study/Web/Tomcat/canvas/The Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
+                "file": "Projects/Study/Web/Tomcat/canvas/The Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
+                "file": "Projects/Study/Web/Tomcat/canvas/The Server.md"
               }
             }
           },
@@ -194,6 +194,9 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/Web/Tomcat/canvas/The Server.md",
+    "Projects/Study/Web/Tomcat/Pasted image 20240314164110.png",
+    "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md",
     "Projects/Study/Web/Tomcat/canvas/서블릿 컨테이너.md",
     "Projects/Study/Web/Tomcat/canvas/Tomcat.md",
     "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
@@ -236,8 +239,6 @@
     "Projects/Study/Java/final/canvas/fianl.canvas",
     "Java/무제 파일.md",
     "Projects/Study/Java/final/canvas/final method.md",
-    "Projects/Study/Java/final/final class.md",
-    "Java/final/canvas/무제 파일.md",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",
     "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
@@ -248,7 +249,6 @@
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211303.png",
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124201624.png",
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124035314.png",
-    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124031951.png",
-    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124031836.png"
+    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124031951.png"
   ]
 }

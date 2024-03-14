@@ -1,15 +1,19 @@
 {
 	"nodes":[
+		{"id":"6ee336189b8ad43b","x":-1180,"y":1325,"width":624,"height":475,"type":"file","file":"Projects/Study/Web/Tomcat/canvas/The Server.md"},
 		{"id":"ba4c87901d93a19c","type":"file","file":"Projects/Study/Web/Tomcat/canvas/Tomcat.md","x":-640,"y":-160,"width":525,"height":255},
 		{"id":"15639928e630a32b","type":"text","text":"서블릿 컨테이너는 호스트 **웹 서버** 안에 만들어지거나, 웹 서버의 확장 API를 통해서 add-on 컴포넌트로 설치될 수 있다. 또한, 서블릿 컨테이너는 **웹-enabled 애플리케이션 서버** 안에 구성되거나 설치될 수 있다.","x":-97,"y":-440,"width":514,"height":118},
 		{"id":"fa9ab8620a8697b2","type":"text","text":"- **add-on**: 소프트웨어에 새로운 기능을 추가하기 위한 프로그램, 또 그 수속\n- 웹-enabled 애플리케이션 서버: WAS","x":-124,"y":-580,"width":569,"height":64},
-		{"id":"3ca58673b41aea83","type":"file","file":"Projects/Study/Web/Tomcat/canvas/서블릿 컨테이너.md","x":128,"y":-209,"width":634,"height":354},
-		{"id":"2fc9998ace4d6587","x":534,"y":-620,"width":586,"height":355,"type":"text","text":"컨테이너는 캐싱 메커니즘을 지원하기에, 요청을 변형하여 서블릿에 전달하"}
+		{"id":"2fc9998ace4d6587","x":152,"y":260,"width":586,"height":396,"type":"text","text":"모든 서블릿 컨테이너는 요청과 응답을 위한 프로토콜로 반드시 **HTTP를 지원해야 한다**. 그러나 HTTPS와 같은 추가적인 요청/응답 기반의 프로토콜 역시 지원할 수 있다.\n컨테이너가 반드시 구현하여야 하는 HTTP 명세 버전은 HTTP/1.1과 HTTP/2이다.\nHTTP/2를 지원할 때는, 서블릿 컨테이너는 반드시 'h2'와 'h2c' 프로토콜 identifiers를 지원해야 한다.\n\n컨테이너는 **캐싱 메커니즘**을 지원하기에, 요청을 변형하여 서블릿에 전달하고, 받은 응답을 다시 변형하여 클라이언트에 전달하거나, 그러한 기능을 지원하지 않는 요청의 겨우 [RFC 7234](https://datatracker.ietf.org/doc/html/rfc7234)를 따르는 서블릿을 통해 처리할 수 있다.\n\n그리고 서블릿 컨테이너는 **서블릿이 실행되는 환경의 security 제약을 가한다**. 예로, 몇몇의 애플리케이션 서버는 컨테이너 컴포넌트가 영향을 받지 않도록 스레드 생성 개수를 제한한다."},
+		{"id":"3ca58673b41aea83","type":"file","file":"Projects/Study/Web/Tomcat/canvas/서블릿 컨테이너.md","x":128,"y":-135,"width":634,"height":205},
+		{"id":"b9190cb74bcdb566","x":-767,"y":260,"width":780,"height":957,"type":"file","file":"Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md"}
 	],
 	"edges":[
 		{"id":"15073d93b575c448","fromNode":"ba4c87901d93a19c","fromSide":"right","toNode":"3ca58673b41aea83","toSide":"left","label":"서블릿 컨테이너?"},
 		{"id":"9b059ff7255199bd","fromNode":"3ca58673b41aea83","fromSide":"top","toNode":"15639928e630a32b","toSide":"bottom","label":"어디에 위치?"},
 		{"id":"51f0b3eb603b1744","fromNode":"15639928e630a32b","fromSide":"top","toNode":"fa9ab8620a8697b2","toSide":"bottom"},
-		{"id":"85ed940b4d028da5","fromNode":"3ca58673b41aea83","fromSide":"top","toNode":"2fc9998ace4d6587","toSide":"bottom"}
+		{"id":"85ed940b4d028da5","fromNode":"3ca58673b41aea83","fromSide":"bottom","toNode":"2fc9998ace4d6587","toSide":"top","label":"특징"},
+		{"id":"296b221cb316968f","fromNode":"ba4c87901d93a19c","fromSide":"bottom","toNode":"b9190cb74bcdb566","toSide":"top"},
+		{"id":"9cd65a348b86bb66","fromNode":"b9190cb74bcdb566","fromSide":"bottom","toNode":"6ee336189b8ad43b","toSide":"top"}
 	]
 }

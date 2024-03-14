@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "The Server",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Server.md"
+    },
+    {
       "basename": "Tomcat",
       "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
+    },
+    {
+      "basename": "톰캣 아키텍처",
+      "path": "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md"
     },
     {
       "basename": "서블릿 컨테이너",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20240124211313",
       "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211313.png"
-    },
-    {
-      "basename": "Pasted image 20240124211303",
-      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211303.png"
-    },
-    {
-      "basename": "Pasted image 20240124201624",
-      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124201624.png"
     }
   ],
   "omittedPaths": [],
