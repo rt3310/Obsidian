@@ -63,5 +63,7 @@
   "Container": "FarFolder",
   "Container/Docker": "FarStar",
   "Java/final": "FarStar",
-  "JVM": "FarStar"
+  "JVM": "FarStar",
+  "Algorithm": "FarFolder",
+  "Algorithm/팁": "FarStar"
 }

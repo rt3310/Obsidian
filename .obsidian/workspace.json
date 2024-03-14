@@ -35,14 +35,11 @@
             "id": "ff0b77d002117f6a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas",
-                "viewState": {
-                  "x": -596.8772214915482,
-                  "y": -349.8541243302748,
-                  "zoom": -1
-                }
+                "file": "Algorithm/팁/자주 하는 실수 모음.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -105,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -122,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas",
+                "file": "Algorithm/팁/자주 하는 실수 모음.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas",
+                "file": "Algorithm/팁/자주 하는 실수 모음.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/HashMap/canvas/HashMap.canvas"
+                "file": "Algorithm/팁/자주 하는 실수 모음.md"
               }
             }
           }
@@ -191,6 +187,10 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Java/HashMap/canvas/HashMap.canvas",
+    "Algorithm/팁/자주 하는 실수 모음.md",
+    "Algorithm/팁",
+    "Algorithm",
     "Java/HashMap/canvas/Java 7에서 String 객체에 대한 별도의 해시 함수.md",
     "Java/HashMap/canvas/String 객체에 대한 해시 함수.md",
     "Java/HashMap/canvas/보조 해시 함수.md",
@@ -220,7 +220,6 @@
     "DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Container/Docker/canvas",
     "Container/Docker",
-    "Container",
     "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "HTTP/Web Server/canvas/웹 서버.canvas",
     "HTTP/Connection/md/HTTP 커넥션.md",
@@ -230,14 +229,10 @@
     "Employment/learning/Ultra Learning.canvas",
     "ComputerStructure/Register/canvas/레지스터.canvas",
     "ComputerStructure/Clock/md/NTP.md",
-    "Java/HashMap/canvas/HashMap.canvas",
     "HTTP/Connection/md/TCP 커넥션.md",
     "Java/HashMap/canvas/무제 파일.md",
-    "Java/HashMap/md",
     "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
     "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md",
-    "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md",
-    "DB/Cache/md/캐시 가용성 지침.md",
     "DB/Cache/resources/Cache Stampede 현상.png",
     "OS/VirtualMemory/resources/Pasted image 20240124212835.png",
     "OS/VirtualMemory/resources/Pasted image 20240124211327.png",

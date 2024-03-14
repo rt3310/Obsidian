@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "자주 하는 실수 모음",
+      "path": "Algorithm/팁/자주 하는 실수 모음.md"
+    },
+    {
       "basename": "HashMap",
       "path": "Java/HashMap/canvas/HashMap.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Look Aside + Write Around",
       "path": "DB/Cache/resources/Look Aside + Write Around.png"
-    },
-    {
-      "basename": "Read Through + Write Through 조합",
-      "path": "DB/Cache/md/Read Through + Write Through 조합.md"
     }
   ],
   "omittedPaths": [],
