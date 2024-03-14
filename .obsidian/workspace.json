@@ -27,9 +27,9 @@
               "state": {
                 "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "viewState": {
-                  "x": 1543.4139597552341,
-                  "y": -45.258246613632956,
-                  "zoom": -0.5
+                  "x": 2318.3306127073765,
+                  "y": 37.76650785279284,
+                  "zoom": 0.1332145863205787
                 }
               }
             }
@@ -194,13 +194,15 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/ComputerStructure/텍스트 표현/resources/Pasted image 20240315030339.png",
+    "Projects/Study/ComputerStructure/텍스트 표현/resources",
+    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/UTF-8.md",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드 변환 형식.md",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드.md",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/아스키 코드.md",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.md",
     "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas",
-    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas",
     "Projects/Study/ComputerStructure/텍스트 표현",
     "Projects/Study/ComputerStructure/실수/canvas/부동소수점.md",
@@ -231,12 +233,10 @@
     "Projects/Study/Web/Tomcat",
     "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas",
     "Projects/Study/Spring/JPA/canvas/ORM.md",
-    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Plan/무제 파일.canvas",
     "Projects/Plan",
     "Archives",
     "Resources",
-    "Projects/Study",
     "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
     "Projects/Study/Java/HashMap/resources/Pasted image 20240313181553.png",
     "Java/Collections/canvas/무제 파일.canvas",
@@ -248,7 +248,6 @@
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211313.png",
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211303.png",
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124201624.png",
-    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124035314.png",
-    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124031951.png"
+    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124035314.png"
   ]
 }

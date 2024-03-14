@@ -13,6 +13,10 @@
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드 변환 형식.md"
     },
     {
+      "basename": "Pasted image 20240315030339",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/resources/Pasted image 20240315030339.png"
+    },
+    {
       "basename": "유니코드",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "트랜잭션 격리 수준",
       "path": "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "컴퓨터 시간 원리",
-      "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
     }
   ],
   "omittedPaths": [],
