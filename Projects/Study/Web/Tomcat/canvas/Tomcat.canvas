@@ -1,6 +1,15 @@
 {
 	"nodes":[
-		{"id":"ba4c87901d93a19c","x":-337,"y":-218,"width":537,"height":458,"type":"file","file":"Projects/Study/Web/Tomcat/canvas/Tomcat.md"}
+		{"id":"ba4c87901d93a19c","type":"file","file":"Projects/Study/Web/Tomcat/canvas/Tomcat.md","x":-640,"y":-160,"width":525,"height":255},
+		{"id":"15639928e630a32b","type":"text","text":"서블릿 컨테이너는 호스트 **웹 서버** 안에 만들어지거나, 웹 서버의 확장 API를 통해서 add-on 컴포넌트로 설치될 수 있다. 또한, 서블릿 컨테이너는 **웹-enabled 애플리케이션 서버** 안에 구성되거나 설치될 수 있다.","x":-97,"y":-440,"width":514,"height":118},
+		{"id":"fa9ab8620a8697b2","type":"text","text":"- **add-on**: 소프트웨어에 새로운 기능을 추가하기 위한 프로그램, 또 그 수속\n- 웹-enabled 애플리케이션 서버: WAS","x":-124,"y":-580,"width":569,"height":64},
+		{"id":"3ca58673b41aea83","type":"file","file":"Projects/Study/Web/Tomcat/canvas/서블릿 컨테이너.md","x":128,"y":-209,"width":634,"height":354},
+		{"id":"2fc9998ace4d6587","x":534,"y":-620,"width":586,"height":355,"type":"text","text":"컨테이너는 캐싱 메커니즘을 지원하기에, 요청을 변형하여 서블릿에 전달하"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"15073d93b575c448","fromNode":"ba4c87901d93a19c","fromSide":"right","toNode":"3ca58673b41aea83","toSide":"left","label":"서블릿 컨테이너?"},
+		{"id":"9b059ff7255199bd","fromNode":"3ca58673b41aea83","fromSide":"top","toNode":"15639928e630a32b","toSide":"bottom","label":"어디에 위치?"},
+		{"id":"51f0b3eb603b1744","fromNode":"15639928e630a32b","fromSide":"top","toNode":"fa9ab8620a8697b2","toSide":"bottom"},
+		{"id":"85ed940b4d028da5","fromNode":"3ca58673b41aea83","fromSide":"top","toNode":"2fc9998ace4d6587","toSide":"bottom"}
+	]
 }

@@ -27,9 +27,9 @@
               "state": {
                 "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": -139.5,
-                  "zoom": 0
+                  "x": -84.87005768508881,
+                  "y": -167.91434998371682,
+                  "zoom": -0.5
                 }
               }
             }
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 281.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.md",
+                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.md",
+                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.md"
+                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
               }
             }
           },
@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,6 +194,7 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/Web/Tomcat/canvas/서블릿 컨테이너.md",
     "Projects/Study/Web/Tomcat/canvas/Tomcat.md",
     "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
     "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
@@ -237,7 +239,6 @@
     "Projects/Study/Java/final/final class.md",
     "Java/final/canvas/무제 파일.md",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",
-    "Projects/Study/Container/Docker/canvas/Cgroups.md",
     "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "Projects/Study/DB/Cache/resources/Cache Stampede 현상.png",
