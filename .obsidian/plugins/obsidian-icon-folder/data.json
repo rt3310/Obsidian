@@ -65,5 +65,6 @@
   "Projects/Study/OS/VirtualMemory": "FarStar",
   "Projects/Study/Web": "FarFolder",
   "Projects/Study/Web/HttpSession": "FarStar",
-  "Projects/Study/Web/Session": "FarStar"
+  "Projects/Study/Web/Session": "FarStar",
+  "Projects/Study/Web/Tomcat": "FarStar"
 }

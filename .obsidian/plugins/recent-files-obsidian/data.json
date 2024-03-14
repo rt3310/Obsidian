@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Tomcat",
+      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
+    },
+    {
+      "basename": "HttpSession",
+      "path": "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas"
+    },
+    {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
     },
@@ -183,18 +199,6 @@
     {
       "basename": "Pasted image 20240124035314",
       "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124035314.png"
-    },
-    {
-      "basename": "Pasted image 20240124031951",
-      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124031951.png"
-    },
-    {
-      "basename": "Pasted image 20240124031836",
-      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124031836.png"
-    },
-    {
-      "basename": "Virtual Memory",
-      "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
     }
   ],
   "omittedPaths": [],
