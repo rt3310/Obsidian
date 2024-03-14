@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HTTP 커넥션",
+      "path": "HTTP/Connection/md/HTTP 커넥션.md"
+    },
+    {
       "basename": "자주 하는 실수 모음",
       "path": "Algorithm/팁/자주 하는 실수 모음.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "웹 서버",
       "path": "HTTP/Web Server/canvas/웹 서버.canvas"
-    },
-    {
-      "basename": "HTTP 커넥션",
-      "path": "HTTP/Connection/md/HTTP 커넥션.md"
     },
     {
       "basename": "병렬 커넥션 vs 지속 커넥션",

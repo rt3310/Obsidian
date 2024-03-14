@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ff0b77d002117f6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/팁/자주 하는 실수 모음.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#define에",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/팁/자주 하는 실수 모음.md",
+                "file": "HTTP/Connection/md/HTTP 커넥션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/팁/자주 하는 실수 모음.md",
+                "file": "HTTP/Connection/md/HTTP 커넥션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/팁/자주 하는 실수 모음.md"
+                "file": "HTTP/Connection/md/HTTP 커넥션.md"
               }
             }
           }
@@ -186,10 +173,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7c5ee3fd6c882fbe",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "Java/HashMap/canvas/HashMap.canvas",
     "Algorithm/팁/자주 하는 실수 모음.md",
+    "Java/HashMap/canvas/HashMap.canvas",
     "Algorithm/팁",
     "Algorithm",
     "Java/HashMap/canvas/Java 7에서 String 객체에 대한 별도의 해시 함수.md",
