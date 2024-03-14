@@ -1,204 +1,200 @@
 {
   "recentFiles": [
     {
+      "basename": "보조 해시 함수",
+      "path": "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md"
+    },
+    {
       "basename": "HTTP 커넥션",
-      "path": "HTTP/Connection/md/HTTP 커넥션.md"
+      "path": "Projects/Study/HTTP/Connection/md/HTTP 커넥션.md"
+    },
+    {
+      "basename": "IP 패킷 구성",
+      "path": "Projects/Study/HTTP/Connection/md/IP 패킷 구성.md"
     },
     {
       "basename": "자주 하는 실수 모음",
-      "path": "Algorithm/팁/자주 하는 실수 모음.md"
+      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
     },
     {
       "basename": "HashMap",
-      "path": "Java/HashMap/canvas/HashMap.canvas"
+      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
     },
     {
       "basename": "Java 7에서 String 객체에 대한 별도의 해시 함수",
-      "path": "Java/HashMap/canvas/Java 7에서 String 객체에 대한 별도의 해시 함수.md"
+      "path": "Projects/Study/Java/HashMap/canvas/Java 7에서 String 객체에 대한 별도의 해시 함수.md"
     },
     {
       "basename": "String 객체에 대한 해시 함수",
-      "path": "Java/HashMap/canvas/String 객체에 대한 해시 함수.md"
-    },
-    {
-      "basename": "보조 해시 함수",
-      "path": "Java/HashMap/canvas/보조 해시 함수.md"
+      "path": "Projects/Study/Java/HashMap/canvas/String 객체에 대한 해시 함수.md"
     },
     {
       "basename": "해시 버킷 동적 확장",
-      "path": "Java/HashMap/canvas/해시 버킷 동적 확장.md"
+      "path": "Projects/Study/Java/HashMap/canvas/해시 버킷 동적 확장.md"
     },
     {
       "basename": "HashMap vs HashTable",
-      "path": "Java/HashMap/canvas/HashMap vs HashTable.md"
+      "path": "Projects/Study/Java/HashMap/canvas/HashMap vs HashTable.md"
     },
     {
       "basename": "해시 충돌",
-      "path": "Java/HashMap/canvas/해시 충돌.md"
+      "path": "Projects/Study/Java/HashMap/canvas/해시 충돌.md"
     },
     {
       "basename": "Java 8 HashMap에서의 Separate Chaning",
-      "path": "Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md"
+      "path": "Projects/Study/Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md"
     },
     {
       "basename": "해시 분포",
-      "path": "Java/HashMap/canvas/해시 분포.md"
+      "path": "Projects/Study/Java/HashMap/canvas/해시 분포.md"
     },
     {
       "basename": "fianl",
-      "path": "Java/final/canvas/fianl.canvas"
+      "path": "Projects/Study/Java/final/canvas/fianl.canvas"
     },
     {
       "basename": "final method",
-      "path": "Java/final/canvas/final method.md"
+      "path": "Projects/Study/Java/final/canvas/final method.md"
     },
     {
       "basename": "final class",
-      "path": "Java/final/final class.md"
+      "path": "Projects/Study/Java/final/final class.md"
     },
     {
       "basename": "컨테이너 가상화",
-      "path": "Container/Docker/canvas/컨테이너 가상화.md"
+      "path": "Projects/Study/Container/Docker/canvas/컨테이너 가상화.md"
     },
     {
       "basename": "Docker",
-      "path": "Container/Docker/canvas/Docker.canvas"
+      "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
     },
     {
       "basename": "Cgroups",
-      "path": "Container/Docker/canvas/Cgroups.md"
+      "path": "Projects/Study/Container/Docker/canvas/Cgroups.md"
     },
     {
       "basename": "Namespace",
-      "path": "Container/Docker/canvas/Namespace.md"
+      "path": "Projects/Study/Container/Docker/canvas/Namespace.md"
     },
     {
       "basename": "LXC",
-      "path": "Container/Docker/canvas/LXC.md"
+      "path": "Projects/Study/Container/Docker/canvas/LXC.md"
     },
     {
       "basename": "트랜잭션 격리 수준",
-      "path": "DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+      "path": "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
     {
       "basename": "컴퓨터 시간 원리",
-      "path": "ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+      "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
     },
     {
       "basename": "웹 서버",
-      "path": "HTTP/Web Server/canvas/웹 서버.canvas"
+      "path": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas"
     },
     {
       "basename": "병렬 커넥션 vs 지속 커넥션",
-      "path": "HTTP/Connection/md/병렬 커넥션 vs 지속 커넥션.md"
+      "path": "Projects/Study/HTTP/Connection/md/병렬 커넥션 vs 지속 커넥션.md"
     },
     {
       "basename": "병렬 커넥션",
-      "path": "HTTP/Connection/md/병렬 커넥션.md"
+      "path": "Projects/Study/HTTP/Connection/md/병렬 커넥션.md"
     },
     {
       "basename": "HTTP Connection",
-      "path": "HTTP/Connection/canvas/HTTP Connection.canvas"
+      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
       "basename": "Ultra Learning",
-      "path": "Employment/learning/Ultra Learning.canvas"
+      "path": "Projects/Study/Employment/learning/Ultra Learning.canvas"
     },
     {
       "basename": "레지스터",
-      "path": "ComputerStructure/Register/canvas/레지스터.canvas"
+      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
     },
     {
       "basename": "NTP",
-      "path": "ComputerStructure/Clock/md/NTP.md"
+      "path": "Projects/Study/ComputerStructure/Clock/md/NTP.md"
     },
     {
       "basename": "TCP 커넥션",
-      "path": "HTTP/Connection/md/TCP 커넥션.md"
+      "path": "Projects/Study/HTTP/Connection/md/TCP 커넥션.md"
     },
     {
       "basename": "Virtual Thread",
-      "path": "Java/Virtual Thread/canvas/Virtual Thread.canvas"
+      "path": "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas"
     },
     {
       "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
-      "path": "Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md"
+      "path": "Projects/Study/Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md"
     },
     {
       "basename": "Virtual Thread가 나오게 된 배경",
-      "path": "Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md"
+      "path": "Projects/Study/Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md"
     },
     {
       "basename": "Virtual Thread 사용 자원 차이",
-      "path": "Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md"
+      "path": "Projects/Study/Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md"
     },
     {
       "basename": "Cache 전략",
-      "path": "DB/Cache/canvas/Cache 전략.canvas"
+      "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "캐시 가용성 지침",
-      "path": "DB/Cache/md/캐시 가용성 지침.md"
+      "path": "Projects/Study/DB/Cache/md/캐시 가용성 지침.md"
     },
     {
       "basename": "Cache Stampede 현상",
-      "path": "DB/Cache/resources/Cache Stampede 현상.png"
+      "path": "Projects/Study/DB/Cache/resources/Cache Stampede 현상.png"
     },
     {
       "basename": "캐시 공유 방식 지침",
-      "path": "DB/Cache/md/캐시 공유 방식 지침.md"
+      "path": "Projects/Study/DB/Cache/md/캐시 공유 방식 지침.md"
     },
     {
       "basename": "Pasted image 20240124212835",
-      "path": "OS/VirtualMemory/resources/Pasted image 20240124212835.png"
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124212835.png"
     },
     {
       "basename": "Pasted image 20240124211327",
-      "path": "OS/VirtualMemory/resources/Pasted image 20240124211327.png"
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211327.png"
     },
     {
       "basename": "Pasted image 20240124211313",
-      "path": "OS/VirtualMemory/resources/Pasted image 20240124211313.png"
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211313.png"
     },
     {
       "basename": "Pasted image 20240124211303",
-      "path": "OS/VirtualMemory/resources/Pasted image 20240124211303.png"
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211303.png"
     },
     {
       "basename": "Pasted image 20240124201624",
-      "path": "OS/VirtualMemory/resources/Pasted image 20240124201624.png"
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124201624.png"
     },
     {
       "basename": "Pasted image 20240124035314",
-      "path": "OS/VirtualMemory/resources/Pasted image 20240124035314.png"
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124035314.png"
     },
     {
       "basename": "Pasted image 20240124031951",
-      "path": "OS/VirtualMemory/resources/Pasted image 20240124031951.png"
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124031951.png"
     },
     {
       "basename": "Pasted image 20240124031836",
-      "path": "OS/VirtualMemory/resources/Pasted image 20240124031836.png"
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124031836.png"
     },
     {
       "basename": "Virtual Memory",
-      "path": "OS/VirtualMemory/canvas/Virtual Memory.canvas"
+      "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
       "basename": "무제 파일",
-      "path": "OS/VirtualMemory/canvas/무제 파일.md"
+      "path": "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md"
     },
     {
       "basename": "JPA",
-      "path": "Spring/JPA/canvas/JPA.canvas"
-    },
-    {
-      "basename": "Cache Warming",
-      "path": "DB/Cache/md/Cache Warming.md"
-    },
-    {
-      "basename": "Look Aside + Write Around",
-      "path": "DB/Cache/resources/Look Aside + Write Around.png"
+      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
     }
   ],
   "omittedPaths": [],
