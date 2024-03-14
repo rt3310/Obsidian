@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#define에",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,7 +186,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff0b77d002117f6a",
+  "active": "7c5ee3fd6c882fbe",
   "lastOpenFiles": [
     "Java/HashMap/canvas/HashMap.canvas",
     "Algorithm/팁/자주 하는 실수 모음.md",
