@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "UTF-8",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/UTF-8.md"
+      "basename": "Base64 인코딩",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩.md"
     },
     {
       "basename": "텍스트 표현",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+    },
+    {
+      "basename": "QP 인코딩",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/QP 인코딩.md"
+    },
+    {
+      "basename": "UTF-8",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/UTF-8.md"
     },
     {
       "basename": "유니코드 변환 형식",
@@ -191,14 +199,6 @@
     {
       "basename": "Namespace",
       "path": "Projects/Study/Container/Docker/canvas/Namespace.md"
-    },
-    {
-      "basename": "LXC",
-      "path": "Projects/Study/Container/Docker/canvas/LXC.md"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     }
   ],
   "omittedPaths": [],
