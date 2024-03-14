@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"6e39968c85fbcb08","x":1421,"y":-155,"width":559,"height":515,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/canvas/UTF-8.md"},
+		{"id":"a2970e9b635db22c","x":-259,"y":-350,"width":339,"height":350,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.md"},
+		{"id":"d08f465b03bbd146","x":180,"y":-480,"width":588,"height":195,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/canvas/아스키 코드.md"},
+		{"id":"e9ab82925b18a1d7","x":216,"y":-29,"width":561,"height":298,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드.md"},
+		{"id":"e0b0e3bb41d6a856","x":940,"y":18,"width":333,"height":204,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드 변환 형식.md"}
+	],
+	"edges":[
+		{"id":"30935868b7c40947","fromNode":"a2970e9b635db22c","fromSide":"right","toNode":"d08f465b03bbd146","toSide":"left"},
+		{"id":"6bd7d4c58ea6459b","fromNode":"a2970e9b635db22c","fromSide":"right","toNode":"e9ab82925b18a1d7","toSide":"left"},
+		{"id":"4bf4befb9d546a56","fromNode":"e9ab82925b18a1d7","fromSide":"right","toNode":"e0b0e3bb41d6a856","toSide":"left"},
+		{"id":"f3899328a0394b77","fromNode":"e0b0e3bb41d6a856","fromSide":"right","toNode":"6e39968c85fbcb08","toSide":"left"}
+	]
+}

@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "UTF-8",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/UTF-8.md"
+    },
+    {
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+    },
+    {
+      "basename": "유니코드 변환 형식",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드 변환 형식.md"
+    },
+    {
+      "basename": "유니코드",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드.md"
+    },
+    {
+      "basename": "아스키 코드",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/아스키 코드.md"
+    },
+    {
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.md"
+    },
+    {
       "basename": "부동소수점",
       "path": "Projects/Study/ComputerStructure/실수/canvas/부동소수점.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "컴퓨터 시간 원리",
       "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
-    },
-    {
-      "basename": "웹 서버",
-      "path": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas"
-    },
-    {
-      "basename": "병렬 커넥션 vs 지속 커넥션",
-      "path": "Projects/Study/HTTP/Connection/md/병렬 커넥션 vs 지속 커넥션.md"
-    },
-    {
-      "basename": "병렬 커넥션",
-      "path": "Projects/Study/HTTP/Connection/md/병렬 커넥션.md"
-    },
-    {
-      "basename": "HTTP Connection",
-      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
-    },
-    {
-      "basename": "Ultra Learning",
-      "path": "Projects/Study/Employment/learning/Ultra Learning.canvas"
-    },
-    {
-      "basename": "레지스터",
-      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
     }
   ],
   "omittedPaths": [],
