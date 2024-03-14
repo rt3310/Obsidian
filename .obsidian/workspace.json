@@ -27,9 +27,9 @@
               "state": {
                 "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "viewState": {
-                  "x": 2383.1866509759034,
-                  "y": 269.2257463685402,
-                  "zoom": -0.3667854136794213
+                  "x": 3162.9511372843367,
+                  "y": 230.87768110979482,
+                  "zoom": -1.3667854136794213
                 }
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩을 단점을 감수하고도 왜 사용하는가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩을 단점을 감수하고도 왜 사용하는가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩을 단점을 감수하고도 왜 사용하는가.md"
               }
             }
           },
@@ -194,6 +194,8 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩 단점.md",
+    "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩을 단점을 감수하고도 왜 사용하는가.md",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/URL 인코딩.md",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩.md",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/QP 인코딩.md",
@@ -228,8 +230,6 @@
     "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
     "Projects/Study/Web/Tomcat/canvas/The Service.md",
     "Projects/Study/Web/Tomcat/Pasted image 20240314164110.png",
-    "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md",
-    "Projects/Study/Web/Tomcat/canvas/서블릿 컨테이너.md",
     "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
     "Projects/Study/Web/Tomcat/canvas",
     "Projects/Study/Web/Tomcat",
