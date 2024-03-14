@@ -27,9 +27,9 @@
               "state": {
                 "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
                 "viewState": {
-                  "x": 269.7802294649101,
-                  "y": 1581.9691844867175,
-                  "zoom": 0.5
+                  "x": -142.41590949673255,
+                  "y": 1439.1707978403579,
+                  "zoom": -0.5
                 }
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
+                "file": "Projects/Study/Web/Tomcat/canvas/Realm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
+                "file": "Projects/Study/Web/Tomcat/canvas/Realm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/The Connectors.md"
+                "file": "Projects/Study/Web/Tomcat/canvas/Realm.md"
               }
             }
           },
@@ -194,6 +194,8 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/Web/Tomcat/canvas/Realm.md",
+    "Projects/Study/Web/Tomcat/canvas/Engine.md",
     "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
     "Projects/Study/Web/Tomcat/canvas/The Service.md",
     "Projects/Study/Web/Tomcat/canvas/The Server.md",
@@ -235,8 +237,6 @@
     "Projects/Study/Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md",
     "Projects/Study/Java/HashMap/canvas/해시 충돌.md",
     "Projects/Study/Java/HashMap/resources/Pasted image 20240313181553.png",
-    "Projects/Study/Java/HashMap/canvas/해시 분포.md",
-    "Projects/Study/Java/HashMap/canvas/HashMap vs HashTable.md",
     "Java/Collections/canvas/무제 파일.canvas",
     "Projects/Study/Java/final/canvas/fianl.canvas",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",

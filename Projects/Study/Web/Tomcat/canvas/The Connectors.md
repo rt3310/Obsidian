@@ -24,4 +24,17 @@ public interface ProtocolHandler {
 		}
 	}
 }
+
+public class Connector extends LifeCycleMBeanBase {
+	// ...
+	public Connector(String procotol) {
+		configuredProtocol = protocol;
+		ProtocolHandler p = null;
+		try {
+			p = ProtocolHandler.create(protocol);
+		}
+		// ...
+	}
+	// ...
+}
 ```
