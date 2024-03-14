@@ -7,11 +7,13 @@
 		{"id":"b9190cb74bcdb566","type":"file","file":"Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md","x":-767,"y":260,"width":780,"height":957},
 		{"id":"6ee336189b8ad43b","type":"file","file":"Projects/Study/Web/Tomcat/canvas/The Server.md","x":-1602,"y":285,"width":611,"height":255},
 		{"id":"0db8605921c32be9","type":"file","file":"Projects/Study/Web/Tomcat/canvas/The Service.md","x":-1494,"y":641,"width":396,"height":195},
-		{"id":"16d027afaff4009b","x":-1040,"y":1440,"width":691,"height":649,"type":"file","file":"Projects/Study/Web/Tomcat/canvas/Engine.md"},
+		{"id":"16d027afaff4009b","type":"file","file":"Projects/Study/Web/Tomcat/canvas/Engine.md","x":-1040,"y":1440,"width":691,"height":649},
 		{"id":"f0f7223daeb58cff","type":"file","file":"Projects/Study/Web/Tomcat/canvas/The Connectors.md","x":-1884,"y":920,"width":780,"height":978},
-		{"id":"7b98d2a6e6305b57","x":-273,"y":1440,"width":572,"height":255,"type":"file","file":"Projects/Study/Web/Tomcat/canvas/Realm.md"},
+		{"id":"7b98d2a6e6305b57","type":"file","file":"Projects/Study/Web/Tomcat/canvas/Realm.md","x":-273,"y":1440,"width":572,"height":255},
 		{"id":"2fc9998ace4d6587","type":"text","text":"모든 서블릿 컨테이너는 요청과 응답을 위한 프로토콜로 반드시 **HTTP를 지원해야 한다**. 그러나 HTTPS와 같은 추가적인 요청/응답 기반의 프로토콜 역시 지원할 수 있다.\n컨테이너가 반드시 구현하여야 하는 HTTP 명세 버전은 HTTP/1.1과 HTTP/2이다.\nHTTP/2를 지원할 때는, 서블릿 컨테이너는 반드시 'h2'와 'h2c' 프로토콜 identifiers를 지원해야 한다.\n\n컨테이너는 **캐싱 메커니즘**을 지원하기에, 요청을 변형하여 서블릿에 전달하고, 받은 응답을 다시 변형하여 클라이언트에 전달하거나, 그러한 기능을 지원하지 않는 요청의 겨우 [RFC 7234](https://datatracker.ietf.org/doc/html/rfc7234)를 따르는 서블릿을 통해 처리할 수 있다.\n\n그리고 서블릿 컨테이너는 **서블릿이 실행되는 환경의 security 제약을 가한다**. 예로, 몇몇의 애플리케이션 서버는 컨테이너 컴포넌트가 영향을 받지 않도록 스레드 생성 개수를 제한한다.","x":960,"y":-230,"width":586,"height":396},
-		{"id":"44f6b4c5a3ec84e7","x":360,"y":866,"width":476,"height":543,"type":"text","text":"밸브는 하나의 특정 컨테이너와 관련있는 요청 처리 컴포넌트이다.\n밸브는 서블릿 명세의 필터 메커니즘과 유사하지만, 톰캣의 고유한 것이다.\n호스트, 컨텍스트, 엔진은 밸브를 가진다: StandardHostValve, StandardContextValve, StandardEngineValve, StandardWrapperValve, ...\n\n밸브 인터페이스는 아래와 같이 간단한 기본 구조를 가지며, 각 밸브의 로직은 invoke 메서드에 다양한 형태로 구현되게 된다.\n```java\npublic interface Valve {\n\tpublic Valve getNext();\n\tpublic void setNext(Valve valve);\n\tpublic void invoke(Request request, Response Response)\n}\n```"}
+		{"id":"1d9d24d86c2ba2e3","type":"file","file":"Projects/Study/Web/Tomcat/canvas/The Valves.md","x":360,"y":866,"width":700,"height":1116},
+		{"id":"23d0a817f91da22b","x":380,"y":600,"width":504,"height":175,"type":"file","file":"Projects/Study/Web/Tomcat/canvas/The Loggers.md"},
+		{"id":"e581ee35edce05a3","x":454,"y":427,"width":250,"height":60,"type":"text","text":"호스트는 유명한 Apache Virtual"}
 	],
 	"edges":[
 		{"id":"15073d93b575c448","fromNode":"ba4c87901d93a19c","fromSide":"right","toNode":"3ca58673b41aea83","toSide":"left","label":"서블릿 컨테이너?"},
@@ -24,6 +26,8 @@
 		{"id":"d4831ebfdc57ab78","fromNode":"b9190cb74bcdb566","fromSide":"left","toNode":"0db8605921c32be9","toSide":"right"},
 		{"id":"b1bb04aacee15c4d","fromNode":"b9190cb74bcdb566","fromSide":"bottom","toNode":"16d027afaff4009b","toSide":"top"},
 		{"id":"f71ae00d312aee0d","fromNode":"b9190cb74bcdb566","fromSide":"bottom","toNode":"7b98d2a6e6305b57","toSide":"top"},
-		{"id":"f9309894eea3cdd5","fromNode":"b9190cb74bcdb566","fromSide":"right","toNode":"44f6b4c5a3ec84e7","toSide":"left"}
+		{"id":"f9309894eea3cdd5","fromNode":"b9190cb74bcdb566","fromSide":"right","toNode":"1d9d24d86c2ba2e3","toSide":"left"},
+		{"id":"2e4297899c232c56","fromNode":"b9190cb74bcdb566","fromSide":"right","toNode":"23d0a817f91da22b","toSide":"left"},
+		{"id":"74fcb3886a77be05","fromNode":"b9190cb74bcdb566","fromSide":"right","toNode":"e581ee35edce05a3","toSide":"left"}
 	]
 }

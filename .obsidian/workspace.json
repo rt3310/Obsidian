@@ -27,9 +27,9 @@
               "state": {
                 "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
                 "viewState": {
-                  "x": 462.1101358860714,
-                  "y": 1085.2885382896454,
-                  "zoom": 0.5
+                  "x": 761.31662992262,
+                  "y": 680.0094921323566,
+                  "zoom": 0
                 }
               }
             }
@@ -194,6 +194,8 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/Web/Tomcat/canvas/The Loggers.md",
+    "Projects/Study/Web/Tomcat/canvas/The Valves.md",
     "Projects/Study/Web/Tomcat/canvas/Realm.md",
     "Projects/Study/Web/Tomcat/canvas/Engine.md",
     "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
@@ -234,8 +236,6 @@
     "Projects/Study/Java/HashMap/canvas/Java 7에서 String 객체에 대한 별도의 해시 함수.md",
     "Projects/Study/Java/HashMap/canvas/String 객체에 대한 해시 함수.md",
     "Projects/Study/Java/HashMap/canvas/해시 버킷 동적 확장.md",
-    "Projects/Study/Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md",
-    "Projects/Study/Java/HashMap/canvas/해시 충돌.md",
     "Projects/Study/Java/HashMap/resources/Pasted image 20240313181553.png",
     "Java/Collections/canvas/무제 파일.canvas",
     "Projects/Study/Java/final/canvas/fianl.canvas",
