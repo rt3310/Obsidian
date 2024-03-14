@@ -5,32 +5,48 @@
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
     },
     {
-      "basename": "URL 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/URL 인코딩.md"
-    },
-    {
-      "basename": "Base64 인코딩을 단점을 감수하고도 왜 사용하는가",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩을 단점을 감수하고도 왜 사용하는가.md"
-    },
-    {
-      "basename": "Base64 인코딩 단점",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩 단점.md"
-    },
-    {
       "basename": "Base64 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/Base64 인코딩.md"
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "부동소수점",
+      "path": "Projects/Study/ComputerStructure/실수/md/부동소수점.md"
+    },
+    {
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md"
+    },
+    {
+      "basename": "아스키 코드",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/아스키 코드.md"
+    },
+    {
+      "basename": "URL 인코딩",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/URL 인코딩.md"
     },
     {
       "basename": "QP 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/QP 인코딩.md"
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/QP 인코딩.md"
+    },
+    {
+      "basename": "Base64 인코딩을 단점을 감수하고도 왜 사용하는가",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩을 단점을 감수하고도 왜 사용하는가.md"
+    },
+    {
+      "basename": "Base64 인코딩 단점",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
     },
     {
       "basename": "UTF-8",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/UTF-8.md"
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/UTF-8.md"
     },
     {
       "basename": "유니코드 변환 형식",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드 변환 형식.md"
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
     },
     {
       "basename": "Pasted image 20240315030339",
@@ -38,31 +54,15 @@
     },
     {
       "basename": "유니코드",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/유니코드.md"
-    },
-    {
-      "basename": "아스키 코드",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/아스키 코드.md"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.md"
-    },
-    {
-      "basename": "부동소수점",
-      "path": "Projects/Study/ComputerStructure/실수/canvas/부동소수점.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas"
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드.md"
     },
     {
       "basename": "고정소수점",
-      "path": "Projects/Study/ComputerStructure/실수/canvas/고정소수점.md"
+      "path": "Projects/Study/ComputerStructure/실수/md/고정소수점.md"
     },
     {
       "basename": "실수 표현 방식",
-      "path": "Projects/Study/ComputerStructure/실수/canvas/실수 표현 방식.md"
+      "path": "Projects/Study/ComputerStructure/실수/md/실수 표현 방식.md"
     },
     {
       "basename": "공부할 것들",
