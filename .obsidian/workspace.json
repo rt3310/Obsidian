@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md"
+                "file": "Projects/Plan/공부할 것들.md"
               }
             }
           },
@@ -201,14 +201,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "df43a1cbbb764882",
   "lastOpenFiles": [
-    "무제 폴더",
+    "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md",
+    "Projects/Plan/공부할 것들.md",
+    "Projects/Plan",
+    "Archives",
+    "Resources",
     "Projects/Study",
     "Areas",
     "Projects",
     "2024-03-14.md",
-    "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md",
     "Projects/Study/HTTP/Connection/md/HTTP 커넥션.md",
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
@@ -226,13 +229,10 @@
     "Java/Collections/canvas/무제 파일.canvas",
     "Projects/Study/Java/final/canvas/fianl.canvas",
     "Java/Collections/canvas/무제 폴더",
-    "Java/Collections/canvas",
-    "Java/Collections",
     "Java/무제 파일.md",
     "Projects/Study/Java/final/canvas/final method.md",
     "Projects/Study/Java/final/final class.md",
     "Java/final/canvas/무제 파일.md",
-    "Projects/Study/Java/final/canvas",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",
     "Projects/Study/Container/Docker/canvas/Cgroups.md",
     "Projects/Study/Container/Docker/canvas/Namespace.md",
