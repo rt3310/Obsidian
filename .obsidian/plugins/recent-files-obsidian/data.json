@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled Kanban",
-      "path": "Projects/Plan/Untitled Kanban.md"
-    },
-    {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
+      "basename": "IP 패킷 구성",
+      "path": "Projects/Study/HTTP/Connection/md/IP 패킷 구성.md"
+    },
+    {
+      "basename": "ZonedDateTime",
+      "path": "Projects/Study/ComputerStructure/Clock/md/ZonedDateTime.md"
     },
     {
       "basename": "보조 해시 함수",
@@ -15,10 +19,6 @@
     {
       "basename": "HTTP 커넥션",
       "path": "Projects/Study/HTTP/Connection/md/HTTP 커넥션.md"
-    },
-    {
-      "basename": "IP 패킷 구성",
-      "path": "Projects/Study/HTTP/Connection/md/IP 패킷 구성.md"
     },
     {
       "basename": "자주 하는 실수 모음",
@@ -195,10 +195,6 @@
     {
       "basename": "Virtual Memory",
       "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md"
     }
   ],
   "omittedPaths": [],
