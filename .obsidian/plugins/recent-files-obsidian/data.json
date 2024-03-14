@@ -5,20 +5,16 @@
       "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
     },
     {
-      "basename": "The Loggers",
-      "path": "Projects/Study/Web/Tomcat/canvas/The Loggers.md"
-    },
-    {
       "basename": "The Server",
       "path": "Projects/Study/Web/Tomcat/canvas/The Server.md"
     },
     {
-      "basename": "The Service",
-      "path": "Projects/Study/Web/Tomcat/canvas/The Service.md"
+      "basename": "톰캣 아키텍처",
+      "path": "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md"
     },
     {
-      "basename": "The Connectors",
-      "path": "Projects/Study/Web/Tomcat/canvas/The Connectors.md"
+      "basename": "The Service",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Service.md"
     },
     {
       "basename": "Engine",
@@ -33,8 +29,20 @@
       "path": "Projects/Study/Web/Tomcat/canvas/The Valves.md"
     },
     {
-      "basename": "톰캣 아키텍처",
-      "path": "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md"
+      "basename": "The Connectors",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Connectors.md"
+    },
+    {
+      "basename": "The Context",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Context.md"
+    },
+    {
+      "basename": "The Host",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Host.md"
+    },
+    {
+      "basename": "The Loggers",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Loggers.md"
     },
     {
       "basename": "서블릿 컨테이너",
@@ -191,14 +199,6 @@
     {
       "basename": "Virtual Thread가 나오게 된 배경",
       "path": "Projects/Study/Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md"
-    },
-    {
-      "basename": "Virtual Thread 사용 자원 차이",
-      "path": "Projects/Study/Java/Virtual Thread/md/Virtual Thread 사용 자원 차이.md"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
     }
   ],
   "omittedPaths": [],
