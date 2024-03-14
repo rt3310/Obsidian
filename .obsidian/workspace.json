@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Plan/어떻게 공부해야 할까.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Plan/어떻게 공부해야 할까.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Plan/어떻게 공부해야 할까.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Plan/어떻게 공부해야 할까.md"
+                "file": "Projects/Plan/공부할 것들.md"
               }
             }
           },
@@ -191,8 +191,8 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
-    "Projects/Plan/공부할 것들.md",
     "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Plan/공부할 것들.md",
     "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
     "Projects/Study/Web/Tomcat/canvas/The Server.md",
     "Projects/Study/Web/Tomcat/canvas/The Context.md",
