@@ -27,9 +27,9 @@
               "state": {
                 "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
                 "viewState": {
-                  "x": -84.87005768508881,
-                  "y": 1410.3479856246574,
-                  "zoom": -0.5
+                  "x": 269.7802294649101,
+                  "y": 1581.9691844867175,
+                  "zoom": 0.5
                 }
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/The Server.md",
+                "file": "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/The Server.md",
+                "file": "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/The Server.md"
+                "file": "Projects/Study/Web/Tomcat/canvas/The Connectors.md"
               }
             }
           },
@@ -194,6 +194,8 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
+    "Projects/Study/Web/Tomcat/canvas/The Service.md",
     "Projects/Study/Web/Tomcat/canvas/The Server.md",
     "Projects/Study/Web/Tomcat/Pasted image 20240314164110.png",
     "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md",
@@ -237,8 +239,6 @@
     "Projects/Study/Java/HashMap/canvas/HashMap vs HashTable.md",
     "Java/Collections/canvas/무제 파일.canvas",
     "Projects/Study/Java/final/canvas/fianl.canvas",
-    "Java/무제 파일.md",
-    "Projects/Study/Java/final/canvas/final method.md",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",
     "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",

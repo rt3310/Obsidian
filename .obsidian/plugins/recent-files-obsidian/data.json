@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "The Server",
-      "path": "Projects/Study/Web/Tomcat/canvas/The Server.md"
+      "basename": "The Connectors",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Connectors.md"
     },
     {
       "basename": "Tomcat",
       "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
+    },
+    {
+      "basename": "The Service",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Service.md"
+    },
+    {
+      "basename": "The Server",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Server.md"
     },
     {
       "basename": "톰캣 아키텍처",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20240124212835",
       "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124212835.png"
-    },
-    {
-      "basename": "Pasted image 20240124211327",
-      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211327.png"
-    },
-    {
-      "basename": "Pasted image 20240124211313",
-      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211313.png"
     }
   ],
   "omittedPaths": [],
