@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas",
+                "file": "Projects/Study/ComputerStructure/실수/canvas/부동소수점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas",
+                "file": "Projects/Study/ComputerStructure/실수/canvas/부동소수점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas"
+                "file": "Projects/Study/ComputerStructure/실수/canvas/부동소수점.md"
               }
             }
           },
@@ -194,6 +194,8 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/ComputerStructure/실수/canvas/부동소수점.md",
+    "Projects/Study/ComputerStructure/실수/canvas/고정소수점.md",
     "Projects/Study/ComputerStructure/실수/canvas/실수 표현 방식.md",
     "Projects/Plan/공부할 것들.md",
     "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas",
@@ -227,9 +229,7 @@
     "Projects/Study/DB/Cache/md/Read Through + Write Around 조합.md",
     "Projects/Plan/Untitled Kanban.md",
     "Projects/Plan/Untitled Kanban 1.md",
-    "2024-W11.md",
     "Projects/Plan/무제 파일.canvas",
-    "Projects/Study/Java/HashMap/canvas/보조 해시 함수.md",
     "Projects/Plan",
     "Archives",
     "Resources",

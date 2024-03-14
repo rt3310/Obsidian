@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "부동소수점",
+      "path": "Projects/Study/ComputerStructure/실수/canvas/부동소수점.md"
+    },
+    {
       "basename": "무제 파일",
       "path": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "고정소수점",
+      "path": "Projects/Study/ComputerStructure/실수/canvas/고정소수점.md"
     },
     {
       "basename": "실수 표현 방식",
@@ -191,14 +199,6 @@
     {
       "basename": "레지스터",
       "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
-    },
-    {
-      "basename": "NTP",
-      "path": "Projects/Study/ComputerStructure/Clock/md/NTP.md"
-    },
-    {
-      "basename": "TCP 커넥션",
-      "path": "Projects/Study/HTTP/Connection/md/TCP 커넥션.md"
     }
   ],
   "omittedPaths": [],
