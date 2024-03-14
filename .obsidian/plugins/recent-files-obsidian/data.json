@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
       "path": "Projects/Study/Java/Virtual Thread/md/플랫폼 스레드와 가상 스레드 구조 차이.md"
-    },
-    {
-      "basename": "Virtual Thread가 나오게 된 배경",
-      "path": "Projects/Study/Java/Virtual Thread/md/Virtual Thread가 나오게 된 배경.md"
     }
   ],
   "omittedPaths": [],
