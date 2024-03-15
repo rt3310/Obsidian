@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "32비트 vs 64비트",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
-    },
-    {
       "basename": "무제 파일",
       "path": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "32비트의 메모리 한계",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md"
+    },
+    {
+      "basename": "32비트 vs 64비트",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
     },
     {
       "basename": "컴퓨터 시간 원리",
@@ -195,10 +199,6 @@
     {
       "basename": "Java 8 HashMap에서의 Separate Chaning",
       "path": "Projects/Study/Java/HashMap/canvas/Java 8 HashMap에서의 Separate Chaning.md"
-    },
-    {
-      "basename": "해시 분포",
-      "path": "Projects/Study/Java/HashMap/canvas/해시 분포.md"
     }
   ],
   "omittedPaths": [],

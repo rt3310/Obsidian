@@ -27,8 +27,8 @@
               "state": {
                 "file": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
+                  "x": -35.24998474121094,
+                  "y": 139.5,
                   "zoom": 0
                 }
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
+                "file": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
+                "file": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
+                "file": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas"
               }
             }
           },
@@ -194,6 +194,7 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md",
     "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
     "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
@@ -234,7 +235,6 @@
     "Projects/Study/Web/Tomcat/canvas/The Valves.md",
     "Projects/Study/Web/Tomcat/canvas/Realm.md",
     "Projects/Study/Web/Tomcat/canvas/Engine.md",
-    "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
     "Projects/Study/Web/Tomcat/Pasted image 20240314164110.png",
     "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
     "Projects/Study/Web/Tomcat/canvas",
