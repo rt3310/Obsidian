@@ -25,11 +25,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "viewState": {
-                  "x": 2442.6866673492223,
-                  "y": 535.9332594538208,
-                  "zoom": 0.11020256919975502
+                  "x": 1386.6317146386607,
+                  "y": 96.30091806334599,
+                  "zoom": -0.179534630173511
                 }
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
               }
             }
           },
@@ -194,12 +194,12 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas",
     "Projects/Study/ComputerStructure/실수/md/부동소수점.md",
     "Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md",
     "Projects/Study/ComputerStructure/실수/md",
     "Projects/Study/ComputerStructure/텍스트 표현/md/아스키 코드.md",
-    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/ComputerStructure/텍스트 표현/md",
     "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md",
     "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩을 단점을 감수하고도 왜 사용하는가.md",

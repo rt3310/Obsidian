@@ -17,11 +17,13 @@
 		{"id":"01699ed1ae6422b4","type":"text","text":"- **윤초**: 지구 자전 속도의 불규칙성으로 인하여 발생하는 세계시와 세계협정시의 차이가 1초 이내로 되도록 보정하여 주는 것\n\t- 원자시와 세계시의 오차를 측정하여 0.9초 이상 벌어지면 윤초를 시행한다.\n- **원자시계**: 현재 1초의 길이는 세슘 원자를 이용해 정의한다.\n\t- 절대영도 조건에서 세슘 원자(133-55Cs)가 방출하는 특정한 파장의 빛이 9,192,631,770번 진동하는 시간으로 정의된다.\n\t- 국내에서는 한국표준과학연구원이 3대의 세슘원자시계와 1대의 수소-메이저 원자시계를 사용해서 대한민국 표준시를 정한다.","x":-916,"y":1720,"width":492,"height":340},
 		{"id":"304091b8f6526748","type":"file","file":"Projects/Study/ComputerStructure/Clock/md/ZonedDateTime.md","x":-916,"y":-880,"width":756,"height":591},
 		{"id":"566db53ef0fddf1b","type":"text","text":"- LocalDate, LocalTime, LocalDateTime\n- ZonedDateTime\n- Instant\n- Duration, Period\n- TemporalAdjuster","x":-786,"y":-58,"width":396,"height":170},
-		{"id":"424571dc6fb6ef0d","type":"text","text":"- 전력 소비가 낮다.\n- 기본 시스템을 시간이 종요한 작업에서 떼어 놓을 수 있다.\n- 가끔 다른 방식보다 더 정확하다.","x":1350,"y":-186,"width":472,"height":101},
-		{"id":"c8cf851cb2343e32","type":"text","text":"- 날짜와 시, 분, 초 등의 시간을 카운터하는 디지털 카운터 회로로 구성한다.\n- 카운터 회로에서 사용하는 클럭 발생회로에 필요한 수정 발진자로 마이크로프로세서와 별도록 주로 32.768kHz를 많이 사용한다.\n- 카운터 회로가 컴퓨터의 전원이 꺼져도 배터리를 사용하여 카운터 회로 전원을 계속 공급하여 시간 카운터 동작을 유지한다.","x":1350,"y":29,"width":515,"height":195},
 		{"id":"3cf6957368c0507e","type":"file","file":"Projects/Study/ComputerStructure/Clock/md/RTC.md","x":607,"y":-380,"width":547,"height":440},
 		{"id":"5e1baa729106e142","type":"text","text":"PRC는 **원자 시계**로 시간을 측정하며 아래 계층 요소들이 동기화를 통해 시간을 알 수 있다.\n-> 그러므로 하위 계층일 수록 정밀도가 조금씩 떨어진다.","x":785,"y":1442,"width":427,"height":106},
-		{"id":"491a4454c5daa1b6","type":"file","file":"Projects/Study/ComputerStructure/Clock/md/NTP 서버.md","x":791,"y":903,"width":421,"height":397}
+		{"id":"491a4454c5daa1b6","type":"file","file":"Projects/Study/ComputerStructure/Clock/md/NTP 서버.md","x":791,"y":903,"width":421,"height":397},
+		{"id":"5451cdc86d5af036","x":565,"y":-600,"width":631,"height":118,"type":"text","text":"컴퓨터 시계, 정확히는 컴퓨터에서 시간을 측정하는 기본 단위인 클록(clock)은 일반적으로 크리스털 오실레이터(crystal oscillator)를 사용하여 측정한다. 이 오실레이터는 매우 정확하게 진동하는 석영 크리스털을 이용하여, 컴퓨터에 일정한 속도로 신호를 제공한다. 이 신호를 클록 신호라고 하며, 컴퓨터의 다양한 컴포넌트는 이 클록 신호에 맞춰 동작한다."},
+		{"id":"424571dc6fb6ef0d","type":"text","text":"- 전력 소비가 낮다.\n- 기본 시스템을 시간이 종요한 작업에서 떼어 놓을 수 있다.\n- 가끔 다른 방식보다 더 정확하다.","x":1350,"y":-340,"width":472,"height":101},
+		{"id":"c8cf851cb2343e32","type":"text","text":"- 날짜와 시, 분, 초 등의 시간을 카운터하는 디지털 카운터 회로로 구성한다.\n- 카운터 회로에서 사용하는 클럭 발생회로에 필요한 수정 발진자로 마이크로프로세서와 별도로 주로 32.768kHz를 많이 사용한다.\n- 카운터 회로가 컴퓨터의 전원이 꺼져도 배터리를 사용하여 카운터 회로 전원을 계속 공급하여 시간 카운터 동작을 유지한다.","x":1350,"y":-125,"width":515,"height":195},
+		{"id":"3905518bedb9eba0","x":1522,"y":185,"width":171,"height":29,"type":"text","text":"1Hz: 1초에 한번"}
 	],
 	"edges":[
 		{"id":"5a5e342f5052e38d","fromNode":"4b49df2b58846a37","fromSide":"right","toNode":"53817bc120f37e78","toSide":"left","label":"시간 측정 원리"},
@@ -44,6 +46,8 @@
 		{"id":"f2a338844aee3ce5","fromNode":"fd71f8946e69c547","fromSide":"bottom","toNode":"33cbff9804c9d3aa","toSide":"top","label":"NTP?"},
 		{"id":"f983889f9355cedc","fromNode":"49545273c8cd72e4","fromSide":"top","toNode":"3cf6957368c0507e","toSide":"bottom","label":"RTC?"},
 		{"id":"cc7b4f138ab48391","fromNode":"3cf6957368c0507e","fromSide":"right","toNode":"424571dc6fb6ef0d","toSide":"left","label":"이점"},
-		{"id":"378a08c6b35e3530","fromNode":"3cf6957368c0507e","fromSide":"right","toNode":"c8cf851cb2343e32","toSide":"left","label":"구성요소/기능"}
+		{"id":"378a08c6b35e3530","fromNode":"3cf6957368c0507e","fromSide":"right","toNode":"c8cf851cb2343e32","toSide":"left","label":"구성요소/기능"},
+		{"id":"85b82baeb09bcdc9","fromNode":"3cf6957368c0507e","fromSide":"top","toNode":"5451cdc86d5af036","toSide":"bottom"},
+		{"id":"3b3960e1dc89417e","fromNode":"c8cf851cb2343e32","fromSide":"bottom","toNode":"3905518bedb9eba0","toSide":"top"}
 	]
 }

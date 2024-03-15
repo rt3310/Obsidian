@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "컴퓨터 시간 원리",
+      "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "RTC",
+      "path": "Projects/Study/ComputerStructure/Clock/md/RTC.md"
+    },
+    {
       "basename": "텍스트 표현",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "final method",
       "path": "Projects/Study/Java/final/canvas/final method.md"
-    },
-    {
-      "basename": "final class",
-      "path": "Projects/Study/Java/final/final class.md"
-    },
-    {
-      "basename": "컨테이너 가상화",
-      "path": "Projects/Study/Container/Docker/canvas/컨테이너 가상화.md"
     }
   ],
   "omittedPaths": [],
