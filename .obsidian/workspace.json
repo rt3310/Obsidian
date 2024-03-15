@@ -25,11 +25,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
                 "viewState": {
-                  "x": 874.3388059625995,
-                  "y": 134.6348302545008,
-                  "zoom": -1.679534630173511
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               }
             }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+                "file": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
               }
             }
           },
@@ -194,6 +194,11 @@
   },
   "active": "a49d8cdd0856c468",
   "lastOpenFiles": [
+    "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
+    "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+    "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
+    "Projects/Study/ComputerStructure/Memory/canvas",
+    "Projects/Study/ComputerStructure/Memory",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas",
     "Projects/Study/ComputerStructure/실수/md/부동소수점.md",
@@ -233,15 +238,11 @@
     "Projects/Study/Web/Tomcat/Pasted image 20240314164110.png",
     "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
     "Projects/Study/Web/Tomcat/canvas",
-    "Projects/Study/Web/Tomcat",
     "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas",
     "Projects/Plan/무제 파일.canvas",
-    "Projects/Plan",
     "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
     "Projects/Study/Java/HashMap/resources/Pasted image 20240313181553.png",
     "Java/Collections/canvas/무제 파일.canvas",
-    "Projects/Study/Java/final/canvas/fianl.canvas",
-    "Projects/Study/Container/Docker/canvas/Docker.canvas",
     "Projects/Study/DB/Cache/resources/Cache Stampede 현상.png",
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124212835.png",
     "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240124211327.png",

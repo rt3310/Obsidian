@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "32비트 vs 64비트",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas"
+    },
+    {
       "basename": "컴퓨터 시간 원리",
       "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "해시 분포",
       "path": "Projects/Study/Java/HashMap/canvas/해시 분포.md"
-    },
-    {
-      "basename": "fianl",
-      "path": "Projects/Study/Java/final/canvas/fianl.canvas"
-    },
-    {
-      "basename": "final method",
-      "path": "Projects/Study/Java/final/canvas/final method.md"
     }
   ],
   "omittedPaths": [],
