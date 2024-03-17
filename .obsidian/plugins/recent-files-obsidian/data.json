@@ -1,12 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "JVM",
-      "path": "Projects/Study/Java/JVM/canvas/JVM.canvas"
+      "basename": "레지스터",
+      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
+    },
+    {
+      "basename": "자주 하는 실수 모음",
+      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/OS/Thrashing/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "메모리 관리",
+      "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
+    },
+    {
+      "basename": "RAID",
+      "path": "Projects/Study/OS/Disk/canvas/RAID.canvas"
+    },
+    {
+      "basename": "Semaphore",
+      "path": "Projects/Study/OS/Concurrency/canvas/Semaphore.canvas"
+    },
+    {
+      "basename": "DeadLock",
+      "path": "Projects/Study/OS/Concurrency/canvas/DeadLock.canvas"
+    },
+    {
+      "basename": "Concurrency",
+      "path": "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas"
+    },
+    {
+      "basename": "JPA",
+      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
+    },
+    {
+      "basename": "HttpSession",
+      "path": "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas"
+    },
+    {
+      "basename": "Session in Multi Server",
+      "path": "Projects/Study/Web/Session/canvas/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas"
+    },
+    {
+      "basename": "Virtual Memory",
+      "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "Projects/Study/OS/Thread/canvas/Thread.canvas"
+    },
+    {
+      "basename": "컴퓨터 부팅 과정",
+      "path": "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
+    },
+    {
+      "basename": "NAT",
+      "path": "Projects/Study/Network/NAT/canvas/NAT.canvas"
     },
     {
       "basename": "Garbage Collector",
       "path": "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "Virtual Thread",
+      "path": "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas"
+    },
+    {
+      "basename": "JVM",
+      "path": "Projects/Study/Java/JVM/canvas/JVM.canvas"
     },
     {
       "basename": "fianl",
@@ -37,20 +117,12 @@
       "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
     },
     {
-      "basename": "Docker",
-      "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
-    },
-    {
       "basename": "무제 파일",
       "path": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas"
     },
     {
       "basename": "32비트 vs 64비트",
       "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
-    },
-    {
-      "basename": "레지스터",
-      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
     },
     {
       "basename": "텍스트 표현",
@@ -75,10 +147,6 @@
     {
       "basename": "무제 파일",
       "path": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "자주 하는 실수 모음",
-      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
     },
     {
       "basename": "어떻게 공부해야 할까",
