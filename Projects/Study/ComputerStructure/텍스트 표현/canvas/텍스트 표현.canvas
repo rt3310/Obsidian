@@ -10,7 +10,7 @@
 		{"id":"e0b0e3bb41d6a856","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md","x":239,"y":532,"width":515,"height":458},
 		{"id":"6e39968c85fbcb08","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/UTF-8.md","x":1039,"y":443,"width":589,"height":637},
 		{"id":"c9c37480d8bc5832","x":2884,"y":-400,"width":563,"height":477,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"},
-		{"id":"93e96c799b915ef0","x":3604,"y":-347,"width":687,"height":370,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩을 단점을 감수하고도 왜 사용하는가.md"}
+		{"id":"93e96c799b915ef0","x":3604,"y":-347,"width":687,"height":370,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩의 단점을 감수하고도 왜 사용하는가.md"}
 	],
 	"edges":[
 		{"id":"30935868b7c40947","fromNode":"a2970e9b635db22c","fromSide":"right","toNode":"d08f465b03bbd146","toSide":"left"},
