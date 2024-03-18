@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "HashMap",
+      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
+      "basename": "HashMap vs HashTable",
+      "path": "Projects/Study/Java/HashMap/md/HashMap vs HashTable.md"
+    },
+    {
+      "basename": "보조 해시 함수",
+      "path": "Projects/Study/Java/HashMap/md/보조 해시 함수.md"
+    },
+    {
       "basename": "해볼 것",
       "path": "Projects/Study/DataStructure/해볼 것.md"
     },
