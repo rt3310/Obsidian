@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "레지스터",
-      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
+      "basename": "해볼 것",
+      "path": "Projects/Study/DataStructure/해볼 것.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
     },
     {
       "basename": "자주 하는 실수 모음",
       "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "레지스터",
+      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
     },
     {
       "basename": "Docker",
@@ -117,10 +129,6 @@
       "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
     },
     {
-      "basename": "무제 파일",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas"
-    },
-    {
       "basename": "32비트 vs 64비트",
       "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
     },
@@ -147,10 +155,6 @@
     {
       "basename": "무제 파일",
       "path": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
     },
     {
       "basename": "공부할 것들",

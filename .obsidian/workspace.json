@@ -11,14 +11,11 @@
             "id": "ff0b77d002117f6a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
-                "viewState": {
-                  "x": 10.733110651846108,
-                  "y": 116.99215065517012,
-                  "zoom": -1.0760537766792255
-                }
+                "file": "Projects/Study/DataStructure/해볼 것.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
+                "file": "Projects/Study/DataStructure/해볼 것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
+                "file": "Projects/Study/DataStructure/해볼 것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
+                "file": "Projects/Study/DataStructure/해볼 것.md"
               }
             }
           }
@@ -163,9 +160,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Study/DataStructure/해볼 것.md",
+    "Projects/Study/DataStructure",
+    "Projects/Study/무제 파일.canvas",
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
+    "무제 폴더",
+    "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
+    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",
     "Projects/Study/OS/Thrashing/canvas/무제 파일.canvas",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
@@ -173,9 +177,6 @@
     "Projects/Study/OS/Concurrency/canvas/Semaphore.canvas",
     "Projects/Study/OS/Concurrency/canvas/DeadLock.canvas",
     "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas",
-    "Projects/Study/Spring/JPA/canvas/JPA.canvas",
-    "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
-    "Projects/Study/Web/Session/canvas/Session in Multi Server.canvas",
     "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md",
     "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
     "Container",
@@ -186,10 +187,8 @@
     "DB",
     "Design",
     "Spring",
-    "Web",
     "Projects/Study/Container/Docker/canvas/Cgroups.md",
     "Projects/Study/Container/Docker/canvas/컨테이너 가상화.md",
-    "Projects/Plan/어떻게 공부해야 할까.md",
     "Projects/Plan/공부할 것들.md",
     "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md",
     "Projects/Study/Web/Tomcat/canvas/서블릿 컨테이너.md",
@@ -203,7 +202,6 @@
     "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
     "Projects/Study/Web/Tomcat/canvas/Realm.md",
     "Projects/Study/Web/Tomcat/canvas/Engine.md",
-    "Projects/Study/Web/Tomcat/canvas",
     "Projects/Study/Web/Tomcat/Pasted image 20240314164110.png",
     "Projects/Study/Web/Session/resources/primary-secondary session replication.png",
     "Projects/Study/Web/Session/resources/memcached.png",
