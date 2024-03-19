@@ -11,14 +11,11 @@
             "id": "ff0b77d002117f6a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
-                "viewState": {
-                  "x": 1592.593474851986,
-                  "y": -534.7328284773239,
-                  "zoom": -0.7245423612365537
-                }
+                "file": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
+                "file": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
+                "file": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
+                "file": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md"
               }
             }
           }
@@ -165,8 +162,10 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
-    "Projects/Study/Java/HashMap/md/HashMap vs HashTable.md",
     "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
+    "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
+    "Projects/Study/Algorithm/정렬",
+    "Projects/Study/Java/HashMap/md/HashMap vs HashTable.md",
     "Projects/Study/Java/HashMap/md/보조 해시 함수.md",
     "Projects/Study/Java/HashMap/md",
     "Projects/Study/DataStructure/해볼 것.md",
@@ -191,7 +190,6 @@
     "Network",
     "ComputerStructure",
     "DB",
-    "Design",
     "Projects/Study/Container/Docker/canvas/Cgroups.md",
     "Projects/Study/Container/Docker/canvas/컨테이너 가상화.md",
     "Projects/Plan/공부할 것들.md",
@@ -218,7 +216,6 @@
     "Projects/Study/Web/Session/resources/DB Replication.png",
     "Projects/Study/Web/HttpSession/resources/Cookie.png",
     "Projects/Study/Web/HttpSession/md/Stateless.md",
-    "Projects/Study/Web/HttpSession/md/HttpSession 인증처리 방식.md",
-    "Projects/Study/Web/HttpSession/md/Cookie vs Session.md"
+    "Projects/Study/Web/HttpSession/md/HttpSession 인증처리 방식.md"
   ]
 }
