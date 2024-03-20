@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20240320183526",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320183526.png"
+    },
+    {
+      "basename": "Pasted image 20240320184242",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320184242.png"
+    },
+    {
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
+    },
+    {
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정 방식.md"
+    },
+    {
+      "basename": "레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md"
+    },
+    {
+      "basename": "주소 지정(Addressing)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정(Addressing).md"
+    },
+    {
+      "basename": "주소 지정방식 필드를 가진 명령어 형식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정방식 필드를 가진 명령어 형식.md"
+    },
+    {
+      "basename": "직접 주소 지정 방식 & 간접 주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/직접 주소 지정 방식 & 간접 주소 지정 방식.md"
+    },
+    {
+      "basename": "상대 주소 지정 방식(Relative addressing mode)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/상대 주소 지정 방식(Relative addressing mode).md"
+    },
+    {
+      "basename": "인덱스 된 주소 지정 방식(Indexed addressing mode)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/인덱스 된 주소 지정 방식(Indexed addressing mode).md"
+    },
+    {
+      "basename": "유휴주소",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/유휴주소.md"
+    },
+    {
+      "basename": "즉치 주소 지정 방식(Immediate mode)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/즉치 주소 지정 방식(Immediate mode).md"
+    },
+    {
+      "basename": "의미 주소 지정 방식(Implied mode)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/md/의미 주소 지정 방식(Implied mode).md"
+    },
+    {
+      "basename": "HTTP 커넥션",
+      "path": "Projects/Study/HTTP/Connection/md/HTTP 커넥션.md"
+    },
+    {
       "basename": "Quick Sort vs Merge Sort",
       "path": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md"
     },
@@ -143,38 +199,6 @@
     {
       "basename": "서블릿 컨테이너",
       "path": "Projects/Study/Web/Tomcat/canvas/서블릿 컨테이너.md"
-    },
-    {
-      "basename": "Tomcat",
-      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.md"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas"
-    },
-    {
-      "basename": "Cookie & Session",
-      "path": "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas"
-    },
-    {
-      "basename": "IP 패킷 구성",
-      "path": "Projects/Study/HTTP/Connection/md/IP 패킷 구성.md"
-    },
-    {
-      "basename": "ZonedDateTime",
-      "path": "Projects/Study/ComputerStructure/Clock/md/ZonedDateTime.md"
-    },
-    {
-      "basename": "HTTP 커넥션",
-      "path": "Projects/Study/HTTP/Connection/md/HTTP 커넥션.md"
-    },
-    {
-      "basename": "자주 하는 실수 모음",
-      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
-    },
-    {
-      "basename": "HashMap",
-      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
     }
   ],
   "omittedPaths": [],

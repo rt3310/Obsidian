@@ -69,5 +69,7 @@
   "Projects/Study/Web/Tomcat": "FarStar",
   "Projects/Study/ComputerStructure/실수": "FarStar",
   "Projects/Study/ComputerStructure/텍스트 표현": "FarStar",
-  "Projects/Study/ComputerStructure/Memory": "FarStar"
+  "Projects/Study/ComputerStructure/Memory": "FarStar",
+  "Projects/Study/ComputerStructure/주소 지정 방식": "FarStar",
+  "Projects/Study/DataStructure": "FarFolder"
 }
