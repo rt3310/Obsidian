@@ -1,21 +1,25 @@
 {
 	"nodes":[
-		{"id":"debe9ef0a1097778","x":-880,"y":387,"width":801,"height":1133,"type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md"},
-		{"id":"6433ba0950ca58fc","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md","x":-191,"y":-14,"width":319,"height":214},
 		{"id":"0ba7cd335a108337","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정(Addressing).md","x":-288,"y":-239,"width":513,"height":115},
 		{"id":"ffe66473372fb2ae","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/유휴주소.md","x":-211,"y":-440,"width":359,"height":85},
 		{"id":"eb0c2e015559d6c2","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정방식 필드를 가진 명령어 형식.md","x":-940,"y":-337,"width":463,"height":311},
-		{"id":"c4bca20bcb8b9ee0","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md","x":480,"y":-572,"width":589,"height":503},
-		{"id":"ebb759d2ac54c4b2","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/즉치 주소 지정 방식(Immediate mode).md","x":480,"y":-14,"width":488,"height":271},
-		{"id":"838ddd1f8c9e041e","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/직접 주소 지정 방식 & 간접 주소 지정 방식.md","x":115,"y":460,"width":660,"height":1437}
+		{"id":"6433ba0950ca58fc","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md","x":400,"y":-288,"width":319,"height":214},
+		{"id":"c4bca20bcb8b9ee0","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md","x":-69,"y":-1160,"width":589,"height":503},
+		{"id":"ebb759d2ac54c4b2","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/즉치 주소 지정 방식(Immediate mode).md","x":552,"y":-928,"width":488,"height":271},
+		{"id":"838ddd1f8c9e041e","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/직접 주소 지정 방식 & 간접 주소 지정 방식.md","x":1200,"y":-1320,"width":660,"height":1437},
+		{"id":"debe9ef0a1097778","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md","x":1196,"y":240,"width":664,"height":634},
+		{"id":"7b849514d1032788","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/상대 주소 지정 방식(Relative addressing mode).md","x":320,"y":240,"width":624,"height":374},
+		{"id":"1c4dfc4171106eee","x":-440,"y":178,"width":652,"height":622,"type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/인덱스 된 주소 지정 방식(Indexed addressing mode).md"}
 	],
 	"edges":[
-		{"id":"4ab3b504e5b129b7","fromNode":"0ba7cd335a108337","fromSide":"bottom","toNode":"6433ba0950ca58fc","toSide":"top"},
-		{"id":"aeedb116d78ad43a","fromNode":"6433ba0950ca58fc","fromSide":"right","toNode":"c4bca20bcb8b9ee0","toSide":"left"},
+		{"id":"4ab3b504e5b129b7","fromNode":"0ba7cd335a108337","fromSide":"right","toNode":"6433ba0950ca58fc","toSide":"left"},
+		{"id":"aeedb116d78ad43a","fromNode":"6433ba0950ca58fc","fromSide":"top","toNode":"c4bca20bcb8b9ee0","toSide":"bottom"},
 		{"id":"1d636c19d4f55cdf","fromNode":"0ba7cd335a108337","fromSide":"top","toNode":"ffe66473372fb2ae","toSide":"bottom"},
 		{"id":"8c18864037560b9c","fromNode":"0ba7cd335a108337","fromSide":"left","toNode":"eb0c2e015559d6c2","toSide":"right"},
-		{"id":"b6393a7419802028","fromNode":"6433ba0950ca58fc","fromSide":"right","toNode":"ebb759d2ac54c4b2","toSide":"left"},
-		{"id":"d4b28ea24e097595","fromNode":"6433ba0950ca58fc","fromSide":"bottom","toNode":"838ddd1f8c9e041e","toSide":"top"},
-		{"id":"7ce3dcdbe06043c9","fromNode":"6433ba0950ca58fc","fromSide":"bottom","toNode":"debe9ef0a1097778","toSide":"top"}
+		{"id":"b6393a7419802028","fromNode":"6433ba0950ca58fc","fromSide":"top","toNode":"ebb759d2ac54c4b2","toSide":"bottom"},
+		{"id":"d4b28ea24e097595","fromNode":"6433ba0950ca58fc","fromSide":"right","toNode":"838ddd1f8c9e041e","toSide":"left"},
+		{"id":"7ce3dcdbe06043c9","fromNode":"6433ba0950ca58fc","fromSide":"right","toNode":"debe9ef0a1097778","toSide":"left"},
+		{"id":"e0681c06ec6599b2","fromNode":"6433ba0950ca58fc","fromSide":"bottom","toNode":"7b849514d1032788","toSide":"top"},
+		{"id":"4de8437044e1e7ff","fromNode":"6433ba0950ca58fc","fromSide":"bottom","toNode":"1c4dfc4171106eee","toSide":"top"}
 	]
 }

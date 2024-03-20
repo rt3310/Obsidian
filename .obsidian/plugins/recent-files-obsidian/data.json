@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "인덱스 된 주소 지정 방식(Indexed addressing mode)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/인덱스 된 주소 지정 방식(Indexed addressing mode).md"
+    },
+    {
       "basename": "주소 지정 방식",
       "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
+    },
+    {
+      "basename": "상대 주소 지정 방식(Relative addressing mode)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/상대 주소 지정 방식(Relative addressing mode).md"
     },
     {
       "basename": "레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식",
@@ -21,6 +29,10 @@
       "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md"
     },
     {
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md"
+    },
+    {
       "basename": "주소 지정방식 필드를 가진 명령어 형식",
       "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정방식 필드를 가진 명령어 형식.md"
     },
@@ -31,10 +43,6 @@
     {
       "basename": "주소 지정(Addressing)",
       "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정(Addressing).md"
-    },
-    {
-      "basename": "주소 지정 방식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md"
     },
     {
       "basename": "Pasted image 20240319145444",
@@ -191,14 +199,6 @@
     {
       "basename": "JPA",
       "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas"
-    },
-    {
-      "basename": "Session in Multi Server",
-      "path": "Projects/Study/Web/Session/canvas/Session in Multi Server.canvas"
     }
   ],
   "omittedPaths": [],
