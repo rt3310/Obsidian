@@ -15,9 +15,9 @@
               "state": {
                 "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "viewState": {
-                  "x": 1987.3122960373528,
-                  "y": 720.5415543485445,
-                  "zoom": 0.12001526502069228
+                  "x": 3124.164363064175,
+                  "y": -135.91286980157182,
+                  "zoom": 0.3934372641642889
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
               }
             }
           }
@@ -165,6 +165,7 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
     "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md",
     "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
@@ -219,7 +220,6 @@
     "Projects/Study/Web/Session/resources/Sticky Session Problem.png",
     "Projects/Study/Web/Session/resources/Session per WAS.png",
     "Projects/Study/Web/Session/resources/Integrated Session Storage.png",
-    "Projects/Study/Web/HttpSession/md/Stateless.md",
-    "Projects/Study/Web/HttpSession/md/HttpSession 인증처리 방식.md"
+    "Projects/Study/Web/HttpSession/md/Stateless.md"
   ]
 }

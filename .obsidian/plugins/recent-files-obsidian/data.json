@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Base64 인코딩 단점",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
+    },
+    {
       "basename": "텍스트 표현",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+    },
+    {
+      "basename": "Base64 인코딩",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩.md"
+    },
+    {
+      "basename": "QP 인코딩",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/QP 인코딩.md"
     },
     {
       "basename": "유니코드 변환 형식",
@@ -187,18 +199,6 @@
     {
       "basename": "컨테이너 가상화",
       "path": "Projects/Study/Container/Docker/canvas/컨테이너 가상화.md"
-    },
-    {
-      "basename": "Base64 인코딩의 단점을 감수하고도 왜 사용하는가",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩의 단점을 감수하고도 왜 사용하는가.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
     }
   ],
   "omittedPaths": [],
