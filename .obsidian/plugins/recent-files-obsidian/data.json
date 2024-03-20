@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "웹 서버",
+      "path": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas"
+    },
+    {
+      "basename": "URL",
+      "path": "Projects/Study/HTTP/URL/canvas/URL.canvas"
+    },
+    {
+      "basename": "HTTP Connection",
+      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
+    },
+    {
+      "basename": "RAID",
+      "path": "Projects/Study/OS/Disk/canvas/RAID.canvas"
+    },
+    {
+      "basename": "자주 하는 실수 모음",
+      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
+    },
+    {
+      "basename": "컴퓨터 부팅 과정",
+      "path": "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
+    },
+    {
+      "basename": "DeadLock",
+      "path": "Projects/Study/OS/Concurrency/canvas/DeadLock.canvas"
+    },
+    {
+      "basename": "Concurrency",
+      "path": "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas"
+    },
+    {
+      "basename": "메모리 관리",
+      "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
+    },
+    {
+      "basename": "메모리 과할당(Over Allocating)",
+      "path": "Projects/Study/OS/memory/canvas/메모리 과할당(Over Allocating).md"
+    },
+    {
+      "basename": "레지스터",
+      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
+    },
+    {
+      "basename": "32비트 vs 64비트",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
+    },
+    {
       "basename": "텍스트 표현",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
     },
@@ -41,10 +89,6 @@
       "path": "Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md"
     },
     {
-      "basename": "32비트 vs 64비트",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
-    },
-    {
       "basename": "32비트의 메모리 한계",
       "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md"
     },
@@ -77,16 +121,8 @@
       "path": "Projects/Plan/어떻게 공부해야 할까.md"
     },
     {
-      "basename": "자주 하는 실수 모음",
-      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
-    },
-    {
       "basename": "무제 파일",
       "path": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "레지스터",
-      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
     },
     {
       "basename": "Docker",
@@ -97,24 +133,8 @@
       "path": "Projects/Study/OS/Thrashing/canvas/무제 파일.canvas"
     },
     {
-      "basename": "메모리 관리",
-      "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
-    },
-    {
-      "basename": "RAID",
-      "path": "Projects/Study/OS/Disk/canvas/RAID.canvas"
-    },
-    {
       "basename": "Semaphore",
       "path": "Projects/Study/OS/Concurrency/canvas/Semaphore.canvas"
-    },
-    {
-      "basename": "DeadLock",
-      "path": "Projects/Study/OS/Concurrency/canvas/DeadLock.canvas"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas"
     },
     {
       "basename": "JPA",
@@ -149,10 +169,6 @@
       "path": "Projects/Study/OS/Thread/canvas/Thread.canvas"
     },
     {
-      "basename": "컴퓨터 부팅 과정",
-      "path": "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
-    },
-    {
       "basename": "NAT",
       "path": "Projects/Study/Network/NAT/canvas/NAT.canvas"
     },
@@ -173,18 +189,6 @@
       "path": "Projects/Study/Java/final/canvas/fianl.canvas"
     },
     {
-      "basename": "웹 서버",
-      "path": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas"
-    },
-    {
-      "basename": "URL",
-      "path": "Projects/Study/HTTP/URL/canvas/URL.canvas"
-    },
-    {
-      "basename": "HTTP Connection",
-      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
-    },
-    {
       "basename": "트랜잭션 격리 수준",
       "path": "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Cache 전략",
       "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "Cgroups",
-      "path": "Projects/Study/Container/Docker/canvas/Cgroups.md"
     }
   ],
   "omittedPaths": [],

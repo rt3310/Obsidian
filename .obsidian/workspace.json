@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
                 "viewState": {
-                  "x": 1153.8348131708367,
-                  "y": 1002.6686510959573,
-                  "zoom": 0.09072473506132775
+                  "x": -63.434107955964464,
+                  "y": 1361.0543764460963,
+                  "zoom": -1.6179748347965737
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+                "file": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas"
               }
             }
           }
@@ -163,10 +163,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff0b77d002117f6a",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+    "Projects/Study/HTTP/URL/canvas/URL.canvas",
+    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
+    "Projects/Study/OS/Disk/canvas/RAID.canvas",
+    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
+    "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "Projects/Study/OS/Concurrency/canvas/DeadLock.canvas",
+    "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas",
+    "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
+    "Projects/Study/OS/memory/canvas/메모리 과할당(Over Allocating).md",
+    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
+    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md",
     "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
@@ -180,16 +190,7 @@
     "Projects/Study/DataStructure/해볼 것.md",
     "Projects/Plan/어떻게 공부해야 할까.md",
     "Projects/Study/DataStructure",
-    "Projects/Study/무제 파일.canvas",
-    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "무제 폴더",
-    "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
-    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
-    "Projects/Study/Container/Docker/canvas/Docker.canvas",
-    "Projects/Study/OS/Thrashing/canvas/무제 파일.canvas",
-    "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
-    "Projects/Study/OS/Disk/canvas/RAID.canvas",
-    "Projects/Study/OS/Concurrency/canvas/Semaphore.canvas",
     "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md",
     "Container",
     "HTTP",
@@ -219,7 +220,6 @@
     "Projects/Study/Web/Session/resources/Sticky Session.png",
     "Projects/Study/Web/Session/resources/Sticky Session Problem.png",
     "Projects/Study/Web/Session/resources/Session per WAS.png",
-    "Projects/Study/Web/Session/resources/Integrated Session Storage.png",
-    "Projects/Study/Web/HttpSession/md/Stateless.md"
+    "Projects/Study/Web/Session/resources/Integrated Session Storage.png"
   ]
 }
