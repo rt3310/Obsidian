@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "인덱스 된 주소 지정 방식(Indexed addressing mode)",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/인덱스 된 주소 지정 방식(Indexed addressing mode).md"
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
     },
     {
       "basename": "주소 지정 방식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md"
+    },
+    {
+      "basename": "인덱스 된 주소 지정 방식(Indexed addressing mode)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/인덱스 된 주소 지정 방식(Indexed addressing mode).md"
     },
     {
       "basename": "상대 주소 지정 방식(Relative addressing mode)",
@@ -27,10 +31,6 @@
     {
       "basename": "의미 주소 지정 방식(Implied mode)",
       "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md"
-    },
-    {
-      "basename": "주소 지정 방식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md"
     },
     {
       "basename": "주소 지정방식 필드를 가진 명령어 형식",

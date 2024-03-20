@@ -15,9 +15,9 @@
               "state": {
                 "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
                 "viewState": {
-                  "x": 116.72113197868737,
-                  "y": 708.8499077286539,
-                  "zoom": -0.6398234162727994
+                  "x": 1413.982916616716,
+                  "y": 517.6248062392825,
+                  "zoom": -0.37686821560065054
                 }
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/인덱스 된 주소 지정 방식(Indexed addressing mode).md",
+                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/인덱스 된 주소 지정 방식(Indexed addressing mode).md",
+                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/인덱스 된 주소 지정 방식(Indexed addressing mode).md"
+                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
               }
             }
           }
