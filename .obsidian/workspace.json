@@ -48,9 +48,14 @@
             "id": "09fd443c7e22eb06",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320183526.png"
+                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "viewState": {
+                  "x": -1176.264153047407,
+                  "y": 576.070004153926,
+                  "zoom": -0.8479772551056177
+                }
               }
             }
           }
@@ -113,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 281.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -129,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320183526.png",
+                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320183526.png",
+                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -169,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320183526.png"
+                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
               }
             }
           },
@@ -212,11 +218,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "09fd443c7e22eb06",
   "lastOpenFiles": [
+    "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md",
+    "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320183526.png",
     "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320184242.png",
     "Projects/Study/ComputerStructure/주소 지정 방식/resources",
-    "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320183526.png",
     "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정 방식.md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md",
@@ -266,7 +274,6 @@
     "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
     "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas",
     "Projects/Plan/무제 파일.canvas",
-    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
     "Projects/Study/Java/HashMap/resources/Pasted image 20240313181553.png",
     "Projects/Study/DB/Cache/resources/Cache Stampede 현상.png"
   ]
