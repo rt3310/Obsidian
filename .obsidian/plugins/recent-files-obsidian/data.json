@@ -1,204 +1,180 @@
 {
   "recentFiles": [
     {
-      "basename": "주소 지정 방식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
-    },
-    {
-      "basename": "주소 지정 방식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md"
-    },
-    {
-      "basename": "인덱스 된 주소 지정 방식(Indexed addressing mode)",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/인덱스 된 주소 지정 방식(Indexed addressing mode).md"
-    },
-    {
-      "basename": "상대 주소 지정 방식(Relative addressing mode)",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/상대 주소 지정 방식(Relative addressing mode).md"
-    },
-    {
-      "basename": "레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md"
-    },
-    {
-      "basename": "직접 주소 지정 방식 & 간접 주소 지정 방식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/직접 주소 지정 방식 & 간접 주소 지정 방식.md"
-    },
-    {
-      "basename": "즉치 주소 지정 방식(Immediate mode)",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/즉치 주소 지정 방식(Immediate mode).md"
-    },
-    {
-      "basename": "의미 주소 지정 방식(Implied mode)",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md"
-    },
-    {
-      "basename": "주소 지정방식 필드를 가진 명령어 형식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정방식 필드를 가진 명령어 형식.md"
-    },
-    {
-      "basename": "유휴주소",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/유휴주소.md"
-    },
-    {
-      "basename": "주소 지정(Addressing)",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정(Addressing).md"
-    },
-    {
-      "basename": "Pasted image 20240319145444",
-      "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png"
-    },
-    {
-      "basename": "Pasted image 20240319144924",
-      "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png"
-    },
-    {
-      "basename": "SQL",
-      "path": "Projects/Study/DB/SQL/canvas/SQL.canvas"
-    },
-    {
-      "basename": "인덱스를 사용할 수 없는 경우",
-      "path": "Projects/Study/DB/SQL/md/인덱스를 사용할 수 없는 경우.md"
-    },
-    {
-      "basename": "웹 서버",
-      "path": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas"
-    },
-    {
-      "basename": "URL",
-      "path": "Projects/Study/HTTP/URL/canvas/URL.canvas"
-    },
-    {
-      "basename": "HTTP Connection",
-      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
-    },
-    {
-      "basename": "RAID",
-      "path": "Projects/Study/OS/Disk/canvas/RAID.canvas"
-    },
-    {
-      "basename": "자주 하는 실수 모음",
-      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
-    },
-    {
-      "basename": "컴퓨터 부팅 과정",
-      "path": "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
-    },
-    {
-      "basename": "DeadLock",
-      "path": "Projects/Study/OS/Concurrency/canvas/DeadLock.canvas"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas"
-    },
-    {
-      "basename": "메모리 관리",
-      "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
-    },
-    {
-      "basename": "메모리 과할당(Over Allocating)",
-      "path": "Projects/Study/OS/memory/canvas/메모리 과할당(Over Allocating).md"
-    },
-    {
-      "basename": "레지스터",
-      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
-    },
-    {
-      "basename": "32비트 vs 64비트",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
-    },
-    {
-      "basename": "URL 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/URL 인코딩.md"
-    },
-    {
-      "basename": "Base64 인코딩 단점",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
-    },
-    {
-      "basename": "Base64 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩.md"
-    },
-    {
-      "basename": "QP 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/QP 인코딩.md"
-    },
-    {
-      "basename": "유니코드 변환 형식",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
-    },
-    {
-      "basename": "UTF-8",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/UTF-8.md"
-    },
-    {
-      "basename": "유니코드",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드.md"
-    },
-    {
-      "basename": "아스키 코드",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/아스키 코드.md"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md"
-    },
-    {
-      "basename": "32비트의 메모리 한계",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md"
-    },
-    {
-      "basename": "컴퓨터 시간 원리",
-      "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
-    },
-    {
       "basename": "Quick Sort vs Merge Sort",
       "path": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md"
-    },
-    {
-      "basename": "HashMap",
-      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
-    },
-    {
-      "basename": "HashMap vs HashTable",
-      "path": "Projects/Study/Java/HashMap/md/HashMap vs HashTable.md"
-    },
-    {
-      "basename": "보조 해시 함수",
-      "path": "Projects/Study/Java/HashMap/md/보조 해시 함수.md"
     },
     {
       "basename": "해볼 것",
       "path": "Projects/Study/DataStructure/해볼 것.md"
     },
     {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
-    },
-    {
       "basename": "무제 파일",
       "path": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas"
     },
     {
-      "basename": "Docker",
-      "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
+      "basename": "32비트의 메모리 한계",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md"
+    },
+    {
+      "basename": "32비트 vs 64비트",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
+    },
+    {
+      "basename": "컴퓨터 시간 원리",
+      "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "RTC",
+      "path": "Projects/Study/ComputerStructure/Clock/md/RTC.md"
+    },
+    {
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+    },
+    {
+      "basename": "Base64 인코딩",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩.md"
     },
     {
       "basename": "무제 파일",
-      "path": "Projects/Study/OS/Thrashing/canvas/무제 파일.canvas"
+      "path": "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas"
     },
     {
-      "basename": "Semaphore",
-      "path": "Projects/Study/OS/Concurrency/canvas/Semaphore.canvas"
+      "basename": "부동소수점",
+      "path": "Projects/Study/ComputerStructure/실수/md/부동소수점.md"
     },
     {
-      "basename": "JPA",
-      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md"
+    },
+    {
+      "basename": "아스키 코드",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/아스키 코드.md"
+    },
+    {
+      "basename": "URL 인코딩",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/URL 인코딩.md"
+    },
+    {
+      "basename": "QP 인코딩",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/QP 인코딩.md"
+    },
+    {
+      "basename": "Base64 인코딩 단점",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
+    },
+    {
+      "basename": "UTF-8",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/UTF-8.md"
+    },
+    {
+      "basename": "유니코드 변환 형식",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
+    },
+    {
+      "basename": "Pasted image 20240315030339",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/resources/Pasted image 20240315030339.png"
+    },
+    {
+      "basename": "유니코드",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드.md"
+    },
+    {
+      "basename": "고정소수점",
+      "path": "Projects/Study/ComputerStructure/실수/md/고정소수점.md"
+    },
+    {
+      "basename": "실수 표현 방식",
+      "path": "Projects/Study/ComputerStructure/실수/md/실수 표현 방식.md"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
+    },
+    {
+      "basename": "The Server",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Server.md"
+    },
+    {
+      "basename": "톰캣 아키텍처",
+      "path": "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md"
+    },
+    {
+      "basename": "The Service",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Service.md"
+    },
+    {
+      "basename": "Engine",
+      "path": "Projects/Study/Web/Tomcat/canvas/Engine.md"
+    },
+    {
+      "basename": "Realm",
+      "path": "Projects/Study/Web/Tomcat/canvas/Realm.md"
+    },
+    {
+      "basename": "The Valves",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Valves.md"
+    },
+    {
+      "basename": "The Connectors",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Connectors.md"
+    },
+    {
+      "basename": "The Context",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Context.md"
+    },
+    {
+      "basename": "The Host",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Host.md"
+    },
+    {
+      "basename": "The Loggers",
+      "path": "Projects/Study/Web/Tomcat/canvas/The Loggers.md"
+    },
+    {
+      "basename": "서블릿 컨테이너",
+      "path": "Projects/Study/Web/Tomcat/canvas/서블릿 컨테이너.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.md"
+    },
+    {
+      "basename": "HttpSession",
+      "path": "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas"
+    },
+    {
+      "basename": "IP 패킷 구성",
+      "path": "Projects/Study/HTTP/Connection/md/IP 패킷 구성.md"
+    },
+    {
+      "basename": "ZonedDateTime",
+      "path": "Projects/Study/ComputerStructure/Clock/md/ZonedDateTime.md"
+    },
+    {
+      "basename": "HTTP 커넥션",
+      "path": "Projects/Study/HTTP/Connection/md/HTTP 커넥션.md"
+    },
+    {
+      "basename": "자주 하는 실수 모음",
+      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
+    },
+    {
+      "basename": "HashMap",
+      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
     }
   ],
   "omittedPaths": [],
