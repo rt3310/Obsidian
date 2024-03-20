@@ -1,16 +1,16 @@
 {
 	"nodes":[
-		{"id":"a2970e9b635db22c","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md","x":-259,"y":-350,"width":339,"height":350},
-		{"id":"d08f465b03bbd146","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/아스키 코드.md","x":180,"y":-480,"width":588,"height":195},
 		{"id":"e9ab82925b18a1d7","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/유니코드.md","x":216,"y":-29,"width":561,"height":298},
-		{"id":"1d4e4771506b3acc","x":1819,"y":609,"width":741,"height":306,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/QP 인코딩.md"},
-		{"id":"95c3a627f1a12b7f","x":1875,"y":269,"width":630,"height":198,"color":"3","type":"text","text":"UTF-8은 문자(예: A)를 표현하는 비트들로부터 나온 숫자들(0x0041)을 표현하는 숫자들(UTF-8로 인코딩한 값)을 표현하기 위해 숫자(실제 UTF-8로 인코딩한 0x41)들을 사용한다. 하지만 이 뿐만 아니라 문자를 사용해 수를 표현할 수도 있다.\n\n이전에 2진 데이터를 보내고 싶었지만 2진 데이터를 직접 보내는 것은 단순하지 않았다. 왜냐면 아스키 코드 중 상당수가 제어 문자로 예약되어 있었고, 이런 제어 문자는 시스템에 따라 처리하는 방식이 달랐기 때문이다. 그리고 몇몇 시스템은 7비트만 송수신 할 수 있었다."},
-		{"id":"62929df1e31a14cc","x":2859,"y":338,"width":613,"height":402,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩.md"},
-		{"id":"9570b2db7f4a4e21","x":2859,"y":915,"width":563,"height":322,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/URL 인코딩.md"},
+		{"id":"1d4e4771506b3acc","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/QP 인코딩.md","x":1819,"y":609,"width":741,"height":306},
+		{"id":"95c3a627f1a12b7f","type":"text","text":"UTF-8은 문자(예: A)를 표현하는 비트들로부터 나온 숫자들(0x0041)을 표현하는 숫자들(UTF-8로 인코딩한 값)을 표현하기 위해 숫자(실제 UTF-8로 인코딩한 0x41)들을 사용한다. 하지만 이 뿐만 아니라 문자를 사용해 수를 표현할 수도 있다.\n\n이전에 2진 데이터를 보내고 싶었지만 2진 데이터를 직접 보내는 것은 단순하지 않았다. 왜냐면 아스키 코드 중 상당수가 제어 문자로 예약되어 있었고, 이런 제어 문자는 시스템에 따라 처리하는 방식이 달랐기 때문이다. 그리고 몇몇 시스템은 7비트만 송수신 할 수 있었다.","x":1875,"y":269,"width":630,"height":198,"color":"3"},
+		{"id":"62929df1e31a14cc","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩.md","x":2859,"y":338,"width":613,"height":402},
+		{"id":"9570b2db7f4a4e21","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/URL 인코딩.md","x":2859,"y":915,"width":563,"height":322},
 		{"id":"e0b0e3bb41d6a856","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md","x":239,"y":532,"width":515,"height":458},
 		{"id":"6e39968c85fbcb08","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/UTF-8.md","x":1039,"y":443,"width":589,"height":637},
-		{"id":"c9c37480d8bc5832","x":2884,"y":-400,"width":563,"height":477,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"},
-		{"id":"93e96c799b915ef0","x":3604,"y":-347,"width":687,"height":370,"type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩의 단점을 감수하고도 왜 사용하는가.md"}
+		{"id":"c9c37480d8bc5832","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md","x":2884,"y":-400,"width":563,"height":477},
+		{"id":"93e96c799b915ef0","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩의 단점을 감수하고도 왜 사용하는가.md","x":3604,"y":-347,"width":687,"height":370},
+		{"id":"d08f465b03bbd146","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/아스키 코드.md","x":216,"y":-447,"width":588,"height":195},
+		{"id":"a2970e9b635db22c","type":"file","file":"Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md","x":-160,"y":-200,"width":177,"height":121}
 	],
 	"edges":[
 		{"id":"30935868b7c40947","fromNode":"a2970e9b635db22c","fromSide":"right","toNode":"d08f465b03bbd146","toSide":"left"},

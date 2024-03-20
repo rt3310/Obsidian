@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "viewState": {
-                  "x": 516.1954996291131,
-                  "y": 1065.028784138707,
-                  "zoom": -0.406291907928485
+                  "x": 1987.3122960373528,
+                  "y": 720.5415543485445,
+                  "zoom": 0.12001526502069228
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
               }
             }
           }
@@ -165,6 +165,9 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
+    "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md",
+    "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Pasted image 20240319145444.png",
     "Pasted image 20240319144924.png",
@@ -186,9 +189,7 @@
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
     "Projects/Study/OS/Disk/canvas/RAID.canvas",
     "Projects/Study/OS/Concurrency/canvas/Semaphore.canvas",
-    "Projects/Study/OS/Concurrency/canvas/DeadLock.canvas",
     "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md",
-    "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
     "Container",
     "HTTP",
     "OS",

@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+    },
+    {
+      "basename": "유니코드 변환 형식",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
+    },
+    {
+      "basename": "UTF-8",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/UTF-8.md"
+    },
+    {
+      "basename": "유니코드",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드.md"
+    },
+    {
+      "basename": "아스키 코드",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/아스키 코드.md"
+    },
+    {
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md"
+    },
+    {
+      "basename": "32비트 vs 64비트",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
+    },
+    {
+      "basename": "32비트의 메모리 한계",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md"
+    },
+    {
       "basename": "컴퓨터 시간 원리",
       "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
     },
@@ -147,14 +179,6 @@
     {
       "basename": "Cache 전략",
       "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "32비트 vs 64비트",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
     },
     {
       "basename": "Cgroups",
