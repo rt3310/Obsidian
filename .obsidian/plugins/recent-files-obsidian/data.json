@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "의미 주소 지정 방식(Implied mode)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md"
+    },
+    {
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
+    },
+    {
+      "basename": "주소 지정방식 필드를 가진 명령어 형식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정방식 필드를 가진 명령어 형식.md"
+    },
+    {
+      "basename": "유휴주소",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/유휴주소.md"
+    },
+    {
+      "basename": "주소 지정(Addressing)",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정(Addressing).md"
+    },
+    {
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md"
+    },
+    {
+      "basename": "Pasted image 20240319145444",
+      "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png"
+    },
+    {
+      "basename": "Pasted image 20240319144924",
+      "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png"
+    },
+    {
       "basename": "SQL",
       "path": "Projects/Study/DB/SQL/canvas/SQL.canvas"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "Virtual Memory",
       "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md"
-    },
-    {
-      "basename": "Thread",
-      "path": "Projects/Study/OS/Thread/canvas/Thread.canvas"
-    },
-    {
-      "basename": "NAT",
-      "path": "Projects/Study/Network/NAT/canvas/NAT.canvas"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas"
-    },
-    {
-      "basename": "Virtual Thread",
-      "path": "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas"
-    },
-    {
-      "basename": "JVM",
-      "path": "Projects/Study/Java/JVM/canvas/JVM.canvas"
-    },
-    {
-      "basename": "fianl",
-      "path": "Projects/Study/Java/final/canvas/fianl.canvas"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     }
   ],
   "omittedPaths": [],

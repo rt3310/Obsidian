@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"c4bca20bcb8b9ee0","x":321,"y":-101,"width":719,"height":361,"type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md"},
+		{"id":"6433ba0950ca58fc","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md","x":-191,"y":-14,"width":319,"height":214},
+		{"id":"0ba7cd335a108337","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정(Addressing).md","x":-288,"y":-239,"width":513,"height":115},
+		{"id":"ffe66473372fb2ae","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/유휴주소.md","x":-211,"y":-440,"width":359,"height":85},
+		{"id":"eb0c2e015559d6c2","type":"file","file":"Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정방식 필드를 가진 명령어 형식.md","x":-940,"y":-337,"width":463,"height":311}
+	],
+	"edges":[
+		{"id":"4ab3b504e5b129b7","fromNode":"0ba7cd335a108337","fromSide":"bottom","toNode":"6433ba0950ca58fc","toSide":"top"},
+		{"id":"aeedb116d78ad43a","fromNode":"6433ba0950ca58fc","fromSide":"right","toNode":"c4bca20bcb8b9ee0","toSide":"left"},
+		{"id":"1d636c19d4f55cdf","fromNode":"0ba7cd335a108337","fromSide":"top","toNode":"ffe66473372fb2ae","toSide":"bottom"},
+		{"id":"8c18864037560b9c","fromNode":"0ba7cd335a108337","fromSide":"left","toNode":"eb0c2e015559d6c2","toSide":"right"}
+	]
+}

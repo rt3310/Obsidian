@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Projects/Study/DB/SQL/canvas/SQL.canvas",
+                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
                 "viewState": {
-                  "x": 561.2287453920138,
-                  "y": 3258.5166236911277,
-                  "zoom": -0.4897438889706105
+                  "x": 523.6818774610094,
+                  "y": 140.2992311044649,
+                  "zoom": -0.3832244102160135
                 }
               }
             }
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/DB/SQL/canvas/SQL.canvas",
+                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/DB/SQL/canvas/SQL.canvas",
+                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/DB/SQL/canvas/SQL.canvas"
+                "file": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md"
               }
             }
           }
@@ -165,6 +166,19 @@
   },
   "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/의미 주소 지정 방식(Implied mode).md",
+    "Pasted image 20240320183526.png",
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정방식 필드를 가진 명령어 형식.md",
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/유휴주소.md",
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.md",
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정(Addressing).md",
+    "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas",
+    "Projects/Study/ComputerStructure/주소 지정 방식",
+    "무제 폴더",
+    "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
+    "Projects/Study/DB/SQL/canvas/SQL.canvas",
     "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
     "Projects/Study/HTTP/URL/canvas/URL.canvas",
     "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
@@ -175,14 +189,9 @@
     "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
     "Projects/Study/OS/memory/canvas/메모리 과할당(Over Allocating).md",
-    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
-    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md",
-    "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
-    "Pasted image 20240319145444.png",
-    "Pasted image 20240319144924.png",
     "Projects/Study/Algorithm/정렬",
     "Projects/Study/Java/HashMap/md/HashMap vs HashTable.md",
     "Projects/Study/Java/HashMap/md/보조 해시 함수.md",
@@ -190,14 +199,11 @@
     "Projects/Study/DataStructure/해볼 것.md",
     "Projects/Plan/어떻게 공부해야 할까.md",
     "Projects/Study/DataStructure",
-    "무제 폴더",
     "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md",
     "Container",
     "HTTP",
     "OS",
     "Network",
-    "ComputerStructure",
-    "DB",
     "Projects/Study/Container/Docker/canvas/Cgroups.md",
     "Projects/Study/Container/Docker/canvas/컨테이너 가상화.md",
     "Projects/Plan/공부할 것들.md",
@@ -209,17 +215,12 @@
     "Projects/Study/Web/Tomcat/canvas/The Server.md",
     "Projects/Study/Web/Tomcat/canvas/The Loggers.md",
     "Projects/Study/Web/Tomcat/canvas/The Host.md",
-    "Projects/Study/Web/Tomcat/canvas/The Context.md",
-    "Projects/Study/Web/Tomcat/canvas/The Connectors.md",
-    "Projects/Study/Web/Tomcat/canvas/Realm.md",
-    "Projects/Study/Web/Tomcat/canvas/Engine.md",
     "Projects/Study/Web/Tomcat/Pasted image 20240314164110.png",
     "Projects/Study/Web/Session/resources/primary-secondary session replication.png",
     "Projects/Study/Web/Session/resources/memcached.png",
     "Projects/Study/Web/Session/resources/all-to-all session replication.png",
     "Projects/Study/Web/Session/resources/Sticky Session.png",
     "Projects/Study/Web/Session/resources/Sticky Session Problem.png",
-    "Projects/Study/Web/Session/resources/Session per WAS.png",
-    "Projects/Study/Web/Session/resources/Integrated Session Storage.png"
+    "Projects/Study/Web/Session/resources/Session per WAS.png"
   ]
 }
