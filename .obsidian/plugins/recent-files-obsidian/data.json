@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SQL",
+      "path": "Projects/Study/DB/SQL/canvas/SQL.canvas"
+    },
+    {
+      "basename": "인덱스를 사용할 수 없는 경우",
+      "path": "Projects/Study/DB/SQL/md/인덱스를 사용할 수 없는 경우.md"
+    },
+    {
       "basename": "웹 서버",
       "path": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "트랜잭션 격리 수준",
       "path": "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "정규화",
-      "path": "Projects/Study/DB/Normalization/canvas/정규화.canvas"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
     }
   ],
   "omittedPaths": [],

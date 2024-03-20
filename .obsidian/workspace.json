@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
+                "file": "Projects/Study/DB/SQL/canvas/SQL.canvas",
                 "viewState": {
-                  "x": -63.434107955964464,
-                  "y": 1361.0543764460963,
-                  "zoom": -1.6179748347965737
+                  "x": 561.2287453920138,
+                  "y": 3258.5166236911277,
+                  "zoom": -0.4897438889706105
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
+                "file": "Projects/Study/DB/SQL/canvas/SQL.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
+                "file": "Projects/Study/DB/SQL/canvas/SQL.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas"
+                "file": "Projects/Study/DB/SQL/canvas/SQL.canvas"
               }
             }
           }
@@ -163,8 +163,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "ff0b77d002117f6a",
   "lastOpenFiles": [
+    "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
     "Projects/Study/HTTP/URL/canvas/URL.canvas",
     "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
     "Projects/Study/OS/Disk/canvas/RAID.canvas",
@@ -182,7 +183,6 @@
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Pasted image 20240319145444.png",
     "Pasted image 20240319144924.png",
-    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
     "Projects/Study/Algorithm/정렬",
     "Projects/Study/Java/HashMap/md/HashMap vs HashTable.md",
     "Projects/Study/Java/HashMap/md/보조 해시 함수.md",
