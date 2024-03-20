@@ -15,9 +15,9 @@
               "state": {
                 "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "viewState": {
-                  "x": 3124.164363064175,
-                  "y": -135.91286980157182,
-                  "zoom": 0.3934372641642889
+                  "x": 1153.8348131708367,
+                  "y": 1002.6686510959573,
+                  "zoom": 0.09072473506132775
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
               }
             }
           }

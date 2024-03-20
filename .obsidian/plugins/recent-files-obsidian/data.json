@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Base64 인코딩 단점",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
-    },
-    {
       "basename": "텍스트 표현",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+    },
+    {
+      "basename": "URL 인코딩",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/URL 인코딩.md"
+    },
+    {
+      "basename": "Base64 인코딩 단점",
+      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
     },
     {
       "basename": "Base64 인코딩",
@@ -195,10 +199,6 @@
     {
       "basename": "Cgroups",
       "path": "Projects/Study/Container/Docker/canvas/Cgroups.md"
-    },
-    {
-      "basename": "컨테이너 가상화",
-      "path": "Projects/Study/Container/Docker/canvas/컨테이너 가상화.md"
     }
   ],
   "omittedPaths": [],
