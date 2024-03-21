@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Cache 전략",
+      "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "Write Back 패턴",
+      "path": "Projects/Study/DB/Cache/md/Write Back 패턴.md"
+    },
+    {
+      "basename": "Write Through 패턴",
+      "path": "Projects/Study/DB/Cache/md/Write Through 패턴.md"
+    },
+    {
+      "basename": "Write Around 패턴",
+      "path": "Projects/Study/DB/Cache/md/Write Around 패턴.md"
+    },
+    {
+      "basename": "Look Aside 패턴",
+      "path": "Projects/Study/DB/Cache/md/Look Aside 패턴.md"
+    },
+    {
+      "basename": "Read Through 패턴",
+      "path": "Projects/Study/DB/Cache/md/Read Through 패턴.md"
+    },
+    {
+      "basename": "Cache Stampede 현상",
+      "path": "Projects/Study/DB/Cache/md/Cache Stampede 현상.md"
+    },
+    {
+      "basename": "캐시 제거 방식 지침",
+      "path": "Projects/Study/DB/Cache/md/캐시 제거 방식 지침.md"
+    },
+    {
+      "basename": "캐시 공유 방식 지침",
+      "path": "Projects/Study/DB/Cache/md/캐시 공유 방식 지침.md"
+    },
+    {
+      "basename": "캐시 가용성 지침",
+      "path": "Projects/Study/DB/Cache/md/캐시 가용성 지침.md"
+    },
+    {
+      "basename": "Read Through + Write Around 조합",
+      "path": "Projects/Study/DB/Cache/md/Read Through + Write Around 조합.md"
+    },
+    {
+      "basename": "Read Through + Write Through 조합",
+      "path": "Projects/Study/DB/Cache/md/Read Through + Write Through 조합.md"
+    },
+    {
+      "basename": "Look Aside + Write Around 조합",
+      "path": "Projects/Study/DB/Cache/md/Look Aside + Write Around 조합.md"
+    },
+    {
       "basename": "Virtual Memory",
       "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
@@ -147,54 +199,6 @@
     {
       "basename": "Pasted image 20240315030339",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/resources/Pasted image 20240315030339.png"
-    },
-    {
-      "basename": "유니코드",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드.md"
-    },
-    {
-      "basename": "고정소수점",
-      "path": "Projects/Study/ComputerStructure/실수/md/고정소수점.md"
-    },
-    {
-      "basename": "실수 표현 방식",
-      "path": "Projects/Study/ComputerStructure/실수/md/실수 표현 방식.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "Tomcat",
-      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
-    },
-    {
-      "basename": "The Server",
-      "path": "Projects/Study/Web/Tomcat/canvas/The Server.md"
-    },
-    {
-      "basename": "톰캣 아키텍처",
-      "path": "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md"
-    },
-    {
-      "basename": "The Service",
-      "path": "Projects/Study/Web/Tomcat/canvas/The Service.md"
-    },
-    {
-      "basename": "Engine",
-      "path": "Projects/Study/Web/Tomcat/canvas/Engine.md"
-    },
-    {
-      "basename": "Realm",
-      "path": "Projects/Study/Web/Tomcat/canvas/Realm.md"
-    },
-    {
-      "basename": "The Valves",
-      "path": "Projects/Study/Web/Tomcat/canvas/The Valves.md"
     }
   ],
   "omittedPaths": [],

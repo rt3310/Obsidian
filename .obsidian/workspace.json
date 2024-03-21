@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas",
                 "viewState": {
-                  "x": -778.8261484107752,
-                  "y": 804.9732013228249,
-                  "zoom": 0.1516963802191098
+                  "x": 957.4839727089351,
+                  "y": 1539.718826230995,
+                  "zoom": -0.14062577304178792
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
+                "file": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
               }
             }
           },
@@ -181,11 +181,11 @@
   },
   "active": "092290aa057533f3",
   "lastOpenFiles": [
+    "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/OS/VirtualMemory/canvas/메모리 영역.md",
     "Projects/Study/OS/VirtualMemory/canvas/무제 파일.canvas",
     "Projects/Study/HTTP/Connection/md/HTTP 커넥션.md",
     "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
-    "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Pasted image 20240321034804.png",
     "Pasted image 20240321034718.png",
     "Pasted image 20240321034705.png",
