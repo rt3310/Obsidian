@@ -11,9 +11,11 @@
             "id": "8a148532a7dbd1c3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.11"
+                "file": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md"
+              }
             }
           },
           {
@@ -164,6 +170,10 @@
   },
   "active": "8a148532a7dbd1c3",
   "lastOpenFiles": [
+    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
+    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+    "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
+    "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
     "Pasted image 20240321034705.png",
     "conflict-files-obsidian-git.md",
     "Projects/Study/OS/VirtualMemory/canvas/메모리 영역.md",
@@ -196,15 +206,12 @@
     "Projects/Study/ComputerStructure/주소 지정 방식/canvas/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md",
     "Pasted image 20240320184242.png",
     "Pasted image 20240320183526.png",
-    "Projects/Study/ComputerStructure/CPU/MCU, MPU, CPU의 차이 이해하기.md",
     "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
     "Projects/Study/ComputerStructure/CPU",
-    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/간접 주소 지정 방식.md",
     "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
     "Projects/Study/ComputerStructure/주소 지정 방식/canvas",
     "Projects/Study/ComputerStructure/주소 지정 방식",
     "무제 폴더",
-    "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
     "Projects/Study/DB/SQL/canvas/SQL.canvas",
     "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
     "Projects/Study/HTTP/URL/canvas/URL.canvas",
