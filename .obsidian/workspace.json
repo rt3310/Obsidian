@@ -11,11 +11,14 @@
             "id": "8a148532a7dbd1c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/Study/Spring/JPA/canvas/JPA.canvas",
+                "viewState": {
+                  "x": -432.9354219709123,
+                  "y": -117.06466450282502,
+                  "zoom": -0.4079353835936298
+                }
               }
             }
           }
@@ -93,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+                "file": "Projects/Study/Spring/JPA/canvas/JPA.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+                "file": "Projects/Study/Spring/JPA/canvas/JPA.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md"
+                "file": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
               }
             }
           },
@@ -170,8 +173,8 @@
   },
   "active": "8a148532a7dbd1c3",
   "lastOpenFiles": [
-    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
     "Pasted image 20240321034705.png",
