@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md",
+                "file": "Projects/Info/성능 예산.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md",
+                "file": "Projects/Info/성능 예산.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md",
+                "file": "Projects/Info/성능 예산.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md"
+                "file": "Projects/Info/성능 예산.md"
               }
             }
           },
@@ -178,13 +178,15 @@
   },
   "active": "092290aa057533f3",
   "lastOpenFiles": [
+    "Projects/Posting/DB/무제 파일.md",
+    "Projects/Info/성능 예산.md",
+    "Projects/Info",
     "conflict-files-obsidian-git.md",
     "Projects/Study/ComputerStructure/Memory/md/32비트의 메모리 한계.md",
     "Projects/Study/ComputerStructure/Memory/md/32비트 vs 64비트.md",
     "Projects/Study/ComputerStructure/Memory/md",
     "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
     "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
-    "Projects/Posting/DB/무제 파일.md",
     "Projects/Posting/DB",
     "Projects/Posting",
     "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
@@ -226,7 +228,6 @@
     "Projects/Study/Java/HashMap/md/보조 해시 함수.md",
     "Projects/Study/Java/HashMap/md",
     "Projects/Study/DataStructure",
-    "Projects/Study/Algorithm/정렬",
     "Pasted image 20240319144924.png",
     "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
