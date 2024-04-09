@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "무제 파일",
+      "path": "Projects/Posting/DB/무제 파일.md"
+    },
+    {
+      "basename": "JPA",
+      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
+    },
+    {
+      "basename": "톰캣 아키텍처",
+      "path": "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md"
+    },
+    {
+      "basename": "32비트의 메모리 한계",
+      "path": "Projects/Study/ComputerStructure/Memory/md/32비트의 메모리 한계.md"
+    },
+    {
+      "basename": "32비트 vs 64비트",
+      "path": "Projects/Study/ComputerStructure/Memory/md/32비트 vs 64비트.md"
+    },
+    {
+      "basename": "32bit vs 64bit",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas"
+    },
+    {
+      "basename": "레지스터",
+      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
+    },
+    {
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
+    },
+    {
+      "basename": "Pasted image 20240321034804",
+      "path": "Pasted image 20240321034804.png"
+    },
+    {
+      "basename": "Pasted image 20240321034718",
+      "path": "Pasted image 20240321034718.png"
+    },
+    {
+      "basename": "Pasted image 20240321034705",
+      "path": "Pasted image 20240321034705.png"
+    },
+    {
       "basename": "어떻게 공부해야 할까",
       "path": "Projects/Plan/어떻게 공부해야 할까.md"
     },
     {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
-    },
-    {
-      "basename": "JPA",
-      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
     },
     {
       "basename": "ORM",
@@ -31,10 +71,6 @@
     {
       "basename": "Pasted image 20240319144924",
       "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png"
-    },
-    {
-      "basename": "주소 지정 방식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
     },
     {
       "basename": "Pasted image 20240319145444",
@@ -85,14 +121,6 @@
       "path": "Projects/Study/OS/memory/canvas/메모리 과할당(Over Allocating).md"
     },
     {
-      "basename": "레지스터",
-      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
-    },
-    {
-      "basename": "32비트 vs 64비트",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md"
-    },
-    {
       "basename": "텍스트 표현",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
     },
@@ -133,10 +161,6 @@
       "path": "Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md"
     },
     {
-      "basename": "32비트의 메모리 한계",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md"
-    },
-    {
       "basename": "컴퓨터 시간 원리",
       "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
     },
@@ -155,10 +179,6 @@
     {
       "basename": "해볼 것",
       "path": "Projects/Study/DataStructure/해볼 것.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas"
     },
     {
       "basename": "Docker",
