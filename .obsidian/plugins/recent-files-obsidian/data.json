@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
       "basename": "JPA",
       "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
     },
@@ -147,10 +155,6 @@
     {
       "basename": "해볼 것",
       "path": "Projects/Study/DataStructure/해볼 것.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
     },
     {
       "basename": "무제 파일",
