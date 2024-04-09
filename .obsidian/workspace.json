@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ec28fa70beb0d5d1",
+        "id": "d81aa96b4c8acdd3",
         "type": "tabs",
         "children": [
           {
-            "id": "12bd2db94213ec9d",
+            "id": "e79b501905b71259",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Posting/DB/무제 파일.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -93,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/Posting/DB/무제 파일.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,10 +161,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "12bd2db94213ec9d",
+  "active": "e79b501905b71259",
   "lastOpenFiles": [
-    "Projects/Posting/DB/무제 파일 1.md",
     "Projects/Posting/DB/무제 파일.md",
+    "Projects/Posting/DB/무제 파일 1.md",
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
     "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md",
     "Projects/Study/ComputerStructure/Memory/md/32비트의 메모리 한계.md",
