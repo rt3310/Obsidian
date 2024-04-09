@@ -1,9 +1,9 @@
 {
   "commitMessage": "obsidian backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 5,
+  "autoSaveInterval": 3,
   "autoPushInterval": 10,
-  "autoPullInterval": 5,
+  "autoPullInterval": 3,
   "autoPullOnBoot": true,
   "disablePush": false,
   "pullBeforePush": true,

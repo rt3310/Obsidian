@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d81aa96b4c8acdd3",
+        "id": "acce2d13127a3def",
         "type": "tabs",
         "children": [
           {
-            "id": "e79b501905b71259",
+            "id": "092290aa057533f3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Posting/DB/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 281.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Posting/DB/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,8 +110,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Projects/Posting/DB/무제 파일.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -127,11 +132,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Projects/Posting/DB/무제 파일.md"
+              }
+            }
+          },
+          {
+            "id": "4810080cfe121616",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
               "state": {}
             }
           },
           {
-            "id": "92045e38dd7c49c8",
+            "id": "b52bee15fbe4345c",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -139,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,62 +176,62 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e79b501905b71259",
+  "active": "092290aa057533f3",
   "lastOpenFiles": [
-    "Projects/Posting/DB/무제 파일.md",
-    "Projects/Posting/DB/무제 파일 1.md",
-    "Projects/Study/Spring/JPA/canvas/JPA.canvas",
-    "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md",
+    "conflict-files-obsidian-git.md",
     "Projects/Study/ComputerStructure/Memory/md/32비트의 메모리 한계.md",
-    "Projects/Posting/DB",
-    "Projects/Posting",
     "Projects/Study/ComputerStructure/Memory/md/32비트 vs 64비트.md",
     "Projects/Study/ComputerStructure/Memory/md",
     "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
-    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
-    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
+    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+    "Projects/Posting/DB/무제 파일.md",
+    "Projects/Posting/DB",
+    "Projects/Posting",
+    "Projects/Study/ComputerStructure/Memory/canvas/무제 파일.canvas",
+    "Projects/Study/ComputerStructure/Memory/canvas/32비트의 메모리 한계.md",
+    "Projects/Study/ComputerStructure/Memory/canvas/32비트 vs 64비트.md",
+    "Projects/Study/DB/Cache/canvas/Cache 전략.canvas",
+    "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "Projects/Study/OS/VirtualMemory/canvas/메모리 영역.md",
+    "Projects/Study/OS/VirtualMemory/canvas/무제 파일.canvas",
+    "Projects/Study/HTTP/Connection/md/HTTP 커넥션.md",
     "Pasted image 20240321034804.png",
     "Pasted image 20240321034718.png",
     "Pasted image 20240321034705.png",
-    "Projects/Plan/어떻게 공부해야 할까.md",
-    "Projects/Plan/공부할 것들.md",
-    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
-    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
-    "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
-    "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
-    "conflict-files-obsidian-git.md",
-    "Projects/Study/OS/VirtualMemory/canvas/메모리 영역.md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320184242.png",
+    "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md",
     "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320183526.png",
+    "Projects/Study/ComputerStructure/주소 지정 방식/resources/Pasted image 20240320184242.png",
     "Projects/Study/ComputerStructure/주소 지정 방식/resources",
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
+    "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정 방식.md",
+    "Projects/Study/ComputerStructure/주소 지정 방식/md/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md",
+    "Projects/Study/ComputerStructure/주소 지정 방식/md",
+    "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정(Addressing).md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/직접 주소 지정 방식 & 간접 주소 지정 방식.md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/즉치 주소 지정 방식(Immediate mode).md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정방식 필드를 가진 명령어 형식.md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정(Addressing).md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정 방식.md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/인덱스 된 주소 지정 방식(Indexed addressing mode).md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/의미 주소 지정 방식(Implied mode).md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/유휴주소.md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/상대 주소 지정 방식(Relative addressing mode).md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md",
-    "Projects/Study/OS/VirtualMemory/canvas/무제 파일.md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/직접 주소 지정 방식 & 간접 주소 지정 방식.md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/즉치 주소 지정 방식(Immediate mode).md",
-    "Pasted image 20240320184242.png",
-    "Pasted image 20240320183526.png",
-    "Projects/Study/ComputerStructure/CPU",
-    "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
     "Projects/Study/ComputerStructure/주소 지정 방식/canvas",
     "Projects/Study/ComputerStructure/주소 지정 방식",
-    "무제 폴더",
-    "Projects/Study/DB/SQL/canvas/SQL.canvas",
-    "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
-    "Projects/Study/HTTP/URL/canvas/URL.canvas",
-    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
-    "Projects/Study/OS/Disk/canvas/RAID.canvas",
-    "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
+    "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
+    "Projects/Study/DataStructure/해볼 것.md",
+    "Pasted image 20240319145444.png",
+    "Projects/Study/Java/HashMap/md/해시 버킷 동적 확장.md",
+    "Projects/Study/Java/HashMap/md/해시 충돌.md",
+    "Projects/Study/Java/HashMap/md/해시 분포.md",
+    "Projects/Study/Java/HashMap/md/보조 해시 함수.md",
+    "Projects/Study/Java/HashMap/md",
+    "Projects/Study/DataStructure",
     "Projects/Study/Algorithm/정렬",
-    "Projects/Study/Web/Tomcat/Pasted image 20240314164110.png"
+    "Pasted image 20240319144924.png",
+    "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+    "Projects/Study/ComputerStructure/실수/canvas/무제 파일.canvas",
+    "Projects/Study/ComputerStructure/텍스트 표현/resources/Pasted image 20240315030339.png",
+    "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
   ]
 }
