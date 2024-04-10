@@ -1,3 +1,6 @@
+> [!NOTE]
+> https://medium.com/naverfinancial/%EB%8B%88%EB%93%A4%EC%9D%B4-caffeine-%EB%A7%9B%EC%9D%84-%EC%95%8C%EC%95%84-f02f868a6192
+
 ### Ehcache
 - 가장 널리 사용되는 JAVA 기반 캐시
 - 직렬화된 데이터 객체를 저장하는 메모리 블럭
