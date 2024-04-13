@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/Test/테스트 데이터 초기화.md",
+                "file": "Projects/Posting/HTTP/HttpSession.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/Test/테스트 데이터 초기화.md",
+                "file": "Projects/Posting/HTTP/HttpSession.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/Test/테스트 데이터 초기화.md",
+                "file": "Projects/Posting/HTTP/HttpSession.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/Test/테스트 데이터 초기화.md"
+                "file": "Projects/Posting/HTTP/HttpSession.md"
               }
             }
           },
@@ -170,8 +170,10 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
-    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Posting/Test/테스트 데이터 초기화.md",
+    "Projects/Posting/HTTP/HttpSession.md",
+    "Projects/Posting/HTTP",
+    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Posting/Test/테스트 데이터 초기화",
     "Projects/Posting/Test",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
@@ -213,11 +215,9 @@
     "Projects/Study/ComputerStructure/주소 지정 방식/md/인덱스 된 주소 지정 방식(Indexed addressing mode).md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/의미 주소 지정 방식(Implied mode).md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/유휴주소.md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md/상대 주소 지정 방식(Relative addressing mode).md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md",
     "Pasted image 20240320184242.png",
     "Pasted image 20240320183526.png",
-    "Projects/Study/ComputerStructure/CPU",
     "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
     "Projects/Study/DB/SQL/canvas/SQL.canvas",
     "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
