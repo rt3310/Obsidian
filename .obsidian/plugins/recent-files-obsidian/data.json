@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "정적 팩토리 메서드",
+      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
+    },
+    {
+      "basename": "캐시 선택",
+      "path": "Projects/Posting/Cache/캐시 선택.md"
+    },
+    {
       "basename": "Ehcache vs Caffeine",
       "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "테스트 데이터 초기화",
       "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
-    },
-    {
-      "basename": "캐시 선택",
-      "path": "Projects/Posting/Cache/캐시 선택.md"
     },
     {
       "basename": "무제 파일",
@@ -195,10 +199,6 @@
     {
       "basename": "해볼 것",
       "path": "Projects/Study/DataStructure/해볼 것.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
     }
   ],
   "omittedPaths": [],
