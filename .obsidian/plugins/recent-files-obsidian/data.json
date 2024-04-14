@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Ehcache vs Caffeine",
+      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+    },
+    {
       "basename": "HttpSession",
       "path": "Projects/Posting/HTTP/HttpSession.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Docker",
       "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/OS/Thrashing/canvas/무제 파일.canvas"
     }
   ],
   "omittedPaths": [],
