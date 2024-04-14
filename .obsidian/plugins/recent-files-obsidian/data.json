@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HttpSession",
+      "path": "Projects/Posting/HTTP/HttpSession.md"
+    },
+    {
       "basename": "정적 팩토리 메서드",
       "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Ehcache vs Caffeine",
       "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Projects/Posting/HTTP/HttpSession.md"
     },
     {
       "basename": "테스트 데이터 초기화",
