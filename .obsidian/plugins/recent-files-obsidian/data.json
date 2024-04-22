@@ -17,10 +17,6 @@
       "path": "Projects/Posting/HTTP/HttpSession.md"
     },
     {
-      "basename": "캐시 선택",
-      "path": "Projects/Posting/Cache/캐시 선택.md"
-    },
-    {
       "basename": "Ehcache vs Caffeine",
       "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
     },
