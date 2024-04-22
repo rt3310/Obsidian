@@ -152,11 +152,7 @@ public class FilterRegistry {
 @Component  
 public class CustomFilter implements Filter {  
 	@Override  
-	public void doFilter(  
-			ServletRequest request,  
-			ServletResponse response,  
-			FilterChain chain  
-	) throws IOException, ServletException {  
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {  
 		System.out.println("=====request do Filter=====");  
 		System.out.println("response.isCommitted():" + response.isCommitted());  
 		  
@@ -208,11 +204,7 @@ Interceptor와 마찬가지로 return되는 데이터가 있으면 response 데�
 @Component  
 public class CustomFilter implements Filter {  
 	@Override  
-	public void doFilter(  
-			ServletRequest request,  
-			ServletResponse response,  
-			FilterChain chain  
-	) throws IOException, ServletException {  
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {  
 		System.out.println("=====request do Filter=====");  
 		System.out.println("response.isCommitted():" + response.isCommitted());  
 		  
@@ -221,7 +213,7 @@ public class CustomFilter implements Filter {
 		  
 		chain.doFilter(request, responseWrapper); // responseWrapper를 넣는다.  
 		  
-		System.out.println("=====response do Filter=====");  
+		System.out.println("=====response do Filter====="); 
 		System.out.println("response.isCommitted():" + response.isCommitted());  
 		System.out.println("responseWrapper.isCommitted():" + responseWrapper.isCommitted());  
 	}
@@ -238,4 +230,88 @@ response.isCommitted():false
 =====response do Filter=====  
 response.isCommitted():false  
 responseWrapper.isCommitted():false
+```
+
+`isCommited`가 false라는 의미는 아직 데이터가 Output Stream에 쓰여지지 않았기 때문에 이제 response 데이터를 수정할 수 있다.
+
+### Response 데이터를 조작하는 법
+- Response 데이터 수정 없이 로깅만 하고 원본 데이터를 응답하는 경우
+- 기존 데이터를 무시하고 새로운 데이터를 응답하는 경우
+- 기존 데이터를 읽어 수정한 뒤 응답하는 경우
+
+#### Response 데이터 수정 없이 로깅만 하고 원본 데이터를 응답하는 경우
+`ContentCachingResponseWrapper`가 제공하는 `getContentAsByteArray` 메소드로 byte 배열을 읽고 이를 String으로 변환 후에 로깅한다.
+
+이 때 맨 마지막 line인 `copyBodyToResponse` 메서드는 캐시해 둔 원본 데이터를 다시 response에 저장하는 방법이다. `ContentCachingResponseWrapper`가 response output stream에서 데이터를 읽는 시점에 stream은 빈 상태가 된다.
+따라서 기존 응답을 그대로 전달하고 싶다면 `copyBodyToResponse` 메서드를 호출해야 한다.
+```java
+@Component  
+public class CustomFilter implements Filter {  
+	@Override  
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {  
+		ContentCachingResponseWrapper responseWrapper =  
+		new ContentCachingResponseWrapper((HttpServletResponse) response);  
+		  
+		chain.doFilter(request, responseWrapper);  
+		  
+		byte[] responseArray = responseWrapper.getContentAsByteArray();  
+		String responseStr = new String(responseArray, responseWrapper.getCharacterEncoding());  
+		System.out.println(responseStr); // 여기서 로깅한다.  
+		responseWrapper.copyBodyToResponse();  
+}
+```
+
+#### 기존 데이터를 무시하고 새로운 데이터를 응답하는 경우
+아래 Filter 에서는 ObjectMapper로 Json 객체를 생성하고 값을 넣어 응답하고 있다.
+
+```java
+@Component  
+public class CustomFilter implements Filter {  
+	@Override  
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {  
+		ContentCachingResponseWrapper responseWrapper =  
+		new ContentCachingResponseWrapper((HttpServletResponse) response);  
+		  
+		chain.doFilter(request, responseWrapper);  
+		  
+		ObjectNode json = new ObjectMapper().createObjectNode();  
+		json.put("message", "this response is modified");  
+		  
+		String newResponse = new ObjectMapper().writeValueAsString(json);  
+		response.setContentType("application/json");  
+		response.setContentLength(newResponse.length());  
+		response.getOutputStream().write(newResponse.getBytes());  
+	}  
+}
+```
+
+#### 기존 데이터를 읽어 수정한 뒤 응답하는 경우
+아래의 Filter는 응답 타입이 `List<UserResponse>` 일 때 어거지로 값을 수정하는 예제다.
+
+```java
+@Component  
+public class CustomFilter implements Filter {  
+	@Override  
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {  
+		HttpServletRequest httpRequest = (HttpServletRequest) request;
+		ContentCachingResponseWrapper responseWrapper = 
+		new ContentCachingResponseWrapper((HttpServletResponse) response);
+		
+		chain.doFilter(request, responseWrapper);
+		
+		if (httpRequest.getMethod().equals(HttpMethod.GET.name())) {  
+			byte[] responseArray = responseWrapper.getContentAsByteArray();
+			String responseStr = new String(responseArray, responseWrapper.getCharacterEncoding());  
+			List<UserResponse> userResponses = Arrays.asList(new ObjectMapper().readValue(responseStr, UserResponse[].class));  
+			  
+			// UserResponse에 setter가 있다고 가정한다면  
+			userResponses.get(0).setId(9999L);
+			
+			String newResponse = new ObjectMapper().writeValueAsString(userResponses);  
+			response.setContentType("application/json");
+			response.setContentLength(newResponse.length());
+			response.getOutputStream().write(newResponse.getBytes());
+		}
+	}
+}
 ```

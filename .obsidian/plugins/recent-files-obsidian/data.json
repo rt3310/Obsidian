@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HttpSession",
+      "path": "Projects/Posting/HTTP/HttpSession.md"
+    },
+    {
       "basename": "isCommited",
       "path": "Projects/Posting/Spring/isCommited.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "정적 팩토리 메서드",
       "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Projects/Posting/HTTP/HttpSession.md"
     },
     {
       "basename": "Ehcache vs Caffeine",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/Spring/isCommited.md",
+                "file": "Projects/Posting/HTTP/HttpSession.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/Spring/isCommited.md",
+                "file": "Projects/Posting/HTTP/HttpSession.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/Spring/isCommited.md",
+                "file": "Projects/Posting/HTTP/HttpSession.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/Spring/isCommited.md"
+                "file": "Projects/Posting/HTTP/HttpSession.md"
               }
             }
           },
@@ -179,8 +179,12 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
-    "Projects/Posting/Cache/캐시 선택.md",
+    "Pasted image 20240422155212.png",
+    "Pasted image 20240422154959.png",
+    "Pasted image 20240422154905.png",
+    "Pasted image 20240422154851.png",
     "Projects/Posting/Spring/isCommited.md",
+    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Posting/Spring",
     "Projects/Posting/Test/코드 커버리지.md",
     "Projects/Posting/Test/테스트 데이터 초기화.md",
@@ -224,16 +228,12 @@
     "Projects/Study/ComputerStructure/주소 지정 방식/md/즉치 주소 지정 방식(Immediate mode).md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정방식 필드를 가진 명령어 형식.md",
     "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정(Addressing).md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정 방식.md",
     "Pasted image 20240320184242.png",
-    "Pasted image 20240320183526.png",
-    "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
     "Projects/Study/DB/SQL/canvas/SQL.canvas",
     "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
     "Projects/Study/HTTP/URL/canvas/URL.canvas",
     "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
     "Projects/Study/OS/Disk/canvas/RAID.canvas",
-    "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
-    "Projects/Study/Web/Tomcat/Pasted image 20240314164110.png"
+    "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
   ]
 }
