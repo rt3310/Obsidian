@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "isCommited",
+      "path": "Projects/Posting/Spring/isCommited.md"
+    },
+    {
       "basename": "캐시 선택",
       "path": "Projects/Posting/Cache/캐시 선택.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "HashMap vs HashTable",
       "path": "Projects/Study/Java/HashMap/md/HashMap vs HashTable.md"
-    },
-    {
-      "basename": "보조 해시 함수",
-      "path": "Projects/Study/Java/HashMap/md/보조 해시 함수.md"
     }
   ],
   "omittedPaths": [],
