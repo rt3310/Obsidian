@@ -108,3 +108,28 @@ Tomcat의 경우 SessionID를  JSESSIONID라는 쿠키를 생성하여 클라이
 JSESSION은 HttpServletRequest의 getSession의 옵션에 따라 자동 생성이 된다. 그렇다면 먼저 HttpServletRequest 인터페이스에 있는 getSession을 추적해보자.
 ![[Pasted image 20240422155212.png]]
 HttpServletRequest 인터페이스의 getSession 구현체는 아래와 같이 확인된다. 우리는 이것들 중 ApplicationHttpRequest를 추적하여 본다.
+
+![[Pasted image 20240423202036.png]]
+위 사진은 ApplicationHttpRequest에 있는 getSession의 구현코드 중 일부이다.
+ApplicationHttpRequest의 부모클래스는 HttpServletRequestWrapper 이기 때문에 HttpServletRequestWrapper의 getSession을 찾아간다.
+
+![[Pasted image 20240423202232.png]]
+HttpServletRequestWrapper에서는 HttpServletRequest의 getSession을 호출하고 일부 생략하자면 HttpServletRequest에는 Request의 getSession을 호출하게 된다.
+
+![[Pasted image 20240423202502.png]]
+Request의 getSession 구현이다
+
+아래는 doGetSession의 일부 코드이다.
+![[Pasted image 20240423202521.png]]
+
+세션을 만드는 코드가 있다. 이 세션을 만드는 코드는 Manager 인터페이스를 상속 받은 ManagerBase라는 구현체에 구현되어 있다.
+![[Pasted image 20240423202618.png]]
+
+또 여기서 JSESSIONID를 만드는 방법도 볼 수 있다. JSESSIONID는 StandardSessionGenerator에서 생성하게 되는데 방법은 아래와 같다.
+16 Byte의 랜덤 값(SHA1PRNGE 또는 각 플랫폼의 기본 난수 생성기)을 16진수의 String으로 변환하여 route로 받는 값이 있는 경우 뒤에 `.route`를 추가하게 되고 그렇지 않을 경우 `.jvmRoute`를 추가하게 된다.
+여기서 Route나 jvmRoute는 서블릿 컨테이너에 접속한 사용자를 구분하는 값이 되는데, 이를 구현한 코드를 아래와 같이 확인할 수 있다.
+![[Pasted image 20240423202943.png]]
+
+## 기존 JSESSION은 어떻게 확인할까?
+
+위 과정의 `Request.doGetSession`에서 `m.findSession`부분을 따라가면 아래와 같이 ManagerBase에서는 세션을 Map을 이용해서 관리하고 있고, JSESSIONID가 들어오면 그에 맞는 Session을 반환하도록 되어 있다.
