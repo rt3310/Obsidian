@@ -134,4 +134,5 @@ Request의 getSession 구현이다
 
 위 과정의 `Request.doGetSession`에서 `m.findSession`부분을 따라가면 아래와 같이 ManagerBase에서는 세션을 **ConcurrentHashMap**을 이용해서 관리하고 있고, JSESSIONID가 들어오면 그에 맞는 Session을 반환하도록 되어 있다.
 
-![[Pasted image 20240423203854.png]]
+
+
