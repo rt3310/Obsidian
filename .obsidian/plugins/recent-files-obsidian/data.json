@@ -1,32 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "HttpSession",
-      "path": "Projects/Posting/HTTP/HttpSession.md"
-    },
-    {
-      "basename": "isCommited",
-      "path": "Projects/Posting/Spring/isCommited.md"
-    },
-    {
-      "basename": "캐시 선택",
-      "path": "Projects/Posting/Cache/캐시 선택.md"
-    },
-    {
-      "basename": "코드 커버리지",
-      "path": "Projects/Posting/Test/코드 커버리지.md"
-    },
-    {
-      "basename": "테스트 데이터 초기화",
-      "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
-    },
-    {
-      "basename": "정적 팩토리 메서드",
-      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
+      "basename": "위경도 값에 BigDecimal or Double",
+      "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
     },
     {
       "basename": "Ehcache vs Caffeine",
       "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+    },
+    {
+      "basename": "캐시 선택",
+      "path": "Projects/Posting/Cache/캐시 선택.md"
     },
     {
       "basename": "무제 파일",
@@ -199,6 +183,22 @@
     {
       "basename": "HashMap vs HashTable",
       "path": "Projects/Study/Java/HashMap/md/HashMap vs HashTable.md"
+    },
+    {
+      "basename": "보조 해시 함수",
+      "path": "Projects/Study/Java/HashMap/md/보조 해시 함수.md"
+    },
+    {
+      "basename": "해볼 것",
+      "path": "Projects/Study/DataStructure/해볼 것.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/OS/Thrashing/canvas/무제 파일.canvas"
     }
   ],
   "omittedPaths": [],
