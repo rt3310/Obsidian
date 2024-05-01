@@ -32,15 +32,15 @@
 		{"id":"28bd8edc5be1a8f5","type":"file","file":"Projects/Study/OS/memory/md/메모리 관리.md","x":-400,"y":-220,"width":694,"height":218},
 		{"id":"dd1f4e279a11de73","type":"text","text":"주기억장치 = 운영체제 + 수행 중인 프로그램을 위한 공간","x":-289,"y":-360,"width":473,"height":29},
 		{"id":"2471c00b40aeec50","type":"text","text":"- 페이지: 고정크기\n- 세그먼트: 가변크기 + 보호","x":1438,"y":1161,"width":288,"height":64,"color":"5"},
-		{"id":"6686d6f3fef91545","x":-480,"y":382,"width":546,"height":176,"type":"file","file":"Projects/Study/OS/memory/canvas/MMU.md"},
+		{"id":"6686d6f3fef91545","x":-480,"y":382,"width":546,"height":176,"type":"file","file":"Projects/Study/OS/memory/md/MMU.md"},
 		{"id":"89516f1cd7d26e72","x":244,"y":80,"width":523,"height":223,"type":"text","text":"- 모든 프로세스마다 같은 주소를 사용할 수 있게 한다.\n\t- 실제 물리 주소가 13번지, 15번지, 29번지 일 때 MMU는 가상주소로 이를 모두 1번지로 표현할 수 있다.\n- CPU는 프로세스 관리 및 구현이 간단하다.\n- 서로 떨어져 있는 데이터를 연속된 데이터를 표현할 수 있다.\n\t- 실제 물리 주소가 13번지, 15번지, 29번지 일 때 연속된 데이터처럼 1번지, 2번지, 3번지로 표현이 가능하다."},
 		{"id":"54d703622a03d6f6","x":320,"y":514,"width":471,"height":88,"type":"text","text":"프로세스는 독립적인 메모리 공간을 가져야 한다.\n따라서 MMU는 한 프로세스에게 합법적인 주소 영역을 설정하고, 잘못된 접근이 오면 trap을 발생시키며 보호한다."},
 		{"id":"99c47ad550d6f23a","type":"file","file":"Projects/Study/OS/memory/md/프로세스 활성화.md","x":-614,"y":1520,"width":733,"height":188},
 		{"id":"923a42761ea55c92","type":"file","file":"Projects/Study/OS/memory/md/로딩.md","x":-1016,"y":1870,"width":694,"height":386},
 		{"id":"40e58106e84afe41","type":"file","file":"Projects/Study/OS/memory/md/링킹.md","x":-85,"y":1873,"width":681,"height":283},
 		{"id":"92cec3cc7d73fc97","x":239,"y":776,"width":633,"height":184,"color":"#0000ff","type":"text","text":"> [!INFO]\n> **base와 limit 레지스터를 활용한 메모리 보호 기법**\n> base 레지스터: 메모리 상의 프로세스 시작 주소를 물리 주소로 저장\n> limit 레지스터: 프로세스의 사이즈를 저장"},
-		{"id":"df9c73af487e2d9f","x":-496,"y":684,"width":579,"height":386,"type":"file","file":"Projects/Study/OS/memory/canvas/메모리 과할당(Over Allocating).md"},
-		{"id":"5eb66f82088f88ff","x":-480,"y":1180,"width":551,"height":175,"type":"file","file":"Projects/Study/OS/memory/canvas/Swapping 기법.md"},
+		{"id":"df9c73af487e2d9f","x":-496,"y":684,"width":579,"height":386,"type":"file","file":"Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md"},
+		{"id":"5eb66f82088f88ff","x":-480,"y":1180,"width":551,"height":175,"type":"file","file":"Projects/Study/OS/memory/md/Swapping 기법.md"},
 		{"id":"82091ca1c9e20713","x":-1304,"y":684,"width":687,"height":493,"type":"text","text":"오버레이 기법은 주기억장치보다 큰 사용자 프로그램을 실행하기 위한 기법이다.\n\n보조기억장치에 저장된 하나의 프로그램을 여러 개의 조각으로 분할한 후 필요한 조각을 차례로 주기억장치에 적재하여 프로그램을 실행한다.\n\n프로그램이 실행되면서 주기억장치의 공간이 부족하면 주기억장치에 적재된 프로그램의 조각 중 불필요한 조각이 위치한 장소에 프로그램이 조각을 중첩(Overlay)하여 적재한다.\n![[Pasted image 20240107225608.png]]"}
 	],
 	"edges":[
