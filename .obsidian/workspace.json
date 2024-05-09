@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md",
+                "file": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md",
+                "file": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md",
+                "file": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/DB/무제 파일.md"
+                "file": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
               }
             }
           },
@@ -176,24 +176,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "e79b501905b71259",
   "lastOpenFiles": [
+    "Projects/Posting/DB/null.md",
+    "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
+    "Pasted image 20240510020335.png",
+    "Pasted image 20240510020319.png",
+    "Pasted image 20240510020309.png",
+    "Pasted image 20240510020217.png",
+    "Projects/Posting/DB/resources/Pasted image 20240510020153.png",
+    "Projects/Posting/DB/resources/Pasted image 20240510020023.png",
+    "Projects/Posting/DB/resources/Pasted image 20240510020002.png",
+    "Projects/Posting/DB/resources/Pasted image 20240510015907.png",
+    "Projects/Posting/DB/resources/Pasted image 20240510015710.png",
+    "Projects/Posting/DB/resources",
+    "Projects/Posting/DB/resources/Pasted image 20240510015341.png",
+    "Projects/Posting/DB/무제 파일.md",
     "Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md",
     "Projects/Study/OS/memory/md/Swapping 기법.md",
     "Projects/Study/OS/memory/md/MMU.md",
-    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034804.png",
-    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034705.png",
     "Projects/Study/OS/VirtualMemory/md/메모리 영역.md",
     "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
-    "Projects/Posting/Java/resources/Pasted image 20240430010822.png",
     "Projects/Posting/Java/resources",
-    "Projects/Posting/HTTP/resources/Pasted image 20240423203854.png",
-    "Projects/Posting/HTTP/resources/Pasted image 20240423202943.png",
-    "Projects/Posting/HTTP/resources/Pasted image 20240423202618.png",
-    "Projects/Posting/HTTP/resources/Pasted image 20240423202521.png",
-    "Projects/Posting/HTTP/resources/Pasted image 20240423202502.png",
-    "Projects/Posting/HTTP/resources/Pasted image 20240423202232.png",
-    "Projects/Posting/HTTP/resources/Pasted image 20240423202036.png",
     "Projects/Posting/HTTP/resources",
     "Projects/Posting/HTTP/HttpSession.md",
     "Projects/Posting/Spring/isCommited.md",
@@ -204,7 +208,6 @@
     "Projects/Posting/Java/정적 팩토리 메서드.md",
     "Projects/Posting/Java",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
-    "Projects/Posting/DB/무제 파일.md",
     "Projects/Posting/HTTP",
     "Projects/Posting/Test/테스트 데이터 초기화",
     "Projects/Posting/Test",
@@ -212,11 +215,9 @@
     "Projects/Posting/Cache",
     "Projects/Info/성능 예산.md",
     "Projects/Info",
-    "Projects/Posting/DB/무제 파일 1.md",
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
     "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md",
     "Projects/Study/ComputerStructure/Memory/md/32비트의 메모리 한계.md",
-    "Projects/Posting/DB",
     "Projects/Study/ComputerStructure/Memory/md/32비트 vs 64비트.md",
     "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
     "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
@@ -227,7 +228,6 @@
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "conflict-files-obsidian-git.md",
-    "Projects/Study/OS/VirtualMemory/canvas/메모리 영역.md",
     "Projects/Study/DB/SQL/canvas/SQL.canvas",
     "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
     "Projects/Study/HTTP/URL/canvas/URL.canvas",
