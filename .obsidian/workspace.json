@@ -13,13 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/HTTP/HttpSession.md",
+                "file": "Projects/Posting/Cache/캐시 선택.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "3f6d6bb41896a682",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Posting/Cache/캐시 선택.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2463eca64201697b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "viewState": {
+                  "x": -884.9577458073802,
+                  "y": 984.6894467992022,
+                  "zoom": 0.12270417687940327
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/HTTP/HttpSession.md",
+                "file": "Projects/Study/OS/VirtualMemory/md/메모리 영역.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/HTTP/HttpSession.md",
+                "file": "Projects/Study/OS/VirtualMemory/md/메모리 영역.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/HTTP/HttpSession.md"
+                "file": "Projects/Study/OS/VirtualMemory/md/메모리 영역.md"
               }
             }
           },
@@ -144,17 +172,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "21d806b7620f2c00",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,36 +196,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e79b501905b71259",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "Pasted image 20240423203854.png",
-    "Pasted image 20240423202943.png",
-    "Pasted image 20240423202618.png",
-    "Pasted image 20240423202521.png",
-    "Pasted image 20240423202502.png",
-    "Pasted image 20240423202232.png",
-    "Pasted image 20240423202036.png",
-    "Pasted image 20240422155212.png",
-    "Pasted image 20240422154959.png",
-    "Pasted image 20240422154905.png",
-    "Pasted image 20240422154851.png",
-    "Projects/Posting/Spring/isCommited.md",
-    "Projects/Posting/Cache/캐시 선택.md",
-    "Projects/Posting/Spring",
-    "Projects/Posting/Test/코드 커버리지.md",
-    "Projects/Posting/Test/테스트 데이터 초기화.md",
-    "Projects/Posting/Java/정적 팩토리 메서드.md",
-    "Projects/Posting/HTTP/HttpSession.md",
-    "Projects/Posting/Java",
+    "Projects/Study/OS/VirtualMemory/md/메모리 영역.md",
+    "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "Projects/Posting/Java/resources/Pasted image 20240430010822.png",
+    "Projects/Posting/Java/resources",
+    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034804.png",
+    "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034705.png",
+    "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
+    "Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md",
+    "Projects/Study/OS/memory/md/Swapping 기법.md",
+    "Projects/Study/OS/memory/md/MMU.md",
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
+    "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
+    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
+    "Projects/Posting/HTTP/resources/Pasted image 20240423203854.png",
+    "Projects/Posting/HTTP/resources/Pasted image 20240423202943.png",
+    "Projects/Posting/HTTP/resources/Pasted image 20240423202618.png",
+    "Projects/Posting/HTTP/resources/Pasted image 20240423202036.png",
+    "Projects/Posting/HTTP/resources/Pasted image 20240423202521.png",
+    "Projects/Posting/HTTP/resources/Pasted image 20240423202502.png",
+    "Projects/Posting/HTTP/resources/Pasted image 20240423202232.png",
+    "Projects/Posting/HTTP/resources",
+    "Projects/Posting/HTTP/무제 파일.md",
+    "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
-    "Projects/Posting/DB/무제 파일.md",
-    "Projects/Posting/HTTP",
-    "Projects/Posting/Test/테스트 데이터 초기화",
+    "Projects/Posting/Test/테스트 데이터 초기화.md",
+    "Projects/Posting/Test/코드 커버리지.md",
     "Projects/Posting/Test",
+    "Projects/Posting/Spring/isCommited.md",
+    "Projects/Posting/Spring",
+    "Projects/Posting/Java/정적 팩토리 메서드.md",
+    "Projects/Posting/Java",
+    "Projects/Posting/HTTP/HttpSession.md",
+    "Projects/Posting/HTTP",
+    "Projects/Posting/Cache/캐시 선택.md",
     "무제 파일.md",
     "Projects/Posting/Cache",
     "Projects/Info/성능 예산.md",
     "Projects/Info",
+    "Projects/Posting/DB/무제 파일.md",
     "Projects/Posting/DB/무제 파일 1.md",
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
     "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md",
@@ -213,26 +244,14 @@
     "Projects/Posting/DB",
     "Projects/Posting",
     "Projects/Study/ComputerStructure/Memory/md/32비트 vs 64비트.md",
-    "Projects/Study/ComputerStructure/Memory/md",
-    "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
-    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
-    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
     "Projects/Plan/어떻게 공부해야 할까.md",
     "Projects/Plan/공부할 것들.md",
     "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
-    "conflict-files-obsidian-git.md",
-    "Projects/Study/OS/VirtualMemory/canvas/메모리 영역.md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md/직접 주소 지정 방식 & 간접 주소 지정 방식.md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md/즉치 주소 지정 방식(Immediate mode).md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정방식 필드를 가진 명령어 형식.md",
-    "Projects/Study/ComputerStructure/주소 지정 방식/md/주소 지정(Addressing).md",
     "Projects/Study/DB/SQL/canvas/SQL.canvas",
     "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
     "Projects/Study/HTTP/URL/canvas/URL.canvas",
-    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
-    "Projects/Study/OS/Disk/canvas/RAID.canvas",
-    "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
+    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
   ]
 }
