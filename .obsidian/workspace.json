@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
+                "file": "Projects/Study/Test/단위테스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
+                "file": "Projects/Study/Test/단위테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
+                "file": "Projects/Study/Test/단위테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
+                "file": "Projects/Study/Test/단위테스트.md"
               }
             }
           },
@@ -178,8 +178,16 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
-    "Projects/Posting/DB/null.md",
+    "Projects/Study/DB/Cache/canvas/Cache 전략.canvas",
+    "Projects/Study/Test/단위테스트.md",
+    "Projects/Posting/DB/무제 파일.md",
+    "Projects/Study/Test",
+    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+    "Projects/Posting/Cache/캐시 선택.md",
+    "Projects/Posting/Java/정적 팩토리 메서드.md",
+    "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
     "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
+    "Projects/Posting/DB/null.md",
     "Pasted image 20240510020335.png",
     "Pasted image 20240510020319.png",
     "Pasted image 20240510020309.png",
@@ -191,30 +199,24 @@
     "Projects/Posting/DB/resources/Pasted image 20240510015710.png",
     "Projects/Posting/DB/resources",
     "Projects/Posting/DB/resources/Pasted image 20240510015341.png",
-    "Projects/Posting/DB/무제 파일.md",
     "Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md",
     "Projects/Study/OS/memory/md/Swapping 기법.md",
     "Projects/Study/OS/memory/md/MMU.md",
     "Projects/Study/OS/VirtualMemory/md/메모리 영역.md",
-    "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
     "Projects/Posting/Java/resources",
     "Projects/Posting/HTTP/resources",
     "Projects/Posting/HTTP/HttpSession.md",
     "Projects/Posting/Spring/isCommited.md",
-    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Posting/Spring",
     "Projects/Posting/Test/코드 커버리지.md",
     "Projects/Posting/Test/테스트 데이터 초기화.md",
-    "Projects/Posting/Java/정적 팩토리 메서드.md",
     "Projects/Posting/Java",
-    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Posting/HTTP",
     "Projects/Posting/Test/테스트 데이터 초기화",
     "Projects/Posting/Test",
     "무제 파일.md",
     "Projects/Posting/Cache",
     "Projects/Info/성능 예산.md",
-    "Projects/Info",
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
     "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md",
     "Projects/Study/ComputerStructure/Memory/md/32비트의 메모리 한계.md",
@@ -226,8 +228,6 @@
     "Projects/Plan/공부할 것들.md",
     "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
-    "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
-    "conflict-files-obsidian-git.md",
     "Projects/Study/DB/SQL/canvas/SQL.canvas",
     "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
     "Projects/Study/HTTP/URL/canvas/URL.canvas",

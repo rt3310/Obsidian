@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "단위테스트",
+      "path": "Projects/Study/Test/단위테스트.md"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Posting/DB/무제 파일.md"
+    },
+    {
+      "basename": "Ehcache vs Caffeine",
+      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+    },
+    {
+      "basename": "캐시 선택",
+      "path": "Projects/Posting/Cache/캐시 선택.md"
+    },
+    {
+      "basename": "정적 팩토리 메서드",
+      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
+    },
+    {
+      "basename": "위경도 값에 BigDecimal or Double",
+      "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
+    },
+    {
       "basename": "boolean parameter를 너무 사랑하지마세요.",
       "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
     },
@@ -13,10 +41,6 @@
       "path": "Projects/Posting/DB/resources/Pasted image 20240510020153.png"
     },
     {
-      "basename": "무제 파일",
-      "path": "Projects/Posting/DB/무제 파일.md"
-    },
-    {
       "basename": "HttpSession",
       "path": "Projects/Posting/HTTP/HttpSession.md"
     },
@@ -25,24 +49,12 @@
       "path": "Projects/Posting/Spring/isCommited.md"
     },
     {
-      "basename": "캐시 선택",
-      "path": "Projects/Posting/Cache/캐시 선택.md"
-    },
-    {
       "basename": "코드 커버리지",
       "path": "Projects/Posting/Test/코드 커버리지.md"
     },
     {
       "basename": "테스트 데이터 초기화",
       "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
-    },
-    {
-      "basename": "정적 팩토리 메서드",
-      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
-    },
-    {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
     },
     {
       "basename": "JPA",
@@ -187,14 +199,6 @@
     {
       "basename": "컴퓨터 시간 원리",
       "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
-    },
-    {
-      "basename": "HashMap",
-      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
-    },
-    {
-      "basename": "HashMap vs HashTable",
-      "path": "Projects/Study/Java/HashMap/md/HashMap vs HashTable.md"
     }
   ],
   "omittedPaths": [],
