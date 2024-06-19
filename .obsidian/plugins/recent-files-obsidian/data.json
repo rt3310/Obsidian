@@ -1,60 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "단위테스트",
-      "path": "Projects/Study/Test/단위테스트.md"
+      "basename": "Virtual Memory",
+      "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
-      "basename": "Cache 전략",
-      "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Posting/DB/무제 파일.md"
-    },
-    {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+      "basename": "메모리 영역",
+      "path": "Projects/Study/OS/VirtualMemory/md/메모리 영역.md"
     },
     {
       "basename": "캐시 선택",
       "path": "Projects/Posting/Cache/캐시 선택.md"
     },
     {
-      "basename": "정적 팩토리 메서드",
-      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
+      "basename": "Pasted image 20240430010822",
+      "path": "Projects/Posting/Java/resources/Pasted image 20240430010822.png"
+    },
+    {
+      "basename": "Pasted image 20240321034804",
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034804.png"
+    },
+    {
+      "basename": "Pasted image 20240321034705",
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034705.png"
+    },
+    {
+      "basename": "메모리 관리",
+      "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
+    },
+    {
+      "basename": "메모리 과할당(Over Allocating)",
+      "path": "Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md"
+    },
+    {
+      "basename": "Swapping 기법",
+      "path": "Projects/Study/OS/memory/md/Swapping 기법.md"
+    },
+    {
+      "basename": "MMU",
+      "path": "Projects/Study/OS/memory/md/MMU.md"
+    },
+    {
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
+    },
+    {
+      "basename": "32bit vs 64bit",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas"
+    },
+    {
+      "basename": "레지스터",
+      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
+    },
+    {
+      "basename": "Pasted image 20240423203854",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423203854.png"
+    },
+    {
+      "basename": "Pasted image 20240423202943",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202943.png"
+    },
+    {
+      "basename": "Pasted image 20240423202618",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202618.png"
+    },
+    {
+      "basename": "Pasted image 20240423202036",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202036.png"
+    },
+    {
+      "basename": "Pasted image 20240423202521",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202521.png"
+    },
+    {
+      "basename": "Pasted image 20240423202502",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202502.png"
+    },
+    {
+      "basename": "Pasted image 20240423202232",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202232.png"
+    },
+    {
+      "basename": "Pasted image 20240422155212",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422155212.png"
+    },
+    {
+      "basename": "Pasted image 20240422154959",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154959.png"
+    },
+    {
+      "basename": "Pasted image 20240422154905",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154905.png"
+    },
+    {
+      "basename": "Pasted image 20240422154851",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154851.png"
     },
     {
       "basename": "위경도 값에 BigDecimal or Double",
       "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
     },
     {
-      "basename": "boolean parameter를 너무 사랑하지마세요.",
-      "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
+      "basename": "Ehcache vs Caffeine",
+      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
     },
     {
-      "basename": "null",
-      "path": "Projects/Posting/DB/null.md"
-    },
-    {
-      "basename": "Pasted image 20240510020153",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020153.png"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Projects/Posting/HTTP/HttpSession.md"
-    },
-    {
-      "basename": "isCommited",
-      "path": "Projects/Posting/Spring/isCommited.md"
-    },
-    {
-      "basename": "코드 커버리지",
-      "path": "Projects/Posting/Test/코드 커버리지.md"
-    },
-    {
-      "basename": "테스트 데이터 초기화",
-      "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
+      "basename": "무제 파일",
+      "path": "Projects/Posting/DB/무제 파일.md"
     },
     {
       "basename": "JPA",
@@ -71,18 +123,6 @@
     {
       "basename": "32비트 vs 64비트",
       "path": "Projects/Study/ComputerStructure/Memory/md/32비트 vs 64비트.md"
-    },
-    {
-      "basename": "32bit vs 64bit",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas"
-    },
-    {
-      "basename": "레지스터",
-      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
-    },
-    {
-      "basename": "주소 지정 방식",
-      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
     },
     {
       "basename": "어떻게 공부해야 할까",
@@ -153,52 +193,8 @@
       "path": "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas"
     },
     {
-      "basename": "메모리 관리",
-      "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
-    },
-    {
       "basename": "텍스트 표현",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
-    },
-    {
-      "basename": "URL 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/URL 인코딩.md"
-    },
-    {
-      "basename": "Base64 인코딩 단점",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
-    },
-    {
-      "basename": "Base64 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩.md"
-    },
-    {
-      "basename": "QP 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/QP 인코딩.md"
-    },
-    {
-      "basename": "유니코드 변환 형식",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
-    },
-    {
-      "basename": "UTF-8",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/UTF-8.md"
-    },
-    {
-      "basename": "유니코드",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드.md"
-    },
-    {
-      "basename": "아스키 코드",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/아스키 코드.md"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md"
-    },
-    {
-      "basename": "컴퓨터 시간 원리",
-      "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
     }
   ],
   "omittedPaths": [],
