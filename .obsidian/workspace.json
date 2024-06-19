@@ -35,14 +35,11 @@
             "id": "2463eca64201697b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
-                "viewState": {
-                  "x": -884.9577458073802,
-                  "y": 984.6894467992022,
-                  "zoom": 0.12270417687940327
-                }
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -121,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
               }
             }
           },
@@ -198,8 +195,10 @@
   },
   "active": "2463eca64201697b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Projects/Posting/Cache/캐시 선택.md",
+    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "conflict-files-obsidian-git.md",
     "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
     "Projects/Posting/DB/resources/Pasted image 20240510020023.png",
     "Projects/Posting/DB/resources/Pasted image 20240510020153.png",
@@ -213,7 +212,6 @@
     "Pasted image 20240510020319.png",
     "Pasted image 20240510020309.png",
     "Pasted image 20240510020217.png",
-    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Study/OS/VirtualMemory/md/메모리 영역.md",
     "Projects/Posting/Java/resources",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
@@ -226,7 +224,6 @@
     "Projects/Posting/HTTP/resources",
     "Projects/Posting/HTTP/무제 파일.md",
     "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
-    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Posting/Test/테스트 데이터 초기화.md",
     "Projects/Posting/Test/코드 커버리지.md",
     "Projects/Posting/Test",
