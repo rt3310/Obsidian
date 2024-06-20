@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "file": "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "file": "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "file": "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+                "file": "Projects/Posting/Java/System.out.println 사용을 지양하라.md"
               }
             }
           },
@@ -195,8 +195,9 @@
   },
   "active": "2463eca64201697b",
   "lastOpenFiles": [
-    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+    "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
+    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "conflict-files-obsidian-git.md",
     "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
