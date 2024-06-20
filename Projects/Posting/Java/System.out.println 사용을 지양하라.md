@@ -9,7 +9,7 @@ synchronized block을 감싸 thread-safe하게 처리하기 때문에 성능 저
 > 그럼 logging 라이브러리들은 thread safe 하지 않은건가?
 > 
 > 스프링에서 기본적으로 추가되는 logging 라이브러리들(log4j2, logback)은 thread safe하게 구현되어 있다.
-> 다만 synchroinzed block을 사용하는 경우는 매우 드물며, 내부적으로 로깅 이벤트를 처리
+> 다만 synchroinzed block을 사용하는 경우는 매우 드물며, 내부적으로 thread safe한 자료구조를 사용하여 더 효율적으로 처리한다. 또한 비동기 로깅 방식도 지원한다.
 
 
 ## 2. 로그 레벨 관리 문제
