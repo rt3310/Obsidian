@@ -5,6 +5,30 @@
       "path": "Projects/Posting/Java/System.out.println 사용을 지양하라.md"
     },
     {
+      "basename": "Pasted image 20240510020217",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020217.png"
+    },
+    {
+      "basename": "null",
+      "path": "Projects/Posting/DB/null.md"
+    },
+    {
+      "basename": "Pasted image 20240510020309",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020309.png"
+    },
+    {
+      "basename": "Pasted image 20240510020319",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020319.png"
+    },
+    {
+      "basename": "Pasted image 20240510020335",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020335.png"
+    },
+    {
+      "basename": "Pasted image 20240620190654",
+      "path": "Projects/Posting/Java/resources/Pasted image 20240620190654.png"
+    },
+    {
       "basename": "Ehcache vs Caffeine",
       "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "URL",
       "path": "Projects/Study/HTTP/URL/canvas/URL.canvas"
-    },
-    {
-      "basename": "HTTP Connection",
-      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
-    },
-    {
-      "basename": "RAID",
-      "path": "Projects/Study/OS/Disk/canvas/RAID.canvas"
-    },
-    {
-      "basename": "컴퓨터 부팅 과정",
-      "path": "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
-    },
-    {
-      "basename": "DeadLock",
-      "path": "Projects/Study/OS/Concurrency/canvas/DeadLock.canvas"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
     }
   ],
   "omittedPaths": [],
