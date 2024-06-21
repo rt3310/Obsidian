@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "HttpSession",
+      "path": "Projects/Posting/HTTP/HttpSession.md"
+    },
+    {
+      "basename": "정적 팩토리 메서드",
+      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
+    },
+    {
+      "basename": "boolean parameter를 너무 사랑하지마세요.",
+      "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
+    },
+    {
       "basename": "테스트 데이터 초기화",
       "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
     },
@@ -15,14 +27,6 @@
     {
       "basename": "위경도 값에 BigDecimal or Double",
       "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
-    },
-    {
-      "basename": "정적 팩토리 메서드",
-      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
-    },
-    {
-      "basename": "boolean parameter를 너무 사랑하지마세요.",
-      "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
     },
     {
       "basename": "System.out.println 사용을 지양하라",
@@ -195,10 +199,6 @@
     {
       "basename": "Quick Sort vs Merge Sort",
       "path": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md"
-    },
-    {
-      "basename": "Pasted image 20240319144924",
-      "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png"
     }
   ],
   "omittedPaths": [],
