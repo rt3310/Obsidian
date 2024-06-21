@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "테스트 데이터 초기화",
+      "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
+    },
+    {
+      "basename": "코드 커버리지",
+      "path": "Projects/Posting/Test/코드 커버리지.md"
+    },
+    {
+      "basename": "isCommited",
+      "path": "Projects/Posting/Spring/isCommited.md"
+    },
+    {
+      "basename": "위경도 값에 BigDecimal or Double",
+      "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
+    },
+    {
+      "basename": "정적 팩토리 메서드",
+      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
+    },
+    {
+      "basename": "boolean parameter를 너무 사랑하지마세요.",
+      "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
+    },
+    {
       "basename": "System.out.println 사용을 지양하라",
       "path": "Projects/Posting/Java/System.out.println 사용을 지양하라.md"
     },
@@ -129,10 +153,6 @@
       "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154851.png"
     },
     {
-      "basename": "위경도 값에 BigDecimal or Double",
-      "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
-    },
-    {
       "basename": "무제 파일",
       "path": "Projects/Posting/DB/무제 파일.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Pasted image 20240319144924",
       "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png"
-    },
-    {
-      "basename": "Pasted image 20240319145444",
-      "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png"
-    },
-    {
-      "basename": "SQL",
-      "path": "Projects/Study/DB/SQL/canvas/SQL.canvas"
-    },
-    {
-      "basename": "인덱스를 사용할 수 없는 경우",
-      "path": "Projects/Study/DB/SQL/md/인덱스를 사용할 수 없는 경우.md"
-    },
-    {
-      "basename": "웹 서버",
-      "path": "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas"
-    },
-    {
-      "basename": "URL",
-      "path": "Projects/Study/HTTP/URL/canvas/URL.canvas"
     }
   ],
   "omittedPaths": [],
