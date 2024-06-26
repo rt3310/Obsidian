@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d81aa96b4c8acdd3",
+        "id": "5247534f5682cefa",
         "type": "tabs",
         "children": [
           {
-            "id": "e79b501905b71259",
+            "id": "961ef9de7a3f5040",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Study/Auth/SSL/무제 파일.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Auth/SSL/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Auth/SSL/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/Study/Auth/SSL/무제 파일.md"
-              }
+              "state": {}
             }
           },
           {
@@ -177,11 +168,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e79b501905b71259",
+  "active": "961ef9de7a3f5040",
   "lastOpenFiles": [
+    "Projects/Study/Auth/SSL/무제 파일.md",
     "Pasted image 20240626170745.png",
     "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
-    "Projects/Study/Auth/SSL/무제 파일.md",
     "Projects/Study/Auth/SSL",
     "Projects/Study/Auth",
     "Projects/Posting/Java/정적 팩토리 메서드.md",
@@ -207,7 +198,6 @@
     "Pasted image 20240510020319.png",
     "Pasted image 20240510020309.png",
     "Pasted image 20240510020217.png",
-    "Projects/Posting/DB/resources/Pasted image 20240510020153.png",
     "Projects/Posting/DB/resources",
     "Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md",
     "Projects/Study/OS/memory/md/Swapping 기법.md",
