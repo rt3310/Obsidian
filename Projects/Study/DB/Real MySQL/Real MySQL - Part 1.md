@@ -64,3 +64,30 @@ VARCHAR 타입의 길이 저장 바이트가 컬럼 바로 앞에 저장되어 �
 	- 데이터 페이지 내부의 조각화 현상 ↑↑
 	- CHAR 타입보다 공간 효율 떨어짐
 	- 내부적으로 빈번한 Page Reorganize 작업 필요
+
+## VARCHAR vs TEXT
+
+#### 공통점
+- 문자열 속성 값을 저장
+- 최대 65,535 Bytes 까지 저장 가능
+
+#### 차이점
+- VARCHAR 타입 컬럼에는 지정된 글자 수 만큼만 데이터 저장 가능
+	- VARCHAR(10) → 10글자 이하만 저장 가능
+- TEXT 타입 컬럼은 인덱스 생성 시 반드시 Prefix 길이 지정 필요
+	- CREATE INDEX ix_text_column ON table (text_column(100));
+- TEXT 타입 컬럼은 표현식으로만 디폴트 값 지정 가능
+	- CREATE TABLE tb1 (col TEXT DEFAULT 'abc') → 에러 발생
+	- CREATE TABLE tb1 (col1 TEXT DEFAULT ('abc')) → 생성 가능
+
+#### 일반적인 사용 형태
+- 길이가 짧으면 VARCHAR 타입, 길이가 길면 TEXT 타입
+
+#### 그렇다면 VARCHAR(5000) vs TEXT ?
+- VARCHAR 타입은 메모리 버퍼 공간을 미리 할당해두며 재활용 가능, TEXT 타입은 그때 그때 필요할 때마다 할당 & 해제
+- 컬럼 사용이 빈번하고 메모리 용량이 충분하다면 VARCHAR 타입 추천
+- VARCHAR(5000)과 같이 길이가 긴 컬럼들을 자주 추가하는 경우, Row 사이즈 제한(65,535 Bytes)에 도달할 수 있으므로 적절하게 TEXT 타입과 같이 사용하는 것을 권장
+
+#### VARCHAR(30) vs VARCHAR(255) ?
+- 실제 최대 사용하는 길이만큼 명시해야 메모리 사용 효율 증가
+- 디스크 공간 효율 차이도 미미하게 존재 (1Byte vs 2Bytes)
