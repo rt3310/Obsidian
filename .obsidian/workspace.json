@@ -11,8 +11,12 @@
             "id": "961ef9de7a3f5040",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md"
+              }
             }
           },
           {
@@ -170,6 +178,12 @@
   },
   "active": "961ef9de7a3f5040",
   "lastOpenFiles": [
+    "Pasted image 20240626185307.png",
+    "Projects/Study/DB/SQL/canvas/SQL.canvas",
+    "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
+    "Projects/Study/DB/SQL/canvas/Join.canvas",
+    "Projects/Study/DB/SQL/canvas/서브쿼리 조인.md",
+    "Projects/Study/DB/Real MySQL",
     "Projects/Study/Auth/SSL/무제 파일.md",
     "Pasted image 20240626170745.png",
     "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
@@ -208,7 +222,6 @@
     "Projects/Posting/Spring",
     "Projects/Posting/Java",
     "Projects/Posting/HTTP",
-    "Projects/Posting/Test/테스트 데이터 초기화",
     "무제 파일.md",
     "Projects/Info/성능 예산.md",
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
@@ -218,12 +231,8 @@
     "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
     "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
     "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
-    "Projects/Plan/어떻게 공부해야 할까.md",
-    "Projects/Plan/공부할 것들.md",
-    "Projects/Study/DB/SQL/canvas/SQL.canvas",
     "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
     "Projects/Study/HTTP/URL/canvas/URL.canvas",
-    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
-    "Projects/Study/OS/Disk/canvas/RAID.canvas"
+    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
   ]
 }

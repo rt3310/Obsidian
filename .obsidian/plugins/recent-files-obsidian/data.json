@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Real MySQL - Part 1",
+      "path": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "Projects/Study/DB/SQL/canvas/SQL.canvas"
+    },
+    {
+      "basename": "반복계의 단점",
+      "path": "Projects/Study/DB/SQL/md/반복계의 단점.md"
+    },
+    {
+      "basename": "반복계가 포장계에 성능적으로 질 수 밖에 없는 이유",
+      "path": "Projects/Study/DB/SQL/md/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md"
+    },
+    {
+      "basename": "Nested Loops",
+      "path": "Projects/Study/DB/SQL/md/Nested Loops.md"
+    },
+    {
+      "basename": "Soft Merge가 유용한 경우",
+      "path": "Projects/Study/DB/SQL/md/Soft Merge가 유용한 경우.md"
+    },
+    {
+      "basename": "Hash 트레이드오프",
+      "path": "Projects/Study/DB/SQL/md/Hash 트레이드오프.md"
+    },
+    {
+      "basename": "Hash",
+      "path": "Projects/Study/DB/SQL/md/Hash.md"
+    },
+    {
+      "basename": "Join",
+      "path": "Projects/Study/DB/SQL/canvas/Join.canvas"
+    },
+    {
+      "basename": "서브쿼리 조인",
+      "path": "Projects/Study/DB/SQL/canvas/서브쿼리 조인.md"
+    },
+    {
       "basename": "무제 파일",
       "path": "Projects/Study/Auth/SSL/무제 파일.md"
     },
@@ -121,10 +161,6 @@
       "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png"
     },
     {
-      "basename": "SQL",
-      "path": "Projects/Study/DB/SQL/canvas/SQL.canvas"
-    },
-    {
       "basename": "인덱스를 사용할 수 없는 경우",
       "path": "Projects/Study/DB/SQL/md/인덱스를 사용할 수 없는 경우.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "텍스트 표현",
       "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
-    },
-    {
-      "basename": "URL 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/URL 인코딩.md"
-    },
-    {
-      "basename": "Base64 인코딩 단점",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
-    },
-    {
-      "basename": "Base64 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/Base64 인코딩.md"
-    },
-    {
-      "basename": "QP 인코딩",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/QP 인코딩.md"
-    },
-    {
-      "basename": "유니코드 변환 형식",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
-    },
-    {
-      "basename": "UTF-8",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/UTF-8.md"
-    },
-    {
-      "basename": "유니코드",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/유니코드.md"
-    },
-    {
-      "basename": "아스키 코드",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/아스키 코드.md"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/md/텍스트 표현.md"
     }
   ],
   "omittedPaths": [],
