@@ -5,6 +5,10 @@
       "path": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md"
     },
     {
+      "basename": "Pasted image 20240626191015",
+      "path": "Pasted image 20240626191015.png"
+    },
+    {
       "basename": "SQL",
       "path": "Projects/Study/DB/SQL/canvas/SQL.canvas"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "Concurrency",
       "path": "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas"
-    },
-    {
-      "basename": "메모리 관리",
-      "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
     }
   ],
   "omittedPaths": [],
