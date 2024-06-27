@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Real MySQL - Part 1",
-      "path": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md"
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
+      "basename": "Pasted image 20240626170745",
+      "path": "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626170745.png"
+    },
+    {
+      "basename": "Pasted image 20240626185307",
+      "path": "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626185307.png"
+    },
+    {
+      "basename": "Pasted image 20240626214124",
+      "path": "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626214124.png"
     },
     {
       "basename": "Pasted image 20240626191015",
-      "path": "Pasted image 20240626191015.png"
+      "path": "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626191015.png"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
+    },
+    {
+      "basename": "성능 예산",
+      "path": "Projects/Info/성능 예산.md"
+    },
+    {
+      "basename": "Real MySQL - Part 1",
+      "path": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md"
     },
     {
       "basename": "SQL",
@@ -133,14 +161,6 @@
       "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
     },
     {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
-    },
-    {
       "basename": "ORM",
       "path": "Projects/Study/Spring/JPA/canvas/ORM.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "HTTP Connection",
       "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
-    },
-    {
-      "basename": "RAID",
-      "path": "Projects/Study/OS/Disk/canvas/RAID.canvas"
-    },
-    {
-      "basename": "컴퓨터 부팅 과정",
-      "path": "Projects/Study/OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
-    },
-    {
-      "basename": "DeadLock",
-      "path": "Projects/Study/OS/Concurrency/canvas/DeadLock.canvas"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "Projects/Study/OS/Concurrency/canvas/Concurrency.canvas"
     }
   ],
   "omittedPaths": [],
