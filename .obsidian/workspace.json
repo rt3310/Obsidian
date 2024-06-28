@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c8212cae4f422cd4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +187,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "961ef9de7a3f5040",
+  "active": "c8212cae4f422cd4",
   "lastOpenFiles": [
     "Projects/Plan/공부할 것들.md",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626170745.png",
