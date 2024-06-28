@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "해시 분포",
+      "path": "Projects/Study/Java/HashMap/md/해시 분포.md"
+    },
+    {
       "basename": "HashMap",
       "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "32bit vs 64bit",
       "path": "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas"
-    },
-    {
-      "basename": "레지스터",
-      "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
     }
   ],
   "omittedPaths": [],
