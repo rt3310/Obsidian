@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Java/HashMap/md/해시 분포.md",
+                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Java/HashMap/md/해시 분포.md",
+                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Java/HashMap/md/해시 분포.md"
+                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
               }
             }
           },
