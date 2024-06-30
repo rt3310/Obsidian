@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "BFS",
+      "path": "Projects/Study/Algorithm/BFS.md"
+    },
+    {
+      "basename": "공부 할 알고리즘",
+      "path": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md"
+    },
+    {
+      "basename": "자주 하는 실수 모음",
+      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
+    },
+    {
+      "basename": "Quick Sort vs Merge Sort",
+      "path": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md"
+    },
+    {
+      "basename": "Pasted image 20240319145444",
+      "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png"
+    },
+    {
+      "basename": "Pasted image 20240319144924",
+      "path": "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png"
+    },
+    {
       "basename": "HashMap",
       "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "캐시 선택",
       "path": "Projects/Posting/Cache/캐시 선택.md"
-    },
-    {
-      "basename": "Pasted image 20240510020153",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020153.png"
-    },
-    {
-      "basename": "JPA",
-      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
-    },
-    {
-      "basename": "톰캣 아키텍처",
-      "path": "Projects/Study/Web/Tomcat/canvas/톰캣 아키텍처.md"
-    },
-    {
-      "basename": "32비트의 메모리 한계",
-      "path": "Projects/Study/ComputerStructure/Memory/md/32비트의 메모리 한계.md"
-    },
-    {
-      "basename": "32비트 vs 64비트",
-      "path": "Projects/Study/ComputerStructure/Memory/md/32비트 vs 64비트.md"
-    },
-    {
-      "basename": "32bit vs 64bit",
-      "path": "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas"
     }
   ],
   "omittedPaths": [],

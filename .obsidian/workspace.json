@@ -11,14 +11,11 @@
             "id": "961ef9de7a3f5040",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
-                "viewState": {
-                  "x": 787.8007454762643,
-                  "y": -485.7498325895889,
-                  "zoom": -0.12684946433966085
-                }
+                "file": "Projects/Study/Algorithm/BFS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
+                "file": "Projects/Study/Algorithm/BFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
+                "file": "Projects/Study/Algorithm/BFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
+                "file": "Projects/Study/Algorithm/BFS.md"
               }
             }
           },
@@ -181,9 +178,17 @@
   },
   "active": "961ef9de7a3f5040",
   "lastOpenFiles": [
+    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+    "Projects/Study/Algorithm/BFS.md",
+    "Projects/Study/Algorithm/bfs/bfs.md",
+    "Projects/Study/Algorithm/bfs",
+    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
+    "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
+    "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
+    "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
+    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
     "Projects/Study/Java/final/canvas/fianl.canvas",
     "Projects/Study/Java/Import/Import.md",
-    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
     "Projects/Study/Java/Import",
     "Projects/Study/Java/final/md/final method.md",
     "Projects/Study/Java/final/md",
@@ -221,17 +226,10 @@
     "Projects/Study/DB/Cache/canvas/Cache 전략.canvas",
     "Projects/Study/Test/단위테스트.md",
     "Projects/Posting/Java/resources/Pasted image 20240620190654.png",
-    "Projects/Posting/DB/resources/Pasted image 20240510020335.png",
-    "Projects/Posting/DB/resources/Pasted image 20240510020319.png",
     "Projects/Study/Test",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
-    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Posting/DB/resources",
-    "Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md",
-    "Projects/Study/OS/memory/md/Swapping 기법.md",
-    "Projects/Study/OS/memory/md/MMU.md",
     "Projects/Posting/Java/resources",
-    "Projects/Posting/HTTP/resources",
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
     "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
