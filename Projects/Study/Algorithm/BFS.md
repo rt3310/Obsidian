@@ -1,5 +1,9 @@
 https://blog.encrypted.gg/941
 
+## BFS 성질
+
+BFS는 한 갈림길에서 연결되는 모든 길을 한 번씩 탐색하기 때문에 
+
 ## BFS Queue의 성질
 
 [토마토](https://www.acmicpc.net/problem/7569)는 여러 개의 시작점에서 모든 지점으로의 거리를 구하는 문제이다.
