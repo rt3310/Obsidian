@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/Algorithm/BFS.md",
+                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Algorithm/BFS.md",
+                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Algorithm/BFS.md",
+                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Algorithm/BFS.md"
+                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
               }
             }
           },
@@ -178,8 +178,10 @@
   },
   "active": "961ef9de7a3f5040",
   "lastOpenFiles": [
-    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
     "Projects/Study/Algorithm/BFS.md",
+    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+    "Projects/Study/Algorithm/약한 유형 정리",
+    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
     "Projects/Study/Algorithm/bfs/bfs.md",
     "Projects/Study/Algorithm/bfs",
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
@@ -227,9 +229,7 @@
     "Projects/Study/Test/단위테스트.md",
     "Projects/Posting/Java/resources/Pasted image 20240620190654.png",
     "Projects/Study/Test",
-    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Posting/DB/resources",
-    "Projects/Posting/Java/resources",
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
     "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
