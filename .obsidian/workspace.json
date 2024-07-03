@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+                "file": "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+                "file": "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+                "file": "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
+                "file": "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md"
               }
             }
           },
@@ -178,13 +178,21 @@
   },
   "active": "961ef9de7a3f5040",
   "lastOpenFiles": [
-    "Projects/Study/Algorithm/BFS.md",
+    "Projects/Study/Algorithm/오답노트",
     "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
-    "Projects/Study/Algorithm/약한 유형 정리",
+    "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
+    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+    "Projects/Info/성능 예산.md",
+    "Projects/Plan/공부할 것들.md",
+    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
+    "Projects/Study/HTTP/Keep-Alive",
+    "Pasted image 20240510020217.png",
+    "Projects/Study/Algorithm/BFS.md",
+    "Projects/Study/Algorithm/약한 유형 정리",
     "Projects/Study/Algorithm/bfs/bfs.md",
     "Projects/Study/Algorithm/bfs",
-    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
     "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
@@ -195,15 +203,12 @@
     "Projects/Study/Java/final/md/final method.md",
     "Projects/Study/Java/final/md",
     "Projects/Study/Java/final/md/final class.md",
-    "Projects/Plan/어떻게 공부해야 할까.md",
-    "Projects/Plan/공부할 것들.md",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626170745.png",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626185307.png",
     "Projects/Study/DB/Real MySQL/resources",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626214124.png",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626191015.png",
     "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
-    "Projects/Info/성능 예산.md",
     "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626213554.png",
     "Pasted image 20240626213516.png",
@@ -224,15 +229,10 @@
     "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
     "Projects/Posting/HTTP/HttpSession.md",
     "Projects/Posting/DB/null.md",
-    "Projects/Posting/DB/무제 파일.md",
     "Projects/Study/DB/Cache/canvas/Cache 전략.canvas",
-    "Projects/Study/Test/단위테스트.md",
-    "Projects/Posting/Java/resources/Pasted image 20240620190654.png",
     "Projects/Study/Test",
-    "Projects/Posting/DB/resources",
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
-    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
-    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
+    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
   ]
 }

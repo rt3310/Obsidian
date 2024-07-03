@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "2206) 벽 부수고 이동하기",
+      "path": "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md"
+    },
+    {
       "basename": "거듭제곱 분할 정복",
       "path": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
     },
     {
-      "basename": "BFS",
-      "path": "Projects/Study/Algorithm/BFS.md"
+      "basename": "자주 하는 실수 모음",
+      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
     },
     {
       "basename": "공부 할 알고리즘",
       "path": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md"
     },
     {
-      "basename": "자주 하는 실수 모음",
-      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
+      "basename": "성능 예산",
+      "path": "Projects/Info/성능 예산.md"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "HTTP Connection",
+      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
+    },
+    {
+      "basename": "Pasted image 20240510020217",
+      "path": "Pasted image 20240510020217.png"
+    },
+    {
+      "basename": "BFS",
+      "path": "Projects/Study/Algorithm/BFS.md"
     },
     {
       "basename": "Quick Sort vs Merge Sort",
@@ -77,14 +101,6 @@
       "path": "Projects/Study/Java/HashMap/md/해시 버킷 동적 확장.md"
     },
     {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
-    },
-    {
       "basename": "Pasted image 20240626170745",
       "path": "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626170745.png"
     },
@@ -103,10 +119,6 @@
     {
       "basename": "Tomcat",
       "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
-    },
-    {
-      "basename": "성능 예산",
-      "path": "Projects/Info/성능 예산.md"
     },
     {
       "basename": "Real MySQL - Part 1",
@@ -187,18 +199,6 @@
     {
       "basename": "null",
       "path": "Projects/Posting/DB/null.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Posting/DB/무제 파일.md"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
     }
   ],
   "omittedPaths": [],
