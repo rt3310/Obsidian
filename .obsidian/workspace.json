@@ -11,14 +11,11 @@
             "id": "961ef9de7a3f5040",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
-                "viewState": {
-                  "x": 341.4544768506788,
-                  "y": 262.3213838077668,
-                  "zoom": -0.08890211513038138
-                }
+                "file": "Projects/Plan/학습 전략.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
+                "file": "Projects/Plan/학습 전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
+                "file": "Projects/Plan/학습 전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
+                "file": "Projects/Plan/학습 전략.md"
               }
             }
           },
@@ -181,14 +178,16 @@
   },
   "active": "961ef9de7a3f5040",
   "lastOpenFiles": [
+    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Plan/학습 전략.md",
+    "Projects/Plan/공부할 것들.md",
+    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
     "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
     "Projects/Study/Algorithm/오답노트",
     "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
     "Projects/Info/성능 예산.md",
-    "Projects/Plan/공부할 것들.md",
-    "Projects/Plan/어떻게 공부해야 할까.md",
     "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
     "Projects/Study/HTTP/Keep-Alive",
     "Pasted image 20240510020217.png",
@@ -199,7 +198,6 @@
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
     "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
-    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
     "Projects/Study/Java/final/canvas/fianl.canvas",
     "Projects/Study/Java/Import/Import.md",
     "Projects/Study/Java/Import",
