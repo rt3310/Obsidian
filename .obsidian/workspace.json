@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Plan/학습 전략.md",
+                "file": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Plan/학습 전략.md",
+                "file": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Plan/학습 전략.md",
+                "file": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Plan/학습 전략.md"
+                "file": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md"
               }
             }
           },
@@ -178,8 +178,11 @@
   },
   "active": "961ef9de7a3f5040",
   "lastOpenFiles": [
-    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Posting/DB/null.md",
+    "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
+    "Projects/Posting/DB/트랜잭션 전파.md",
     "Projects/Plan/학습 전략.md",
+    "Projects/Plan/어떻게 공부해야 할까.md",
     "Projects/Plan/공부할 것들.md",
     "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
     "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
@@ -227,9 +230,6 @@
     "Projects/Posting/Test/테스트 데이터 초기화.md",
     "Projects/Posting/Spring/isCommited.md",
     "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
-    "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
-    "Projects/Posting/HTTP/HttpSession.md",
-    "Projects/Posting/DB/null.md",
     "Projects/Study/DB/Cache/canvas/Cache 전략.canvas",
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
     "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
