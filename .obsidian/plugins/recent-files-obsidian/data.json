@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "학습 전략",
+      "path": "Projects/Plan/학습 전략.md"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
       "basename": "JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유",
       "path": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md"
     },
@@ -13,16 +21,8 @@
       "path": "Projects/Posting/DB/트랜잭션 전파.md"
     },
     {
-      "basename": "학습 전략",
-      "path": "Projects/Plan/학습 전략.md"
-    },
-    {
       "basename": "어떻게 공부해야 할까",
       "path": "Projects/Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
     },
     {
       "basename": "HashMap",
