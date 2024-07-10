@@ -11,11 +11,14 @@
             "id": "961ef9de7a3f5040",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Projects/Study/Java/HashMap/로드 팩터(Load Factor).md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "viewState": {
+                  "x": 1392.5575735410562,
+                  "y": 872.0278258576037,
+                  "zoom": -0.6823044792508884
+                }
               }
             }
           }
@@ -93,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Java/HashMap/로드 팩터(Load Factor).md",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Java/HashMap/로드 팩터(Load Factor).md",
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Java/HashMap/로드 팩터(Load Factor).md"
+                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
               }
             }
           },
@@ -178,60 +181,60 @@
   },
   "active": "961ef9de7a3f5040",
   "lastOpenFiles": [
-    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
-    "Projects/Study/Java/HashMap/로드 팩터(Load Factor).md",
-    "Projects/Plan/학습 전략.md",
+    "Projects/Study/Java/JVM/canvas/JVM.canvas",
+    "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas",
+    "Projects/Study/HTTP/QUIC/QUIC.md",
+    "Projects/Study/HTTP/QUIC",
     "Projects/Study/DataStructure/해볼 것.md",
-    "Projects/Plan/공부할 것들.md",
-    "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
-    "Projects/Posting/DB/null.md",
+    "Projects/Posting/HTTP/HttpSession.md",
+    "Projects/Posting/HTTP/resources/Pasted image 20240422154905.png",
     "Projects/Posting/DB/트랜잭션 전파.md",
-    "Projects/Plan/어떻게 공부해야 할까.md",
-    "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
-    "Projects/Study/Algorithm/오답노트",
-    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
-    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
-    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
-    "Projects/Info/성능 예산.md",
+    "Projects/Posting/Cache/캐시 선택.md",
+    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+    "Projects/Posting/DB/resources/Pasted image 20240510020217 1.png",
+    "Projects/Posting/DB/resources/Pasted image 20240510020309 1.png",
+    "Projects/Posting/DB/null.md",
+    "Projects/Study/Spring/JPA/canvas/JPA.canvas",
+    "Projects/Posting/DB/resources/Pasted image 20240510020335 1.png",
+    "Projects/Posting/DB/resources/Pasted image 20240510020319 1.png",
+    "Projects/Study/Web/Tomcat/resources/Pasted image 20240314164110.png",
+    "Projects/Study/Web/Tomcat/resources",
+    "Projects/Study/Web/Tomcat/md/Tomcat.md",
+    "Projects/Study/Web/Tomcat/md/서블릿 컨테이너.md",
+    "Projects/Study/Web/Tomcat/md/Realm.md",
+    "Projects/Study/Web/Tomcat/md",
+    "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas",
+    "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas",
+    "Projects/Study/Java/Import/Import.md",
+    "Projects/Study/Java/final/canvas/fianl.canvas",
     "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
+    "Projects/Study/Employment/learning/Ultra Learning.canvas",
+    "Projects/Study/Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
+    "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "Projects/Study/DB/SQL/md/해시 조인.md",
+    "Projects/Study/DB/SQL/md/서브쿼리 조인.md",
+    "Projects/Study/DB/Sharding/md/디렉토리 샤딩(Directory Sharding).md",
+    "Projects/Study/DB/Sharding/md/레인지 샤딩(Range Sharding).md",
+    "Projects/Study/DB/Sharding/md/Config 클래스.md",
+    "Projects/Study/DB/Sharding/md",
+    "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
+    "Projects/Study/DB/Normalization/md/제 3정규형 (3NF - Third Normal Form).md",
+    "Projects/Study/Container/Docker/md/Namespace.md",
+    "Projects/Study/Container/Docker/md/컨테이너 가상화.md",
+    "Projects/Study/Container/Docker/md/Cgroups.md",
+    "Projects/Study/Container/Docker/md",
+    "Projects/Study/Auth/SSL/SSL.md",
+    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+    "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
+    "Projects/Study/Java/HashMap/로드 팩터(Load Factor).md",
+    "Projects/Study/Algorithm/오답노트",
     "Projects/Study/HTTP/Keep-Alive",
-    "Pasted image 20240510020217.png",
-    "Projects/Study/Algorithm/BFS.md",
     "Projects/Study/Algorithm/약한 유형 정리",
-    "Projects/Study/Algorithm/bfs/bfs.md",
     "Projects/Study/Algorithm/bfs",
-    "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/Algorithm/정렬/Pasted image 20240319145444.png",
     "Projects/Study/Algorithm/정렬/Pasted image 20240319144924.png",
-    "Projects/Study/Java/final/canvas/fianl.canvas",
-    "Projects/Study/Java/Import/Import.md",
     "Projects/Study/Java/Import",
-    "Projects/Study/Java/final/md/final method.md",
-    "Projects/Study/Java/final/md",
-    "Projects/Study/Java/final/md/final class.md",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626170745.png",
-    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626185307.png",
-    "Projects/Study/DB/Real MySQL/resources",
-    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626214124.png",
-    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626191015.png",
-    "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
-    "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
-    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626213554.png",
-    "Pasted image 20240626213516.png",
-    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626190425.png",
-    "Projects/Study/DB/SQL/canvas/SQL.canvas",
-    "Projects/Study/DB/SQL/canvas/Join.canvas",
-    "Projects/Study/DB/SQL/canvas/서브쿼리 조인.md",
-    "Projects/Study/DB/Real MySQL",
-    "Projects/Study/Auth/SSL/무제 파일.md",
-    "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
-    "Projects/Study/Auth/SSL",
-    "Projects/Study/Auth",
-    "Projects/Posting/Java/정적 팩토리 메서드.md",
-    "Projects/Posting/Test/코드 커버리지.md",
-    "Projects/Study/DB/Cache/canvas/Cache 전략.canvas",
-    "Projects/Study/Spring/JPA/canvas/JPA.canvas",
-    "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
-    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
+    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626185307.png"
   ]
 }

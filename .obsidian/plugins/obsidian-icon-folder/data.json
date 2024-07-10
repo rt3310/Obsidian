@@ -42,7 +42,6 @@
   "Projects/Study/Design/사용자 수에 따른 규모 확장성": "FarStar",
   "Projects/Study/Employment": "FarFolder",
   "Projects/Study/Employment/learning": "FarStar",
-  "Projects/Study/Employment/roadmap": "FarStar",
   "Projects/Study/HTTP": "FarFolder",
   "Projects/Study/HTTP/Connection": "FarStar",
   "Projects/Study/HTTP/URL": "FarStar",
@@ -79,5 +78,6 @@
   "Projects/Study/Algorithm/정렬": "FarStar",
   "Projects/Study/Algorithm/약한 유형 정리": "FarStar",
   "Projects/Study/HTTP/Keep-Alive": "FarStar",
-  "Projects/Study/Algorithm/오답노트": "FarStar"
+  "Projects/Study/Algorithm/오답노트": "FarStar",
+  "Projects/Study/HTTP/QUIC": "FarStar"
 }

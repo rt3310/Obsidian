@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"5e2f0bd3b154ecef","type":"file","file":"Projects/Study/Container/Docker/canvas/LXC.md","x":-314,"y":40,"width":454,"height":554},
-		{"id":"0907da9cb7ff2784","type":"file","file":"Projects/Study/Container/Docker/canvas/Namespace.md","x":320,"y":-137,"width":497,"height":581},
-		{"id":"dfb9001da03280a9","type":"file","file":"Projects/Study/Container/Docker/canvas/Cgroups.md","x":320,"y":600,"width":383,"height":145},
-		{"id":"72eb244f81502b77","type":"file","file":"Projects/Study/Container/Docker/canvas/컨테이너 가상화.md","x":-288,"y":-219,"width":402,"height":165}
+		{"id":"5e2f0bd3b154ecef","type":"file","file":"Projects/Study/Container/Docker/md/LXC.md","x":-314,"y":40,"width":454,"height":554},
+		{"id":"0907da9cb7ff2784","type":"file","file":"Projects/Study/Container/Docker/md/Namespace.md","x":320,"y":-137,"width":497,"height":581},
+		{"id":"dfb9001da03280a9","type":"file","file":"Projects/Study/Container/Docker/md/Cgroups.md","x":320,"y":600,"width":383,"height":145},
+		{"id":"72eb244f81502b77","type":"file","file":"Projects/Study/Container/Docker/md/컨테이너 가상화.md","x":-288,"y":-219,"width":402,"height":165}
 	],
 	"edges":[
 		{"id":"4da23f0db529e9e0","fromNode":"72eb244f81502b77","fromSide":"bottom","toNode":"5e2f0bd3b154ecef","toSide":"top","label":"LXC?"},

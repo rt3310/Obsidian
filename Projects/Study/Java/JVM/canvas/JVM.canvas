@@ -56,7 +56,7 @@
 		{"id":"011a37cc183cdfde","type":"file","file":"Projects/Study/Java/JVM/resources/JVM 수행 과정.png","x":-2240,"y":-559,"width":640,"height":477},
 		{"id":"a97a64a6f33d7968","type":"text","text":"자바 애플리케이션을 클래스 로더를 통해 읽어 자바 API와 함께 실행하는 것","x":-307,"y":-680,"width":338,"height":63},
 		{"id":"176b264d0dbd883a","type":"file","file":"Projects/Study/Java/JVM/resources/자바 컴파일 과정.png","x":-771,"y":-680,"width":400,"height":83},
-		{"id":"680c8d43f4ab06c8","type":"file","file":"Projects/Study/Java/JVM/md/JVM(Java Virtual Machine).md","x":-540,"y":-520,"width":394,"height":375}
+		{"id":"680c8d43f4ab06c8","type":"file","file":"Projects/Study/Java/JVM/md/JVM(Java Virtual Machine).md","x":-540,"y":-520,"width":399,"height":375,"color":"1"}
 	],
 	"edges":[
 		{"id":"f019c3748c0f6840","fromNode":"680c8d43f4ab06c8","fromSide":"top","toNode":"a97a64a6f33d7968","toSide":"bottom","label":"역할"},
@@ -64,7 +64,7 @@
 		{"id":"00c625bad45ba461","fromNode":"680c8d43f4ab06c8","fromSide":"left","toNode":"d540b5e1d0b6bcdb","toSide":"right","label":"동작 과정"},
 		{"id":"e484dc33528fb793","fromNode":"d540b5e1d0b6bcdb","fromSide":"left","toNode":"011a37cc183cdfde","toSide":"right"},
 		{"id":"e14a40a340159bc6","fromNode":"680c8d43f4ab06c8","fromSide":"right","toNode":"4c9f05c8f005c418","toSide":"top","label":"구조"},
-		{"id":"60280aa8d50e7d42","fromNode":"4c9f05c8f005c418","fromSide":"top","toNode":"bf394eddf53dea7d","toSide":"bottom"},
+		{"id":"60280aa8d50e7d42","fromNode":"4c9f05c8f005c418","fromSide":"right","toNode":"bf394eddf53dea7d","toSide":"bottom"},
 		{"id":"b9b448aea54377e6","fromNode":"4c9f05c8f005c418","fromSide":"right","toNode":"53b68e38f06ccf58","toSide":"left","label":"클래스 로더?"},
 		{"id":"f708fdf7702e1915","fromNode":"53b68e38f06ccf58","fromSide":"right","toNode":"c7eb9b89a37c04d1","toSide":"left","label":"클래스 파일 로딩 순서"},
 		{"id":"ed047ed77dfd65a9","fromNode":"4c9f05c8f005c418","fromSide":"right","toNode":"3b2117769e042bd3","toSide":"left","label":"실행 엔진?"},

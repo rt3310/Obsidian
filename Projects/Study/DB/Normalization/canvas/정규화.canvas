@@ -11,9 +11,9 @@
 		{"id":"e0379787b7809b7f","type":"file","file":"Projects/Study/DB/Normalization/md/삽입이상.md","x":-389,"y":-75,"width":512,"height":225},
 		{"id":"46859359e8a4b480","type":"file","file":"Projects/Study/DB/Normalization/md/삭제이상.md","x":805,"y":-75,"width":497,"height":195},
 		{"id":"e2ecfc2a9a2fe389","type":"file","file":"Projects/Study/DB/Normalization/md/제 1정규형 (1NF - First Normal Form).md","x":-1320,"y":-1599,"width":546,"height":444},
-		{"id":"45e4790641f99edb","type":"file","file":"Projects/Study/DB/Normalization/canvas/제 2정규형(2NF - Second Normal Form).md","x":-622,"y":-2894,"width":516,"height":1739},
+		{"id":"45e4790641f99edb","type":"file","file":"Projects/Study/DB/Normalization/md/제 2정규형(2NF - Second Normal Form) 1.md","x":-622,"y":-2894,"width":516,"height":1739},
 		{"id":"9c5f639e49177646","type":"text","text":"### 삽입 이상\n새로운 학부가 생기는 경우 등록된 학생(학번)이 없다면 학번속성이 NULL이 되므로 삽입할 수 없다.\n### 갱신 이상\n컴퓨터공학부 등록금이 400으로 오르는 경우 20800399, 21500399 둘 모두 바꾸어 주지 않으면 데이터 불일치 문제가 발생한다.\n### 삭제 이상\n21400001 학번을 가진 학생이 자퇴하는 경우, 기계공학부에 대한 정보가 함께 사라진다.\n제 2정규형에서도 이상현상이 발생하는 이유는 **이행적 함수 종속**이 존재하기 때문이다.","x":280,"y":-2399,"width":684,"height":375},
-		{"id":"ec10e93055118785","type":"file","file":"Projects/Study/DB/Normalization/canvas/제 3정규형 (3NF - Third Normal Form).md","x":31,"y":-1843,"width":498,"height":688},
+		{"id":"ec10e93055118785","type":"file","file":"Projects/Study/DB/Normalization/md/제 3정규형 (3NF - Third Normal Form).md","x":31,"y":-1843,"width":498,"height":688},
 		{"id":"0a7208863f53923a","type":"text","text":"이행적 함수 종속은 삼단 논법같은 관계를 가진 함수 종속이다.\nX, Y, Z에 대해 X -> Y이고, Y -> Z이면 X -> Z가 성립한다. 이를 Z가 X에 이행적으로 함수 종속되었다고 한다.","x":622,"y":-1360,"width":684,"height":88}
 	],
 	"edges":[
