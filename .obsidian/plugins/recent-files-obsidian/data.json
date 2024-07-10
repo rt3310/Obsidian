@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "로드 팩터(Load Factor)",
+      "path": "Projects/Study/Java/HashMap/로드 팩터(Load Factor).md"
+    },
+    {
+      "basename": "HashMap",
+      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
       "basename": "학습 전략",
       "path": "Projects/Plan/학습 전략.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "어떻게 공부해야 할까",
       "path": "Projects/Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "HashMap",
-      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
     },
     {
       "basename": "HashMap vs HashTable",
@@ -195,10 +199,6 @@
     {
       "basename": "테스트 데이터 초기화",
       "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
-    },
-    {
-      "basename": "isCommited",
-      "path": "Projects/Posting/Spring/isCommited.md"
     }
   ],
   "omittedPaths": [],
