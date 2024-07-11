@@ -11,14 +11,11 @@
             "id": "961ef9de7a3f5040",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
-                "viewState": {
-                  "x": 1392.5575735410562,
-                  "y": 872.0278258576037,
-                  "zoom": -0.6823044792508884
-                }
+                "file": "Projects/Study/Algorithm/오답노트/트리 위의 게임.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/Algorithm/오답노트/트리 위의 게임.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/Algorithm/오답노트/트리 위의 게임.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+                "file": "Projects/Study/Algorithm/오답노트/트리 위의 게임.md"
               }
             }
           },
@@ -181,6 +178,11 @@
   },
   "active": "961ef9de7a3f5040",
   "lastOpenFiles": [
+    "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
+    "Projects/Study/Algorithm/오답노트/트리 위의 게임.md",
+    "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
+    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/Java/JVM/canvas/JVM.canvas",
     "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas",
     "Projects/Study/HTTP/QUIC/QUIC.md",
@@ -210,7 +212,6 @@
     "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
     "Projects/Study/Employment/learning/Ultra Learning.canvas",
     "Projects/Study/Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
-    "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Study/DB/SQL/md/해시 조인.md",
     "Projects/Study/DB/SQL/md/서브쿼리 조인.md",
     "Projects/Study/DB/Sharding/md/디렉토리 샤딩(Directory Sharding).md",
@@ -224,9 +225,6 @@
     "Projects/Study/Container/Docker/md/Cgroups.md",
     "Projects/Study/Container/Docker/md",
     "Projects/Study/Auth/SSL/SSL.md",
-    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
-    "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
-    "Projects/Study/Java/HashMap/로드 팩터(Load Factor).md",
     "Projects/Study/Algorithm/오답노트",
     "Projects/Study/HTTP/Keep-Alive",
     "Projects/Study/Algorithm/약한 유형 정리",
