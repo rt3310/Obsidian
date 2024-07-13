@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "2146) 다리 만들기",
-      "path": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md"
+      "basename": "거듭제곱 분할 정복",
+      "path": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
+    },
+    {
+      "basename": "공부 할 알고리즘",
+      "path": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md"
+    },
+    {
+      "basename": "미니맥스 알고리즘(Minimax algorithm)",
+      "path": "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md"
+    },
+    {
+      "basename": "Quick Sort vs Merge Sort",
+      "path": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md"
+    },
+    {
+      "basename": "Pasted image 20240319144924",
+      "path": "Projects/Study/Algorithm/resources/Pasted image 20240319144924.png"
+    },
+    {
+      "basename": "Pasted image 20240319145444",
+      "path": "Projects/Study/Algorithm/resources/Pasted image 20240319145444.png"
+    },
+    {
+      "basename": "elice-4) 트리 위의 게임",
+      "path": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md"
+    },
+    {
+      "basename": "자주 하는 실수 모음",
+      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
     },
     {
       "basename": "2206) 벽 부수고 이동하기",
       "path": "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md"
+    },
+    {
+      "basename": "2146) 다리 만들기",
+      "path": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md"
     },
     {
       "basename": "Real MySQL - Part 1",
@@ -167,38 +199,6 @@
     {
       "basename": "Pasted image 20240422154851",
       "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154851.png"
-    },
-    {
-      "basename": "JPA",
-      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
-    },
-    {
-      "basename": "32비트의 메모리 한계",
-      "path": "Projects/Study/ComputerStructure/Memory/md/32비트의 메모리 한계.md"
-    },
-    {
-      "basename": "32비트 vs 64비트",
-      "path": "Projects/Study/ComputerStructure/Memory/md/32비트 vs 64비트.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
-    },
-    {
-      "basename": "ORM",
-      "path": "Projects/Study/Spring/JPA/canvas/ORM.md"
-    },
-    {
-      "basename": "공부 할 알고리즘",
-      "path": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md"
-    },
-    {
-      "basename": "자주 하는 실수 모음",
-      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
     }
   ],
   "omittedPaths": [],
