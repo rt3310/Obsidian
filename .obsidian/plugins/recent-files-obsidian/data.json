@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "트리 위의 게임",
-      "path": "Projects/Study/Algorithm/오답노트/트리 위의 게임.md"
+      "basename": "2146) 다리 만들기",
+      "path": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md"
     },
     {
       "basename": "2206) 벽 부수고 이동하기",
       "path": "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md"
     },
     {
-      "basename": "미니맥스 알고리즘(Minimax algorithm)",
-      "path": "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md"
+      "basename": "Real MySQL - Part 1",
+      "path": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md"
     },
     {
-      "basename": "거듭제곱 분할 정복",
-      "path": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
-    },
-    {
-      "basename": "JVM",
-      "path": "Projects/Study/Java/JVM/canvas/JVM.canvas"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas"
-    },
-    {
-      "basename": "QUIC",
-      "path": "Projects/Study/HTTP/QUIC/QUIC.md"
-    },
-    {
-      "basename": "JVM(Java Virtual Machine)",
-      "path": "Projects/Study/Java/JVM/md/JVM(Java Virtual Machine).md"
-    },
-    {
-      "basename": "해볼 것",
-      "path": "Projects/Study/DataStructure/해볼 것.md"
+      "basename": "위경도 값에 BigDecimal or Double",
+      "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
     },
     {
       "basename": "HttpSession",
       "path": "Projects/Posting/HTTP/HttpSession.md"
     },
     {
-      "basename": "Pasted image 20240422154905",
-      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154905.png"
+      "basename": "정적 팩토리 메서드",
+      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
     },
     {
-      "basename": "트랜잭션 전파",
-      "path": "Projects/Posting/DB/트랜잭션 전파.md"
+      "basename": "boolean parameter를 너무 사랑하지마세요.",
+      "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
     },
     {
-      "basename": "캐시 선택",
-      "path": "Projects/Posting/Cache/캐시 선택.md"
+      "basename": "테스트 데이터 초기화",
+      "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
     },
     {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+      "basename": "코드 커버리지",
+      "path": "Projects/Posting/Test/코드 커버리지.md"
     },
     {
-      "basename": "Pasted image 20240510020217 1",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020217 1.png"
+      "basename": "isCommited",
+      "path": "Projects/Posting/Spring/isCommited.md"
     },
     {
-      "basename": "Pasted image 20240510020309 1",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020309 1.png"
+      "basename": "System.out.println 사용을 지양하라",
+      "path": "Projects/Posting/Java/System.out.println 사용을 지양하라.md"
+    },
+    {
+      "basename": "Pasted image 20240510020217",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020217.png"
     },
     {
       "basename": "null",
       "path": "Projects/Posting/DB/null.md"
     },
     {
-      "basename": "JPA",
-      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
+      "basename": "Pasted image 20240510020309",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020309.png"
     },
     {
-      "basename": "Pasted image 20240510020335 1",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020335 1.png"
+      "basename": "Pasted image 20240510020319",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020319.png"
     },
     {
-      "basename": "Pasted image 20240510020319 1",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020319 1.png"
+      "basename": "Pasted image 20240510020335",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020335.png"
     },
     {
-      "basename": "Pasted image 20240314164110",
-      "path": "Projects/Study/Web/Tomcat/resources/Pasted image 20240314164110.png"
+      "basename": "Pasted image 20240620190654",
+      "path": "Projects/Posting/Java/resources/Pasted image 20240620190654.png"
     },
     {
-      "basename": "Tomcat",
-      "path": "Projects/Study/Web/Tomcat/md/Tomcat.md"
+      "basename": "Ehcache vs Caffeine",
+      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
     },
     {
-      "basename": "서블릿 컨테이너",
-      "path": "Projects/Study/Web/Tomcat/md/서블릿 컨테이너.md"
+      "basename": "캐시 선택",
+      "path": "Projects/Posting/Cache/캐시 선택.md"
     },
     {
-      "basename": "Realm",
-      "path": "Projects/Study/Web/Tomcat/md/Realm.md"
+      "basename": "Virtual Memory",
+      "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
     },
     {
-      "basename": "Cookie & Session",
-      "path": "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas"
+      "basename": "메모리 영역",
+      "path": "Projects/Study/OS/VirtualMemory/md/메모리 영역.md"
     },
     {
-      "basename": "Virtual Thread",
-      "path": "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas"
+      "basename": "Pasted image 20240430010822",
+      "path": "Projects/Posting/Java/resources/Pasted image 20240430010822.png"
     },
     {
-      "basename": "Import",
-      "path": "Projects/Study/Java/Import/Import.md"
+      "basename": "Pasted image 20240321034804",
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034804.png"
     },
     {
-      "basename": "fianl",
-      "path": "Projects/Study/Java/final/canvas/fianl.canvas"
+      "basename": "Pasted image 20240321034705",
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034705.png"
     },
     {
-      "basename": "HTTP Connection",
-      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
+      "basename": "메모리 관리",
+      "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
     },
     {
-      "basename": "Ultra Learning",
-      "path": "Projects/Study/Employment/learning/Ultra Learning.canvas"
+      "basename": "메모리 과할당(Over Allocating)",
+      "path": "Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md"
     },
     {
-      "basename": "무제 파일",
-      "path": "Projects/Study/Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
+      "basename": "Swapping 기법",
+      "path": "Projects/Study/OS/memory/md/Swapping 기법.md"
     },
     {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Projects/Study/DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
+      "basename": "MMU",
+      "path": "Projects/Study/OS/memory/md/MMU.md"
     },
     {
-      "basename": "Join",
-      "path": "Projects/Study/DB/SQL/canvas/Join.canvas"
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
     },
     {
-      "basename": "SQL",
-      "path": "Projects/Study/DB/SQL/canvas/SQL.canvas"
-    },
-    {
-      "basename": "해시 조인",
-      "path": "Projects/Study/DB/SQL/md/해시 조인.md"
-    },
-    {
-      "basename": "서브쿼리 조인",
-      "path": "Projects/Study/DB/SQL/md/서브쿼리 조인.md"
-    },
-    {
-      "basename": "Sharding",
-      "path": "Projects/Study/DB/Sharding/canvas/Sharding.canvas"
-    },
-    {
-      "basename": "디렉토리 샤딩(Directory Sharding)",
-      "path": "Projects/Study/DB/Sharding/md/디렉토리 샤딩(Directory Sharding).md"
-    },
-    {
-      "basename": "레인지 샤딩(Range Sharding)",
-      "path": "Projects/Study/DB/Sharding/md/레인지 샤딩(Range Sharding).md"
-    },
-    {
-      "basename": "Config 클래스",
-      "path": "Projects/Study/DB/Sharding/md/Config 클래스.md"
-    },
-    {
-      "basename": "Real MySQL - Part 1",
-      "path": "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md"
-    },
-    {
-      "basename": "정규화",
-      "path": "Projects/Study/DB/Normalization/canvas/정규화.canvas"
-    },
-    {
-      "basename": "제 3정규형 (3NF - Third Normal Form)",
-      "path": "Projects/Study/DB/Normalization/md/제 3정규형 (3NF - Third Normal Form).md"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "Projects/Study/DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "Docker",
-      "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
-    },
-    {
-      "basename": "Namespace",
-      "path": "Projects/Study/Container/Docker/md/Namespace.md"
-    },
-    {
-      "basename": "컨테이너 가상화",
-      "path": "Projects/Study/Container/Docker/md/컨테이너 가상화.md"
-    },
-    {
-      "basename": "Cgroups",
-      "path": "Projects/Study/Container/Docker/md/Cgroups.md"
+      "basename": "32bit vs 64bit",
+      "path": "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas"
     },
     {
       "basename": "레지스터",
       "path": "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas"
+    },
+    {
+      "basename": "Pasted image 20240423203854",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423203854.png"
+    },
+    {
+      "basename": "Pasted image 20240423202943",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202943.png"
+    },
+    {
+      "basename": "Pasted image 20240423202618",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202618.png"
+    },
+    {
+      "basename": "Pasted image 20240423202036",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202036.png"
+    },
+    {
+      "basename": "Pasted image 20240423202521",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202521.png"
+    },
+    {
+      "basename": "Pasted image 20240423202502",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202502.png"
+    },
+    {
+      "basename": "Pasted image 20240423202232",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202232.png"
+    },
+    {
+      "basename": "Pasted image 20240422155212",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422155212.png"
+    },
+    {
+      "basename": "Pasted image 20240422154959",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154959.png"
+    },
+    {
+      "basename": "Pasted image 20240422154905",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154905.png"
+    },
+    {
+      "basename": "Pasted image 20240422154851",
+      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154851.png"
+    },
+    {
+      "basename": "JPA",
+      "path": "Projects/Study/Spring/JPA/canvas/JPA.canvas"
+    },
+    {
+      "basename": "32비트의 메모리 한계",
+      "path": "Projects/Study/ComputerStructure/Memory/md/32비트의 메모리 한계.md"
+    },
+    {
+      "basename": "32비트 vs 64비트",
+      "path": "Projects/Study/ComputerStructure/Memory/md/32비트 vs 64비트.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
+      "basename": "ORM",
+      "path": "Projects/Study/Spring/JPA/canvas/ORM.md"
+    },
+    {
+      "basename": "공부 할 알고리즘",
+      "path": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md"
+    },
+    {
+      "basename": "자주 하는 실수 모음",
+      "path": "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md"
     }
   ],
   "omittedPaths": [],
