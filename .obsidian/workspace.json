@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+                "file": "Projects/Study/OS/보초콘.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+                "file": "Projects/Study/OS/보초콘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+                "file": "Projects/Study/OS/보초콘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
+                "file": "Projects/Study/OS/보초콘.md"
               }
             }
           },
@@ -217,8 +217,9 @@
   },
   "active": "b68f87d011bca7af",
   "lastOpenFiles": [
-    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
     "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+    "Projects/Study/OS/보초콘.md",
+    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
     "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/Algorithm/resources/Pasted image 20240319144924.png",

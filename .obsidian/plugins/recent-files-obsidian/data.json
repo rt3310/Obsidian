@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "보초콘",
+      "path": "Projects/Study/OS/보초콘.md"
+    },
+    {
       "basename": "거듭제곱 분할 정복",
       "path": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240422154905",
       "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154905.png"
-    },
-    {
-      "basename": "Pasted image 20240422154851",
-      "path": "Projects/Posting/HTTP/resources/Pasted image 20240422154851.png"
     }
   ],
   "omittedPaths": [],
