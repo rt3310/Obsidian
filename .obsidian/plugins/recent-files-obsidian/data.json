@@ -5,16 +5,16 @@
       "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
     },
     {
+      "basename": "NTP",
+      "path": "Projects/Study/ComputerStructure/Clock/md/NTP.md"
+    },
+    {
       "basename": "ZonedDateTime",
       "path": "Projects/Study/ComputerStructure/Clock/md/ZonedDateTime.md"
     },
     {
       "basename": "NTP 서버",
       "path": "Projects/Study/ComputerStructure/Clock/md/NTP 서버.md"
-    },
-    {
-      "basename": "NTP",
-      "path": "Projects/Study/ComputerStructure/Clock/md/NTP.md"
     },
     {
       "basename": "Tomcat",
