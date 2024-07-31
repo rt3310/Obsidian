@@ -70,9 +70,9 @@
               "state": {
                 "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "viewState": {
-                  "x": 589.5025266493301,
-                  "y": 752.4351806756434,
-                  "zoom": -0.803821204913885
+                  "x": -187.54522331127254,
+                  "y": 636.9676981182686,
+                  "zoom": -0.44666666666666766
                 }
               }
             }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
+                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
+                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
+                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
               }
             }
           },
@@ -236,8 +236,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "161372a2dff865b0",
   "lastOpenFiles": [
+    "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
     "conflict-files-obsidian-git.md",
     "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
     "Projects/Study/OS/보초콘.md",

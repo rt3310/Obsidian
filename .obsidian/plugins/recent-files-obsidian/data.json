@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Tomcat",
-      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
-    },
-    {
       "basename": "컴퓨터 시간 원리",
       "path": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "ZonedDateTime",
+      "path": "Projects/Study/ComputerStructure/Clock/md/ZonedDateTime.md"
+    },
+    {
+      "basename": "NTP 서버",
+      "path": "Projects/Study/ComputerStructure/Clock/md/NTP 서버.md"
+    },
+    {
+      "basename": "NTP",
+      "path": "Projects/Study/ComputerStructure/Clock/md/NTP.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas"
     },
     {
       "basename": "2206) 벽 부수고 이동하기",
@@ -187,14 +199,6 @@
     {
       "basename": "Docker",
       "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
-    },
-    {
-      "basename": "Namespace",
-      "path": "Projects/Study/Container/Docker/md/Namespace.md"
-    },
-    {
-      "basename": "컨테이너 가상화",
-      "path": "Projects/Study/Container/Docker/md/컨테이너 가상화.md"
     }
   ],
   "omittedPaths": [],
