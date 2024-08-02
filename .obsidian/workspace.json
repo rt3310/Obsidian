@@ -4,76 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "5247534f5682cefa",
+        "id": "d81aa96b4c8acdd3",
         "type": "tabs",
         "children": [
           {
-            "id": "961ef9de7a3f5040",
+            "id": "e79b501905b71259",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
-                "viewState": {
-                  "x": -460.21306813240824,
-                  "y": 969.9442655601126,
-                  "zoom": -0.6160271372870558
-                }
+                "file": "Projects/Posting/Cache/캐시 선택.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "671e89f656e8e9f7",
+            "id": "3f6d6bb41896a682",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Posting/Cache/캐시 선택.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2463eca64201697b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Posting/HTTP/HttpSession.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "778f122032a96c7a",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.6.7"
+                "currentVersion": "1.6.3"
               }
             }
           },
           {
-            "id": "ba0042ef26fee0be",
+            "id": "b68f87d011bca7af",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
-                "viewState": {
-                  "x": -90.54474760302924,
-                  "y": 346.04210996159446,
-                  "zoom": -1.2004878715805518
-                }
-              }
-            }
-          },
-          {
-            "id": "37f08a1d5f8ef903",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
-                "viewState": {
-                  "x": -424.7177738795517,
-                  "y": 676.2721530860316,
-                  "zoom": -0.45048787158055165
-                }
-              }
-            }
-          },
-          {
-            "id": "161372a2dff865b0",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
-                "viewState": {
-                  "x": 1812.9603098758341,
-                  "y": 191.8259669806747,
-                  "zoom": -0.3733333333333344
-                }
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -136,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -153,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
               }
             }
           },
@@ -204,17 +191,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "21d806b7620f2c00",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -236,63 +215,63 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "161372a2dff865b0",
+  "active": "b68f87d011bca7af",
   "lastOpenFiles": [
-    "Projects/Study/Web/Tomcat/canvas/Tomcat.canvas",
-    "conflict-files-obsidian-git.md",
-    "Projects/Study/ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
-    "Projects/Study/OS/보초콘.md",
-    "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
-    "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
-    "Projects/Study/Algorithm/resources/Pasted image 20240713224940.png",
-    "Projects/Study/Algorithm/resources/Pasted image 20240319145444.png",
-    "Projects/Study/Algorithm/resources/Pasted image 20240319144924.png",
-    "Projects/Study/Algorithm/resources",
-    "Pasted image 20240713224955.png",
-    "Projects/Study/Algorithm/오답노트/트리 위의 게임.md",
-    "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
-    "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
-    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
-    "Projects/Study/ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
-    "Projects/Study/Java/JVM/canvas/JVM.canvas",
-    "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas",
-    "Projects/Study/HTTP/QUIC/QUIC.md",
-    "Projects/Study/HTTP/QUIC",
-    "Projects/Study/DataStructure/해볼 것.md",
-    "Projects/Posting/HTTP/HttpSession.md",
-    "Projects/Posting/HTTP/resources/Pasted image 20240422154905.png",
-    "Projects/Posting/DB/트랜잭션 전파.md",
     "Projects/Posting/Cache/캐시 선택.md",
-    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
-    "Projects/Posting/DB/resources/Pasted image 20240510020217 1.png",
-    "Projects/Posting/DB/resources/Pasted image 20240510020309 1.png",
+    "Projects/Posting/DB/트랜잭션 전파.md",
+    "Projects/Posting/Spring/isCommited.md",
+    "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
+    "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
+    "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
+    "Projects/Posting/Java/정적 팩토리 메서드.md",
     "Projects/Posting/DB/null.md",
-    "Projects/Study/Spring/JPA/canvas/JPA.canvas",
-    "Projects/Posting/DB/resources/Pasted image 20240510020335 1.png",
-    "Projects/Posting/DB/resources/Pasted image 20240510020319 1.png",
-    "Projects/Study/Web/Tomcat/resources/Pasted image 20240314164110.png",
-    "Projects/Study/Web/Tomcat/resources",
-    "Projects/Study/Web/Tomcat/md/Tomcat.md",
-    "Projects/Study/Web/Tomcat/md/서블릿 컨테이너.md",
-    "Projects/Study/Web/Tomcat/md/Realm.md",
-    "Projects/Study/Web/Tomcat/md",
-    "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas",
-    "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas",
-    "Projects/Study/Java/Import/Import.md",
-    "Projects/Study/Java/final/canvas/fianl.canvas",
-    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
-    "Projects/Study/Employment/learning/Ultra Learning.canvas",
-    "Projects/Study/DB/SQL/md/해시 조인.md",
-    "Projects/Study/DB/SQL/md/서브쿼리 조인.md",
-    "Projects/Study/DB/Sharding/md/디렉토리 샤딩(Directory Sharding).md",
-    "Projects/Study/DB/Sharding/md/레인지 샤딩(Range Sharding).md",
-    "Projects/Study/DB/Sharding/md/Config 클래스.md",
-    "Projects/Study/DB/Sharding/md",
+    "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
+    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
+    "Projects/Posting/Test/테스트 데이터 초기화.md",
+    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+    "conflict-files-obsidian-git.md",
+    "Projects/Study/OS/보초콘.md",
+    "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+    "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
+    "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
+    "Projects/Study/Algorithm/resources/Pasted image 20240319144924.png",
+    "Projects/Study/Algorithm/resources/Pasted image 20240319145444.png",
+    "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
+    "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
+    "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
+    "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
+    "Pasted image 20240713224955.png",
+    "Projects/Study/Algorithm/resources",
+    "Projects/Study/Algorithm/resources/Pasted image 20240713224940.png",
+    "Projects/Study/Web/Tomcat/md/톰캣 아키텍처.md",
+    "Projects/Study/Web/Tomcat/md/서블릿 컨테이너.md",
+    "Projects/Study/Web/Tomcat/md/Tomcat.md",
+    "Projects/Study/Web/Tomcat/md/The Valves.md",
+    "Projects/Study/Web/Tomcat/md",
+    "Projects/Study/Java/final/md",
+    "Projects/Study/Java/Import",
+    "Projects/Study/HTTP/QUIC",
     "Projects/Study/Container/Docker/md",
+    "Projects/Study/Auth/SSL",
+    "Projects/Study/Auth",
     "Projects/Study/Algorithm/오답노트",
-    "Projects/Study/HTTP/Keep-Alive",
     "Projects/Study/Algorithm/약한 유형 정리",
-    "Projects/Study/Algorithm/bfs"
+    "Projects/Study/Web/Tomcat/resources/Pasted image 20240314164110.png",
+    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626213554.png",
+    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626214124.png",
+    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626191015.png",
+    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626190425.png",
+    "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626185307.png",
+    "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
+    "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
+    "Projects/Study/ComputerStructure/Memory/canvas/32bit vs 64bit.canvas",
+    "Projects/Study/ComputerStructure/Register/canvas/레지스터.canvas",
+    "Projects/Study/Spring/JPA/canvas/JPA.canvas",
+    "Projects/Study/DB/SQL/canvas/SQL.canvas",
+    "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
+    "Projects/Study/HTTP/URL/canvas/URL.canvas",
+    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
   ]
 }
