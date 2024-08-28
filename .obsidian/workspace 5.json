@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "bb629b13146623b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b0861344947f1ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c975405defa1a325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa53e4bef7357cbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "479c2cb088ac9872",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7aeb740bbe4f0cd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e316979a669e5b69",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ba74097e96ebed7b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "82b5b9fa0fb52c82",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "64577174225a862c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "45464ec1e7cb51fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "e285a7d42210427e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06343545aa5b50f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "215bce37b4c74038",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f6156cab4b95489e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4f20caf96c35a22d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+              }
+            }
+          },
+          {
+            "id": "1b43017edc01ea6a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "excel:Create Excel File": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-kanban:새 보드 만들기": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "c975405defa1a325",
+  "lastOpenFiles": [
+    "Projects/Posting/Cache/캐시 선택.md",
+    "Projects/Plan/학습 전략.md",
+    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Plan/공부할 것들.md"
+  ]
+}
