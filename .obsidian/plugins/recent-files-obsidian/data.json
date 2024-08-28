@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "보초콘",
+      "path": "Projects/Study/OS/보초콘.md"
+    },
+    {
+      "basename": "캐시 선택",
+      "path": "Projects/Posting/Cache/캐시 선택.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/Algorithm/오답노트/무제 파일.canvas"
+    },
+    {
       "basename": "2146) 다리 만들기",
       "path": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md"
     },
@@ -31,10 +43,6 @@
     {
       "basename": "트랜잭션 전파",
       "path": "Projects/Posting/DB/트랜잭션 전파.md"
-    },
-    {
-      "basename": "캐시 선택",
-      "path": "Projects/Posting/Cache/캐시 선택.md"
     },
     {
       "basename": "Ehcache vs Caffeine",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20240423202521",
       "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202521.png"
-    },
-    {
-      "basename": "Pasted image 20240423202502",
-      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202502.png"
-    },
-    {
-      "basename": "Pasted image 20240423202232",
-      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202232.png"
     }
   ],
   "omittedPaths": [],

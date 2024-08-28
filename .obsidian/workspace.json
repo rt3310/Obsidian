@@ -59,26 +59,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ee358f794072bb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
+                "file": "Projects/Study/OS/보초콘.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
+                "file": "Projects/Study/OS/보초콘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
+                "file": "Projects/Study/OS/보초콘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md"
+                "file": "Projects/Study/OS/보초콘.md"
               }
             }
           },
@@ -227,8 +215,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6ee358f794072bb5",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Projects/Posting/Cache/캐시 선택.md",
+    "Projects/Study/Algorithm/오답노트/무제 파일.canvas",
+    "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
     "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
     "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
     "Projects/Study/Algorithm/resources/Pasted image 20240713224955.png",
@@ -236,7 +227,6 @@
     "Projects/Posting/DB/null.md",
     "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
     "Projects/Posting/DB/트랜잭션 전파.md",
-    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Info/성능 예산.md",
     "Projects/Posting/Spring/isCommited.md",
@@ -255,7 +245,6 @@
     "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
-    "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/Algorithm/resources/Pasted image 20240713224940.png",
     "Projects/Study/Web/Tomcat/md/톰캣 아키텍처.md",
@@ -282,7 +271,6 @@
     "Projects/Study/Spring/JPA/canvas/JPA.canvas",
     "Projects/Study/DB/SQL/canvas/SQL.canvas",
     "Projects/Study/HTTP/Web Server/canvas/웹 서버.canvas",
-    "Projects/Study/HTTP/URL/canvas/URL.canvas",
-    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
+    "Projects/Study/HTTP/URL/canvas/URL.canvas"
   ]
 }
