@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "3f6d6bb41896a682",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Posting/Cache/캐시 선택.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2463eca64201697b",
             "type": "leaf",
             "state": {
@@ -65,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/OS/보초콘.md",
+                "file": "Projects/Posting/Cache/캐시 선택.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/OS/보초콘.md",
+                "file": "Projects/Posting/Cache/캐시 선택.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/OS/보초콘.md"
+                "file": "Projects/Posting/Cache/캐시 선택.md"
               }
             }
           },
@@ -215,7 +202,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "e79b501905b71259",
   "lastOpenFiles": [
     "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Study/Algorithm/오답노트/무제 파일.canvas",
