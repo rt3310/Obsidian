@@ -69,9 +69,11 @@
             "id": "6ee358f794072bb5",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -150,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "file": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+                "file": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+                "file": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md"
               }
             }
           },
@@ -225,25 +227,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6ee358f794072bb5",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "Projects/Posting/Cache/캐시 선택.md",
+    "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
+    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+    "Projects/Study/Algorithm/resources/Pasted image 20240713224955.png",
+    "Projects/Posting/HTTP/HttpSession.md",
+    "Projects/Posting/DB/null.md",
+    "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
     "Projects/Posting/DB/트랜잭션 전파.md",
+    "Projects/Posting/Cache/캐시 선택.md",
+    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+    "Projects/Info/성능 예산.md",
     "Projects/Posting/Spring/isCommited.md",
     "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
     "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
     "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
     "Projects/Posting/Java/정적 팩토리 메서드.md",
-    "Projects/Posting/DB/null.md",
-    "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
-    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
     "Projects/Posting/Test/테스트 데이터 초기화.md",
-    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
     "conflict-files-obsidian-git.md",
     "Projects/Study/OS/보초콘.md",
     "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
-    "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/Algorithm/resources/Pasted image 20240319144924.png",
     "Projects/Study/Algorithm/resources/Pasted image 20240319145444.png",
@@ -251,13 +256,9 @@
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
     "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
-    "Pasted image 20240713224955.png",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/Algorithm/resources/Pasted image 20240713224940.png",
     "Projects/Study/Web/Tomcat/md/톰캣 아키텍처.md",
-    "Projects/Study/Web/Tomcat/md/서블릿 컨테이너.md",
-    "Projects/Study/Web/Tomcat/md/Tomcat.md",
-    "Projects/Study/Web/Tomcat/md/The Valves.md",
     "Projects/Study/Web/Tomcat/md",
     "Projects/Study/Java/final/md",
     "Projects/Study/Java/Import",
