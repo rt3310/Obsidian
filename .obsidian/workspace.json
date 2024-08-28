@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/Cache/캐시 선택.md",
+                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/Cache/캐시 선택.md",
+                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/Cache/캐시 선택.md",
+                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/Cache/캐시 선택.md"
+                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
               }
             }
           },
@@ -204,6 +204,10 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
+    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+    "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
+    "Projects/Study/C, C++/무제 폴더",
+    "Projects/Study/C, C++",
     "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Study/Algorithm/오답노트/무제 파일.canvas",
     "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
@@ -214,7 +218,6 @@
     "Projects/Posting/DB/null.md",
     "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
     "Projects/Posting/DB/트랜잭션 전파.md",
-    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Info/성능 예산.md",
     "Projects/Posting/Spring/isCommited.md",
     "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
@@ -242,8 +245,6 @@
     "Projects/Study/Container/Docker/md",
     "Projects/Study/Auth/SSL",
     "Projects/Study/Auth",
-    "Projects/Study/Algorithm/오답노트",
-    "Projects/Study/Algorithm/약한 유형 정리",
     "Projects/Study/Web/Tomcat/resources/Pasted image 20240314164110.png",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626213554.png",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626214124.png",
