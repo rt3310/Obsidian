@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/switch 문의 제약사항.md",
+                "file": "Projects/Posting/Cache/캐시 선택.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f6d6bb41896a682",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Posting/Cache/캐시 선택.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,13 +59,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/OS/보초콘.md",
+                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,7 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -127,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/switch 문의 제약사항.md",
+                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/switch 문의 제약사항.md",
+                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/switch 문의 제약사항.md"
+                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
               }
             }
           },
@@ -203,42 +216,41 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e79b501905b71259",
+  "active": "b68f87d011bca7af",
   "lastOpenFiles": [
-    "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
     "Projects/Study/C, C++/switch 문의 제약사항.md",
+    "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
-    "Projects/Study/C, C++/무제 폴더",
     "Projects/Study/C, C++",
-    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Study/Algorithm/오답노트/무제 파일.canvas",
-    "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
-    "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
-    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
-    "Projects/Study/Algorithm/resources/Pasted image 20240713224955.png",
-    "Projects/Posting/HTTP/HttpSession.md",
-    "Projects/Posting/DB/null.md",
-    "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
+    "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Posting/DB/트랜잭션 전파.md",
-    "Projects/Info/성능 예산.md",
     "Projects/Posting/Spring/isCommited.md",
     "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
     "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
     "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
     "Projects/Posting/Java/정적 팩토리 메서드.md",
+    "Projects/Posting/DB/null.md",
+    "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
     "Projects/Study/DB/Real MySQL/Real MySQL - Part 1.md",
     "Projects/Posting/Test/테스트 데이터 초기화.md",
+    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
     "conflict-files-obsidian-git.md",
     "Projects/Study/OS/보초콘.md",
     "Projects/Study/Algorithm/팁/공부 할 알고리즘.md",
+    "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/Algorithm/resources/Pasted image 20240319144924.png",
     "Projects/Study/Algorithm/resources/Pasted image 20240319145444.png",
     "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
     "Projects/Study/Algorithm/팁/자주 하는 실수 모음.md",
     "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
+    "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
+    "Pasted image 20240713224955.png",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/Algorithm/resources/Pasted image 20240713224940.png",
+    "Projects/Study/Web/Tomcat/md/톰캣 아키텍처.md",
+    "Projects/Study/Web/Tomcat/md/서블릿 컨테이너.md",
     "Projects/Study/Web/Tomcat/md",
     "Projects/Study/Java/final/md",
     "Projects/Study/Java/Import",
@@ -246,6 +258,7 @@
     "Projects/Study/Container/Docker/md",
     "Projects/Study/Auth/SSL",
     "Projects/Study/Auth",
+    "Projects/Study/Algorithm/오답노트",
     "Projects/Study/Web/Tomcat/resources/Pasted image 20240314164110.png",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626213554.png",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626214124.png",
