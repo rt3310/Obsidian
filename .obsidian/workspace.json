@@ -64,9 +64,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6ee358f794072bb5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -215,7 +225,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b68f87d011bca7af",
+  "active": "6ee358f794072bb5",
   "lastOpenFiles": [
     "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Posting/DB/트랜잭션 전파.md",
