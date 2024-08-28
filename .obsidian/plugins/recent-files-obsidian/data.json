@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "switch 문의 제약사항",
+      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
+    },
+    {
       "basename": "포인터에는 왜 타입이 없을까",
       "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240423202618",
       "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202618.png"
-    },
-    {
-      "basename": "Pasted image 20240423202036",
-      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202036.png"
     }
   ],
   "omittedPaths": [],

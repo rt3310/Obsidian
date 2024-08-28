@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
+                "file": "Projects/Study/C, C++/switch 문의 제약사항.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
+                "file": "Projects/Study/C, C++/switch 문의 제약사항.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
+                "file": "Projects/Study/C, C++/switch 문의 제약사항.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
+                "file": "Projects/Study/C, C++/switch 문의 제약사항.md"
               }
             }
           },
@@ -204,8 +204,9 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
-    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
+    "Projects/Study/C, C++/switch 문의 제약사항.md",
+    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Study/C, C++/무제 폴더",
     "Projects/Study/C, C++",
     "Projects/Posting/Cache/캐시 선택.md",
@@ -237,7 +238,6 @@
     "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/Algorithm/resources/Pasted image 20240713224940.png",
-    "Projects/Study/Web/Tomcat/md/톰캣 아키텍처.md",
     "Projects/Study/Web/Tomcat/md",
     "Projects/Study/Java/final/md",
     "Projects/Study/Java/Import",
