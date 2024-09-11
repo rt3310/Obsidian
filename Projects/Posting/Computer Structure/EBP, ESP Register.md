@@ -71,7 +71,7 @@ _fastcall은 처음 2개의 인자는 ecx, edx에 넣되 나머지 인자부턴 
 main()에서 인자를 2개 받는 func(int , int) 함수를 호출한다고 가정할 때 스택 프레임에서  
 어떻게 callee의 매개변수에 인수를 전달하는지 그 과정을 알아본다.
 
-```null
+```asm
 main() :
 push b // 인수 a,b를 push로 생성한다.
 push a // <- ESP location
@@ -96,6 +96,45 @@ callee의 매개변수인 [ebp-8]에 복사하는 방식으로 이뤄진다.
 
 그리고 _cdcel은 caller에서 인자를 정리하기에 함수가 종료되면 caller에서 ESP 값을 올려준다.
 
-```null
+```asm
 add esp, 8 // 인수 스택 정리
+```
+
+## 최종 스택 프레임 구조 (함수 호출)
+
+```asm
+main() :
+// func(7,32); =
+PUSH 32 
+PUSH 7 // 인수로 사용할 스택 확보 (7, 32)
+call func00040167 // 함수 호출
+ADD esp, 8 // caller에서 인자 정리
+
+′′′
+
+func(int x, int y) :
+====== 에필로그 ======
+PUSH EIP // EIP는 PC라서 call 명령 다음번에 실행될 ADD esp, 8의 주소를 가리키고 있다.
+	    해당 주소를 저장한다.
+PUSH EBP // ←ESP 현위치
+MOVE EBP, ESP // EBP는 ESP와 같은 값이 된다.
+====== 인수 전달 =====
+SUB ESP, 8 // 인자용 스택 확보
+mov EAX, DWORD [EBP+8] // callee의 아규먼트 a를 ([ebp+8] = "←ESP"에서 두칸위 = "push 7")
+mov DWORD [EBP-8], EAX // caller의 매개변수 x에 전달
+mov ECX, DWORD [EBP+C] // args b를
+mov DWORD [EBP-4], ECX // y에 전달 ([ebp+c] = "push 32")
+// = func(int x=7, int y=32)
+====== 함수 내용 =====
+
+	′′′
+
+MOV EAX, [value] // 리턴 값 반환
+====== 프롤로그 ======
+MOV ESP, EBP // 지역변수(매개변수) 정리
+POP EBP // EBP는 다시 main 스택 프레임에 위치
+RETN // EIP가 다음에 실행할 코드로 점프하여 ADD esp, 8 명령을 실행
+ pop eip // 에필로그에서 push한 기존 eip 값을 받아온다.
+ jmp eip // 받아온 eip 값은 함수 호출 후 실행될 main()의 다음 주소(코드)이므로 
+            자연스레 다음 명령어(ADD esp, 8)가 실행된다.
 ```
