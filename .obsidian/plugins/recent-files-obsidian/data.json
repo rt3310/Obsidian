@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "EBP, ESP Register",
+      "path": "Projects/Posting/Computer Structure/EBP, ESP Register.md"
+    },
+    {
       "basename": "온라인 결제 프로세스",
       "path": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240423203854",
       "path": "Projects/Posting/HTTP/resources/Pasted image 20240423203854.png"
-    },
-    {
-      "basename": "Pasted image 20240423202943",
-      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202943.png"
     }
   ],
   "omittedPaths": [],

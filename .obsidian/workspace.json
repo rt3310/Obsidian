@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md",
+                "file": "Projects/Posting/Computer Structure/EBP, ESP Register.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md",
+                "file": "Projects/Posting/Computer Structure/EBP, ESP Register.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md",
+                "file": "Projects/Posting/Computer Structure/EBP, ESP Register.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md"
+                "file": "Projects/Posting/Computer Structure/EBP, ESP Register.md"
               }
             }
           },
@@ -205,8 +205,10 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
-    "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md",
+    "Projects/Posting/Computer Structure/EBP, ESP Register.md",
+    "Projects/Posting/Computer Structure",
+    "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Posting/Trouble Shooting",
     "Projects/Posting/무제 파일.md",
     "conflict-files-obsidian-git.md",
@@ -237,7 +239,6 @@
     "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/Algorithm/resources/Pasted image 20240319144924.png",
     "Projects/Study/Algorithm/resources/Pasted image 20240319145444.png",
-    "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/Algorithm/resources/Pasted image 20240713224940.png",
     "Projects/Study/Web/Tomcat/md",
@@ -245,7 +246,6 @@
     "Projects/Study/Java/Import",
     "Projects/Study/HTTP/QUIC",
     "Projects/Study/Container/Docker/md",
-    "Projects/Study/Auth/SSL",
     "Projects/Study/Web/Tomcat/resources/Pasted image 20240314164110.png",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626213554.png",
     "Projects/Study/DB/Real MySQL/resources/Pasted image 20240626214124.png",
