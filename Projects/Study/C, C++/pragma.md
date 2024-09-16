@@ -163,6 +163,45 @@ Weird 구조체의 a.i : 3
 
 또한 `#pragma once` 의 장점으로 `#ifndef` 를 이용하는 것 보다 컴파일 시간을 절약할 수 있다는 점인데, `#ifndef` 를 이용하게 되면 `include` 하였을 때 전처리기가 직접 헤더파일을 열어 보아서 과연 `WEIRD_H` 가 정의되었나 정의되지 않았나 확인해 보아야 하는데, `pragma once` 를 이용하면 한 번 `include` 되었다면 헤더파일을 다시 열어보지도 않기 때문에 컴파일 시간이 절약되는 효과가 나게 된다.
 
-다만 앞에서도 말했듯이 `#pragma` 관련 키워드들이 컴파일러 종속적이여서 어떤 컴파일러에서는 `#pragma once` 가 지원이 되지 않을 수 도 있다. 따라서 무슨 컴파일러를 사용하는지 보고 `#pragma once` 를 지원한다면 되도록 이것을 사용하는 것이 도움이 됩니다.
+다만 앞에서도 말했듯이 `#pragma` 관련 키워드들이 컴파일러 종속적이여서 어떤 컴파일러에서는 `#pragma once` 가 지원이 되지 않을 수도 있다. 따라서 무슨 컴파일러를 사용하는지 보고 `#pragma once` 를 지원한다면 되도록 이것을 사용하는 것이 도움이 된다.
 
-실제로 아래 코드는 [stdio.h](https://modoocode.com/34) 의 헤더파일을 열어본 것입니다.
+실제로 아래 코드는 [stdio.h](https://modoocode.com/34) 의 헤더파일을 열어본 것이다.
+```c
+/***
+ *stdio.h - definitions/declarations for standard I/O routines
+ *
+ *       Copyright (c) Microsoft Corporation. All rights reserved.
+ *
+ *Purpose:
+ *       This file defines the structures, values, macros, and functions
+ *       used by the level 2 I/O ("standard I/O") routines.
+ *       [ANSI/System V]
+ *
+ *       [Public]
+ *
+ ****/
+#if _MSC_VER > 1000
+#pragma once
+#endif
+
+#ifndef _INC_STDIO
+#define _INC_STDIO
+
+/* 내용 (생략) */
+
+#endif /* _INC_STDIO */
+```
+위 헤더파일에서 사용하는 컴파일러마다 어떠한 키워드를 사용할 수 있게 하였는지 알 수 있는데,
+```c
+#if _MSC_VER > 1000
+#pragma once
+#endif
+```
+를 보면 `_MSC_VER` 이 1000 보다 크면 `#pragma once` 키워드를 사용하라고 되어있다. `_MSC_VER` 은 마이크로소프트 사의 전처리기에 의해 기본적으로 정의되어 있는 상수로 컴파일러의 버전을 나타내는데, `Visual C++` 의 경우 `_MSC_VER` 값이 1000 부터 시작 하여 현재 2008 버전은 1500 의 값을 가지고 있다. 즉, 현재 버전의 컴파일러의 경우 `_MSV_VER > 1000` 이 참이 되므로 `#pragma once` 키워드를 이용하게 된다. 구 버전의 컴파일러는 그 아래
+```
+#ifndef _INC_STDIO
+#define _INC_STDIO
+…
+#endif /* _INC_STDIO */
+```
+과 같이 C 표준 방식의 형태를 사용하도록 되어 있는 것을 볼 수 있다.
