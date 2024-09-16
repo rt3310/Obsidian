@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "pragma",
+      "path": "Projects/Study/C, C++/pragma.md"
+    },
+    {
       "basename": "캐시 선택",
       "path": "Projects/Posting/Cache/캐시 선택.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240423202521",
       "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202521.png"
-    },
-    {
-      "basename": "Pasted image 20240423202502",
-      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202502.png"
     }
   ],
   "omittedPaths": [],
