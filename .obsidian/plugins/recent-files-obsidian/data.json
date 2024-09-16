@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "new vs malloc",
+      "path": "Projects/Study/C, C++/new vs malloc.md"
+    },
+    {
       "basename": "pragma",
       "path": "Projects/Study/C, C++/pragma.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240423202036",
       "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202036.png"
-    },
-    {
-      "basename": "Pasted image 20240423202521",
-      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202521.png"
     }
   ],
   "omittedPaths": [],
