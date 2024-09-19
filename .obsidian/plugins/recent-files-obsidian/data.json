@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "자바스크립트",
+      "path": "Projects/Study/Javascript/자바스크립트.md"
+    },
+    {
       "basename": "new vs malloc",
       "path": "Projects/Study/C, C++/new vs malloc.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240423202618",
       "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202618.png"
-    },
-    {
-      "basename": "Pasted image 20240423202036",
-      "path": "Projects/Posting/HTTP/resources/Pasted image 20240423202036.png"
     }
   ],
   "omittedPaths": [],
