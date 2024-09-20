@@ -111,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -205,6 +206,7 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
+    "Pasted image 20240920173510.png",
     "Pasted image 20240920025650.png",
     "Pasted image 20240920025928.png",
     "Pasted image 20240920113206.png",
@@ -223,7 +225,6 @@
     "Pasted image 20240920113827.png",
     "Pasted image 20240920031928.png",
     "Pasted image 20240920030725.png",
-    "Pasted image 20240920030108.png",
     "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md",
     "Projects/Posting/Computer Structure",
     "Projects/Study/C, C++/switch 문의 제약사항.md",
