@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "cc vs cpp",
+      "path": "Projects/Study/C, C++/cc vs cpp.md"
+    },
+    {
       "basename": "자바스크립트",
       "path": "Projects/Study/Javascript/자바스크립트.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Swapping 기법",
       "path": "Projects/Study/OS/memory/md/Swapping 기법.md"
-    },
-    {
-      "basename": "MMU",
-      "path": "Projects/Study/OS/memory/md/MMU.md"
     }
   ],
   "omittedPaths": [],
