@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Object & Reference",
+      "path": "Projects/Study/Unreal/Object & Reference.md"
+    },
+    {
       "basename": "cc vs cpp",
       "path": "Projects/Study/C, C++/cc vs cpp.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "메모리 과할당(Over Allocating)",
       "path": "Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md"
-    },
-    {
-      "basename": "Swapping 기법",
-      "path": "Projects/Study/OS/memory/md/Swapping 기법.md"
     }
   ],
   "omittedPaths": [],

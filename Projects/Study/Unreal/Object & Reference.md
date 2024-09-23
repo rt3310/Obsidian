@@ -1,0 +1,3 @@
+- Objects: 데이터와 기능의 집합
+- Actors: 레벨에 투입할 수 있는 Object
+- Component: actor에 투입할 수 있는 Objects

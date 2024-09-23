@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/cc vs cpp.md",
+                "file": "Projects/Study/Unreal/Object & Reference.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -128,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/cc vs cpp.md",
+                "file": "Projects/Study/Unreal/Object & Reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/cc vs cpp.md",
+                "file": "Projects/Study/Unreal/Object & Reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/cc vs cpp.md"
+                "file": "Projects/Study/Unreal/Object & Reference.md"
               }
             }
           },
@@ -206,8 +205,10 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
-    "Projects/Study/Javascript/자바스크립트.md",
     "Projects/Study/C, C++/cc vs cpp.md",
+    "Projects/Study/Unreal/Object & Reference.md",
+    "Projects/Study/Unreal",
+    "Projects/Study/Javascript/자바스크립트.md",
     "Pasted image 20240920173510.png",
     "Pasted image 20240920025650.png",
     "Pasted image 20240920025928.png",
@@ -249,10 +250,8 @@
     "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
     "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
     "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
-    "Projects/Posting/Java/정적 팩토리 메서드.md",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/Web/Tomcat/md",
-    "Projects/Study/Java/final/md",
     "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
     "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
