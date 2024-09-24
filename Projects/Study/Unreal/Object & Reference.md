@@ -1,6 +1,0 @@
-- Objects: 데이터와 기능의 집합
-- Actors: 레벨에 투입할 수 있는 Object
-- Component: Actor에 투입할 수 있는 Objects
-- Reference: Object를 찾는 위치
-- Data Pin(파란색): 노드의 데이터 입출력
-- Execution Pins(흰색): 노드를 언제 실행할지 정함
