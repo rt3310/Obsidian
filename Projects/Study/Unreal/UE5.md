@@ -16,3 +16,7 @@ Impulse = Mass $\times$ Velocity Change
 - Vel Change 체크 시 질량을 무시하고 원하는 속력을 적용
 	- Z에 400을 입력하면 위쪽 방향으로 400m/s의 속력을 낸다.
 	- 미체크 시에는 질량을 고려해야 하므로 400 * Mass 값을 입력해야 한다.
+
+## Glossary
+- Spawning: Creating an object while playing
+- Transform: Location, rotation and scale
