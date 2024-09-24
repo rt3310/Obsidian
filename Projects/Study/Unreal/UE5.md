@@ -20,3 +20,4 @@ Impulse = Mass $\times$ Velocity Change
 ## Glossary
 - Spawning: Creating an object while playing
 - Transform: Location, rotation and scale
+- Return pin: Output of a node
