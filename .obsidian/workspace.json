@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/Unreal/Object & Reference.md",
+                "file": "Projects/Study/Java/Concurrency/Java Concurrency.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Unreal/Object & Reference.md",
+                "file": "Projects/Study/Java/Concurrency/Java Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Unreal/Object & Reference.md",
+                "file": "Projects/Study/Java/Concurrency/Java Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Unreal/Object & Reference.md"
+                "file": "Projects/Study/Java/Concurrency/Java Concurrency.md"
               }
             }
           },
@@ -205,8 +205,10 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
-    "Projects/Study/C, C++/cc vs cpp.md",
     "Projects/Study/Unreal/Object & Reference.md",
+    "Projects/Study/Java/Concurrency/Java Concurrency.md",
+    "Projects/Study/Java/Concurrency",
+    "Projects/Study/C, C++/cc vs cpp.md",
     "Projects/Study/Unreal",
     "Projects/Study/Javascript/자바스크립트.md",
     "Pasted image 20240920173510.png",
@@ -249,9 +251,7 @@
     "Projects/Posting/Spring/isCommited.md",
     "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
     "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
-    "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
     "Projects/Study/Algorithm/resources",
-    "Projects/Study/Web/Tomcat/md",
     "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
     "Projects/Study/ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Java Concurrency",
+      "path": "Projects/Study/Java/Concurrency/Java Concurrency.md"
+    },
+    {
       "basename": "Object & Reference",
       "path": "Projects/Study/Unreal/Object & Reference.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "메모리 관리",
       "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
-    },
-    {
-      "basename": "메모리 과할당(Over Allocating)",
-      "path": "Projects/Study/OS/memory/md/메모리 과할당(Over Allocating).md"
     }
   ],
   "omittedPaths": [],
