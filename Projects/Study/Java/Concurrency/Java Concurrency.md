@@ -25,3 +25,10 @@
 - `unpoart(thread)`: WAITING 상태의 대상 스레드를 `RUNNABLE`상태로 변경한다.
 
 ![[Pasted image 20240924231713.png]]
+
+
+## 생산자 소비자 문제
+![[Pasted image 20240924232906.png]]
+![[Pasted image 20240924232924.png]]
+![[Pasted image 20240924232943.png]]
+![[Pasted image 20240924232950.png]]
