@@ -23,3 +23,5 @@
 - `parkNano(nanos)`: 스레드를 나노초 동안만 `TIMED_WAITING`상태로 변경한다.
 	- 지정한 나노초가 지나면 `TIMED_WAITING`상태에서 빠져나오고 `RUNNABLE`상태로 변경된다.
 - `unpoart(thread)`: WAITING 상태의 대상 스레드를 `RUNNABLE`상태로 변경한다.
+
+![[Pasted image 20240924231713.png]]
