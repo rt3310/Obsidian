@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "연산자 오버로딩",
+      "path": "Projects/Study/C, C++/연산자 오버로딩.md"
+    },
+    {
       "basename": "UE5",
       "path": "Projects/Study/Unreal/UE5.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240321034705",
       "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034705.png"
-    },
-    {
-      "basename": "메모리 관리",
-      "path": "Projects/Study/OS/memory/canvas/메모리 관리.canvas"
     }
   ],
   "omittedPaths": [],
