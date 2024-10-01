@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/연산자 오버로딩.md",
+                "file": "Projects/Study/C, C++/파일 입출력.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/연산자 오버로딩.md",
+                "file": "Projects/Study/C, C++/파일 입출력.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/연산자 오버로딩.md",
+                "file": "Projects/Study/C, C++/파일 입출력.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/연산자 오버로딩.md"
+                "file": "Projects/Study/C, C++/파일 입출력.md"
               }
             }
           },
@@ -205,9 +205,12 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
+    "262BC340578624EC26E38B.webp",
+    "2206553D578624CF30D956.webp",
+    "Projects/Study/C, C++/파일 입출력.md",
+    "Projects/Study/C, C++/연산자 오버로딩.md",
     "Pasted image 20240927144913.png",
     "Projects/Study/Unreal/UE5.md",
-    "Projects/Study/C, C++/연산자 오버로딩.md",
     "Projects/Study/Java/Concurrency/Java Concurrency.md",
     "Pasted image 20240924232950.png",
     "Pasted image 20240924232943.png",
@@ -221,9 +224,7 @@
     "Pasted image 20240920173510.png",
     "Pasted image 20240920025650.png",
     "Pasted image 20240920025928.png",
-    "Pasted image 20240920113206.png",
     "Projects/Posting/Computer Structure/EBP, ESP Register.md",
-    "Projects/Study/Javascript/resources/Pasted image 20240920024908.png",
     "Projects/Study/Javascript/resources",
     "Projects/Study/Javascript",
     "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
@@ -250,7 +251,6 @@
     "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
     "Projects/Posting/DB/트랜잭션 전파.md",
     "Projects/Info/성능 예산.md",
-    "Projects/Posting/Spring/isCommited.md",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
