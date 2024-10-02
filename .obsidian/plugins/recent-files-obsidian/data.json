@@ -5,20 +5,28 @@
       "path": "Projects/Study/C, C++/연산자 오버로딩.md"
     },
     {
-      "basename": "Pasted image 20240916013533",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240916013533.png"
+      "basename": "포인터에는 왜 타입이 없을까",
+      "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
     },
     {
       "basename": "switch 문의 제약사항",
       "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
     },
     {
+      "basename": "pragma",
+      "path": "Projects/Study/C, C++/pragma.md"
+    },
+    {
       "basename": "cc vs cpp",
       "path": "Projects/Study/C, C++/cc vs cpp.md"
     },
     {
-      "basename": "포인터에는 왜 타입이 없을까",
-      "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
+      "basename": "배열은 배열이고 포인터는 포인터이다.",
+      "path": "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md"
+    },
+    {
+      "basename": "Pasted image 20240916013533",
+      "path": "Projects/Study/C, C++/resources/Pasted image 20240916013533.png"
     },
     {
       "basename": "UE5",
@@ -191,14 +199,6 @@
     {
       "basename": "메모리 영역",
       "path": "Projects/Study/OS/VirtualMemory/md/메모리 영역.md"
-    },
-    {
-      "basename": "Pasted image 20240430010822",
-      "path": "Projects/Posting/Java/resources/Pasted image 20240430010822.png"
-    },
-    {
-      "basename": "Pasted image 20240321034804",
-      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034804.png"
     }
   ],
   "omittedPaths": [],
