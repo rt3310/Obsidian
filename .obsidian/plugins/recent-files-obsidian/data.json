@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "파일 입출력",
-      "path": "Projects/Study/C, C++/파일 입출력.md"
-    },
-    {
-      "basename": "2206553D578624CF30D956",
-      "path": "2206553D578624CF30D956.webp"
+      "basename": "포인터에는 왜 타입이 없을까",
+      "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
     },
     {
       "basename": "연산자 오버로딩",
@@ -51,10 +47,6 @@
     {
       "basename": "switch 문의 제약사항",
       "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
-    },
-    {
-      "basename": "포인터에는 왜 타입이 없을까",
-      "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
     },
     {
       "basename": "Ehcache vs Caffeine",
@@ -199,6 +191,14 @@
     {
       "basename": "Pasted image 20240430010822",
       "path": "Projects/Posting/Java/resources/Pasted image 20240430010822.png"
+    },
+    {
+      "basename": "Pasted image 20240321034804",
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034804.png"
+    },
+    {
+      "basename": "Pasted image 20240321034705",
+      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034705.png"
     }
   ],
   "omittedPaths": [],
