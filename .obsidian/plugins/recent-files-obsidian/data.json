@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "템플릿 특수화",
+      "path": "Projects/Study/C, C++/템플릿 특수화.md"
+    },
+    {
       "basename": "연산자 오버로딩",
       "path": "Projects/Study/C, C++/연산자 오버로딩.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Virtual Memory",
       "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
-    },
-    {
-      "basename": "메모리 영역",
-      "path": "Projects/Study/OS/VirtualMemory/md/메모리 영역.md"
     }
   ],
   "omittedPaths": [],

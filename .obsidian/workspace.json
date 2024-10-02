@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/연산자 오버로딩.md",
+                "file": "Projects/Study/C, C++/템플릿 특수화.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/연산자 오버로딩.md",
+                "file": "Projects/Study/C, C++/템플릿 특수화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/연산자 오버로딩.md",
+                "file": "Projects/Study/C, C++/템플릿 특수화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/연산자 오버로딩.md"
+                "file": "Projects/Study/C, C++/템플릿 특수화.md"
               }
             }
           },
@@ -205,12 +205,13 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
+    "Projects/Study/C, C++/연산자 오버로딩.md",
+    "Projects/Study/C, C++/템플릿 특수화.md",
     "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
     "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Study/C, C++/pragma.md",
     "Projects/Study/C, C++/cc vs cpp.md",
     "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
-    "Projects/Study/C, C++/연산자 오버로딩.md",
     "Projects/Study/C, C++/resources/Pasted image 20240916013533.png",
     "Projects/Study/Unreal/UE5.md",
     "Projects/Study/Java/Concurrency/Java Concurrency.md",
