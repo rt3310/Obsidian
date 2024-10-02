@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "포인터에는 왜 타입이 없을까",
-      "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
-    },
-    {
       "basename": "연산자 오버로딩",
       "path": "Projects/Study/C, C++/연산자 오버로딩.md"
+    },
+    {
+      "basename": "Pasted image 20240916013533",
+      "path": "Projects/Study/C, C++/resources/Pasted image 20240916013533.png"
+    },
+    {
+      "basename": "switch 문의 제약사항",
+      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
+    },
+    {
+      "basename": "cc vs cpp",
+      "path": "Projects/Study/C, C++/cc vs cpp.md"
+    },
+    {
+      "basename": "포인터에는 왜 타입이 없을까",
+      "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
     },
     {
       "basename": "UE5",
@@ -15,10 +27,6 @@
     {
       "basename": "Java Concurrency",
       "path": "Projects/Study/Java/Concurrency/Java Concurrency.md"
-    },
-    {
-      "basename": "cc vs cpp",
-      "path": "Projects/Study/C, C++/cc vs cpp.md"
     },
     {
       "basename": "자바스크립트",
@@ -43,10 +51,6 @@
     {
       "basename": "온라인 결제 프로세스",
       "path": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
     },
     {
       "basename": "Ehcache vs Caffeine",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240321034804",
       "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034804.png"
-    },
-    {
-      "basename": "Pasted image 20240321034705",
-      "path": "Projects/Study/OS/VirtualMemory/resources/Pasted image 20240321034705.png"
     }
   ],
   "omittedPaths": [],
