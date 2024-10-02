@@ -205,6 +205,7 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
+    "26389B3958E4E2BB16AC95.webp",
     "Projects/Study/C, C++/연산자 오버로딩.md",
     "Projects/Study/C, C++/템플릿 특수화.md",
     "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
@@ -250,7 +251,6 @@
     "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
     "Projects/Posting/DB/트랜잭션 전파.md",
     "Projects/Info/성능 예산.md",
-    "Projects/Posting/Spring/isCommited.md",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
