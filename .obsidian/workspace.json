@@ -111,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -203,7 +204,7 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "e79b501905b71259",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "26389B3958E4E2BB16AC95.webp",
     "Projects/Study/C, C++/연산자 오버로딩.md",
