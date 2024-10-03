@@ -111,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -205,6 +206,8 @@
   },
   "active": "e79b501905b71259",
   "lastOpenFiles": [
+    "Pasted image 20241003031011.png",
+    "Pasted image 20241003030933.png",
     "Pasted image 20241003022107.png",
     "Pasted image 20241003013415.png",
     "26389B3958E4E2BB16AC95.webp",
@@ -226,8 +229,6 @@
     "Projects/Study/Java/Concurrency",
     "Projects/Study/Unreal",
     "Projects/Study/Javascript/자바스크립트.md",
-    "Pasted image 20240920173510.png",
-    "Pasted image 20240920025650.png",
     "Projects/Posting/Computer Structure/EBP, ESP Register.md",
     "Projects/Study/Javascript/resources",
     "Projects/Study/Javascript",
