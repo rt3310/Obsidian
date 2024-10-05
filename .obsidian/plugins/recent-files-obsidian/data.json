@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "STL - algorithm",
+      "path": "Projects/Study/C, C++/STL - algorithm.md"
+    },
+    {
       "basename": "STL - associative container",
       "path": "Projects/Study/C, C++/STL - associative container.md"
+    },
+    {
+      "basename": "switch 문의 제약사항",
+      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
     },
     {
       "basename": "STL - sequence container",
@@ -31,10 +39,6 @@
     {
       "basename": "포인터에는 왜 타입이 없을까",
       "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
     },
     {
       "basename": "pragma",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240510020309",
       "path": "Projects/Posting/DB/resources/Pasted image 20240510020309.png"
-    },
-    {
-      "basename": "Pasted image 20240510020319",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020319.png"
     }
   ],
   "omittedPaths": [],

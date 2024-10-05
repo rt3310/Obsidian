@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/STL - associative container.md",
+                "file": "Projects/Study/C, C++/STL - algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/STL - associative container.md",
+                "file": "Projects/Study/C, C++/STL - algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/STL - associative container.md",
+                "file": "Projects/Study/C, C++/STL - algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/STL - associative container.md"
+                "file": "Projects/Study/C, C++/STL - algorithm.md"
               }
             }
           },
@@ -172,24 +172,26 @@
   },
   "active": "2463eca64201697b",
   "lastOpenFiles": [
+    "24E5C63359718B1B071A2B.webp",
+    "Pasted image 20241006021950.png",
+    "Pasted image 20241006021143.png",
+    "Pasted image 20241006021044.png",
+    "Pasted image 20241006021041.png",
+    "Pasted image 20241006015717.png",
+    "Projects/Study/C, C++/STL - associative container.md",
+    "Projects/Study/C, C++/STL - algorithm.md",
+    "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Study/C, C++/STL - sequence container.md",
     "Projects/Posting/HTTP/HttpSession.md",
-    "Projects/Study/C, C++/STL - associative container.md",
     "265AE73859607D5303C92C.webp",
     "2107C344595C3A6F3910F7.webp",
     "Pasted image 20241005220612.png",
     "25339935595C2C382057B8.webp",
     "25566243595C2B600E335B.webp",
-    "22108538595C295C210FFE.webp",
     "Projects/Study/OS/보초콘.md",
-    "Projects/Study/C, C++/resources/Pasted image 20241005171238.png",
-    "Projects/Study/C, C++/resources/23015636595B647418F5CE.webp",
-    "Projects/Study/C, C++/resources/244E834B595B642028B977.webp",
-    "Projects/Study/C, C++/resources/236D8137595B617B02463F.webp",
     "Projects/Study/C, C++/템플릿.md",
     "Projects/Study/C, C++/연산자 오버로딩.md",
     "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
-    "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Study/C, C++/pragma.md",
     "Projects/Study/C, C++/cc vs cpp.md",
     "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
@@ -216,7 +218,6 @@
     "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
     "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
     "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
-    "Projects/Posting/DB/null.md",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
