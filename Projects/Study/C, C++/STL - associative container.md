@@ -312,8 +312,110 @@ Todo(1, "프로그래밍 프로젝트") > Todo(1, "농구 하기");
 가 둘다 `false` 이므로, 두 개의 원소는 같은 것이라 생각하기 때문이다. 따라서 나중에 추가된 '프로그래밍 프로젝트' 는 셋에 추가되지 않는다. 같은 이유로 영화 보기도 추가되지 않는다.
 
 따라서 `operator<` 를 설계할 때 반드시 다른 객체는 `operator<` 상에서도 구분될 수 있도록 만들어야 한다. 다시 말해 **`A` 랑 `B` 가 다른 객체라면, `A < B` 혹은 `B < A` 중 하나는 반드시 `True` 여야 한다**.
+엄밀히 말하자면 `operator<`는 다음과 같은 조건들을 만족해야 한다(A랑 B가 다른 객체라면).
+- `A < A` 는 거짓
+- `A < B != B < A`
+- `A < B` 이고 `B < C` 이면 `A < C`
+- `A == B` 이면 `A < B` 와 `B < A` 둘 다 거짓
+- `A == B` 이고 `B == C` 이면 `A == C`
+위와 같은 조건을 만족하는 `<` 연산자는 **strict weak ordering**을 만족한다고 한다. 지켜야 할 조건들이 꽤나 많이 보이는데 사실, 상식적으로 `operator<` 를 설계하였다면 위 조건들은 모두 만족할 수 있다.
 
-엄밀히 말하자면 `operator<`는 다음과 같은 조건들을 만족해야 한다(A랑 B가 다른 객체라면)
+만약에, 위 중 하나라도 조건이 맞지 않으면 `set` 이 제대로 동작하지 않고 (컴파일 타임에는 오류가 발생하지 않는다), 런타임 상에서 오류가 발생할텐데 정말 디버깅 하기 힘들 것이다.
 
+마지막으로, 클래스 자체에 `operator<` 를 두지 않더라도 셋을 사용하는 방법이다. 예를 들어서 우리가 외부 라이브러리를 사용하는데, 만약에 그 라이브러리의 한 클래스의 객체를 셋에 저장하고 싶다고 해보자. 우리가 사용하는 외부 클래스에 `operator<` 가 정의되어 있지 않다. 이럴 경우, 셋을 사용하기 위해서는 따로 객체를 비교할 수 있는 방법을 알려주어야 한다.
+```cpp
+#include <iostream>
+#include <set>
+#include <string>
 
-## multiset
+template <typename T, typename C>
+void print_set(std::set<T, C>& s) {
+	// 셋의 모든 원소들을 출력하기
+	for (const auto& elem : s) {
+		std::cout << elem << " " << std::endl;
+	}
+}
+
+class Todo {
+	int priority;
+	std::string job_desc;
+
+public:
+	Todo(int priority, std::string job_desc)
+		: priority(priority), job_desc(job_desc) {}
+	
+	friend struct TodoCmp;
+	
+	friend std::ostream& operator<<(std::ostream& o, const Todo& td);
+};
+
+struct TodoCmp {
+	bool operator()(const Todo& t1, const Todo& t2) const {
+		if (t1.priority == t2.priority) {
+			return t1.job_desc < t2.job_desc;
+		}
+		return t1.priority > t2.priority;
+	}
+};
+
+std::ostream& operator<<(std::ostream& o, const Todo& td) {
+	o << "[ 중요도: " << td.priority << "] " << td.job_desc;
+	return o;
+}
+
+int main() {
+	std::set<Todo, TodoCmp> todos;
+	
+	todos.insert(Todo(1, "농구 하기"));
+	todos.insert(Todo(2, "수학 숙제 하기"));
+	todos.insert(Todo(1, "프로그래밍 프로젝트"));
+	todos.insert(Todo(3, "친구 만나기"));
+	todos.insert(Todo(2, "영화 보기"));
+	
+	print_set(todos);
+	
+	std::cout << "-------------" << std::endl;
+	std::cout << "숙제를 끝냈다면!" << std::endl;
+	todos.erase(todos.find(Todo(2, "수학 숙제 하기")));
+	print_set(todos);
+}
+```
+성공적으로 컴파일 했다면
+```
+[ 중요도: 3] 친구 만나기 
+[ 중요도: 2] 수학 숙제 하기 
+[ 중요도: 2] 영화 보기 
+[ 중요도: 1] 농구 하기 
+[ 중요도: 1] 프로그래밍 프로젝트 
+-------------
+숙제를 끝냈다면!
+[ 중요도: 3] 친구 만나기 
+[ 중요도: 2] 영화 보기 
+[ 중요도: 1] 농구 하기 
+[ 중요도: 1] 프로그래밍 프로젝트
+```
+달라진 점은 일단 `Todo` 클래스에서 `operator<` 가 삭제되었다. 하지만 셋을 사용하기 위해 반드시 `Todo` 객체 간의 비교를 수행해야 하기 때문에 다음과 같은 클래스를 만들었다.
+```cpp
+struct TodoCmp {
+	bool operator()(const Todo& t1, const Todo& t2) const {
+		if (t1.priority == t2.priority) {
+			return t1.job_desc < t2.job_desc;
+		}
+		return t1.priority > t2.priority;
+	}
+};
+```
+위 클래스는 정확히 함수 객체를 나타내고 있다. 이 `TodoCmp` 타입을
+```cpp
+std::set<Todo, TodoCmp> todos;
+```
+위 처럼 `set`에 두번째 인자로 넘겨주게 되면 셋은 이를 받아서 `TodoCmp` 클래스에 정의된 함수 객체를 바탕으로 모든 비교를 수행하게 된다. 실제로 `set` 클래스의 정의를 살펴보면
+```cpp
+template <class Key, class Compare = std::less<Key>,
+          class Allocator = std::allocator<Key>
+          >
+class set;
+```
+와 같이 생겼는데, 두 번째 인자로 `Compare` 를 받는 다는 것을 알 수 있다. (템플릿 디폴트 인자로 `std::less<Key>` 가 들어있는데 이는 `Key` 클래스의 `operator<`를 사용한다는 의미와 같다. `Compare` 타입을 전달하지 않으면 그냥 `Key` 클래스의 `operator<` 로 비교를 수행한다)
+
+결과적으로 셋은 원소의 삽입과 삭제를 O(logN)O(logN) 원소의 탐색도 O(logN)O(logN) 에 수행하는 자료 구조 입니다.
