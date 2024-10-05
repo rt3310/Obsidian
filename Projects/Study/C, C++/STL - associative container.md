@@ -418,4 +418,445 @@ class set;
 ```
 와 같이 생겼는데, 두 번째 인자로 `Compare` 를 받는 다는 것을 알 수 있다. (템플릿 디폴트 인자로 `std::less<Key>` 가 들어있는데 이는 `Key` 클래스의 `operator<`를 사용한다는 의미와 같다. `Compare` 타입을 전달하지 않으면 그냥 `Key` 클래스의 `operator<` 로 비교를 수행한다)
 
-결과적으로 셋은 원소의 삽입과 삭제를 O(logN)O(logN) 원소의 탐색도 O(logN)O(logN) 에 수행하는 자료 구조 입니다.
+결과적으로 셋은 원소의 삽입/삭제를 $O(log \space N)$, 원소의 탐색도 $O(log \space N)$에 수행하는 자료구조이다.
+
+## 맵 (map)
+맵은 셋과 거의 똑같은 자료구조이다. 다만 셋의 경우 키만 보관했지만, 맵의 경우 키에 대응되는 값(value) 까지도 같이 보관한다.
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+template <typename K, typename V>
+void print_map(std::map<K, V>& m) {
+	// 맵의 모든 원소들을 출력하기
+	for (auto itr = m.begin(); itr != m.end(); ++itr) {
+		std::cout << itr->first << " " << itr->second << std::endl;
+	}
+}
+
+int main() {
+	std::map<std::string, double> pitcher_list;
+	
+	// 참고로 2017년 7월 4일 현재 투수 방어율 순위입니다.
+	
+	// 맵의 insert 함수는 pair 객체를 인자로 받습니다.
+	pitcher_list.insert(std::pair<std::string, double>("박세웅", 2.23));
+	pitcher_list.insert(std::pair<std::string, double>("해커 ", 2.93));
+	
+	pitcher_list.insert(std::pair<std::string, double>("피어밴드 ", 2.95));
+	
+	// 타입을 지정하지 않아도 간단히 std::make_pair 함수로
+	// std::pair 객체를 만들 수 도 있습니다.
+	pitcher_list.insert(std::make_pair("차우찬", 3.04));
+	pitcher_list.insert(std::make_pair("장원준 ", 3.05));
+	pitcher_list.insert(std::make_pair("헥터 ", 3.09));
+	
+	// 혹은 insert 를 안쓰더라도 [] 로 바로
+	// 원소를 추가할 수 있습니다.
+	pitcher_list["니퍼트"] = 3.56;
+	pitcher_list["박종훈"] = 3.76;
+	pitcher_list["켈리"] = 3.90;
+	
+	print_map(pitcher_list);
+	
+	std::cout << "박세웅 방어율은? :: " << pitcher_list["박세웅"] << std::endl;
+}
+```
+성공적으로 컴파일 했다면
+```
+니퍼트 3.56
+박세웅 2.23
+박종훈 3.76
+장원준  3.05
+차우찬 3.04
+켈리 3.9
+피어밴드  2.95
+해커  2.93
+헥터  3.09
+박세웅 방어율은? :: 2.23
+```
+
+```cpp
+std::map<std::string, double> pitcher_list;
+```
+맵의 경우 템플릿 인자로 2개를 가지는데, 첫번째는 키의 타입이고, 두 번째는 값의 타입이다. 우리는 투수 이름을 키로 가지고 대응되는 값을 그 투수의 방어율로 하는 맵을 만들 예정이다.
+```cpp
+pitcher_list.insert(std::pair<std::string, double>("박세웅", 2.23));
+pitcher_list.insert(std::pair<std::string, double>("해커 ", 2.93));
+pitcher_list.insert(std::pair<std::string, double>("피어밴드 ", 2.95));
+```
+맵에 원소를 넣기 위해서는 반드시 `std::pair` 객체를 전달해야 한다. `std::pair` 객체는 별다른게 아니고,
+```cpp
+template <class T1, class T2>
+struct std::pair {
+	T1 first;
+	T2 second;
+};
+```
+로 생긴 단순히 2 개의 객체를 멤버로 가지는 객체이다. 문제는 `std::pair` 객체를 사용할 때 마다 위처럼 템플릿 인자를 초기화 해야 하는데 꽤나 귀찮다. 그래서 `STL` 에서는 `std::make_pair` 함수를 제공해주는데,
+```cpp
+pitcher_list.insert(std::make_pair("차우찬", 3.04));
+pitcher_list.insert(std::make_pair("장원준 ", 3.05));
+pitcher_list.insert(std::make_pair("헥터 ", 3.09));
+```
+이 함수는 인자로 들어오는 객체를 보고 타입을 추측해서 알아서 `std::pair` 객체를 만들어서 리턴해준다. 따라서 굳이 귀찮게 타입을 명시해줄 필요가 없다.
+
+한 가지 재미있는 점은
+```cpp
+// 혹은 insert 를 안쓰더라도 [] 로 바로
+// 원소를 추가할 수 있습니다.
+pitcher_list["니퍼트"] = 3.56;
+pitcher_list["박종훈"] = 3.76;
+pitcher_list["켈리"] = 3.90;
+```
+맵의 경우 `operator[]` 를 이용해서 새로운 원소를 추가할 수 있다 (만일 해당하는 키가 맵에 없다면). 만일 키가 이미 존재하고 있다면 값이 대체될 것이다.
+
+```cpp
+template <typename K, typename V>
+void print_map(std::map<K, V>& m) {
+	// 맵의 모든 원소들을 출력하기
+	for (auto itr = m.begin(); itr != m.end(); ++itr) {
+		std::cout << itr->first << " " << itr->second << std::endl;
+	}
+}
+```
+맵의 경우도 셋과 마찬가지로 반복자를 이용해서 순차적으로 맵에 저장되어 있는 원소들을 탐색할 수 있다. 참고로 셋의 경우 `*itr` 가 저장된 원소를 바로 가리켰는데, 맵의 경우 반복자가 맵에 저장되어 있는 `std::pair` 객체를 가리키게 된다.
+따라서 `itr->first` 를 하면 해당 원소의 키를, `itr->second` 를 하면 해당 원소의 값을 알 수 있다.
+
+참고로 해당 `for` 문을 범위 기반 `for` 문으로 바꿔본다면 아래와 같다.
+```cpp
+template <typename K, typename V>
+void print_map(std::map<K, V>& m) {
+	// kv 에는 맵의 key 와 value 가 std::pair 로 들어갑니다.
+	for (const auto& kv : m) {
+		std::cout << kv.first << " " << kv.second << std::endl;
+	}
+}
+```
+반복자를 이용한 버전과 매우 유사하게, 맵의 키와 대응되는 원소를 `first` 와 `second` 를 이용해서 참조할 수 있다. 이 역시 반복자를 사용한 형태보다 더 간단하므로 권장된다.
+
+```cpp
+std::cout << "박세웅 방어율은? :: " << pitcher_list["박세웅"] << std::endl;
+```
+만약에 맵에 저장된 값을 찾고 싶다면 간단히 `[]` 연산자를 이용하면 된다. `[]` 연산자는 인자로 키를 받아서 이를 맵에서 찾아서 대응되는 값을 돌려준다.
+
+하지만, `[]` 연산자를 사용할 때 주의해야 할 점이 있다.
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+template <typename K, typename V>
+void print_map(const std::map<K, V>& m) {
+	// kv 에는 맵의 key 와 value 가 std::pair 로 들어갑니다.
+	for (const auto& kv : m) {
+		std::cout << kv.first << " " << kv.second << std::endl;
+	}
+}
+
+int main() {
+	std::map<std::string, double> pitcher_list;
+	
+	pitcher_list["오승환"] = 3.58;
+	std::cout << "류현진 방어율은? :: " << pitcher_list["류현진"] << std::endl;
+	
+	std::cout << "-----------------" << std::endl;
+	print_map(pitcher_list);
+}
+```
+성공적으로 컴파일 했다면
+```
+류현진 방어율은? :: 0
+-----------------
+류현진 0
+오승환 3.58
+```
+
+일단 `pitcher_list` 에 오승환의 방어율만 추가하였기 때문에 류현진의 방어율을 검색하면 아무것도 나오지 않는게 정상이다. 그런데, 류현진의 방어율을 맵에서 검색하였을 때, 0 이라는 값이 나왔다. 없는 값을 참조하였으니 오류가 발생해야 정상인데 오히려 값을 돌려준 것이다.
+이는 `[]` 연산자가, 맵에 없는 키를 참조하게 되면, 자동으로 값의 디폴트 생성자를 호출해서 원소를 추가해버리기 때문이다.
+
+`double` 의 디폴트 생성자의 경우 그냥 변수를 0으로 초기화 해버린다. 따라서 **되도록 [find](https://modoocode.com/261) 함수로 원소가 키가 존재하는지 먼저 확인 후에, 값을 참조하는 것이 좋다**.
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+template <typename K, typename V>
+void print_map(const std::map<K, V>& m) {
+	// kv 에는 맵의 key 와 value 가 std::pair 로 들어갑니다.
+	for (const auto& kv : m) {
+		std::cout << kv.first << " " << kv.second << std::endl;
+	}
+}
+
+template <typename K, typename V>
+void search_and_print(std::map<K, V>& m, K key) {
+	auto itr = m.find(key);
+	if (itr != m.end()) {
+		std::cout << key << " --> " << itr->second << std::endl;
+	} else {
+		std::cout << key << "은(는) 목록에 없습니다" << std::endl;
+	}
+}
+
+int main() {
+	std::map<std::string, double> pitcher_list;
+	
+	pitcher_list["오승환"] = 3.58;
+	
+	print_map(pitcher_list);
+	std::cout << "-----------------" << std::endl;
+	
+	search_and_print(pitcher_list, std::string("오승환"));
+	search_and_print(pitcher_list, std::string("류현진"));
+}
+```
+성공적으로 컴파일했다면
+```
+오승환 3.58
+-----------------
+오승환 --> 3.58
+류현진은(는) 목록에 없습니다
+```
+
+```cpp
+template <typename K, typename V>
+void search_and_print(const std::map<K, V>& m, K key) {
+	auto itr = m.find(key);
+	if (itr != m.end()) {
+		std::cout << key << " --> " << itr->second << std::endl;
+	} else {
+		std::cout << key << "은(는) 목록에 없습니다" << std::endl;
+	}
+}
+```
+위처럼 [find](https://modoocode.com/261) 함수는 맵에서 해당하는 키를 찾아서 이를 가리키는 반복자를 리턴한다. 만약에, 키가 존재하지 않는다면 `end()` 를 리턴한다.
+
+마지막으로 짚고 넘어갈 점은 맵 역시 셋 처럼 중복된 원소를 허락하지 않는다는 점이다. 이미, 같은 키가 원소로 들어 있다면 나중에 오는 [insert](https://modoocode.com/238) 는 무시된다.
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+template <typename K, typename V>
+void print_map(const std::map<K, V>& m) {
+	// kv 에는 맵의 key 와 value 가 std::pair 로 들어갑니다.
+	for (const auto& kv : m) {
+		std::cout << kv.first << " " << kv.second << std::endl;
+	}
+}
+
+int main() {
+	std::map<std::string, double> pitcher_list;
+	
+	// 맵의 insert 함수는 std::pair 객체를 인자로 받습니다.
+	pitcher_list.insert(std::pair<std::string, double>("박세웅", 2.23));
+	pitcher_list.insert(std::pair<std::string, double>("박세웅", 2.93));
+	
+	print_map(pitcher_list);
+	
+	// 2.23 이 나올까 2.93 이 나올까?
+	std::cout << "박세웅 방어율은? :: " << pitcher_list["박세웅"] << std::endl;
+}
+```
+성공적으로 컴파일 했다면
+```
+박세웅 2.23
+박세웅 방어율은? :: 2.23
+```
+와 같이 먼저 [insert](https://modoocode.com/238) 된 원소가 나오게 된다. 즉, 이미 같은 키를 가지는 원소가 있다면 그 [insert](https://modoocode.com/238) 작업은 무시된다. 만약에, 원소에 대응되는 값을 바꾸고 싶다면 [insert](https://modoocode.com/238) 를 하지 말고, `[]` 연산자로 대응되는 값을 바꿔주면 된다.
+
+## 멀티셋/멀티맵 (multiset/multimap)
+
+앞서 셋과 맵 모두 중복된 원소를 허락하지 않는다. 만일, 이미 원소가 존재하고 있는데 [insert](https://modoocode.com/238) 를 하였으면 무시가 되었다. 하지만 멀티셋과 멀티맵은 중복된 원소를 허락한다.
+```cpp
+#include <iostream>
+#include <set>
+#include <string>
+
+template <typename K>
+void print_set(const std::multiset<K>& s) {
+	// 셋의 모든 원소들을 출력하기
+	for (const auto& elem : s) {
+		std::cout << elem << std::endl;
+	}
+}
+
+int main() {
+	std::multiset<std::string> s;
+	
+	s.insert("a");
+	s.insert("b");
+	s.insert("a");
+	s.insert("c");
+	s.insert("d");
+	s.insert("c");
+	
+	print_set(s);
+}
+```
+성공적으로 컴파일했다면
+```
+a
+a
+b
+c
+c
+d
+```
+와 같이 나온다. 만약에 기존의 `set` 이였다면 그냥 `a,b,c,d` 이렇게 나왔어야 하지만, 멀티셋의 경우 중복된 원소를 허락하기 때문에 [insert](https://modoocode.com/238) 한 모든 원소들이 쭈르륵 나오게 된다.
+
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+template <typename K, typename V>
+void print_map(const std::multimap<K, V>& m) {
+	// 맵의 모든 원소들을 출력하기
+	for (const auto& kv : m) {
+		std::cout << kv.first << " " << kv.second << std::endl;
+	}
+}
+
+int main() {
+	std::multimap<int, std::string> m;
+	m.insert(std::make_pair(1, "hello"));
+	m.insert(std::make_pair(1, "hi"));
+	m.insert(std::make_pair(1, "ahihi"));
+	m.insert(std::make_pair(2, "bye"));
+	m.insert(std::make_pair(2, "baba"));
+	
+	print_map(m);
+	
+	// 뭐가 나올까요?
+	std::cout << "--------------------" << std::endl;
+	std::cout << m.find(1)->second << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+1 hello
+1 hi
+1 ahihi
+2 bye
+2 baba
+--------------------
+hello
+```
+일단 맵과는 다르게, 한 개의 키에 여러 개의 값이 대응될 수 있다는 것은 알 수 있다. 하지만 이 때문에 `[]` 연산자를 멀티맵의 경우 사용할 수 없다. 왜냐하면 예를 들어서
+```cpp
+m[1]
+```
+을 했을 때 "hello" 를 리턴해야할지, 아니면 "hi" 를 리턴해야 할 지 알 수 없기 때문이다. 따라서 멀티맵의 경우 아예 `[]` 연산자를 제공하지 않는다.
+```cpp
+std::cout << m.find(1)->second << std::endl;
+```
+위 처럼 [find](https://modoocode.com/261) 함수를 사용했을 때 무엇을 리턴할까? 일단 해당하는 키가 없으면 `m.end()` 를 리턴한다. 그렇다면 위 경우 1이라는 키에 3개의 문자열이 대응되어 있는데 어떤 것을 리턴해야 할까? 제일 먼저 [insert](https://modoocode.com/238) 한 것? 아니면 문자열 중에서 사전 순으로 가장 먼저 오는 것?
+
+사실 C++ 표준을 읽어보면 무엇을 리턴하라고 정해놓지 않았다. 즉, 해당되는 값들 중 아무거나 리턴해도 상관 없다는 뜻이다. 위 경우 `hello` 가 나왔지만, 다른 라이브러리를 쓰는 경우 `hi` 가 나올 수도 있고, `ahihi` 가 나올 수도 있다.
+
+그렇다면 1에 대응되는 값들이 뭐가 있는지 어떻게 알까? 이를 위해 멀티맵은 다음과 같은 함수를 제공하고 있다.
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+template <typename K, typename V>
+void print_map(const std::multimap<K, V>& m) {
+	// 맵의 모든 원소들을 출력하기
+	for (const auto& kv : m) {
+		std::cout << kv.first << " " << kv.second << std::endl;
+	}
+}
+
+int main() {
+	std::multimap<int, std::string> m;
+	m.insert(std::make_pair(1, "hello"));
+	m.insert(std::make_pair(1, "hi"));
+	m.insert(std::make_pair(1, "ahihi"));
+	m.insert(std::make_pair(2, "bye"));
+	m.insert(std::make_pair(2, "baba"));
+	
+	print_map(m);
+	
+	std::cout << "--------------------" << std::endl;
+	
+	// 1 을 키로 가지는 반복자들의 시작과 끝을
+	// std::pair 로 만들어서 리턴한다.
+	auto range = m.equal_range(1);
+	for (auto itr = range.first; itr != range.second; ++itr) {
+		std::cout << itr->first << " : " << itr->second << " " << std::endl;
+	}
+}
+```
+성공적으로 컴파일했다면
+```
+1 hello
+1 hi
+1 ahihi
+2 bye
+2 baba
+--------------------
+1 : hello 
+1 : hi 
+1 : ahihi
+```
+
+```cpp
+auto range = m.equal_range(1);
+```
+`equal_range` 함수의 경우 인자로 멀티맵의 키를 받은 뒤에, 이 키에 대응되는 원소들의 반복자들 중에서 시작과 끝 바로 다음을 가리키는 반복자를 `std::pair` 객체로 만들어서 리턴한다. 즉, `begin()` 과 `end()` 를 `std::pair` 로 만들어서 세트로 리턴한다고 볼 수 있다.
+
+## 정렬되지 않은 셋과 맵(unordered_set/unordered_map)
+`unordered_set` 과 `unordered_map`은 C++ 11 에 추가된 비교적 최근 나온 컨테이너들이다 (위에 것들은 모두 C++ 98 에 추가되었다).
+
+이 두 개의 컨테이너는 이름에서도 알 수 있듯이 원소들이 정렬되어 있지 않다.
+이 말이 무슨 말이냐면, 셋이나 맵의 경우 원소들이 순서대로 정렬되어서 내부에 저장되지만, `unordered_set` 과 `unordered_map` 의 경우 원소들이 순서대로 정렬돼서 들어가지 않는다는 뜻이다. 따라서 반복자로 원소들을 하나씩 출력해보면 거의 랜덤한 순서로 나오는 것을 볼 수 있다.
+```cpp
+#include <iostream>
+#include <string>
+#include <unordered_set>
+
+template <typename K>
+void print_unordered_set(const std::unordered_set<K>& m) {
+	// 셋의 모든 원소들을 출력하기
+	for (const auto& elem : m) {
+		std::cout << elem << std::endl;
+	}
+}
+
+int main() {
+	std::unordered_set<std::string> s;
+	
+	s.insert("hi");
+	s.insert("my");
+	s.insert("name");
+	s.insert("is");
+	s.insert("psi");
+	s.insert("welcome");
+	s.insert("to");
+	s.insert("c++");
+	
+	print_unordered_set(s);
+}
+```
+성공적으로 컴파일했다면
+```
+c++
+to
+my
+name
+hi
+is
+psi
+welcome
+```
+
+실제로 `unordered_set` 의 모든 원소들을 반복자로 출력해보면 딱히 순서대로 나오는 것 같지는 않다. 원소를 넣은 순서도 아니고, [string](https://modoocode.com/237) 문자열 순서도 아니고 그냥 랜덤한 순서이다.
+
+그런데 이 `unordered_set` 에 한 가지 놀라운 점이 있다. 바로 **[insert](https://modoocode.com/238), [erase](https://modoocode.com/240), [find](https://modoocode.com/261) 모두가 $O(1)$로 수행된다는 점**이다! 셋이나 맵의 경우 $O(log \space n)$이었지만, `unordered_set` 과 `unordered_map` 의 경우 상수 시간에 원소를 삽입하고, 검색할 수 있다.
+
+이 놀라운 일이 어떻게 가능한건지 `unordered_set` 과 `unordered_map` 이 어떻게 구현되었는지 살펴보면 알 수 있다.
+![[265AE73859607D5303C92C.webp]]
