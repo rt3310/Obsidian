@@ -30,3 +30,9 @@ std::vector<int>::iterator itr = vec.begin() + 2;
 std::cout << "3 번째 원소 :: " << *itr << std::endl;
 ```
 또한 반복자 역시 `+` 연산자를 통해서 그 만큼 떨어져 있는 원소를 가리키게 할 수도 있다. (그냥 배열을 가리키는 포인터와 정확히 똑같이 동작한다고 생각하면 된다)
+
+참고로 템플릿 버전의 경우,
+```cpp
+for (typename std::vector<T>::iterator itr = vec.begin(); itr != vec.end(); ++itr) {
+```
+와 같이 앞에 `typename` 을 추가해줘야만 한다. 그 이유는, `iterator` 가 `std::vector<T>` 의 의존 타입이기 때문이다. [의존 타입](https://modoocode.com/222?category=361027)
