@@ -860,3 +860,119 @@ welcome
 
 이 놀라운 일이 어떻게 가능한건지 `unordered_set` 과 `unordered_map` 이 어떻게 구현되었는지 살펴보면 알 수 있다.
 ![[265AE73859607D5303C92C.webp]]
+
+#### 해시 함수(Hash function)
+`unordered_set` 과 `unordered_map` 은 원소를 삽입하거나 검색 하기 위해 먼저 해시 함수라는 것을 사용한다 (사실 그래서 원래 `hashset` 이나 `hashmap` 이란 이름을 붙이려고 했지만 이미 이러한 이름을 너무 많이 사용하고 있어서 충돌을 피하기 위해 저런 이름을 골랐다고 한다).
+
+해시 함수란 **임의의 크기의 데이터를 고정된 크기의 데이터로 대응시켜주는 함수**라고 볼 수 있다. 이 때 보통 고정된 크기의 데이터라고 하면 **일정 범위의 정수값**을 의미한다.
+
+`unordered_set` 과 `unordered_map` 의 경우, 해시 함수는 1부터 D(= 상자의 수)까지의 값을 반환하고 그 해시 값(해시 함수로 계산한 값)을 원소를 저장할 상자의 번호로 삼게 된다. 해시 함수는 구조상 최대한 1부터 D까지 고른 값을 반환하도록 설계되었다. 따라서 모든 상자를 고루 고루 사용할 수 있게 된다.
+
+해시 함수의 가장 중요한 성질은, 만약에 같은 원소를 해시 함수에 전달한다면 같은 해시 값을 리턴한다는 점이다. 이 덕분에 원소의 탐색을 빠르게 수행할 수 있다.
+
+예를 들어, 사용자가 파란공이 `unordered_set` 에 들어있는지 아닌지 확인한다고 해보자. 파란공을 해시 함수에 대입하면 1을 리턴한다. 따라서 1번 상자를 살펴보면 이미 파란공이 있는 것을 알 수 있다. 따라서 파란공이 `unordered_set` 에 이미 존재하고 있음을 알 수 있습니다.
+
+그런데 재미있는 점은 **해시 함수가 해시 값 계산을 상수 시간에 처리**한다는 점이다. 따라서 `unordered_set` 과 `unordered_map` 모두 탐색을 상수 시간에 처리할 수 있다.
+
+물론 빨간색 공과 보라색 공 처럼 다른 원소임에도 불구하고 같은 해시 값을 갖는 경우가 있을 것이다. 이를 **해시 충돌(hash collision)** 이라고 하는데, 이 경우 같은 상자에 다른 원소들이 들어있게 된다.
+
+따라서 만약에 보라색 공이 이 셋에 포함되어 있는지 확인하고 싶다면 먼저 보라색 공의 해시 값을 계산 한 뒤에, 해당하는 상자에 있는 모든 원소들을 탐색해보아야 할 것이다.
+
+해시 함수는 최대한 1부터 N까지 고른 값을 반환하도록 설계되었다. 뿐만 아니라 상자의 수도 충분히 많아야 상수 시간 탐색을 보장할 수 있다. 하지만 그럼에도 운이 매우 매우 나쁘다면 다른 색들의 공이 모두 1번 상자에 들어갈 수도 있다. 이 경우 탐색이 $O(1)$은 커녕 $O(N)$(여기서 `n` 은 상자의 개수가 아니라 원소의 개수) 으로 실행될 것이다.
+
+따라서 `unordered_set` 과 `unordered_map` 의 경우 평균적으로 $O(1)$시간으로 원소의 삽입/탐색을 수행할 수 있지만 최악의 경우 $O(N)$으로 수행될 수 있다. (그냥 `set` 과 `map` 의 경우, 평균도 $O(log \space N)$최악의 경우에도 $O(log \space N)$으로 실행된다)
+
+이 때문에 보통의 경우에는 그냥 안전하게 맵이나 셋을 사용하고, 만약에 최적화가 매우 필요한 작업일 경우에만 해시 함수를 잘 설계해서 `unordered_set` 과 `unordered_map` 을 사용하는 것이 좋다.
+
+**기본 타입들(int, double 등등)과 std::string 의 경우 라이브러리 자체적으로 해시 함수가 내장**되어 있으므로, 그냥 사용해도 된다.
+
+또한 처음부터 많은 개수의 상자를 사용할 수 없기 때문에 (메모리를 낭비할 순 없으므로..) 상자의 개수는 삽입되는 원소가 많아짐에 따라 점진적으로 늘어나게 된다. 문제는 **상자의 개수가 늘어나면 해시 함수를 바꿔야 하기 때문에 (더 많은 값들을 해시값으로 반환할 수 있도록) 모든 원소들을 처음부터 끝까지 다시 [insert](https://modoocode.com/238) 해야 한다**. 이를 **`rehash`** 라 하며 $O(N)$만큼의 시간이 걸린다.
+```cpp
+#include <iostream>
+#include <string>
+#include <unordered_set>
+
+template <typename K>
+void print_unordered_set(const std::unordered_set<K>& m) {
+	// 셋의 모든 원소들을 출력하기
+	for (const auto& elem : m) {
+		std::cout << elem << std::endl;
+	}
+}
+
+template <typename K>
+void is_exist(std::unordered_set<K>& s, K key) {
+	auto itr = s.find(key);
+	if (itr != s.end()) {
+		std::cout << key << " 가 존재!" << std::endl;
+	} else {
+		std::cout << key << " 가 없다" << std::endl;
+	}
+}
+int main() {
+	std::unordered_set<std::string> s;
+	
+	s.insert("hi");
+	s.insert("my");
+	s.insert("name");
+	s.insert("is");
+	s.insert("psi");
+	s.insert("welcome");
+	s.insert("to");
+	s.insert("c++");
+	
+	print_unordered_set(s);
+	std::cout << "----------------" << std::endl;
+	is_exist(s, std::string("c++"));
+	is_exist(s, std::string("c"));
+	
+	std::cout << "----------------" << std::endl;
+	std::cout << "'hi' 를 삭제" << std::endl;
+	s.erase(s.find("hi"));
+	is_exist(s, std::string("hi"));
+}
+```
+성공적으로 컴파일했다면
+```
+c++
+to
+my
+name
+hi
+is
+psi
+welcome
+----------------
+c++ 가 존재!
+c 가 없다
+----------------
+'hi' 를 삭제
+hi 가 없다
+```
+일단 위에서 볼 수 있듯이, `unordered_set` 과 `unordered_map` 모두 [find](https://modoocode.com/261) 함수를 지원하며, 사용법은 그냥 셋과 정확히 동일하다. [find](https://modoocode.com/261) 함수의 경우 만일 해당하는 원소가 존재한다면 이를 가리키는 반복자를, 없다면 `end` 를 리턴한다.
+
+```cpp
+s.erase(s.find("hi"));
+is_exist(s, std::string("hi"));
+```
+또한 원소를 제거하고 싶다면 간단히 [find](https://modoocode.com/261) 함수로 원소를 가리키는 반복자를 찾은 뒤에, 이를 전달하면 된다.
+
+### ### 내가 만든 클래스를 `unordered_set/unordered_map` 의 원소로 넣고 싶을 때
+그렇다면 직접 만든 클래스를 직접 `unordered_set` 혹은 `unordered_map` 에 넣으려면 어떻게 해야 할까? 안타깝게도 셋이나 맵에 넣는것 보다 훨씬 어렵다. 왜냐하면 먼저 내 클래스의 객체를 위한 '해시 함수'를 직접 만들어줘야 하기 때문이다. (그렇기 때문에 셋과 맵을 사용하는 것을 권장하는 것이다)
+
+물론 셋이나 맵과는 다르게 순서대로 정렬하지 않기 때문에 `operator<` 는 필요하지 않다. 하지만 **`operator==`** 는 필요한데, 왜냐하면 **해시 충돌 발생 시에 상자 안에 있는 원소들과 비교를 해야하기 때문**이다.
+
+한 가지 다행인 점은 **C++ 에서 기본적인 타입들에 대한 해시 함수들을 제공하고 있다**. 우리는 이들을 잘만 이용하기만 하면 된다.
+```cpp
+class Todo {
+	int priority;  // 중요도. 높을 수록 급한것!
+	std::string job_desc;
+
+public:
+	Todo(int priority, std::string job_desc)
+		: priority(priority), job_desc(job_desc) {}
+};
+```
+그렇다면 위 `Todo` 클래스의 해시 함수를 만들어보자. 기본적으로 `unordered_set` 과 `unordered_map` 은 해시 함수 계산을 위해 hash 함수 객체를 사용한다. `hash` 함수 객체는 아래와 같이 생겼다.
+
+예를 들어 [string](https://modoocode.com/237) 함수의 해시값을 계산하고 싶다면
