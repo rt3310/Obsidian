@@ -53,7 +53,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/STL - associative container.md",
+                "file": "Projects/Study/OS/보초콘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/STL - associative container.md",
+                "file": "Projects/Study/OS/보초콘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/STL - associative container.md"
+                "file": "Projects/Study/OS/보초콘.md"
               }
             }
           },
@@ -204,10 +205,10 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "e79b501905b71259",
+  "active": "b68f87d011bca7af",
   "lastOpenFiles": [
-    "Projects/Study/C, C++/resources/Pasted image 20241005171238.png",
     "Projects/Study/C, C++/STL - associative container.md",
+    "Projects/Study/C, C++/resources/Pasted image 20241005171238.png",
     "Projects/Study/C, C++/STL - sequence container.md",
     "Projects/Study/C, C++/resources/23015636595B647418F5CE.webp",
     "Projects/Study/C, C++/resources/244E834B595B642028B977.webp",

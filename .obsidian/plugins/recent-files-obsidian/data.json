@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "보초콘",
+      "path": "Projects/Study/OS/보초콘.md"
+    },
+    {
       "basename": "STL - associative container",
       "path": "Projects/Study/C, C++/STL - associative container.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "캐시 선택",
       "path": "Projects/Posting/Cache/캐시 선택.md"
-    },
-    {
-      "basename": "보초콘",
-      "path": "Projects/Study/OS/보초콘.md"
     },
     {
       "basename": "무제 파일",
