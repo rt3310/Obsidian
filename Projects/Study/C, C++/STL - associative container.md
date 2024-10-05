@@ -107,5 +107,149 @@ if (itr != s.end()) {
 3. 10 과 비교 : 12 > 10 → 오른쪽 노드로 가야하지만 오른쪽에 아무것도 없다. 따라서 이 원소는 존재하지 않는다.
 만일 벡터였다면 원소들을 처음부터 끝까지 확인해봐야 했지만, 셋의 경우 단 3번의 비교만으로 12 가 셋에 존재하는지 아닌지 여부를 판단할 수 있었다.
 ![[25566243595C2B600E335B.webp]]
-원소를 검색하는데 필요한 횟수는 트리의 높이와 정확히 일치한다. 즉, 15는 단 2번의 비교로 찾아낼 수 있고, 맨 밑에 있는 60 이나 33 의 경우 총 4번의 비교가 필요하다. 따라서, 트리의 경우 최대한 모든 노드들을 꽉 채우는 것이 중요합니다. 예를 들어서
+원소를 검색하는데 필요한 횟수는 트리의 높이와 정확히 일치한다. 즉, 15는 단 2번의 비교로 찾아낼 수 있고, 맨 밑에 있는 60 이나 33 의 경우 총 4번의 비교가 필요하다. 따라서, 트리의 경우 최대한 모든 노드들을 꽉 채우는 것이 중요하다. 예를 들어
 ![[25339935595C2C382057B8.webp]]
+어쩌다 보니 트리가 위처럼 되어버렸다면 사실상 시퀀스 컨테이너와 검색 속도가 동일하다. 위와 같이 한쪽으로 아예 치우쳐버린 트리를 균형잡히지 않은 트리(unbalanced tree) 라고 부른다. 실제 셋의 구현을 보면 위와 같은 상황이 발생하지 않도록 앞서 말한 두 개의 단순한 규칙 보다 더 많은 규칙들을 도입해서 트리를 항상 균형 잡히도록 유지하고 있다.
+
+따라서 셋의 구현 상 $O(log \space N)$$으로 원소를 검색할 수 있다는 것이 보장된다.
+([대부분의 셋 구현에서 사용하고 있는 트리 구조](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree))
+
+또한 셋의 중요한 특징으로 바로 셋 안에는 중복된 원소들이 없다는 점이 있다.
+```cpp
+#include <iostream>
+#include <set>
+
+template <typename T>
+void print_set(std::set<T>& s) {
+	// 셋의 모든 원소들을 출력하기
+	std::cout << "[ ";
+	for (const auto& elem : s) {
+		std::cout << elem << " ";
+	}
+	std::cout << " ] " << std::endl;
+}
+
+int main() {
+	std::set<int> s;
+	s.insert(10);
+	s.insert(20);
+	s.insert(30);
+	s.insert(20);
+	s.insert(10);
+	
+	print_set(s);
+}
+```
+성공적으로 컴파일했다면
+```
+[ 10 20 30 ]
+```
+과 같이 나온다. 분명히
+```cpp
+s.insert(10);
+s.insert(20);
+s.insert(30);
+s.insert(20);
+s.insert(10);
+```
+위와 같이 10 과 20 을 두 번씩 넣었지만 실제로는 한 번씩 밖에 나오지 않는다. 이는 셋 자체적으로 이미 같은 원소가 있다면 이를 [insert](https://modoocode.com/238) 하지 않기 때문이다. 따라서 마지막 두 [insert](https://modoocode.com/238) 작업은 무시되었을 것이다.
+
+참고로 시퀀스 컨테이너들과 마찬가지로 `set` 역시 범위 기반 for 문을 지원한다. 원소들의 접근 순서는 반복자를 이용해서 접근하였을 때와 동일하다.
+
+만약에 중복된 원소를 허락하고 싶다면 멀티셋(multiset)을 사용하면 된다.
+
+### 클래스 객체를 set에 넣고 싶을 때
+위와 같이 기본 타입들 말고, 직접 만든 클래스의 객체를 셋의 원소로 사용할 때 한 가지 주의해야 할 점이 있다. 아래는 할 일 (Todo) 목록을 저장하기 위해 셋을 사용하는 예시이다. `Todo` 클래스는 2개를 멤버 변수로 가지는데 하나는 할 일의 중요도이고, 하나는 해야 할 일의 설명이다.
+```cpp
+#include <iostream>
+#include <set>
+#include <string>
+
+template <typename T>
+void print_set(std::set<T>& s) {
+	// 셋의 모든 원소들을 출력하기
+	std::cout << "[ ";
+	for (const auto& elem : s) {
+		std::cout << elem << " " << std::endl;
+	}
+	std::cout << " ] " << std::endl;
+}
+
+class Todo {
+	int priority;  // 중요도. 높을 수록 급한것!
+	std::string job_desc;
+
+public:
+	Todo(int priority, std::string job_desc)
+		: priority(priority), job_desc(job_desc) {}
+};
+
+int main() {
+	std::set<Todo> todos;
+	
+	todos.insert(Todo(1, "농구 하기"));
+	todos.insert(Todo(2, "수학 숙제 하기"));
+	todos.insert(Todo(1, "프로그래밍 프로젝트"));
+	todos.insert(Todo(3, "친구 만나기"));
+	todos.insert(Todo(2, "영화 보기"));
+}
+```
+그런데 컴파일하면 아래와 같은 오류가 발생한다.
+![[Pasted image 20241005220612.png]]
+왜 발생했을까? 생각을 해보자. 앞서 셋은 원소들을 저장할 때 내부적으로 정렬된 상태를 유지한다고 했다. 즉 정렬을 하기 위해서는 반드시 원소 간의 비교를 수행해야 한다. 하지만, 우리의 `Todo` 클래스에는 `operator<` 가 정의되어 있지 않다. 따라서 컴파일러는 `<` 연산자를 찾을 수 없기에 위와 같은 오류를 뿜어내는 것이다.
+
+그렇다면 직접 `Todo` 클래스에 `operator<` 를 만들어주는 수 밖에 없다.
+```cpp
+#include <iostream>
+#include <set>
+#include <string>
+
+template <typename T>
+void print_set(std::set<T>& s) {
+	// 셋의 모든 원소들을 출력하기
+	for (const auto& elem : s) {
+		std::cout << elem << " " << std::endl;
+	}
+}
+class Todo {
+	int priority;
+	std::string job_desc;
+
+public:
+	Todo(int priority, std::string job_desc)
+	  : priority(priority), job_desc(job_desc) {}
+	
+	bool operator<(const Todo& t) const {
+		if (priority == t.priority) {
+			return job_desc < t.job_desc;
+		}
+		return priority > t.priority;
+	}
+	
+	friend std::ostream& operator<<(std::ostream& o, const Todo& td);
+};
+
+std::ostream& operator<<(std::ostream& o, const Todo& td) {
+	o << "[ 중요도: " << td.priority << "] " << td.job_desc;
+	return o;
+}
+
+int main() {
+	std::set<Todo> todos;
+	
+	todos.insert(Todo(1, "농구 하기"));
+	todos.insert(Todo(2, "수학 숙제 하기"));
+	todos.insert(Todo(1, "프로그래밍 프로젝트"));
+	todos.insert(Todo(3, "친구 만나기"));
+	todos.insert(Todo(2, "영화 보기"));
+	
+	print_set(todos);
+	
+	std::cout << "-------------" << std::endl;
+	std::cout << "숙제를 끝냈다면!" << std::endl;
+	todos.erase(todos.find(Todo(2, "수학 숙제 하기")));
+	print_set(todos);
+}
+```
+
+## multiset
