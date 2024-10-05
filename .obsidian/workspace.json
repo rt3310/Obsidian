@@ -204,8 +204,10 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "e79b501905b71259",
   "lastOpenFiles": [
+    "277A6C33595B4E5831E24D.webp",
+    "2554D949595B4BB61B3489.webp",
     "Projects/Study/C, C++/템플릿.md",
     "Projects/Study/C, C++/STL.md",
     "Pasted image 20241004033622.png",
@@ -225,7 +227,6 @@
     "Projects/Study/Unreal/UE5.md",
     "Projects/Study/Java/Concurrency/Java Concurrency.md",
     "Pasted image 20240924232950.png",
-    "Pasted image 20240924232943.png",
     "Projects/Study/Java/Concurrency",
     "Projects/Study/Unreal",
     "Projects/Study/Javascript/자바스크립트.md",
@@ -251,7 +252,6 @@
     "Projects/Posting/DB/null.md",
     "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
     "Projects/Posting/DB/트랜잭션 전파.md",
-    "Projects/Info/성능 예산.md",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",

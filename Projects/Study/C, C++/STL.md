@@ -36,3 +36,132 @@ std::cout << "3 번째 원소 :: " << *itr << std::endl;
 for (typename std::vector<T>::iterator itr = vec.begin(); itr != vec.end(); ++itr) {
 ```
 와 같이 앞에 `typename` 을 추가해줘야만 한다. 그 이유는, `iterator` 가 `std::vector<T>` 의 의존 타입이기 때문이다. [의존 타입](https://modoocode.com/222?category=361027)
+
+```cpp
+// vec[2] 앞에 15 추가
+vec.insert(vec.begin() + 2, 15);
+```
+insert 시, 위처럼 인자로 반복자를 받고, 그 반복자 앞에 원소를 추가해준다. 위 경우 `vec.begin() + 2` 앞에 `15` 를 추가하므로 `10, 20, 30, 40` 에서 `10, 20, 15, 30, 40` 이 된다.
+
+```cpp
+vec.erase(vec.begin() + 3);
+print_vector(vec);
+```
+[erase](https://modoocode.com/240) 도 인자로 반복자를 받고, 그 반복자가 가리키는 원소를 제거한. 위 경우 4번째 원소인 30 이 지워질 것이다. 물론 [insert](https://modoocode.com/238) 과 [erase](https://modoocode.com/240) 함수 모두 `O(n)` 으로 느린편이다.
+
+참고로 `vector` 에서 반복자로 [erase](https://modoocode.com/240) 나 [insert](https://modoocode.com/238) 함수를 사용할 때 주의해야 할 점이 있다.
+```cpp
+#include <iostream>
+#include <vector>
+
+template <typename T>
+void print_vector(std::vector<T>& vec) {
+	// 전체 벡터를 출력하기
+	std::cout << "[ ";
+	for (typename std::vector<T>::iterator itr = vec.begin(); itr != vec.end(); ++itr) {
+		std::cout << *itr << " ";
+	}
+	std::cout << "]";
+}
+int main() {
+	std::vector<int> vec;
+	vec.push_back(10);
+	vec.push_back(20);
+	vec.push_back(30);
+	vec.push_back(40);
+	vec.push_back(20);
+	
+	std::cout << "처음 벡터 상태" << std::endl;
+	print_vector(vec);
+	
+	std::vector<int>::iterator itr = vec.begin();
+	std::vector<int>::iterator end_itr = vec.end();
+	
+	for (; itr != end_itr; ++itr) {
+		if (*itr == 20) {
+			vec.erase(itr);
+		}
+	}
+	
+	std::cout << "값이 20 인 원소를 지운다!" << std::endl;
+	print_vector(vec);
+}
+```
+컴파일 후 실행했다면 아래와 같은 오류가 발생한다.
+![[2554D949595B4BB61B3489.webp]]
+왜 이런 오류가 발생하는 것일까?
+
+문제는 바로 위 코드에서 발생합니다. 컨테이너에 원소를 추가하거나 제거하게 되면 기존에 사용하였던 모든 반복자들을 사용할 수 없게 된다. 다시 말해 위 경우 `vec.erase(itr)`을 수행하게 되면 더이상 `itr`은 유효한 반복자가 아니게 되는 것이다. 또한 `end_itr` 역시 무효화된다.
+
+따라서 `itr != end_itr` 이 영원히 성립되며 무한루프에 빠지게 되어 위와 같은 오류가 발생한다.
+
+```cpp
+std::vector<int>::iterator itr = vec.begin();
+
+for (; itr != vec.end(); ++itr) {
+	if (*itr == 20) {
+		vec.erase(itr);
+		itr = vec.begin();
+	}
+}
+```
+성공적으로 컴파일 했다면
+![[277A6C33595B4E5831E24D.webp]]
+와 같이 제대로 값이 20 인 원소만 지워졌음을 알 수 있다.
+
+사실 생각해보면 위 바뀐 코드는 꽤나 비효율적임을 알 수 있다. 왜냐하면 20인 원소를 지우고, 다시 처음으로 돌아가서 원소들을 찾고 있기 때문이다. 그냥 20 인 원소 바로 다음 위치 부터 찾아나가면 될텐데 말이다.
+```cpp
+for (std::vector<int>::size_type i = 0; i != vec.size(); i++) {
+	if (vec[i] == 20) {
+		vec.erase(vec.begin() + i);
+		i--;
+	}
+}
+```
+그렇다면 아예 위처럼 굳이 반복자를 쓰지 않고 [erase](https://modoocode.com/240) 함수에만 반복자를 바로 만들어서 전달하면 된다.
+
+```cpp
+vec.erase(vec.begin() + i);
+```
+를 하게 되면 `vec[i]` 를 가리키는 반복자를 [erase](https://modoocode.com/240) 에 전달할 수 있다. 하지만 사실 위 방법은 그리 권장하는 방법은 아니다. 기껏 원소에 접근하는 방식을 반복자를 사용하는 것으로 통일했는데, 위 방법은 이를 모두 깨버리고 그냥 기존의 배열처럼 정수형 변수 `i` 로 원소에 접근하는 것이기 때문이다.
+
+하지만 후에 C++ 알고리즘 라이브러리에 대해 배우면서 이 문제를 깔끔하게 해결 하는 방법에 대해 다루도록 할 것입니다. 일단 임시로는 위 방법처럼 처리하도록 하자
+
+### const_iterator
+`vector` 에서 지원하는 반복자로 `const_iterator` 가 있다. 이는 마치 `const` 포인터를 생각하면 된다. 즉, `const_iterator` 의 경우 가리키고 있는 원소의 값을 바꿀 수 없다. 예를 들어서
+```cpp
+#include <iostream>
+#include <vector>
+
+template <typename T>
+void print_vector(std::vector<T>& vec) {
+	// 전체 벡터를 출력하기
+	for (typename std::vector<T>::iterator itr = vec.begin(); itr != vec.end(); ++itr) {
+		std::cout << *itr << std::endl;
+	}
+}
+int main() {
+	std::vector<int> vec;
+	vec.push_back(10);
+	vec.push_back(20);
+	vec.push_back(30);
+	vec.push_back(40);
+	
+	std::cout << "초기 vec 상태" << std::endl;
+	print_vector(vec);
+	
+	// itr 은 vec[2] 를 가리킨다.
+	std::vector<int>::iterator itr = vec.begin() + 2;
+	
+	// vec[2] 의 값을 50으로 바꾼다.
+	*itr = 50;
+	
+	std::cout << "---------------" << std::endl;
+	print_vector(vec);
+	
+	std::vector<int>::const_iterator citr = vec.cbegin() + 2;
+	
+	// 상수 반복자가 가리키는 값은 바꿀수 없다. 불가능!
+	*citr = 30;
+}
+```
