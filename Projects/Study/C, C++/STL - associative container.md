@@ -973,6 +973,148 @@ public:
 		: priority(priority), job_desc(job_desc) {}
 };
 ```
-그렇다면 위 `Todo` 클래스의 해시 함수를 만들어보자. 기본적으로 `unordered_set` 과 `unordered_map` 은 해시 함수 계산을 위해 hash 함수 객체를 사용한다. `hash` 함수 객체는 아래와 같이 생겼다.
+그렇다면 위 `Todo` 클래스의 해시 함수를 만들어보자. 기본적으로 `unordered_set` 과 `unordered_map` 은 해시 함수 계산을 위해 hash 함수 객체를 사용한다.
 
-예를 들어 [string](https://modoocode.com/237) 함수의 해시값을 계산하고 싶다면
+예를 들어 [string](https://modoocode.com/237) 함수의 해시 값을 계산하고 싶다면
+```cpp
+hash<string> hash_fn;
+size_t hash_val = hash_fn(str);  // str 의 해시값 계산
+```
+위와 같이 수행하게 되는 것이다. [string](https://modoocode.com/237) 을 템플릿 인자로 받는 `hash_fn` 객체를 만든 뒤에, ([Functor](https://modoocode.com/219)) 마치 함수를 사용하는 것처럼 사용하면 된다.
+
+따라서 `Todo` 함수의 해시 함수를 계산하는 함수 객체를 만들기 위해 다음과 같이 `hash` 클래스의 `Todo` 특수화 버전을 만들어줘야 한다.
+```cpp
+// hash 클래스의 Todo 템플릿 특수화 버전!
+template <>
+struct hash<Todo> {
+	size_t operator()(const Todo& t) const {
+		// 해시 계산
+	}
+};
+```
+해시 함수는 객체의 `operator()` 를 오버로드하면 되고 `std::size_t` 타입을 리턴하면 된다. 보통 `size_t` 타입은 `int` 랑 동일한데, 이 말은 해시 값으로 0 부터 4294967295 까지 가능하다는 뜻이다. 물론 그렇다고 해서 이 만큼의 상자를 사용하는 것은 아니고, 현재 컨테이너가 사용하고 있는 상자 개수로 나눈 나머지를 상자 번호로 사용할 것이다.
+
+```cpp
+#include <functional>
+#include <iostream>
+#include <string>
+#include <unordered_set>
+
+template <typename K>
+void print_unordered_set(const std::unordered_set<K>& m) {
+	// 셋의 모든 원소들을 출력하기
+	for (const auto& elem : m) {
+		std::cout << elem << std::endl;
+	}
+}
+
+template <typename K>
+void is_exist(std::unordered_set<K>& s, K key) {
+	auto itr = s.find(key);
+	if (itr != s.end()) {
+		std::cout << key << " 가 존재!" << std::endl;
+	} else {
+		std::cout << key << " 가 없다" << std::endl;
+	}
+}
+
+class Todo {
+	int priority;  // 중요도. 높을 수록 급한것!
+	std::string job_desc;
+
+public:
+	Todo(int priority, std::string job_desc)
+		: priority(priority), job_desc(job_desc) {}
+
+	bool operator==(const Todo& t) const {
+		if (priority == t.priority && job_desc == t.job_desc) return true;
+		return false;
+	}
+
+	friend std::ostream& operator<<(std::ostream& o, const Todo& t);
+	friend struct std::hash<Todo>;
+};
+
+// Todo 해시 함수를 위한 함수객체(Functor)를 만들어줍니다!
+namespace std {
+template <>
+struct hash<Todo> {
+	size_t operator()(const Todo& t) const {
+		hash<string> hash_func;
+		
+		return t.priority ^ (hash_func(t.job_desc));
+	}
+};
+}  // namespace std
+
+std::ostream& operator<<(std::ostream& o, const Todo& t) {
+	o << "[중요도 : " << t.priority << " ] " << t.job_desc;
+	return o;
+}
+
+int main() {
+	std::unordered_set<Todo> todos;
+	
+	todos.insert(Todo(1, "농구 하기"));
+	todos.insert(Todo(2, "수학 숙제 하기"));
+	todos.insert(Todo(1, "프로그래밍 프로젝트"));
+	todos.insert(Todo(3, "친구 만나기"));
+	todos.insert(Todo(2, "영화 보기"));
+	print_unordered_set(todos);
+	std::cout << "----------------" << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+[중요도 : 2 ] 영화 보기
+[중요도 : 1 ] 프로그래밍 프로젝트
+[중요도 : 3 ] 친구 만나기
+[중요도 : 1 ] 농구 하기
+[중요도 : 2 ] 수학 숙제 하기
+----------------
+```
+
+먼저 `Todo` 를 위해 정의한 해시 함수를 살펴보자.
+```cpp
+// Todo 해시 함수를 위한 함수객체(Functor)
+// 를 만들어줍니다!
+namespace std {
+template <>
+struct hash<Todo> {
+	size_t operator()(const Todo& t) const {
+		hash<string> hash_func;
+		
+		return t.priority ^ (hash_func(t.job_desc));
+	}
+};
+}  // namespace std
+```
+다행이 C++ STL 에서는 기본적인 타입들 (`int, std::string` 등등) 에 대한 해시 함수를 제공하기 때문에 우리의 `Todo` 클래스의 해시 함수는 이들을 잘 사용해서 짬뽕만 시키면 된다. 일단 `priority` 는 `int` 값 이므로 그냥 해시값 자체로 쓰기로 하고, [string](https://modoocode.com/237) 의 해시값은 `hash_func` 객체로 이용해서 계산하면 된다.
+결과적으로 두 해시값을 짬뽕 시키기 위해서 [XOR](https://modoocode.com/xor) 연산을 이용했다.
+
+참고로 왜 `hash` 클래스가 `namespace std` 안에 정의되어 있냐면 (이미 위에서 `using namespace std` 를 했음에도 불구하고), **특정 `namespace` 안에 새로운 클래스/함수를 추가하기 위해서는 위처럼 명시적으로 `namespace (이름)` 를 써줘야만 한다**. ([여기를 참고](https://stackoverflow.com/questions/2282349/specialization-of-templateclass-tp-struct-stdless-in-different-namespace))
+
+그리고 마지막으로 아래와 같이 간단히 `==` 연산자를 추가해주면 된다.
+```cpp
+bool operator==(const Todo& t) const {
+	if (priority == t.priority && job_desc == t.job_desc) return true;
+	return false;
+}
+```
+그럼 위처럼 `Todo` 객체를 마음껏 `unordered_set` 에서 사용할 수 있게 된다!
+
+> [!WARNING] 주의 사항
+> 해시 함수를 직접 제작하는 일은 꽤나 어렵다. 가장 큰 이유로, `unordered_set` 이나 `unordered_map` 이 제대로 된 성능을 발휘하기 위해서는 해시 함수가 입력 받은 키를 잘 흝뿌려야 한다.
+> 
+> 만일 해시 함수의 결과가 특정 범위의 값에게만 집중되어 있다면, 해시 함수를 이용한 컨테이너의 성능이 그냥 `map` 이나 `set` 보다 훨씬 못하게 된다. 특히 악의적인 사용자가 해당 허점을 이용해서 프로그램의 성능을 저하시킬 수도 있다.
+> 
+> 따라서 가장 권장하는 방식은 [여기](https://en.cppreference.com/w/cpp/utility/hash) 에 나온 기본 타입들의 대한 해시 함수들을 사용하는 것이고, 해시 함수의 성능을 정확히 검증할 수 없다면, `map` 이나 `set` 을 사용하는 것이 낫다.
+
+### 그렇다면 뭘 써야 돼?
+아래와 같이 간단히 생각하면 된다.
+- 데이터의 존재 유무 만 궁금할 경우 → `set`
+- 중복 데이터를 허락할 경우 → `multiset` (`insert, erase, find` 모두 $O(log \space ⁡N)$. 최악의 경우에도 $O(log \space ⁡N)$)
+- 데이터에 대응되는 데이터를 저장하고 싶은 경우 → `map`
+- 중복 키를 허락할 경우 → `multimap` (`insert, erase, find` 모두 $O(log⁡ \space N)$. 최악의 경우에도 $O(log⁡ \space N)$)
+- 속도가 매우매우 중요해서 최적화를 해야하는 경우 → `unordered_set`, `unordered_map`
+    ([insert](https://modoocode.com/238), [erase](https://modoocode.com/240), [find](https://modoocode.com/261) 모두 $O(1)$. 최악의 경우엔 $O(N)$, 그러므로 해시 함수와 상자 개수를 잘 설정해야 한다)
