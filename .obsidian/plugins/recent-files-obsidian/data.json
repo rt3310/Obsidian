@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "STL",
+      "path": "Projects/Study/C, C++/STL.md"
+    },
+    {
       "basename": "템플릿",
       "path": "Projects/Study/C, C++/템플릿.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240620190654",
       "path": "Projects/Posting/Java/resources/Pasted image 20240620190654.png"
-    },
-    {
-      "basename": "Virtual Memory",
-      "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
     }
   ],
   "omittedPaths": [],
