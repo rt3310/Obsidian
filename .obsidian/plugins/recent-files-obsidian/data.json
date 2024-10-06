@@ -1,60 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "STL - algorithm",
-      "path": "Projects/Study/C, C++/STL - algorithm.md"
-    },
-    {
-      "basename": "STL - associative container",
-      "path": "Projects/Study/C, C++/STL - associative container.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
-    },
-    {
-      "basename": "STL - sequence container",
-      "path": "Projects/Study/C, C++/STL - sequence container.md"
-    },
-    {
       "basename": "HttpSession",
       "path": "Projects/Posting/HTTP/HttpSession.md"
     },
     {
-      "basename": "보초콘",
-      "path": "Projects/Study/OS/보초콘.md"
-    },
-    {
-      "basename": "Pasted image 20241005171238",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20241005171238.png"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Projects/Study/C, C++/템플릿.md"
-    },
-    {
       "basename": "연산자 오버로딩",
       "path": "Projects/Study/C, C++/연산자 오버로딩.md"
-    },
-    {
-      "basename": "포인터에는 왜 타입이 없을까",
-      "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
-    },
-    {
-      "basename": "pragma",
-      "path": "Projects/Study/C, C++/pragma.md"
-    },
-    {
-      "basename": "cc vs cpp",
-      "path": "Projects/Study/C, C++/cc vs cpp.md"
-    },
-    {
-      "basename": "배열은 배열이고 포인터는 포인터이다.",
-      "path": "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md"
-    },
-    {
-      "basename": "Pasted image 20240916013533",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240916013533.png"
     },
     {
       "basename": "UE5",
@@ -65,20 +17,12 @@
       "path": "Projects/Study/Java/Concurrency/Java Concurrency.md"
     },
     {
+      "basename": "cc vs cpp",
+      "path": "Projects/Study/C, C++/cc vs cpp.md"
+    },
+    {
       "basename": "자바스크립트",
       "path": "Projects/Study/Javascript/자바스크립트.md"
-    },
-    {
-      "basename": "Pasted image 20240920025650",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240920025650.png"
-    },
-    {
-      "basename": "Pasted image 20240920025928",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png"
-    },
-    {
-      "basename": "Pasted image 20240920113206",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240920113206.png"
     },
     {
       "basename": "EBP, ESP Register",
@@ -89,12 +33,24 @@
       "path": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md"
     },
     {
+      "basename": "switch 문의 제약사항",
+      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
+    },
+    {
+      "basename": "포인터에는 왜 타입이 없을까",
+      "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
+    },
+    {
       "basename": "Ehcache vs Caffeine",
       "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
     },
     {
       "basename": "캐시 선택",
       "path": "Projects/Posting/Cache/캐시 선택.md"
+    },
+    {
+      "basename": "보초콘",
+      "path": "Projects/Study/OS/보초콘.md"
     },
     {
       "basename": "무제 파일",
@@ -199,6 +155,30 @@
     {
       "basename": "Pasted image 20240510020309",
       "path": "Projects/Posting/DB/resources/Pasted image 20240510020309.png"
+    },
+    {
+      "basename": "Pasted image 20240510020319",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020319.png"
+    },
+    {
+      "basename": "Pasted image 20240510020335",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020335.png"
+    },
+    {
+      "basename": "Pasted image 20240620190654",
+      "path": "Projects/Posting/Java/resources/Pasted image 20240620190654.png"
+    },
+    {
+      "basename": "Virtual Memory",
+      "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
+    },
+    {
+      "basename": "메모리 영역",
+      "path": "Projects/Study/OS/VirtualMemory/md/메모리 영역.md"
+    },
+    {
+      "basename": "Pasted image 20240430010822",
+      "path": "Projects/Posting/Java/resources/Pasted image 20240430010822.png"
     }
   ],
   "omittedPaths": [],
