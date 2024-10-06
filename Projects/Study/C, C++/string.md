@@ -87,8 +87,92 @@ int main() {
 ```cpp
 struct my_char_traits : public std::char_traits<char> {
 ```
-[basic_string](https://modoocode.com/234) 의 `Traits` 에는 `char_traits` 에서 제공하는 모든 멤버 함수들이 구현된 클래스가 전달되어야 합니다. (꼭 `char_traits` 를 상속 받을 필요는 없습니다) 이를 가장 간편히 만들기 위해서는 그냥 `char_traits` 를 상속 받은 후, 필요한 부분만 새로 구현하면 됩니다.
+[basic_string](https://modoocode.com/234) 의 `Traits` 에는 `char_traits` 에서 제공하는 모든 멤버 함수들이 구현된 클래스가 전달되어야 한다(꼭 `char_traits` 를 상속 받을 필요는 없다). 이를 가장 간편히 만들기 위해서는 그냥 `char_traits` 를 상속 받은 후, 필요한 부분만 새로 구현하면 된다.
 
-`char_traits` 에 정의되는 함수들은 모두 `static` 함수들 입니다. 그 이유는 `char_traits` 의 존재 이유를 생각해보면 당연한데, `Traits` 는 문자와 문자열들 간에 간단한 연산을 제공해주는 클래스이므로 굳이 데이터를 저장할 필요가 없기 때문입니다. (이를 보통 Stateless 하다고 합니다.)
+`char_traits` 에 정의되는 함수들은 모두 `static` 함수들 이다. 그 이유는 `char_traits` 의 존재 이유를 생각해보면 당연한데, `Traits` 는 문자와 문자열들 간에 간단한 연산을 제공해주는 클래스이므로 굳이 데이터를 저장할 필요가 없기 때문이다(이를 보통 Stateless 하다고 한다).
 
-일반적인 `char` 들을 다루는 `char_traits<char>` 에서 우리가 바꿔줘야 할 부분은 대소 비교하는 부분 뿐입니다. 따라서 아래와 같이 문자들 간의 크기를 비교하는 `lt` 함수와 길이 `n` 의 문자열의 크기를 비교하는 `compare` 함수를 새로 정의해줘야 했습니다.
+일반적인 `char` 들을 다루는 `char_traits<char>` 에서 우리가 바꿔줘야 할 부분은 대소 비교하는 부분 뿐이다. 따라서 아래와 같이 문자들 간의 크기를 비교하는 `lt` 함수와 길이 `n` 의 문자열의 크기를 비교하는 `compare` 함수를 새로 정의해줘야 했다.
+```cpp
+static bool lt(char c1, char c2) {
+	return get_real_rank(c1) < get_real_rank(c2);
+}
+
+static int compare(const char* s1, const char* s2, size_t n) {
+	while (n-- != 0) {
+		if (get_real_rank(*s1) < get_real_rank(*s2)) {
+			return -1;
+		}
+		if (get_real_rank(*s1) > get_real_rank(*s2)) {
+			return 1;
+		}
+		++s1;
+		++s2;
+	}
+	return 0;
+}
+```
+코드를 읽어보면 그다지 어렵지 않다. `get_real_rank` 함수는 문자를 받아서 숫자면 `256`을 더해서 순위를 매우 떨어뜨린다. 따라서 숫자들이 모든 문자들 뒤에 오게 된다.
+```cpp
+std::cout << "숫자의 우선순위가 더 낮은 문자열 : " << std::boolalpha
+          << (my_s1 < my_s2) << std::endl;
+```
+따라서 실제로 `my_s1` 이 `my_s2` 보다 뒤에 온다고 나타나게 된다. (`my_s1 > my_s2`) 반면에 보통의 [string](https://modoocode.com/237) 의 경우에는 `s1` 이 `s2` 앞에 나올 것이다.
+
+이와 같이 간단히 `Traits` 만 바꿔주는 것으로 좀 더 커스터마이징 된 [basic_string](https://modoocode.com/234) 을 사용할 수 있다.
+
+## 짧은 문자열 최적화(SSO)
+
+메모리를 할당하는 작업은 시간을 꽤나 잡아먹는다.
+
+[basic_string](https://modoocode.com/234) 이 저장하는 문자열의 길이는 천차만별이다. 때론 한 두 문자 정도의 짧은 문자열을 저장할 때도 있고, 수십만 바이트의 거대한 문자열을 저장할 때도 있다. 문제는 거대한 문자열은 매우 드물게 저장되는데 반해 길이가 짧은 문자열들은 굉장히 많이 생성되고 소멸 된다는 점이다. 만일 매번 모든 문자열을 동적으로 메모리를 할당 받는다고 해보자. 길이가 짧은 문자열을 여러 번 할당한다면 매번 메모리 할당이 이루어져야 하므로, 굉장히 비효율적일 것이다.
+
+따라서 [basic_string](https://modoocode.com/234) 의 제작자들은 짧은 길이 문자열의 경우 따로 문자 데이터를 위한 메모리를 할당하는 대신에 그냥 객체 자체에 저장해버린다. 이를 짧은 문자열 최적화(SSO - short string optimization) 이라고 부른다.
+```cpp
+#include <iostream>
+#include <string>
+
+// 이와 같이 new 를 전역 함수로 정의하면 모든 new 연산자를 오버로딩 해버린다.
+// (어떤 클래스의 멤버 함수로 정의하면 해당 클래스의 new 만 오버로딩됨)
+void* operator new(std::size_t count) {
+	std::cout << count << " bytes 할당 " << std::endl;
+	return malloc(count);
+}
+
+int main() {
+	std::cout << "s1 생성 --- " << std::endl;
+	std::string s1 = "this is a pretty long sentence!!!";
+	std::cout << "s1 크기 : " << sizeof(s1) << std::endl;
+	
+	std::cout << "s2 생성 --- " << std::endl;
+	std::string s2 = "short sentence";
+	std::cout << "s2 크기 : " << sizeof(s2) << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+s1 생성 --- 
+34 bytes 할당 
+s1 크기 : 32
+s2 생성 --- 
+s2 크기 : 32
+```
+
+```cpp
+// 이와 같이 new 를 전역 함수로 정의하면 모든 new 연산자를 오버로딩 해버린다.
+// (어떤 클래스의 멤버 함수로 정의하면 해당 클래스의 new 만 오버로딩됨)
+void* operator new(std::size_t count) {
+	std::cout << count << " bytes 할당 " << std::endl;
+	return malloc(count);
+}
+```
+먼저 메모리가 할당되는지 안되는지 확인하기 위해서 위와 같이 새로 `new` 연산자를 정의해줬다. 참고로 `new` 의 경우 위와 같이 클래스 외부의 함수로 정의하게 된다면 모든 `new` 연산자들이 위 함수를 사용하게 된다. 반면에 클래스 내에 멤버 함수로 `new` 를 정의하게 된다면, 해당 객체를 new로 생성할 때 해당 `new` 함수가 호출된다.
+
+아무튼 위와 같이 `operator new` 를 정의한 덕분에 [basic_string](https://modoocode.com/234) 내부를 바꾸지 않고도 문자열 생성 시에 메모리 할당이 일어나는지 아닌지 관찰할 수 있다.
+
+그리고 그 결과는 위와 같다. 길이가 긴 문자열 `s1` 을 생성할 때에는 메모리 할당이 발생하였고, **길이가 짧은 문자열인 `s2` 의 경우에는 메모리 할당이 발생하지 않았다**.
+
+그 대신 문자열 객체의 크기를 확인하였을 때 32 바이트로 꽤나 크다. 만일 정말 단순하게 문자열 라이브러리를 구현하였다면 문자열 길이를 저장할 변수 하나, 할당한 메모리 공간 크기 저장을 위한 변수 하나, 메모리 포인터 하나로 해소 총 12 바이트로 만들 수 도 있을 것입니다. 하지만 라이브러리 제작자들은 메모리 사용량을 조금 희생한 대신 성능 향상을 꾀했습니다.
+
+물론 라이브러리 마다 어느 길이 문자열 부터 따로 메모리 할당을 할 지는 다릅니다. 하지만 대부분의 주류 C++ 라이브러리 (gcc 의 libstdc++ 과 clang 의 libc++) 들은 어떤 방식이든 SSO 를 사용하고 있습니다.
+
+여담으로, C++ 11 이전에 [basic_string](https://modoocode.com/234) 의 구현에서는 Copy On Write 라는 기법도 사용되었습니다. 이는 문자열을 복사할 때, 바로 복사하는 것이 아니라, 복사된 문자열이 바뀔 때 비로소 복사를 수행하는 방식이였죠. 하지만 이는 C++ 11 에서 개정된 표준에 따라 불가능해졌습니다.
