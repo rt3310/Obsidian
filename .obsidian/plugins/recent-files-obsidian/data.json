@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "string",
+      "path": "Projects/Study/C, C++/string.md"
+    },
+    {
+      "basename": "pragma",
+      "path": "Projects/Study/C, C++/pragma.md"
+    },
+    {
       "basename": "HttpSession",
       "path": "Projects/Posting/HTTP/HttpSession.md"
     },

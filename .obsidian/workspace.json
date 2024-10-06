@@ -13,7 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/STL - algorithm.md",
+                "file": "Projects/Study/C, C++/string.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "778f122032a96c7a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
+          },
+          {
+            "id": "b68f87d011bca7af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Study/OS/보초콘.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -94,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/STL - algorithm.md",
+                "file": "Projects/Study/C, C++/string.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/STL - algorithm.md",
+                "file": "Projects/Study/C, C++/string.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/STL - algorithm.md"
+                "file": "Projects/Study/C, C++/string.md"
               }
             }
           },
@@ -156,6 +177,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:새 보드 만들기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -166,50 +188,49 @@
       "obsidian-full-calendar:Open Full Calendar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:새 보드 만들기": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "2463eca64201697b",
   "lastOpenFiles": [
-    "24E5C63359718B1B071A2B.webp",
-    "Pasted image 20241006021950.png",
-    "Pasted image 20241006021143.png",
-    "Pasted image 20241006021044.png",
-    "Pasted image 20241006021041.png",
-    "Pasted image 20241006015717.png",
+    "Projects/Study/C, C++/pragma.md",
+    "Projects/Study/C, C++/string.md",
+    "Projects/Posting/HTTP/HttpSession.md",
+    "Projects/Study/C, C++/파일 입출력.md",
+    "Projects/Study/C, C++/템플릿.md",
+    "Projects/Study/C, C++/resources/Pasted image 20241005171238.png",
+    "Projects/Study/C, C++/resources/Pasted image 20241004033622.png",
+    "Projects/Study/C, C++/resources/Pasted image 20241004033338.png",
+    "Projects/Study/C, C++/resources/Pasted image 20241003031011.png",
+    "Projects/Study/C, C++/resources/Pasted image 20241003030933.png",
+    "Projects/Study/C, C++/resources/Pasted image 20241003022107.png",
+    "Projects/Study/C, C++/resources/Pasted image 20241003013415.png",
+    "Projects/Study/C, C++/resources/Pasted image 20240924232950.png",
+    "Projects/Study/C, C++/resources/Pasted image 20240924232943.png",
+    "Projects/Study/C, C++/resources/Pasted image 20240924232924.png",
+    "Projects/Study/C, C++/STL - sequence container.md",
     "Projects/Study/C, C++/STL - associative container.md",
     "Projects/Study/C, C++/STL - algorithm.md",
-    "Projects/Study/C, C++/switch 문의 제약사항.md",
-    "Projects/Study/C, C++/STL - sequence container.md",
-    "Projects/Posting/HTTP/HttpSession.md",
-    "265AE73859607D5303C92C.webp",
-    "2107C344595C3A6F3910F7.webp",
-    "Pasted image 20241005220612.png",
-    "25339935595C2C382057B8.webp",
-    "25566243595C2B600E335B.webp",
-    "Projects/Study/OS/보초콘.md",
-    "Projects/Study/C, C++/템플릿.md",
     "Projects/Study/C, C++/연산자 오버로딩.md",
-    "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
-    "Projects/Study/C, C++/pragma.md",
-    "Projects/Study/C, C++/cc vs cpp.md",
-    "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
     "Projects/Study/Unreal/UE5.md",
     "Projects/Study/Java/Concurrency/Java Concurrency.md",
     "Projects/Study/Java/Concurrency",
+    "Projects/Study/C, C++/cc vs cpp.md",
     "Projects/Study/Unreal",
     "Projects/Study/Javascript/자바스크립트.md",
     "Projects/Posting/Computer Structure/EBP, ESP Register.md",
     "Projects/Study/Javascript/resources",
     "Projects/Study/Javascript",
+    "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
     "Projects/Study/C, C++/resources",
     "Projects/Study/C, C++/new vs malloc.md",
     "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md",
     "Projects/Posting/Computer Structure",
+    "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Posting/Trouble Shooting",
     "Projects/Posting/무제 파일.md",
     "conflict-files-obsidian-git.md",
+    "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Study/C, C++/무제 폴더",
     "Projects/Study/C, C++",
