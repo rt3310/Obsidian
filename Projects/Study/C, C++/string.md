@@ -175,4 +175,52 @@ void* operator new(std::size_t count) {
 
 물론 **라이브러리 마다 어느 길이 문자열부터 따로 메모리 할당을 할 지는 다르다**. 하지만 **대부분의 주류 C++ 라이브러리들(gcc 의 libstdc++ 과 clang 의 libc++)은 어떤 방식이든 SSO를 사용하고 있다**.
 
-여담으로, C++ 11 이전에 [basic_string](https://modoocode.com/234) 의 구현에서는 Copy On Write 라는 기법도 사용되었다. 이는 문자열을 복사할 때, 바로 복사하는 것이 아니라, 복사된 문자열이 바뀔 때 비로소 복사를 수행하는 방식이다. 하지만 이는 C++ 11 에서 개정된 표준에 따라 불가능해졌다.
+여담으로, C++11 이전에 [basic_string](https://modoocode.com/234) 의 구현에서는 Copy On Write 라는 기법도 사용되었다. 이는 문자열을 복사할 때, 바로 복사하는 것이 아니라, 복사된 문자열이 바뀔 때 비로소 복사를 수행하는 방식이다. 하지만 이는 C++11 에서 개정된 표준에 따라 불가능해졌다.
+
+## 문자열 리터럴 정의하기
+
+C에서 문자열 리터럴을 정의하기 위해선 아래와 같이 했다.
+```c
+const char* s = "hello";
+// 혹은
+char s[] = "hello";
+```
+위 두 `s` 모두 "`hello`" 라는 문자열을 보관하게 된다.
+
+C++ 의 경우는 어떨까? 만약에
+```cpp
+auto str = "hello"
+```
+를 하면 [str](https://modoocode.com/str) 는 [string](https://modoocode.com/237) 으로 정의될까? 아니다. C++ 에서는 C와 마찬가지로 [str](https://modoocode.com/str) 의 타입은 `const char *`로 정의된다. 이는 C를 배우지 않고 C++부터 배운 사람에게는 혼란스러울 여지가 있다. 만일 문자열을 꼭 만들어야겠다 한다면
+```cpp
+string str = "hello";
+```
+위처럼 타입을 꼭 명시해줘야 한다. 하지만 C++14에 이 문제를 깜찍하게 해결할 수 있는 방법이 나왔다.
+
+### 리터럴 연산자
+재미있게도, C++14에서 리터럴 연산자(literal operator) 라는 것이 새로 추가되었다.
+```cpp
+auto str = "hello"s;
+```
+위와 같이 `""` 뒤에 `s` 를 붙여주면 `auto` 가 [string](https://modoocode.com/237) 으로 추론된다. 참고로 이 리터럴 연산자는
+```cpp
+std::string operator"" s(const char *str, std::size_t len);
+```
+위 처럼 정의되어 있는데, `"hello"s` 는 컴파일 과정에서 `operator""s("hello", 5);` 로 바뀌게 된다. 참고로 해당 리터럴 연산자를 사용하기 위해서는 **`std::string_literals` 네임스페이스**를 사용해야 한다. 아래 코드를 보자
+```cpp
+#include <iostream>
+#include <string>
+using namespace std::literals;
+
+int main() {
+	auto s1 = "hello"s;
+	std::cout << "s1 길이 : " << s1.size() << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+s1 길이 : 5
+```
+와 같이 제대로 [string](https://modoocode.com/237) 으로 `auto` 가 추론된 것을 확인할 수 있다.
+
+리터럴 연산자는 위 처럼 문자열 리터럴만 가능한 것이 아니라 정수나 부동 소수점 리터럴들 역시 사용 가능합니다. 자세한 예시는 [여기](https://en.cppreference.com/w/cpp/language/user_literal)를 살펴보세요.
