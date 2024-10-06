@@ -223,4 +223,4 @@ s1 길이 : 5
 ```
 와 같이 제대로 [string](https://modoocode.com/237) 으로 `auto` 가 추론된 것을 확인할 수 있다.
 
-리터럴 연산자는 위 처럼 문자열 리터럴만 가능한 것이 아니라 정수나 부동 소수점 리터럴들 역시 사용 가능합니다. 자세한 예시는 [여기](https://en.cppreference.com/w/cpp/language/user_literal)를 살펴보세요.
+리터럴 연산자는 위처럼 문자열 리터럴만 가능한 것이 아니라 정수나 부동 소수점 리터럴들 역시 사용 가능하다. 자세한 예시는 [여기](https://en.cppreference.com/w/cpp/language/user_literal)를 살펴보자.
