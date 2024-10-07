@@ -423,6 +423,239 @@ F
 ```cpp
 if ((str[i] & 0b11111000) == 0b11110000)
 ```
-앞서 위에 있는 UTF-8 인코딩 방식을 살펴보면, 4바이트로 인코딩되는 문자들은 첫 번째 바이트가 `11110xxx` 꼴이다. `11111000` 과 [AND](https://modoocode.com/and) 연산을 했을 때 `11110000` 이 나오는 비트 형태는 `11110xxx` 형태 밖에 없으므로 성공적으로 분류를 하고 있다고 알 수 있다.
+앞서 위에 있는 UTF-8 인코딩 방식을 살펴보면, 4바이트로 인코딩되는 문자들은 첫 번째 바이트가 `11110xxx` 꼴이다. `11111000` 과 [AND](https://modoocode.com/and) 연산을 했을 때 `11110000` 이 나오는 비트 형태는 `11110xxx` 형태 밖에 없으므로 성공적으로 분류를 하고 있다고 알 수 있다. 나머지 조건문들도 마찬가지이다.
 
-나머지 조건문들도 마찬가지이다.
+```cpp
+std::cout << str.substr(i, char_size) << std::endl;
+```
+그리고 위처럼 문자의 시작 위치에서 `char_size` 만큼을 읽어서 인코딩 된 문자를 정확하게 출력할 수 있다.
+
+물론 UTF-8 형식의 문자열을 저장했다고 해서 [basic_string](https://modoocode.com/234) 의 정의된 연산들을 사용할 수 없는 것은 아니다. `size()` 를 제외한 다른 모든 연산들은 문자열의 인코딩 방식과 무관하다. 예를 들어, 문자열에서 원하는 글자를 검색하는 것은 인코딩과 무관하게 수행할 수 있다.
+
+하지만 그래도 UTF-8 문자 그대로 한글 문자열을 다루는 것은 불편하다. 특히 영문자와 섞여 있을 경우 알파벳은 1바이트지만 한글은 3바이트로 해석되기 때문에 반복자를 통해서 문자들을 순차적으로 뽑아내기 힘들다. 하지만 UTF-16 인코딩 방식을 사용하면 이야기가 달라진다.
+
+### UTF-16 인코딩
+UTF-16 인코딩은 최소 단위가 2바이트 이다. 따라서 **UTF-16으로 인코딩 된 문자열을 저장하는 클래스인 `u16string` 도 원소의 타입이 2바이트(`char16_t`)이다**.
+
+UTF-16 은 유니코드에서 0부터 `D7FF`번 까지, 그리고 `E000`부터 `FFFF`까지의 문자들을 2바이트로 인코딩 한다. 그리고 `FFFF`보다 큰 문자들은 4바이트로 인코딩 된다. 참고로 `D800`번 부터 `DFFF`사이의 문자들은 어디에 인코딩 되냐고 물을 수 있는데, 이들은 유니코드 상 존재하지 않는 문자들이다.
+
+덕분에 UTF-16 인코딩 방식으로는 대부분의 문자들이 2바이트로 인코딩 된다. 알파벳, 한글, 한자 전부다 말이지요. 물론 이모지(🍑,🍒,🍓,🍔,🍕,🍖,🍗)나 이집트 상형문자(𓀀,𓀁,𓀂)와 같이 유니코드 상 높은 번호로 매핑되어 있는 애들은 4바이트로 인코딩 된다.
+
+```cpp
+#include <iostream>
+#include <string>
+
+int main() {
+	//                         1234567890 123 4 567
+	std::u16string u16_str = u"이건 UTF-16 문자열 입니다";
+	std::cout << u16_str.size() << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+17
+```
+
+만일 일반적인 문자들만 수록되어 있는 텍스트를 다룬다면 `u16string` 만큼 좋은 것이 없다. 거의 대부분의 문자들이 2바이트로 인코딩 될 것이므로, 모든 문자들이 원소 1개 만큼 사용한다. 따라서 위처럼 문자열의 길이와 `u16_str.size()` 가 일치한다.
+
+따라서 아래와 같이 한글의 초성만 분리해내는 코드를 작성할 수도 있다.
+```cpp
+#include <iostream>
+#include <string>
+
+int main() {
+	std::u16string u16_str = u"안녕하세용 모두에 코드에 오신 것을 환영합니다";
+	std::string jaum[] = {"ㄱ", "ㄲ", "ㄴ", "ㄷ", "ㄸ", "ㄹ", "ㅁ",
+						"ㅂ", "ㅃ", "ㅅ", "ㅆ", "ㅇ", "ㅈ", "ㅉ",
+						"ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ"};
+	
+	for (char16_t c : u16_str) {
+		// 유니코드 상에서 한글의 범위
+		if (!(0xAC00 <= c && c <= 0xD7A3)) {
+			continue;
+		}
+		// 한글은 AC00 부터 시작해서 한 초성당 총 0x24C 개 씩 있다.
+		int offset = c - 0xAC00;
+		int jaum_offset = offset / 0x24C;
+		std::cout << jaum[jaum_offset];
+	}
+}
+```
+성공적으로 컴파일했다면
+```
+ㅇㄴㅎㅅㅇㅁㄷㅇㅋㄷㅇㅇㅅㄱㅇㅎㅇㅎㄴㄷ
+```
+위와 같이 잘 분리되었음을 알 수 있다. 한글은 유니코드 상에서 한 초성 당 `588`개씩 있다. 예를 들어, 처음에 '가'를 시작으로, '각', '갂', '간' 순으로 진행된다. [여기](https://www.fileformat.info/info/unicode/block/hangul_syllables/utf8test.htm) 에서 한글이 어떻게 유니코드 상에서 등록되어 있는지 볼 수 있다. 머리를 좀만 쓴다면, 초성-중성-종성 분리까지 쉽게 가능하다.
+
+하지만 UTF-16 역시 때론 4바이트로 문자를 인코딩 해야 하기 때문에 i 번째 문자를 `str[i]` 와 같이 접근할 수 있는 것은 아니다. 예를 들어서
+```cpp
+#include <iostream>
+#include <string>
+
+int main() {
+	std::u16string u16_str = u"🍑🍒";
+	std::cout << u16_str.size() << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+4
+```
+위와 같이 실제 문자열의 길이와 사용된 원소의 개수가 차이 나게 된다.
+
+안타깝게도 C++ 에서는 요즘에 나온 `Go` 언어처럼 인코딩 된 문자열을 언어 단에서 간단히 처리할 수 있는 방법은 없다. 가장 편한 방법은 그냥 어떤 문자열이든 그냥 UTF-32 인코딩으로 바꿔버리면 되겠지만, 이는 메모리 사용량을 매우 증가시킨다.
+
+다행히 `UTF8-CPP` 라는 C++ 에서 여러 방식으로 인코딩 된 문자열을 쉽게 다룰 수 있게 도와주는 라이브러리가 있다 (표준 라이브러리는 아니다). [여기](https://github.com/nemtrif/utfcpp)에서 사용법을 볼 수 있으며 매우 간단하다!
+
+## string_view
+
+만일 어떤 함수에 문자열을 전달할 때, 문자열 읽기만 필요로 한다면 보통 `const std::string&` 으로 받거나 `const char*` 형태로 받게 된다.
+
+하지만 각각의 방식은 문제점이 있다. 먼저 `const string&` 형태로 받을 경우를 살펴보자.
+```cpp
+#include <iostream>
+#include <string>
+
+void* operator new(std::size_t count) {
+	std::cout << count << " bytes 할당 " << std::endl;
+	return malloc(count);
+}
+
+// 문자열에 "very" 라는 단어가 있으면 true 를 리턴함
+bool contains_very(const std::string& str) {
+	return str.find("very") != std::string::npos;
+}
+
+int main() {
+	// 암묵적으로 std::string 객체가 불필요하게 생성된다.
+	std::cout << std::boolalpha << contains_very("c++ string is very easy to use") << std::endl;
+	
+	std::cout << contains_very("c++ string is not easy to use") << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+31 bytes 할당 
+true
+30 bytes 할당 
+false
+```
+
+`contains_very` 함수는 인자로 받은 문자열에 very라는 단어가 있으면 `true` 를 리턴하는 함수이다. 따라서 인자를 읽기만 하므로, `const string&` 의 형태로 받으면 된다.
+
+문제는 `contains_very` 함수에 **문자열 리터럴을 전달한다면 (이는 `const char*`), 인자는 [string](https://modoocode.com/237) 만 받을 수 있기 때문에 암묵적으로 [string](https://modoocode.com/237) 객체가 생성된다**는 점이다. 따라서 위 출력 결과처럼 불필요한 메모리 할당이 발생한 것을 볼 수 있다.
+
+그렇다면 `contains_very` 함수를 `const char*` 형태의 인자로 받도록 바꾸면 안될까? 그렇다면 두 가지 문제가 발생한다.
+- 먼저 [string](https://modoocode.com/237) 을 함수에 직접 전달할 수 없고 [c_str](https://modoocode.com/297) 함수를 통해 [string](https://modoocode.com/237) 에서 `const char*` 주소값을 뽑아내야 한다.
+- `const char*` 로 변환하는 과정에서 문자열의 길이에 대한 정보를 잃어버리게 된다. 만일 함수 내부에서 문자열 길이 정보가 필요하다면 매 번 다시 계산해야 한다.
+이러한 연유로, `contains_very` 함수를 합리적으로 만들기 위해서는 `const string&`을 인자로 받는 오버로딩 하나, 그리고 `const char*`을 인자로 받는 오버로딩 하나를 각각 준비해야 한다는 문제점이 있었다.
+
+하지만 위와 같은 문제는 C++ 17 에서 [string_view](https://modoocode.com/242) 가 도입됨으로써 해결되었다.
+
+### 소유하지 않고 읽기만 한다!
+```cpp
+#include <iostream>
+#include <string>
+
+void* operator new(std::size_t count) {
+	std::cout << count << " bytes 할당 " << std::endl;
+	return malloc(count);
+}
+
+// 문자열에 "very" 라는 단어가 있으면 true 를 리턴함
+bool contains_very(std::string_view str) {
+	return str.find("very") != std::string_view::npos;
+}
+
+int main() {
+	// string_view 생성 시에는 메모리 할당이 필요 없다.
+	std::cout << std::boolalpha << contains_very("c++ string is very easy to use") << std::endl;
+	
+	std::cout << contains_very("c++ string is not easy to use") << std::endl;
+	
+	std::string str = "some long long long long long string";
+	std::cout << "--------------------" << std::endl;
+	std::cout << contains_very(str) << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+true
+false
+37 bytes 할당 
+--------------------
+false
+```
+
+[string_view](https://modoocode.com/242) 는 이름 그대로 문자열을 읽기만 하는 클래스다. 이 때문에 [string_view](https://modoocode.com/242) 는 문자열을 소유하고 있지 않다. 즉, 어딘가 존재하는 문자열을 참조해서 읽기만 하는 것이다. 따라서 **[string_view](https://modoocode.com/242) 가 현재 보고 있는 문자열이 소멸된다면 정의되지 않은 작업(Undefined behavior)이 발생하게 된다**.
+
+> [!WARNING] 주의 사항
+> 중요해서 한 번 더 강조하지만 [string_view](https://modoocode.com/242) 는 문자열을 소유하고 있지 않기 때문에 현재 읽고 있는 문자열이 소멸되지 않은 상태인지 주의해야 한다.
+
+문자열을 소유하지 않고 읽기만 한다는 특성 때문에 [string_view](https://modoocode.com/242) 객체 생성 시에 메모리 할당이 불필요하다. 그냥 읽고 있는 문자열의 시작 주소 값만 복사하면 되기 때문이다. 따라서 위처럼 [string](https://modoocode.com/237) 이나 `const char*` 을 전달하더라도 메모리 할당이 발생하지 않는다.
+
+뿐만 아니라 `const char*` 을 인자로 받았을 때에 비해 [string](https://modoocode.com/237) 의 경우 문자열 길이가 그대로 전달되므로 불필요한 문자열 길이 계산을 할 필요가 없다. 또한 `const char*` 에서 [string_view](https://modoocode.com/242) 를 생성하면서 문자열 길이를 한 번만 계산하면 되므로 효율적이다.
+
+[string_view](https://modoocode.com/242) 에서 제공하는 연산들은 당연히 원본 문자열을 수정하지 않는 연산들이다. 대표적으로 [find](https://modoocode.com/261) 와 부분 문자열을 얻는 [substr](https://modoocode.com/235) 을 들 수 있다. 특히 [string](https://modoocode.com/237) 의 경우 [substr](https://modoocode.com/235) 이 실제로 부분 문자열을 새로 생성해야 하기 때문에 $O(n)$으로 수행되지만, **[string_view](https://modoocode.com/242) 의 경우 [substr](https://modoocode.com/235) 로 또 다른 `view` 를 생성하므로 $O(1)$ 로 매우 빠르게 수행된다**.
+```cpp
+#include <iostream>
+#include <string>
+
+void* operator new(std::size_t count) {
+	std::cout << count << " bytes 할당 " << std::endl;
+	return malloc(count);
+}
+
+int main() {
+	std::cout << "string -----" << std::endl;
+	std::string s = "sometimes string is very slow";
+	std::cout << "--------------------" << std::endl;
+	std::cout << s.substr(0, 20) << std::endl << std::endl;
+	
+	std::cout << "string_view -----" << std::endl;
+	std::string_view sv = s;
+	std::cout << "--------------------" << std::endl;
+	std::cout << sv.substr(0, 20) << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+string -----
+30 bytes 할당 
+--------------------
+21 bytes 할당 
+sometimes string is 
+
+string_view -----
+--------------------
+sometimes string is
+```
+
+보다시피, [string](https://modoocode.com/237) 의 [substr](https://modoocode.com/235) 은 문자열을 새로 생성하였기에 메모리 할당이 발생했지만 [string_view](https://modoocode.com/242) 의 경우 [substr](https://modoocode.com/235) 시에 메모리 할당이 발생하지 않았다.
+
+물론 위 [string_view](https://modoocode.com/242) 들은 모두 `s` 에서 만들어진 것이므로 `s` 가 소멸되면 사용할 수 없게 된다.
+```cpp
+#include <iostream>
+#include <string>
+
+std::string_view return_sv() {
+	std::string s = "this is a string";
+	std::string_view sv = s;
+	
+	return sv;
+}
+
+int main() {
+	std::string_view sv = return_sv();  // <- sv 가 가리키는 s 는 이미 소멸됨!
+	
+	// Undefined behavior!!!!
+	std::cout << sv << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+a string
+```
+위 `sv` 는 `return_sv` 안에서 만들어진 `s` 의 [string_view](https://modoocode.com/242) 이지만 함수가 리턴하면서 지역 객체였던 `s` 가 소멸하였기 때문에 `sv` 는 소멸된 문자열을 가리키는 꼴이 되었다.
+
+따라서 `sv` 를 사용하면 위와 같이 이상한 결과가 나온다(물론 프로그램을 crash 시킬 수도 있다). 때문에 반드시 [string_view](https://modoocode.com/242) 가 살아 있는 문자열의 `view` 인지를 확인하고 사용해야 한다.

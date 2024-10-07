@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/string.md",
+                "file": "Projects/Study/C, C++/예외처리.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -116,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/string.md",
+                "file": "Projects/Study/C, C++/예외처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/string.md",
+                "file": "Projects/Study/C, C++/예외처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/string.md"
+                "file": "Projects/Study/C, C++/예외처리.md"
               }
             }
           },
@@ -194,9 +193,10 @@
   },
   "active": "2463eca64201697b",
   "lastOpenFiles": [
+    "Projects/Study/C, C++/string.md",
+    "Projects/Study/C, C++/예외처리.md",
     "Pasted image 20241007031711.png",
     "Projects/Study/C, C++/pragma.md",
-    "Projects/Study/C, C++/string.md",
     "Projects/Posting/HTTP/HttpSession.md",
     "Projects/Study/C, C++/파일 입출력.md",
     "Projects/Study/C, C++/템플릿.md",
@@ -209,7 +209,6 @@
     "Projects/Study/C, C++/resources/Pasted image 20241003013415.png",
     "Projects/Study/C, C++/resources/Pasted image 20240924232950.png",
     "Projects/Study/C, C++/resources/Pasted image 20240924232943.png",
-    "Projects/Study/C, C++/resources/Pasted image 20240924232924.png",
     "Projects/Study/C, C++/STL - sequence container.md",
     "Projects/Study/C, C++/STL - associative container.md",
     "Projects/Study/C, C++/STL - algorithm.md",
