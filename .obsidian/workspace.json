@@ -99,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -193,6 +194,8 @@
   },
   "active": "2463eca64201697b",
   "lastOpenFiles": [
+    "12.1.4.webp",
+    "12.1.1.webp",
     "Projects/Study/C, C++/string.md",
     "Projects/Study/C, C++/예외처리.md",
     "Pasted image 20241007031711.png",
@@ -208,7 +211,6 @@
     "Projects/Study/C, C++/resources/Pasted image 20241003022107.png",
     "Projects/Study/C, C++/resources/Pasted image 20241003013415.png",
     "Projects/Study/C, C++/resources/Pasted image 20240924232950.png",
-    "Projects/Study/C, C++/resources/Pasted image 20240924232943.png",
     "Projects/Study/C, C++/STL - sequence container.md",
     "Projects/Study/C, C++/STL - associative container.md",
     "Projects/Study/C, C++/STL - algorithm.md",
@@ -238,7 +240,6 @@
     "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Study/Algorithm/오답노트/무제 파일.canvas",
     "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
-    "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
     "Projects/Study/Algorithm/resources",
     "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/OS/memory/canvas/메모리 관리.canvas",
