@@ -524,3 +524,70 @@ int main() {
   B b(a);
 }
 ```
+성공적으로 컴파일했다면
+```
+ctor
+create B-- 
+copy ctor
+```
+동일한 결과가 나온다. 왜 `std::move(a)`를 해서 우측값으로 바꾸었는데 왜 이동 생성자가 호출이 되지 않고 복사 생성자가 호출이 되었을까?
+
+일단 `std::move(a)`가 우측값으로 바꾸는 것은 맞다. 그런데 문제는 `a`가 `const A&`이므로, `std::move(a)`의 타입은 `const A&&`가 된다는 것이다. 그런데 `A`의 생성자에는 `const A&`와 `A&&`두 개 밖에 없다. 따라서 여기선 컴파일러가 `const A&`를 택하게 된다. 따라서 복사 생성자가 호출이 되는 것이다.
+
+#### 세 번째 시도
+아 그렇다면 B 생성자에서 아예 우측값을 받는 수 받게 없구나.
+```cpp
+#include <iostream>
+
+class A {
+public:
+	A() { std::cout << "ctor\n"; }
+	A(const A& a) { std::cout << "copy ctor\n"; }
+	A(A&& a) { std::coaut << "move ctor\n"; }
+};
+
+class B {
+public:
+	B(A&& a) : a_(a) {}
+	
+	A a_;
+};
+
+int main() {
+	A a;
+	std::cout << "create B-- \n";
+	B b(std::move(a));
+}
+```
+성공적으로 컴파일했다면
+```
+ctor
+create B-- 
+copy ctor
+```
+와 같이 나옵니다. 엥? 아니 왜 `a` 를 우측값 레퍼런스로 받았는데, 왜 이동 생성자 대신에 복사 생성자가 호출이 되었을까? 그 이유는 간단하다. 앞서 이야기 했듯이 `a`는 우측값 레퍼런스 이지만 그 자체로는 좌측값이기 때문이다(이름이 있으니까). 따라서 `a`를 다시 한 번 우측값으로 캐스팅 시켜줘야 한다.
+
+#### 정답
+```cpp
+#include <iostream>
+
+class A {
+public:
+	A() { std::cout << "ctor\n"; }
+	A(const A& a) { std::cout << "copy ctor\n"; }
+	A(A&& a) { std::cout << "move ctor\n"; }
+};
+
+class B {
+public:
+	B(A&& a) : a_(std::move(a)) {}
+	
+	A a_;
+};
+
+int main() {
+	A a;
+	std::cout << "create B-- \n";
+	B b(std::move(a));
+}
+```
