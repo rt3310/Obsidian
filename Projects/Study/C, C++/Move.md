@@ -497,3 +497,30 @@ ctor
 create B-- 
 copy ctor
 ```
+예상했던 대로 복사 생성자가 호출되었다. 하지만 우리가 원하던 것은 이게 아니다. 우리는 `main` 안에서 이미 생성되어 있는 `A`라는 객체를 새로 생성된 `b` 안으로 이동시키고 싶을 뿐이다. 그럼 다시 해보자.
+
+#### 두 번째 시도
+아 이동 시킬려면 std::move 를 해야 되니까 그냥 `a_(std::move(a))`로 해볼까?
+```cpp
+#include <iostream>
+
+class A {
+ public:
+  A() { std::cout << "ctor\n"; }
+  A(const A& a) { std::cout << "copy ctor\n"; }
+  A(A&& a) { std::cout << "move ctor\n"; }
+};
+
+class B {
+ public:
+  B(const A& a) : a_(std::move(a)) {}
+
+  A a_;
+};
+
+int main() {
+  A a;
+  std::cout << "create B-- \n";
+  B b(a);
+}
+```
