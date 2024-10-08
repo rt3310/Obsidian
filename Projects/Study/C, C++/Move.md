@@ -612,4 +612,55 @@ void wrapper(T u) {
 
 하지만 실제로 저러한 형태의 전달 방식이 사용되는 경우가 종종 있다. 예를 들어 `vector` 에는 `emplace_back`이라는 함수가 있다. 이 함수는 객체의 생성자에 전달하고 싶은 인자들을 함수에 전달하면, 알아서 생성해서 `vector` 맨 뒤에 추가해준다.
 
-예를 들어서 클래스 `A` 를 원소로 가지는 벡터의 뒤에 원소를 추가하기 위해서는
+예를 들어서 클래스 `A`를 원소로 가지는 벡터의 뒤에 원소를 추가하기 위해서는
+```cpp
+vec.push_back(A(1, 2, 3));
+```
+과 같이 객체를 생성한 뒤에 인자로 전달해줘야만 한다. 하지만 이 과정에서 불필요한 이동 혹은 복사가 발생하게 된다. 그 대신, `emplace_back` 함수를 사용하게 되면
+```cpp
+vec.emplace_back(1, 2, 3);  // 위와 동일한 작업을 수행한다.
+```
+`emplace_back`함수는 인자를 직접 전달받아서, 내부에서 `A`의 생성자를 호출한 뒤에 이를 벡터 원소 뒤에 추가하게 된다. ~~이 과정에서 불필요한 이동/복사 모두 발생하지 않는다. 참고로 새로 생성한 객체를 벡터 뒤에 추가할 경우 위와 같이 [push_back](https://modoocode.com/185) 을 이용하는 것 보다 `emplace_back` 을 이용하는 것이 권장되는 방식이다.~~ **사실 [push_back](https://modoocode.com/185) 함수를 사용할 경우 컴파일러가 알아서 최적화를 해주기 때문에 불필요한 복사-이동을 수행하지 않고 `emplace_back` 을 사용했을 때와 동일한 어셈블리를 생성한다**. 따라서 [push_back](https://modoocode.com/185) 을 사용하는 것이 훨씬 낫다. (**`emplace_back` 은 예상치 못한 생성자가 호출될 위험이 있다**)
+
+그렇다면 문제는 `emplace_back`함수가 받은 인자들을 `A`의 생성자에 제대로 전달해야 한다는 점이다. 그렇지 않을 경우 사용자가 의도하지 않은 생성자가 호출될 수 있기 때문이다. 그렇다면 위와 같은 `wrapper` 함수를 어떻게 하면 잘 정의할 수 있을까?
+```cpp
+#include <iostream>
+#include <vector>
+
+template <typename T>
+void wrapper(T u) {
+	g(u);
+}
+
+class A {};
+
+void g(A& a) { std::cout << "좌측값 레퍼런스 호출" << std::endl; }
+void g(const A& a) { std::cout << "좌측값 상수 레퍼런스 호출" << std::endl; }
+void g(A&& a) { std::cout << "우측값 레퍼런스 호출" << std::endl; }
+
+int main() {
+	A a;
+	const A ca;
+	
+	std::cout << "원본 --------" << std::endl;
+	g(a);
+	g(ca);
+	g(A());
+	
+	std::cout << "Wrapper -----" << std::endl;
+	wrapper(a);
+	wrapper(ca);
+	wrapper(A());
+}
+```
+성공적으로 컴파일했다면
+```
+원본 --------
+좌측값 레퍼런스 호출
+좌측값 상수 레퍼런스 호출
+우측값 레퍼런스 호출
+Wrapper -----
+좌측값 레퍼런스 호출
+좌측값 레퍼런스 호출
+좌측값 레퍼런스 호출
+```
