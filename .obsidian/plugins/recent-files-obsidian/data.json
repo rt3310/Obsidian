@@ -5,6 +5,10 @@
       "path": "Projects/Study/C, C++/Move.md"
     },
     {
+      "basename": "12.1.4",
+      "path": "12.1.4.webp"
+    },
+    {
       "basename": "우측값 레퍼런스, 이동 생성자",
       "path": "Projects/Study/C, C++/우측값 레퍼런스, 이동 생성자.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "메모리 영역",
       "path": "Projects/Study/OS/VirtualMemory/md/메모리 영역.md"
-    },
-    {
-      "basename": "Pasted image 20240430010822",
-      "path": "Projects/Posting/Java/resources/Pasted image 20240430010822.png"
     }
   ],
   "omittedPaths": [],
