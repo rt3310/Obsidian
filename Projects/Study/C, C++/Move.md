@@ -687,3 +687,70 @@ void wrapper(T& u) {
 	g(u);
 }
 ```
+그렇다면 위 경우는 어떨까?
+![[Pasted image 20241008221901.png]]
+위와 같은 컴파일 오류가
+```cpp
+g(A());
+```
+에서 발생한다. (참고로 이 오류는 `gcc` 와 `clang` 컴파일러에서 모두 발생하는데, 비주얼 스튜디오 2017 이전 버전에서는 발생하지 않는다. 하지만 원칙적으로 위와 같은 오류를 발생시켜야 하는 것이 맞다)
+
+왜 위와 같은 오류가 발생하는지 생각해보자면 다음과 같다. 일단, `A()` 자체는 `const` 속성이 없으므로 템플릿 인자 추론에서 `T` 가 `class A` 로 추론된다. 하지만 `A&` 는 우측값의 레퍼런스가 될 수 없기 때문에 컴파일 오류가 발생하는 것이다.
+
+그렇다면 아예 우측값을 레퍼런스로 받을 수 있도록 `const A&` 와 `A&` 따로 만들어주는 방법이 있다. 아래와 같이 말이다.
+```cpp
+#include <iostream>
+#include <vector>
+
+template <typename T>
+void wrapper(T& u) {
+	std::cout << "T& 로 추론됨" << std::endl;
+	g(u);
+}
+
+template <typename T>
+void wrapper(const T& u) {
+	std::cout << "const T& 로 추론됨" << std::endl;
+	g(u);
+}
+
+class A {};
+
+void g(A& a) { std::cout << "좌측값 레퍼런스 호출" << std::endl; }
+void g(const A& a) { std::cout << "좌측값 상수 레퍼런스 호출" << std::endl; }
+void g(A&& a) { std::cout << "우측값 레퍼런스 호출" << std::endl; }
+
+int main() {
+	A a;
+	const A ca;
+	
+	std::cout << "원본 --------" << std::endl;
+	g(a);
+	g(ca);
+	g(A());
+	
+	std::cout << "Wrapper -----" << std::endl;
+	wrapper(a);
+	wrapper(ca);
+	wrapper(A());
+}
+```
+성공적으로 컴파일했다면
+```
+원본 --------
+좌측값 레퍼런스 호출
+좌측값 상수 레퍼런스 호출
+우측값 레퍼런스 호출
+Wrapper -----
+T& 로 추론됨
+좌측값 레퍼런스 호출
+const T& 로 추론됨
+좌측값 상수 레퍼런스 호출
+const T& 로 추론됨
+좌측값 상수 레퍼런스 호출
+```
+와 같이 나온다.
+
+일단 `a` 와 `ca` 의 경우 각각 `T&` 와 `const T&` 로 잘 추론되서 올바른 함수를 호출하고 있음을 알 수 있습니다. 반면에 `A()` 의 경우 `const T&` 로 추론되면서 `g(const T&)` 함수를 호출하게 됩니다. 물론 이는 예상했던 일입니다. 우리가 무엇을 해도 `wrapper` 안에 `u` 가 좌측값이라는 사실은 변하지 않고 이에 언제나 좌측값 레퍼런스를 받는 함수들이 오버로딩 되겠지요.
+
+뿐만이 아니라 다음과 같은 문제가 있습니다. 예를 들어서 함수 `g` 가 인자를 한 개가 아니라 2 개를 받는다고 가정합니다. 그렇다면 우리는 다음과 같은 모든 조합의 템플릿 함수들을 정의해야합니다.
