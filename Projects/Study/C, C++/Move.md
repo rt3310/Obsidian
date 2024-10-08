@@ -159,8 +159,7 @@ template <typename T>
 void my_swap(T &a, T &b)
 ```
 위 함수가 일반적인 타입 `T`에 대해 작동해야 한다는 의미이다.
-하지만 위 `string_content`의 경우 `MyString`에만 존재하는 필드이기 때문에 일반적인 타입 `T` 에 대해서는 작동하지 않는다. 물론 그렇다고 해서 불가능 한 것은 아니다. 아래처럼 템플릿 특수화를 이용하면 되기 때문이다.
-
+하지만 위 `string_content`의 경우 `MyString`에만 존재하는 필드이기 때문에 일반적인 타입 `T` 에 대해서는 작동하지 않는다. 물론 그렇다고 해서 불가능한 것은 아니다. 아래처럼 템플릿 특수화를 이용하면 되기 때문이다.
 ```cpp
 template <>
 void my_swap(MyString &a, MyString &b) {
@@ -173,6 +172,328 @@ void my_swap(MyString &a, MyString &b) {
 ```cpp
 T tmp(a);
 ```
-먼저 기존의 `my_swap`함수를 다시 살펴보자. 우리는 위 문장이 복사 생성자 대신에, 이동 생성자가 되기를 원한다. 왜냐하면 `tmp`를 복사 생성 할 필요 없이, 단순히 `a`를 잠깐 옮겨놓기만 하면 되기 때문이다. 하지만 문제는 `a` 가 좌측값이라는 점입니다 (`a`라는 실체가 있으므로). 따라서 지금 이 상태로는 우리가 무얼 해도 이동 생성자는 오버로딩 되지 않습니다.
+먼저 기존의 `my_swap`함수를 다시 살펴보자. 우리는 위 문장이 복사 생성자 대신에, 이동 생성자가 되기를 원한다. 왜냐하면 `tmp`를 복사 생성할 필요 없이, 단순히 `a`를 잠깐 옮겨놓기만 하면 되기 때문이다. 하지만 문제는 `a` 가 좌측값이라는 점이다 (`a`라는 실체가 있으므로). 따라서 지금 이 상태로는 우리가 무얼해도 이동 생성자는 오버로딩 되지 않는다.
 
-그렇다면, 좌측값이 우측값으로 취급될 수 있게 바꿔주는 함수 같은 것이 있을까요?
+그렇다면, 좌측값이 우측값으로 취급될 수 있게 바꿔주는 함수 같은 것이 있을까?
+
+## move 함수 (move semantics)
+
+다행히 C++ 11 부터 [utility](https://modoocode.com/299) 라이브러리에서 좌측값을 우측값으로 바꾸어주는 [move](https://modoocode.com/301) 함수를 제공하고 있다. 아래 예시를 통해서 간단히 사용하는 방법을 살펴보자.
+```cpp
+#include <iostream>
+#include <utility>
+
+class A {
+public:
+	A() { std::cout << "일반 생성자 호출!" << std::endl; }
+	A(const A& a) { std::cout << "복사 생성자 호출!" << std::endl; }
+	A(A&& a) { std::cout << "이동 생성자 호출!" << std::endl; }
+};
+
+int main() {
+	A a;
+	
+	std::cout << "---------" << std::endl;
+	A b(a);
+	
+	std::cout << "---------" << std::endl;
+	A c(std::move(a));
+}
+```
+성공적으로 컴파일했다면
+```
+일반 생성자 호출!
+---------
+복사 생성자 호출!
+---------
+이동 생성자 호출!
+```
+
+일단 먼저 `A`클래스에 아래와 같이 3가지 형태의 생성자들을 정의했다.
+```cpp
+public:
+A() { std::cout << "일반 생성자 호출!" << std::endl; }
+A(const A& a) { std::cout << "복사 생성자 호출!" << std::endl; }
+A(A&& a) { std::cout << "이동 생성자 호출!" << std::endl; }
+```
+그리고 이들 생성자를 호출하는 부분을 살펴보자.
+```cpp
+A a;
+
+std::cout << "---------" << std::endl;
+A b(a);
+```
+위 부분에서 일반 생성자와 복사 생성자가 각각 호출되었음을 알 수 있다. 그 이유는 `b(a)`를 했을 때 `a`가 이름이 있는 좌측값이므로 좌측값 레퍼런스가 참조하기 때문이다.
+
+그렇다면 바로 그 다음 줄을 보자
+```cpp
+A c(std::move(a));
+```
+놀랍게도 이번에는 이동 생성자가 호출되었다. 그 이유는 [std::move](https://modoocode.com/301) 함수가 인자로 받은 객체를 우측값으로 변환해서 리턴해주기 때문이다. 사실 이름만 보면 무언가 이동 시킬 것 같지만 실제로는 단순한 타입 변환 만 수행할 뿐이다.
+
+> [!note]
+> C++ 의 원저자인 Bjarne Stroustroup 은 move 라고 이름을 지은 것을 후회했다고 한다. 정확히 말하면 move 함수는 move 를 수행하지 않고 그냥 우측값으로 캐스팅만 하기 때문이다! 더 적절한 이름은 rvalue 와 같은 것이 되겠다.
+
+> [!warning] 주의 사항
+> [std::move](https://modoocode.com/301) 함수는 이동을 수행하지 않는다. 그냥 인자로 받은 객체를 우측값으로 변환할 뿐이다.
+
+[std::move](https://modoocode.com/301) 덕분에 강제적으로 우측값 레퍼런스를 인자로 받는 이동 생성자를 호출할 수 있었다. 그렇다면 이 아이디어를 바탕으로 우리의 `MyString` 에 어떻게 적용할 수 있을지 살펴보자.
+```cpp
+#include <iostream>
+#include <cstring>
+
+class MyString {
+	char *string_content;  // 문자열 데이터를 가리키는 포인터
+	int string_length;     // 문자열 길이
+	
+	int memory_capacity;  // 현재 할당된 용량
+
+public:
+	MyString();
+	
+	// 문자열로 부터 생성
+	MyString(const char *str);
+	
+	// 복사 생성자
+	MyString(const MyString &str);
+	
+	// 이동 생성자
+	MyString(MyString &&str);
+	
+	// 일반적인 대입 연산자
+	MyString &operator=(const MyString &s);
+	
+	// 이동 대입 연산자
+	MyString& operator=(MyString&& s);
+	
+	~MyString();
+	
+	int length() const;
+	
+	void println();
+};
+
+MyString::MyString() {
+	std::cout << "생성자 호출 ! " << std::endl;
+	string_length = 0;
+	memory_capacity = 0;
+	string_content = NULL;
+}
+
+MyString::MyString(const char *str) {
+	std::cout << "생성자 호출 ! " << std::endl;
+	string_length = strlen(str);
+	memory_capacity = string_length;
+	string_content = new char[string_length];
+	
+	for (int i = 0; i != string_length; i++) string_content[i] = str[i];
+}
+MyString::MyString(const MyString &str) {
+	std::cout << "복사 생성자 호출 ! " << std::endl;
+	string_length = str.string_length;
+	string_content = new char[string_length];
+	
+	for (int i = 0; i != string_length; i++)
+		string_content[i] = str.string_content[i];
+}
+MyString::MyString(MyString &&str) {
+	std::cout << "이동 생성자 호출 !" << std::endl;
+	string_length = str.string_length;
+	string_content = str.string_content;
+	memory_capacity = str.memory_capacity;
+	
+	// 임시 객체 소멸 시에 메모리를 해제하지
+	// 못하게 한다.
+	str.string_content = nullptr;
+	str.string_length = 0;
+	str.memory_capacity = 0;
+}
+MyString::~MyString() {
+	if (string_content) delete[] string_content;
+}
+MyString &MyString::operator=(const MyString &s) {
+	std::cout << "복사!" << std::endl;
+	if (s.string_length > memory_capacity) {
+		delete[] string_content;
+		string_content = new char[s.string_length];
+		memory_capacity = s.string_length;
+	}
+	string_length = s.string_length;
+	for (int i = 0; i != string_length; i++) {
+		string_content[i] = s.string_content[i];
+	}
+	
+	return *this;
+}
+MyString& MyString::operator=(MyString&& s) {
+	std::cout << "이동!" << std::endl;
+	string_content = s.string_content;
+	memory_capacity = s.memory_capacity;
+	string_length = s.string_length;
+	
+	s.string_content = nullptr;
+	s.memory_capacity = 0;
+	s.string_length = 0;
+	return *this;
+}
+int MyString::length() const { return string_length; }
+void MyString::println() {
+	for (int i = 0; i != string_length; i++) std::cout << string_content[i];
+	
+	std::cout << std::endl;
+}
+
+template <typename T>
+void my_swap(T &a, T &b) {
+	T tmp(std::move(a));
+	a = std::move(b);
+	b = std::move(tmp);
+}
+int main() {
+	MyString str1("abc");
+	MyString str2("def");
+	std::cout << "Swap 전 -----" << std::endl;
+	std::cout << "str1 : ";
+	str1.println();
+	std::cout << "str2 : ";
+	str2.println();
+	
+	std::cout << "Swap 후 -----" << std::endl;
+	my_swap(str1, str2);
+	std::cout << "str1 : ";
+	str1.println();
+	std::cout << "str2 : ";
+	str2.println();
+}
+```
+성공적으로 컴파일했다면
+```
+생성자 호출 ! 
+생성자 호출 ! 
+Swap 전 -----
+str1 : abc
+str2 : def
+Swap 후 -----
+이동 생성자 호출 !
+이동!
+이동!
+str1 : def
+str2 : abc
+```
+
+먼저 우리의 `my_swap` 함수 부터 살펴보자.
+```cpp
+template <typename T>
+void my_swap(T &a, T &b) {
+	T tmp(std::move(a));
+	a = std::move(b);
+	b = std::move(tmp);
+}
+```
+먼저
+```cpp
+T tmp(std::move(a));
+```
+를 통해서 `tmp` 라는 임시 객체를 `a` 로 부터 이동 생성했다. 이동 생성이기 때문에 기존에 복사 생성하는 것 보다 훨씬 빠르게 수행된다.
+```cpp
+a = std::move(b);
+b = std::move(tmp);
+```
+그 다음에 `a`에 `b`를 이동 시켰고, `b`에 다시 `tmp`를 이동시킴으로써 swap을 수행하게 된다. 왜 여기서 일반적인 대입이 아니라 이동이 되는 것이냐면 우리가 아래와 같이 이동 대입 연산자를 정의했기 때문이다.
+```cpp
+MyString& MyString::operator=(MyString&& s) {
+	std::cout << "이동!" << std::endl;
+	string_content = s.string_content;
+	memory_capacity = s.memory_capacity;
+	string_length = s.string_length;
+	
+	s.string_content = nullptr;
+	s.memory_capacity = 0;
+	s.string_length = 0;
+	return *this;
+}
+```
+이동 대입 연산자 역시 이동 생성자와 비슷하게 매우 간단하다. 전체 문자열을 복사할 필요 없이 그냥 기존의 문자열을 가리키고 있던 `string_content`만 복사하면 되기 때문이다.
+
+여기서 알 수 있는 한 가지 사실은 실제로 데이터가 이동 되는 과정은 위와 같이 정의한 이동 생성자나 이동 대입 연산자를 호출할 때 수행 되는 것이지 [std::move](https://modoocode.com/301) 를 한 시점에서 수행되는 것이 아니라는 점이다.
+
+만일 `MyString& MyString::operator=(MyString&& s)` 를 정의하지 않았더라면 일반적인 대입 연산자가 오버로딩 되서 매우 느린 복사가 수행된다. 실제로 이동 대입 연산자를 지워보고 실행하면
+```
+생성자 호출 ! 
+생성자 호출 ! 
+Swap 전 -----
+str1 : abc
+str2 : def
+Swap 후 -----
+이동 생성자 호출 !
+복사!
+복사!
+str1 : def
+str2 : abc
+```
+와 같이 그냥 일반적인 복사가 수행된다.
+
+> [!warning] 주의 사항
+> 다시 한번 강조하지만 이동 자체는 [std::move](https://modoocode.com/301) 를 실행함으로써 발생하는 것이 아니라 우측값을 받는 함수들이 오버로딩 되면서 수행되는 것이다.
+
+### 퀴즈
+예를 들어서 아래와 같은 두 클래스가 있다고 해보자.
+```cpp
+class A {
+public:
+	A() { std::cout << "ctor\n"; }
+	A(const A& a) { std::cout << "copy ctor\n"; }
+	A(A&& a) { std::cout << "move ctor\n"; }
+};
+
+class B {
+public:
+	A a_;
+};
+```
+클래스 `A`의 경우 편의상 어떠한 종류의 생성자가 호출되는지 나타내고 있는 단순한 클래스이고, 클래스 `B`에는 그냥 `A`객체를 보관하고 있다.
+
+만약에 `B`객체를 생성할 때, 이미 생성되어 있는 `A`객체를 `B`객체 안으로 집어 넣고 싶다면 어떻게 해야할까?
+```cpp
+int main() {
+	A a;
+	
+	std::cout << "create B-- \n";
+	B b(/* ?? */);
+}
+```
+예를 들어서 위의 경우 이미 `A`객체인 `a`가 생성되어 있는데, 아래에서 `B`객체인 `b`를 생성하면서 `a`를 `B`에 이동 시켜야 한다.
+
+그렇다면 `B`의 생성자를 어떠한 방식으로 작성해야 할까?
+
+#### 첫 번째 시도
+먼저 가장 단순하게 `B`의 생성자를 `const A&` 타입으로 만들어보자.
+```cpp
+#include <iostream>
+
+class A {
+public:
+	A() { std::cout << "ctor\n"; }
+	A(const A& a) { std::cout << "copy ctor\n"; }
+	A(A&& a) { std::cout << "move ctor\n"; }
+};
+
+class B {
+public:
+	B(const A& a) : a_(a) {}
+	
+	A a_;
+};
+
+int main() {
+	A a;
+	std::cout << "create B-- \n";
+	B b(a);
+}
+```
+성공적으로 컴파일했다면
+```
+ctor
+create B-- 
+copy ctor
+```
