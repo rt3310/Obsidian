@@ -753,4 +753,58 @@ const T& 로 추론됨
 
 일단 `a` 와 `ca` 의 경우 각각 `T&`와 `const T&`로 잘 추론되서 올바른 함수를 호출하고 있음을 알 수 있다. 반면에 `A()` 의 경우 `const T&`로 추론되면서 `g(const T&)` 함수를 호출하게 된다. 물론 이는 예상했던 일이다. 우리가 무엇을 해도 `wrapper`안에 `u`가 좌측값이라는 사실은 변하지 않고 이에 언제나 좌측값 레퍼런스를 받는 함수들이 오버로딩 될 것이다.
 
-뿐만이 아니라 다음과 같은 문제가 있습니다. 예를 들어서 함수 `g` 가 인자를 한 개가 아니라 2 개를 받는다고 가정합니다. 그렇다면 우리는 다음과 같은 모든 조합의 템플릿 함수들을 정의해야합니다.
+뿐만이 아니라 다음과 같은 문제가 있다. 예를 들어, 함수 `g`가 인자를 한 개가 아니라 2개를 받는다고 가정하자. 그렇다면 우리는 다음과 같은 모든 조합의 템플릿 함수들을 정의해야한다.
+```cpp
+template <typename T>
+void wrapper(T& u, T& v) {
+	g(u, v);
+}
+template <typename T>
+void wrapper(const T& u, T& v) {
+	g(u, v);
+}
+
+template <typename T>
+void wrapper(T& u, const T& v) {
+	g(u, v);
+}
+template <typename T>
+void wrapper(const T& u, const T& v) {
+	g(u, v);
+}
+```
+매우 귀찮은 일이다. 위와 같이 짜야하는 이유는 단순히 일반적인 레퍼런스가 우측값을 받을 수 없기 때문이다. 그렇다고 해서 디폴트로 상수 레퍼런스만 받게 된다면, 상수가 아닌 레퍼런스도 상수 레퍼런스로 캐스팅돼서 들어간다.
+
+하지만 놀랍게도 C++ 11 에서는 이를 간단하게 해결할 수 있다.
+
+## 보편적 레퍼런스 (Universal reference)
+
+```cpp
+#include <iostream>
+
+template <typename T>
+void wrapper(T&& u) {
+	g(std::forward<T>(u));
+}
+
+class A {};
+
+void g(A& a) { std::cout << "좌측값 레퍼런스 호출" << std::endl; }
+void g(const A& a) { std::cout << "좌측값 상수 레퍼런스 호출" << std::endl; }
+void g(A&& a) { std::cout << "우측값 레퍼런스 호출" << std::endl; }
+
+int main() {
+	A a;
+	const A ca;
+	
+	std::cout << "원본 --------" << std::endl;
+	g(a);
+	g(ca);
+	g(A());
+	
+	std::cout << "Wrapper -----" << std::endl;
+	wrapper(a);
+	wrapper(ca);
+	wrapper(A());
+}
+```
