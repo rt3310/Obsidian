@@ -880,3 +880,15 @@ g(u)
 로 하지 않았는지 생각해보자. 앞서도 말했듯이 여기서 `u`는 좌측값이다. 따라서 우리는 `int&&`를 오버로딩 하는 `g`를 호출하고 싶었겠지만 실제로는 `const int&`를 오버로딩하는 `g`가 호출되게 된다. 따라서 이 경우 [move](https://modoocode.com/301) 를 통해 `u`를 다시 우측값으로 변환해야 한다.
 
 하지만 당연히도 아무때나 [move](https://modoocode.com/301) 를 하면 안된다. 인자로 받은 `u`가 우측값 레퍼런스일 때 에만 [move](https://modoocode.com/301) 를 해줘야 한다. 만일 좌측값 레퍼런스일 때 [move](https://modoocode.com/301) 를 해버린다면 좌측값에 오버로딩 되는 `g`가 아닌 우측값에 오버로딩 되는 `g`가 호출될 것이다.
+
+```cpp
+g(forward<T>(u));
+```
+이 문제를 해결해주는 것이 [forward](https://modoocode.com/302) 함수이다. 이 함수는 `u`가 우측값 레퍼런스 일 때만 마치 [move](https://modoocode.com/301)를 적용한 것처럼 작동한다. 실제로 [forward](https://modoocode.com/302) 가 어떻게 생겼나면,
+```cpp
+template <class S>
+S&& forward(typename std::remove_reference<S>::type& a) noexcept {
+	return static_cast<S&&>(a);
+}
+```
+와 같이 생겼는데, `S` 가 `A&` 라면 (참고로 `std::remove_reference` 는 타입의 레퍼런스를 지워주는 템플릿 메타 함수 입니다)
