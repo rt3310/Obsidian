@@ -680,4 +680,10 @@ void wrapper(T u) {
 	g(u);
 }
 ```
-에서 `T` 가 전부 다 `class A` 로 추론됩니다. 따라서 위 세 경우 전부 다 좌측값 레퍼런스를 호출하는 `g` 를 호출하였습니다.
+에서 `T` 가 전부 다 `class A` 로 추론된다. 따라서 위 세 경우 전부 다 좌측값 레퍼런스를 호출하는 `g`를 호출했다.
+```cpp
+template <typename T>
+void wrapper(T& u) {
+	g(u);
+}
+```
