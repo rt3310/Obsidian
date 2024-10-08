@@ -891,4 +891,18 @@ S&& forward(typename std::remove_reference<S>::type& a) noexcept {
 	return static_cast<S&&>(a);
 }
 ```
-와 같이 생겼는데, `S` 가 `A&` 라면 (참고로 `std::remove_reference` 는 타입의 레퍼런스를 지워주는 템플릿 메타 함수 입니다)
+와 같이 생겼는데, `S` 가 `A&` 라면 (참고로 `std::remove_reference` 는 타입의 레퍼런스를 지워주는 템플릿 메타 함수이다)
+```cpp
+A&&& forward(typename std::remove_reference<A&>::type& a) noexcept {
+	return static_cast<A&&&>(a);
+}
+```
+가 되어 레퍼런스 겹침 규칙에 따라
+```cpp
+A& forward(A& a) noexcept { return static_cast<A&>(a); }
+```
+가 되버리고, `S`가 `A`라면, (퀴즈! 여기서 왜 [forward](https://modoocode.com/302)의 인자가 `A&&` 가 아니라 `A&`일까?)
+```cpp
+A&& forward(A& a) noexcept { return static_cast<A&&>(a); }
+```
+가 되어 성공적으로 우측값으로 캐스팅해준다. 따라서 결과적으로 위 그림처럼 원본과 `Wrapper`를 사용했을 때 모두 호출되는 함수가 동일함을 알 수 있다. 성공적으로 인자를 전달한 것이다!
