@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/우측값 레퍼런스, 이동 생성자.md",
+                "file": "Projects/Study/C, C++/Move.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -116,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/우측값 레퍼런스, 이동 생성자.md",
+                "file": "Projects/Study/C, C++/Move.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/우측값 레퍼런스, 이동 생성자.md",
+                "file": "Projects/Study/C, C++/Move.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/우측값 레퍼런스, 이동 생성자.md"
+                "file": "Projects/Study/C, C++/Move.md"
               }
             }
           },
@@ -194,6 +193,8 @@
   },
   "active": "2463eca64201697b",
   "lastOpenFiles": [
+    "Projects/Study/C, C++/우측값 레퍼런스, 이동 생성자.md",
+    "Projects/Study/C, C++/Move.md",
     "Pasted image 20241008031351.png",
     "Pasted image 20241008030211.png",
     "995166505AB63D112FF31F.webp",
@@ -202,11 +203,9 @@
     "996BBA465AB638B019DAE7.webp",
     "99E2F6505AB50C7A30ED98.webp",
     "Projects/Study/C, C++/예외처리.md",
-    "Projects/Study/C, C++/우측값 레퍼런스, 이동 생성자.md",
     "12.1.7.webp",
     "12.1.8.webp",
     "12.1.6.webp",
-    "12.1.5.webp",
     "Projects/Study/C, C++/string.md",
     "Projects/Study/C, C++/pragma.md",
     "Projects/Posting/HTTP/HttpSession.md",
