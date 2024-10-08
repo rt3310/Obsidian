@@ -808,3 +808,75 @@ int main() {
 	wrapper(A());
 }
 ```
+성공적으로 컴파일했다면
+```
+원본 --------
+좌측값 레퍼런스 호출
+좌측값 상수 레퍼런스 호출
+우측값 레퍼런스 호출
+Wrapper -----
+좌측값 레퍼런스 호출
+좌측값 상수 레퍼런스 호출
+우측값 레퍼런스 호출
+```
+
+```cpp
+template <typename T>
+void wrapper(T&& u) {
+	g(std::forward<T>(u));
+}
+```
+일단 우리의 `wrapper`함수는 인자로 아예 `T &&`를 받아버리고 있다. 이렇게, 템플릿 인자 `T`에 대해서, 우측값 레퍼런스를 받는 형태를 **보편적 레퍼런스(Universal reference)** 라고 한다. 이 보편적 레퍼런스는 우측값만 받는 레퍼런스와 다르다.
+
+예를 들어 아래와 같은 코드를 보자.
+```cpp
+#include <iostream>
+
+void show_value(int&& t) { std::cout << "우측값 : " << t << std::endl; }
+
+int main() {
+	show_value(5);  // 우측값 ok!
+	
+	int x = 3;
+	show_value(x);  // 애러
+}
+```
+컴파일했다면
+![[Pasted image 20241009034350.png]]
+와 같이 컴파일 오류가 발생한다. 위처럼, 그냥 `int&& t` 형태의 함수는 우측값만을 인자로 받을 수 있다.
+```cpp
+template <typename T>
+void wrapper(T&& u) {
+```
+하지만 위와 같이 템플릿 타입의 우측값 레퍼런스는 다르다. 이 보편적 레퍼런스는 우측값 뿐만이 아니라 좌측값 역시 받아낼 수 있다. 그렇다면 좌측값이 왔을 때 `T`의 타입은 어떻게 해석될까?
+
+C++ 11에서는 다음과 같은 **레퍼런스 겹침 규칙 (reference collapsing rule)에 따라 `T` 의 타입을 추론하게 된다**.
+```cpp
+typedef int& T;
+T& r1;   // int& &; r1 은 int&
+T&& r2;  // int & &&;  r2 는 int&
+
+typedef int&& U;
+U& r3;   // int && &; r3 는 int&
+U&& r4;  // int && &&; r4 는 int&&
+```
+즉 쉽게 생각하면 `&`는 1 이고 `&&`은 0 이라 둔 뒤에, [OR](https://modoocode.com/or) 연산을 한다고 보면 된다.
+
+그렇다면,
+```cpp
+wrapper(a);
+wrapper(ca);
+```
+위 두 개의 호출의 경우 `T`가 각각 `A&`와 `const A&`로 추론될 것이고,
+```cpp
+wrapper(A());
+```
+의 경우에는 `T`가 단순히 `A`로 추론될 것이다.
+
+그런데 문제는 이제 직접 `g`에 이 인자를 전달하는 방법이다. 왜 그냥
+```cpp
+g(u)
+```
+로 하지 않았는지 생각해보자. 앞서도 말했듯이 여기서 `u`는 좌측값이다. 따라서 우리는 `int&&`를 오버로딩 하는 `g`를 호출하고 싶었겠지만 실제로는 `const int&`를 오버로딩하는 `g`가 호출되게 된다. 따라서 이 경우 [move](https://modoocode.com/301) 를 통해 `u`를 다시 우측값으로 변환해야 한다.
+
+하지만 당연히도 아무때나 [move](https://modoocode.com/301) 를 하면 안된다. 인자로 받은 `u`가 우측값 레퍼런스일 때 에만 [move](https://modoocode.com/301) 를 해줘야 한다. 만일 좌측값 레퍼런스일 때 [move](https://modoocode.com/301) 를 해버린다면 좌측값에 오버로딩 되는 `g`가 아닌 우측값에 오버로딩 되는 `g`가 호출될 것이다.
