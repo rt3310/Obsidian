@@ -545,3 +545,6 @@ std::vector<std::vector<int>> v;
 v.emplace_back(100000);
 ```
 를 하게 되면, 원소가 100000개 들어있는 벡터를 v에 추가하게 된다.
+
+### 문제
+`unique_ptr` 을 어떤식으로 구현할 수 있을지 생각해보자

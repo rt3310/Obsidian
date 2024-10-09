@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "shared_ptr, weak_ptr",
+      "path": "Projects/Study/C, C++/shared_ptr, weak_ptr.md"
+    },
+    {
       "basename": "unique_ptr",
       "path": "Projects/Study/C, C++/unique_ptr.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240620190654",
       "path": "Projects/Posting/Java/resources/Pasted image 20240620190654.png"
-    },
-    {
-      "basename": "Virtual Memory",
-      "path": "Projects/Study/OS/VirtualMemory/canvas/Virtual Memory.canvas"
     }
   ],
   "omittedPaths": [],
