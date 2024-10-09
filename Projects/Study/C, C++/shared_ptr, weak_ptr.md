@@ -90,7 +90,7 @@ vec.erase(vec.begin());
 std::cout << "마지막 원소 소멸!" << std::endl;
 vec.erase(vec.begin());
 ```
-그 다음에 위 부분에서, `vec`의 첫 번째 원소부터 차례대로 지워나갔는데, `unique_ptr`와는 다르게 `shared_ptr`의 경우 객체를 가리키는 모든 스마트 포인터들이 소멸되어야만 객체를 파괴하기 때문에, 처음 두 번의 [erase](https://modoocode.com/240)에서는 아무것도 하지 않다가 마지막의 [erase](https://modoocode.com/240)에서 비로소 A 의 소멸자를 호출하는 것을 볼 수 있습니다.
+그 다음에 위 부분에서, `vec`의 첫 번째 원소부터 차례대로 지워나갔는데, `unique_ptr`와는 다르게 `shared_ptr`의 경우 객체를 가리키는 모든 스마트 포인터들이 소멸되어야만 객체를 파괴하기 때문에, 처음 두 번의 [erase](https://modoocode.com/240)에서는 아무것도 하지 않다가 마지막의 [erase](https://modoocode.com/240)에서 비로소 A의 소멸자를 호출하는 것을 볼 수 있습니다.
 
 즉 참조 개수가 처음에는 3 이 였다가, `2, 1, 0` 순으로 줄어들게 되겠지요.
 
