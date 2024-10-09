@@ -411,3 +411,5 @@ int main() {
 - 만약에 소유권을 이동하고자 한다면, `unique_ptr`를 [move](https://modoocode.com/301)하면 된다.
 
 ## unique_ptr 을 쉽게 생성하기
+
+C++ 14 부터 `unique_ptr`을 간단히 만들 수 있는 `std::make_unique` 함수를 제공한다.
