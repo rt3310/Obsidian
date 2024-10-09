@@ -308,4 +308,58 @@ pa.get()
 따라서 소유권을 이동 시킨 이후에 기존의 `unique_ptr`을 접근하지 않도록 조심해야 한다.
 
 > [!warning] 주의 사항
-> 소유권이 이전된 `unique_ptr`를 댕글링 포인터(dangling pointer)라고 하며 이를 재 참조할 시에 런타임 오류가 발생하도록 한다. 따라서 소유권 이전은, 댕글링 포인터를 절대 다시 참조 하지 않겠다는 확신 하에 이동해야 한다.
+> 소유권이 이전된 `unique_ptr`를 **댕글링 포인터(dangling pointer)** 라고 하며 이를 재 참조할 시에 런타임 오류가 발생하도록 한다. 따라서 소유권 이전은, **댕글링 포인터를 절대 다시 참조 하지 않겠다는 확신 하에 이동해야 한다.**
+
+## unique_ptr를 함수 인자로 전달하기
+
+만약에 어떠한 `unique_ptr`를 함수 인자로 전달하고 싶다면 어떨까? 앞서 말했듯이, `unique_ptr` 는 복사 생성자가 없다고 했다. 그렇다면, 그냥 함수에 레퍼런스에 전달하면 어떨까?
+```cpp
+#include <iostream>
+#include <memory>
+
+class A {
+	int* data;
+	
+public:
+	A() {
+		std::cout << "자원을 획득함!" << std::endl;
+		data = new int[100];
+	}
+	
+	void some() { std::cout << "일반 포인터와 동일하게 사용가능!" << std::endl; }
+	
+	void do_sth(int a) {
+		std::cout << "무언가를 한다!" << std::endl;
+		data[0] = a;
+	}
+	
+	~A() {
+		std::cout << "자원을 해제함!" << std::endl;
+		delete[] data;
+	}
+};
+
+// 올바르지 않은 전달 방식
+void do_something(std::unique_ptr<A>& ptr) { ptr->do_sth(3); }
+
+int main() {
+	std::unique_ptr<A> pa(new A());
+	do_something(pa);
+}
+```
+성공적으로 컴파일했다면
+```
+자원을 획득함!
+무언가를 한다!
+자원을 해제함!
+```
+
+일단, 함수 내부로 `unique_ptr`가 잘 전달 되었음을 알 수 있다. 하지만, 위와 같이 함수에 `unique_ptr`을 전달하는 것이 문맥 상 맞는 코드일까?
+
+앞서 말했듯이 `unique_ptr`은 어떠한 객체의 소유권을 의미한다고 말했다. 하지만, 위와 같이 레퍼런스로 `unique_ptr`을 전달했다면, `do_something`함수 내부에서 `ptr`은 더이상 유일한 소유권을 의미하지 않는다.
+
+물론 `ptr`은 레퍼런스 이기 때문에, `do_something`함수가 종료되면서 `pa`가 가리키고 있는 객체를 파괴하지는 않는다. 하지만, `pa`가 유일하게 소유하고 있던 객체는 이제, 적어도 `do_something`함수 내부에서는 `ptr` 을 통해서도 소유할 수 있게 된다는 것이다. 즉, `unique_ptr` 은 소유권을 의미한다는 원칙에 위배되는 것이지요.
+
+따라서, `unique_ptr` 의 레퍼런스를 사용하는 것은 `unique_ptr` 를 소유권 이라는 중요한 의미를 망각한 채 단순히 포인터의 단순한 `Wrapper` 로 사용하는 것에 불과합니다.
+
+그렇다면, 함수에 올바르게 `unique_ptr` 를 전달하는 방법이 있을까요? 이는 단순합니다. 그냥 원래의 포인터 주소값을 전달해주면 됩니다.
