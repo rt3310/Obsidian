@@ -891,7 +891,7 @@ S&& forward(typename std::remove_reference<S>::type& a) noexcept {
 	return static_cast<S&&>(a);
 }
 ```
-와 같이 생겼는데, `S` 가 `A&` 라면 (참고로 `std::remove_reference` 는 타입의 레퍼런스를 지워주는 템플릿 메타 함수이다)
+와 같이 생겼는데, `S`가 `A&`라면 (참고로 `std::remove_reference` 는 타입의 레퍼런스를 지워주는 템플릿 메타 함수이다)
 ```cpp
 A&&& forward(typename std::remove_reference<A&>::type& a) noexcept {
 	return static_cast<A&&&>(a);
