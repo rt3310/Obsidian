@@ -78,5 +78,20 @@ int main() {
 위 예제의 경우 `shared_ptr`를 원소로 가지는 벡터 `vec`을 정의한 후, `vec[0], vec[1], vec[2]`가 모두 같은 A 객체를 가리키는 `shared_ptr`를 생성했다.
 
 ```cpp
+// 벡터의 첫번째 원소를 소멸 시킨다.
+std::cout << "첫 번째 소멸!" << std::endl;
+vec.erase(vec.begin());
 
+// 그 다음 원소를 소멸 시킨다.
+std::cout << "다음 원소 소멸!" << std::endl;
+vec.erase(vec.begin());
+
+// 마지막 원소 소멸
+std::cout << "마지막 원소 소멸!" << std::endl;
+vec.erase(vec.begin());
 ```
+그 다음에 위 부분에서, `vec` 의 첫 번째 원소 부터 차례대로 지워나갔는데, `unique_ptr` 와는 다르게 `shared_ptr` 의 경우 객체를 가리키는 모든 스마트 포인터 들이 소멸되어야만 객체를 파괴하기 때문에, 처음 두 번의 [erase](https://modoocode.com/240) 에서는 아무것도 하지 않다가 마지막의 [erase](https://modoocode.com/240) 에서 비로소 A 의 소멸자를 호출하는 것을 볼 수 있습니다.
+
+즉 참조 개수가 처음에는 3 이 였다가, `2, 1, 0` 순으로 줄어들게 되겠지요.
+
+현재 `shared_ptr` 의 참조 개수가 몇 개 인지는 `use_count` 함수를 통해 알 수 있습니다. 예를 들어서
