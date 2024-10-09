@@ -413,3 +413,83 @@ int main() {
 ## unique_ptr 을 쉽게 생성하기
 
 C++ 14 부터 `unique_ptr`을 간단히 만들 수 있는 `std::make_unique` 함수를 제공한다.
+```cpp
+#include <iostream>
+#include <memory>
+
+class Foo {
+	int a, b;
+	
+public:
+	Foo(int a, int b) : a(a), b(b) { std::cout << "생성자 호출!" << std::endl; }
+	void print() { std::cout << "a : " << a << ", b : " << b << std::endl; }
+	~Foo() { std::cout << "소멸자 호출!" << std::endl; }
+};
+
+int main() {
+	auto ptr = std::make_unique<Foo>(3, 5);
+	ptr->print();
+}
+```
+성공적으로 컴파일했다면
+```cpp
+생성자 호출!
+a : 3, b : 5
+소멸자 호출!
+```
+와 같이 잘 작동함을 알 수 있다. `make_unique` 함수는 아예 템플릿 인자로 전달된 클래스의 생성자 인자들에 직접 완벽한 전달을 수행한다. 따라서 기존처럼 불필요하게
+```cpp
+std::unique_ptr<Foo> ptr(new Foo(3, 5));
+```
+할 필요 없이 간단히 `make_unique`로 만들 수 있다.
+
+## unique_ptr를 원소로 가지는 컨테이너
+
+자 이제 마지막으로, `unique_ptr`를 원소로 가지는 `STL`컨테이너에 대해 알아보도록 하자. 사실, `unique_ptr` 은 다른 타입들과 큰 차이는 없지만, '복사 생성자가 없다'라는 특성 때문에 처음에 사용하는 사람들이 많은 애를 먹는 경우가 있다.
+```cpp
+#include <iostream>
+#include <memory>
+#include <vector>
+
+class A {
+	int *data;
+	
+public:
+	A(int i) {
+		std::cout << "자원을 획득함!" << std::endl;
+		data = new int[100];
+		data[0] = i;
+	}
+	
+	void some() { std::cout << "일반 포인터와 동일하게 사용가능!" << std::endl; }
+	
+	~A() {
+		std::cout << "자원을 해제함!" << std::endl;
+		delete[] data;
+	}
+};
+
+int main() {
+	std::vector<std::unique_ptr<A>> vec;
+	std::unique_ptr<A> pa(new A(1));
+	
+	vec.push_back(pa);  // ??
+}
+```
+컴파일 했다면 아래와 같은 무시무시한 컴파일 오류를 맛보게 된다.
+![[Pasted image 20241009231316.png]]
+
+이와 같은 오류가 발생하는 이유는 당연하다. 역시, 삭제된 `unique_ptr` 의 복사 생성자에 접근하였기 때문이다. 기본적으로 **`vector` 의 [push_back](https://modoocode.com/185) 함수는 전달된 인자를 복사해서 집어넣기 때문에** 위와 같은 문제가 발생하게 되는 것이다.
+
+이를 방지하기 위해서는 명시적으로 `pa`를 `vector`안으로 이동 시켜주어야만 한다. 즉 [push_back](https://modoocode.com/185) 의 우측값 레퍼런스를 받는 버전이 오버로딩 될 수 있도록 말이다.
+```cpp
+int main() {
+	std::vector<std::unique_ptr<A>> vec;
+	std::unique_ptr<A> pa(new A(1));
+	
+	vec.push_back(std::move(pa));  // 잘 실행됨
+}
+```
+와 같이하면 잘 컴파일 된다.
+
+하지만 재미있게도, `emplace_back`함수를 이용하면, `vector`안에 `unique_ptr`을 직접 생성하면서 집어넣을 수 도 있다. 즉, 불필요한 이동 과정을 생략할 수 있다는 것이다.
