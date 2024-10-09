@@ -493,3 +493,55 @@ int main() {
 와 같이하면 잘 컴파일 된다.
 
 하지만 재미있게도, `emplace_back`함수를 이용하면, `vector`안에 `unique_ptr`을 직접 생성하면서 집어넣을 수 도 있다. 즉, 불필요한 이동 과정을 생략할 수 있다는 것이다.
+```cpp
+#include <iostream>
+#include <memory>
+#include <vector>
+
+class A {
+	int *data;
+	
+public:
+	A(int i) {
+		std::cout << "자원을 획득함!" << std::endl;
+		data = new int[100];
+		data[0] = i;
+	}
+	
+	void some() { std::cout << "값 : " << data[0] << std::endl; }
+	
+	~A() {
+		std::cout << "자원을 해제함!" << std::endl;
+		delete[] data;
+	}
+};
+
+int main() {
+	std::vector<std::unique_ptr<A>> vec;
+	
+	// vec.push_back(std::unique_ptr<A>(new A(1))); 과 동일
+	vec.emplace_back(new A(1));
+	
+	vec.back()->some();
+}
+```
+성공적으로 컴파일했다면
+```
+자원을 획득함!
+값 : 1
+자원을 해제함!
+```
+
+`emplace_back` 함수는 전달된 인자를 **완벽한 전달(perfect forwarding)** 을 통해, 직접 `unique_ptr<A>`의 생성자에 전달 해서, `vector` 맨 뒤에 `unique_ptr<A>` 객체를 생성해버리게 됩니다. 따라서, 위에서 처럼 불필요한 이동 연산이 필요 없게 됩니다 (왜냐하면 `vector` 맨 뒤에 생성하기 때문에!)
+
+참고로 `emplace_back` 을 사용 시에 어떠한 생성자가 호출되는지 주의해야 한다. 예를 들어
+```cpp
+std::vector<int> v;
+v.emplace_back(100000);
+```
+를 하게 되면, 100000이란 `int` 값을 `v`에 추가하게 되지만
+```cpp
+std::vector<std::vector<int>> v;
+v.emplace_back(100000);
+```
+를 하게 되면, 원소가 100000개 들어있는 벡터를 v에 추가하게 된다.
