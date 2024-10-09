@@ -248,4 +248,64 @@ A(const A& a) = delete;
 ```
 위와 같이 복사 생성자를 명시적으로 삭제하였기 때문이다. 따라서, 클래스 `A`의 복사 생성자는 존재하지 않는다. 위와 같이 `= delete;` 를 사용하게 되면, 프로그래머가 명시적으로 '이 함수는 쓰지 마!'라고 표현할 수 있다. 혹시나 사용하더라도 컴파일 오류가 발생하게 된다.
 
-`unique_ptr` 도 마찬가지로 `unique_ptr` 의 복사 생성자가 명시적으로 삭제되었다. 그 이유는 `unique_ptr` 는 어떠한 객체를 유일하게 소유해야 하기 때문이다. 만일 `unique_ptr` 를 복사 생성할 수 있게 된다면, 특정 객체를 여러 개의 `unique_ptr` 들이 소유하게 되는 문제가 발생합니다. 따라서, 각각의 `unique_ptr` 들이 소멸될 때 전부 객체를 `delete` 하려 해서 앞서 말한 `double free` 버그가 발생하게 됩니다.
+`unique_ptr` 도 마찬가지로 `unique_ptr` 의 복사 생성자가 명시적으로 삭제되었다. 그 이유는 `unique_ptr` 는 어떠한 객체를 유일하게 소유해야 하기 때문이다. 만일 `unique_ptr`를 복사 생성할 수 있게 된다면, 특정 객체를 여러 개의 `unique_ptr` 들이 소유하게 되는 문제가 발생한다. 따라서, 각각의 `unique_ptr` 들이 소멸될 때 전부 객체를 `delete` 하려 해서 앞서 말한 `double free` 버그가 발생하게 된다.
+
+## unique_ptr 소유권 이전하기
+
+앞서 `unique_ptr` 는 복사가 되지 않는다고 하였지만, 소유권은 이전할 수 있다.
+```cpp
+#include <iostream>
+#include <memory>
+
+class A {
+	int *data;
+
+public:
+	A() {
+		std::cout << "자원을 획득함!" << std::endl;
+		data = new int[100];
+	}
+	
+	void some() { std::cout << "일반 포인터와 동일하게 사용가능!" << std::endl; }
+	
+	~A() {
+		std::cout << "자원을 해제함!" << std::endl;
+		delete[] data;
+	}
+};
+
+void do_something() {
+	std::unique_ptr<A> pa(new A());
+	std::cout << "pa : ";
+	pa->some();
+	
+	// pb 에 소유권을 이전.
+	std::unique_ptr<A> pb = std::move(pa);
+	std::cout << "pb : ";
+	pb->some();
+}
+
+int main() { do_something(); }
+```
+성공적으로 컴파일했다면
+```
+자원을 획득함!
+pa : 일반 포인터와 동일하게 사용가능!
+pb : 일반 포인터와 동일하게 사용가능!
+자원을 해제함!
+```
+
+`unique_ptr`은 복사 생성자는 정의되어 있지 않지만, 이동 생성자는 가능하다. 왜냐하면, 마치 소유권을 이동시킨다라는 개념으로 생각하면 되기 때문이다.
+```cpp
+std::unique_ptr<A> pb = std::move(pa);
+```
+에서 위와 같이 `pa`를 `pb`에 강제로 이동시켜버린다. (여기서 퀴즈! [std::move](https://modoocode.com/301) 가 왜 필요할까?) 이제 `pb`가 `new A`로 생성된 객체의 소유권을 갖게 되고, `pa`는 아무것도 가리키고 있지 않게 됩니다. 실제로,
+```cpp
+pa.get()
+```
+으로 `pa` 가 가리키고 있는 실제 주소값을 확인해보면 `0 (nullptr)` 이 나온다. 따라서 `pa`를 이동시켜버린 이후에 `pa->some()`을 하게 되면 문제가 발생하게 된다.
+
+따라서 소유권을 이동 시킨 이후에 기존의 `unique_ptr`을 접근하지 않도록 조심해야 한다.
+
+> [!warning] 주의 사항
+> 소유권이 이전된 `unique_ptr`를 댕글링 포인터(dangling pointer)라고 하며 이를 재 참조할 시에 런타임 오류가 발생하도록 한다. 따라서 소유권 이전은, 댕글링 포인터를 절대 다시 참조 하지 않겠다는 확신 하에 이동해야 한다.
