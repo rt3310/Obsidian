@@ -13,35 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/shared_ptr, weak_ptr.md",
+                "file": "Projects/Study/C, C++/switch 문의 제약사항.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "778f122032a96c7a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
-          },
-          {
-            "id": "b68f87d011bca7af",
+            "id": "6e17aac5b2b0b209",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/OS/보초콘.md",
+                "file": "Projects/Study/C, C++/12-2. Move.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/shared_ptr, weak_ptr.md",
+                "file": "Projects/Study/C, C++/12-2. Move.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/shared_ptr, weak_ptr.md",
+                "file": "Projects/Study/C, C++/12-2. Move.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/shared_ptr, weak_ptr.md"
+                "file": "Projects/Study/C, C++/12-2. Move.md"
               }
             }
           },
@@ -177,7 +168,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:새 보드 만들기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -188,54 +178,54 @@
       "obsidian-full-calendar:Open Full Calendar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "2463eca64201697b",
+  "active": "6e17aac5b2b0b209",
   "lastOpenFiles": [
-    "Pasted image 20241009232701.png",
-    "13.2.1.webp",
-    "Projects/Study/C, C++/unique_ptr.md",
+    "Projects/Study/C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md",
+    "Projects/Study/C, C++/11. 예외처리.md",
+    "Projects/Study/C, C++/10-4. string.md",
+    "Projects/Study/C, C++/10-3. STL - sequence container.md",
     "Projects/Study/C, C++/shared_ptr, weak_ptr.md",
+    "Projects/Study/C, C++/10-2. STL - associative container.md",
+    "Projects/Study/C, C++/10-1. STL - algorithm.md",
+    "Projects/Study/C, C++/unique_ptr.md",
+    "Projects/Study/C, C++/new vs malloc.md",
+    "Projects/Study/C, C++/cc vs cpp.md",
+    "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
+    "Projects/Study/C, C++/12-2. Move.md",
+    "conflict-files-obsidian-git.md",
+    "Pasted image 20241009232701.png",
     "Pasted image 20241009231316.png",
     "Pasted image 20241009130850.png",
-    "Projects/Study/C, C++/Move.md",
     "Pasted image 20241009034350.png",
     "Pasted image 20241008221901.png",
-    "997263435AB96BB9085570.webp",
-    "9960ED4D5AB96B7D09D8A7.webp",
-    "12.1.4.webp",
-    "Projects/Study/C, C++/우측값 레퍼런스, 이동 생성자.md",
     "Pasted image 20241008031351.png",
     "Pasted image 20241008030211.png",
-    "Projects/Study/C, C++/예외처리.md",
-    "Projects/Study/C, C++/string.md",
-    "Projects/Study/C, C++/pragma.md",
+    "Pasted image 20241008021120.png",
+    "Pasted image 20241007031711.png",
+    "99E2F6505AB50C7A30ED98.webp",
+    "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Posting/HTTP/HttpSession.md",
-    "Projects/Study/C, C++/파일 입출력.md",
+    "Projects/Study/OS/보초콘.md",
     "Projects/Study/C, C++/템플릿.md",
-    "Projects/Study/C, C++/STL - sequence container.md",
-    "Projects/Study/C, C++/STL - associative container.md",
-    "Projects/Study/C, C++/STL - algorithm.md",
     "Projects/Study/C, C++/연산자 오버로딩.md",
+    "Projects/Study/C, C++/pragma.md",
+    "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
     "Projects/Study/Unreal/UE5.md",
     "Projects/Study/Java/Concurrency/Java Concurrency.md",
     "Projects/Study/Java/Concurrency",
-    "Projects/Study/C, C++/cc vs cpp.md",
     "Projects/Study/Unreal",
     "Projects/Study/Javascript/자바스크립트.md",
     "Projects/Posting/Computer Structure/EBP, ESP Register.md",
     "Projects/Study/Javascript/resources",
     "Projects/Study/Javascript",
-    "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
     "Projects/Study/C, C++/resources",
-    "Projects/Study/C, C++/new vs malloc.md",
     "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md",
     "Projects/Posting/Computer Structure",
-    "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Posting/Trouble Shooting",
-    "Projects/Posting/무제 파일.md",
-    "conflict-files-obsidian-git.md",
     "Projects/Study/C, C++/무제 폴더",
     "Projects/Study/C, C++",
     "Projects/Study/Algorithm/오답노트/무제 파일.canvas",
