@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "thread",
+      "path": "Projects/Study/C, C++/thread.md"
+    },
+    {
       "basename": "14. function, mem_fn, bind",
       "path": "Projects/Study/C, C++/14. function, mem_fn, bind.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "공부 할 알고리즘",
       "path": "Projects/Study/Algorithm/팁/공부 할 알고리즘.md"
-    },
-    {
-      "basename": "Quick Sort vs Merge Sort",
-      "path": "Projects/Study/Algorithm/정렬/Quick Sort vs Merge Sort.md"
     }
   ],
   "omittedPaths": [],

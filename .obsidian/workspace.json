@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/14. function, mem_fn, bind.md",
+                "file": "Projects/Study/C, C++/thread.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/14. function, mem_fn, bind.md",
+                "file": "Projects/Study/C, C++/thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/14. function, mem_fn, bind.md",
+                "file": "Projects/Study/C, C++/thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/14. function, mem_fn, bind.md"
+                "file": "Projects/Study/C, C++/thread.md"
               }
             }
           },
@@ -185,10 +185,17 @@
   },
   "active": "6e17aac5b2b0b209",
   "lastOpenFiles": [
+    "Pasted image 20241011135033.png",
+    "14.1.5.webp",
+    "14.1.3.webp",
+    "14.1.1.webp",
+    "14.1.6.webp",
+    "14.1.4.webp",
+    "Projects/Study/C, C++/14. function, mem_fn, bind.md",
+    "Projects/Study/C, C++/thread.md",
     "Pasted image 20241011110112.png",
     "Pasted image 20241010222642.png",
     "Projects/Study/C, C++/13-2. shared_ptr, weak_ptr.md",
-    "Projects/Study/C, C++/14. function, mem_fn, bind.md",
     "Projects/Study/C, C++/연산자 오버로딩.md",
     "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
     "Projects/Study/C, C++/13-1. unique_ptr.md",
@@ -206,12 +213,6 @@
     "Pasted image 20241009232701.png",
     "Pasted image 20241009231316.png",
     "Pasted image 20241009130850.png",
-    "Pasted image 20241009034350.png",
-    "Pasted image 20241008221901.png",
-    "Pasted image 20241008031351.png",
-    "Pasted image 20241008030211.png",
-    "Pasted image 20241008021120.png",
-    "Pasted image 20241007031711.png",
     "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Posting/HTTP/HttpSession.md",
     "Projects/Study/OS/보초콘.md",
@@ -222,7 +223,6 @@
     "Projects/Study/Java/Concurrency",
     "Projects/Study/Unreal",
     "Projects/Study/Javascript/자바스크립트.md",
-    "Projects/Posting/Computer Structure/EBP, ESP Register.md",
     "Projects/Study/Javascript/resources",
     "Projects/Study/Javascript",
     "Projects/Study/C, C++/resources",
