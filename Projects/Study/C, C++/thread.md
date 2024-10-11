@@ -163,3 +163,20 @@ void func1() {
 ```
 
 `C++ 11` 에서 쓰레드를 생성하는 방법은 매우 간단하다.
+```cpp
+#include <thread>
+```
+일단 위 처럼 `thread` 헤더파일을 추가하고,
+```cpp
+thread t1(func1);
+```
+`thread` 객체를 생성하는 순간 끝이다. 이렇게 생성된 `t1`은 인자로 전달받은 함수 `func1`을 새로운 쓰레드에서 실행하게 된다.
+
+즉
+```cpp
+thread t1(func1);
+thread t2(func2);
+thread t3(func3);
+```
+를 실행하게 되면, `func1, func2, func3` 가 각기 다른 쓰레드 상에서 실행되게 된다.
+![[14.1.10.webp]]
