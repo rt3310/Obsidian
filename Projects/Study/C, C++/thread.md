@@ -953,4 +953,124 @@ C++ 에서는 `try_lock`이라는 함수를 제공하는데, 이 함수는 만�
 이와 같이 데드락을 해결하는 것은 매우 복잡하다(또한 완벽하지 않다). 애초에 데드락 상황이 발생할 수 없게 프로그램을 잘 설계하는 것이 중요하다.
 
 C++ Concurrency In Action 이란 책에선 데드락 상황을 피하기 위해 다음과 같은 가이드라인을 제시하고 있다.
+#### 중첩된 Lock을 사용하는 것을 피해라
+모든 쓰레드들이 최대 1개의 [Lock](https://modoocode.com/lock)만을 소유한다면 (일반적인 경우에) 데드락 상황이 발생하는 것을 피할 수 있다. 또한 대부분의 디자인에서는 1개의 [Lock](https://modoocode.com/lock)으로도 충분하다. 만일 여러 개의 [Lock](https://modoocode.com/lock)을 필요로 한다면 정말 필요로 하는지를 되물어보는 것이 좋다.
 
+#### Lock 을 소유하고 있을 때 유저 코드를 호출하는 것을 피해라
+사실 이 가이드라인 역시 위에서 말한 내용과 자연스럽게 따라오는 것이긴 한데, 유저 코드에서 [Lock](https://modoocode.com/lock)을 소유할 수도 있기에 중첩된 [Lock](https://modoocode.com/lock)을 얻는 것을 피하려면 [Lock](https://modoocode.com/lock)소유 시 유저 코드를 호출하는 것을 지양해야 한다.
+
+#### Lock 들을 언제나 정해진 순서로 획득해라
+만일 여러 개의 [Lock](https://modoocode.com/lock)들을 획득해야 할 상황이 온다면, 반드시 이 Lock들을 정해진 순서로 획득해야 한다. 우리가 앞선 예제에서 데드락이 발생했던 이유 역시, `worker1`에서는 `m1, m2`순으로 [lock](https://modoocode.com/lock)을 했지만 `worker2`에서는 `m2, m1`순으로 [lock](https://modoocode.com/lock)을 했기 때문이다. 만일 `worker2`에서 역시 `m1, m2`순으로 [lock](https://modoocode.com/lock)을 했다면 데드락은 발생하지 않았을 것이다.
+
+## 생성자(Producer)와 소비자(Consumer) 패턴
+
+생산자의 경우, 무언가 처리할 일을 받아오는 쓰레드를 의미한다. 예를 들어, 인터넷에서 페이지를 긁어서 분석하는 프로그램을 만들었다고 생각해보자. 이 경우 페이지를 긁어오는 쓰레드가 바로 생산자가 될 것이다.
+
+소비자의 경우, 받은 일을 처리하는 쓰레드를 의미한다. 앞선 예제의 경우 긁어온 페이지를 분석하는 쓰레드가 해당 역할을 하겠다.
+
+그렇다면 이와 같은 상황을 쓰레드로 어떻게 구현할지 살펴보자.
+```cpp
+#include <chrono>  // std::chrono::miliseconds
+#include <iostream>
+#include <mutex>
+#include <queue>
+#include <string>
+#include <thread>
+#include <vector>
+
+void producer(std::queue<std::string>* downloaded_pages, std::mutex* m,
+              int index) {
+	for (int i = 0; i < 5; i++) {
+		// 웹사이트를 다운로드 하는데 걸리는 시간이라 생각하면 된다.
+		// 각 쓰레드 별로 다운로드 하는데 걸리는 시간이 다르다.
+		std::this_thread::sleep_for(std::chrono::milliseconds(100 * index));
+		std::string content = "웹사이트 : " + std::to_string(i) + " from thread(" +
+							  std::to_string(index) + ")\n";
+		
+		// data 는 쓰레드 사이에서 공유되므로 critical section 에 넣어야 한다.
+		m->lock();
+		downloaded_pages->push(content);
+		m->unlock();
+	}
+}
+
+void consumer(std::queue<std::string>* downloaded_pages, std::mutex* m,
+              int* num_processed) {
+	// 전체 처리하는 페이지 개수가 5 * 5 = 25 개.
+	while (*num_processed < 25) {
+		m->lock();
+		// 만일 현재 다운로드한 페이지가 없다면 다시 대기.
+		if (downloaded_pages->empty()) {
+			m->unlock();  // (Quiz) 여기서 unlock 을 안한다면 어떻게 될까요?
+			
+			// 10 밀리초 뒤에 다시 확인한다.
+			std::this_thread::sleep_for(std::chrono::milliseconds(10));
+			continue;
+		}
+		
+		// 맨 앞의 페이지를 읽고 대기 목록에서 제거한다.
+		std::string content = downloaded_pages->front();
+		downloaded_pages->pop();
+		
+		(*num_processed)++;
+		m->unlock();
+		
+		// content 를 처리한다.
+		std::cout << content;
+		std::this_thread::sleep_for(std::chrono::milliseconds(80));
+	}
+}
+
+int main() {
+	// 현재 다운로드한 페이지들 리스트로, 아직 처리되지 않은 것들이다.
+	std::queue<std::string> downloaded_pages;
+	std::mutex m;
+	
+	std::vector<std::thread> producers;
+	for (int i = 0; i < 5; i++) {
+		producers.push_back(std::thread(producer, &downloaded_pages, &m, i + 1));
+	}
+	
+	int num_processed = 0;
+	std::vector<std::thread> consumers;
+	for (int i = 0; i < 3; i++) {
+		consumers.push_back(
+			std::thread(consumer, &downloaded_pages, &m, &num_processed));
+	}
+	
+	for (int i = 0; i < 5; i++) {
+		producers[i].join();
+	}
+	for (int i = 0; i < 3; i++) {
+		consumers[i].join();
+	}
+}
+```
+성공적으로 컴파일했다면
+```
+웹사이트 : 0 from thread(1)
+웹사이트 : 0 from thread(2)
+웹사이트 : 1 from thread(1)
+웹사이트 : 0 from thread(3)
+웹사이트 : 2 from thread(1)
+웹사이트 : 0 from thread(4)
+웹사이트 : 1 from thread(2)
+웹사이트 : 3 from thread(1)
+웹사이트 : 0 from thread(5)
+웹사이트 : 4 from thread(1)
+웹사이트 : 1 from thread(3)
+웹사이트 : 2 from thread(2)
+웹사이트 : 1 from thread(4)
+웹사이트 : 3 from thread(2)
+웹사이트 : 2 from thread(3)
+웹사이트 : 1 from thread(5)
+웹사이트 : 4 from thread(2)
+웹사이트 : 2 from thread(4)
+웹사이트 : 3 from thread(3)
+웹사이트 : 2 from thread(5)
+웹사이트 : 4 from thread(3)
+웹사이트 : 3 from thread(4)
+웹사이트 : 3 from thread(5)
+웹사이트 : 4 from thread(4)
+웹사이트 : 4 from thread(5)
+```
