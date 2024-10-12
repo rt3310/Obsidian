@@ -317,4 +317,55 @@ std::cout << "메인 함수 종료 \n";
 ```
 위 부분이 그냥 쭈르륵 실행되어서 쓰레드들이 채 문자열을 표시하기도 전에 프로세스가 종료된 것이지요.
 
-반면에 후자의 경우에는 프로세스가 종료되기 전에 운이 좋게도 생성된 쓰레드들에서 적당히 메세지를 출력하고 프로세스가 종료되었습니다. 그래도 쓰레드 1 의 경우 메세지를 3 개 밖에 작성하지 못하고 종료된 것을 볼 수 있습니다.
+반면에 후자의 경우에는 프로세스가 종료되기 전에 운이 좋게도 생성된 쓰레드들에서 적당히 메세지를 출력하고 프로세스가 종료되었다. 그래도 쓰레드 1의 경우 메세지를 3개 밖에 작성하지 못하고 종료된 것을 볼 수 있다.
+
+## 쓰레드에 인자 전달하기
+이번에는는 이전에 이야기한 1부터 10000까지의 합을 여러 쓰레드들을 소환해서 빠르게 계산하는 방법을 살펴보도록 하자.
+```cpp
+#include <cstdio>
+#include <iostream>
+#include <thread>
+#include <vector>
+using std::thread;
+using std::vector;
+
+void worker(vector<int>::iterator start, vector<int>::iterator end,
+            int* result) {
+	int sum = 0;
+	for (auto itr = start; itr < end; ++itr) {
+		sum += *itr;
+	}
+	*result = sum;
+	
+	// 쓰레드의 id 를 구한다.
+	thread::id this_id = std::this_thread::get_id();
+	printf("쓰레드 %x 에서 %d 부터 %d 까지 계산한 결과 : %d \n", this_id, *start,
+		 *(end - 1), sum);
+}
+
+int main() {
+	vector<int> data(10000);
+	for (int i = 0; i < 10000; i++) {
+		data[i] = i;
+	}
+	
+	// 각 쓰레드에서 계산된 부분 합들을 저장하는 벡터
+	vector<int> partial_sums(4);
+	
+	vector<thread> workers;
+	for (int i = 0; i < 4; i++) {
+		workers.push_back(thread(worker, data.begin() + i * 2500,
+							 data.begin() + (i + 1) * 2500, &partial_sums[i]));
+	}
+	
+	for (int i = 0; i < 4; i++) {
+		workers[i].join();
+	}
+	
+	int total = 0;
+	for (int i = 0; i < 4; i++) {
+		total += partial_sums[i];
+	}
+	std::cout << "전체 합 : " << total << std::endl;
+}
+```
