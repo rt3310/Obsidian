@@ -887,3 +887,70 @@ int main() {
   std::cout << "끝!" << std::endl;
 }
 ```
+성공적으로 컴파일했다면
+```
+Worker1 Hi! 0
+Worker1 Hi! 1
+Worker1 Hi! 2
+Worker1 Hi! 3
+Worker1 Hi! 4
+Worker1 Hi! 5
+Worker1 Hi! 6
+Worker1 Hi! 7
+Worker1 Hi! 8
+Worker1 Hi! 9
+Worker2 Hi! 0
+Worker2 Hi! 1
+Worker2 Hi! 2
+Worker2 Hi! 3
+Worker2 Hi! 4
+Worker2 Hi! 5
+Worker2 Hi! 6
+Worker2 Hi! 7
+Worker2 Hi! 8
+Worker2 Hi! 9
+끝!
+```
+데드락 상황 없이 잘 실행됨을 알 수 있다.
+
+```cpp
+m1.lock();
+m2.lock();
+std::cout << "Worker1 Hi! " << i << std::endl;
+
+m2.unlock();
+m1.unlock();
+```
+일단 `worker1`은 `lock_guard`를 통해 구현한 부분을 그대로 옮겨왔다. `worker1`이 뮤텍스를 갖고 경쟁할 때 우선권을 가지므로 굳이 코드를 바꿀 필요가 없다. 차를 빼야 하는 것은 `worker2`이니까 말이다.
+```cpp
+while (true) {
+	m2.lock();
+	
+	// m1 이 이미 lock 되어 있다면 "야 차 빼" 를 수행하게 된다.
+	if (!m1.try_lock()) {
+		m2.unlock();
+		continue;
+	}
+	
+	std::cout << "Worker2 Hi! " << i << std::endl;
+	m1.unlock();
+	m2.unlock();
+	break;
+}
+```
+`worker2`의 경우 사뭇 다르다. 일단 `m2`는 아무 문제 없이 [lock](https://modoocode.com/lock)할 수 있다. 하지만 문제는 `m1`을 [lock](https://modoocode.com/lock) 하는 과정이다.
+
+만약에 `worker1`이 `m1`을 [lock](https://modoocode.com/lock)하고 있다면 어떨까? `m1.lock`을 호출한 순간 서로 교차로 끼어서 이도저도 못하는 상황이 되는 것이다.
+
+C++ 에서는 `try_lock`이라는 함수를 제공하는데, 이 함수는 만일 `m1`을 [lock](https://modoocode.com/lock)할 수 있다면 [lock](https://modoocode.com/lock)을 하고 `true`를 리턴한다. 그런데 `lock()`함수와는 다르게, [lock](https://modoocode.com/lock)을 할 수 없다면 기다리지 않고 그냥 `false` 를 리턴한다.
+
+따라서 `m1.try_lock()`이 `true`를 리턴했다면 `worker2`가 `m1`과 `m2`를 성공적으로 [lock](https://modoocode.com/lock)한 상황이므로(교차로에 노란차만 있는 상황) 그대로 처리하면 된다.
+
+반면에 `m1.try_lock()`이 `false`를 리턴했다면 `worker1`이 이미 `m1`을 [lock](https://modoocode.com/lock)했다는 의미이다. 이 경우 `worker1`에서 우선권을 줘야 하기 때문에 자신이 이미 얻은 `m2`역시 `worker1`에게 제공해야 한다. 쉽게 말해 교차로에서 노란차가 후진한다고 보면 된다.
+
+그 후에 `while`을 통해 `m1`과 `m2`모두 [lock](https://modoocode.com/lock)하는 것을 성공할 때 까지 계속 시도하게 되며, 성공하게 되면 `while`을 빠져나간다.
+
+이와 같이 데드락을 해결하는 것은 매우 복잡하다(또한 완벽하지 않다). 애초에 데드락 상황이 발생할 수 없게 프로그램을 잘 설계하는 것이 중요하다.
+
+C++ Concurrency In Action 이란 책에선 데드락 상황을 피하기 위해 다음과 같은 가이드라인을 제시하고 있다.
+
