@@ -780,31 +780,52 @@ std::lock_guard<std::mutex> lock(m);
 #include <thread>
 
 void worker1(std::mutex& m1, std::mutex& m2) {
-  for (int i = 0; i < 10000; i++) {
-    std::lock_guard<std::mutex> lock1(m1);
-    std::lock_guard<std::mutex> lock2(m2);
-    // Do something
-  }
+	for (int i = 0; i < 10000; i++) {
+		std::lock_guard<std::mutex> lock1(m1);
+		std::lock_guard<std::mutex> lock2(m2);
+		// Do something
+	}
 }
 
 void worker2(std::mutex& m1, std::mutex& m2) {
-  for (int i = 0; i < 10000; i++) {
-    std::lock_guard<std::mutex> lock2(m2);
-    std::lock_guard<std::mutex> lock1(m1);
-    // Do something
-  }
+	for (int i = 0; i < 10000; i++) {
+		std::lock_guard<std::mutex> lock2(m2);
+		std::lock_guard<std::mutex> lock1(m1);
+		// Do something
+	}
 }
 
 int main() {
-  int counter = 0;
-  std::mutex m1, m2;  // 우리의 mutex 객체
-
-  std::thread t1(worker1, std::ref(m1), std::ref(m2));
-  std::thread t2(worker2, std::ref(m1), std::ref(m2));
-
-  t1.join();
-  t2.join();
-
-  std::cout << "끝!" << std::endl;
+	int counter = 0;
+	std::mutex m1, m2;  // 우리의 mutex 객체
+	
+	std::thread t1(worker1, std::ref(m1), std::ref(m2));
+	std::thread t2(worker2, std::ref(m1), std::ref(m2));
+	
+	t1.join();
+	t2.join();
+	
+	std::cout << "끝!" << std::endl;
 }
 ```
+성공적으로 컴파일했다면
+```
+```
+끝나지 않아서 강제로 종료해야 한다.
+
+왜 이런 일이 발생했을까? `worker1`과 `worker2`에서 뮤텍스를 얻는 순서를 살펴보자.
+`worker1` 에서는
+```cpp
+std::lock_guard<std::mutex> lock1(m1);
+std::lock_guard<std::mutex> lock2(m2);
+```
+와 같이 `m1`을 먼저 [lock](https://modoocode.com/lock)한 후 `m2`를 [lock](https://modoocode.com/lock)하게 된다. 반면에 `worker2` 의 경우
+```cpp
+std::lock_guard<std::mutex> lock2(m2);
+std::lock_guard<std::mutex> lock1(m1);
+```
+`m2`를 먼저 [lock](https://modoocode.com/lock)한 후 `m1`을 [lock](https://modoocode.com/lock)하게 된다.
+
+그렇다면 다음과 같은 상황을 생각해보자. 만약에 `worker1`에서 `m1`을 [lock](https://modoocode.com/lock)하고, `worker2`에서 `m2`를 [lock](https://modoocode.com/lock) 했다. 그렇다면 `worker1`에서 `m2`를 [lock](https://modoocode.com/lock)할 수 있을까?
+
+아니다. `worker1`에서 `m2`를 [lock](https://modoocode.com/lock)하기 위해서는 `worker2`에서 `m2`를 `unlock`해야 된다. 하지만 그러기 위해서는 `worker2`에서 `m1`을 [lock](https://modoocode.com/lock)해야 한다. 그런데 이 역시 불가능하다. 왜냐하면 `worker1` 에 `m1` 을 [lock](https://modoocode.com/lock) 하고 있기 때문이다!
