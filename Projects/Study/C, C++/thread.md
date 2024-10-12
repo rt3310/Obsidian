@@ -329,8 +329,7 @@ std::cout << "메인 함수 종료 \n";
 using std::thread;
 using std::vector;
 
-void worker(vector<int>::iterator start, vector<int>::iterator end,
-            int* result) {
+void worker(vector<int>::iterator start, vector<int>::iterator end, int* result) {
 	int sum = 0;
 	for (auto itr = start; itr < end; ++itr) {
 		sum += *itr;
