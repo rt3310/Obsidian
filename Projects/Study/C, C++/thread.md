@@ -674,10 +674,137 @@ m.unlock();
 ```
 실제 사용하는 것은 위와 같다.
 
-`m.lock()` 은 뮤텍스 `m` 을 내가 쓰게 달라! 라고 이야기 하는 것입니다. 이 때 중요한 사실은, 한 번에 한 쓰레드에서만 `m` 의 사용 권한을 갖는다는 것입니다. 그렇다면, 다른 쓰레드에서 `m.lock()` 을 하였다면 어떻게될까요? 이는 `m` 을 소유한 쓰레드가 `m.unlock()` 을 통해 `m` 을 반환할 때 까지 무한정 기다리게 됩니다.
+`m.lock()`은 '뮤텍스 `m`을 내가 쓰게 달라!'라고 이야기 하는 것이다. 이 때 중요한 사실은, **한 번에 한 쓰레드에서만 `m`의 사용 권한을 갖는다는 것**이다. 그렇다면, 다른 쓰레드에서 `m.lock()`을 했다면 어떻게 될까? 이는 `m`을 소유한 쓰레드가 `m.unlock()`을 통해 `m`을 반환할 때까지 무한정 기다리게 된다.
 
-따라서, `result += 1;` 은 아무리 많은 쓰레드들이 서로 다른 코어에서 돌아가고 있더라고 하더라도, 결국 `m` 은 한 번에 한 쓰레드만 얻을 수 있기 때문에, `result += 1;` 은 결국 한 쓰레드만 유일하게 실행할 수 있게 됩니다.
+따라서, `result += 1;`은 아무리 많은 쓰레드들이 서로 다른 코어에서 돌아가고 있더라고 하더라도, 결국 `m`은 한 번에 한 쓰레드만 얻을 수 있기 때문에, `result += 1;`은 결국 한 쓰레드만 유일하게 실행할 수 있게 된다.
 
-이렇게 `m.lock()` 과 `m.unlock()` 사이에 한 쓰레드만이 유일하게 실행할 수 있는 코드 부분을 임계 영역(critical section) 이라고 부릅니다.
+이렇게 `m.lock()`과 `m.unlock()`사이에 한 쓰레드만이 유일하게 실행할 수 있는 코드 부분을 **임계 영역(critical section)** 이라고 부른다.
 
-만약에 까먹고 `m.unlock()` 을 하지 않는다면 어떻게 될까요?
+만약에 까먹고 `m.unlock()`을 하지 않는다면 어떻게 될까?
+```cpp
+#include <iostream>
+#include <mutex>  // mutex 를 사용하기 위해 필요
+#include <thread>
+#include <vector>
+
+void worker(int& result, std::mutex& m) {
+	for (int i = 0; i < 10000; i++) {
+		m.lock();
+		result += 1;
+	}
+}
+
+int main() {
+	int counter = 0;
+	std::mutex m;  // 우리의 mutex 객체
+	
+	std::vector<std::thread> workers;
+	for (int i = 0; i < 4; i++) {
+		workers.push_back(std::thread(worker, std::ref(counter), std::ref(m)));
+	}
+	
+	for (int i = 0; i < 4; i++) {
+		workers[i].join();
+	}
+	
+	std::cout << "Counter 최종 값 : " << counter << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+```
+끝나지 않아서 강제 종료해야한다.
+
+뮤텍스를 취득한 쓰레드가 `unlock`을 하지 않으므로, 다른 모든 쓰레드들이 기다리게 된다. 심지어 본인도 마찬가지로 `m.lock()`을 다시 호출하게 되고, `unlock`을 하지 않았기에 본인 역시 기다리게 된다.
+
+결국 아무 쓰레드도 연산을 진행하지 못하게 된다. 이러한 상황을 **데드락(deadlock)** 이라고 한다.
+
+위와 같은 문제를 해결하기 위해서는 취득한 뮤텍스는 사용이 끝나면 반드시 반환을 해야 한다. 하지만 코드 길이가 길어지게 된다면 반환하는 것을 까먹을 수 있기 마련이다.
+
+곰곰히 생각해보면 이전에 비슷한 문제를 해결한 기억이 있다. `unique_ptr`를 왜 도입을 했는지 생각을 해보면, 메모리를 할당 하였으면 사용 후에 반드시 해제를 해야 하므로, 아예 이 과정을 `unique_ptr` 의 소멸자에서 처리하도록 했었다.
+
+뮤텍스도 마찬가지로 사용 후 해제 패턴을 따르기 때문에 동일하게 소멸자에서 처리할 수 있다.
+
+```cpp
+#include <iostream>
+#include <mutex>  // mutex 를 사용하기 위해 필요
+#include <thread>
+#include <vector>
+
+void worker(int& result, std::mutex& m) {
+	for (int i = 0; i < 10000; i++) {
+		// lock 생성 시에 m.lock() 을 실행한다고 보면 된다.
+		std::lock_guard<std::mutex> lock(m);
+		result += 1;
+		
+		// scope 를 빠져 나가면 lock 이 소멸되면서
+		// m 을 알아서 unlock 한다.
+	}
+}
+
+int main() {
+	int counter = 0;
+	std::mutex m;  // 우리의 mutex 객체
+	
+	std::vector<std::thread> workers;
+	for (int i = 0; i < 4; i++) {
+		workers.push_back(std::thread(worker, std::ref(counter), std::ref(m)));
+	}
+	
+	for (int i = 0; i < 4; i++) {
+		workers[i].join();
+	}
+	
+	std::cout << "Counter 최종 값 : " << counter << std::endl;
+}
+```
+성공적으로 컴파일했다면
+```
+Counter 최종 값 : 40000
+```
+
+```cpp
+std::lock_guard<std::mutex> lock(m);
+```
+`lock_guard`객체는 뮤텍스를 인자로 받아서 생성하게 되는데, 이 때 **생성자에서 뮤텍스를 [lock](https://modoocode.com/lock)하게 된다**. 그리고 **`lock_guard`가 소멸될 때 알아서 [lock](https://modoocode.com/lock)했던 뮤텍스를 `unlock` 하게 된다**.
+따라서 사용자가 따로 `unlock`을 신경 쓰지 않아도 돼서 매우 편리하다.
+
+그렇다면 `lock_guard` 만 있다면 이제 더 이상 데드락 상황은 신경쓰지 않아도 되는 것일까?
+
+## 데드락 (deadlock)
+
+아래와 같은 상황을 생각해보자.
+```cpp
+#include <iostream>
+#include <mutex>  // mutex 를 사용하기 위해 필요
+#include <thread>
+
+void worker1(std::mutex& m1, std::mutex& m2) {
+  for (int i = 0; i < 10000; i++) {
+    std::lock_guard<std::mutex> lock1(m1);
+    std::lock_guard<std::mutex> lock2(m2);
+    // Do something
+  }
+}
+
+void worker2(std::mutex& m1, std::mutex& m2) {
+  for (int i = 0; i < 10000; i++) {
+    std::lock_guard<std::mutex> lock2(m2);
+    std::lock_guard<std::mutex> lock1(m1);
+    // Do something
+  }
+}
+
+int main() {
+  int counter = 0;
+  std::mutex m1, m2;  // 우리의 mutex 객체
+
+  std::thread t1(worker1, std::ref(m1), std::ref(m2));
+  std::thread t2(worker2, std::ref(m1), std::ref(m2));
+
+  t1.join();
+  t2.join();
+
+  std::cout << "끝!" << std::endl;
+}
+```
