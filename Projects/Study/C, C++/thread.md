@@ -828,4 +828,14 @@ std::lock_guard<std::mutex> lock1(m1);
 
 그렇다면 다음과 같은 상황을 생각해보자. 만약에 `worker1`에서 `m1`을 [lock](https://modoocode.com/lock)하고, `worker2`에서 `m2`를 [lock](https://modoocode.com/lock) 했다. 그렇다면 `worker1`에서 `m2`를 [lock](https://modoocode.com/lock)할 수 있을까?
 
-아니다. `worker1`에서 `m2`를 [lock](https://modoocode.com/lock)하기 위해서는 `worker2`에서 `m2`를 `unlock`해야 된다. 하지만 그러기 위해서는 `worker2`에서 `m1`을 [lock](https://modoocode.com/lock)해야 한다. 그런데 이 역시 불가능하다. 왜냐하면 `worker1` 에 `m1` 을 [lock](https://modoocode.com/lock) 하고 있기 때문이다!
+아니다. `worker1`에서 `m2`를 [lock](https://modoocode.com/lock)하기 위해서는 `worker2`에서 `m2`를 `unlock`해야 된다. 하지만 그러기 위해서는 `worker2`에서 `m1`을 [lock](https://modoocode.com/lock)해야 한다. 그런데 이 역시 불가능하다. 왜냐하면 `worker1`에 `m1`을 [lock](https://modoocode.com/lock) 하고 있기 때문이다!
+
+즉 `worker1` 과 `worker2` 모두 이러지도 저러지도 못하는 데드락 상황에 빠지게 됩니다. 분명히 뮤텍스를 [lock](https://modoocode.com/lock) 하면 반드시 `unlock` 한다라는 원칙을 지켰음에도 불구하고 데드락을 피할 수 없었습니다.
+
+여기에 보면 [데드락이 발생하는 조건](https://ko.wikipedia.org/wiki/%EA%B5%90%EC%B0%A9_%EC%83%81%ED%83%9C)이 잘 나타나 있습니다. 물론 만족해야 할 조건이 꽤나 많지만, 일어날 수 있는 일은 반드시 일어나고, 데드락 때문에 디버깅 하는 것 만큼 골때리는 것도 없습니다.
+
+그렇다면 데드락이 가능한 상황을 어떻게 해결할 수 있을까요? 한 가지 방법으로는 한 쓰레드에게 우선권을 주는 것입니다. 위 자동차 그림으로 보자면 초록색 차가 노란색 차보다 항상 먼저 지나가도록 우선권을 주는 것이지요. 만약에 노란색 차가 교차로에 있는데 초록색 차가 들어온다면 초록색 차가 노란색 차에게 "야 차 빼~!" 라고 요구할 수 도 있지요.
+
+물론 노란색 차는 억울하겠지만, 적어도 차들이 뒤엉켜서 아무도 전진하지 못하는 상황은 막을 수 있습니다. 쓰레드로 비유하자면, 한 쓰레드가 다른 쓰레드에 비해 우위를 갖게 된다면, 한 쓰레드만 열심히 일하고 다른 쓰레드는 일할 수 없는 기아 상태(starvation)가 발생할 수 있습니다.
+
+위에서 말한 해결 방식을 코드로 옮기자면 아래와 같습니다.
