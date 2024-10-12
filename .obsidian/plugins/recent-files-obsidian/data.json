@@ -5,6 +5,10 @@
       "path": "Projects/Study/C, C++/thread.md"
     },
     {
+      "basename": "switch 문의 제약사항",
+      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
+    },
+    {
       "basename": "14. function, mem_fn, bind",
       "path": "Projects/Study/C, C++/14. function, mem_fn, bind.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "포인터에는 왜 타입이 없을까",
       "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
     },
     {
       "basename": "HttpSession",
