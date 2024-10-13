@@ -1163,4 +1163,172 @@ C++에서는 위와 같은 형태로 생산자 소비자 패턴을 구현할 수
 위 경우 '`downloaded_pages`가 `empty()`가 참이 아닐 때까지 자라'라는 명령을 내리고 싶었던 것이다.
 
 이는 **조건 변수(`condition_variable`)** 를 통해 해결할 수 있다.
+```cpp
+#include <chrono>              // std::chrono::miliseconds
+#include <condition_variable>  // std::condition_variable
+#include <iostream>
+#include <mutex>
+#include <queue>
+#include <string>
+#include <thread>
+#include <vector>
 
+void producer(std::queue<std::string>* downloaded_pages, std::mutex* m,
+              int index, std::condition_variable* cv) {
+	for (int i = 0; i < 5; i++) {
+		// 웹사이트를 다운로드 하는데 걸리는 시간이라 생각하면 된다.
+		// 각 쓰레드 별로 다운로드 하는데 걸리는 시간이 다르다.
+		std::this_thread::sleep_for(std::chrono::milliseconds(100 * index));
+		std::string content = "웹사이트 : " + std::to_string(i) + " from thread(" +
+							  std::to_string(index) + ")\n";
+		
+		// data 는 쓰레드 사이에서 공유되므로 critical section 에 넣어야 한다.
+		m->lock();
+		downloaded_pages->push(content);
+		m->unlock();
+		
+		// consumer 에게 content 가 준비되었음을 알린다.
+		cv->notify_one();
+	}
+}
+
+void consumer(std::queue<std::string>* downloaded_pages, std::mutex* m,
+              int* num_processed, std::condition_variable* cv) {
+	while (*num_processed < 25) {
+		std::unique_lock<std::mutex> lk(*m);
+		
+		cv->wait(lk, 
+			[&] { return !downloaded_pages->empty() || *num_processed == 25; });
+		
+		if (*num_processed == 25) {
+			lk.unlock();
+			return;
+		}
+		
+		// 맨 앞의 페이지를 읽고 대기 목록에서 제거한다.
+		std::string content = downloaded_pages->front();
+		downloaded_pages->pop();
+		
+		(*num_processed)++;
+		lk.unlock();
+		
+		// content 를 처리한다.
+		std::cout << content;
+		std::this_thread::sleep_for(std::chrono::milliseconds(80));
+	}
+}
+
+int main() {
+	// 현재 다운로드한 페이지들 리스트로, 아직 처리되지 않은 것들이다.
+	std::queue<std::string> downloaded_pages;
+	std::mutex m;
+	std::condition_variable cv;
+	
+	std::vector<std::thread> producers;
+	for (int i = 0; i < 5; i++) {
+		producers.push_back(
+			std::thread(producer, &downloaded_pages, &m, i + 1, &cv));
+	}
+	
+	int num_processed = 0;
+	std::vector<std::thread> consumers;
+	for (int i = 0; i < 3; i++) {
+		consumers.push_back(
+			std::thread(consumer, &downloaded_pages, &m, &num_processed, &cv));
+	}
+	
+	for (int i = 0; i < 5; i++) {
+		producers[i].join();
+	}
+	
+	// 나머지 자고 있는 쓰레드들을 모두 깨운다.
+	cv.notify_all();
+	
+	for (int i = 0; i < 3; i++) {
+		consumers[i].join();
+	}
+}
+```
+성공적으로 컴파일했다면
+```
+웹사이트 : 0 from thread(1)
+웹사이트 : 0 from thread(2)
+웹사이트 : 1 from thread(1)
+웹사이트 : 0 from thread(3)
+웹사이트 : 2 from thread(1)
+웹사이트 : 1 from thread(2)
+웹사이트 : 0 from thread(4)
+웹사이트 : 3 from thread(1)
+웹사이트 : 0 from thread(5)
+웹사이트 : 4 from thread(1)
+웹사이트 : 1 from thread(3)
+웹사이트 : 2 from thread(2)
+웹사이트 : 1 from thread(4)
+웹사이트 : 3 from thread(2)
+웹사이트 : 2 from thread(3)
+웹사이트 : 1 from thread(5)
+웹사이트 : 4 from thread(2)
+웹사이트 : 2 from thread(4)
+웹사이트 : 3 from thread(3)
+웹사이트 : 2 from thread(5)
+웹사이트 : 4 from thread(3)
+웹사이트 : 3 from thread(4)
+웹사이트 : 3 from thread(5)
+웹사이트 : 4 from thread(4)
+웹사이트 : 4 from thread(5)
+```
+
+```cpp
+condition_variable cv;
+```
+먼저 뮤텍스를 정의할 때와 같이 `condition_variable`을 정의했다. 이 `condition_variable`이 어떻게 사용되는지 `consumer`쓰레드부터 살펴보자.
+
+```cpp
+std::unique_lock<std::mutex> lk(*m);
+
+cv->wait(lk,
+         [&] { return !downloaded_pages->empty() || *num_processed == 25; });
+```
+대충 코드를 보면 느낌이 오겠지만, `condition_variable`의 [wait](https://modoocode.com/wait-fwait)함수에 어떤 조건이 참이 될 때 까지 기다릴지 해당 조건을 인자로 전달해야 한다. 우리의 경우 조건으로
+```cpp
+!downloaded_pages->empty() || *num_processed == 25;
+```
+를 전달했는데, 이는 `downloaded_pages`에 원소들이 있거나, 전체 처리된 페이지의 개수가 `25`개 일 때 [wait](https://modoocode.com/wait-fwait)을 중지하도록 했다.
+
+조건 변수는 만일 해당 조건이 거짓이라면, `lk`를 `unlock`한 뒤에, 영원히 `sleep`하게 된다. 이 때 이 쓰레드는 다른 누가 깨워주기 전까지 계속 `sleep`된 상태로 기다리게 된다. 한 가지 중요한 점이라면 `lk`를 `unlock`한다는 점이다.
+
+반면에 해당 조건이 참이라면 `cv.wait`는 그대로 리턴해서 `consumer`의 `content`를 처리하는 부분이 그대로 실행되게 된다.
+
+```cpp
+std::unique_lock<std::mutex> lk(*m);
+```
+참고로 기존의 `lock_guard`와는 다르게 `unique_lock`을 정의했는데, 사실 `unique_lock`은 `lock_guard`와 거의 동일하다. 다만, `lock_guard`의 경우 생성자 말고는 따로 [lock](https://modoocode.com/lock)을 할 수 없는데, `unique_lock`은 `unlock`후에 다시 [lock](https://modoocode.com/lock)할 수 있다.
+
+덧붙여 `unique_lock`을 사용한 이유는 `cv->wait`가 `unique_lock`을 인자로 받기 때문이다.
+
+```cpp
+if (*num_processed == 25) {
+	lk.unlock();
+	return;
+}
+```
+`cv.wait`후에 아래 `num_processed`가 25인지 확인하는 구문이 추가되었는데, 이는 [wait](https://modoocode.com/wait-fwait)에서 탈출한 이유가 모든 페이지 처리를 완료해서 인지, 아니면 정말 `downloaded_pages`에 페이지가 추가됬는지 알 수 없기 때문이다. 만일 모든 페이지 처리가 끝나서 탈출한 거였다면, 그냥 쓰레드를 종료해야 한다.
+
+자 그렇다면 `producer` 를 확인해보자.
+```cpp
+// consumer 에게 content 가 준비되었음을 알린다.
+cv->notify_one();
+```
+만약에 페이지를 하나 다운 받았다면, 잠자고 있는 쓰레드들 중 하나를 깨워서 일을 시켜야한다.(만약에 모든 쓰레드들이 일을 하고 있는 상태라면 아무 일도 일어나지 않는다) **`notify_one`함수는 말 그대로, 조건이 거짓인 바람에 자고 있는 쓰레드 중 하나를 깨워서 조건을 다시 검사하게 해준다**. 만일 조건이 참이 된다면 그 쓰레드가 다시 일을 시작한다.
+
+```cpp
+for (int i = 0; i < 5; i++) {
+	producers[i].join();
+}
+
+// 나머지 자고 있는 쓰레드들을 모두 깨운다.
+cv.notify_all();
+```
+`producer`들이 모두 일을 끝낸 시점을 생각해본다면, 자고 있는 일부 `consumer`쓰레드들이 있을 것이다. 만약에 **`cv.notify_all()`을 하지 않는다면, 자고 있는 `consumer`쓰레드들의 경우 `join` 되지 않는 문제가 발생한다**.
+
+따라서 마지막으로 `cv.notify_all()`을 통해서 모든 쓰레드를 깨워서 조건을 검사하도록 한다. 해당 시점에선 이미 `num_processed`가 25 가 되어 있을 것이므로, 모든 쓰레드들이 잠에서 깨어나 종료하게 될 것이다.
