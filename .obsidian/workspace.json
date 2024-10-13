@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -184,6 +185,9 @@
   },
   "active": "6e17aac5b2b0b209",
   "lastOpenFiles": [
+    "Pasted image 20241013132929.png",
+    "Pasted image 20241013132818.png",
+    "Pasted image 20241013132223.png",
     "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Study/C, C++/thread.md",
     "Pasted image 20241013003841.png",
@@ -194,8 +198,6 @@
     "14.1.8.webp",
     "Pasted image 20241011135033.png",
     "14.1.5.webp",
-    "14.1.3.webp",
-    "14.1.1.webp",
     "Projects/Study/C, C++/14. function, mem_fn, bind.md",
     "Projects/Study/C, C++/13-2. shared_ptr, weak_ptr.md",
     "Projects/Study/C, C++/연산자 오버로딩.md",

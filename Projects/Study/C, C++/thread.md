@@ -1075,3 +1075,92 @@ int main() {
 웹사이트 : 4 from thread(5)
 ```
 
+```cpp
+std::queue<std::string> downloaded_pages;
+```
+먼저 `producer`쓰레드에서는 웹사이트에서 페이지를 계속 다운로드하는 역할을 하게 된다. 이 때, 다운로드한 페이지들을 `downloaded_pages`라는 큐에 저장하게 된다.
+![[Pasted image 20241013132223.png]]
+왜 굳이 큐를 사용했나면 큐가 바로 먼저 들어온 것이 먼저 나간다(First In First Out - FIFO)라는 특성이 있기 때문이다. 쉽게 말해, 먼저 다운로드한 페이지를 먼저 처리하기 위함이다.
+
+물론 `vector`로 구현해도 상관은 없다. 하지만 `vector`를 사용했을 경우, 가장 먼저 도착한 페이지가 벡터 첫번째 원소로 있을텐데, 이를 제거하는 작업이 꽤나 느리기 때문에 권장하지 않는다. (맨 앞의 원소를 제거하면, 나머지 모든 원소들을 앞으로 한 칸 씩 땡겨줘야 한다)
+
+하지만 큐의 경우 해당 연산들이 매우 빠르게 이루어질 수 있다.
+
+`producer`를 살펴보면 아래와 같다.
+```cpp
+// 웹사이트를 다운로드 하는데 걸리는 시간이라 생각하면 된다.
+// 각 쓰레드 별로 다운로드 하는데 걸리는 시간이 다르다.
+std::this_thread::sleep_for(std::chrono::milliseconds(100 * index));
+std::string content = "웹사이트 : " + std::to_string(i) + " from thread(" +
+                      std::to_string(index) + ")\n";
+
+// downloaded_pages 는 쓰레드 사이에서 공유되므로 critical section 에 넣어야
+// 한다.
+m->lock();
+downloaded_pages->push(content);
+m->unlock();
+```
+일단 기본적으로 C++ 표준 라이브러리 상에서는 인터넷 페이지를 다운받는 기능을 제공하지 않기 때문에, 대략 비슷한 상황을 가정하고 시뮬레이션 했다.
+
+`std::this_thread::sleep_for`함수는 인자로 전달된 시간 만큼 쓰레드를 `sleep`시키는데, 이 때 해당 인자로 `chrono`의 시간 객체를 받게 된다. `chrono`는 **`C++ 11`에 새로 추가된 시간 관련 라이브러리**로 기존의 C 의 `time.h`보다 훨씬 편리한 기능을 제공하고 있다. 이에 대해서는 나중에 자세히 다루어 보도록 하고, 일단 `100 * index`밀리초 만큼 쓰레드를 재우기 위해서는 `std::chrono::milliseconds(100 * index)`와 같이 전달하면 된다.
+
+그리고 다운받은 웹사이트 내용이 `content`라고 생각해보자.
+
+그렇다면, 이제 다운받은 페이지를 작업 큐에 집어 넣어야 한다. 이 때 주의할 점으로, `producer`쓰레드가 1개가 아니라 5개나 있다는 점이다. 따라서 `downloaded_pages`에 접근하는 쓰레드들 사이에 race condition이 발생할 수 있다.
+이를 방지 하기 위해서 뮤텍스 `m`으로 해당 코드를 감싸서 문제가 발생하지 않게 해준다.
+
+자 그럼 `consumer`의 경우 어떤 식으로 구현할 지 생각해보자.
+먼저 `consumer`쓰레드의 입장에서는 언제 일이 올지 알 수 없다. 따라서 `downloaded_pages`가 비어있지 않을 때까지 계속 `while`루프를 돌아야한다. 한 가지 문제는 컴퓨터 CPU 속도에 비해 웹사이트 정보가 큐에 추가되는 속도가 매우 느리다는 점이다.
+
+우리의 `producer`의 경우 대충 100ms 마다 웹사이트 정보를 큐에 추가하게 되는데, 이 시간 동안 `downloaded_pages->empty()`이 문장을 수십 만 번 호출할 수 있을 것이다. 이는 상당한 CPU 자원의 낭비가 아닐 수 없다.
+
+따라서, 실제로는 아래와 같이 구현했다.
+```cpp
+m->lock();
+// 만일 현재 다운로드한 페이지가 없다면 다시 대기.
+if (downloaded_pages->empty()) {
+  m->unlock();  // (Quiz) 여기서 unlock 을 안한다면 어떻게 될까요?
+
+  // 10 밀리초 뒤에 다시 확인한다.
+  std::this_thread::sleep_for(std::chrono::milliseconds(10));
+  continue;
+}
+```
+`downloaded_pages->empty()`라면, 강제로 쓰레드를 `sleep`시켜서 10밀리초 뒤에 다시 확인하는 식으로 말이다.
+
+참고로 `m->unlock`을 위 `if`문 안에서 호출하지 않는다면 데드락이 발생하게 된다. (왜 인지 생각해보자!)
+
+```cpp
+// 맨 앞의 페이지를 읽고 대기 목록에서 제거한다.
+std::string content = downloaded_pages->front();
+downloaded_pages->pop();
+
+(*num_processed)++;
+m->unlock();
+
+// content 를 처리한다.
+std::cout << content;
+std::this_thread::sleep_for(std::chrono::milliseconds(80));
+```
+마지막으로 `content`를 처리하는 과정은 간단하다. `front`를 통해서 맨 앞의 원소를 얻은 뒤에, [pop](https://modoocode.com/pop)을 호출하면 맨 앞의 원소를 큐에서 제거하게 된다.
+
+이 때 `m->unlock`을 함으로써 다른 쓰레드에서도 다음 원소를 바로 처리할 수 있도록 해야한다. `content`를 처리하는 시간은 대충 80밀리초가 소모된다고 시뮬레이션 했다.
+
+우리의 `producer`와 `consumer`들 관계를 그림으로 보자면 아래와 같다.
+![[Pasted image 20241013132818.png]]
+위 그림처럼 우리의 구현에서 `consumer`쓰레드가 10밀리초 마다 `downloaded_pages`에 할일이 있는지 확인하고 없으면 다시 기다리는 형태를 취하고 있다.
+
+이는 매우 비효율적이다. 매 번 언제 올지 모르는 데이터를 확인하기 위해 지속적으로 `mutex`를 [lock](https://modoocode.com/lock)하고, 큐를 확인해야 하기 때문이다.
+
+차라리 `producer`에서 데이터가 뜸하게 오는 것을 안다면 그냥 `consumer`는 아예 재워놓고, `producer`에서 데이터가 온다면 `consumer`를 깨우는 방식이 낫지 않을까? 쓰레드를 재워놓게 되면, 그 사이에 다른 쓰레드들이 일을 할 수 있기 때문에 CPU를 더 효율적으로 쓸 수 있을 것이다.
+![[Pasted image 20241013132929.png]]
+C++에서는 위와 같은 형태로 생산자 소비자 패턴을 구현할 수 있도록 여러가지 도구들을 제공하고 있다.
+
+## condition_variable
+
+위와 같은 상황에서 쓰레드들을 10밀리초 마다 재웠다 깨웠다 할 수 밖에 없었던 이유는 **'어떠한 조건을 만족할 때 까지 자라!'** 라는 명령을 내릴 수 없었기 때문이다.
+
+위 경우 '`downloaded_pages`가 `empty()`가 참이 아닐 때까지 자라'라는 명령을 내리고 싶었던 것이다.
+
+이는 **조건 변수(`condition_variable`)** 를 통해 해결할 수 있다.
+
