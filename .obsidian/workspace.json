@@ -23,11 +23,9 @@
             "id": "6e17aac5b2b0b209",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png"
               }
             }
           }
@@ -86,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md",
+                "file": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md",
+                "file": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md"
+                "file": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png"
               }
             }
           },
@@ -184,8 +183,9 @@
   },
   "active": "6e17aac5b2b0b209",
   "lastOpenFiles": [
-    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
     "Projects/Plan/공부할 것들.md",
+    "Projects/Plan/어떻게 공부해야 할까.md",
     "Projects/Plan/학습 전략.md",
     "Projects/Info/성능 예산.md",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
@@ -219,7 +219,6 @@
     "conflict-files-obsidian-git.md",
     "Projects/Posting/HTTP/HttpSession.md",
     "Projects/Study/OS/보초콘.md",
-    "Projects/Study/C, C++/템플릿.md",
     "Projects/Study/Java/Concurrency",
     "Projects/Study/Unreal",
     "Projects/Study/Javascript/resources",
