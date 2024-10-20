@@ -5,12 +5,16 @@
       "path": "Projects/Plan/공부할 것들.md"
     },
     {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
       "basename": "학습 전략",
       "path": "Projects/Plan/학습 전략.md"
     },
     {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+      "basename": "성능 예산",
+      "path": "Projects/Info/성능 예산.md"
     },
     {
       "basename": "Ehcache vs Caffeine",
@@ -191,10 +195,6 @@
     {
       "basename": "트랜잭션 전파",
       "path": "Projects/Posting/DB/트랜잭션 전파.md"
-    },
-    {
-      "basename": "성능 예산",
-      "path": "Projects/Info/성능 예산.md"
     },
     {
       "basename": "isCommited",
