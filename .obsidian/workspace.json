@@ -23,9 +23,11 @@
             "id": "6e17aac5b2b0b209",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png"
+                "file": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png",
+                "file": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png",
+                "file": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png"
+                "file": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md"
               }
             }
           },
@@ -183,12 +184,31 @@
   },
   "active": "6e17aac5b2b0b209",
   "lastOpenFiles": [
+    "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
     "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
-    "Projects/Plan/공부할 것들.md",
-    "Projects/Plan/어떻게 공부해야 할까.md",
-    "Projects/Plan/학습 전략.md",
-    "Projects/Info/성능 예산.md",
+    "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
+    "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
+    "Projects/Study/Auth/SSL/SSL.md",
+    "Projects/Study/Unreal/UE5.md",
+    "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md",
+    "Projects/Posting/Test/코드 커버리지.md",
+    "Projects/Posting/Test/테스트 데이터 초기화.md",
+    "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
+    "Projects/Posting/Java/정적 팩토리 메서드.md",
+    "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
+    "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
+    "Projects/Posting/HTTP/HttpSession.md",
+    "Projects/Posting/DB/null.md",
+    "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md",
+    "Projects/Posting/DB/트랜잭션 전파.md",
+    "Projects/Posting/Computer Structure/EBP, ESP Register.md",
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+    "Projects/Posting/Cache/캐시 선택.md",
+    "Projects/Plan/학습 전략.md",
+    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Plan/공부할 것들.md",
+    "Projects/Info/성능 예산.md",
+    "Projects/Study/C, C++/resources/Pasted image 20240920025928.png",
     "Projects/Study/C, C++/resources/Pasted image 20241013132929.png",
     "Projects/Study/C, C++/resources/12.1.1.webp",
     "Projects/Study/C, C++/resources/14.1.9.webp",
@@ -197,28 +217,9 @@
     "Projects/Study/C, C++/15. thread.md",
     "Projects/Study/C, C++/resources/Pasted image 20241013132818.png",
     "Projects/Study/C, C++/resources/Pasted image 20241013132223.png",
-    "Projects/Study/C, C++/switch 문의 제약사항.md",
     "Projects/Study/C, C++/resources/Pasted image 20241013003841.png",
     "Projects/Study/C, C++/resources/Pasted image 20241012205209.png",
     "Projects/Study/C, C++/resources/14.2.1.webp",
-    "Projects/Study/C, C++/resources/14.1.10.webp",
-    "Projects/Study/C, C++/13-2. shared_ptr, weak_ptr.md",
-    "Projects/Study/C, C++/연산자 오버로딩.md",
-    "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
-    "Projects/Study/C, C++/13-1. unique_ptr.md",
-    "Projects/Study/C, C++/12-2. Move.md",
-    "Projects/Study/C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md",
-    "Projects/Study/C, C++/11. 예외처리.md",
-    "Projects/Study/C, C++/10-4. string.md",
-    "Projects/Study/C, C++/10-3. STL - sequence container.md",
-    "Projects/Study/C, C++/10-2. STL - associative container.md",
-    "Projects/Study/C, C++/10-1. STL - algorithm.md",
-    "Projects/Study/C, C++/new vs malloc.md",
-    "Projects/Study/C, C++/cc vs cpp.md",
-    "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md",
-    "conflict-files-obsidian-git.md",
-    "Projects/Posting/HTTP/HttpSession.md",
-    "Projects/Study/OS/보초콘.md",
     "Projects/Study/Java/Concurrency",
     "Projects/Study/Unreal",
     "Projects/Study/Javascript/resources",

@@ -1,32 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "Pasted image 20240920025928",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png"
+      "basename": "elice-4) 트리 위의 게임",
+      "path": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md"
+    },
+    {
+      "basename": "2206) 벽 부수고 이동하기",
+      "path": "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md"
     },
     {
       "basename": "2146) 다리 만들기",
       "path": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md"
     },
     {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
+      "basename": "미니맥스 알고리즘(Minimax algorithm)",
+      "path": "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md"
     },
     {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+      "basename": "거듭제곱 분할 정복",
+      "path": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
+    },
+    {
+      "basename": "SSL",
+      "path": "Projects/Study/Auth/SSL/SSL.md"
+    },
+    {
+      "basename": "UE5",
+      "path": "Projects/Study/Unreal/UE5.md"
+    },
+    {
+      "basename": "온라인 결제 프로세스",
+      "path": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md"
+    },
+    {
+      "basename": "코드 커버리지",
+      "path": "Projects/Posting/Test/코드 커버리지.md"
+    },
+    {
+      "basename": "테스트 데이터 초기화",
+      "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
+    },
+    {
+      "basename": "위경도 값에 BigDecimal or Double",
+      "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
+    },
+    {
+      "basename": "정적 팩토리 메서드",
+      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
+    },
+    {
+      "basename": "System.out.println 사용을 지양하라",
+      "path": "Projects/Posting/Java/System.out.println 사용을 지양하라.md"
+    },
+    {
+      "basename": "boolean parameter를 너무 사랑하지마세요.",
+      "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
+    },
+    {
+      "basename": "HttpSession",
+      "path": "Projects/Posting/HTTP/HttpSession.md"
+    },
+    {
+      "basename": "null",
+      "path": "Projects/Posting/DB/null.md"
+    },
+    {
+      "basename": "JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유",
+      "path": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md"
+    },
+    {
+      "basename": "트랜잭션 전파",
+      "path": "Projects/Posting/DB/트랜잭션 전파.md"
+    },
+    {
+      "basename": "EBP, ESP Register",
+      "path": "Projects/Posting/Computer Structure/EBP, ESP Register.md"
+    },
+    {
+      "basename": "Ehcache vs Caffeine",
+      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+    },
+    {
+      "basename": "캐시 선택",
+      "path": "Projects/Posting/Cache/캐시 선택.md"
     },
     {
       "basename": "학습 전략",
       "path": "Projects/Plan/학습 전략.md"
     },
     {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
       "basename": "성능 예산",
       "path": "Projects/Info/성능 예산.md"
     },
     {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+      "basename": "Pasted image 20240920025928",
+      "path": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png"
     },
     {
       "basename": "Pasted image 20241013132929",
@@ -113,10 +189,6 @@
       "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
     },
     {
-      "basename": "HttpSession",
-      "path": "Projects/Posting/HTTP/HttpSession.md"
-    },
-    {
       "basename": "보초콘",
       "path": "Projects/Study/OS/보초콘.md"
     },
@@ -127,78 +199,6 @@
     {
       "basename": "템플릿",
       "path": "Projects/Study/C, C++/템플릿.md"
-    },
-    {
-      "basename": "pragma",
-      "path": "Projects/Study/C, C++/pragma.md"
-    },
-    {
-      "basename": "Pasted image 20240916013533",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240916013533.png"
-    },
-    {
-      "basename": "UE5",
-      "path": "Projects/Study/Unreal/UE5.md"
-    },
-    {
-      "basename": "Java Concurrency",
-      "path": "Projects/Study/Java/Concurrency/Java Concurrency.md"
-    },
-    {
-      "basename": "자바스크립트",
-      "path": "Projects/Study/Javascript/자바스크립트.md"
-    },
-    {
-      "basename": "Pasted image 20240920025650",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240920025650.png"
-    },
-    {
-      "basename": "Pasted image 20240920113206",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240920113206.png"
-    },
-    {
-      "basename": "EBP, ESP Register",
-      "path": "Projects/Posting/Computer Structure/EBP, ESP Register.md"
-    },
-    {
-      "basename": "온라인 결제 프로세스",
-      "path": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md"
-    },
-    {
-      "basename": "캐시 선택",
-      "path": "Projects/Posting/Cache/캐시 선택.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/Algorithm/오답노트/무제 파일.canvas"
-    },
-    {
-      "basename": "미니맥스 알고리즘(Minimax algorithm)",
-      "path": "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md"
-    },
-    {
-      "basename": "거듭제곱 분할 정복",
-      "path": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
-    },
-    {
-      "basename": "Pasted image 20240713224955",
-      "path": "Projects/Study/Algorithm/resources/Pasted image 20240713224955.png"
-    },
-    {
-      "basename": "null",
-      "path": "Projects/Posting/DB/null.md"
-    },
-    {
-      "basename": "JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유",
-      "path": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md"
-    },
-    {
-      "basename": "트랜잭션 전파",
-      "path": "Projects/Posting/DB/트랜잭션 전파.md"
-    },
-    {
-      "basename": "isCommited",
-      "path": "Projects/Posting/Spring/isCommited.md"
     }
   ],
   "omittedPaths": [],
