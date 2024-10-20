@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/C, C++/14. function, mem_fn, bind.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/C, C++/14. function, mem_fn, bind.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/C, C++/14. function, mem_fn, bind.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/C, C++/14. function, mem_fn, bind.md"
+                "file": "Projects/Plan/공부할 것들.md"
               }
             }
           },
@@ -184,19 +184,23 @@
   },
   "active": "6e17aac5b2b0b209",
   "lastOpenFiles": [
-    "Projects/Study/C, C++/15. thread.md",
-    "Pasted image 20241013132929.png",
-    "Pasted image 20241013132818.png",
-    "Pasted image 20241013132223.png",
-    "Projects/Study/C, C++/switch 문의 제약사항.md",
-    "Pasted image 20241013003841.png",
-    "Pasted image 20241012205209.png",
-    "14.2.1.webp",
-    "14.1.10.webp",
-    "14.1.9.webp",
-    "14.1.8.webp",
-    "Pasted image 20241011135033.png",
+    "Projects/Plan/학습 전략.md",
+    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Plan/공부할 것들.md",
+    "Projects/Posting/Cache/Ehcache vs Caffeine.md",
+    "Projects/Study/C, C++/resources/Pasted image 20241013132929.png",
+    "Projects/Study/C, C++/resources/12.1.1.webp",
+    "Projects/Study/C, C++/resources/14.1.9.webp",
+    "Projects/Study/C, C++/resources/14.1.5.webp",
     "Projects/Study/C, C++/14. function, mem_fn, bind.md",
+    "Projects/Study/C, C++/15. thread.md",
+    "Projects/Study/C, C++/resources/Pasted image 20241013132818.png",
+    "Projects/Study/C, C++/resources/Pasted image 20241013132223.png",
+    "Projects/Study/C, C++/switch 문의 제약사항.md",
+    "Projects/Study/C, C++/resources/Pasted image 20241013003841.png",
+    "Projects/Study/C, C++/resources/Pasted image 20241012205209.png",
+    "Projects/Study/C, C++/resources/14.2.1.webp",
+    "Projects/Study/C, C++/resources/14.1.10.webp",
     "Projects/Study/C, C++/13-2. shared_ptr, weak_ptr.md",
     "Projects/Study/C, C++/연산자 오버로딩.md",
     "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md",
@@ -216,11 +220,8 @@
     "Projects/Study/OS/보초콘.md",
     "Projects/Study/C, C++/템플릿.md",
     "Projects/Study/C, C++/pragma.md",
-    "Projects/Study/Unreal/UE5.md",
-    "Projects/Study/Java/Concurrency/Java Concurrency.md",
     "Projects/Study/Java/Concurrency",
     "Projects/Study/Unreal",
-    "Projects/Study/Javascript/자바스크립트.md",
     "Projects/Study/Javascript/resources",
     "Projects/Study/Javascript",
     "Projects/Study/C, C++/resources",
