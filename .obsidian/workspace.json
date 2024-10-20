@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md"
+                "file": "Projects/Plan/공부할 것들.md"
               }
             }
           },
@@ -182,10 +182,13 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "6e17aac5b2b0b209",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "Projects/Study/Algorithm/오답노트/무제 파일.canvas",
+    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Plan/공부할 것들.md",
+    "Projects/Study/Algorithm/팁/공부할 알고리즘.md",
     "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md",
+    "Projects/Study/Algorithm/오답노트/무제 파일.canvas",
     "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
     "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md",
     "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
@@ -207,8 +210,6 @@
     "Projects/Posting/Cache/Ehcache vs Caffeine.md",
     "Projects/Posting/Cache/캐시 선택.md",
     "Projects/Plan/학습 전략.md",
-    "Projects/Plan/어떻게 공부해야 할까.md",
-    "Projects/Plan/공부할 것들.md",
     "Projects/Info/성능 예산.md",
     "Projects/Study/C, C++/resources/Pasted image 20240920025928.png",
     "Projects/Study/C, C++/resources/Pasted image 20241013132929.png",
