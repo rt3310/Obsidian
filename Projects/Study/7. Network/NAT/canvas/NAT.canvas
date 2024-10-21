@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"8d34aee9477dfbdc","type":"text","text":"IP 주소에는 Public IP(공인 IP)와 Private IP(사설 IP)가 있다.\n- IP를 굳이 두 종류로 나눈 이유는 IPv4 주소의 낭비를 막고 공인 인터넷을 굳이 사용하지 않아도 되는 단말들에게 어느 망이든 중복 사용 가능한 IP를 주기 위함이다.\n- 공인망에서는 공인 IP만이 유통된다.","x":520,"y":-113,"width":443,"height":234},
+		{"id":"e4125113df9b14b1","type":"text","text":"단말의 IP는 어떻게 변화할까?\n\n예륻 들어, 카페에서 노트북을 한다고 했을 때 보통 wifi로 노트북과 인터넷을 연결할 것이다. 무선 공유기를 통해 IP를 할당받았고 그 정보는 다음과 같다.\n![[Pasted image 20231212002734.png]]\n\n여기서 172.30.1.36은 Private Network에 속하는 약속된 Private IP(사설 IP) 범위대이다.\n따라서 카페에 있는 공유기에 연결된 모든 단말들은 Private IP를 보유하게 된다. 그렇다면 인터넷을 사용할 때는 어떻게 되는 것일까?\n인터넷은 Public IP로만 연결되어 통신이 가능하다 Private IP를 Source Address로 유지한 채 인터넷으로 나아가는 것일까?\n\n공인 인터넷 망과 컴퓨터 사이에는 IP를 할당해주는 공유기가 있다. 그리고 공유기는 Public IP를 보유하며 인터넷과 맞닿아있다.\n\nPrivate IP(172.30.1.36)뿐인 내 컴퓨터가 외부 서비스(8.8.8.8)을 사용하고자 공유기로 나아가면, 공유기는 Private IP뿐인 **컴퓨터의 IP를 공유기 자신의 Public IP로 변환(Translation)** 하게 된다. 즉 공유기를 지나 외부 인터넷으로 나아갈 때는 공유기의 공인 IP를 가지고 원하는 Destination Address로 향하는 것이다.\n이것이 바로 **NAT**이라는 기술이다.","x":432,"y":220,"width":620,"height":629},
+		{"id":"753374dbc7fb7aed","type":"text","text":"공유기에 여녈된 컴퓨터들은 각각의 Private IP를 부여받는다.\n\n만약 우리가 위키피디아라는 사이트에 접속하고 싶으면, 컴퓨터는 Gateway Address에 해당되는 IP 머신(공유기)에게 신호를 보낸다.\n![[Pasted image 20231212003703.png]]\n신호를 받은 공유기는 다음 순서에 따라 위키피디아에게 요청을 보낸다.\n1. 먼저 요청받은 내부 ip(192.168.0.4)를 기록한다. -> 누가 요청했는지 알아야 하기 때문\n2. 요청한 컴퓨터 ip는 외부에서 접속할 수 없는 private ip이다. 따라서 private ip를 public ip로 변환한다.\n\n![[Pasted image 20231212003842.png]]\n이제 공유기는 이 요청을 public ip address로 위키피디아에게 요청을 하고 위키피디아는 그 요청을 처리한다. 그리고 다시 Public IP(59.6.66.238)로 보내고, 공유기에서 다시 Private IP(192.168.0.4)로 보내서 통신을 완료한다.\n\n즉, Private IP를 사용하고 있는 컴퓨터가 사설 바깥쪽에 있는 Public IP에 해당되는 외부 세계에 접속할 수 있게 된다.\n이때 사용되는 기술이 바로 NAT이라고 보면 된다.\n단, NAT과 호스트 간의 통신에 있어서 복잡성을 증가시킬 수 있으므로 네트워크 성능에 영향을 줄 수도 있다.","x":1280,"y":-41,"width":800,"height":1130},
+		{"id":"dd9302ecdbd8f783","type":"text","text":"> [!INFO]\n> Private Network에서 사용 가능한 Private IP\n> 10.0.0.0 ~ 10.255.255.255\n> 172.16.0.0 ~ 172.31.255.255\n> 192.168.0.0 ~ 192.168.255.255","x":549,"y":940,"width":386,"height":214,"color":"#0000ff"},
+		{"id":"6cfea8d9c1836e22","type":"file","file":"Projects/Study/7. Network/NAT/md/NAT(Network Address Translation).md","x":-340,"y":-156,"width":593,"height":321}
+	],
+	"edges":[
+		{"id":"8dd1c10b0c7d4871","fromNode":"6cfea8d9c1836e22","fromSide":"right","toNode":"8d34aee9477dfbdc","toSide":"left","label":"공인/사설 IP?"},
+		{"id":"d3f1c80404ece936","fromNode":"8d34aee9477dfbdc","fromSide":"bottom","toNode":"e4125113df9b14b1","toSide":"top","label":"사설 IP를 할당받은 단말이 인터넷을 사용해야 한다면?"},
+		{"id":"d161cd85256fe266","fromNode":"e4125113df9b14b1","fromSide":"right","toNode":"753374dbc7fb7aed","toSide":"left","label":"상세 과정"},
+		{"id":"44d5a92f1d96aa8c","fromNode":"e4125113df9b14b1","fromSide":"bottom","toNode":"dd9302ecdbd8f783","toSide":"top"}
+	]
+}

@@ -1,200 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
+      "basename": "Namespace",
+      "path": "Projects/Study/Container/Docker/md/Namespace.md"
     },
     {
-      "basename": "학습 전략",
-      "path": "Projects/Plan/학습 전략.md"
+      "basename": "Cgroups",
+      "path": "Projects/Study/Container/Docker/md/Cgroups.md"
     },
     {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+      "basename": "컨테이너 가상화",
+      "path": "Projects/Study/Container/Docker/md/컨테이너 가상화.md"
     },
     {
-      "basename": "공부할 알고리즘",
-      "path": "Projects/Study/Algorithm/팁/공부할 알고리즘.md"
+      "basename": "Docker",
+      "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
     },
     {
-      "basename": "elice-4) 트리 위의 게임",
-      "path": "Projects/Study/Algorithm/오답노트/elice-4) 트리 위의 게임.md"
+      "basename": "해볼 것",
+      "path": "Projects/Study/3. DataStructure/해볼 것.md"
     },
     {
-      "basename": "2206) 벽 부수고 이동하기",
-      "path": "Projects/Study/Algorithm/오답노트/2206) 벽 부수고 이동하기.md"
+      "basename": "LXC",
+      "path": "Projects/Study/Container/Docker/md/LXC.md"
     },
     {
-      "basename": "2146) 다리 만들기",
-      "path": "Projects/Study/Algorithm/오답노트/2146) 다리 만들기.md"
+      "basename": "무제 파일",
+      "path": "Projects/Study/Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
     },
     {
-      "basename": "미니맥스 알고리즘(Minimax algorithm)",
-      "path": "Projects/Study/Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md"
+      "basename": "Cookie & Session",
+      "path": "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas"
     },
     {
-      "basename": "거듭제곱 분할 정복",
-      "path": "Projects/Study/Algorithm/약한 유형 정리/거듭제곱 분할 정복.md"
+      "basename": "HttpSession",
+      "path": "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas"
+    },
+    {
+      "basename": "UE5",
+      "path": "Projects/Study/10. Unreal/UE5.md"
+    },
+    {
+      "basename": "Virtual Memory",
+      "path": "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas"
+    },
+    {
+      "basename": "메모리 관리",
+      "path": "Projects/Study/6. OS/memory/canvas/메모리 관리.canvas"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/6. OS/Thrashing/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "RAID",
+      "path": "Projects/Study/6. OS/Disk/canvas/RAID.canvas"
+    },
+    {
+      "basename": "Semaphore",
+      "path": "Projects/Study/6. OS/Concurrency/canvas/Semaphore.canvas"
+    },
+    {
+      "basename": "메모리 인터리빙",
+      "path": "Projects/Study/6. OS/Concurrency/md/메모리 인터리빙.md"
+    },
+    {
+      "basename": "Concurrency",
+      "path": "Projects/Study/6. OS/Concurrency/canvas/Concurrency.canvas"
+    },
+    {
+      "basename": "컴퓨터 부팅 과정",
+      "path": "Projects/Study/6. OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas"
+    },
+    {
+      "basename": "NAT",
+      "path": "Projects/Study/7. Network/NAT/canvas/NAT.canvas"
+    },
+    {
+      "basename": "GSLB",
+      "path": "Projects/Study/7. Network/GSLB/canvas/GSLB.canvas"
+    },
+    {
+      "basename": "Java Concurrency",
+      "path": "Projects/Study/Java/Concurrency/Java Concurrency.md"
+    },
+    {
+      "basename": "HTTP Connection",
+      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
     },
     {
       "basename": "SSL",
       "path": "Projects/Study/Auth/SSL/SSL.md"
     },
     {
-      "basename": "UE5",
-      "path": "Projects/Study/Unreal/UE5.md"
+      "basename": "레지스터",
+      "path": "Projects/Study/5. ComputerStructure/Register/canvas/레지스터.canvas"
     },
     {
-      "basename": "온라인 결제 프로세스",
-      "path": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md"
+      "basename": "32bit vs 64bit",
+      "path": "Projects/Study/5. ComputerStructure/Memory/canvas/32bit vs 64bit.canvas"
     },
     {
-      "basename": "코드 커버리지",
-      "path": "Projects/Posting/Test/코드 커버리지.md"
+      "basename": "32비트의 메모리 한계",
+      "path": "Projects/Study/5. ComputerStructure/Memory/md/32비트의 메모리 한계.md"
     },
     {
-      "basename": "테스트 데이터 초기화",
-      "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
+      "basename": "32비트 vs 64비트",
+      "path": "Projects/Study/5. ComputerStructure/Memory/md/32비트 vs 64비트.md"
     },
     {
-      "basename": "위경도 값에 BigDecimal or Double",
-      "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
+      "basename": "컴퓨터 시간 원리",
+      "path": "Projects/Study/5. ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
     },
     {
-      "basename": "정적 팩토리 메서드",
-      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
+      "basename": "RTC",
+      "path": "Projects/Study/5. ComputerStructure/Clock/md/RTC.md"
     },
     {
-      "basename": "System.out.println 사용을 지양하라",
-      "path": "Projects/Posting/Java/System.out.println 사용을 지양하라.md"
+      "basename": "NTP 서버",
+      "path": "Projects/Study/5. ComputerStructure/Clock/md/NTP 서버.md"
     },
     {
-      "basename": "boolean parameter를 너무 사랑하지마세요.",
-      "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
+      "basename": "NTP",
+      "path": "Projects/Study/5. ComputerStructure/Clock/md/NTP.md"
     },
     {
-      "basename": "HttpSession",
-      "path": "Projects/Posting/HTTP/HttpSession.md"
+      "basename": "실수 표현 방식",
+      "path": "Projects/Study/5. ComputerStructure/실수/md/실수 표현 방식.md"
     },
     {
-      "basename": "null",
-      "path": "Projects/Posting/DB/null.md"
+      "basename": "무제 파일",
+      "path": "Projects/Study/5. ComputerStructure/실수/canvas/무제 파일.canvas"
     },
     {
-      "basename": "JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유",
-      "path": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md"
+      "basename": "의미 주소 지정 방식(Implied mode)",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/의미 주소 지정 방식(Implied mode).md"
     },
     {
-      "basename": "트랜잭션 전파",
-      "path": "Projects/Posting/DB/트랜잭션 전파.md"
+      "basename": "즉치 주소 지정 방식(Immediate mode)",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/즉치 주소 지정 방식(Immediate mode).md"
     },
     {
-      "basename": "EBP, ESP Register",
-      "path": "Projects/Posting/Computer Structure/EBP, ESP Register.md"
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/주소 지정 방식.md"
     },
     {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
     },
     {
-      "basename": "캐시 선택",
-      "path": "Projects/Posting/Cache/캐시 선택.md"
+      "basename": "직접 주소 지정 방식 & 간접 주소 지정 방식",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/직접 주소 지정 방식 & 간접 주소 지정 방식.md"
     },
     {
-      "basename": "Pasted image 20240920025928",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20240920025928.png"
+      "basename": "레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md"
     },
     {
-      "basename": "Pasted image 20241013132929",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20241013132929.png"
+      "basename": "상대 주소 지정 방식(Relative addressing mode)",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/상대 주소 지정 방식(Relative addressing mode).md"
     },
     {
-      "basename": "12.1.1",
-      "path": "Projects/Study/C, C++/resources/12.1.1.webp"
+      "basename": "인덱스 된 주소 지정 방식(Indexed addressing mode)",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/인덱스 된 주소 지정 방식(Indexed addressing mode).md"
     },
     {
-      "basename": "14.1.9",
-      "path": "Projects/Study/C, C++/resources/14.1.9.webp"
+      "basename": "유휴주소",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/유휴주소.md"
     },
     {
-      "basename": "14.1.5",
-      "path": "Projects/Study/C, C++/resources/14.1.5.webp"
+      "basename": "주소 지정(Addressing)",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/주소 지정(Addressing).md"
     },
     {
-      "basename": "14. function, mem_fn, bind",
-      "path": "Projects/Study/C, C++/14. function, mem_fn, bind.md"
+      "basename": "주소 지정방식 필드를 가진 명령어 형식",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/주소 지정방식 필드를 가진 명령어 형식.md"
     },
     {
-      "basename": "15. thread",
-      "path": "Projects/Study/C, C++/15. thread.md"
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
     },
     {
-      "basename": "switch 문의 제약사항",
-      "path": "Projects/Study/C, C++/switch 문의 제약사항.md"
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/텍스트 표현.md"
     },
     {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Projects/Study/C, C++/13-2. shared_ptr, weak_ptr.md"
+      "basename": "아스키 코드",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/아스키 코드.md"
     },
     {
-      "basename": "연산자 오버로딩",
-      "path": "Projects/Study/C, C++/연산자 오버로딩.md"
+      "basename": "유니코드",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/유니코드.md"
     },
     {
-      "basename": "배열은 배열이고 포인터는 포인터이다.",
-      "path": "Projects/Study/C, C++/배열은 배열이고 포인터는 포인터이다..md"
+      "basename": "유니코드 변환 형식",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
     },
     {
-      "basename": "13-1. unique_ptr",
-      "path": "Projects/Study/C, C++/13-1. unique_ptr.md"
-    },
-    {
-      "basename": "12-2. Move",
-      "path": "Projects/Study/C, C++/12-2. Move.md"
-    },
-    {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Projects/Study/C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
-    },
-    {
-      "basename": "11. 예외처리",
-      "path": "Projects/Study/C, C++/11. 예외처리.md"
-    },
-    {
-      "basename": "10-4. string",
-      "path": "Projects/Study/C, C++/10-4. string.md"
-    },
-    {
-      "basename": "10-3. STL - sequence container",
-      "path": "Projects/Study/C, C++/10-3. STL - sequence container.md"
-    },
-    {
-      "basename": "10-2. STL - associative container",
-      "path": "Projects/Study/C, C++/10-2. STL - associative container.md"
-    },
-    {
-      "basename": "10-1. STL - algorithm",
-      "path": "Projects/Study/C, C++/10-1. STL - algorithm.md"
-    },
-    {
-      "basename": "new vs malloc",
-      "path": "Projects/Study/C, C++/new vs malloc.md"
-    },
-    {
-      "basename": "cc vs cpp",
-      "path": "Projects/Study/C, C++/cc vs cpp.md"
-    },
-    {
-      "basename": "포인터에는 왜 타입이 없을까",
-      "path": "Projects/Study/C, C++/포인터에는 왜 타입이 없을까.md"
-    },
-    {
-      "basename": "보초콘",
-      "path": "Projects/Study/OS/보초콘.md"
-    },
-    {
-      "basename": "Pasted image 20241005171238",
-      "path": "Projects/Study/C, C++/resources/Pasted image 20241005171238.png"
+      "basename": "UTF-8",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/UTF-8.md"
     }
   ],
   "omittedPaths": [],
