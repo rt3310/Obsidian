@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20240319144924",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20240319144924.png"
+    },
+    {
+      "basename": "Quick Sort vs Merge Sort",
+      "path": "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md"
+    },
+    {
+      "basename": "공부할 알고리즘",
+      "path": "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md"
+    },
+    {
+      "basename": "자주 하는 실수 모음",
+      "path": "Projects/Study/4. Algorithm/팁/자주 하는 실수 모음.md"
+    },
+    {
+      "basename": "2146) 다리 만들기",
+      "path": "Projects/Study/4. Algorithm/오답노트/2146) 다리 만들기.md"
+    },
+    {
+      "basename": "해볼 것",
+      "path": "Projects/Study/3. DataStructure/해볼 것.md"
+    },
+    {
       "basename": "Namespace",
       "path": "Projects/Study/Container/Docker/md/Namespace.md"
     },
@@ -15,10 +39,6 @@
     {
       "basename": "Docker",
       "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
-    },
-    {
-      "basename": "해볼 것",
-      "path": "Projects/Study/3. DataStructure/해볼 것.md"
     },
     {
       "basename": "LXC",
@@ -38,7 +58,7 @@
     },
     {
       "basename": "UE5",
-      "path": "Projects/Study/10. Unreal/UE5.md"
+      "path": "Projects/Study/11. Unreal/UE5.md"
     },
     {
       "basename": "Virtual Memory",
@@ -179,26 +199,6 @@
     {
       "basename": "텍스트 표현",
       "path": "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
-    },
-    {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/텍스트 표현.md"
-    },
-    {
-      "basename": "아스키 코드",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/아스키 코드.md"
-    },
-    {
-      "basename": "유니코드",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/유니코드.md"
-    },
-    {
-      "basename": "유니코드 변환 형식",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
-    },
-    {
-      "basename": "UTF-8",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/UTF-8.md"
     }
   ],
   "omittedPaths": [],
