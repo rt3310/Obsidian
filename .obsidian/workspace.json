@@ -98,7 +98,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -204,7 +205,7 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "6e17aac5b2b0b209",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Projects/Plan/학습 전략.md",
     "Projects/Plan/어떻게 공부해야 할까.md",
