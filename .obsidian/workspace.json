@@ -55,10 +55,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Projects/Study/4. Algorithm/resources/Pasted image 20240319144924.png"
+                "file": "Projects/Plan/게임 클라이언트 로드맵.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20240319144924"
+              "title": "게임 클라이언트 로드맵"
             }
           }
         ],
@@ -230,8 +230,19 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "c79672d7e5d4b622",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Projects/Plan/무제 파일.md",
+    "Projects/Plan/게임 클라이언트 로드맵.png",
+    "Projects/Study/1. C, C++/10-1. STL - algorithm.md",
+    "Projects/Study/1. C, C++/10-2. STL - associative container.md",
+    "Projects/Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md",
+    "Projects/Study/1. C, C++/11. 예외처리.md",
+    "Projects/Study/1. C, C++/15. thread.md",
+    "Projects/Study/1. C, C++/cc vs cpp.md",
+    "Projects/Study/1. C, C++/포인터에는 왜 타입이 없을까.md",
+    "Projects/Study/1. C, C++/템플릿.md",
+    "Projects/Study/1. C, C++/12-2. Move.md",
     "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/4. Algorithm/resources/Pasted image 20240319144924.png",
     "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md",
@@ -263,16 +274,6 @@
     "Projects/Plan/어떻게 공부해야 할까.md",
     "Projects/Info/성능 예산.md",
     "Projects/Study/4. Algorithm/오답노트/elice-4) 트리 위의 게임.md",
-    "Projects/Study/4. Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
-    "Projects/Study/4. Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
-    "Projects/Study/4. Algorithm/약한 유형 정리/거듭제곱 분할 정복.md",
-    "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md",
-    "Projects/Posting/Test/코드 커버리지.md",
-    "Projects/Posting/Test/테스트 데이터 초기화.md",
-    "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md",
-    "Projects/Posting/Java/정적 팩토리 메서드.md",
-    "Projects/Posting/Java/System.out.println 사용을 지양하라.md",
-    "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md",
     "Projects/Study/1. C, C++/resources/Pasted image 20240920025928.png",
     "Projects/Study/1. C, C++/resources/Pasted image 20241013132929.png",
     "Projects/Study/1. C, C++/resources/12.1.1.webp",
@@ -281,7 +282,6 @@
     "Projects/Study/1. C, C++/resources/Pasted image 20241013132818.png",
     "Projects/Study/1. C, C++/resources/Pasted image 20241013132223.png",
     "Projects/Study/1. C, C++/resources/Pasted image 20241013003841.png",
-    "Projects/Study/1. C, C++/resources/Pasted image 20241012205209.png",
     "Projects/Study/Java/Concurrency",
     "Projects/Study/11. Unreal",
     "Projects/Study/Javascript/resources",
