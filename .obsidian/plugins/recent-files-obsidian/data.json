@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Projects/Plan/게임 클라이언트 로드맵.png"
+    },
+    {
       "basename": "pgs) 줄 서는 방법",
       "path": "Projects/Study/4. Algorithm/오답노트/pgs) 줄 서는 방법.md"
     },
@@ -15,14 +27,6 @@
     {
       "basename": "2146) 다리 만들기",
       "path": "Projects/Study/4. Algorithm/오답노트/2146) 다리 만들기.md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Projects/Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
     },
     {
       "basename": "미니맥스 알고리즘(Minimax algorithm)",
@@ -195,10 +199,6 @@
     {
       "basename": "RTC",
       "path": "Projects/Study/5. ComputerStructure/Clock/md/RTC.md"
-    },
-    {
-      "basename": "NTP 서버",
-      "path": "Projects/Study/5. ComputerStructure/Clock/md/NTP 서버.md"
     }
   ],
   "omittedPaths": [],
