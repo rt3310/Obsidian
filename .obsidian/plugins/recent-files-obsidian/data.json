@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "pgs) 줄 서는 방법",
+      "path": "Projects/Study/4. Algorithm/오답노트/pgs) 줄 서는 방법.md"
+    },
+    {
+      "basename": "elice-4) 트리 위의 게임",
+      "path": "Projects/Study/4. Algorithm/오답노트/elice-4) 트리 위의 게임.md"
+    },
+    {
+      "basename": "2206) 벽 부수고 이동하기",
+      "path": "Projects/Study/4. Algorithm/오답노트/2206) 벽 부수고 이동하기.md"
+    },
+    {
+      "basename": "2146) 다리 만들기",
+      "path": "Projects/Study/4. Algorithm/오답노트/2146) 다리 만들기.md"
+    },
+    {
       "basename": "게임 클라이언트 로드맵",
       "path": "Projects/Plan/게임 클라이언트 로드맵.png"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "미니맥스 알고리즘(Minimax algorithm)",
+      "path": "Projects/Study/4. Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md"
+    },
+    {
+      "basename": "해볼 것",
+      "path": "Projects/Study/3. DataStructure/해볼 것.md"
     },
     {
       "basename": "10-1. STL - algorithm",
@@ -55,14 +83,6 @@
     {
       "basename": "자주 하는 실수 모음",
       "path": "Projects/Study/4. Algorithm/팁/자주 하는 실수 모음.md"
-    },
-    {
-      "basename": "2146) 다리 만들기",
-      "path": "Projects/Study/4. Algorithm/오답노트/2146) 다리 만들기.md"
-    },
-    {
-      "basename": "해볼 것",
-      "path": "Projects/Study/3. DataStructure/해볼 것.md"
     },
     {
       "basename": "Namespace",
@@ -179,22 +199,6 @@
     {
       "basename": "NTP 서버",
       "path": "Projects/Study/5. ComputerStructure/Clock/md/NTP 서버.md"
-    },
-    {
-      "basename": "NTP",
-      "path": "Projects/Study/5. ComputerStructure/Clock/md/NTP.md"
-    },
-    {
-      "basename": "실수 표현 방식",
-      "path": "Projects/Study/5. ComputerStructure/실수/md/실수 표현 방식.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/5. ComputerStructure/실수/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "의미 주소 지정 방식(Implied mode)",
-      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/md/의미 주소 지정 방식(Implied mode).md"
     }
   ],
   "omittedPaths": [],

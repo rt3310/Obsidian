@@ -53,12 +53,14 @@
             "id": "c79672d7e5d4b622",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Plan/게임 클라이언트 로드맵.png"
+                "file": "Projects/Study/4. Algorithm/오답노트/pgs) 줄 서는 방법.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "게임 클라이언트 로드맵"
+              "icon": "lucide-file",
+              "title": "pgs) 줄 서는 방법"
             }
           }
         ],
@@ -230,10 +232,17 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "c79672d7e5d4b622",
   "lastOpenFiles": [
-    "Projects/Plan/무제 파일.md",
+    "Projects/Study/4. Algorithm/오답노트/elice-4) 트리 위의 게임.md",
+    "Projects/Study/4. Algorithm/오답노트/pgs) 줄 서는 방법.md",
+    "Projects/Study/4. Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
+    "Projects/Study/4. Algorithm/오답노트/2146) 다리 만들기.md",
     "Projects/Plan/게임 클라이언트 로드맵.png",
+    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Study/4. Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
+    "Projects/Study/3. DataStructure/해볼 것.md",
+    "Projects/Plan/무제 파일.md",
     "Projects/Study/1. C, C++/10-1. STL - algorithm.md",
     "Projects/Study/1. C, C++/10-2. STL - associative container.md",
     "Projects/Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md",
@@ -247,8 +256,6 @@
     "Projects/Study/4. Algorithm/resources/Pasted image 20240319144924.png",
     "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md",
     "Projects/Study/4. Algorithm/팁/자주 하는 실수 모음.md",
-    "Projects/Study/4. Algorithm/오답노트/2146) 다리 만들기.md",
-    "Projects/Study/3. DataStructure/해볼 것.md",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",
     "Projects/Study/9. Graphics",
     "Projects/Study/10. Unity",
@@ -270,10 +277,6 @@
     "Projects/Study/5. ComputerStructure/해시/Hash flooding.md",
     "Projects/Plan/공부할 것들.md",
     "Projects/Study/5. ComputerStructure/해시",
-    "Projects/Plan/학습 전략.md",
-    "Projects/Plan/어떻게 공부해야 할까.md",
-    "Projects/Info/성능 예산.md",
-    "Projects/Study/4. Algorithm/오답노트/elice-4) 트리 위의 게임.md",
     "Projects/Study/1. C, C++/resources/Pasted image 20240920025928.png",
     "Projects/Study/1. C, C++/resources/Pasted image 20241013132929.png",
     "Projects/Study/1. C, C++/resources/12.1.1.webp",
