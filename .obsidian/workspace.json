@@ -55,15 +55,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
+                "file": "Projects/Study/8. DB/SQL/canvas/Join.canvas",
                 "viewState": {
-                  "x": 602,
-                  "y": -1372,
-                  "zoom": -2.7767694653742674
+                  "x": 885,
+                  "y": 387.5,
+                  "zoom": -2.4913437893910273
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "정규화"
+              "title": "Join"
             }
           }
         ],
@@ -235,8 +235,9 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "c79672d7e5d4b622",
   "lastOpenFiles": [
+    "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
     "Projects/Study/8. DB/SQL/canvas/Join.canvas",
     "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Plan/공부할 것들.md",
@@ -276,7 +277,6 @@
     "Projects/Study/6. OS/memory/canvas/메모리 관리.canvas",
     "Projects/Study/OS/보초콘.md",
     "Projects/Study/6. OS/Thrashing/canvas/무제 파일.canvas",
-    "Projects/Study/6. OS/Disk/canvas/RAID.canvas",
     "Projects/Study/Java/Concurrency/Java Concurrency.md",
     "Projects/Study/Auth/SSL/SSL.md",
     "Projects/Study/5. ComputerStructure/해시",

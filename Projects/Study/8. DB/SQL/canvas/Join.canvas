@@ -8,8 +8,8 @@
 		{"id":"05b3bd569924efa2","type":"file","file":"Projects/Study/8. DB/SQL/md/서브쿼리 조인.md","x":-692,"y":197,"width":494,"height":115},
 		{"id":"80227bdd4f6f2afa","type":"text","text":"- NL 조인\n- 소트머지 조인\n- 해시 조인\n- 서브쿼리 조인","x":-320,"y":-100,"width":201,"height":130},
 		{"id":"d52a494ff0838809","type":"text","text":"# Join","x":-600,"y":-65,"width":116,"height":60},
-		{"id":"0cf27a343ec4c115","type":"text","text":"- leading이나 ordered 힌트를 사용\n\t- 이들 힌트로 지시한 순서에 따라 가장 먼저 읽는 테이블을 Build Input으로 선택한다.\n- swap_join_inputs 힌트로 Build Input를 명시적으로 선택할 수도 있다.","x":1720,"y":-540,"width":582,"height":126},
-		{"id":"b2e6d934bd68761b","type":"text","text":"- 소량 데이터 조인할 때 : **NL 조인**\n- 대량 데이터 조인할 때 : **해시 조인**\n- 대량 데이터 조인인데 해시 조인으로 처리할 수 없을 때, 즉 조인 조건식이 등치(=) 조건이 아닐 때 : **소트 머지 조인**","x":1720,"y":-220,"width":504,"height":126}
+		{"id":"0cf27a343ec4c115","type":"text","text":"- leading이나 ordered 힌트를 사용\n\t- 이들 힌트로 지시한 순서에 따라 가장 먼저 읽는 테이블을 Build Input으로 선택한다.\n- swap_join_inputs 힌트로 Build Input를 명시적으로 선택할 수도 있다.","x":1880,"y":-553,"width":582,"height":126},
+		{"id":"b2e6d934bd68761b","type":"text","text":"- 소량 데이터 조인할 때 : **NL 조인**\n- 대량 데이터 조인할 때 : **해시 조인**\n- 대량 데이터 조인인데 해시 조인으로 처리할 수 없을 때, 즉 조인 조건식이 등치(=) 조건이 아닐 때 : **소트 머지 조인**","x":1880,"y":-233,"width":504,"height":126}
 	],
 	"edges":[
 		{"id":"f6fd51ea54930034","fromNode":"d52a494ff0838809","fromSide":"right","toNode":"80227bdd4f6f2afa","toSide":"left","label":"방식"},

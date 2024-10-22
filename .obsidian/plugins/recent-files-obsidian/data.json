@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "정규화",
-      "path": "Projects/Study/8. DB/Normalization/canvas/정규화.canvas"
-    },
-    {
       "basename": "Join",
       "path": "Projects/Study/8. DB/SQL/canvas/Join.canvas"
+    },
+    {
+      "basename": "정규화",
+      "path": "Projects/Study/8. DB/Normalization/canvas/정규화.canvas"
     },
     {
       "basename": "트랜잭션 격리 수준",
