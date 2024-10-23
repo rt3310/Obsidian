@@ -47,4 +47,11 @@ https://m.blog.naver.com/dj3630/221447943453
 ## Quaternion In Animation
 
 인스펙터에서 게임오브젝터의 회전 값을 X: 0, Y: 365, Z: 0으로 입력했을 때 이 값을 Quaternion으로 표현할 수 없으므로 재생을 누르면 오브젝트의 회전값이 X: 0, Y: 5, Z: 0(또는 기타 유사한 값)으로 변경되는 부작용이 있다.
-'360도 전체 회전 더하기 5도'라는 개념을 
+'360도 전체 회전 더하기 5도'라는 개념을 이해하지 못하고 단순히 회전 결과와 동일한 방법으로 회전하도록 설정된 Quaternion으로 변환되기 때문이다.
+
+스크립트에서 회전을 처리하는 경우 Quaternion 클래스와 이 클래스의 메서드를 이용해 회전 값을 만들고 수정해야 한다.
+- 오일러 각을 관장하는 Quaternion 클래스 메서드가 있기에 오일러 각을 사용할 수도 있지만, 의도하지 않은 부작용이 발생할 수 있기에 정확한 원리를 알고 조작해야 한다.
+- ex) Quaternion을 통해 오일러 값에 접근해서 수정한 후 다시 Quaternion을 변환해서 적용하면 문제가 발생한다. 따라서 오일러 각 관련 메서드는 값을 받아와서 수정하지 않고 바로 적용하는 방식으로만 사용해야 한다.
+
+180도가 넘는 회전이 일어날 때 Quaternion의 특성에 유의해야 한다.
+https://stackoverflow.com/questions/50311059/unity-rotate-an-object-in-axis-and-back-to-starting-point-in-the-same-direction
