@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Slerp vs Lerp",
+      "path": "Projects/Study/10. Unity/Slerp vs Lerp.md"
+    },
+    {
       "basename": "Join",
       "path": "Projects/Study/8. DB/SQL/canvas/Join.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Semaphore",
       "path": "Projects/Study/6. OS/Concurrency/canvas/Semaphore.canvas"
-    },
-    {
-      "basename": "메모리 인터리빙",
-      "path": "Projects/Study/6. OS/Concurrency/md/메모리 인터리빙.md"
     }
   ],
   "omittedPaths": [],

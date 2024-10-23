@@ -53,17 +53,14 @@
             "id": "c79672d7e5d4b622",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/8. DB/SQL/canvas/Join.canvas",
-                "viewState": {
-                  "x": 885,
-                  "y": 387.5,
-                  "zoom": -2.4913437893910273
-                }
+                "file": "Projects/Study/10. Unity/Slerp vs Lerp.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Join"
+              "icon": "lucide-file",
+              "title": "Slerp vs Lerp"
             }
           }
         ],
@@ -133,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -237,8 +235,12 @@
   },
   "active": "c79672d7e5d4b622",
   "lastOpenFiles": [
-    "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
+    "Pasted image 20241023144241.png",
+    "Pasted image 20241023144224.png",
+    "Pasted image 20241023144133.png",
     "Projects/Study/8. DB/SQL/canvas/Join.canvas",
+    "Projects/Study/10. Unity/Slerp vs Lerp.md",
+    "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
     "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Plan/공부할 것들.md",
     "Projects/Plan/어떻게 공부해야 할까.md",
@@ -276,9 +278,7 @@
     "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/6. OS/memory/canvas/메모리 관리.canvas",
     "Projects/Study/OS/보초콘.md",
-    "Projects/Study/6. OS/Thrashing/canvas/무제 파일.canvas",
     "Projects/Study/Java/Concurrency/Java Concurrency.md",
-    "Projects/Study/Auth/SSL/SSL.md",
     "Projects/Study/5. ComputerStructure/해시",
     "Projects/Study/1. C, C++/resources/Pasted image 20240920025928.png",
     "Projects/Study/1. C, C++/resources/Pasted image 20241013132929.png",
@@ -286,8 +286,6 @@
     "Projects/Study/1. C, C++/resources/14.1.9.webp",
     "Projects/Study/1. C, C++/resources/14.1.5.webp",
     "Projects/Study/1. C, C++/resources/Pasted image 20241013132818.png",
-    "Projects/Study/1. C, C++/resources/Pasted image 20241013132223.png",
-    "Projects/Study/1. C, C++/resources/Pasted image 20241013003841.png",
     "Projects/Study/Java/Concurrency",
     "Projects/Study/11. Unreal",
     "Projects/Study/Javascript/resources",
