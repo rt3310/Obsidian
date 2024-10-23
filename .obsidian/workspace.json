@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/10. Unity/Slerp vs Lerp.md",
+                "file": "Projects/Study/10. Unity/Quaternion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Slerp vs Lerp"
+              "title": "Quaternion"
             }
           }
         ],
@@ -235,11 +235,15 @@
   },
   "active": "c79672d7e5d4b622",
   "lastOpenFiles": [
+    "Projects/Study/10. Unity/Order of execution for event functions.md",
+    "Projects/Study/10. Unity/Quaternion.md",
+    "Pasted image 20241023161752.png",
+    "Projects/Study/10. Unity/Slerp vs Lerp.md",
+    "Pasted image 20241023161736.png",
     "Pasted image 20241023144241.png",
     "Pasted image 20241023144224.png",
     "Pasted image 20241023144133.png",
     "Projects/Study/8. DB/SQL/canvas/Join.canvas",
-    "Projects/Study/10. Unity/Slerp vs Lerp.md",
     "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
     "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Plan/공부할 것들.md",
@@ -278,14 +282,10 @@
     "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/6. OS/memory/canvas/메모리 관리.canvas",
     "Projects/Study/OS/보초콘.md",
-    "Projects/Study/Java/Concurrency/Java Concurrency.md",
     "Projects/Study/5. ComputerStructure/해시",
     "Projects/Study/1. C, C++/resources/Pasted image 20240920025928.png",
     "Projects/Study/1. C, C++/resources/Pasted image 20241013132929.png",
     "Projects/Study/1. C, C++/resources/12.1.1.webp",
-    "Projects/Study/1. C, C++/resources/14.1.9.webp",
-    "Projects/Study/1. C, C++/resources/14.1.5.webp",
-    "Projects/Study/1. C, C++/resources/Pasted image 20241013132818.png",
     "Projects/Study/Java/Concurrency",
     "Projects/Study/11. Unreal",
     "Projects/Study/Javascript/resources",

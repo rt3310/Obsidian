@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Quaternion",
+      "path": "Projects/Study/10. Unity/Quaternion.md"
+    },
+    {
+      "basename": "Order of execution for event functions",
+      "path": "Projects/Study/10. Unity/Order of execution for event functions.md"
+    },
+    {
+      "basename": "Pasted image 20241023161752",
+      "path": "Pasted image 20241023161752.png"
+    },
+    {
       "basename": "Slerp vs Lerp",
       "path": "Projects/Study/10. Unity/Slerp vs Lerp.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "메모리 관리",
       "path": "Projects/Study/6. OS/memory/canvas/메모리 관리.canvas"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/6. OS/Thrashing/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "RAID",
-      "path": "Projects/Study/6. OS/Disk/canvas/RAID.canvas"
-    },
-    {
-      "basename": "Semaphore",
-      "path": "Projects/Study/6. OS/Concurrency/canvas/Semaphore.canvas"
     }
   ],
   "omittedPaths": [],
