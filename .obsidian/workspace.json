@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/10. Unity/Quaternion.md",
+                "file": "Projects/Study/12. Game/Cellular Automata Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quaternion"
+              "title": "Cellular Automata Algorithm"
             }
           }
         ],
@@ -130,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -235,8 +234,11 @@
   },
   "active": "c79672d7e5d4b622",
   "lastOpenFiles": [
-    "Projects/Study/10. Unity/Order of execution for event functions.md",
+    "Projects/Study/12. Game/충돌 처리.md",
+    "Projects/Study/12. Game/Cellular Automata Algorithm.md",
     "Projects/Study/10. Unity/Quaternion.md",
+    "Projects/Study/12. Game",
+    "Projects/Study/10. Unity/Order of execution for event functions.md",
     "Pasted image 20241023161752.png",
     "Projects/Study/10. Unity/Slerp vs Lerp.md",
     "Pasted image 20241023161736.png",
@@ -278,10 +280,8 @@
     "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas",
     "Projects/Study/Employment/learning/Ultra Learning.canvas",
     "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
-    "Projects/Study/11. Unreal/UE5.md",
     "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/6. OS/memory/canvas/메모리 관리.canvas",
-    "Projects/Study/OS/보초콘.md",
     "Projects/Study/5. ComputerStructure/해시",
     "Projects/Study/1. C, C++/resources/Pasted image 20240920025928.png",
     "Projects/Study/1. C, C++/resources/Pasted image 20241013132929.png",
@@ -289,7 +289,6 @@
     "Projects/Study/Java/Concurrency",
     "Projects/Study/11. Unreal",
     "Projects/Study/Javascript/resources",
-    "Projects/Study/Javascript",
-    "Projects/Study/1. C, C++/resources"
+    "Projects/Study/Javascript"
   ]
 }

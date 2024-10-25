@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Cellular Automata Algorithm",
+      "path": "Projects/Study/12. Game/Cellular Automata Algorithm.md"
+    },
+    {
+      "basename": "충돌 처리",
+      "path": "Projects/Study/12. Game/충돌 처리.md"
+    },
+    {
       "basename": "Quaternion",
       "path": "Projects/Study/10. Unity/Quaternion.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "UE5",
       "path": "Projects/Study/11. Unreal/UE5.md"
-    },
-    {
-      "basename": "Virtual Memory",
-      "path": "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas"
-    },
-    {
-      "basename": "메모리 관리",
-      "path": "Projects/Study/6. OS/memory/canvas/메모리 관리.canvas"
     }
   ],
   "omittedPaths": [],
