@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "A-Star Algorithm",
+      "path": "Projects/Study/12. Game/A-Star Algorithm.md"
+    },
+    {
+      "basename": "BSP(Binary Space Partitioning) Algorithm",
+      "path": "Projects/Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md"
+    },
+    {
       "basename": "Cellular Automata Algorithm",
       "path": "Projects/Study/12. Game/Cellular Automata Algorithm.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "Cookie & Session",
       "path": "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas"
     }
   ],
   "omittedPaths": [],

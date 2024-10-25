@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/12. Game/Cellular Automata Algorithm.md",
+                "file": "Projects/Study/12. Game/A-Star Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cellular Automata Algorithm"
+              "title": "A-Star Algorithm"
             }
           }
         ],
@@ -116,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -221,10 +220,15 @@
   },
   "active": "487bcad5e4d82f13",
   "lastOpenFiles": [
+    "Projects/Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md",
+    "Projects/Study/12. Game/A-Star Algorithm.md",
+    "Pasted image 20241025120754.png",
+    "Pasted image 20241025120137.png",
+    "Pasted image 20241025120017.png",
+    "Projects/Study/12. Game/Cellular Automata Algorithm.md",
     "Projects/Study/12. Game/충돌 처리.md",
     "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md",
     "Projects/Study/12. Game/무제 파일.canvas",
-    "Projects/Study/12. Game/Cellular Automata Algorithm.md",
     "Pasted image 20241025113859.png",
     "Pasted image 20241025113857.png",
     "Pasted image 20241025113837.png",
@@ -236,13 +240,11 @@
     "Pasted image 20241023161736.png",
     "Pasted image 20241023144241.png",
     "Pasted image 20241023144224.png",
-    "Pasted image 20241023144133.png",
     "Projects/Study/8. DB/SQL/canvas/Join.canvas",
     "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
     "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Plan/공부할 것들.md",
     "Projects/Plan/어떻게 공부해야 할까.md",
-    "Projects/Plan/게임 클라이언트 로드맵.png",
     "Projects/Study/4. Algorithm/오답노트/pgs) 줄 서는 방법.md",
     "Projects/Study/4. Algorithm/오답노트/elice-4) 트리 위의 게임.md",
     "Projects/Study/4. Algorithm/오답노트/2206) 벽 부수고 이동하기.md",
@@ -259,8 +261,6 @@
     "Projects/Study/1. C, C++/포인터에는 왜 타입이 없을까.md",
     "Projects/Study/1. C, C++/템플릿.md",
     "Projects/Study/1. C, C++/12-2. Move.md",
-    "Projects/Study/4. Algorithm/resources/Pasted image 20240319144924.png",
-    "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",
     "Projects/Study/9. Graphics",
     "Projects/Study/10. Unity",
