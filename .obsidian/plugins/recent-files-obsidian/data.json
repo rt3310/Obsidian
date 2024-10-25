@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "사이클 찾기",
-      "path": "Projects/Study/4. Algorithm/약한 유형 정리/사이클 찾기.md"
+      "basename": "CH1",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md"
+    },
+    {
+      "basename": "Pasted image 20241025123006",
+      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025123006.png"
+    },
+    {
+      "basename": "Pasted image 20241025113837",
+      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025113837.png"
+    },
+    {
+      "basename": "Pasted image 20241023161752",
+      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241023161752.png"
     },
     {
       "basename": "Order of execution for event functions",
       "path": "Projects/Study/10. Unity/Order of execution for event functions.md"
+    },
+    {
+      "basename": "Pasted image 20241023144241",
+      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241023144241.png"
+    },
+    {
+      "basename": "Pasted image 20241023144224",
+      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241023144224.png"
+    },
+    {
+      "basename": "Pasted image 20241023144133",
+      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241023144133.png"
+    },
+    {
+      "basename": "Pasted image 20241025122426",
+      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025122426.png"
+    },
+    {
+      "basename": "Pasted image 20241025120137",
+      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025120137.png"
+    },
+    {
+      "basename": "Pasted image 20241025113859",
+      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025113859.png"
+    },
+    {
+      "basename": "사이클 찾기",
+      "path": "Projects/Study/4. Algorithm/약한 유형 정리/사이클 찾기.md"
     },
     {
       "basename": "TextMeshPro",
@@ -43,10 +83,6 @@
     {
       "basename": "Quick Sort vs Merge Sort",
       "path": "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md"
-    },
-    {
-      "basename": "Pasted image 20241023161752",
-      "path": "Pasted image 20241023161752.png"
     },
     {
       "basename": "Slerp vs Lerp",
@@ -163,42 +199,6 @@
     {
       "basename": "cc vs cpp",
       "path": "Projects/Study/1. C, C++/cc vs cpp.md"
-    },
-    {
-      "basename": "포인터에는 왜 타입이 없을까",
-      "path": "Projects/Study/1. C, C++/포인터에는 왜 타입이 없을까.md"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Projects/Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "12-2. Move",
-      "path": "Projects/Study/1. C, C++/12-2. Move.md"
-    },
-    {
-      "basename": "Pasted image 20240319144924",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20240319144924.png"
-    },
-    {
-      "basename": "공부할 알고리즘",
-      "path": "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md"
-    },
-    {
-      "basename": "자주 하는 실수 모음",
-      "path": "Projects/Study/4. Algorithm/팁/자주 하는 실수 모음.md"
-    },
-    {
-      "basename": "Namespace",
-      "path": "Projects/Study/Container/Docker/md/Namespace.md"
-    },
-    {
-      "basename": "Cgroups",
-      "path": "Projects/Study/Container/Docker/md/Cgroups.md"
-    },
-    {
-      "basename": "컨테이너 가상화",
-      "path": "Projects/Study/Container/Docker/md/컨테이너 가상화.md"
     }
   ],
   "omittedPaths": [],

@@ -87,5 +87,8 @@
   "Projects/Study/9. Graphics": "FarFolder",
   "Projects/Study/10. Unity": "FarFolder",
   "Projects/Study/11. Unreal": "FarFolder",
-  "Projects/Study/12. Game": "FarFolder"
+  "Projects/Study/12. Game": "FarFolder",
+  "Projects/Study/10. Unity/Resources": "FarFolder",
+  "Projects/Study/12. Game/Resources": "FarFolder",
+  "Projects/Study/5. ComputerStructure/최린 컴퓨터구조": "FarFolder"
 }
