@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "사이클 찾기",
+      "path": "Projects/Study/4. Algorithm/약한 유형 정리/사이클 찾기.md"
+    },
+    {
+      "basename": "Order of execution for event functions",
+      "path": "Projects/Study/10. Unity/Order of execution for event functions.md"
+    },
+    {
+      "basename": "TextMeshPro",
+      "path": "Projects/Study/10. Unity/TextMeshPro.md"
+    },
+    {
+      "basename": "PPU",
+      "path": "Projects/Study/10. Unity/PPU.md"
+    },
+    {
+      "basename": "Quaternion",
+      "path": "Projects/Study/10. Unity/Quaternion.md"
+    },
+    {
+      "basename": "Coroutine",
+      "path": "Projects/Study/10. Unity/Coroutine.md"
+    },
+    {
       "basename": "BSP(Binary Space Partitioning) Algorithm",
       "path": "Projects/Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md"
     },
@@ -19,14 +43,6 @@
     {
       "basename": "Quick Sort vs Merge Sort",
       "path": "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md"
-    },
-    {
-      "basename": "Quaternion",
-      "path": "Projects/Study/10. Unity/Quaternion.md"
-    },
-    {
-      "basename": "Order of execution for event functions",
-      "path": "Projects/Study/10. Unity/Order of execution for event functions.md"
     },
     {
       "basename": "Pasted image 20241023161752",
@@ -183,22 +199,6 @@
     {
       "basename": "컨테이너 가상화",
       "path": "Projects/Study/Container/Docker/md/컨테이너 가상화.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Projects/Study/Container/Docker/canvas/Docker.canvas"
-    },
-    {
-      "basename": "LXC",
-      "path": "Projects/Study/Container/Docker/md/LXC.md"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Projects/Study/Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "Cookie & Session",
-      "path": "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas"
     }
   ],
   "omittedPaths": [],
