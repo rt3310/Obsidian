@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "충돌 처리",
-      "path": "Projects/Study/12. Game/충돌 처리.md"
-    },
-    {
-      "basename": "A-Star Algorithm",
-      "path": "Projects/Study/12. Game/A-Star Algorithm.md"
-    },
-    {
       "basename": "BSP(Binary Space Partitioning) Algorithm",
       "path": "Projects/Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md"
     },
     {
       "basename": "Cellular Automata Algorithm",
       "path": "Projects/Study/12. Game/Cellular Automata Algorithm.md"
+    },
+    {
+      "basename": "충돌 처리 알고리즘",
+      "path": "Projects/Study/12. Game/충돌 처리 알고리즘.md"
+    },
+    {
+      "basename": "A-Star Algorithm",
+      "path": "Projects/Study/12. Game/A-Star Algorithm.md"
     },
     {
       "basename": "Quick Sort vs Merge Sort",
