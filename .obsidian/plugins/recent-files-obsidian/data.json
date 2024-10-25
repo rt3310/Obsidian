@@ -9,6 +9,10 @@
       "path": "Projects/Study/12. Game/충돌 처리.md"
     },
     {
+      "basename": "Quick Sort vs Merge Sort",
+      "path": "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md"
+    },
+    {
       "basename": "Quaternion",
       "path": "Projects/Study/10. Unity/Quaternion.md"
     },
@@ -149,10 +153,6 @@
       "path": "Projects/Study/1. C, C++/12-2. Move.md"
     },
     {
-      "basename": "Quick Sort vs Merge Sort",
-      "path": "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md"
-    },
-    {
       "basename": "Pasted image 20240319144924",
       "path": "Projects/Study/4. Algorithm/resources/Pasted image 20240319144924.png"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "HttpSession",
       "path": "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas"
-    },
-    {
-      "basename": "UE5",
-      "path": "Projects/Study/11. Unreal/UE5.md"
     }
   ],
   "omittedPaths": [],
