@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Java 8 HashMap에서의 Separate Chaning",
+      "path": "Projects/Study/Java/HashMap/md/Java 8 HashMap에서의 Separate Chaning.md"
+    },
+    {
       "basename": "HashMap",
       "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
     },
     {
       "basename": "해시 충돌",
       "path": "Projects/Study/Java/HashMap/md/해시 충돌.md"
+    },
+    {
+      "basename": "해시 분포",
+      "path": "Projects/Study/Java/HashMap/md/해시 분포.md"
     },
     {
       "basename": "Hash flooding",
@@ -191,14 +199,6 @@
     {
       "basename": "MVCC",
       "path": "Projects/Study/8. DB/Transaction/md/MVCC.md"
-    },
-    {
-      "basename": "Phantom Read",
-      "path": "Projects/Study/8. DB/Transaction/md/Phantom Read.md"
-    },
-    {
-      "basename": "REPEATABLE READ 작동 방식",
-      "path": "Projects/Study/8. DB/Transaction/md/REPEATABLE READ 작동 방식.md"
     }
   ],
   "omittedPaths": [],
