@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CH2",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2.md"
+    },
+    {
       "basename": "CH1",
       "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "15. thread",
       "path": "Projects/Study/1. C, C++/15. thread.md"
-    },
-    {
-      "basename": "cc vs cpp",
-      "path": "Projects/Study/1. C, C++/cc vs cpp.md"
     }
   ],
   "omittedPaths": [],
