@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2.md",
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH2"
+              "title": "CH3"
             }
           }
         ],
@@ -220,8 +220,12 @@
   },
   "active": "487bcad5e4d82f13",
   "lastOpenFiles": [
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3.md",
+    "Pasted image 20241026212517.png",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources/Pasted image 20241026212451.png",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md",
     "Projects/Study/12. Game/Resources/Pasted image 20241025123006.png",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조",
     "Projects/Study/12. Game/Resources/Pasted image 20241025113837.png",
@@ -234,8 +238,6 @@
     "Projects/Study/10. Unity/Resources/Pasted image 20241023144133.png",
     "Projects/Study/10. Unity/Resources",
     "Projects/Study/12. Game/Resources/Pasted image 20241025122426.png",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025120137.png",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025113859.png",
     "Projects/Study/4. Algorithm/약한 유형 정리/사이클 찾기.md",
     "Projects/Study/10. Unity/TextMeshPro.md",
     "Projects/Study/10. Unity/PPU.md",
@@ -262,8 +264,6 @@
     "Projects/Study/4. Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
     "Projects/Study/3. DataStructure/해볼 것.md",
     "Projects/Plan/무제 파일.md",
-    "Projects/Study/1. C, C++/10-1. STL - algorithm.md",
-    "Projects/Study/1. C, C++/10-2. STL - associative container.md",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",
     "Projects/Study/9. Graphics",
     "Projects/Study/10. Unity",
@@ -274,7 +274,6 @@
     "Projects/Study/Employment/learning/Ultra Learning.canvas",
     "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
     "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas",
-    "Projects/Study/5. ComputerStructure/해시",
-    "Projects/Study/Java/Concurrency"
+    "Projects/Study/5. ComputerStructure/해시"
   ]
 }

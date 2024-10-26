@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "CH3",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3.md"
+    },
+    {
       "basename": "CH2",
       "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2.md"
+    },
+    {
+      "basename": "Pasted image 20241026212451",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources/Pasted image 20241026212451.png"
     },
     {
       "basename": "CH1",
@@ -187,18 +195,6 @@
     {
       "basename": "10-2. STL - associative container",
       "path": "Projects/Study/1. C, C++/10-2. STL - associative container.md"
-    },
-    {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Projects/Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
-    },
-    {
-      "basename": "11. 예외처리",
-      "path": "Projects/Study/1. C, C++/11. 예외처리.md"
-    },
-    {
-      "basename": "15. thread",
-      "path": "Projects/Study/1. C, C++/15. thread.md"
     }
   ],
   "omittedPaths": [],
