@@ -41,15 +41,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "file": "Projects/Study/5. ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
                 "viewState": {
-                  "x": 3425.454266337925,
-                  "y": 429.2165135890682,
-                  "zoom": -0.3333333333333332
+                  "x": 1157.800619615827,
+                  "y": -564.7070928732344,
+                  "zoom": -1.3390058781476162
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "텍스트 표현"
+              "title": "주소 지정 방식"
             }
           }
         ],
@@ -223,6 +223,9 @@
   },
   "active": "487bcad5e4d82f13",
   "lastOpenFiles": [
+    "Projects/Study/5. ComputerStructure/실수/canvas/무제 파일.canvas",
+    "Projects/Study/5. ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+    "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2.md",
     "Pasted image 20241026212517.png",
@@ -275,8 +278,6 @@
     "Projects/Study/Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
     "Projects/Study/Web/HttpSession/canvas/Cookie & Session.canvas",
     "Projects/Study/Employment/learning/Ultra Learning.canvas",
-    "Projects/Study/Web/HttpSession/canvas/HttpSession.canvas",
-    "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas",
     "Projects/Study/5. ComputerStructure/해시"
   ]
 }

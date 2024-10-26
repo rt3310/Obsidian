@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Base64 인코딩의 단점을 감수하고도 왜 사용하는가",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/Base64 인코딩의 단점을 감수하고도 왜 사용하는가.md"
+      "basename": "주소 지정 방식",
+      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/5. ComputerStructure/실수/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "컴퓨터 시간 원리",
+      "path": "Projects/Study/5. ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "NTP 서버",
+      "path": "Projects/Study/5. ComputerStructure/Clock/md/NTP 서버.md"
+    },
+    {
+      "basename": "NTP",
+      "path": "Projects/Study/5. ComputerStructure/Clock/md/NTP.md"
     },
     {
       "basename": "텍스트 표현",
       "path": "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+    },
+    {
+      "basename": "Base64 인코딩의 단점을 감수하고도 왜 사용하는가",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/Base64 인코딩의 단점을 감수하고도 왜 사용하는가.md"
     },
     {
       "basename": "Base64 인코딩 단점",
@@ -179,26 +199,6 @@
     {
       "basename": "Non-Repeatable Read",
       "path": "Projects/Study/8. DB/Transaction/md/Non-Repeatable Read.md"
-    },
-    {
-      "basename": "READ COMMITTED 작동 방식",
-      "path": "Projects/Study/8. DB/Transaction/md/READ COMMITTED 작동 방식.md"
-    },
-    {
-      "basename": "READ UNCOMMITTED의 Dirty Read",
-      "path": "Projects/Study/8. DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Projects/Plan/게임 클라이언트 로드맵.png"
     }
   ],
   "omittedPaths": [],
