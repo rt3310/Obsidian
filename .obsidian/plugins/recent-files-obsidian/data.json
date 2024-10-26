@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "HashMap",
+      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
+      "basename": "해시 충돌",
+      "path": "Projects/Study/Java/HashMap/md/해시 충돌.md"
+    },
+    {
+      "basename": "Hash flooding",
+      "path": "Projects/Study/5. ComputerStructure/해시/Hash flooding.md"
+    },
+    {
       "basename": "주소 지정 방식",
       "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "REPEATABLE READ 작동 방식",
       "path": "Projects/Study/8. DB/Transaction/md/REPEATABLE READ 작동 방식.md"
-    },
-    {
-      "basename": "REPEATABLE READ",
-      "path": "Projects/Study/8. DB/Transaction/md/REPEATABLE READ.md"
-    },
-    {
-      "basename": "SERIALIZABLE",
-      "path": "Projects/Study/8. DB/Transaction/md/SERIALIZABLE.md"
-    },
-    {
-      "basename": "Non-Repeatable Read",
-      "path": "Projects/Study/8. DB/Transaction/md/Non-Repeatable Read.md"
     }
   ],
   "omittedPaths": [],
