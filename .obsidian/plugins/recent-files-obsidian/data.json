@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Base64 인코딩의 단점을 감수하고도 왜 사용하는가",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/Base64 인코딩의 단점을 감수하고도 왜 사용하는가.md"
+    },
+    {
       "basename": "텍스트 표현",
       "path": "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+    },
+    {
+      "basename": "Base64 인코딩 단점",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
+    },
+    {
+      "basename": "Base64 인코딩",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/Base64 인코딩.md"
+    },
+    {
+      "basename": "QP 인코딩",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/QP 인코딩.md"
     },
     {
       "basename": "UTF-8",
@@ -183,22 +199,6 @@
     {
       "basename": "게임 클라이언트 로드맵",
       "path": "Projects/Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "pgs) 줄 서는 방법",
-      "path": "Projects/Study/4. Algorithm/오답노트/pgs) 줄 서는 방법.md"
-    },
-    {
-      "basename": "elice-4) 트리 위의 게임",
-      "path": "Projects/Study/4. Algorithm/오답노트/elice-4) 트리 위의 게임.md"
-    },
-    {
-      "basename": "2206) 벽 부수고 이동하기",
-      "path": "Projects/Study/4. Algorithm/오답노트/2206) 벽 부수고 이동하기.md"
-    },
-    {
-      "basename": "2146) 다리 만들기",
-      "path": "Projects/Study/4. Algorithm/오답노트/2146) 다리 만들기.md"
     }
   ],
   "omittedPaths": [],
