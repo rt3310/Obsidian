@@ -39,14 +39,17 @@
             "id": "487bcad5e4d82f13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3.md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+                "viewState": {
+                  "x": 867.2282448327298,
+                  "y": 773.0058150021771,
+                  "zoom": -0.3333333333333332
+                }
               },
-              "icon": "lucide-file",
-              "title": "CH3"
+              "icon": "lucide-layout-dashboard",
+              "title": "텍스트 표현"
             }
           }
         ],
@@ -220,8 +223,8 @@
   },
   "active": "487bcad5e4d82f13",
   "lastOpenFiles": [
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2.md",
     "Pasted image 20241026212517.png",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources/Pasted image 20241026212451.png",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources",

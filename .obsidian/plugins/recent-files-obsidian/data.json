@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "텍스트 표현",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+    },
+    {
+      "basename": "UTF-8",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/UTF-8.md"
+    },
+    {
+      "basename": "유니코드 변환 형식",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
+    },
+    {
+      "basename": "유니코드",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/유니코드.md"
+    },
+    {
+      "basename": "아스키 코드",
+      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/아스키 코드.md"
+    },
+    {
       "basename": "CH3",
       "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "2146) 다리 만들기",
       "path": "Projects/Study/4. Algorithm/오답노트/2146) 다리 만들기.md"
-    },
-    {
-      "basename": "미니맥스 알고리즘(Minimax algorithm)",
-      "path": "Projects/Study/4. Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md"
-    },
-    {
-      "basename": "해볼 것",
-      "path": "Projects/Study/3. DataStructure/해볼 것.md"
-    },
-    {
-      "basename": "10-1. STL - algorithm",
-      "path": "Projects/Study/1. C, C++/10-1. STL - algorithm.md"
-    },
-    {
-      "basename": "10-2. STL - associative container",
-      "path": "Projects/Study/1. C, C++/10-2. STL - associative container.md"
     }
   ],
   "omittedPaths": [],
