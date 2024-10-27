@@ -29,32 +29,32 @@ load time 또는 runtime에 링킹을 수행한다.
 
 ## What Dose a Linker Do?
 ### Merges object files
-- Merge multiple relocatable(.o) object files into a single executable object file that can loaded and executed by the loader
+- 여러 relocatable object file을 로더에서 로드하고 실행할 수 있는 single executable object file로 병합한다.
 ### Resolves external references
-- As part of the merging process. resolves external references
-	- External reference: reference to a symbol defined in another object file
+- 병합 프로세스의 일부로, 외부 참조를 해결한다.
+	- 외부 참조: 다른 object file에 정의된 symbol reference
 ### Relocates symbols
-- relocates symbols from their relatives locations in the .o files to new absolute positions (virtual address space) in the executable
-- Updates all references to these symbols to reflect their new positions
-- References can be in either code or data
+- .o 파일에서의 relatives locations에서 실행가능한 파일에서의 새로운 absolute position(virtual address space)로 symbol을 재배치한다.
+- 이러한 symbol에 대한 모든 references를 업데이트하여 새로운 위치를 반영한다.
+- References는 code나 data중 하나일 수 있다.
 	- code: `a();`
 	- data: `int *xp = &x;`
 
 ## Why Linkers
 ### Modularity
-- Program can be written as a collection of smaller source files, rather than one monolithic mass
-- Can build libraries of common functions (more on this later)
+- 프로그램은 하나의 monolithic mass가 아닌 더 작은 source files의 모음으로 작성할 수 있다.
+- 일반적인 기능의 라이브러리를 구축할 수 있다
 	- e.g. math library, standard C library
 ### Efficiency
-- Time
-	- Change one source file, compile and then relink
-	- No need to recompile other source files
-- Space
-	- Libraries of common functions can be aggregated into a single file
-	- Yet executable files and running memory images contain only code for the functions they actually use
+- 시간
+	- source file하나를 변경하고, 컴파일한 다음 다시 연결하기
+	- 다른 source files을 다시 컴파일할 필요가 없다.
+- 공간
+	- 공통 기능 라이브러리를 single file로 통합할 수 있다.
+	- 그러나 실행 파일과 실행 중인 메모리 이미지에는 실제로 사용가능한 코드만 포함되어 있다.
 
 ## Object File Format
-### Object file format varies from system to system
+### Object file format은 시스템마다 다르다
 - Examples: a.out(early UNIX systems), COFF(Common Object File Format, used by early versions of system V), PE(Portable Executable, a variation of COFF used by Microsoft Windows), ELF(Used by modern UNIX including Linux)
 ### ELF(Executable and Linkable Format)
 - Standard binary format for object files
@@ -74,30 +74,30 @@ load time 또는 runtime에 링킹을 수행한다.
 ### Segment header table
 - Page size, virtual addresses of memory segments(sections), segment sizes, access permissions(readable, writable, ...)
 ### Section header table
-- Contains the locations and sizes of various sections
-- A fixed size entry for each section
+- 다양한 sections의 위치와 크기를 포함한다.
+- 각 섹션에 대한 고정 크기 항목
 ### .text section
-machine code
+- machine code
 ### .data section
-- initialized global variables
-- Local C variables are maintained at runtime on the stack and do not appear in .data or .bss section
+- 초기화된 전역 변수들
+- 로컬 C 변수는 스택에 런타임에 유지되며 .data나 .bss section에 나타나지 않는다.
 ### .bss section
-- uninitialized global variables
+- 초기화되지 않은 전역 변수들
 - "Block Storage Start" or **"Better Save Space!"**
-- Just a place holder and do not occupy space
+- place holder일 뿐 space를 차지하지 않는다.
 ### .symtab section
 - Symbol table
-- Information about function and global variables
+- 함수 및 전역 변수에 대한 정보
 ### .rel .text section
-- Relocation info for .text section
-- Addresses of instructions that will need to be modified in the executable
+- .text section의 재배치 정보
+- 실행 파일에서 수정해야 하는 명령어의 주소들
 ### .rel .data section
-- Relocation info for .data section
-- Address of pointer data that will need to be modified in the merged executable
+- .data section의 재배치 정보
+- 통합된 실행 파일에서 수정해야하는 pointer data의 주소
 ### .debug section
-- info for symbolic debugging (gcc -g)
+- symbolic debugging에 대한 정보 (gcc -g)
 ### .line section
-- Mapping between line numbers in source code and machine instructions in the .text section
+- source code의 line numbers와 .text section의 machine instructions 간 매핑
 ### .strtab section
 - String table for symbols in the symtab and debug
 
