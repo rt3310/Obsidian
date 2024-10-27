@@ -40,5 +40,3 @@
 		- Arguments, return address, saved registers, local variables
 - Stack pointer ($sp): stack의 top을 가리킨다.
 - Frame pointer ($fp): 상위 stack frame의 bottom을 가리킨다.
-
-![[Pasted image 20241026212451.png]]

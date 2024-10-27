@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "CH4 Instruction Architecture Set",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 Instruction Architecture Set.md"
+      "basename": "CH5 - Linker",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md"
     },
     {
       "basename": "CH3 - Instruction Architecture Set",
       "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md"
+    },
+    {
+      "basename": "CH4 - Instruction Architecture Set",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md"
     },
     {
       "basename": "CH2 - Instruction Architecture Set",
@@ -195,10 +199,6 @@
     {
       "basename": "Join",
       "path": "Projects/Study/8. DB/SQL/canvas/Join.canvas"
-    },
-    {
-      "basename": "정규화",
-      "path": "Projects/Study/8. DB/Normalization/canvas/정규화.canvas"
     }
   ],
   "omittedPaths": [],
