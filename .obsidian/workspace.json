@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md",
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH2 - Instruction Architecture Set"
+              "title": "CH5 - Linker"
             }
           }
         ],
@@ -220,11 +220,11 @@
   },
   "active": "487bcad5e4d82f13",
   "lastOpenFiles": [
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md",
     "Pasted image 20241028005955.png",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources/Pasted image 20241026212451.png",
     "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",

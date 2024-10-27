@@ -69,10 +69,17 @@ load time 또는 runtime에 링킹을 수행한다.
 
 ## ELF Object File Format
 ### ELF Header
-- Word size, byte ordering of the system, the machine type(e.g. IA32)
-- The size of ELF header, the object file type(e.g. relocatable, executable, or shared). the file offset of the section header table and the size and number of entries in the section header table.
+- Word 크기
+- 시스템의 byte ordering
+- machine 타입(e.g. IA32)
+- ELF header의 크기
+- object file 타입(e.g. relocatable, executable, or shared).
+- section header table의 file offset과 엔트리 크기, 엔트리 수.
 ### Segment header table
-- Page size, virtual addresses of memory segments(sections), segment sizes, access permissions(readable, writable, ...)
+- Page 크기
+- memory segments 가상 주소(sections)
+- segment 크기
+- 접근 권한(readable, writable, ...)
 ### Section header table
 - 다양한 sections의 위치와 크기를 포함한다.
 - 각 섹션에 대한 고정 크기 항목
@@ -103,37 +110,40 @@ load time 또는 runtime에 링킹을 수행한다.
 
 ## Life and Scope of an Object
 ### Life vs scope
-- Life of an object determines whether the object is in memory (of the process) whereas the scope of an object determines the section of code where the object can be accessed
-- It is possible that an object is live but not visible
-- It is not possible that an object is visible but not live.
+- 객체의 수명은 객체가 (프로세스의) 메모리에 있는지 여부를 결정하는 반면, 객체의 범위는 객체에 접근할 수 있는 코드 범위를 결정한다.
+- 객체가 살아있지만 보이지 않을 수 있다.
+- 객체가 살아있지 않으면 보일 수 없다.
 ### Local variables
-- Variables defined inside a function
-- The scope of these variables is only within this function (function scope)
-- The life of these variables ends when this function completes
-- So when we call the function again, the storage for variables is created and values are reinitialized
-- static local variables - If we want the value to be extent throughout the life of a program, we can define the local variable as "static."
-	- Initialization is performed only at the first call and data is retained between function calls
+- 함수 내부에 정의된 변수
+- 변수의 범위는 함수 안에만(function scope) 있다.
+- 함수가 완료되면 변수의 수명이 끝난다.
+- 따라서 함수를 다시 호출하면 변수에 대한 저장소가 생성되고 값이 다시 초기화 된다.
+- 정적 로컬 변수 - 값이 프로그램 수명 기간 동안 어느 정도 유지되기를 원한다면 로컬 변수를 "static"으로 정의할 수 있다.
+	- 초기화는 첫 번째 호출에서만 수행되며 함수 호출 간에 데이터가 유지된다.
 ### Global variables
-- Variables defined outside a function
-- The scope of these variables is throughout the entire program (global scope)
-- The life of these variables ends when the program completes
+- 함수 외부에 정의된 변수
+- 변수의 범위는 전체 프로그램에 걸쳐 있다(global scope).
+- 프로그램이 완료되면 변수의 수명이 끝난다.
 ### Static variables
-- Variables declared using 'static' keyword two types
-	- These variables are allocated statically (permanently) in memory
-- static variables: if a static variable is defined in a global space (asy at beginning of file) then this variable will be accessible only in this file(file scope)
-	- Static variables are local in scope to their module in which they are defined, but life is throughout the program.
-	- If you have a global variable and you are distributing your files as a library and you want others not to access your global variable. you may make it static by just prefixing keyword static
-	- Static local variables: static variables declared inside a function
+- 'static' 키워드를 사용하여 선언된 변수: 두 가지 유형
+	- 변수는 메모리에 정적으로(영구적으로) 할당된다.
+- **정적 변수**: 정적 변수가 전역 공간에 정의된 경우(e.g. 파일 시작 부분), 이 변수는 이 파일에서만 접근할 수 있다(file scope).
+	- 정적 변수는 정의된 모듈의 범위가 local이지만 수명은 프로그램 전체에 걸쳐있다.
+	- 전역 변수가 있고 파일을 라이브러리로 배포하는 경우, 다른 사용자가 전역 변수에 접근하지 못하도록 하고 싶다면, 'static' 키워드를 접두사로 붙여 정적으로 만들면 된다.
+- **정적 로컬 변수**: 함수 내부에 선언된 정적 변수
 
 ## Symbols
 ### Symbol
-- Reference to variable or to a function(code)
-	- Function names, global variables, static variables, static local variables
+- 변수나 함수(code)에 대한 참조
+	- 함수 이름, 전역 변수, 정적 변수, 정적 로컬 변수
 - Linker symbol != program variable
-### Three kinds of linker symbols
-- Global symbols that are defined by module m and that can be referenced by other module
-	- These are called externals
-- Local symbols that are defined and referenced exclusively by module m
-	- Static C functions and static variables
-	- Static local variables are not managed on the stack. Instead, the compiler allocates space in .data or in .bss
+### 세 가지 종류의 linker symbols
+- 모듈 m에 의해 정의되고 다른 모듈에서 참조할 수 있는 **global symbols**
+	- Nonstatic C 함수, nonstatic 전역 변수
+		- C static attribute 없이 정의된 함수 또는 전역 변수
+- 모듈 m에서 참조하지만 다른 모듈에서 정의하는 **global symbols**
+	- externals라고 부른다.
+- 모듈 m에서 독점적으로 정의하고 참조하는 **local symbols**
+	- 정적 C 함수,정적 변수
+	- 정적 로컬 변수는 스택에서 관리되지 않는다. 대신, 컴파일러는 **.data나 .bss에 공간을 할당**한다.
 	- Local linker symbol != local program variable

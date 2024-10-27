@@ -74,7 +74,7 @@ Source Program -[Lexical Analyzer]-> Token -[Syntax Analyzer]-> Tree -[Intermedi
 - rd: destination register
 - shamt: shift amount (immediate operand)
 - funct: function code, the specific variant of the opcode
-- 산술 논리 명령에 사용된다.
+- 정해진 산술 논리 명령에 사용된다.
 ### I-type
 | 6   | 5   | 5   | 16      |
 | --- | --- | --- | ------- |
