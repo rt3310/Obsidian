@@ -29,16 +29,18 @@
 - Word: 0, 4, 8, ...
 - Doubleword: 0, 8, ...
 
-<Machine Instruction>
-[Operate]
+## Machine Instruction
+#### Opcode : specifies the operation to be performed
 - ADD, MULT, LOAD, STORE, JUMP
 
-[Operands]
+#### Operands
 - Source operands (input data)
 - Destination operands (output data)
 - The location can be
-	- Memory operand specified by a memory address: ex)
-	- Register operand specified by a register member: R1
+	- Memory operand specified by a memory address
+		- ex) $(R2), s1004
+	- Register operand specified by a register member
+		- R1
 
 [Instruction Types]
 - Arithmetic and logic instructions
@@ -51,7 +53,7 @@
 	- Unconditional jumps and conditional branches
 	- Direct branches and indirect branches
 
-[MIPS Instruction Format]
+## MIPS Instruction Format
 R-type: [op(6), rs(5), rt(5), rd(5), shamt(5), funct(6)] -> op는 모두 0이고 fucnt을 opcode로 사용
 - Arithmetic instruction
 - rs: 1st source register
