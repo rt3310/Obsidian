@@ -42,16 +42,19 @@
 	- Register operand specified by a register member
 		- R1
 
-[Instruction Types]
-- Arithmetic and logic instructions
-- Data transfer instructions (memory instructions)
-	- Input/Output instructions are usually implemented by memory instructions(memory-mapped IO)
-		- IO devices are mapped to memory address space -> PORT
-- Control transfer instructions (branch instructions)
+### Instruction Types
+#### Arithmetic and logic instructions
+#### Data transfer instructions (memory instructions)
+- Move data from memory to registers(LOAD) or vice versa(STORE)
+- Input/Output instructions are usually implemented by memory instructions(memory-mapped IO)
+	- IO devices are mapped to memory address space -> PORT
+#### Control transfer instructions (branch instructions)
+- Change the program control flow
 	- Determine the address of the  next instruction to be fetched
 		- Program Counter(PC): A special register that holds the address of the next instruction to execute
-	- Unconditional jumps and conditional branches
-	- Direct branches and indirect branches
+- Unconditional jumps and conditional branches
+- Direct branches and indirect branches
+- ex) JUMP, CALL, RETURN, BEQ
 
 ## MIPS Instruction Format
 R-type: [op(6), rs(5), rt(5), rd(5), shamt(5), funct(6)] -> op는 모두 0이고 fucnt을 opcode로 사용
