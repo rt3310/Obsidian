@@ -35,10 +35,10 @@
 
 ## Stack
 ### Stack frame(aka. activation record) of a procedure
-- Store variables local to a procedure
-	- Procedure's saved registers
+- procedure에 local로 변수를 저장한다.
+	- Procedure에 저장된 레지스터들
 		- Arguments, return address, saved registers, local variables
-- Stack pointer ($sp): point to the top of the stack
-- Frame pointer ($fp): point to the bottom of the top stack frame
+- Stack pointer ($sp): stack의 top을 가리킨다.
+- Frame pointer ($fp): 상위 stack frame의 bottom을 가리킨다.
 
 ![[Pasted image 20241026212451.png]]

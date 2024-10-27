@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CH4 Instruction Architecture Set",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 Instruction Architecture Set.md"
+    },
+    {
       "basename": "CH3 - Instruction Architecture Set",
       "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "정규화",
       "path": "Projects/Study/8. DB/Normalization/canvas/정규화.canvas"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     }
   ],
   "omittedPaths": [],
