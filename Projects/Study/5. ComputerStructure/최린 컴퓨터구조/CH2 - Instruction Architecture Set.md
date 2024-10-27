@@ -72,13 +72,13 @@
 | --- | --- | --- | ------- |
 | op  | rs  | rt  | address |
 > 모두 0을 제외한 나머지 63개를 opcode로 사용
-- Data transfer, conditional branch, immediate
+- 데이터 이동, 조건 분기, immediate
 - rs: base register
 - rt: destination register for load and source register for store
 - address: +/-2^32 bytes offset (aka. displacement) -> rs(register)에 메모리의 base 주소가 들어있고 거기에 address(offset)을 더한다
-- Used for loads stores and conditional branches
+- 저장 및 불러오기, 조건 분기에 사용된다.
 ### J-type
 | 6   | 26      |
 | --- | ------- |
 | op  | address |
-- Jump instruction
+- 명령어 jump
