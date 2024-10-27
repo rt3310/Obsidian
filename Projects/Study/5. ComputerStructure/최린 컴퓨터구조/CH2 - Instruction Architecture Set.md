@@ -1,5 +1,5 @@
-## Register
-
+## Machine State
+### Register
 메모리로부터 fetch한 Data를 저장하는 CPU 내부 스토리지
 - single cycle에 읽고 쓸 수 있다.
 - 연산은 레지스터에 저장된 데이터에 의해 수행될 수 있다.
@@ -7,22 +7,20 @@
 - register <-> caches <-> memory <-> hard disk
 	- register는 프로그래머한테 visible
 	- cache는 프로그래머한테 invisible
-
-## Memory
+### Memory
 0번부터 시작하는 linear array of a byte
 - 32비트 register 컴퓨터의 메모리 최대 공간 = $2^{32}$ bytes = 4GB -> 프로그램의 최대 크기 4GB
 - 프로그램 저장 (코드, 데이터)
 
-## Data Size
+## Data Size & Alignment
+### Data Size
 - Word: 연산의 기본 단위
 	- 32bit for 32bit ISA, 64bit for 64bit ISA
 - Double word: 64bit
 - Half word: 16bit
-
-## Byte addressability
+### Byte addressability
 - 가상메모리에서 모든 byte마다 주소를 가진다. (초창기에는 word 단위로 address하기도 했다)
-
-## Alignment
+### Alignment
 - 메모리에 저장된 데이터/명령어의 시작 주소가 데이터/명령어 크기의 배수에 저장되게 되어있다.
 - byte: 0, 1, 2, 3, 4, 5, 6, 7, 8, ...
 - Half word: 0, 2, 4, 6, 8, ...
@@ -30,10 +28,9 @@
 - Doubleword: 0, 8, ...
 
 ## Machine Instruction
-#### Opcode : specifies the operation to be performed
+### Opcode : specifies the operation to be performed
 - ADD, MULT, LOAD, STORE, JUMP
-
-#### Operands
+### Operands
 - Source operands (input data)
 - Destination operands (output data)
 - The location can be
@@ -42,13 +39,13 @@
 	- Register operand specified by a register member
 		- R1
 
-### Instruction Types
-#### Arithmetic and logic instructions
-#### Data transfer instructions (memory instructions)
+## Instruction Types
+### Arithmetic and logic instructions
+### Data transfer instructions (memory instructions)
 - Move data from memory to registers(LOAD) or vice versa(STORE)
 - Input/Output instructions are usually implemented by memory instructions(memory-mapped IO)
 	- IO devices are mapped to memory address space -> PORT
-#### Control transfer instructions (branch instructions)
+### Control transfer instructions (branch instructions)
 - Change the program control flow
 	- Determine the address of the  next instruction to be fetched
 		- Program Counter(PC): A special register that holds the address of the next instruction to execute
@@ -57,17 +54,31 @@
 - ex) JUMP, CALL, RETURN, BEQ
 
 ## MIPS Instruction Format
-R-type: [op(6), rs(5), rt(5), rd(5), shamt(5), funct(6)] -> op는 모두 0이고 fucnt을 opcode로 사용
-- Arithmetic instruction
+
+### R-type
+| 6   | 5   | 5   | 5   | 5     | 6     |
+| --- | --- | --- | --- | ----- | ----- |
+| op  | rs  | rt  | rd  | shamt | funct |
+> op는 모두 0이고 fucnt을 opcode로 사용
+- op: Opcode, basic operation of the instruction
 - rs: 1st source register
 - rt: 2nd source register
 - rd: destination register
 - shamt: shift amount (immediate operand)
-I-type: [op(6), rs(5), rt(5), address(16)] -> 모두 0을 제외한 나머지 63개를 opcode로 사용
+- funct: function code, the specific variant of the opcode
+- Used fix arithmetic logic instruction
+### I-type
+| 6   | 5   | 5   | 16      |
+| --- | --- | --- | ------- |
+| op  | rs  | rt  | address |
+> 모두 0을 제외한 나머지 63개를 opcode로 사용
 - Data transfer, conditional branch, immediate
 - rs: base register
 - rt: destination register for load and source register for store
 - address: +/-2^32 bytes offset (aka. displacement) -> rs(register)에 메모리의 base 주소가 들어있고 거기에 address(offset)을 더한다
 - Used for loads stores and conditional branches
-J-type: [op(6), address(26)]
+### J-type
+| 6   | 26      |
+| --- | ------- |
+| op  | address |
 - Jump instruction
