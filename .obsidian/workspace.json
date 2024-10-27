@@ -39,17 +39,14 @@
             "id": "487bcad5e4d82f13",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
-                "viewState": {
-                  "x": 2076.27036900301,
-                  "y": 1711.5268887780232,
-                  "zoom": -0.35307467923036934
-                }
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "HashMap"
+              "icon": "lucide-file",
+              "title": "CH2 - Instruction Architecture Set"
             }
           }
         ],
@@ -119,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -223,17 +221,18 @@
   },
   "active": "487bcad5e4d82f13",
   "lastOpenFiles": [
-    "Projects/Study/5. ComputerStructure/해시/Hash flooding.md",
-    "Projects/Study/5. ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
-    "Projects/Study/5. ComputerStructure/실수/canvas/무제 파일.canvas",
-    "Projects/Study/5. ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
-    "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2.md",
-    "Pasted image 20241026212517.png",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources/Pasted image 20241026212451.png",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md",
+    "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
+    "Projects/Study/5. ComputerStructure/실수/canvas/무제 파일.canvas",
+    "Projects/Study/5. ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
+    "Projects/Study/5. ComputerStructure/해시/Hash flooding.md",
+    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
+    "Projects/Study/5. ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
+    "Pasted image 20241026212517.png",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources",
     "Projects/Study/12. Game/Resources/Pasted image 20241025123006.png",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조",
     "Projects/Study/12. Game/Resources/Pasted image 20241025113837.png",
@@ -271,13 +270,11 @@
     "Projects/Study/4. Algorithm/오답노트/2146) 다리 만들기.md",
     "Projects/Study/4. Algorithm/약한 유형 정리/미니맥스 알고리즘(Minimax algorithm).md",
     "Projects/Study/3. DataStructure/해볼 것.md",
-    "Projects/Plan/무제 파일.md",
     "Projects/Study/Container/Docker/canvas/Docker.canvas",
     "Projects/Study/9. Graphics",
     "Projects/Study/10. Unity",
     "무제 폴더",
     "Projects/Study/2. CSharp",
-    "Projects/Study/Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas",
     "Projects/Study/5. ComputerStructure/해시"
   ]
 }
