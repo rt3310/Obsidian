@@ -17,14 +17,12 @@ load time 또는 runtime에 링킹을 수행한다.
 ## Object files
 ### Relocatable object file
 - executable object file을 만들기 위해 컴파일 시 다른 relocatable object files과 결합할 수 있는 형태의 바이너리 코드와 데이터를 포함한다.
-- Contains binary code and data in a form that can be combined with other relocatable object files at compile time to create an executable object file
-	- Compilers and assemblers generate relocatable object files
+	- 컴파일러와 어셈블러가 relocatable object files을 생성한다.
 ### Executable object file
-- Contains binary code and data in a form that can be copied directly into memory and executed
-	- Linkers generate executable object files
+- 메모리로 바로 복사되고 실행될 수 있는 형태의 바이너리 코드와 데이터를 포함한다.
+	- 링커가 executable object files을 생성한다.
 ### Shared object file
-- A special type of relocatable object file that can be loaded into memory and linked dynamically, either at load time or at runtime
-
+- 로드 타임이나 런타임에 동적으로 메모리에 로드되고 연결될 수 있는 특별한 유형 relocatable object file
 ## Relocation Sections
 
 ![[Pasted image 20241026212451.png]]
