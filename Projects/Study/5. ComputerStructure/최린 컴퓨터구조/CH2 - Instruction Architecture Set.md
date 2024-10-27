@@ -1,13 +1,17 @@
 ## Compiler
 
+Source program -[Preprocessor]-> Expanded Source program -[Compiler]-> Assembly Program -[Assembler]-> Relocatable code(object file) -[Linker]-> Target program
 
+> Relocatable code: Memory로 copy할 때 위치가 바뀔 수 있기 때문
 
+### Compiler Phases
+Source Program -[Lexical Analyzer]-> Token -[Syntax Analyzer]-> Tree -[Intermediate Code Generator]-> I.C(Intermediate Code) -[Code Optimizer]-> O.C(Optimized Code) -[Target Code Generator]-> Object Program
 ## Machine State
 ### Register
 메모리로부터 fetch한 Data를 저장하는 CPU 내부 스토리지
 - single cycle에 읽고 쓸 수 있다.
 - 연산은 레지스터에 저장된 데이터에 의해 수행될 수 있다.
-- MINS ISA: 32개 register = 32개 플립플롭
+- MINS ISA: 32개 register = 32개 플립플롭 -> 플립플롭은 1개의 비트를 저
 - register <-> caches <-> memory <-> hard disk
 	- register는 프로그래머한테 visible
 	- cache는 프로그래머한테 invisible
