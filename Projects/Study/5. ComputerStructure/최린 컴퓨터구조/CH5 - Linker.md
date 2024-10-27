@@ -16,7 +16,7 @@ load time 또는 runtime에 링킹을 수행한다.
 
 ## Object files
 ### Relocatable object file
-- 
+- executable object file을 만들기 위해 컴파일 시 다른 relocatable object files과 결합할 수 있는 형태의 바이너리 코드와 데이터를 포함한다.
 - Contains binary code and data in a form that can be combined with other relocatable object files at compile time to create an executable object file
 	- Compilers and assemblers generate relocatable object files
 ### Executable object file
