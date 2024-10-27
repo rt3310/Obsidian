@@ -42,13 +42,13 @@
 ## Instruction Types
 ### Arithmetic and logic instructions
 ### Data transfer instructions (memory instructions)
-- Move data from memory to registers(LOAD) or vice versa(STORE)
-- Input/Output instructions are usually implemented by memory instructions(memory-mapped IO)
-	- IO devices are mapped to memory address space -> PORT
+- 메모리에서 레지스터로 데이터 이동(LOAD) 또는 반대(STORE)
+- Input/Output 명령어들은 보통 메모리 명령들로 구현된다(memory-mapped IO)
+	- 메모리 주소 공간에 매핑된 IO devices -> PORT
 ### Control transfer instructions (branch instructions)
-- Change the program control flow
-	- Determine the address of the  next instruction to be fetched
-		- Program Counter(PC): A special register that holds the address of the next instruction to execute
+- 프로그램 제어 흐름을 변경한다.
+	- fetch할 다음 명의 주소를 결정한다.
+		- Program Counter(PC): 다음 실행할 명령어의 주소를 갖고 있는 특수한 레지스터 
 - Unconditional jumps and conditional branches
 - Direct branches and indirect branches
 - ex) JUMP, CALL, RETURN, BEQ
@@ -60,13 +60,13 @@
 | --- | --- | --- | --- | ----- | ----- |
 | op  | rs  | rt  | rd  | shamt | funct |
 > op는 모두 0이고 fucnt을 opcode로 사용
-- op: Opcode, basic operation of the instruction
+- op: Opcode, 명령어의 기초 연산
 - rs: 1st source register
 - rt: 2nd source register
 - rd: destination register
 - shamt: shift amount (immediate operand)
 - funct: function code, the specific variant of the opcode
-- Used fix arithmetic logic instruction
+- 산술 논리 명령에 사용된다.
 ### I-type
 | 6   | 5   | 5   | 16      |
 | --- | --- | --- | ------- |
