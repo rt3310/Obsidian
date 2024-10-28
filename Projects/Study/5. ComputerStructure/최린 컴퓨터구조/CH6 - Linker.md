@@ -35,3 +35,11 @@ typedef struct {
 
 ### After the symbol resolution phase
 - Once the symbol resolution step has been completed, the linker associates each symbol reference in the code with exactly one symbol definition
+- Linker knows the exact size of the code and data sections in each object module
+### Relocation consists of 2 steps
+- Relocating sections and symbol definitions
+	- Merges all sections of the same type into a new aggregate section
+		- data sections from all the OO modules are merged into a single .data section
+	- Assign runtime memory addresses to the new aggregate sections and to each symbol defined internally in each module
+- Relocating symbol references within sections
+	- 
