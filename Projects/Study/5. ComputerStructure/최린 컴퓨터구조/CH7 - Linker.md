@@ -56,3 +56,11 @@
 - Segment header table 설명
 	- executable object files의 segment와 가상 주소 공간의 memory segment 간 매핑
 	- 읽기/쓰기/실행 가능 권한(segment간 할당 정보)
+
+## Startup Routines for C program
+### When the loader (execve) runs
+- executable object file의 chunk를 코드 및 데이터 세그먼트에 복사하여 메모리 이미지를 생성한다(segment header table에 따라 안내된다).
+### 로더가 entry point로 점프한다
+- \_start symbol의 주소이다.
+### \_start address의 startup code는 crt1.o에 정의되어 있다.
+- 모든 C program에 동일하다.
