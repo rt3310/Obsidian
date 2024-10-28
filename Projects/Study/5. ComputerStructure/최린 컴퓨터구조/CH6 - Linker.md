@@ -44,3 +44,10 @@ typedef struct {
 - section 내에서 symbol reference 재배치
 	- 외부 참조가 올바른 runtime address를 가리킬 수 있도록 수정
 		- To performs this step, the linker OO on relocation entries in the relocatable object modules
+
+## Resolving External References
+
+- symbol은 함수와 변수의 이름을 짓는 lexical 단위(entity)이다.
+- 각 symbol은 값을 가진다(전형적으로 메모리 주소).
+- 코드는 symbol definition과 symbol reference로 구성되어 있다.
+- 참조는 local 또는 external이 될 수 있다.
