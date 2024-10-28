@@ -30,3 +30,8 @@ typedef struct {
 ### Rule 2. weak symbold은 같은 이름의 strong symbol에 의해 override될 수 있다.
 - References to the weak symbol resolve to the strong symbol
 ### Rule 3. 여러 weak symbol이 있다면, linker는 마음대로 하나를 선택할 수 있다.
+
+## Relocation
+
+### After the symbol resolution phase
+- Once the symbol resolution step has been completed, the linker associates each symbol reference in the code with exactly one symbol definition
