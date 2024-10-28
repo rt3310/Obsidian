@@ -35,13 +35,23 @@
 
 ## Using Static Libraries
 
-### Linker's algorithm for resolving external references
+### 외부 참조 해결을 위한 링커 알고리즘
 - o. 파일 및 .a 파일을 command line 순서로 스캔한다.
 - 스캔하는 동안 현재 해결되지 않은 참조 목록을 보관한다.
 - 각 새로운 .o 또는 .a 파일 obj가 만나면, 목록에서 해결되지 않은 각 참조를 obj의 symbol과 비교하여 해결한다.
-
-As each new .o or .a file obj is encountered, try to resolve each unresolved reference in the list against the symbols in obj.
-- If there exist any entries in the unresolved list at end of scan, then error.
+- 스캔이 끝날 때 해결되지 않은 entry가 있는 경우, 오류가 발생한다.
 ### Problem
 - Command line order matters
-- Moral, put libraries at the end of the command line
+- Moral: put libraries at the end of the command line
+
+## Executable Object File
+
+### static libraries와 링킹 후
+- input C 프로그램(in ASCII text)파일은 프로그램을 메모리에 불러오고 실행하는 데 필요한 모든 정보가 포함된 단일 이진 파일로 변환된다.
+### executable object file의 format
+- 다음을 제외하고 relocatable object file 포맷과 유사하다.
+- ELF header에는 첫 번째 명령어의 주소인 프로그램의 entry point가 포함된다.
+- .init section은 프로그램의 초기화 코드로 호출되는 \_init이라는 작은 함수를 정의한다.
+- 재배치 정보 없음
+- Segment header table 설명
+	- 
