@@ -32,3 +32,16 @@
 - 연관된 relocatable object file을 index(archive라고 한다)를 사용하여 단일 파일로 연결한다.
 - 링커가 하나 이상의 archive에서 symbol을 찾아 해결되지 않은 external references를 해결하도록 향상시킨다.
 - archive member file이 references를 해결하면, member file을 exectuable file에 연결한다.
+
+## Using Static Libraries
+
+### Linker's algorithm for resolving external references
+- o. 파일 및 .a 파일을 command line 순서로 스캔한다.
+- 스캔하는 동안 현재 해결되지 않은 참조 목록을 보관한다.
+- 각 새로운 .o 또는 .a 파일 obj가 만나면, 목록에서 해결되지 않은 각 참조를 obj의 symbol과 비교하여 해결한다.
+
+As each new .o or .a file obj is encountered, try to resolve each unresolved reference in the list against the symbols in obj.
+- If there exist any entries in the unresolved list at end of scan, then error.
+### Problem
+- Command line order matters
+- Moral, put libraries at the end of the command line
