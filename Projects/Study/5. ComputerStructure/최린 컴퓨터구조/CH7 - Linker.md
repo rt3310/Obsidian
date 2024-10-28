@@ -20,16 +20,15 @@
 ### 프로그래머가 일반적으로 사용하는 함수를 패키징하는 방법은?
 - Math, I/O, memory management, string manipulation, etc.
 ### 지금까지의 linker framework를 고려할 때 불편한 부분
-- Option 1: 모든 함수를 single source file에 넣는다.
+- Option 1: 모든 함수를 하나의 source file에 넣는다.
 	- 프로그래머가 프로그램에 큰 object file을 연결한다.
 	- 공간 및 시간 비효율성
 		- 각 executable object file은 디스크 공간과 메모리 공간을 차지한다.
-		- Each executable object file occupies disk space as well as memory space
-		- Any change in one function would require the recompilation of the retire source file
-- Option 2: Put each function in a separate source file
-	- Programmers explicitly link appropriate binaries into their programs
-	- More efficient, but burdensome on the programmer
-### Solution: static libraries (.a archive files)
-- Concatenate related relocatable object files into a single file with an O (called an archive)
-- Enhance linker so that it tries to resolve unresolved external references by looking for the symbols in one or more archives
-- If an archive member file resolves reference, link the member file into executable.
+		- 한 기능을 변경하려면 전체 source file을 recompilation 해야한다.
+- Option 2: 각 함수를 별도의 source file에 넣는다.
+	- 프로그래머는 적절한 binary를 프로그램에 명시적으로 연결한다.
+	- 더 효율적이지만, 프로그래머에게 부담된다.
+### 해결책: static libraries (.a archive files)
+- 연관된 relocatable object file을 index(archive라고 한다)를 사용하여 단일 파일로 연결한다.
+- 링커가 하나 이상의 archive에서 symbol을 찾아 해결되지 않은 external references를 해결하도록 향상시킨다.
+- archive member file이 references를 해결하면, member file을 exectuable file에 연결한다.
