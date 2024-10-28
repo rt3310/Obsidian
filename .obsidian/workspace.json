@@ -112,11 +112,13 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -218,7 +220,7 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "487bcad5e4d82f13",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
