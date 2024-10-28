@@ -43,5 +43,4 @@ typedef struct {
 	- 새로운 aggregate section과 각 모듈에 내부적으로 정의된 각 symbol에 runtime 메모리 주소를 할당한다.
 - section 내에서 symbol reference 재배치
 	- 외부 참조가 올바른 runtime address를 가리킬 수 있도록 수정
-		- 이 단계를 수행하려면 
-		- To performs this step, the linker OO on relocation entries to the relocatable object modules
+		- To performs this step, the linker OO on relocation entries in the relocatable object modules
