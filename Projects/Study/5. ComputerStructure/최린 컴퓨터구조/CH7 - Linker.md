@@ -54,4 +54,5 @@
 - .init section은 프로그램의 초기화 코드로 호출되는 \_init이라는 작은 함수를 정의한다.
 - 재배치 정보 없음
 - Segment header table 설명
-	- 
+	- executable object files의 segment와 가상 주소 공간의 memory segment 간 매핑
+	- 읽기/쓰기/실행 가능 권한(segment간 할당 정보)
