@@ -24,3 +24,9 @@ typedef struct {
 - weak: 초기화되지 않은 전역 변수
 	- 컴파일 시에, 컴파일러는 각 global symbol을 어셈블러에 strong이 weak로 내보내고, 어셈블러는 relocatable object file의 symbol table에 정보를 암시적으로 인코딩한다.
 ![[Pasted image 20241028124158.png]]
+
+## Linker's Symbol Resolution Rules
+### Rule 1. string symbol은 하나만 존재해야 한다
+### Rule 2. weak symbold은 같은 이름의 strong symbol에 의해 override될 수 있다.
+- References to the weak symbol resolve to the strong symbol
+### Rule 3. 여러 weak symbol이 있다면, linker는 마음대로 하나를 선택할 수 있다.
