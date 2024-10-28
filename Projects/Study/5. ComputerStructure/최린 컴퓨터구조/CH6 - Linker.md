@@ -33,13 +33,14 @@ typedef struct {
 
 ## Relocation
 
-### After the symbol resolution phase
-- Once the symbol resolution step has been completed, the linker associates each symbol reference in the code with exactly one symbol definition
-- Linker knows the exact size of the code and data sections in each object module
-### Relocation consists of 2 steps
-- Relocating sections and symbol definitions
-	- Merges all sections of the same type into a new aggregate section
-		- data sections from all the OO modules are merged into a single .data section
-	- Assign runtime memory addresses to the new aggregate sections and to each symbol defined internally in each module
-- Relocating symbol references within sections
-	- 
+### symbol resolution 단계 이후
+- symbol resolution 단계가 완료되면, 링커는 코드의 각 symbol reference를 정확히 하나의 symbol definition과 연결한다.
+- 링커는 각 object module의 코드와 데이터 섹션의 정확한 크기를 알고있다.
+### 재배치는 2단계로 구성되어 있다.
+- sections 및 symbol definition 재배치
+	- 동일한 타입의 모든 section을 새 aggregate section으로 병합한다.
+		- 모든 input module의 data section이 single .data section으로 병합된다.
+	- 새로운 aggregate section과 각 모듈에 내부적으로 정의된 각 symbol에 runtime 메모리 주소를 할당한다.
+- section 내에서 symbol reference 재배치
+	- 외부 참조가 올바른 runtime address를 가리킬 수 있도록 수정
+		- To performs this step, the linker OO on relocation entries to the relocatable object modules
