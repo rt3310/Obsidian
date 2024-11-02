@@ -226,4 +226,114 @@ linker를 사용하면 프로젝트를 console application인지 win32 applicati
 ```cpp
 #pragma comment(linker, "SECTION:SHAREDATA,RWS")
 ```
-`#pragma data_seg("SHAREDATA")`와 함께 사용하여 
+`#pragma data_seg("SHAREDATA")`와 함께 사용하여 공유 메모리를 생성한다.
+위 명령어 대신 def 파일 안에 아래와 같이 해도 된다.
+```
+SECTIONS
+	SAHREDATA READ WRITE DHARED
+```
+
+이 중 가장 대표적인 사용법은 명시적인 라이브러리의 링크이다.
+```cpp
+#pragma comment(lib, "xxxx.lib")
+```
+와 같이 사용하여 해당 라이브러리를 링크시켜 준다.
+여러 사람이 같이 사용하는 프로젝트의 경우 이와 같은 방법을 사용하여 lib를 링크하는 것이 라이브러리가 링크되어 있다는 사실을 알기에도 좋다.
+
+## \#pragma data_seg()
+
+pragma data_seg()의 형식은 다음과 같다.
+```cpp
+#pragma data_seg(["section-name", ["section-class"]])
+```
+[]는 사용하지 않아도 된다는 의미이다.
+
+```cpp
+#pragma data_seg("SHAREDATA")
+int x;
+char y;
+#pragma data_seg()
+```
+DLL의 데이터를 공유하기 위해 사용한다.
+공유할 섹션을 만드는 것이다. 위 명령어는 필수적으로 위에서 사용된 두 가지 중 한 가지 방법과 함께 사용되어야 한다.
+```cpp
+#pragma comment(linker, "SECTION:SHAREDATA,RWS")
+```
+
+```
+SECTIONS
+	SHAREDATA READ WRITE SHARED
+```
+둘 다 해당 SECTION(SAHREDATA)의 허용 범위를 설정하는 것이다. (READ, WRITE, SHARED 세 가지를 쓴다는 의미)
+이제 변수 x와 y는 해당 dll을 사용하는 외부 파일과 같이 공유할 수 있는 변수가 되었다.(외부에서 접근 가능하게 되었다)
+
+이렇게 공유하는 변수는 물론 new로 메모리를 할당한 변수도 공유 가능하다.
+특히 new나 memalloc으로 메모리 할당한 변수들은 dll외부에서도 해제(delete) 가능하다.
+
+## \#pragma warning
+
+특정 경고를 끄고 싶을 때 사용한다.
+
+형식은 아래와 같다.
+```cpp
+#pragma warning(warning-specifier : warning-number-list [; warning-specifier : warning-number-list...])
+#pragma warning(push[, n])
+#pragma warning(pop)
+```
+사용 예시
+```cpp
+#pragma warning(disable:4996)
+```
+
+## \#pragma message()
+
+컴파일 중에 메시지를 뿌려준다.
+```cpp
+#pragma message("merong")
+```
+
+---
+
+## \#pragma directive-name
+
+## \#pragma codeseg
+
+## \#pragma comment
+
+## \#pragma exit
+
+## \#pragma hdrfile
+
+## \#pragma hdrstop
+
+## \#pragma inline
+
+## \#pragma intrinsic
+
+## \#pragma link
+
+## \#pragma message
+
+## \#pragma obsolete
+
+## \#pragma option
+
+## \#pragma pack
+
+## \#pragma package
+
+## \#pragma resource
+
+## \#pragma startup
+
+## \#pragma warn
+
+## \#pragma once
+
+## \#pragma data_seg
+
+## \#pragma warning
+
+## \#pragma code_seg
+
+## \#pragma deprecated
