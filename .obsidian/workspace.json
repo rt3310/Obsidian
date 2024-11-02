@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/1. C, C++/미리 컴파일 된 헤더.md",
+                "file": "Projects/Study/1. C, C++/pragma.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "미리 컴파일 된 헤더"
+              "title": "pragma"
             }
           }
         ],
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -211,8 +210,8 @@
   },
   "active": "487bcad5e4d82f13",
   "lastOpenFiles": [
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
     "Projects/Study/1. C, C++/미리 컴파일 된 헤더.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
