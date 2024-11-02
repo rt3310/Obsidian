@@ -51,7 +51,7 @@ size of a : 6
 
 이번에는 6으로 잘 나온다. 위 명령은 마이크로소프트 계열의 컴파일러들에만 유효한 문장인데, 구조체를 '1 바이트 단위로 정렬하라는 뜻'이다. 즉, 구조체의 크기가 1의 배수가 되게하라는 것이다. 1 외에도 2, 4, 8, 16 등이 올 수 있다. 만일 기본값, 즉 더블 워드 경계로 정렬하기 위해서는 `#pragma pack(4)` 로 하면 된다.
 
-## `#pragma once`
+## \#pragma once
 
 아까의 `Weird` 구조체 예제에서 `Weird` 부분만 다른 헤더파일로 빼놓아 보자. 이 헤더파일의 이름은 `weird.h`이다.
 ```c
@@ -205,3 +205,25 @@ Weird 구조체의 a.i : 3
 #endif /* _INC_STDIO */
 ```
 과 같이 C 표준 방식의 형태를 사용하도록 되어 있는 것을 볼 수 있다.
+
+## \#pragma comment()
+
+기본적인 \#pragma comment()의 형식은 다음과 같다.
+```cpp
+#pragma comment(comment-type, ["comment string"])
+```
+[]안의 구문은 comment-type에 따라 필요할 경우 사용하는 것이다.
+
+comment-type에는 compiler, exestr, lib, linker, user 등이 올 수 있다.
+
+```cpp
+#pragma comment(linker, "/subsystem:windows")
+#pragma comment(linker, "/subsystem:console")
+```
+linker를 사용하면 프로젝트를 console application인지 win32 application인지 명시해 줄 수 있다.
+
+또한 섹션의 설정을 할 수 있다.
+```cpp
+#pragma comment(linker, "SECTION:SHAREDATA,RWS")
+```
+`#pragma data_seg("SHAREDATA")`와 함께 사용하여 
