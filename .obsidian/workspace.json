@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -209,7 +208,7 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "487bcad5e4d82f13",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
