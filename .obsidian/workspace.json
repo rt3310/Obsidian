@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -169,11 +170,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "778f122032a96c7a",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
     "Pasted image 20241028005955.png",
     "Pasted image 20241028124158.png",
@@ -211,8 +214,6 @@
     "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas",
     "Projects/Study/8. DB/Sharding/md/샤딩(Sharding).md",
     "Projects/Study/8. DB/Sharding/md/모듈러샤딩 룰 설정.md",
-    "Projects/Study/8. DB/Sharding/md/모듈러 샤딩(Modular Sharding).md",
-    "Projects/Study/8. DB/Sharding/md/레인지샤딩 룰 설정.md",
     "Projects/Study/8. DB/SQL/canvas/SQL.canvas",
     "Projects/Study/8. DB/SQL/canvas/Join.canvas",
     "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
