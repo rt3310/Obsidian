@@ -37,7 +37,7 @@
 - Boolean complement gives -> 11111100
 - Add 1 to LSB -> 11111101
 ### Overflow는 다음과 같은 상황에서만 발생한다
+- 두 숫자의 
 - When the sign bit of two numbers are the same but the result has the opposite sign
-### Arithmetic works easily
-- To perform A - B take the 2's complement of B and add it to A
-- 
+### 산술이 쉽다
+- A-B를 수행하려면 B에 2의 보수를 취한 후 A에 더한다
