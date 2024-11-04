@@ -56,3 +56,13 @@
 - 각 부분 곱셈 시프트
 - 부분 결과들을 더한다
 - Note: 두 배 길이의 결과가 필요하다
+
+## Signed 곱셈
+### Unsigned binary multiplication alrogithm
+- 부호 있는 곱셈에서는 작동하지 않는다
+### 해결 1
+- 양수로 바꾼다
+- 곱한다
+- 부호가 다르면 부정을 취한다.
+### 해결 2
+- Booth's algorithm
