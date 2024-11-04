@@ -11,9 +11,11 @@
             "id": "778f122032a96c7a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.3"
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md"
+              }
             }
           },
           {
@@ -165,6 +171,12 @@
   },
   "active": "778f122032a96c7a",
   "lastOpenFiles": [
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+    "Pasted image 20241028005955.png",
+    "Pasted image 20241028124158.png",
     "Projects/Study/3. DataStructure/해볼 것.md",
     "Projects/Study/3. DataStructure",
     "Projects/Study/12. Game/Resources/Pasted image 20241025123601.png",
@@ -175,8 +187,6 @@
     "Projects/Study/12. Game/Resources/Pasted image 20241025120137.png",
     "Projects/Study/12. Game/Resources/Pasted image 20241025120017.png",
     "Projects/Study/12. Game/Resources/Pasted image 20241025113859.png",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025113857.png",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025113837.png",
     "Projects/Study/12. Game/충돌 처리 알고리즘.md",
     "Projects/Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md",
     "Projects/Study/12. Game/Resources",
@@ -203,10 +213,6 @@
     "Projects/Study/8. DB/Sharding/md/모듈러샤딩 룰 설정.md",
     "Projects/Study/8. DB/Sharding/md/모듈러 샤딩(Modular Sharding).md",
     "Projects/Study/8. DB/Sharding/md/레인지샤딩 룰 설정.md",
-    "Projects/Study/8. DB/Sharding/md/레인지 샤딩(Range Sharding).md",
-    "Projects/Study/8. DB/Sharding/md/디렉토리 샤딩(Directory Sharding).md",
-    "Projects/Study/8. DB/Sharding/md/yaml 설정.md",
-    "Projects/Study/8. DB/Sharding/md/Property 클래스.md",
     "Projects/Study/8. DB/SQL/canvas/SQL.canvas",
     "Projects/Study/8. DB/SQL/canvas/Join.canvas",
     "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
