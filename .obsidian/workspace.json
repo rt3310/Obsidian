@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md"
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md"
               }
             }
           },
@@ -170,12 +169,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "778f122032a96c7a",
   "lastOpenFiles": [
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
     "Pasted image 20241028005955.png",
