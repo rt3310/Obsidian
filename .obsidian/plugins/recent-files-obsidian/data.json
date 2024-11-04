@@ -1,204 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "CH5 - Linker",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md"
+      "basename": "HttpSession",
+      "path": "Projects/Posting/HTTP/HttpSession.md"
     },
     {
-      "basename": "CH2 - Instruction Architecture Set",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md"
+      "basename": "Java Concurrency",
+      "path": "Projects/Study/Java/Concurrency/Java Concurrency.md"
     },
     {
-      "basename": "CH4 - Instruction Architecture Set",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md"
+      "basename": "자바스크립트",
+      "path": "Projects/Study/Javascript/자바스크립트.md"
     },
     {
-      "basename": "CH3 - Instruction Architecture Set",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md"
+      "basename": "EBP, ESP Register",
+      "path": "Projects/Posting/Computer Structure/EBP, ESP Register.md"
     },
     {
-      "basename": "CH1",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md"
+      "basename": "온라인 결제 프로세스",
+      "path": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md"
     },
     {
-      "basename": "Pasted image 20241026212451",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources/Pasted image 20241026212451.png"
+      "basename": "Ehcache vs Caffeine",
+      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
     },
     {
-      "basename": "텍스트 표현",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
+      "basename": "캐시 선택",
+      "path": "Projects/Posting/Cache/캐시 선택.md"
     },
     {
-      "basename": "무제 파일",
-      "path": "Projects/Study/5. ComputerStructure/실수/canvas/무제 파일.canvas"
+      "basename": "null",
+      "path": "Projects/Posting/DB/null.md"
     },
     {
-      "basename": "주소 지정 방식",
-      "path": "Projects/Study/5. ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas"
+      "basename": "JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유",
+      "path": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md"
     },
     {
-      "basename": "부동소수점",
-      "path": "Projects/Study/5. ComputerStructure/실수/md/부동소수점.md"
+      "basename": "트랜잭션 전파",
+      "path": "Projects/Posting/DB/트랜잭션 전파.md"
     },
     {
-      "basename": "실수 표현 방식",
-      "path": "Projects/Study/5. ComputerStructure/실수/md/실수 표현 방식.md"
+      "basename": "isCommited",
+      "path": "Projects/Posting/Spring/isCommited.md"
     },
     {
-      "basename": "고정소수점",
-      "path": "Projects/Study/5. ComputerStructure/실수/md/고정소수점.md"
+      "basename": "boolean parameter를 너무 사랑하지마세요.",
+      "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
     },
     {
-      "basename": "Hash flooding",
-      "path": "Projects/Study/5. ComputerStructure/해시/Hash flooding.md"
+      "basename": "위경도 값에 BigDecimal or Double",
+      "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
     },
     {
-      "basename": "HashMap",
-      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
+      "basename": "System.out.println 사용을 지양하라",
+      "path": "Projects/Posting/Java/System.out.println 사용을 지양하라.md"
     },
     {
-      "basename": "해시 충돌",
-      "path": "Projects/Study/Java/HashMap/md/해시 충돌.md"
+      "basename": "정적 팩토리 메서드",
+      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
     },
     {
-      "basename": "Java 8 HashMap에서의 Separate Chaning",
-      "path": "Projects/Study/Java/HashMap/md/Java 8 HashMap에서의 Separate Chaning.md"
+      "basename": "테스트 데이터 초기화",
+      "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
     },
     {
-      "basename": "해시 분포",
-      "path": "Projects/Study/Java/HashMap/md/해시 분포.md"
+      "basename": "코드 커버리지",
+      "path": "Projects/Posting/Test/코드 커버리지.md"
     },
     {
-      "basename": "컴퓨터 시간 원리",
-      "path": "Projects/Study/5. ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas"
+      "basename": "Pasted image 20240510020217",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020217.png"
     },
     {
-      "basename": "NTP 서버",
-      "path": "Projects/Study/5. ComputerStructure/Clock/md/NTP 서버.md"
+      "basename": "Pasted image 20240510020309",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020309.png"
     },
     {
-      "basename": "NTP",
-      "path": "Projects/Study/5. ComputerStructure/Clock/md/NTP.md"
+      "basename": "Pasted image 20240510020319",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020319.png"
     },
     {
-      "basename": "Base64 인코딩의 단점을 감수하고도 왜 사용하는가",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/Base64 인코딩의 단점을 감수하고도 왜 사용하는가.md"
+      "basename": "Pasted image 20240510020335",
+      "path": "Projects/Posting/DB/resources/Pasted image 20240510020335.png"
     },
     {
-      "basename": "Base64 인코딩 단점",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/Base64 인코딩 단점.md"
-    },
-    {
-      "basename": "Base64 인코딩",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/Base64 인코딩.md"
-    },
-    {
-      "basename": "QP 인코딩",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/QP 인코딩.md"
-    },
-    {
-      "basename": "UTF-8",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/UTF-8.md"
-    },
-    {
-      "basename": "유니코드 변환 형식",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/유니코드 변환 형식.md"
-    },
-    {
-      "basename": "유니코드",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/유니코드.md"
-    },
-    {
-      "basename": "아스키 코드",
-      "path": "Projects/Study/5. ComputerStructure/텍스트 표현/md/아스키 코드.md"
-    },
-    {
-      "basename": "Pasted image 20241025123006",
-      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025123006.png"
-    },
-    {
-      "basename": "Pasted image 20241025113837",
-      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025113837.png"
-    },
-    {
-      "basename": "Pasted image 20241023161752",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241023161752.png"
-    },
-    {
-      "basename": "Order of execution for event functions",
-      "path": "Projects/Study/10. Unity/Order of execution for event functions.md"
-    },
-    {
-      "basename": "Pasted image 20241023144241",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241023144241.png"
-    },
-    {
-      "basename": "Pasted image 20241023144224",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241023144224.png"
-    },
-    {
-      "basename": "Pasted image 20241023144133",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241023144133.png"
-    },
-    {
-      "basename": "Pasted image 20241025122426",
-      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025122426.png"
-    },
-    {
-      "basename": "Pasted image 20241025120137",
-      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025120137.png"
-    },
-    {
-      "basename": "Pasted image 20241025113859",
-      "path": "Projects/Study/12. Game/Resources/Pasted image 20241025113859.png"
-    },
-    {
-      "basename": "사이클 찾기",
-      "path": "Projects/Study/4. Algorithm/약한 유형 정리/사이클 찾기.md"
-    },
-    {
-      "basename": "TextMeshPro",
-      "path": "Projects/Study/10. Unity/TextMeshPro.md"
-    },
-    {
-      "basename": "PPU",
-      "path": "Projects/Study/10. Unity/PPU.md"
-    },
-    {
-      "basename": "Quaternion",
-      "path": "Projects/Study/10. Unity/Quaternion.md"
-    },
-    {
-      "basename": "Coroutine",
-      "path": "Projects/Study/10. Unity/Coroutine.md"
-    },
-    {
-      "basename": "BSP(Binary Space Partitioning) Algorithm",
-      "path": "Projects/Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md"
-    },
-    {
-      "basename": "Cellular Automata Algorithm",
-      "path": "Projects/Study/12. Game/Cellular Automata Algorithm.md"
-    },
-    {
-      "basename": "충돌 처리 알고리즘",
-      "path": "Projects/Study/12. Game/충돌 처리 알고리즘.md"
-    },
-    {
-      "basename": "A-Star Algorithm",
-      "path": "Projects/Study/12. Game/A-Star Algorithm.md"
-    },
-    {
-      "basename": "Quick Sort vs Merge Sort",
-      "path": "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md"
-    },
-    {
-      "basename": "Slerp vs Lerp",
-      "path": "Projects/Study/10. Unity/Slerp vs Lerp.md"
-    },
-    {
-      "basename": "Join",
-      "path": "Projects/Study/8. DB/SQL/canvas/Join.canvas"
+      "basename": "Pasted image 20240620190654",
+      "path": "Projects/Posting/Java/resources/Pasted image 20240620190654.png"
     }
   ],
   "omittedPaths": [],

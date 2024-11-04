@@ -8,49 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2463eca64201697b",
+            "id": "778f122032a96c7a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Projects/Study/C, C++/switch 문의 제약사항.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "switch 문의 제약사항"
-            }
-          },
-          {
-            "id": "6e17aac5b2b0b209",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quick Sort vs Merge Sort"
-            }
-          },
-          {
-            "id": "487bcad5e4d82f13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Study/1. C, C++/pragma.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pragma"
+                "currentVersion": "1.6.3"
+              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,9 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              }
             }
           },
           {
@@ -87,9 +52,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
+              }
             }
           },
           {
@@ -97,17 +60,22 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
+            }
+          },
+          {
+            "id": "473fac1bffc5c8df",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -123,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,9 +98,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "공부할 것들의 백링크"
+              }
             }
           },
           {
@@ -142,12 +107,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Plan/공부할 것들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "공부할 것들의 나가는 링크"
+              }
             }
           },
           {
@@ -158,9 +120,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -168,11 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/Plan/공부할 것들.md"
-              },
-              "icon": "lucide-list",
-              "title": "공부할 것들 개요"
+              "state": {}
             }
           },
           {
@@ -180,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "state": {}
             }
           }
         ],
@@ -195,6 +149,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:새 보드 만들기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -205,67 +160,66 @@
       "obsidian-full-calendar:Open Full Calendar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:새 보드 만들기": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "487bcad5e4d82f13",
+  "active": "778f122032a96c7a",
   "lastOpenFiles": [
-    "Projects/Study/1. C, C++/미리 컴파일 된 헤더.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md",
-    "Pasted image 20241028124158.png",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md",
-    "Pasted image 20241028005955.png",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources/Pasted image 20241026212451.png",
-    "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas",
-    "Projects/Study/5. ComputerStructure/실수/canvas/무제 파일.canvas",
-    "Projects/Study/5. ComputerStructure/주소 지정 방식/canvas/주소 지정 방식.canvas",
-    "Projects/Study/5. ComputerStructure/해시/Hash flooding.md",
-    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
-    "Projects/Study/5. ComputerStructure/Clock/canvas/컴퓨터 시간 원리.canvas",
-    "Pasted image 20241026212517.png",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/Resources",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025123006.png",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025113837.png",
-    "Projects/Study/12. Game/Resources",
-    "Projects/Study/10. Unity/Resources/Pasted image 20241023161752.png",
-    "Projects/Study/10. Unity/Resources/Pasted image 20241023161736.png",
-    "Projects/Study/10. Unity/Order of execution for event functions.md",
-    "Projects/Study/10. Unity/Resources/Pasted image 20241023144241.png",
-    "Projects/Study/10. Unity/Resources/Pasted image 20241023144224.png",
-    "Projects/Study/10. Unity/Resources",
-    "Projects/Study/4. Algorithm/약한 유형 정리/사이클 찾기.md",
-    "Projects/Study/10. Unity/TextMeshPro.md",
-    "Projects/Study/10. Unity/PPU.md",
-    "Projects/Study/10. Unity/Quaternion.md",
-    "Projects/Study/10. Unity/Coroutine.md",
-    "Projects/Study/2. CSharp/코루틴.md",
-    "Projects/Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md",
-    "Projects/Study/12. Game/Cellular Automata Algorithm.md",
-    "Projects/Study/12. Game/충돌 처리 알고리즘.md",
-    "Projects/Study/12. Game/A-Star Algorithm.md",
-    "Projects/Study/4. Algorithm/정렬/Quick Sort vs Merge Sort.md",
-    "Projects/Study/12. Game/무제 파일.canvas",
-    "Projects/Study/12. Game",
-    "Projects/Study/10. Unity/Slerp vs Lerp.md",
-    "Projects/Study/8. DB/SQL/canvas/Join.canvas",
-    "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
-    "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "Projects/Plan/공부할 것들.md",
-    "Projects/Study/Container/Docker/canvas/Docker.canvas",
-    "Projects/Study/9. Graphics",
-    "Projects/Study/10. Unity",
-    "무제 폴더",
-    "Projects/Study/2. CSharp",
-    "Projects/Study/5. ComputerStructure/해시"
+    "Projects/Study/C, C++/shared_ptr, weak_ptr.md",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240321034804.png",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240124212835.png",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240321034705.png",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240124211327.png",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240124211313.png",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240124031836.png",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240124201624.png",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240124211303.png",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240124035314.png",
+    "Projects/Study/6. OS/VirtualMemory/resources/Pasted image 20240124031951.png",
+    "Projects/Study/6. OS/VirtualMemory/md/페이징과 세그먼테이션의 결합.md",
+    "Projects/Study/6. OS/VirtualMemory/md/페이지 크기.md",
+    "Projects/Study/6. OS/VirtualMemory/md/페이징(Paging).md",
+    "Projects/Study/6. OS/VirtualMemory/md/페이지 테이블 크기.md",
+    "Projects/Study/6. OS/VirtualMemory/md/페이지 테이블 구조.md",
+    "Projects/Study/6. OS/VirtualMemory/md/지역성(Locality)의 원리.md",
+    "Projects/Study/6. OS/VirtualMemory/md/메모리 영역.md",
+    "Projects/Study/6. OS/VirtualMemory/md/세그먼테이션(segmentation).md",
+    "Projects/Study/6. OS/VirtualMemory/md/무제 파일.md",
+    "Projects/Study/6. OS/VirtualMemory/md/가상메모리의 실용성.md",
+    "Projects/Study/6. OS/VirtualMemory/md/가상메모리 동작원리.md",
+    "Projects/Study/6. OS/VirtualMemory/md/가상 메모리(Virtual Memory).md",
+    "Projects/Study/6. OS/VirtualMemory/md/TLB(Translation Lookahead Buffer).md",
+    "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas",
+    "Projects/Study/6. OS/Thread/md/프로세스.md",
+    "Projects/Study/6. OS/Thread/md/커널 수준 쓰레드(KLT).md",
+    "Projects/Study/6. OS/Thread/md/쓰레드.md",
+    "Projects/Study/6. OS/Thread/md/쓰레드 라이브러리.md",
+    "Projects/Study/6. OS/Thread/md/쓰레드 동기화.md",
+    "Projects/Study/6. OS/Thread/md/쓰레드 (Threads).md",
+    "Projects/Study/6. OS/Thread/md/사용자 수준 쓰레드(ULT).md",
+    "Projects/Study/6. OS/Thread/md/멀티 쓰레딩.md",
+    "Projects/Study/6. OS/Thread/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
+    "Projects/Study/6. OS/Thread/md/단일 쓰레딩.md",
+    "Projects/Study/6. OS/Thrashing/md/스레싱(Thrashing).md",
+    "Projects/Study/6. OS/Thread/canvas/Thread.canvas",
+    "Projects/Study/6. OS/Thrashing/md/Working Set 알고리즘.md",
+    "Projects/Study/6. OS/Thrashing/canvas/무제 파일.canvas",
+    "Projects/Study/6. OS/Disk/canvas/RAID.canvas",
+    "Projects/Study/6. OS/memory/canvas/메모리 관리.canvas",
+    "Projects/Study/6. OS/Concurrency/canvas/Semaphore.canvas",
+    "Projects/Study/6. OS/Concurrency/canvas/DeadLock.canvas",
+    "Projects/Study/6. OS/Concurrency/canvas/Concurrency.canvas",
+    "Projects/Study/6. OS/Bootstrap/canvas/컴퓨터 부팅 과정.canvas",
+    "Projects/Study/6. OS/VirtualMemory/resources",
+    "Projects/Study/6. OS/VirtualMemory/md",
+    "Projects/Study/6. OS/VirtualMemory/canvas",
+    "Projects/Study/6. OS/Thread/md",
+    "Projects/Study/6. OS/Thread/canvas",
+    "Projects/Study/6. OS/Thrashing/md",
+    "Projects/Study/6. OS/Thrashing/canvas",
+    "Projects/Study/6. OS/Disk/resources",
+    "Projects/Study/6. OS/Disk/canvas",
+    "Projects/Study/6. OS/memory/md",
+    "Projects/Study/5. ComputerStructure/텍스트 표현/canvas/텍스트 표현.canvas"
   ]
 }
