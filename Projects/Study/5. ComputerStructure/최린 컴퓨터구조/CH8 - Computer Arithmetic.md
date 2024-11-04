@@ -32,11 +32,11 @@
 
 ## 2의 보수의 특성
 ### 0 단일 표현
-### Negation is fairly easy (bit complement of N + 1)
+### 변환이 쉽다 (비트에 보수를 취한 후 N + 1)
 - 3 -> 00000011
 - Boolean complement gives -> 11111100
 - Add 1 to LSB -> 11111101
-### Overflow occurs only
+### Overflow는 다음과 같은 상황에서만 발생한다
 - When the sign bit of two numbers are the same but the result has the opposite sign
 ### Arithmetic works easily
 - To perform A - B take the 2's complement of B and add it to A
