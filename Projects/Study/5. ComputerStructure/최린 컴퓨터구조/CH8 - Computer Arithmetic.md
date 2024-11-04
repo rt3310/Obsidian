@@ -7,4 +7,4 @@
 - Operations on separate floating point registers
 ### Implementation
 - All microprocessors has integer ALUs
-- Most of recent microprocessors including chips now has on-chip FPU
+- Most of recent microprocessors including mobile chips now has on-chip FPU
