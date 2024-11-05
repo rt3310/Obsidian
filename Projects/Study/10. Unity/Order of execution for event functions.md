@@ -8,6 +8,7 @@ https://docs.unity3d.com/2022.3/Documentation/Manual/ExecutionOrder.html#InBetwe
 아래 플로우차트의 범위는 MonoBehaviour 스크립팅 참조의 메세지에 문서화 된 적절한 콜백을 구현하여 모든 MonoBehaviour 스크립트에서 구독할 수 있는 내장 이벤트 함수로 제한된다.
 이벤트를 발생시키는 하위 시스템의 로컬인 일부 추가 내부 메서드도 컨텍스트를 위해 표시된다.
 
+이러한 내장 이벤트 함수 외에도 스크립트에서 잠재적으로 구독할 수 있는 다른 이벤트가 많이 있다.
 ![[Pasted image 20241023161752.png]]
 ## 일반적인 원칙
 
