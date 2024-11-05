@@ -31,3 +31,25 @@
 	- 레지스터와 메모리 위치 모두에 대해 세 가지 유형의 종속성이 모두 발생할 수 있다.
 	- 프로그램의 특징(머신이 아님)
 	- 올바른 출력을 생성하려면 실행 중에 보존되어야 한다.
+
+## Pipeline stalls
+### Need reg-id comparators for
+- RAW 의존성
+	- Reg-id comparators between the sources of a consumer instruction in REG stage and the destinations of producer instructions in EXE, WRB stages
+- WAW 의존성
+	- Reg-id comparators between the destination of an instruction in REG stage and the destinations of instructions in EXE stage (if the instruction in EXE stage takes more execution cycles than the instruction in REG)
+- WAR 의존성
+	- Can never cause the pipeline to stall since register read of an instruction always happens earlier than the write of a following instruction
+### If there is a match, recycle dependent instructions
+- The current instruction in REG stage need to be recycled and all the instructions in FET and DEC stage need to be recycled as well
+### Also, called pipeline interlock
+
+## Data Bypass (Forwarding)
+### Motivation
+- Minimize the pipeline stalls due to data dependence (RAW) hazards
+### Idea
+- Let's propagate the result as soon as the result is available from ALU or from memory (in parallel with register read)
+- Requires
+	- Data path from ALU output to the input of execution units (input of integer ALU, address or data input of memory pipeline, etc.)
+	- Register Read stage can read data from register file of from the output of the previous execution stage
+		- Require MUX in front of the input of execution stage
