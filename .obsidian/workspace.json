@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+                "file": "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+                "file": "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+                "file": "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
+                "file": "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md"
               }
             }
           },
@@ -171,9 +171,10 @@
   },
   "active": "bb464f9da98697fc",
   "lastOpenFiles": [
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+    "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md",
@@ -210,7 +211,6 @@
     "Projects/Study/8. DB/Transaction/md/READ COMMITTED.md",
     "Projects/Study/8. DB/Transaction/md/READ COMMITTED 작동 방식.md",
     "Projects/Study/8. DB/Transaction/md/Phantom Read.md",
-    "Projects/Study/8. DB/Transaction/md/Non-Repeatable Read.md",
     "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas",
     "Projects/Study/8. DB/SQL/canvas/SQL.canvas",
