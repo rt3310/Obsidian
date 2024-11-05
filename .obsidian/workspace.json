@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+                "file": "Projects/Study/10. Unity/Order of execution for event functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+                "file": "Projects/Study/10. Unity/Order of execution for event functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+                "file": "Projects/Study/10. Unity/Order of execution for event functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
+                "file": "Projects/Study/10. Unity/Order of execution for event functions.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "bb464f9da98697fc",
   "lastOpenFiles": [
-    "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+    "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
