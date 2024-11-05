@@ -37,4 +37,9 @@ https://docs.unity3d.com/2022.3/Documentation/Manual/ExecutionOrder.html#InBetwe
 scene asset의 일부인 object의 경우, 모든 스크립트에 대한 `Awake` 및 `OnEnable` 함수는 `Start` 이전에 호출되고 후속 함수는 이 중 하나에 대해 호출된다. 하지만, 런타임에 object를 인스턴스화하는 경우에는 이를 적용할 수 없다.
 
 **`Awake`는 각 개별 object의 범위에서 `OnEnable` 이전에만 호출되도록 보장된다**.
-즉, 여러 object에 걸쳐, 순서는 결정적이지 않으며 다른 object의 `OnEnable`이 호출되기 전에 한 객체의 `Awake`가 호출된다고 믿을 수 없다. scene의 모든 object에 대해 호출된 `Awake`에 의존하는 모든 작업은 `Start`에서 수행되어야 한다.
+즉, 여러 object에 걸쳐, 순서는 결정적이지 않으며 다른 object의 `OnEnable`이 호출되기 전에 한 객체의 `Awake`가 호출된다고 믿을 수 없다. 때문에 scene의 모든 object에 대해 호출된 `Awake`에 의존하는 모든 작업은 `Start`에서 수행되어야 한다.
+
+### scene load 및 unload 전
+위 다이어그램에는 scene이 각각 load 및 unload될 때 콜백을 받을 수 있는 [SceneManager.sceneLoaded](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/SceneManagement.SceneManager-sceneLoaded.html) 및 [SceneManager.sceneUnloaded](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/SceneManagement.SceneManager-sceneUnloaded.html) 이벤트가 표시되지 않았다.
+
+자세한 내용과 사용법 예시는 관련 스크립팅 참조페이지를 참고
