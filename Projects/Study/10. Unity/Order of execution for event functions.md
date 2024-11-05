@@ -14,4 +14,4 @@ https://docs.unity3d.com/2022.3/Documentation/Manual/ExecutionOrder.html#InBetwe
 ![[Pasted image 20241023161752.png]]
 ## 일반적인 원칙
 
-일반적으로, you should not rely
+일반적으로, 서로 다른 GameObject에 대해 동일한 이벤트 함수가 호출되는 순서에 의존해서는 안된다(순서가 명시적으로 문서화되거나 설정 가능한 경우는 제외).
