@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md"
+                "file": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
               }
             }
           },
