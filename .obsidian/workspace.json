@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d81aa96b4c8acdd3",
+        "id": "28af4694580f2f0c",
         "type": "tabs",
         "children": [
           {
-            "id": "778f122032a96c7a",
+            "id": "bb464f9da98697fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,13 +169,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "778f122032a96c7a",
+  "active": "bb464f9da98697fc",
   "lastOpenFiles": [
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md",
+    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
     "Pasted image 20241028005955.png",
     "Pasted image 20241028124158.png",
