@@ -14,4 +14,5 @@ https://docs.unity3d.com/2022.3/Documentation/Manual/ExecutionOrder.html#InBetwe
 ![[Pasted image 20241023161752.png]]
 ## 일반적인 원칙
 
-일반적으로, 서로 다른 GameObject에 대해 동일한 이벤트 함수가 호출되는 순서에 의존해서는 안된다(순서가 명시적으로 문서화되거나 설정 가능한 경우는 제외).
+일반적으로, 서로 다른 GameObject에 대해 동일한 이벤트 함수가 호출되는 순서에 의존해서는 안된다(순서가 명시적으로 문서화되거나 설정 가능한 경우는 제외). 플레이어 루프를 보다 세밀하게 제어해야 할 경우 [PlayerLoop API](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/LowLevel.PlayerLoop.html)를 사용할 수 있다.
+동일한 MonoBehaviour 하위 클래스의 여러 인스턴스에 대해 이벤트 함수가 호출되는 순서를 지정할 수 없다.
