@@ -118,3 +118,17 @@ scene asset의 일부인 object의 경우, `Update`가 호출되기 전에 모�
 ### OnBecameVisible/OnBecameInvisible
 - object가 카메라에 표시되거나 보이지 않게 될 때 호출된다.
 - `OnBecameInvisible`은 object가 언제든지 보이지 않게 될 수 있으므로 위 플로우차트에 표시되지 않는다.
+### OnWillRenderObject
+- object가 표시되면 카메라에 대해 한 번씩 호출된다.
+### OnPreRender
+- 카메라가 scene 렌더링을 시작하기 전에 호출된다.
+### OnRenderObject
+- 모든 regular scene 렌더링이 완료된 후 호출된다.
+- 이 시점에서 [GL](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/GL.html) 클래스나 [Graphics.DrawMeshNow](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Graphics.DrawMeshNow.html)를 사용하여 사용자 정의 형상을 그릴 수 있다.
+### OnPostRender
+- 카메라가 scene 렌더링을 마친 후에 호출된다.
+### OnRenderImage
+- 이미지 사후 처리를 허용하기 위해 scene 렌더링이 완료된 후 호출된다. [Post-processing Effects](https://docs.unity3d.com/2022.3/Documentation/Manual/PostProcessingOverview.html) 참고.
+### OnGUI
+- GUI 이벤트에 대한 응답으로 frame 당 여러 번 호출된다.
+- 
