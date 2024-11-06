@@ -72,6 +72,7 @@ scene asset의 일부인 object의 경우, `Update`가 호출되기 전에 모�
 
 게임 로직과 상호작용, 애니메이션, 카메라 위치 등을 추적할 때 사용할 수 있는 몇 가지 이벤트가 있다. 일반적인 패턴은 `Update` 함수 내에서 대부분의 작업을 수행하는 것이지만, 사용할 수 있는 다른 기능도 있다.
 ### FixedUpdate
-`FixedUpdate`는 frame 당이 아닌 게임 내 시간의 고정된 간격으로 발생한다. 이런 update는 고정되어있고 frame 속도는 가변적이므로, frame 속도가 높을 때 frame 중에 fixed update가 없고 frame 속도가 낮을 때 frame 당 fixed update가 여러 개 있을 수 있다.
+`FixedUpdate`는 frame 당이 아닌 게임 내 시간의 고정된 간격으로 발생한다. 이런 업데이트는 고정되어있고 frame 속도는 가변적이므로, frame 속도가 높을 때 frame 중에 fixed update가 없고 frame 속도가 낮을 때 frame 당 fixed update가 여러 개 있을 수 있다.
+모든 물리 계산 및 업데이트는 `FixedUpdate` 직후에 발생하며 frame 속도에 독립적이므로 `FixedUpdate`에서 움직임을 계산할 때 값에 [Time.deltaTime](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Time-deltaTime.html)을 곱할 필요가 없다.
 ### Update
 ### LateUpdate
