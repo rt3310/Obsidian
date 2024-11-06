@@ -72,9 +72,9 @@ scene asset의 일부인 object의 경우, `Update`가 호출되기 전에 모�
 
 게임 로직과 상호작용, 애니메이션, 카메라 위치 등을 추적할 때 사용할 수 있는 몇 가지 이벤트가 있다. 일반적인 패턴은 `Update` 함수 내에서 대부분의 작업을 수행하는 것이지만, 사용할 수 있는 다른 기능도 있다.
 ### FixedUpdate
-`FixedUpdate`는 frame 당이 아닌 게임 내 시간의 고정된 간격으로 발생한다. 이런 업데이트는 고정되어있고 frame 속도는 가변적이므로, frame 속도가 높을 때 frame 중에 `FixedUpdate`가 없고 frame 속도가 낮을 때 frame 당 `FixedUpdate`가 여러 개 있을 수 있다.
-모든 물리 계산 및 업데이트는 `FixedUpdate` 직후에 발생하며 frame 속도에 독립적이므로 `FixedUpdate`에서 움직임을 계산할 때 값에 [Time.deltaTime](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Time-deltaTime.html)을 곱할 필요가 없다.
-`FixedUpdate`가 발생하는 간격은 [Time.fixedDeltaTime](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Time-fixedDeltaTime.html)에 의해 정의되며 스크립트에서 직접 설정하거나 Fixed Timestep을 통해 설정할 수 있다. 이는 Editor에서 [Time settings](https://docs.unity3d.com/2022.3/Documentation/Manual/class-TimeManager.html)에 있는 속성이다.
+- `FixedUpdate`는 frame 당이 아닌 게임 내 시간의 고정된 간격으로 발생한다. 이런 업데이트는 고정되어있고 frame 속도는 가변적이므로, frame 속도가 높을 때 frame 중에 `FixedUpdate`가 없고 frame 속도가 낮을 때 frame 당 `FixedUpdate`가 여러 개 있을 수 있다.
+- 모든 물리 계산 및 업데이트는 `FixedUpdate` 직후에 발생하며 frame 속도에 독립적이므로 `FixedUpdate`에서 움직임을 계산할 때 값에 [Time.deltaTime](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Time-deltaTime.html)을 곱할 필요가 없다.
+- `FixedUpdate`가 발생하는 간격은 [Time.fixedDeltaTime](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Time-fixedDeltaTime.html)에 의해 정의되며 스크립트에서 직접 설정하거나 Fixed Timestep을 통해 설정할 수 있다. 이는 Editor에서 [Time settings](https://docs.unity3d.com/2022.3/Documentation/Manual/class-TimeManager.html)에 있는 속성이다.
 
 > [!note]+ Fixed Timestep
 > 물리 계산 및 `FixedUpdate()` 이벤트가 수행되는 시기를 지정하는 customizable한 독립적인 프레임 속도 간격이다. [추가 정보](https://docs.unity3d.com/2022.3/Documentation/Manual/class-TimeManager.html)
@@ -82,8 +82,39 @@ scene asset의 일부인 object의 경우, `Update`가 호출되기 전에 모�
 `Update`를 수행할지, `FixedUpdate`를 수행할지 결정하는 데 사용되는 시간 계산을 포함한 자세한 내용은 [Time](https://docs.unity3d.com/2022.3/Documentation/Manual/TimeFrameManagement.html)을 참고
 
 ### Update
-`Update`는 frame 당 한 번 호출되며, frame update의 메인 함수이다.
+- `Update`는 frame 당 한 번 호출되며, frame update의 메인 함수이다.
 
 ### LateUpdate
-`LateUpdate`는 `Update`가 완료된 후 frame 당 한 번씩 호출된다. `Update`에서 수행된 모든 계산은 `LateUpdate`가 시작되면 완료된다.
-`LateUpdate`의 일반적인 용도는 3인칭 카메라가 있다.
+- `LateUpdate`는 `Update`가 완료된 후 frame 당 한 번씩 호출된다. `Update`에서 수행된 모든 계산은 `LateUpdate`가 시작되면 완료된다.
+- `LateUpdate`의 일반적인 용도는 3인칭 카메라가 있다. `Update` 내에서 캐릭터를 움직이고 방향을 바꾸면 `LateUpdate`에서 모든 카메라 이동 및 회전 계산을 수행할 수 있다. 이렇게 하면 카메라가 위치를 추적하기 전에 캐릭터가 완전히 움직였는지 확인할 수 있다.
+
+## Animation update loop
+
+위 플로우차트에 표시된 다음 Animation loop callback은 MonoBehaviour에서 파생된 스크립트에서 호출된다.
+
+- [MonoBehaviour.OnAnimatorMove](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/MonoBehaviour.OnAnimatorMove.html)
+- [MonoBehaviour.OnAnimatorIK](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/MonoBehaviour.OnAnimatorIK.html)
+
+[StateMachineBehaviour](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/StateMachineBehaviour.html)에서 파생되는 스크립트에서 추가 애니메이션 관련 이벤트 함수가 호출된다:
+- [StateMachineBehaviour.OnStateMachineEnter](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/StateMachineBehaviour.OnStateMachineEnter.html)
+- [StateMachineBehaviour.OnStateMachineExit](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/StateMachineBehaviour.OnStateMachineExit.html)
+- [StateMachineBehaviour.OnStateEnter](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/StateMachineBehaviour.OnStateEnter.html)
+- [StateMachineBehaviour.OnStateUpdate](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/StateMachineBehaviour.OnStateUpdate.html)
+- [StateMachineBehaviour.OnStateExit](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/StateMachineBehaviour.OnStateExit.html)
+- [StateMachineBehaviour.OnStateMove](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/StateMachineBehaviour.OnStateMove.html)
+- [StateMachineBehaviour.OnStateIK](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/StateMachineBehaviour.OnStateIK.html)
+이러한 callback의 의미와 제한사항은 관련 scripting reference 페이지를 참고
+
+플로우차트에 표시된 다른 애니메이션 기능은 애니메이션 시스템 내부에 있으며 상황에 맞게 제공된다. 이러한 함수에는 Profiler marker가 연결되어 있으므로 [Profiler](https://docs.unity3d.com/2022.3/Documentation/Manual/Profiler.html)를 사용하여 frame에서 Unity가 해당 함수를 호출하는 시점을 확인할 수 있다. Unity가 이러한 함수를 호출하는 시기를 알면 호출한 이벤트 함수가 실행되는 시기를 정확히 이해하는 데 도움이 된다. 애니메이션 기능 및 Profiler marker의 전체 실행 순서는 [Profiler makrer](https://docs.unity3d.com/2022.3/Documentation/Manual/profiler-markers.html#animation)를 참고
+
+## Rendering
+
+이 실행 순서는 [Built-in Render Pipeline](https://docs.unity3d.com/2022.3/Documentation/Manual/built-in-render-pipeline.html)에만 적용된다. [Scriptable Render Pipeline](https://docs.unity3d.com/2022.3/Documentation/Manual/ScriptableRenderPipeline.html)을 기반으로 하는 render pipeline의 실행 순서에 대한 자세한 내용 [Universal Render Pipeline](https://docs.unity3d.com/6000.0/Documentation/Manual/urp/customize/custom-pass-injection-points.html) 또는 [High Definition Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.0/manual/rendering-execution-order.html) 문서의 관련 섹션을 참고.
+렌더링 직전에 작업을 하고 싶다면 [Application.onBeforeRender](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Application.onBeforeRender.html)를 참고.
+
+### OnPreCull
+- 카메라가 장면을 컬링하기 전에 호출된다. 컬링은 카메라에 표시되는 객체를 결정한다.
+- 즉, `OnPreCull`은 컬링이 발생하기 직전에 호출된다.
+### OnBecameVisible/OnBecameInvisible
+- object가 카메라에 표시되거나 보이지 않게 될 때 호출된다.
+- `OnBecameInvisible`은 object가 언제든지 보이지 않게 될 수 있으므로 위 플로우차트에 표시되지 않는다.

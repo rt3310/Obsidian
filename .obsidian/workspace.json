@@ -172,6 +172,8 @@
   },
   "active": "bb464f9da98697fc",
   "lastOpenFiles": [
+    "Projects/Study/10. Unity/().md",
+    "Projects/Study/10. Unity/Order of execution for event functions.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
     "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
@@ -210,8 +212,6 @@
     "Projects/Study/8. DB/Transaction/md/READ UNCOMMITTED의 Dirty Read.md",
     "Projects/Study/8. DB/Transaction/md/READ UNCOMMITTED.md",
     "Projects/Study/8. DB/Transaction/md/READ COMMITTED.md",
-    "Projects/Study/8. DB/Transaction/md/READ COMMITTED 작동 방식.md",
-    "Projects/Study/8. DB/Transaction/md/Phantom Read.md",
     "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas",
     "Projects/Study/8. DB/SQL/canvas/SQL.canvas",
