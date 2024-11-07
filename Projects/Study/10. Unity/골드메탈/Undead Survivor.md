@@ -1,0 +1,5 @@
+- MovePosition과 rigid.position += inputVec 의 차이는?
+	- MovePosition은 보간이 적용되어 부드럽게 움직인다
+	-  https://docs.unity3d.com/ScriptReference/Rigidbody.MovePosition.html
+- InputSystem은 GetAxis 같은 Lerp 형태 값이 지원되지 않는다.
+- dbslxl 
