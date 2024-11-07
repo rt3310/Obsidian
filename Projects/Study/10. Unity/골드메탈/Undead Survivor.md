@@ -4,3 +4,4 @@
 - InputSystem은 GetAxis 같은 Lerp 형태 값이 지원되지 않는다.
 - Unity 물리 엔진을 이용한 이동은 RigidBody를 통해서 이동하는 것이 좋다.
 	- Collider가 있는 Object를 Transform으로 이동시키면 물리충돌이 무시될 수 있다.
+- Input 계열의 함수는 Update에, 물리
