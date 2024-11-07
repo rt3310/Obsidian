@@ -6,3 +6,4 @@
 	- Collider가 있는 Object를 Transform으로 이동시키면 물리충돌이 무시될 수 있다.
 - Input 계열의 함수는 Update에, 물리 이동의 경우 FixedUpdate에 로직 작성
 	- FixedUpdate는 물리 연산에 최적화 되어있다.
+- 중력과 점프가 있는 플랫포머는 위치 기반이 아닌 속도 기반을 사용해야 한다.
