@@ -16,10 +16,25 @@
                 "file": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Undead Survivor"
+            }
+          },
+          {
+            "id": "048cf6c2403f4160",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -70,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -101,7 +124,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Undead Survivor의 백링크"
             }
           },
           {
@@ -113,7 +138,9 @@
                 "file": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Undead Survivor의 나가는 링크"
             }
           },
           {
@@ -124,7 +151,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -134,7 +163,9 @@
               "type": "outline",
               "state": {
                 "file": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Undead Survivor 개요"
             }
           },
           {
@@ -142,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -169,7 +202,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bb464f9da98697fc",
+  "active": "048cf6c2403f4160",
   "lastOpenFiles": [
     "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
     "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
