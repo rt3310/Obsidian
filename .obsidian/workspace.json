@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
+                "file": "Projects/Study/10. Unity/Awake vs Start.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "이벤트 함수 실행 순서"
+              "title": "Awake vs Start"
             }
           }
         ],
@@ -206,9 +206,9 @@
   },
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
+    "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
     "Projects/Study/10. Unity/Awake vs Start.md",
     "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
-    "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
     "Projects/Study/10. Unity/Coroutine.md",
     "Projects/Study/10. Unity/TextMeshPro.md",
     "Projects/Study/10. Unity/Quaternion.md",
