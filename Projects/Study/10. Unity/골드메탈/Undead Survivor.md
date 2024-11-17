@@ -7,3 +7,4 @@
 - Input 계열의 함수는 Update에, 물리 이동의 경우 FixedUpdate에 로직 작성
 	- FixedUpdate는 물리 연산에 최적화 되어있다.
 - 중력과 점프가 있는 플랫포머는 위치 기반이 아닌 속도 기반을 사용해야 한다.
+- OnMove에서는 if(!GameManager.instance.isLive) return; 을 넣지 않아야 한다. InputSystem은 값이 바뀔 때만 OnMove가 호출되므로 이것을 사전에 차단해버리면 InputVec이 (0, 0) 중립 값을 받지 못하게 되어 움직이는 것.
