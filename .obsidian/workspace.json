@@ -27,16 +27,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/10. Unity/Awake vs Start.md",
+                "file": "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Awake vs Start"
+              "title": "이벤트 함수 실행 순서"
+            }
+          },
+          {
+            "id": "5d6ab7c9065905d8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -204,10 +217,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "048cf6c2403f4160",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
-    "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
     "Projects/Study/10. Unity/Awake vs Start.md",
+    "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
     "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
     "Projects/Study/10. Unity/Coroutine.md",
     "Projects/Study/10. Unity/TextMeshPro.md",
