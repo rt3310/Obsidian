@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Undead Survivor"
             }
+          },
+          {
+            "id": "8947b88d1bf702e4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5d6ab7c9065905d8",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
     "Pasted image 20241028005955.png",
