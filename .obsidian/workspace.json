@@ -53,12 +53,14 @@
             "id": "8947b88d1bf702e4",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "Undead Survivor"
             }
           }
         ],
@@ -230,7 +232,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "8947b88d1bf702e4",
   "lastOpenFiles": [
     "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
     "Pasted image 20241028005955.png",
