@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
+                "file": "Projects/Study/10. Unity/Tilemap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Undead Survivor"
+              "title": "Tilemap"
             }
           }
         ],
@@ -232,13 +232,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "8947b88d1bf702e4",
   "lastOpenFiles": [
+    "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
+    "Projects/Study/10. Unity/Tilemap.md",
     "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
     "Pasted image 20241028005955.png",
     "Pasted image 20241028124158.png",
     "Projects/Study/10. Unity/Awake vs Start.md",
-    "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
     "Projects/Study/10. Unity/Coroutine.md",
     "Projects/Study/10. Unity/TextMeshPro.md",
     "Projects/Study/10. Unity/Quaternion.md",
