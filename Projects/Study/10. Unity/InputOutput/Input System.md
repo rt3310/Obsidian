@@ -21,6 +21,6 @@
 ![[Pasted image 20241128173256.png]]
 - **Send Message**: 키가 입력되면 해당 오브젝트의 모든 컴포넌트에 메시지 함수를 보낸다.
 - **BroadCast Message**: Send Message와 동일하지만 자식 컴포넌트들에게도 메시지가 보내진다.
-- Invoke Unity Event: 유니티의 Event System과 동일한 방식으로 객체 내 함수를 해당 입력 이벤트에 바인딩한다.
-- Invoke C Sharp Events: Input Actions에서 설정한 키들을 바탕으로 유니티가 C# 코드를 작성해준다.
+- **Invoke Unity Event**: 유니티의 Event System과 동일한 방식으로 객체 내 함수를 해당 입력 이벤트에 바인딩한다.
+- **Invoke C Sharp Events**: Input Actions에서 설정한 키들을 바탕으로 유니티가 C# 코드를 작성해준다.
 	- Save Asset시 코드도 자동으로 업데이트 된다.
