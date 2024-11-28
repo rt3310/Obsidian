@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Physics.Raycast",
+      "path": "Projects/Study/10. Unity/Physics.Raycast.md"
+    },
+    {
       "basename": "Input System",
       "path": "Projects/Study/10. Unity/InputOutput/Input System.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240510020335",
       "path": "Projects/Posting/DB/resources/Pasted image 20240510020335.png"
-    },
-    {
-      "basename": "Pasted image 20240620190654",
-      "path": "Projects/Posting/Java/resources/Pasted image 20240620190654.png"
     }
   ],
   "omittedPaths": [],
