@@ -116,3 +116,6 @@ Value의 초기 상태 체크는 입력 액션 활성화 시에 실시하는 상
 - 명확화를 하지 않아 주 입력이 없이 모든 입력을 직접적으로 받아온다.
 - interaction에서 설정해주지 않는 한 Start와 Canceled 이벤트를 전송하지 않는다.
 - 초기 상태를 체크하지 않는다.
+
+### Value vs Passthrough
+![[Pasted image 20241130172732.png]]
