@@ -43,15 +43,34 @@ Cinemachine Brain은 실질적으로 게임 화면 상에 비추어 줄 가상 �
 ## Cinemachine Inspector
 
 ![[Pasted image 20241130193531.png]]
-- Property: 카메라의 우선도
-- Save During Play: Unity 상에서 플레이 중에 변경한 시네머신 설정을 저장한다.
-- Follow: 어떤 오브젝트를 따라다닐지 설정한다.
-- Look At: 어떤 오브젝트를 바라볼지 설정한다.
-- Standby Update: Live 상태가 아닌 카메라의 업데이트 빈도 설정
+- **Property**: 카메라의 우선도
+- **Save During Play**: Unity 상에서 플레이 중에 변경한 시네머신 설정을 저장한다.
+- **Follow**: 어떤 오브젝트를 따라다닐지 설정한다.
+- **Look At**: 어떤 오브젝트를 바라볼지 설정한다.
+- **Standby Update**: Live 상태가 아닌 카메라의 업데이트 빈도 설정
 	- Never: 항상
 	- Always: Live 일 때만
 	- Round Robine: 정기적으로
-- Lens: 카메라 렌즈를 설정
-- Transitions: 카메라 사이를 이동할 때 Scene 전환 효과 설정
-- Body: Scene 내부의 Virtual Camera가 움직일 때 따라가는 알고리즘 설정을 변경한다.
-- Aim: Scene 내부의 Virtual Camera가 Look At 타깃을 바라볼 때 따라가는 알고리즘 설정을 변경한다.
+- **Lens**: 카메라 렌즈를 설정
+- **Transitions**: 카메라 사이를 이동할 때 Scene 전환 효과 설정
+- **Body**: Scene 내부의 Virtual Camera가 움직일 때 따라가는 알고리즘 설정을 변경한다.
+- **Aim**: Scene 내부의 Virtual Camera가 Look At 타깃을 바라볼 때 따라가는 알고리즘 설정을 변경한다.
+
+## 스크립트 상에서 inspector에 접근하기
+
+가상 카메라와 같은 것들은 그냥 컴포넌트로 가져올 수 있지만, 컴포넌트 내부의 하위 값(예를 들어, Lens 안의 Field Of View 값 등)으로 접근하려면 컴포넌트에서 또 다시 컴포넌트를 가지고 와서 변경해야 한다.
+
+```c#
+using Cinemachine; // Cinemachine을 using 해줘야 활용이 시네머신을 스크립트로 가져올 수 있다.
+
+public CinemachineVirtualCamera cinevirtual;
+
+main()
+{
+	// Cinemachine 자체에 접근하려면 이렇게 해도 된다.
+	cinevirtual.m_Lens.FieldOfView = 60;
+
+	// 하지만 transposer의 follow offset에 접근하려면 아래와 같이 컴포넌트를 가져와야한다.
+	cinevirtual.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset.y = 10;
+}
+```
