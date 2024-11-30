@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "기록",
-      "path": "Projects/Study/10. Unity/기록.md"
+      "basename": "Input System",
+      "path": "Projects/Study/10. Unity/InputOutput/Input System.md"
+    },
+    {
+      "basename": "Pasted image 20241130160710",
+      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130160710.png"
+    },
+    {
+      "basename": "TextMeshPro",
+      "path": "Projects/Study/10. Unity/TextMeshPro.md"
     },
     {
       "basename": "Physics.Raycast",
       "path": "Projects/Study/10. Unity/Physics.Raycast.md"
     },
     {
-      "basename": "Input System",
-      "path": "Projects/Study/10. Unity/InputOutput/Input System.md"
+      "basename": "Coroutine",
+      "path": "Projects/Study/10. Unity/Coroutine.md"
+    },
+    {
+      "basename": "PPU",
+      "path": "Projects/Study/10. Unity/Graphics/PPU.md"
+    },
+    {
+      "basename": "기록",
+      "path": "Projects/Study/10. Unity/기록.md"
     },
     {
       "basename": "Pasted image 20241128173256",
@@ -25,20 +41,8 @@
       "path": "Pasted image 20241028005955.png"
     },
     {
-      "basename": "PPU",
-      "path": "Projects/Study/10. Unity/Graphics/PPU.md"
-    },
-    {
       "basename": "Time.time vs Time.deltaTime",
       "path": "Projects/Study/10. Unity/Time/Time.time vs Time.deltaTime.md"
-    },
-    {
-      "basename": "Coroutine",
-      "path": "Projects/Study/10. Unity/Coroutine.md"
-    },
-    {
-      "basename": "TextMeshPro",
-      "path": "Projects/Study/10. Unity/TextMeshPro.md"
     },
     {
       "basename": "Quaternion",

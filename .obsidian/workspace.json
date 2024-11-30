@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/10. Unity/기록.md",
+                "file": "Projects/Study/10. Unity/InputOutput/Input System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기록"
+              "title": "Input System"
             }
           },
           {
@@ -140,8 +140,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -247,23 +246,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "048cf6c2403f4160",
   "lastOpenFiles": [
-    "Projects/Study/10. Unity/Physics.Raycast.md",
-    "Projects/Study/10. Unity/무제 파일.md",
+    "Projects/Study/10. Unity/Resources/Pasted image 20241130160710.png",
     "Projects/Study/10. Unity/InputOutput/Input System.md",
+    "Projects/Study/10. Unity/Resources/Pasted image 20241130161056.png",
+    "Projects/Study/10. Unity/TextMeshPro.md",
+    "Projects/Study/10. Unity/Physics.Raycast.md",
+    "Projects/Study/10. Unity/Coroutine.md",
+    "Projects/Study/10. Unity/Graphics/PPU.md",
+    "Projects/Study/10. Unity/Resources/Pasted image 20241130160803.png",
+    "Projects/Study/10. Unity/Resources/Pasted image 20241130160605.png",
+    "Projects/Study/10. Unity/기록.md",
+    "Projects/Study/10. Unity/무제 파일.md",
     "Projects/Study/10. Unity/Resources/Pasted image 20241128173256.png",
     "Pasted image 20241028124158.png",
     "Pasted image 20241028005955.png",
     "Projects/Study/10. Unity/무제 폴더",
-    "Projects/Study/10. Unity/Graphics/PPU.md",
     "Projects/Study/10. Unity/Graphics",
     "Projects/Study/10. Unity/InputOutput",
     "Projects/Study/10. Unity/Time/Time.time vs Time.deltaTime.md",
     "Projects/Study/10. Unity/Time",
-    "Projects/Study/10. Unity/기록.md",
-    "Projects/Study/10. Unity/Coroutine.md",
-    "Projects/Study/10. Unity/TextMeshPro.md",
     "Projects/Study/10. Unity/Math&Physics/Quaternion.md",
     "Projects/Study/10. Unity/Math&Physics",
     "Projects/Study/10. Unity/Event Functions",
@@ -284,15 +287,10 @@
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md",
-    "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
     "Projects/Study/3. DataStructure",
     "Projects/Study/12. Game/Resources/Pasted image 20241025123601.png",
     "Projects/Study/12. Game/Resources/Pasted image 20241025123006.png",
     "Projects/Study/12. Game/Resources/Pasted image 20241025122525.png",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025122426.png",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025120754.png",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025120137.png",
-    "Projects/Study/12. Game/Resources/Pasted image 20241025120017.png",
     "Projects/Study/12. Game/Resources",
     "Projects/Study/12. Game",
     "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
