@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Cinemachine",
+      "path": "Projects/Study/10. Unity/Graphics/Cinemachine.md"
+    },
+    {
+      "basename": "Pasted image 20241130164830",
+      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130164830.png"
+    },
+    {
+      "basename": "Pasted image 20241028005955",
+      "path": "Pasted image 20241028005955.png"
+    },
+    {
+      "basename": "Pasted image 20241028124158",
+      "path": "Pasted image 20241028124158.png"
+    },
+    {
+      "basename": "Pasted image 20241130165308",
+      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130165308.png"
+    },
+    {
       "basename": "Input System",
       "path": "Projects/Study/10. Unity/InputOutput/Input System.md"
     },
@@ -31,14 +51,6 @@
     {
       "basename": "Pasted image 20241128173256",
       "path": "Projects/Study/10. Unity/Resources/Pasted image 20241128173256.png"
-    },
-    {
-      "basename": "Pasted image 20241028124158",
-      "path": "Pasted image 20241028124158.png"
-    },
-    {
-      "basename": "Pasted image 20241028005955",
-      "path": "Pasted image 20241028005955.png"
     },
     {
       "basename": "Time.time vs Time.deltaTime",
@@ -187,18 +199,6 @@
     {
       "basename": "코드 커버리지",
       "path": "Projects/Posting/Test/코드 커버리지.md"
-    },
-    {
-      "basename": "Pasted image 20240510020217",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020217.png"
-    },
-    {
-      "basename": "Pasted image 20240510020309",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020309.png"
-    },
-    {
-      "basename": "Pasted image 20240510020319",
-      "path": "Projects/Posting/DB/resources/Pasted image 20240510020319.png"
     }
   ],
   "omittedPaths": [],
