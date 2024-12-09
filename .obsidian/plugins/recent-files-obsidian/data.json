@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20241130193531",
+      "path": "Pasted image 20241130193531.png"
+    },
+    {
       "basename": "Cinemachine",
       "path": "Projects/Study/10. Unity/Graphics/Cinemachine.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "테스트 데이터 초기화",
       "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
-    },
-    {
-      "basename": "코드 커버리지",
-      "path": "Projects/Posting/Test/코드 커버리지.md"
     }
   ],
   "omittedPaths": [],
