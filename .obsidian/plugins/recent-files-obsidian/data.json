@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Pasted image 20241130193531",
-      "path": "Pasted image 20241130193531.png"
+      "basename": "placement new",
+      "path": "Projects/Study/1. C, C++/placement new.md"
     },
     {
-      "basename": "Cinemachine",
-      "path": "Projects/Study/10. Unity/Graphics/Cinemachine.md"
+      "basename": "포인터에는 왜 타입이 없을까",
+      "path": "Projects/Study/1. C, C++/포인터에는 왜 타입이 없을까.md"
     },
     {
-      "basename": "Pasted image 20241130164830",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130164830.png"
+      "basename": "13-2. shared_ptr, weak_ptr",
+      "path": "Projects/Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
+    },
+    {
+      "basename": "new vs malloc",
+      "path": "Projects/Study/1. C, C++/new vs malloc.md"
     },
     {
       "basename": "Pasted image 20241028005955",
@@ -19,6 +23,18 @@
     {
       "basename": "Pasted image 20241028124158",
       "path": "Pasted image 20241028124158.png"
+    },
+    {
+      "basename": "Pasted image 20241130193531",
+      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130193531.png"
+    },
+    {
+      "basename": "Cinemachine",
+      "path": "Projects/Study/10. Unity/Graphics/Cinemachine.md"
+    },
+    {
+      "basename": "Pasted image 20241130164830",
+      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130164830.png"
     },
     {
       "basename": "Pasted image 20241130165308",
@@ -183,22 +199,6 @@
     {
       "basename": "boolean parameter를 너무 사랑하지마세요.",
       "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
-    },
-    {
-      "basename": "위경도 값에 BigDecimal or Double",
-      "path": "Projects/Posting/Java/위경도 값에 BigDecimal or Double.md"
-    },
-    {
-      "basename": "System.out.println 사용을 지양하라",
-      "path": "Projects/Posting/Java/System.out.println 사용을 지양하라.md"
-    },
-    {
-      "basename": "정적 팩토리 메서드",
-      "path": "Projects/Posting/Java/정적 팩토리 메서드.md"
-    },
-    {
-      "basename": "테스트 데이터 초기화",
-      "path": "Projects/Posting/Test/테스트 데이터 초기화.md"
     }
   ],
   "omittedPaths": [],
