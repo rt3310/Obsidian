@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "분리집합",
+      "path": "Projects/Study/4. Algorithm/분리집합.md"
+    },
+    {
+      "basename": "BFS",
+      "path": "Projects/Study/4. Algorithm/BFS.md"
+    },
+    {
+      "basename": "공부할 알고리즘",
+      "path": "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md"
+    },
+    {
       "basename": "placement new",
       "path": "Projects/Study/1. C, C++/placement new.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유",
       "path": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md"
-    },
-    {
-      "basename": "트랜잭션 전파",
-      "path": "Projects/Posting/DB/트랜잭션 전파.md"
-    },
-    {
-      "basename": "isCommited",
-      "path": "Projects/Posting/Spring/isCommited.md"
-    },
-    {
-      "basename": "boolean parameter를 너무 사랑하지마세요.",
-      "path": "Projects/Posting/Java/boolean parameter를 너무 사랑하지마세요..md"
     }
   ],
   "omittedPaths": [],
