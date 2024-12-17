@@ -1,6 +1,82 @@
 {
   "recentFiles": [
     {
+      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
+      "path": "Projects/Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
+    },
+    {
+      "basename": "연산자 오버로딩",
+      "path": "Projects/Study/1. C, C++/연산자 오버로딩.md"
+    },
+    {
+      "basename": "포인터에는 왜 타입이 있을까",
+      "path": "Projects/Study/1. C, C++/포인터에는 왜 타입이 있을까.md"
+    },
+    {
+      "basename": "switch 문의 제약사항",
+      "path": "Projects/Study/1. C, C++/switch 문의 제약사항.md"
+    },
+    {
+      "basename": "pragma",
+      "path": "Projects/Study/1. C, C++/pragma.md"
+    },
+    {
+      "basename": "placement new",
+      "path": "Projects/Study/1. C, C++/placement new.md"
+    },
+    {
+      "basename": "new vs malloc",
+      "path": "Projects/Study/1. C, C++/new vs malloc.md"
+    },
+    {
+      "basename": "cc vs cpp",
+      "path": "Projects/Study/1. C, C++/cc vs cpp.md"
+    },
+    {
+      "basename": "Pasted image 20241210120119",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120119.png"
+    },
+    {
+      "basename": "Pasted image 20241210120212",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120212.png"
+    },
+    {
+      "basename": "Pasted image 20241210120444",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120444.png"
+    },
+    {
+      "basename": "Pasted image 20241210120507",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120507.png"
+    },
+    {
+      "basename": "Pasted image 20241210120538",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120538.png"
+    },
+    {
+      "basename": "Pasted image 20241210120549",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120549.png"
+    },
+    {
+      "basename": "Pasted image 20241210120447",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120447.png"
+    },
+    {
+      "basename": "Pasted image 20241210120204",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120204.png"
+    },
+    {
+      "basename": "Pasted image 20241210120155",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120155.png"
+    },
+    {
+      "basename": "Pasted image 20241210120130",
+      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120130.png"
+    },
+    {
+      "basename": "Pasted image 20241028124158",
+      "path": "Pasted image 20241028124158.png"
+    },
+    {
       "basename": "분리집합",
       "path": "Projects/Study/4. Algorithm/분리집합.md"
     },
@@ -13,28 +89,12 @@
       "path": "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md"
     },
     {
-      "basename": "placement new",
-      "path": "Projects/Study/1. C, C++/placement new.md"
-    },
-    {
-      "basename": "포인터에는 왜 타입이 없을까",
-      "path": "Projects/Study/1. C, C++/포인터에는 왜 타입이 없을까.md"
-    },
-    {
       "basename": "13-2. shared_ptr, weak_ptr",
       "path": "Projects/Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
     },
     {
-      "basename": "new vs malloc",
-      "path": "Projects/Study/1. C, C++/new vs malloc.md"
-    },
-    {
       "basename": "Pasted image 20241028005955",
       "path": "Pasted image 20241028005955.png"
-    },
-    {
-      "basename": "Pasted image 20241028124158",
-      "path": "Pasted image 20241028124158.png"
     },
     {
       "basename": "Pasted image 20241130193531",
@@ -139,66 +199,6 @@
     {
       "basename": "CH7 - Linker",
       "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md"
-    },
-    {
-      "basename": "CH6 - Linker",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md"
-    },
-    {
-      "basename": "CH5 - Linker",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH5 - Linker.md"
-    },
-    {
-      "basename": "CH2 - Instruction Architecture Set",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md"
-    },
-    {
-      "basename": "CH1",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH1.md"
-    },
-    {
-      "basename": "CH4 - Instruction Architecture Set",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md"
-    },
-    {
-      "basename": "CH3 - Instruction Architecture Set",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Projects/Posting/HTTP/HttpSession.md"
-    },
-    {
-      "basename": "Java Concurrency",
-      "path": "Projects/Study/Java/Concurrency/Java Concurrency.md"
-    },
-    {
-      "basename": "자바스크립트",
-      "path": "Projects/Study/Javascript/자바스크립트.md"
-    },
-    {
-      "basename": "EBP, ESP Register",
-      "path": "Projects/Posting/Computer Structure/EBP, ESP Register.md"
-    },
-    {
-      "basename": "온라인 결제 프로세스",
-      "path": "Projects/Posting/Trouble Shooting/온라인 결제 프로세스.md"
-    },
-    {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Projects/Posting/Cache/Ehcache vs Caffeine.md"
-    },
-    {
-      "basename": "캐시 선택",
-      "path": "Projects/Posting/Cache/캐시 선택.md"
-    },
-    {
-      "basename": "null",
-      "path": "Projects/Posting/DB/null.md"
-    },
-    {
-      "basename": "JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유",
-      "path": "Projects/Posting/DB/JPA에서 Entity는 고유한데, Collection Type으로 Set이 아닌 List를 쓰는 이유.md"
     }
   ],
   "omittedPaths": [],
