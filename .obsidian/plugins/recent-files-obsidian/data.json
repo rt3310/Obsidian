@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Select()",
+      "path": "Projects/Study/7. Network/Select().md"
+    },
+    {
       "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
       "path": "Projects/Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CH8 - Computer Arithmetic",
       "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md"
-    },
-    {
-      "basename": "CH7 - Linker",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md"
     }
   ],
   "omittedPaths": [],
