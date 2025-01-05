@@ -54,3 +54,7 @@ public void LookAt(Vector3 worldPosition);
 - worldUp: 오브젝트가 회전할 기준점
 
 `Quaternion.LookRotation()` 메서드는 지정된 방향을 가리키는 쿼터니언을 생성한다.
+```c#
+public static Quaternion LookRotation(Vector3 forward);
+public static Quaternion LookRotation(Vector3 forward, [DefaultValue("Vector3.up")] Vector3 upwards);
+```
