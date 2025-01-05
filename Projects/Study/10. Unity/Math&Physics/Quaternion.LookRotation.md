@@ -35,3 +35,22 @@ tf.rotation = Quaternion.LookRotation(new Vector(45, 45, 45));
 하지만 `Quaternion.LookRotation()` 메서드 안에 들어가는 벡터는 실제 벡터이고, x, y, z 값을 뜻한다.
 
 따라서 `tf.Rotate(new Vector3(45, 45, 45));` 에서의 45는 각도를 가리키고, `tf.rotation = Quaternion.LookRotation(new Vector3(45, 45, 45));` 에서의 45는 x, y, z 값을 가리킨다.
+
+`tf.rotation = Quaternion.LookRotation(new Vector(45, 45, 45));`와
+`tf.rotation = Quaternion.LookRotation(new Vector(1, 1, 1));` 은 같은 결과를 나타낸다.
+`Quaternion.LookRotation` 메서드는 벡터에서 힘을 제외하고 방향만들 필요로 하는 메서드이기 때문이다.
+
+## transform.LookAt() vs Quaternion.LookRotation()
+
+`transform.LookAt()` 메서드는 오브젝트를 지정된 위치와 방향으로 회전한다.
+
+```c#
+public void LookAt(Transform target);
+public void LookAt(Vector3 worldPosition, [DefaultValue("Vector3.up")] Vector3 worldUp);
+public void LookAt(Vector3 worldPosition);
+```
+- target: 바라볼 오브젝트
+- worldPosition: 오브젝트가 바라보게 될 위치
+- worldUp: 오브젝트가 회전할 기준점
+
+`Quaternion.LookRotation()` 메서드는 지정된 방향을 가리키는 쿼터니언을 생성한다.
