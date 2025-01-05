@@ -34,4 +34,4 @@ tf.rotation = Quaternion.LookRotation(new Vector(45, 45, 45));
 `Transform.Rotate()` 메서드 안에 들어가는 벡터의 성분은 각도를 가리킨다. (형식은 벡터이지만 각도를 뜻한다)
 하지만 `Quaternion.LookRotation()` 메서드 안에 들어가는 벡터는 실제 벡터이고, x, y, z 값을 뜻한다.
 
-따라서 `tf.Rotate(new Vector3(45, 45, 45));` 에서의 45는 각도를 가리키고
+따라서 `tf.Rotate(new Vector3(45, 45, 45));` 에서의 45는 각도를 가리키고, `tf.rotation = Quaternion.LookRotation(new Vector3(45, 45, 45));` 에서의 45는 x, y, z 값을 가리킨다.
