@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/10. Unity/Math&Physics/Quaternion.LookRotation.md",
+                "file": "Projects/Study/10. Unity/Math&Physics/Quaternion.RotateTowards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quaternion.LookRotation"
+              "title": "Quaternion.RotateTowards"
             }
           },
           {
@@ -248,9 +248,10 @@
   },
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
+    "Projects/Study/10. Unity/Math&Physics/Quaternion.LookRotation.md",
+    "Projects/Study/10. Unity/Math&Physics/Quaternion.RotateTowards.md",
     "Pasted image 20250105123410.png",
     "Projects/Study/10. Unity/Math&Physics/Quaternion.md",
-    "Projects/Study/10. Unity/Math&Physics/Quaternion.LookRotation.md",
     "Projects/Study/7. Network/Select().md",
     "Projects/Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md",
     "Projects/Study/1. C, C++/연산자 오버로딩.md",
@@ -269,7 +270,6 @@
     "Projects/Study/4. Algorithm/resources/Pasted image 20241210120447.png",
     "Projects/Study/4. Algorithm/resources/Pasted image 20241210120204.png",
     "Projects/Study/4. Algorithm/resources/Pasted image 20241210120155.png",
-    "Projects/Study/4. Algorithm/resources/Pasted image 20241210120130.png",
     "Projects/Study/4. Algorithm/분리집합.md",
     "Projects/Study/4. Algorithm/BFS.md",
     "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md",

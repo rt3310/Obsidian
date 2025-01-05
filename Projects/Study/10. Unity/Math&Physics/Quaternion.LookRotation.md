@@ -58,3 +58,6 @@ public void LookAt(Vector3 worldPosition);
 public static Quaternion LookRotation(Vector3 forward);
 public static Quaternion LookRotation(Vector3 forward, [DefaultValue("Vector3.up")] Vector3 upwards);
 ```
+
+- transform.LookAt() 메서드는 오브젝트를 직접 회전하는 반면, Quaternion.LookRotation() 메서드는 회전할 쿼터니언을 생성한다.
+- transform.LookAt() 메서드는 오브젝트의 위치와 방향을 함께 지정해야 하지만, Quaternion.LookRotation() 메서드는 방향만 지정하면 된다. 두 메서드의 방향 기본값은 Vector Up이다.

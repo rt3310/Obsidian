@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Quaternion.RotateTowards",
+      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.RotateTowards.md"
+    },
+    {
       "basename": "Quaternion.LookRotation",
       "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.LookRotation.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "동적 링크 라이브러리 (dll)",
       "path": "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md"
-    },
-    {
-      "basename": "CH9 - Computer Arithmetic",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md"
     }
   ],
   "omittedPaths": [],
