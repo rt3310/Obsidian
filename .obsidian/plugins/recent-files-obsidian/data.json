@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Quaternion.LookRotation",
+      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.LookRotation.md"
+    },
+    {
+      "basename": "Quaternion",
+      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.md"
+    },
+    {
       "basename": "Select()",
       "path": "Projects/Study/7. Network/Select().md"
     },
@@ -153,10 +161,6 @@
       "path": "Projects/Study/10. Unity/Time/Time.time vs Time.deltaTime.md"
     },
     {
-      "basename": "Quaternion",
-      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.md"
-    },
-    {
       "basename": "Tilemap",
       "path": "Projects/Study/10. Unity/Tilemap.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CH9 - Computer Arithmetic",
       "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md"
-    },
-    {
-      "basename": "CH8 - Computer Arithmetic",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH8 - Computer Arithmetic.md"
     }
   ],
   "omittedPaths": [],
