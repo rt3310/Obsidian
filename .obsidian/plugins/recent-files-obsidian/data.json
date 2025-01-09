@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "React Query",
+      "path": "Projects/Study/13. React/React Query.md"
+    },
+    {
       "basename": "Quaternion.RotateTowards",
       "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.RotateTowards.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "()",
       "path": "Projects/Study/10. Unity/().md"
-    },
-    {
-      "basename": "동적 링크 라이브러리 (dll)",
-      "path": "Projects/Study/5. ComputerStructure/동적 링크 라이브러리 (dll).md"
     }
   ],
   "omittedPaths": [],
