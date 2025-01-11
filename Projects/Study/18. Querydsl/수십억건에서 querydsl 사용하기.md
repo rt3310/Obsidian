@@ -25,10 +25,15 @@ exists가 빠른 이유는 **조건에 해당하는 row 1개**만 찾으면 바�
 ### 조회 컬럼 최소화하기
 ![[Pasted image 20250112022949.png]]![[Pasted image 20250112022958.png]]
 
-## Select 컬럼에 Entity 자제 - N+1
+## Select 컬럼에 Entity 자제
+
+### N+1
 
 ![[Pasted image 20250112023012.png]]![[Pasted image 20250112023057.png]]
 ![[Pasted image 20250112023641.png]]
 ![[Pasted image 20250112024119.png]]![[Pasted image 20250112024126.png]]
 ![[Pasted image 20250112024146.png]]![[Pasted image 20250112024153.png]]
 ![[Pasted image 20250112024203.png]]![[Pasted image 20250112024212.png]]
+
+### Distinct
+![[Pasted image 20250112025904.png]]
