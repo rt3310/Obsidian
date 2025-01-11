@@ -9,3 +9,6 @@ Querydsl의 exists는 실제로 count() > 0 으로 실행된다.
 
 exists가 빠른 이유는 **조건에 해당하는 row 1개**만 찾으면 바로 쿼리를 종료하기 때문!
 이를 직접 구현하자
+
+![[Pasted image 20250112012400.png]]
+![[Pasted image 20250112012416.png]]
