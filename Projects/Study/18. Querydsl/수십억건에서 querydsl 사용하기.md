@@ -29,3 +29,6 @@ exists가 빠른 이유는 **조건에 해당하는 row 1개**만 찾으면 바�
 
 ![[Pasted image 20250112023012.png]]![[Pasted image 20250112023057.png]]
 ![[Pasted image 20250112023641.png]]
+![[Pasted image 20250112024119.png]]![[Pasted image 20250112024126.png]]
+![[Pasted image 20250112024146.png]]![[Pasted image 20250112024153.png]]
+![[Pasted image 20250112024203.png]]![[Pasted image 20250112024212.png]]
