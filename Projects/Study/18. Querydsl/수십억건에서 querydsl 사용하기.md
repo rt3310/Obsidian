@@ -17,3 +17,14 @@ exists가 빠른 이유는 **조건에 해당하는 row 1개**만 찾으면 바�
 
 ![[Pasted image 20250112022321.png]]
 ![[Pasted image 20250112022401.png]]
+
+## Entity보다는 Dto를 우선
+
+![[Pasted image 20250112022926.png]]![[Pasted image 20250112022936.png]]
+
+### 조회 컬럼 최소화하기
+![[Pasted image 20250112022949.png]]![[Pasted image 20250112022958.png]]
+
+## Select 컬럼에 Entity 자제
+
+![[Pasted image 20250112023012.png]]![[Pasted image 20250112023057.png]]
