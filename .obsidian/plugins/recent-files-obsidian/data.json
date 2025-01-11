@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "수십억건에서 querydsl 사용하기",
+      "path": "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md"
+    },
+    {
+      "basename": "Sharding",
+      "path": "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas"
+    },
+    {
       "basename": "React Query",
       "path": "Projects/Study/13. React/React Query.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "충돌 처리 알고리즘",
       "path": "Projects/Study/12. Game/충돌 처리 알고리즘.md"
-    },
-    {
-      "basename": "CH10 - Pipeline",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
-    },
-    {
-      "basename": "()",
-      "path": "Projects/Study/10. Unity/().md"
     }
   ],
   "omittedPaths": [],
