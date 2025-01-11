@@ -12,3 +12,8 @@ exists가 빠른 이유는 **조건에 해당하는 row 1개**만 찾으면 바�
 
 ![[Pasted image 20250112012400.png]]
 ![[Pasted image 20250112012416.png]]
+
+## Cross Join 회피
+
+![[Pasted image 20250112022321.png]]
+![[Pasted image 20250112022401.png]]
