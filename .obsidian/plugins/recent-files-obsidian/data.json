@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Using Temporary, Using Filesort",
+      "path": "Projects/Study/8. DB/Using Temporary, Using Filesort.md"
+    },
+    {
       "basename": "JVM",
       "path": "Projects/Study/Java/JVM/canvas/JVM.canvas"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Java Concurrency",
       "path": "Projects/Study/14. Java/Java Concurrency.md"
-    },
-    {
-      "basename": "Using Temporary, Using Filesort",
-      "path": "Projects/Study/8. DB/Using Temporary, Using Filesort.md"
     },
     {
       "basename": "HTTP Connection",

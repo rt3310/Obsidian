@@ -25,17 +25,14 @@
             "id": "048cf6c2403f4160",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/Java/JVM/canvas/JVM.canvas",
-                "viewState": {
-                  "x": 521.9225186766275,
-                  "y": 1342.1190732072134,
-                  "zoom": -1.845856853590536
-                }
+                "file": "Projects/Study/8. DB/Using Temporary, Using Filesort.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "JVM"
+              "icon": "lucide-file",
+              "title": "Using Temporary, Using Filesort"
             }
           },
           {
@@ -251,6 +248,8 @@
   },
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
+    "Pasted image 20250113031907.png",
+    "Projects/Study/Java/JVM/canvas/JVM.canvas",
     "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas",
     "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas",
     "Projects/Study/14. Java/Import.md",
@@ -270,8 +269,6 @@
     "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas",
     "Projects/Study/8. DB/SQL/canvas/Join.canvas",
     "Projects/Study/8. DB/SQL/canvas/SQL.canvas",
-    "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas",
-    "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
     "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md",
     "Projects/Study/무제 폴더",
     "Projects/Study/15. Spring",
