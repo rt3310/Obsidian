@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "수십억건에서 querydsl 사용하기",
-      "path": "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md"
+      "basename": "트랜잭션 격리 수준",
+      "path": "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
     {
       "basename": "Sharding",
       "path": "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas"
+    },
+    {
+      "basename": "Join",
+      "path": "Projects/Study/8. DB/SQL/canvas/Join.canvas"
+    },
+    {
+      "basename": "SQL",
+      "path": "Projects/Study/8. DB/SQL/canvas/SQL.canvas"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "정규화",
+      "path": "Projects/Study/8. DB/Normalization/canvas/정규화.canvas"
+    },
+    {
+      "basename": "Real MySQL - Part 1",
+      "path": "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md"
+    },
+    {
+      "basename": "Java Concurrency",
+      "path": "Projects/Study/Java/Concurrency/Java Concurrency.md"
+    },
+    {
+      "basename": "수십억건에서 querydsl 사용하기",
+      "path": "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md"
     },
     {
       "basename": "React Query",
@@ -171,34 +199,6 @@
     {
       "basename": "Pasted image 20241128173256",
       "path": "Projects/Study/10. Unity/Resources/Pasted image 20241128173256.png"
-    },
-    {
-      "basename": "Time.time vs Time.deltaTime",
-      "path": "Projects/Study/10. Unity/Time/Time.time vs Time.deltaTime.md"
-    },
-    {
-      "basename": "Tilemap",
-      "path": "Projects/Study/10. Unity/Tilemap.md"
-    },
-    {
-      "basename": "Undead Survivor",
-      "path": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md"
-    },
-    {
-      "basename": "이벤트 함수 실행 순서",
-      "path": "Projects/Study/10. Unity/Event Functions/이벤트 함수 실행 순서.md"
-    },
-    {
-      "basename": "Awake vs Start",
-      "path": "Projects/Study/10. Unity/Event Functions/Awake vs Start.md"
-    },
-    {
-      "basename": "Slerp vs Lerp",
-      "path": "Projects/Study/10. Unity/Math&Physics/Slerp vs Lerp.md"
-    },
-    {
-      "basename": "충돌 처리 알고리즘",
-      "path": "Projects/Study/12. Game/충돌 처리 알고리즘.md"
     }
   ],
   "omittedPaths": [],

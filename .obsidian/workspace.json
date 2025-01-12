@@ -25,14 +25,17 @@
             "id": "048cf6c2403f4160",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+                "viewState": {
+                  "x": 1892,
+                  "y": 995,
+                  "zoom": -2.6986620512128177
+                }
               },
-              "icon": "lucide-file",
-              "title": "수십억건에서 querydsl 사용하기"
+              "icon": "lucide-layout-dashboard",
+              "title": "트랜잭션 격리 수준"
             }
           },
           {
@@ -246,8 +249,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "048cf6c2403f4160",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Projects/Study/9. Graphics",
+    "Projects/Study/2. CSharp",
+    "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas",
+    "Projects/Study/8. DB/SQL/canvas/Join.canvas",
+    "Projects/Study/8. DB/SQL/canvas/SQL.canvas",
+    "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas",
+    "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
+    "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md",
+    "Projects/Study/Java/Concurrency/Java Concurrency.md",
+    "Projects/Study/무제 폴더",
+    "Projects/Study/15. Spring",
+    "Projects/Study/14. Java",
+    "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md",
     "Pasted image 20250112125804.png",
     "Pasted image 20250112125747.png",
     "Pasted image 20250112025904.png",
@@ -258,9 +274,6 @@
     "Pasted image 20250112024126.png",
     "Pasted image 20250112024119.png",
     "Pasted image 20250112023641.png",
-    "Pasted image 20250112023057.png",
-    "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas",
-    "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md",
     "Projects/Study/18. Querydsl",
     "Projects/Study/13. React/React Query.md",
     "Projects/Study/10. Unity/Math&Physics/Quaternion.RotateTowards.md",
@@ -285,21 +298,11 @@
     "Projects/Study/10. Unity/TextMeshPro.md",
     "Projects/Study/10. Unity/Physics.Raycast.md",
     "Projects/Study/10. Unity/Coroutine.md",
-    "Projects/Study/10. Unity/Graphics/PPU.md",
-    "Projects/Study/10. Unity/기록.md",
     "Projects/Study/10. Unity/무제 폴더",
     "Projects/Study/10. Unity/Graphics",
     "Projects/Study/10. Unity/InputOutput",
     "Projects/Study/10. Unity/Time",
-    "Projects/Study/10. Unity/Math&Physics",
-    "Projects/Study/10. Unity/Event Functions",
-    "Projects/Study/10. Unity/골드메탈",
-    "Projects/Study/3. DataStructure",
     "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-    "Projects/Study/8. DB/SQL/canvas/SQL.canvas",
-    "Projects/Study/8. DB/SQL/canvas/Join.canvas",
-    "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
-    "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas",
     "Projects/Study/7. Network/NAT/canvas/NAT.canvas",
     "Projects/Study/7. Network/GSLB/canvas/GSLB.canvas",
     "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas",
