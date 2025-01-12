@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "JVM",
+      "path": "Projects/Study/Java/JVM/canvas/JVM.canvas"
+    },
+    {
+      "basename": "Garbage Collector",
+      "path": "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas"
+    },
+    {
+      "basename": "Virtual Thread",
+      "path": "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas"
+    },
+    {
+      "basename": "Import",
+      "path": "Projects/Study/14. Java/Import.md"
+    },
+    {
+      "basename": "HashMap",
+      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
+      "basename": "final method",
+      "path": "Projects/Study/Java/final/md/final method.md"
+    },
+    {
+      "basename": "final class",
+      "path": "Projects/Study/Java/final/md/final class.md"
+    },
+    {
+      "basename": "fianl",
+      "path": "Projects/Study/Java/final/canvas/fianl.canvas"
+    },
+    {
+      "basename": "Java Concurrency",
+      "path": "Projects/Study/14. Java/Java Concurrency.md"
+    },
+    {
       "basename": "Using Temporary, Using Filesort",
       "path": "Projects/Study/8. DB/Using Temporary, Using Filesort.md"
     },
@@ -35,10 +71,6 @@
     {
       "basename": "Real MySQL - Part 1",
       "path": "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md"
-    },
-    {
-      "basename": "Java Concurrency",
-      "path": "Projects/Study/Java/Concurrency/Java Concurrency.md"
     },
     {
       "basename": "수십억건에서 querydsl 사용하기",
@@ -167,38 +199,6 @@
     {
       "basename": "Cinemachine",
       "path": "Projects/Study/10. Unity/Graphics/Cinemachine.md"
-    },
-    {
-      "basename": "Pasted image 20241130164830",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130164830.png"
-    },
-    {
-      "basename": "Pasted image 20241130165308",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130165308.png"
-    },
-    {
-      "basename": "Input System",
-      "path": "Projects/Study/10. Unity/InputOutput/Input System.md"
-    },
-    {
-      "basename": "Pasted image 20241130160710",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130160710.png"
-    },
-    {
-      "basename": "TextMeshPro",
-      "path": "Projects/Study/10. Unity/TextMeshPro.md"
-    },
-    {
-      "basename": "Physics.Raycast",
-      "path": "Projects/Study/10. Unity/Physics.Raycast.md"
-    },
-    {
-      "basename": "Coroutine",
-      "path": "Projects/Study/10. Unity/Coroutine.md"
-    },
-    {
-      "basename": "PPU",
-      "path": "Projects/Study/10. Unity/Graphics/PPU.md"
     }
   ],
   "omittedPaths": [],

@@ -25,14 +25,17 @@
             "id": "048cf6c2403f4160",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Projects/Study/8. DB/Using Temporary, Using Filesort.md",
-                "mode": "source",
-                "source": false
+                "file": "Projects/Study/Java/JVM/canvas/JVM.canvas",
+                "viewState": {
+                  "x": 521.9225186766275,
+                  "y": 1342.1190732072134,
+                  "zoom": -1.845856853590536
+                }
               },
-              "icon": "lucide-file",
-              "title": "Using Temporary, Using Filesort"
+              "icon": "lucide-layout-dashboard",
+              "title": "JVM"
             }
           },
           {
@@ -248,8 +251,16 @@
   },
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
-    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
+    "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas",
+    "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas",
+    "Projects/Study/14. Java/Import.md",
+    "Projects/Study/Java/HashMap/canvas/HashMap.canvas",
+    "Projects/Study/Java/final/md/final method.md",
+    "Projects/Study/Java/final/md/final class.md",
+    "Projects/Study/Java/final/canvas/fianl.canvas",
+    "Projects/Study/14. Java/Java Concurrency.md",
     "Projects/Study/8. DB/Using Temporary, Using Filesort.md",
+    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
     "Projects/Study/13. Frontend/React",
     "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Study/17. Http",
@@ -262,7 +273,6 @@
     "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas",
     "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
     "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md",
-    "Projects/Study/Java/Concurrency/Java Concurrency.md",
     "Projects/Study/무제 폴더",
     "Projects/Study/15. Spring",
     "Projects/Study/14. Java",
@@ -296,13 +306,6 @@
     "Projects/Study/4. Algorithm/BFS.md",
     "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md",
     "Projects/Study/1. C, C++/13-2. shared_ptr, weak_ptr.md",
-    "Projects/Study/10. Unity/Graphics/Cinemachine.md",
-    "Projects/Study/10. Unity/InputOutput/Input System.md",
-    "Projects/Study/10. Unity/TextMeshPro.md",
-    "Projects/Study/10. Unity/Physics.Raycast.md",
-    "Projects/Study/7. Network/NAT/canvas/NAT.canvas",
-    "Projects/Study/7. Network/GSLB/canvas/GSLB.canvas",
-    "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas",
-    "Projects/Study/6. OS/Thread/canvas/Thread.canvas"
+    "Projects/Study/10. Unity/Graphics/Cinemachine.md"
   ]
 }
