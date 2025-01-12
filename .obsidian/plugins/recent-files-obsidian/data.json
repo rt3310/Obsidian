@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Using Temporary, Using Filesort",
+      "path": "Projects/Study/8. DB/Using Temporary, Using Filesort.md"
+    },
+    {
+      "basename": "HTTP Connection",
+      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
+    },
+    {
       "basename": "트랜잭션 격리 수준",
       "path": "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
     },
@@ -38,7 +46,7 @@
     },
     {
       "basename": "React Query",
-      "path": "Projects/Study/13. React/React Query.md"
+      "path": "Projects/Study/13. Frontend/React/React Query.md"
     },
     {
       "basename": "Quaternion.RotateTowards",
@@ -191,14 +199,6 @@
     {
       "basename": "PPU",
       "path": "Projects/Study/10. Unity/Graphics/PPU.md"
-    },
-    {
-      "basename": "기록",
-      "path": "Projects/Study/10. Unity/기록.md"
-    },
-    {
-      "basename": "Pasted image 20241128173256",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241128173256.png"
     }
   ],
   "omittedPaths": [],

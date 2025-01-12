@@ -25,17 +25,14 @@
             "id": "048cf6c2403f4160",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
-                "viewState": {
-                  "x": 1892,
-                  "y": 995,
-                  "zoom": -2.6986620512128177
-                }
+                "file": "Projects/Study/8. DB/Using Temporary, Using Filesort.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "트랜잭션 격리 수준"
+              "icon": "lucide-file",
+              "title": "Using Temporary, Using Filesort"
             }
           },
           {
@@ -249,8 +246,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "048cf6c2403f4160",
   "lastOpenFiles": [
+    "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas",
+    "Projects/Study/8. DB/Using Temporary, Using Filesort.md",
+    "Projects/Study/13. Frontend/React",
+    "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
+    "Projects/Study/17. Http",
+    "Projects/Study/16. Web",
     "Projects/Study/9. Graphics",
     "Projects/Study/2. CSharp",
     "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas",
@@ -275,9 +278,9 @@
     "Pasted image 20250112024119.png",
     "Pasted image 20250112023641.png",
     "Projects/Study/18. Querydsl",
-    "Projects/Study/13. React/React Query.md",
+    "Projects/Study/13. Frontend/React/React Query.md",
     "Projects/Study/10. Unity/Math&Physics/Quaternion.RotateTowards.md",
-    "Projects/Study/13. React",
+    "Projects/Study/13. Frontend",
     "Projects/Study/10. Unity/Math&Physics/Quaternion.LookRotation.md",
     "Projects/Study/10. Unity/Math&Physics/Quaternion.md",
     "Projects/Study/7. Network/Select().md",
@@ -297,12 +300,6 @@
     "Projects/Study/10. Unity/InputOutput/Input System.md",
     "Projects/Study/10. Unity/TextMeshPro.md",
     "Projects/Study/10. Unity/Physics.Raycast.md",
-    "Projects/Study/10. Unity/Coroutine.md",
-    "Projects/Study/10. Unity/무제 폴더",
-    "Projects/Study/10. Unity/Graphics",
-    "Projects/Study/10. Unity/InputOutput",
-    "Projects/Study/10. Unity/Time",
-    "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas",
     "Projects/Study/7. Network/NAT/canvas/NAT.canvas",
     "Projects/Study/7. Network/GSLB/canvas/GSLB.canvas",
     "Projects/Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas",
