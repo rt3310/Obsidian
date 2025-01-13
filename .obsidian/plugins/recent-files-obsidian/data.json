@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "클러스터링 인덱스",
+      "path": "Projects/Study/8. DB/클러스터링 인덱스.md"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Projects/Study/8. DB/커버링 인덱스.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "Projects/Study/8. DB/SQL/canvas/SQL.canvas"
+    },
+    {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
     },
@@ -109,10 +121,6 @@
       "path": "Projects/Study/8. DB/SQL/canvas/Join.canvas"
     },
     {
-      "basename": "SQL",
-      "path": "Projects/Study/8. DB/SQL/canvas/SQL.canvas"
-    },
-    {
       "basename": "Cache 전략",
       "path": "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20241210120507",
       "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120507.png"
-    },
-    {
-      "basename": "Pasted image 20241210120538",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120538.png"
-    },
-    {
-      "basename": "Pasted image 20241210120549",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120549.png"
     }
   ],
   "omittedPaths": [],
