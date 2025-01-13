@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "학습 전략",
+      "path": "Projects/Plan/학습 전략.md"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Projects/Plan/게임 클라이언트 로드맵.png"
+    },
+    {
       "basename": "수십억건에서 querydsl 사용하기",
       "path": "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md"
+    },
+    {
+      "basename": "Pasted image 20250112010946",
+      "path": "Projects/Study/18. Querydsl/Resources/Pasted image 20250112010946.png"
+    },
+    {
+      "basename": "Pasted image 20250105123410",
+      "path": "Pasted image 20250105123410.png"
+    },
+    {
+      "basename": "Pasted image 20250112011048",
+      "path": "Projects/Study/18. Querydsl/Resources/Pasted image 20250112011048.png"
+    },
+    {
+      "basename": "Pasted image 20250112011136",
+      "path": "Projects/Study/18. Querydsl/Resources/Pasted image 20250112011136.png"
+    },
+    {
+      "basename": "Pasted image 20250112011206",
+      "path": "Projects/Study/18. Querydsl/Resources/Pasted image 20250112011206.png"
+    },
+    {
+      "basename": "Pasted image 20241028005955",
+      "path": "Pasted image 20241028005955.png"
+    },
+    {
+      "basename": "Pasted image 20241028124158",
+      "path": "Pasted image 20241028124158.png"
     },
     {
       "basename": "Using Temporary, Using Filesort",
@@ -155,50 +199,6 @@
     {
       "basename": "Pasted image 20241210120447",
       "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120447.png"
-    },
-    {
-      "basename": "Pasted image 20241210120204",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120204.png"
-    },
-    {
-      "basename": "Pasted image 20241210120155",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120155.png"
-    },
-    {
-      "basename": "Pasted image 20241210120130",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120130.png"
-    },
-    {
-      "basename": "Pasted image 20241028124158",
-      "path": "Pasted image 20241028124158.png"
-    },
-    {
-      "basename": "분리집합",
-      "path": "Projects/Study/4. Algorithm/분리집합.md"
-    },
-    {
-      "basename": "BFS",
-      "path": "Projects/Study/4. Algorithm/BFS.md"
-    },
-    {
-      "basename": "공부할 알고리즘",
-      "path": "Projects/Study/4. Algorithm/팁/공부할 알고리즘.md"
-    },
-    {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Projects/Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
-    },
-    {
-      "basename": "Pasted image 20241028005955",
-      "path": "Pasted image 20241028005955.png"
-    },
-    {
-      "basename": "Pasted image 20241130193531",
-      "path": "Projects/Study/10. Unity/Resources/Pasted image 20241130193531.png"
-    },
-    {
-      "basename": "Cinemachine",
-      "path": "Projects/Study/10. Unity/Graphics/Cinemachine.md"
     }
   ],
   "omittedPaths": [],
