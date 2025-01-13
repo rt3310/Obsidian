@@ -249,6 +249,7 @@
   },
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
+    "Pasted image 20250113184620.png",
     "Projects/Study/8. DB/커버링 인덱스.md",
     "Projects/Study/8. DB/클러스터링 인덱스.md",
     "Projects/Study/8. DB/SQL/canvas/SQL.canvas",
@@ -303,7 +304,6 @@
     "Projects/Study/1. C, C++/switch 문의 제약사항.md",
     "Projects/Study/1. C, C++/pragma.md",
     "Projects/Study/1. C, C++/placement new.md",
-    "Projects/Study/1. C, C++/new vs malloc.md",
-    "Projects/Study/1. C, C++/cc vs cpp.md"
+    "Projects/Study/1. C, C++/new vs malloc.md"
   ]
 }
