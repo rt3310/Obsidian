@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "공부할 것들",
+      "path": "Projects/Plan/공부할 것들.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Plan/무제 파일.md"
+    },
+    {
       "basename": "어떻게 공부해야 할까",
       "path": "Projects/Plan/어떻게 공부해야 할까.md"
     },
     {
       "basename": "학습 전략",
       "path": "Projects/Plan/학습 전략.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
     },
     {
       "basename": "게임 클라이언트 로드맵",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20241210120549",
       "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120549.png"
-    },
-    {
-      "basename": "Pasted image 20241210120447",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120447.png"
     }
   ],
   "omittedPaths": [],
