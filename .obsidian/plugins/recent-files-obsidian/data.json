@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "수십억건에서 querydsl 사용하기",
+      "path": "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md"
+    },
+    {
       "basename": "Using Temporary, Using Filesort",
       "path": "Projects/Study/8. DB/Using Temporary, Using Filesort.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "Real MySQL - Part 1",
       "path": "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md"
-    },
-    {
-      "basename": "수십억건에서 querydsl 사용하기",
-      "path": "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md"
     },
     {
       "basename": "React Query",
