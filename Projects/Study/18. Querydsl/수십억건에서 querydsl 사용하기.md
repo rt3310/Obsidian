@@ -41,4 +41,4 @@ exists가 빠른 이유는 **조건에 해당하는 row 1개**만 찾으면 바�
 ## Group By 최적화
 
 ![[Pasted image 20250112125747.png]]![[Pasted image 20250112125804.png]]
-![[Pasted image 20250113154820.png]]
+![[Pasted image 20250113154820.png]]![[Pasted image 20250113154929.png]]
