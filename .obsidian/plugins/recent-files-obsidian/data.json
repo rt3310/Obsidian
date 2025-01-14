@@ -5,6 +5,18 @@
       "path": "Projects/Plan/학습 필터.md"
     },
     {
+      "basename": "학습 전략",
+      "path": "Projects/Plan/학습 전략.md"
+    },
+    {
+      "basename": "Pasted image 20250113184620",
+      "path": "Pasted image 20250113184620.png"
+    },
+    {
+      "basename": "Pasted image 20250115023151",
+      "path": "Projects/Plan/Resources/Pasted image 20250115023151.png"
+    },
+    {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
     },
@@ -31,10 +43,6 @@
     {
       "basename": "SQL",
       "path": "Projects/Study/8. DB/SQL/canvas/SQL.canvas"
-    },
-    {
-      "basename": "학습 전략",
-      "path": "Projects/Plan/학습 전략.md"
     },
     {
       "basename": "게임 클라이언트 로드맵",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20241210120119",
       "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120119.png"
-    },
-    {
-      "basename": "Pasted image 20241210120212",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120212.png"
-    },
-    {
-      "basename": "Pasted image 20241210120444",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120444.png"
     }
   ],
   "omittedPaths": [],
