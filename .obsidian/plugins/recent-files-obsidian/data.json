@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "학습 필터",
+      "path": "Projects/Plan/학습 필터.md"
+    },
+    {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20241210120444",
       "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120444.png"
-    },
-    {
-      "basename": "Pasted image 20241210120507",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120507.png"
     }
   ],
   "omittedPaths": [],
