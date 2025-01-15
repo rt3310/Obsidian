@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Plan/학습 필터.md",
+                "file": "Projects/Plan/공부할 것들.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "학습 필터"
+              "title": "공부할 것들"
             }
           },
           {
@@ -248,15 +248,15 @@
   },
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
+    "Projects/Plan/어떻게 공부해야 할까.md",
+    "Projects/Plan/공부할 것들.md",
     "Projects/Plan/학습 전략.md",
+    "Projects/Plan/학습 필터.md",
     "Pasted image 20250113184620.png",
     "Projects/Plan/Resources/Pasted image 20250115023151.png",
     "Projects/Plan/Resources",
-    "Projects/Plan/학습 필터.md",
     "Projects/Plan/Resources/Pasted image 20250115023606.png",
     "Projects/Plan/Resources/Pasted image 20250115023410.png",
-    "Projects/Plan/공부할 것들.md",
-    "Projects/Plan/어떻게 공부해야 할까.md",
     "Projects/Plan/트러블 슈팅.md",
     "Projects/Study/8. DB/Using Temporary, Using Filesort.md",
     "Projects/Study/8. DB/커버링 인덱스.md",
