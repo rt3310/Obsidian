@@ -248,15 +248,17 @@
   },
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
-    "Projects/Study/20. Server/Docker/canvas/Docker.canvas",
+    "Projects/Study/8. DB/커버링 인덱스.md",
     "Projects/Study/20. Server/Tuning/ngrinder 용어.md",
+    "Projects/Study/20. Server/Tuning/resources",
+    "Projects/Study/20. Server/Tuning/resources/Pasted image 20250116000346.png",
+    "Projects/Study/20. Server/Docker/canvas/Docker.canvas",
     "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas",
     "Projects/Study/20. Server/Tuning",
     "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas",
     "Projects/Study/8. DB/Normalization/canvas/정규화.canvas",
     "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md",
     "Projects/Study/8. DB/Real MySQL/resources/Pasted image 20240626170745.png",
-    "Projects/Study/8. DB/커버링 인덱스.md",
     "Projects/Study/8. DB/클러스터링 인덱스.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
     "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
@@ -299,9 +301,7 @@
     "Projects/Plan/Resources",
     "Projects/Plan/Resources/Pasted image 20250115023606.png",
     "Projects/Plan/Resources/Pasted image 20250115023410.png",
-    "Projects/Plan/게임 클라이언트 로드맵.png",
     "Projects/Study/19. Querydsl/Resources",
-    "Projects/Study/13. Frontend/React",
-    "Projects/Study/17. Http"
+    "Projects/Study/13. Frontend/React"
   ]
 }

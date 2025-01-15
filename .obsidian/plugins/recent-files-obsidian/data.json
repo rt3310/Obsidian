@@ -5,6 +5,10 @@
       "path": "Projects/Study/20. Server/Tuning/ngrinder 용어.md"
     },
     {
+      "basename": "커버링 인덱스",
+      "path": "Projects/Study/8. DB/커버링 인덱스.md"
+    },
+    {
       "basename": "Docker",
       "path": "Projects/Study/20. Server/Docker/canvas/Docker.canvas"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Pasted image 20240626170745",
       "path": "Projects/Study/8. DB/Real MySQL/resources/Pasted image 20240626170745.png"
-    },
-    {
-      "basename": "커버링 인덱스",
-      "path": "Projects/Study/8. DB/커버링 인덱스.md"
     },
     {
       "basename": "클러스터링 인덱스",
