@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Pasted image 20241028124158",
-      "path": "Pasted image 20241028124158.png"
+      "basename": "ngrinder 용어",
+      "path": "Projects/Study/20. Server/Tuning/ngrinder 용어.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Projects/Study/20. Server/Docker/canvas/Docker.canvas"
+    },
+    {
+      "basename": "Sharding",
+      "path": "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas"
+    },
+    {
+      "basename": "정규화",
+      "path": "Projects/Study/8. DB/Normalization/canvas/정규화.canvas"
+    },
+    {
+      "basename": "Real MySQL - Part 1",
+      "path": "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md"
+    },
+    {
+      "basename": "Pasted image 20240626170745",
+      "path": "Projects/Study/8. DB/Real MySQL/resources/Pasted image 20240626170745.png"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Projects/Study/8. DB/커버링 인덱스.md"
+    },
+    {
+      "basename": "클러스터링 인덱스",
+      "path": "Projects/Study/8. DB/클러스터링 인덱스.md"
+    },
+    {
+      "basename": "CH10 - Pipeline",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
+    },
+    {
+      "basename": "CH9 - Computer Arithmetic",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md"
+    },
+    {
+      "basename": "CH7 - Linker",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md"
     },
     {
       "basename": "Pasted image 20241028005955",
-      "path": "Pasted image 20241028005955.png"
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/resources/Pasted image 20241028005955.png"
+    },
+    {
+      "basename": "Pasted image 20241028124158",
+      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/resources/Pasted image 20241028124158.png"
     },
     {
       "basename": "Quaternion.LookRotation",
@@ -77,20 +125,12 @@
       "path": "Projects/Study/10. Unity/resources/Pasted image 20250105123410.png"
     },
     {
-      "basename": "커버링 인덱스",
-      "path": "Projects/Study/8. DB/커버링 인덱스.md"
-    },
-    {
       "basename": "Pasted image 20250113184620",
       "path": "Projects/Study/8. DB/resources/Pasted image 20250113184620.png"
     },
     {
       "basename": "무제 파일",
       "path": "Projects/Study/22. Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "Docker",
-      "path": "Projects/Study/20. Server/Docker/canvas/Docker.canvas"
     },
     {
       "basename": "HttpSession",
@@ -159,46 +199,6 @@
     {
       "basename": "Using Temporary, Using Filesort",
       "path": "Projects/Study/8. DB/Using Temporary, Using Filesort.md"
-    },
-    {
-      "basename": "클러스터링 인덱스",
-      "path": "Projects/Study/8. DB/클러스터링 인덱스.md"
-    },
-    {
-      "basename": "SQL",
-      "path": "Projects/Study/8. DB/SQL/canvas/SQL.canvas"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Projects/Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "수십억건에서 querydsl 사용하기",
-      "path": "Projects/Study/19. Querydsl/수십억건에서 querydsl 사용하기.md"
-    },
-    {
-      "basename": "Pasted image 20250112010946",
-      "path": "Projects/Study/19. Querydsl/Resources/Pasted image 20250112010946.png"
-    },
-    {
-      "basename": "Pasted image 20250112011048",
-      "path": "Projects/Study/19. Querydsl/Resources/Pasted image 20250112011048.png"
-    },
-    {
-      "basename": "Pasted image 20250112011136",
-      "path": "Projects/Study/19. Querydsl/Resources/Pasted image 20250112011136.png"
-    },
-    {
-      "basename": "Pasted image 20250112011206",
-      "path": "Projects/Study/19. Querydsl/Resources/Pasted image 20250112011206.png"
-    },
-    {
-      "basename": "JVM",
-      "path": "Projects/Study/14. Java/JVM/canvas/JVM.canvas"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Projects/Study/14. Java/JVM/canvas/Garbage Collector.canvas"
     }
   ],
   "omittedPaths": [],
