@@ -1,6 +1,138 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20241028124158",
+      "path": "Pasted image 20241028124158.png"
+    },
+    {
+      "basename": "Pasted image 20241028005955",
+      "path": "Pasted image 20241028005955.png"
+    },
+    {
+      "basename": "Quaternion.LookRotation",
+      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.LookRotation.md"
+    },
+    {
+      "basename": "Quaternion",
+      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.md"
+    },
+    {
+      "basename": "Input System",
+      "path": "Projects/Study/10. Unity/InputOutput/Input System.md"
+    },
+    {
+      "basename": "Undead Survivor",
+      "path": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md"
+    },
+    {
+      "basename": "이벤트 함수 실행 순서",
+      "path": "Projects/Study/10. Unity/Event Functions/이벤트 함수 실행 순서.md"
+    },
+    {
+      "basename": "Awake vs Start",
+      "path": "Projects/Study/10. Unity/Event Functions/Awake vs Start.md"
+    },
+    {
+      "basename": "PPU",
+      "path": "Projects/Study/10. Unity/Graphics/PPU.md"
+    },
+    {
+      "basename": "Cinemachine",
+      "path": "Projects/Study/10. Unity/Graphics/Cinemachine.md"
+    },
+    {
+      "basename": "TextMeshPro",
+      "path": "Projects/Study/10. Unity/TextMeshPro.md"
+    },
+    {
+      "basename": "Physics.Raycast",
+      "path": "Projects/Study/10. Unity/Physics.Raycast.md"
+    },
+    {
+      "basename": "기록",
+      "path": "Projects/Study/10. Unity/기록.md"
+    },
+    {
+      "basename": "Coroutine",
+      "path": "Projects/Study/10. Unity/Coroutine.md"
+    },
+    {
+      "basename": "충돌 처리 알고리즘",
+      "path": "Projects/Study/12. Game/충돌 처리 알고리즘.md"
+    },
+    {
+      "basename": "A-Star Algorithm",
+      "path": "Projects/Study/12. Game/A-Star Algorithm.md"
+    },
+    {
+      "basename": "BSP(Binary Space Partitioning) Algorithm",
+      "path": "Projects/Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md"
+    },
+    {
+      "basename": "Cellular Automata Algorithm",
+      "path": "Projects/Study/12. Game/Cellular Automata Algorithm.md"
+    },
+    {
+      "basename": "Pasted image 20250105123410",
+      "path": "Projects/Study/10. Unity/resources/Pasted image 20250105123410.png"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Projects/Study/8. DB/커버링 인덱스.md"
+    },
+    {
+      "basename": "Pasted image 20250113184620",
+      "path": "Projects/Study/8. DB/resources/Pasted image 20250113184620.png"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "Projects/Study/22. Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
+    },
+    {
+      "basename": "Docker",
+      "path": "Projects/Study/20. Server/Docker/canvas/Docker.canvas"
+    },
+    {
+      "basename": "HttpSession",
+      "path": "Projects/Study/16. Web/HttpSession/canvas/HttpSession.canvas"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Projects/Study/16. Web/HttpSession/canvas/Cookie & Session.canvas"
+    },
+    {
+      "basename": "JPA",
+      "path": "Projects/Study/18. JPA/canvas/JPA.canvas"
+    },
+    {
+      "basename": "ORM",
+      "path": "Projects/Study/18. JPA/canvas/ORM.md"
+    },
+    {
+      "basename": "자바스크립트",
+      "path": "Projects/Study/13. Frontend/자바스크립트.md"
+    },
+    {
+      "basename": "SSL",
+      "path": "Projects/Study/21. Auth/SSL/SSL.md"
+    },
+    {
+      "basename": "Pasted image 20240313181553",
+      "path": "Projects/Study/14. Java/HashMap/resources/Pasted image 20240313181553.png"
+    },
+    {
+      "basename": "해시 충돌",
+      "path": "Projects/Study/14. Java/HashMap/md/해시 충돌.md"
+    },
+    {
+      "basename": "HashMap",
+      "path": "Projects/Study/14. Java/HashMap/canvas/HashMap.canvas"
+    },
+    {
+      "basename": "fianl",
+      "path": "Projects/Study/14. Java/final/canvas/fianl.canvas"
+    },
+    {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
     },
@@ -17,10 +149,6 @@
       "path": "Projects/Plan/학습 필터.md"
     },
     {
-      "basename": "Pasted image 20250113184620",
-      "path": "Pasted image 20250113184620.png"
-    },
-    {
       "basename": "Pasted image 20250115023151",
       "path": "Projects/Plan/Resources/Pasted image 20250115023151.png"
     },
@@ -31,10 +159,6 @@
     {
       "basename": "Using Temporary, Using Filesort",
       "path": "Projects/Study/8. DB/Using Temporary, Using Filesort.md"
-    },
-    {
-      "basename": "커버링 인덱스",
-      "path": "Projects/Study/8. DB/커버링 인덱스.md"
     },
     {
       "basename": "클러스터링 인덱스",
@@ -50,155 +174,31 @@
     },
     {
       "basename": "수십억건에서 querydsl 사용하기",
-      "path": "Projects/Study/18. Querydsl/수십억건에서 querydsl 사용하기.md"
+      "path": "Projects/Study/19. Querydsl/수십억건에서 querydsl 사용하기.md"
     },
     {
       "basename": "Pasted image 20250112010946",
-      "path": "Projects/Study/18. Querydsl/Resources/Pasted image 20250112010946.png"
-    },
-    {
-      "basename": "Pasted image 20250105123410",
-      "path": "Pasted image 20250105123410.png"
+      "path": "Projects/Study/19. Querydsl/Resources/Pasted image 20250112010946.png"
     },
     {
       "basename": "Pasted image 20250112011048",
-      "path": "Projects/Study/18. Querydsl/Resources/Pasted image 20250112011048.png"
+      "path": "Projects/Study/19. Querydsl/Resources/Pasted image 20250112011048.png"
     },
     {
       "basename": "Pasted image 20250112011136",
-      "path": "Projects/Study/18. Querydsl/Resources/Pasted image 20250112011136.png"
+      "path": "Projects/Study/19. Querydsl/Resources/Pasted image 20250112011136.png"
     },
     {
       "basename": "Pasted image 20250112011206",
-      "path": "Projects/Study/18. Querydsl/Resources/Pasted image 20250112011206.png"
-    },
-    {
-      "basename": "Pasted image 20241028005955",
-      "path": "Pasted image 20241028005955.png"
-    },
-    {
-      "basename": "Pasted image 20241028124158",
-      "path": "Pasted image 20241028124158.png"
+      "path": "Projects/Study/19. Querydsl/Resources/Pasted image 20250112011206.png"
     },
     {
       "basename": "JVM",
-      "path": "Projects/Study/Java/JVM/canvas/JVM.canvas"
+      "path": "Projects/Study/14. Java/JVM/canvas/JVM.canvas"
     },
     {
       "basename": "Garbage Collector",
-      "path": "Projects/Study/Java/JVM/canvas/Garbage Collector.canvas"
-    },
-    {
-      "basename": "Virtual Thread",
-      "path": "Projects/Study/Java/Virtual Thread/canvas/Virtual Thread.canvas"
-    },
-    {
-      "basename": "Import",
-      "path": "Projects/Study/14. Java/Import.md"
-    },
-    {
-      "basename": "HashMap",
-      "path": "Projects/Study/Java/HashMap/canvas/HashMap.canvas"
-    },
-    {
-      "basename": "final method",
-      "path": "Projects/Study/Java/final/md/final method.md"
-    },
-    {
-      "basename": "final class",
-      "path": "Projects/Study/Java/final/md/final class.md"
-    },
-    {
-      "basename": "fianl",
-      "path": "Projects/Study/Java/final/canvas/fianl.canvas"
-    },
-    {
-      "basename": "Java Concurrency",
-      "path": "Projects/Study/14. Java/Java Concurrency.md"
-    },
-    {
-      "basename": "HTTP Connection",
-      "path": "Projects/Study/HTTP/Connection/canvas/HTTP Connection.canvas"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Projects/Study/8. DB/Transaction/canvas/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "Sharding",
-      "path": "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas"
-    },
-    {
-      "basename": "Join",
-      "path": "Projects/Study/8. DB/SQL/canvas/Join.canvas"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "정규화",
-      "path": "Projects/Study/8. DB/Normalization/canvas/정규화.canvas"
-    },
-    {
-      "basename": "Real MySQL - Part 1",
-      "path": "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md"
-    },
-    {
-      "basename": "React Query",
-      "path": "Projects/Study/13. Frontend/React/React Query.md"
-    },
-    {
-      "basename": "Quaternion.RotateTowards",
-      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.RotateTowards.md"
-    },
-    {
-      "basename": "Quaternion.LookRotation",
-      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.LookRotation.md"
-    },
-    {
-      "basename": "Quaternion",
-      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.md"
-    },
-    {
-      "basename": "Select()",
-      "path": "Projects/Study/7. Network/Select().md"
-    },
-    {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Projects/Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
-    },
-    {
-      "basename": "연산자 오버로딩",
-      "path": "Projects/Study/1. C, C++/연산자 오버로딩.md"
-    },
-    {
-      "basename": "포인터에는 왜 타입이 있을까",
-      "path": "Projects/Study/1. C, C++/포인터에는 왜 타입이 있을까.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Projects/Study/1. C, C++/switch 문의 제약사항.md"
-    },
-    {
-      "basename": "pragma",
-      "path": "Projects/Study/1. C, C++/pragma.md"
-    },
-    {
-      "basename": "placement new",
-      "path": "Projects/Study/1. C, C++/placement new.md"
-    },
-    {
-      "basename": "new vs malloc",
-      "path": "Projects/Study/1. C, C++/new vs malloc.md"
-    },
-    {
-      "basename": "cc vs cpp",
-      "path": "Projects/Study/1. C, C++/cc vs cpp.md"
-    },
-    {
-      "basename": "Pasted image 20241210120119",
-      "path": "Projects/Study/4. Algorithm/resources/Pasted image 20241210120119.png"
+      "path": "Projects/Study/14. Java/JVM/canvas/Garbage Collector.canvas"
     }
   ],
   "omittedPaths": [],
