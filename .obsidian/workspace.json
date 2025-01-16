@@ -140,7 +140,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -246,7 +247,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "048cf6c2403f4160",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Projects/Study/8. DB/커버링 인덱스.md",
     "Projects/Study/20. Server/Tuning/ngrinder 용어.md",
