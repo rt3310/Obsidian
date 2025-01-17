@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "학습 전략",
+      "path": "Projects/Plan/학습 전략.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "Projects/Study/8. DB/SQL/canvas/SQL.canvas"
+    },
+    {
+      "basename": "Join",
+      "path": "Projects/Study/8. DB/SQL/canvas/Join.canvas"
+    },
+    {
       "basename": "Pasted image 20250115023410",
       "path": "Projects/Plan/Resources/Pasted image 20250115023410.png"
     },
@@ -23,10 +39,6 @@
     {
       "basename": "트러블 슈팅",
       "path": "Projects/Plan/트러블 슈팅.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
     },
     {
       "basename": "게임 클라이언트 로드맵",
@@ -187,18 +199,6 @@
     {
       "basename": "SSL",
       "path": "Projects/Study/21. Auth/SSL/SSL.md"
-    },
-    {
-      "basename": "Pasted image 20240313181553",
-      "path": "Projects/Study/14. Java/HashMap/resources/Pasted image 20240313181553.png"
-    },
-    {
-      "basename": "해시 충돌",
-      "path": "Projects/Study/14. Java/HashMap/md/해시 충돌.md"
-    },
-    {
-      "basename": "HashMap",
-      "path": "Projects/Study/14. Java/HashMap/canvas/HashMap.canvas"
     }
   ],
   "omittedPaths": [],

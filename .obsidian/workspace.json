@@ -25,12 +25,14 @@
             "id": "048cf6c2403f4160",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Projects/Plan/Resources/Pasted image 20250115023410.png"
+                "file": "Projects/Plan/학습 전략.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250115023410"
+              "icon": "lucide-file",
+              "title": "학습 전략"
             }
           },
           {
@@ -138,8 +140,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -245,11 +246,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "048cf6c2403f4160",
   "lastOpenFiles": [
+    "Projects/Study/8. DB/SQL/canvas/SQL.canvas",
+    "Projects/Study/8. DB/SQL/canvas/Join.canvas",
+    "Projects/Plan/Resources/Pasted image 20250115023410.png",
     "Projects/Plan/Resources/Pasted image 20250115023151.png",
     "Projects/Plan/Resources/Pasted image 20250115023606.png",
-    "Projects/Plan/Resources/Pasted image 20250115023410.png",
     "Projects/Plan/학습 필터.md",
     "Projects/Plan/공부할 것들.md",
     "Projects/Plan/트러블 슈팅.md",
@@ -297,9 +300,7 @@
     "Projects/Study/16. Web/HttpSession/canvas/Cookie & Session.canvas",
     "Projects/Study/18. JPA/canvas/JPA.canvas",
     "Projects/Study/18. JPA",
-    "Projects/Study/14. Java/HashMap/resources/Pasted image 20240313181553.png",
     "Projects/Study/14. Java/HashMap/canvas/HashMap.canvas",
-    "Projects/Study/14. Java/final/canvas/fianl.canvas",
     "Projects/Plan/Resources",
     "Projects/Study/19. Querydsl/Resources",
     "Projects/Study/13. Frontend/React"
