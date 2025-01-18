@@ -1,6 +1,174 @@
 {
   "recentFiles": [
     {
+      "basename": "Sharding",
+      "path": "Study/8. DB/Sharding/canvas/Sharding.canvas"
+    },
+    {
+      "basename": "React Query",
+      "path": "Study/13. Frontend/React/React Query.md"
+    },
+    {
+      "basename": "사용자 수에 따른 규모 확장성",
+      "path": "Study/22. Design/사용자 수에 따른 규모 확장성.canvas"
+    },
+    {
+      "basename": "SSL",
+      "path": "Study/21. Auth/SSL.md"
+    },
+    {
+      "basename": "JPA",
+      "path": "Study/18. JPA/JPA.canvas"
+    },
+    {
+      "basename": "ORM",
+      "path": "Study/18. JPA/md/ORM.md"
+    },
+    {
+      "basename": "1. 클라이언트 커넥션 수락",
+      "path": "Study/17. Http/md/1. 클라이언트 커넥션 수락.md"
+    },
+    {
+      "basename": "Pasted image 20231221164018",
+      "path": "Study/17. Http/resources/Pasted image 20231221164018.png"
+    },
+    {
+      "basename": "병렬 커넥션",
+      "path": "Study/17. Http/md/병렬 커넥션.md"
+    },
+    {
+      "basename": "QUIC",
+      "path": "Study/17. Http/QUIC.md"
+    },
+    {
+      "basename": "HTTP Connection",
+      "path": "Study/17. Http/HTTP Connection.canvas"
+    },
+    {
+      "basename": "final",
+      "path": "Study/14. Java/final.canvas"
+    },
+    {
+      "basename": "Virtual Thread",
+      "path": "Study/14. Java/Virtual Thread.canvas"
+    },
+    {
+      "basename": "JVM",
+      "path": "Study/14. Java/JVM.canvas"
+    },
+    {
+      "basename": "Java Concurrency",
+      "path": "Study/14. Java/Java Concurrency.md"
+    },
+    {
+      "basename": "Import",
+      "path": "Study/14. Java/Import.md"
+    },
+    {
+      "basename": "HashMap",
+      "path": "Study/14. Java/HashMap.canvas"
+    },
+    {
+      "basename": "Garbage Collector",
+      "path": "Study/14. Java/Garbage Collector.canvas"
+    },
+    {
+      "basename": "Executors",
+      "path": "Study/14. Java/Executors.md"
+    },
+    {
+      "basename": "전통적인 Thread 사용방식",
+      "path": "Study/14. Java/resources/전통적인 Thread 사용방식.png"
+    },
+    {
+      "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
+      "path": "Study/14. Java/md/플랫폼 스레드와 가상 스레드 구조 차이.md"
+    },
+    {
+      "basename": "final class",
+      "path": "Study/14. Java/md/final class.md"
+    },
+    {
+      "basename": "보조 해시 함수",
+      "path": "Study/14. Java/md/보조 해시 함수.md"
+    },
+    {
+      "basename": "Pasted image 20240313181553",
+      "path": "Study/14. Java/resources/Pasted image 20240313181553.png"
+    },
+    {
+      "basename": "로드 팩터(Load Factor)",
+      "path": "Study/14. Java/로드 팩터(Load Factor).md"
+    },
+    {
+      "basename": "가비지 컬렉션 동작 과정",
+      "path": "Study/14. Java/resources/가비지 컬렉션 동작 과정.png"
+    },
+    {
+      "basename": "가비지 컬렉터",
+      "path": "Study/14. Java/md/가비지 컬렉터.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Study/16. Web/Tomcat.canvas"
+    },
+    {
+      "basename": "HttpSession",
+      "path": "Study/16. Web/HttpSession.canvas"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Study/16. Web/Cookie & Session.canvas"
+    },
+    {
+      "basename": "톰캣 아키텍처",
+      "path": "Study/16. Web/md/톰캣 아키텍처.md"
+    },
+    {
+      "basename": "서블릿 컨테이너",
+      "path": "Study/16. Web/md/서블릿 컨테이너.md"
+    },
+    {
+      "basename": "HttpSession 인증처리 방식",
+      "path": "Study/16. Web/md/HttpSession 인증처리 방식.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Study/16. Web/md/Tomcat.md"
+    },
+    {
+      "basename": "Stateless",
+      "path": "Study/16. Web/md/Stateless.md"
+    },
+    {
+      "basename": "Cookie vs Session",
+      "path": "Study/16. Web/md/Cookie vs Session.md"
+    },
+    {
+      "basename": "Pasted image 20240314164110",
+      "path": "Study/16. Web/resources/Pasted image 20240314164110.png"
+    },
+    {
+      "basename": "all-to-all session replication",
+      "path": "Study/16. Web/resources/all-to-all session replication.png"
+    },
+    {
+      "basename": "Cookie",
+      "path": "Study/16. Web/resources/Cookie.png"
+    },
+    {
+      "basename": "Connectionless",
+      "path": "Study/16. Web/md/Connectionless.md"
+    },
+    {
+      "basename": "Session in Multi Server",
+      "path": "Study/16. Web/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Plan/게임 클라이언트 로드맵.png"
+    },
+    {
       "basename": "개념 정리",
       "path": "Study/3. DataStructure/개념 정리.md"
     },
@@ -14,27 +182,11 @@
     },
     {
       "basename": "Cookie",
-      "path": "Study/16. Web/Cookie.md"
+      "path": "Study/16. Web/md/Cookie.md"
     },
     {
       "basename": "Cache 전략",
-      "path": "Study/16. Web/Cache 전략.md"
-    },
-    {
-      "basename": "Tomcat",
-      "path": "Study/16. Web/Tomcat/canvas/Tomcat.canvas"
-    },
-    {
-      "basename": "Session in Multi Server",
-      "path": "Study/16. Web/Session/canvas/Session in Multi Server.canvas"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Study/16. Web/HttpSession/canvas/HttpSession.canvas"
-    },
-    {
-      "basename": "Cookie & Session",
-      "path": "Study/16. Web/HttpSession/canvas/Cookie & Session.canvas"
+      "path": "Study/16. Web/md/Cache 전략.md"
     },
     {
       "basename": "공부할 것들",
@@ -47,158 +199,6 @@
     {
       "basename": "트러블 슈팅",
       "path": "Plan/트러블 슈팅.md"
-    },
-    {
-      "basename": "Virtual Memory",
-      "path": "Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas"
-    },
-    {
-      "basename": "용어",
-      "path": "Study/20. Server/Tuning/용어.md"
-    },
-    {
-      "basename": "Executors",
-      "path": "Study/14. Java/Executors.md"
-    },
-    {
-      "basename": "Java Concurrency",
-      "path": "Study/14. Java/Java Concurrency.md"
-    },
-    {
-      "basename": "해볼 것",
-      "path": "Study/3. DataStructure/해볼 것.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "SQL",
-      "path": "Study/8. DB/SQL/canvas/SQL.canvas"
-    },
-    {
-      "basename": "Join",
-      "path": "Study/8. DB/SQL/canvas/Join.canvas"
-    },
-    {
-      "basename": "Pasted image 20250115023410",
-      "path": "Plan/Resources/Pasted image 20250115023410.png"
-    },
-    {
-      "basename": "Pasted image 20250115023151",
-      "path": "Plan/Resources/Pasted image 20250115023151.png"
-    },
-    {
-      "basename": "Pasted image 20250115023606",
-      "path": "Plan/Resources/Pasted image 20250115023606.png"
-    },
-    {
-      "basename": "학습 필터",
-      "path": "Plan/학습 필터.md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/커버링 인덱스.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Study/20. Server/Docker/canvas/Docker.canvas"
-    },
-    {
-      "basename": "Sharding",
-      "path": "Study/8. DB/Sharding/canvas/Sharding.canvas"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "Study/8. DB/Cache/canvas/Cache 전략.canvas"
-    },
-    {
-      "basename": "정규화",
-      "path": "Study/8. DB/Normalization/canvas/정규화.canvas"
-    },
-    {
-      "basename": "Real MySQL - Part 1",
-      "path": "Study/8. DB/Real MySQL/Real MySQL - Part 1.md"
-    },
-    {
-      "basename": "Pasted image 20240626170745",
-      "path": "Study/8. DB/Real MySQL/resources/Pasted image 20240626170745.png"
-    },
-    {
-      "basename": "클러스터링 인덱스",
-      "path": "Study/8. DB/클러스터링 인덱스.md"
-    },
-    {
-      "basename": "CH10 - Pipeline",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
-    },
-    {
-      "basename": "CH9 - Computer Arithmetic",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md"
-    },
-    {
-      "basename": "CH7 - Linker",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md"
-    },
-    {
-      "basename": "Pasted image 20241028005955",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/resources/Pasted image 20241028005955.png"
-    },
-    {
-      "basename": "Pasted image 20241028124158",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/resources/Pasted image 20241028124158.png"
-    },
-    {
-      "basename": "Quaternion.LookRotation",
-      "path": "Study/10. Unity/Math&Physics/Quaternion.LookRotation.md"
-    },
-    {
-      "basename": "Quaternion",
-      "path": "Study/10. Unity/Math&Physics/Quaternion.md"
-    },
-    {
-      "basename": "Input System",
-      "path": "Study/10. Unity/InputOutput/Input System.md"
-    },
-    {
-      "basename": "Undead Survivor",
-      "path": "Study/10. Unity/골드메탈/Undead Survivor.md"
-    },
-    {
-      "basename": "이벤트 함수 실행 순서",
-      "path": "Study/10. Unity/Event Functions/이벤트 함수 실행 순서.md"
-    },
-    {
-      "basename": "Awake vs Start",
-      "path": "Study/10. Unity/Event Functions/Awake vs Start.md"
-    },
-    {
-      "basename": "PPU",
-      "path": "Study/10. Unity/Graphics/PPU.md"
-    },
-    {
-      "basename": "Cinemachine",
-      "path": "Study/10. Unity/Graphics/Cinemachine.md"
-    },
-    {
-      "basename": "TextMeshPro",
-      "path": "Study/10. Unity/TextMeshPro.md"
-    },
-    {
-      "basename": "Physics.Raycast",
-      "path": "Study/10. Unity/Physics.Raycast.md"
-    },
-    {
-      "basename": "기록",
-      "path": "Study/10. Unity/기록.md"
-    },
-    {
-      "basename": "Coroutine",
-      "path": "Study/10. Unity/Coroutine.md"
     }
   ],
   "omittedPaths": [],

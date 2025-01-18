@@ -24,18 +24,5 @@
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true
   },
-  "Projects/Study/HTTP/Keep-Alive": "FarStar",
-  "Study/16. Web/HttpSession": "FarStar",
-  "Study/16. Web/Session": "FarStar",
-  "Study/16. Web/Tomcat": "FarStar",
-  "Study/14. Java/HashMap": "FarStar",
-  "Study/14. Java/final": "FarStar",
-  "Study/14. Java/JVM": "FarStar",
-  "Study/14. Java/Virtual Thread": "FarStar",
-  "Study/17. Http/Connection": "FarStar",
-  "Study/17. Http/QUIC": "FarStar",
-  "Study/17. Http/URL": "FarStar",
-  "Study/17. Http/Web Server": "FarStar",
-  "Study/21. Auth/SSL": "FarStar",
-  "Study/22. Design/사용자 수에 따른 규모 확장성": "FarStar"
+  "Projects/Study/HTTP/Keep-Alive": "FarStar"
 }
