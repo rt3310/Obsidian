@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "개념 정리",
+      "path": "Projects/Study/3. DataStructure/개념 정리.md"
+    },
+    {
+      "basename": "해볼 것",
+      "path": "Projects/Study/3. DataStructure/해볼 것.md"
+    },
+    {
       "basename": "어떻게 공부해야 할까",
       "path": "Projects/Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "트러블 슈팅",
+      "path": "Projects/Plan/트러블 슈팅.md"
     },
     {
       "basename": "학습 전략",
@@ -35,10 +47,6 @@
     {
       "basename": "공부할 것들",
       "path": "Projects/Plan/공부할 것들.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Projects/Plan/트러블 슈팅.md"
     },
     {
       "basename": "게임 클라이언트 로드맵",
@@ -191,14 +199,6 @@
     {
       "basename": "ORM",
       "path": "Projects/Study/18. JPA/canvas/ORM.md"
-    },
-    {
-      "basename": "자바스크립트",
-      "path": "Projects/Study/13. Frontend/자바스크립트.md"
-    },
-    {
-      "basename": "SSL",
-      "path": "Projects/Study/21. Auth/SSL/SSL.md"
     }
   ],
   "omittedPaths": [],
