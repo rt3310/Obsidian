@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "공부할 것들",
+      "path": "Plan/공부할 것들.md"
+    },
+    {
       "basename": "Executors",
       "path": "Study/14. Java/Executors.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "학습 필터",
       "path": "Plan/학습 필터.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Plan/공부할 것들.md"
     },
     {
       "basename": "게임 클라이언트 로드맵",
