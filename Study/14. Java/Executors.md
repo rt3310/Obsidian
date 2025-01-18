@@ -4,18 +4,38 @@ Executors가 생성해주는 ExecutorService는 **재사용이 가능한 ThreadP
 
 ## ThreadPool의 종류
 
-### newFixedThreadPool(int)
-- 인자 개수만큼 고정된 ThreadPool을 생성한다.
-### newCachedThreadPool()
-- 호출 당시의 필요한 만큼 ThreadPool을 생성한다.
+### newFixedThreadPool(int, [ThreadFactory])
+- 고정된 개수의 스레드를 사용하여 동작하며, 공유된 무한 큐를 사용하여 작업을 처리하는 스레드 풀을을 생성한다.
+- 파라미터로 통해 생성된 스레드 개수는 항상 활성화되어 작업을 처리한다.
+- 모든 스레드가 활성화 된 상태에서 추가 작업이 있으면 큐에 대기한다.
+- 실행 중에 오류로 스레드가 종료되면 새로운 스레드가 생성된다.
+### newCachedThreadPool([ThreadFactory])
+- 이전에 생성된 스레드를 재사용하는 스레드 풀을 생성한다.
+- 사용 가능한 이전 스레드가 없으면 새 스레드를 생성하고 풀에 추가한다.
+- 최대 개수는 Integer.MAX_VALUE이다.
+- 60초 동안 사용되지 않은 스레드는 종료되고 캐시에서 삭제된다.
 - 이미 생성된 스레드를 재사용할 수 있기 때문에 성능 상의 이점이 있을 수 있다.
-### newScheduledThreadPool(int)
+### newScheduledThreadPool(int, [ThreadFactory])
 - 일정 시간 뒤에 실행되는 작업이나, 주기적으로 수행되는 ThreadPool을 인자 개수만큼 생성한다.
-### newSingleThreadExecutor()
-- 단일 스레드인 풀을 생성한다.
-- 단일 스레드에서 동작해야 하는 작업을 처리할 때 사용한다.
 ### newWorkStealingPool(int parallelism)
 - JDK 1.8부터 지원하는 방식으로 시스템에 가용 가능한 만큼 스레드를 활용하는 ExecutorService를 생성한다.
+- 주어진 파라미터 수만큼 병렬성을 지원하는 데 필요한 스레드를 유지한다.
+- 여러 큐를 사용하여 스레드 풀을 생성한다.
+- 실제 스레드 수는 동적으로 움직인다.
+### newSingleThreadExecutor([ThreadFactory])
+- 단일 스레드인 풀을 생성한다.
+- 단일 스레드에서 동작해야 하는 작업을 처리할 때 사용한다.
+### unconfigurableExecutorService(ExecutorService)
+### unconfigurableExecutorService(ScheduledExecutorService)
+- SingleThread 처럼 캐스트를 사용하여 엑세스를 할 수 없다.
+- 해당 스레드는 설정을 변환하지 않고 ExecutorService 메서드만 사용할 수 있다.
+### defaultThreadFactory()
+- 기본 스레드 팩토리를 반환한다.
+- 생성되는 모든 스레드를 동일한 ThreadGroup에서 생성한다.
+- 새로운 스레드는 pool-N-thread-M의 이름으로 만들어지며, 여기서 N은 이 팩토리의 연속 번호이고 M은 이 팩토리에 의해 생성된 스레드의 연속 번호이다.
+- 우선순위가 작은 값으로 생성되며, 비데몬 스레드이다.
+### callable
+- 작업을 실행하고 결과를 반환하는 Callable 객체를 반환한다.
 
 ## 작업을 생성하는 메서드
 
