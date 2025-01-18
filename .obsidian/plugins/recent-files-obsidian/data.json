@@ -1,36 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Cookie & Session",
-      "path": "Study/16. Web/Cookie & Session.canvas"
+      "basename": "Session in Multi Server",
+      "path": "Study/11. Web/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "primary-secondary session replication",
+      "path": "Study/11. Web/resources/primary-secondary session replication.png"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Study/11. Web/Tomcat.canvas"
     },
     {
       "basename": "HttpSession",
-      "path": "Study/16. Web/HttpSession.canvas"
+      "path": "Study/11. Web/HttpSession.canvas"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Study/11. Web/Cookie & Session.canvas"
     },
     {
       "basename": "URL",
-      "path": "Study/17. Http/URL.canvas"
+      "path": "Study/12. Http/URL.canvas"
     },
     {
       "basename": "QUIC",
-      "path": "Study/17. Http/QUIC.md"
+      "path": "Study/12. Http/QUIC.md"
     },
     {
       "basename": "HTTP Connection",
-      "path": "Study/17. Http/HTTP Connection.canvas"
+      "path": "Study/12. Http/HTTP Connection.canvas"
     },
     {
       "basename": "웹 서버",
-      "path": "Study/17. Http/웹 서버.canvas"
+      "path": "Study/12. Http/웹 서버.canvas"
     },
     {
       "basename": "수십억건에서 querydsl 사용하기",
-      "path": "Study/19. Querydsl/수십억건에서 querydsl 사용하기.md"
+      "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
     },
     {
       "basename": "용어",
-      "path": "Study/20. Server/Tuning/용어.md"
+      "path": "Study/16. Server/Tuning/용어.md"
     },
     {
       "basename": "Docker",
@@ -187,18 +199,6 @@
     {
       "basename": "Pasted image 20240626170745",
       "path": "Study/8. DB/resources/Pasted image 20240626170745.png"
-    },
-    {
-      "basename": "Pasted image 20240626185307",
-      "path": "Study/8. DB/resources/Pasted image 20240626185307.png"
-    },
-    {
-      "basename": "갱신이상",
-      "path": "Study/8. DB/md/갱신이상.md"
-    },
-    {
-      "basename": "Cache Stampede 현상",
-      "path": "Study/8. DB/resources/Cache Stampede 현상.png"
     }
   ],
   "omittedPaths": [],

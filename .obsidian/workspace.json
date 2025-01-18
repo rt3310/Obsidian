@@ -27,15 +27,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Study/16. Web/Cookie & Session.canvas",
+                "file": "Study/11. Web/Session in Multi Server.canvas",
                 "viewState": {
-                  "x": -50.5,
-                  "y": -106,
-                  "zoom": -0.784246118711274
+                  "x": 2380.3888941636274,
+                  "y": 796.6025925455137,
+                  "zoom": -0.8146823956920652
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Cookie & Session"
+              "title": "Session in Multi Server"
             }
           },
           {
@@ -249,16 +249,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "048cf6c2403f4160",
   "lastOpenFiles": [
-    "Study/16. Web/HttpSession.canvas",
-    "Study/16. Web/Cookie & Session.canvas",
-    "Study/17. Http/URL.canvas",
-    "Study/17. Http/QUIC.md",
-    "Study/17. Http/HTTP Connection.canvas",
-    "Study/17. Http/웹 서버.canvas",
-    "Study/19. Querydsl/수십억건에서 querydsl 사용하기.md",
-    "Study/20. Server/Tuning/용어.md",
+    "Study/11. Web/Tomcat.canvas",
+    "Study/11. Web/Session in Multi Server.canvas",
+    "Study/11. Web/HttpSession.canvas",
+    "Study/11. Web/Cookie & Session.canvas",
+    "Study/12. Http/URL.canvas",
+    "Study/12. Http/QUIC.md",
+    "Study/12. Http/HTTP Connection.canvas",
+    "Study/12. Http/웹 서버.canvas",
+    "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md",
+    "Study/16. Server/Tuning/용어.md",
     "Study/21. Docker/Docker.canvas",
     "Study/21. Docker",
     "무제 폴더",
@@ -272,12 +274,10 @@
     "Study/6. OS/resources/RAID 0.png",
     "Study/5. ComputerStructure/무제 파일.canvas",
     "Study/6. OS/가상 메모리(Virtual Memory).canvas",
-    "Study/6. OS/쓰레드(Thread).canvas",
     "Study/6. OS/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
     "Study/6. OS/md/스레싱(Thrashing).md",
     "Study/6. OS/resources/Pasted image 20240124031836.png",
     "Study/6. OS/md/가상 메모리(Virtual Memory).md",
-    "Study/6. OS/세마포어(Semaphore).canvas",
     "Study/6. OS/md/고정 분할.md",
     "Study/6. OS/resources/Concurrent & Parallel.png",
     "Study/6. OS/md/강성 세마포어.md",
@@ -296,16 +296,16 @@
     "Study/8. DB/md/캐시 가용성 지침.md",
     "Study/8. DB/md/캐시 공유 방식 지침.md",
     "Study/8. DB/md",
-    "Study/13. Frontend/React/React Query.md",
+    "Study/15. Frontend/React/React Query.md",
     "Study/25. Auth/SSL.md",
-    "Study/18. JPA/md/ORM.md",
-    "Study/17. Http/resources/Pasted image 20231221164018.png",
-    "Study/17. Http/md",
-    "Study/17. Http/resources",
-    "Study/14. Java/md",
-    "Study/14. Java/resources",
-    "Study/16. Web/md",
-    "Study/16. Web/resources",
-    "Study/20. Server/resources"
+    "Study/13. JPA/md/ORM.md",
+    "Study/12. Http/resources/Pasted image 20231221164018.png",
+    "Study/12. Http/md",
+    "Study/12. Http/resources",
+    "Study/9. Java/md",
+    "Study/9. Java/resources",
+    "Study/11. Web/md",
+    "Study/11. Web/resources",
+    "Study/16. Server/resources"
   ]
 }
