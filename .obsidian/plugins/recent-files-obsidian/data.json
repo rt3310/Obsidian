@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
+      "basename": "Executors",
+      "path": "Study/14. Java/Executors.md"
+    },
+    {
+      "basename": "Java Concurrency",
+      "path": "Study/14. Java/Java Concurrency.md"
+    },
+    {
       "basename": "개념 정리",
-      "path": "Projects/Study/3. DataStructure/개념 정리.md"
+      "path": "Study/3. DataStructure/개념 정리.md"
     },
     {
       "basename": "해볼 것",
-      "path": "Projects/Study/3. DataStructure/해볼 것.md"
+      "path": "Study/3. DataStructure/해볼 것.md"
     },
     {
       "basename": "어떻게 공부해야 할까",
-      "path": "Projects/Plan/어떻게 공부해야 할까.md"
+      "path": "Plan/어떻게 공부해야 할까.md"
     },
     {
       "basename": "트러블 슈팅",
-      "path": "Projects/Plan/트러블 슈팅.md"
+      "path": "Plan/트러블 슈팅.md"
     },
     {
       "basename": "학습 전략",
-      "path": "Projects/Plan/학습 전략.md"
+      "path": "Plan/학습 전략.md"
     },
     {
       "basename": "SQL",
-      "path": "Projects/Study/8. DB/SQL/canvas/SQL.canvas"
+      "path": "Study/8. DB/SQL/canvas/SQL.canvas"
     },
     {
       "basename": "Join",
-      "path": "Projects/Study/8. DB/SQL/canvas/Join.canvas"
+      "path": "Study/8. DB/SQL/canvas/Join.canvas"
     },
     {
       "basename": "Pasted image 20250115023410",
-      "path": "Projects/Plan/Resources/Pasted image 20250115023410.png"
+      "path": "Plan/Resources/Pasted image 20250115023410.png"
     },
     {
       "basename": "Pasted image 20250115023151",
-      "path": "Projects/Plan/Resources/Pasted image 20250115023151.png"
+      "path": "Plan/Resources/Pasted image 20250115023151.png"
     },
     {
       "basename": "Pasted image 20250115023606",
-      "path": "Projects/Plan/Resources/Pasted image 20250115023606.png"
+      "path": "Plan/Resources/Pasted image 20250115023606.png"
     },
     {
       "basename": "학습 필터",
-      "path": "Projects/Plan/학습 필터.md"
+      "path": "Plan/학습 필터.md"
     },
     {
       "basename": "공부할 것들",
-      "path": "Projects/Plan/공부할 것들.md"
+      "path": "Plan/공부할 것들.md"
     },
     {
       "basename": "게임 클라이언트 로드맵",
-      "path": "Projects/Plan/게임 클라이언트 로드맵.png"
+      "path": "Plan/게임 클라이언트 로드맵.png"
     },
     {
       "basename": "ngrinder 용어",
-      "path": "Projects/Study/20. Server/Tuning/ngrinder 용어.md"
+      "path": "Study/20. Server/Tuning/ngrinder 용어.md"
     },
     {
       "basename": "커버링 인덱스",
-      "path": "Projects/Study/8. DB/커버링 인덱스.md"
+      "path": "Study/8. DB/커버링 인덱스.md"
     },
     {
       "basename": "Docker",
-      "path": "Projects/Study/20. Server/Docker/canvas/Docker.canvas"
+      "path": "Study/20. Server/Docker/canvas/Docker.canvas"
     },
     {
       "basename": "Sharding",
-      "path": "Projects/Study/8. DB/Sharding/canvas/Sharding.canvas"
+      "path": "Study/8. DB/Sharding/canvas/Sharding.canvas"
     },
     {
       "basename": "Cache 전략",
-      "path": "Projects/Study/8. DB/Cache/canvas/Cache 전략.canvas"
+      "path": "Study/8. DB/Cache/canvas/Cache 전략.canvas"
     },
     {
       "basename": "정규화",
-      "path": "Projects/Study/8. DB/Normalization/canvas/정규화.canvas"
+      "path": "Study/8. DB/Normalization/canvas/정규화.canvas"
     },
     {
       "basename": "Real MySQL - Part 1",
-      "path": "Projects/Study/8. DB/Real MySQL/Real MySQL - Part 1.md"
+      "path": "Study/8. DB/Real MySQL/Real MySQL - Part 1.md"
     },
     {
       "basename": "Pasted image 20240626170745",
-      "path": "Projects/Study/8. DB/Real MySQL/resources/Pasted image 20240626170745.png"
+      "path": "Study/8. DB/Real MySQL/resources/Pasted image 20240626170745.png"
     },
     {
       "basename": "클러스터링 인덱스",
-      "path": "Projects/Study/8. DB/클러스터링 인덱스.md"
+      "path": "Study/8. DB/클러스터링 인덱스.md"
     },
     {
       "basename": "CH10 - Pipeline",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
     },
     {
       "basename": "CH9 - Computer Arithmetic",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md"
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md"
     },
     {
       "basename": "CH7 - Linker",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md"
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md"
     },
     {
       "basename": "Pasted image 20241028005955",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/resources/Pasted image 20241028005955.png"
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/resources/Pasted image 20241028005955.png"
     },
     {
       "basename": "Pasted image 20241028124158",
-      "path": "Projects/Study/5. ComputerStructure/최린 컴퓨터구조/resources/Pasted image 20241028124158.png"
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/resources/Pasted image 20241028124158.png"
     },
     {
       "basename": "Quaternion.LookRotation",
-      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.LookRotation.md"
+      "path": "Study/10. Unity/Math&Physics/Quaternion.LookRotation.md"
     },
     {
       "basename": "Quaternion",
-      "path": "Projects/Study/10. Unity/Math&Physics/Quaternion.md"
+      "path": "Study/10. Unity/Math&Physics/Quaternion.md"
     },
     {
       "basename": "Input System",
-      "path": "Projects/Study/10. Unity/InputOutput/Input System.md"
+      "path": "Study/10. Unity/InputOutput/Input System.md"
     },
     {
       "basename": "Undead Survivor",
-      "path": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md"
+      "path": "Study/10. Unity/골드메탈/Undead Survivor.md"
     },
     {
       "basename": "이벤트 함수 실행 순서",
-      "path": "Projects/Study/10. Unity/Event Functions/이벤트 함수 실행 순서.md"
+      "path": "Study/10. Unity/Event Functions/이벤트 함수 실행 순서.md"
     },
     {
       "basename": "Awake vs Start",
-      "path": "Projects/Study/10. Unity/Event Functions/Awake vs Start.md"
+      "path": "Study/10. Unity/Event Functions/Awake vs Start.md"
     },
     {
       "basename": "PPU",
-      "path": "Projects/Study/10. Unity/Graphics/PPU.md"
+      "path": "Study/10. Unity/Graphics/PPU.md"
     },
     {
       "basename": "Cinemachine",
-      "path": "Projects/Study/10. Unity/Graphics/Cinemachine.md"
+      "path": "Study/10. Unity/Graphics/Cinemachine.md"
     },
     {
       "basename": "TextMeshPro",
-      "path": "Projects/Study/10. Unity/TextMeshPro.md"
+      "path": "Study/10. Unity/TextMeshPro.md"
     },
     {
       "basename": "Physics.Raycast",
-      "path": "Projects/Study/10. Unity/Physics.Raycast.md"
+      "path": "Study/10. Unity/Physics.Raycast.md"
     },
     {
       "basename": "기록",
-      "path": "Projects/Study/10. Unity/기록.md"
+      "path": "Study/10. Unity/기록.md"
     },
     {
       "basename": "Coroutine",
-      "path": "Projects/Study/10. Unity/Coroutine.md"
+      "path": "Study/10. Unity/Coroutine.md"
     },
     {
       "basename": "충돌 처리 알고리즘",
-      "path": "Projects/Study/12. Game/충돌 처리 알고리즘.md"
+      "path": "Study/12. Game/충돌 처리 알고리즘.md"
     },
     {
       "basename": "A-Star Algorithm",
-      "path": "Projects/Study/12. Game/A-Star Algorithm.md"
+      "path": "Study/12. Game/A-Star Algorithm.md"
     },
     {
       "basename": "BSP(Binary Space Partitioning) Algorithm",
-      "path": "Projects/Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md"
+      "path": "Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md"
     },
     {
       "basename": "Cellular Automata Algorithm",
-      "path": "Projects/Study/12. Game/Cellular Automata Algorithm.md"
+      "path": "Study/12. Game/Cellular Automata Algorithm.md"
     },
     {
       "basename": "Pasted image 20250105123410",
-      "path": "Projects/Study/10. Unity/resources/Pasted image 20250105123410.png"
+      "path": "Study/10. Unity/resources/Pasted image 20250105123410.png"
     },
     {
       "basename": "Pasted image 20250113184620",
-      "path": "Projects/Study/8. DB/resources/Pasted image 20250113184620.png"
+      "path": "Study/8. DB/resources/Pasted image 20250113184620.png"
     },
     {
       "basename": "무제 파일",
-      "path": "Projects/Study/22. Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
+      "path": "Study/22. Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
     },
     {
       "basename": "HttpSession",
-      "path": "Projects/Study/16. Web/HttpSession/canvas/HttpSession.canvas"
+      "path": "Study/16. Web/HttpSession/canvas/HttpSession.canvas"
     },
     {
       "basename": "Cookie & Session",
-      "path": "Projects/Study/16. Web/HttpSession/canvas/Cookie & Session.canvas"
-    },
-    {
-      "basename": "JPA",
-      "path": "Projects/Study/18. JPA/canvas/JPA.canvas"
-    },
-    {
-      "basename": "ORM",
-      "path": "Projects/Study/18. JPA/canvas/ORM.md"
+      "path": "Study/16. Web/HttpSession/canvas/Cookie & Session.canvas"
     }
   ],
   "omittedPaths": [],

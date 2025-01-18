@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"0de1f63133e7a549","type":"file","file":"Projects/Study/5. ComputerStructure/Memory/md/32비트 vs 64비트.md","x":-456,"y":-40,"width":649,"height":911},
-		{"id":"80dff00d565f39cb","type":"file","file":"Projects/Study/5. ComputerStructure/Memory/md/32비트의 메모리 한계.md","x":-439,"y":1040,"width":615,"height":500}
-	],
-	"edges":[
-		{"id":"92d644732187f3f8","fromNode":"0de1f63133e7a549","fromSide":"bottom","toNode":"80dff00d565f39cb","toSide":"top","label":"32비트의 메모리 한계"}
-	]
-}
