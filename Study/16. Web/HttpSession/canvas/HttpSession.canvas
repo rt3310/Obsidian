@@ -3,13 +3,15 @@
 		{"id":"9dd3eab7514e826e","type":"text","text":"# HttpSession","x":-560,"y":-400,"width":240,"height":50},
 		{"id":"3ab6dd1446649d33","type":"text","text":"# JSESSIONID","x":1000,"y":-670,"width":250,"height":60},
 		{"id":"ddaa6b03c93206f9","type":"file","file":"Study/16. Web/HttpSession/md/HttpSession 인증처리 방식.md","x":-120,"y":-780,"width":600,"height":300},
-		{"id":"5420352afe3d3ab8","type":"text","text":"서버와 클라이언트의 브라우저에 저장되어 있는 세션 아이디로 사용자를 구분한다.","x":220,"y":-260,"width":580,"height":50},
-		{"id":"b9a438b5c65db2e4","type":"text","text":"```java\npublic void sessionTest(HttpServletRequest request) {\n    HttpSession session = request.getSession();\n    \n    session.setAttribute(\"userId\", \"abc123\"); // 사용자 session 저장\n    String userId = (String) session.getAttribute(\"userId\"); // 사용자 session 가져오기\n\n    System.out.println(userId);\n\n    session.getId(); // session의 고유 Id 반환\n    session.invalidate(); // 현재 생성된 session을 무효화\n}\n```","x":-622,"y":-100,"width":802,"height":310}
+		{"id":"5420352afe3d3ab8","type":"text","text":"서버와 클라이언트의 브라우저에 저장되어 있는 세션 아이디로 사용자를 구분한다.","x":220,"y":-260,"width":583,"height":60},
+		{"id":"b9a438b5c65db2e4","type":"text","text":"```java\npublic void sessionTest(HttpServletRequest request) {\n    HttpSession session = request.getSession();\n    \n    session.setAttribute(\"userId\", \"abc123\"); // 사용자 session 저장\n    String userId = (String) session.getAttribute(\"userId\"); // 사용자 session 가져오기\n\n    System.out.println(userId);\n\n    session.getId(); // session의 고유 Id 반환\n    session.invalidate(); // 현재 생성된 session을 무효화\n}\n```","x":-622,"y":-100,"width":802,"height":310},
+		{"id":"6e176ecdc185950d","x":960,"y":-480,"width":656,"height":834,"type":"text","text":"# JSESSIONID?\n\n- 톰켓 컨테이너에서 세션을 유지하기 위해 발급하는 키\n- HTTP 프로토콜은 stateless하다. 요청 시마다 새로운 연결이 생성되고 응답 후 연결을 끊기게 되므로 상태를 유지할 수 없다.\n- 따라서, 상태를 저장하기 위해서 톰캣은 JSESSIONID 쿠키를 클라이언트에게 발급해주고 이 값을 통해 세션을 유지할 수 있도록 한다.\n\n# 동작방식\n\n1. 브라우저에 최초 접근 시 톰캣은 Response header에 다음과 같이 JSESSIONID값이 발급된다.\n    - Set-Cookie: JSESSIONID=3CB361E0BE1A9A7DE7DB926DF0772BAE\n2. 브라우저 재 요청 시 Response를 통해 받은 JSESSIONID를 Request header의 Cookie에 값을 넣어 서버에 요청한다.\n    - Cookie를 통해 JSESSIONID 값을 전달받게 되면 서버는 새로운 JSESSIONID 값을 Response 헤더에 발급하지 않는다.\n3. 클라이언트로부터 전달받은 JSESSIONID 값을 기준으로 서버에서는 세션 메모리 영역에 상태를 유지할 값들을 저장할 수 있게 된다.\n    - HttpSession 등\n\n# 유지범위\n\n- 동일한 Full 도메인 (서브도메인이 다를 경우 쿠키가 유지되지 않으므로)\n- 포트번호는 달라도 무관하다.\n\n# 한계\n\n- 톰캣 컨테이너를 2대 이상 사용하게 될 경우 세션을 유지할 수 없다.\n    - 유지가 되기 위해서는 세션 클러스터링 환경을 구축하여야 한다."}
 	],
 	"edges":[
 		{"id":"8833088ecd59b586","fromNode":"9dd3eab7514e826e","fromSide":"right","toNode":"5420352afe3d3ab8","toSide":"left","label":"HttpSession 세션을 가져오는데 어떻게 사용자 A, B를 구분하는가?"},
 		{"id":"2bc4f2fc707ff483","fromNode":"9dd3eab7514e826e","fromSide":"top","toNode":"ddaa6b03c93206f9","toSide":"left","label":"\b세션 인증처리가 어떻게 이루어지는가?"},
 		{"id":"20be35cd7fecb71c","fromNode":"ddaa6b03c93206f9","fromSide":"right","toNode":"3ab6dd1446649d33","toSide":"left","label":"그 세션 키가 담긴 쿠키는 무엇인가?"},
-		{"id":"c689c72ea41a9c2d","fromNode":"9dd3eab7514e826e","fromSide":"bottom","toNode":"b9a438b5c65db2e4","toSide":"top","label":"In Java"}
+		{"id":"c689c72ea41a9c2d","fromNode":"9dd3eab7514e826e","fromSide":"bottom","toNode":"b9a438b5c65db2e4","toSide":"top","label":"In Java"},
+		{"id":"84efc1bd3e1efe59","fromNode":"3ab6dd1446649d33","fromSide":"bottom","toNode":"6e176ecdc185950d","toSide":"top"}
 	]
 }

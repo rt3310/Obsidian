@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "용어",
-      "path": "Study/20. Server/Tuning/용어.md"
+      "basename": "Cookie",
+      "path": "Study/16. Web/Cookie.md"
+    },
+    {
+      "basename": "Cache 전략",
+      "path": "Study/16. Web/Cache 전략.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Study/16. Web/Tomcat/canvas/Tomcat.canvas"
+    },
+    {
+      "basename": "Session in Multi Server",
+      "path": "Study/16. Web/Session/canvas/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "HttpSession",
+      "path": "Study/16. Web/HttpSession/canvas/HttpSession.canvas"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Study/16. Web/HttpSession/canvas/Cookie & Session.canvas"
     },
     {
       "basename": "공부할 것들",
       "path": "Plan/공부할 것들.md"
+    },
+    {
+      "basename": "학습 전략",
+      "path": "Plan/학습 전략.md"
+    },
+    {
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
+    },
+    {
+      "basename": "Virtual Memory",
+      "path": "Study/6. OS/VirtualMemory/canvas/Virtual Memory.canvas"
+    },
+    {
+      "basename": "용어",
+      "path": "Study/20. Server/Tuning/용어.md"
     },
     {
       "basename": "Executors",
@@ -27,14 +63,6 @@
     {
       "basename": "어떻게 공부해야 할까",
       "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
-    },
-    {
-      "basename": "학습 전략",
-      "path": "Plan/학습 전략.md"
     },
     {
       "basename": "SQL",
@@ -171,34 +199,6 @@
     {
       "basename": "A-Star Algorithm",
       "path": "Study/12. Game/A-Star Algorithm.md"
-    },
-    {
-      "basename": "BSP(Binary Space Partitioning) Algorithm",
-      "path": "Study/12. Game/BSP(Binary Space Partitioning) Algorithm.md"
-    },
-    {
-      "basename": "Cellular Automata Algorithm",
-      "path": "Study/12. Game/Cellular Automata Algorithm.md"
-    },
-    {
-      "basename": "Pasted image 20250105123410",
-      "path": "Study/10. Unity/resources/Pasted image 20250105123410.png"
-    },
-    {
-      "basename": "Pasted image 20250113184620",
-      "path": "Study/8. DB/resources/Pasted image 20250113184620.png"
-    },
-    {
-      "basename": "무제 파일",
-      "path": "Study/22. Design/사용자 수에 따른 규모 확장성/canvas/무제 파일.canvas"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Study/16. Web/HttpSession/canvas/HttpSession.canvas"
-    },
-    {
-      "basename": "Cookie & Session",
-      "path": "Study/16. Web/HttpSession/canvas/Cookie & Session.canvas"
     }
   ],
   "omittedPaths": [],
