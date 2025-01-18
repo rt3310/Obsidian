@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/16. Web/Cookie.md",
+                "file": "Study/3. DataStructure/개념 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cookie"
+              "title": "개념 정리"
             }
           },
           {
@@ -248,9 +248,11 @@
   },
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
+    "Study/4. Algorithm/분리집합.md",
+    "Study/4. Algorithm/BFS.md",
+    "Study/16. Web/Cookie.md",
     "Study/16. Web/Cache 전략.md",
     "Study/16. Web/Tomcat/canvas/Tomcat.canvas",
-    "Study/16. Web/Cookie.md",
     "Study/16. Web/Session/canvas/Session in Multi Server.canvas",
     "Study/16. Web/HttpSession/canvas/HttpSession.canvas",
     "Study/16. Web/HttpSession/canvas/Cookie & Session.canvas",
@@ -293,7 +295,6 @@
     "Study/10. Unity/골드메탈/Undead Survivor.md",
     "Study/10. Unity/Event Functions/이벤트 함수 실행 순서.md",
     "Study/10. Unity/Event Functions/Awake vs Start.md",
-    "Study/10. Unity/Graphics/PPU.md",
     "Study/10. Unity/resources/Pasted image 20250105123410.png",
     "Study/8. DB/resources",
     "Study/8. DB/resources/Pasted image 20250113184620.png",

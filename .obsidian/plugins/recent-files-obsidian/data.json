@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "개념 정리",
+      "path": "Study/3. DataStructure/개념 정리.md"
+    },
+    {
+      "basename": "분리집합",
+      "path": "Study/4. Algorithm/분리집합.md"
+    },
+    {
+      "basename": "BFS",
+      "path": "Study/4. Algorithm/BFS.md"
+    },
+    {
       "basename": "Cookie",
       "path": "Study/16. Web/Cookie.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "Java Concurrency",
       "path": "Study/14. Java/Java Concurrency.md"
-    },
-    {
-      "basename": "개념 정리",
-      "path": "Study/3. DataStructure/개념 정리.md"
     },
     {
       "basename": "해볼 것",
@@ -191,14 +199,6 @@
     {
       "basename": "Coroutine",
       "path": "Study/10. Unity/Coroutine.md"
-    },
-    {
-      "basename": "충돌 처리 알고리즘",
-      "path": "Study/12. Game/충돌 처리 알고리즘.md"
-    },
-    {
-      "basename": "A-Star Algorithm",
-      "path": "Study/12. Game/A-Star Algorithm.md"
     }
   ],
   "omittedPaths": [],
