@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "URL",
+      "path": "Study/17. Http/URL.canvas"
+    },
+    {
+      "basename": "QUIC",
+      "path": "Study/17. Http/QUIC.md"
+    },
+    {
+      "basename": "HTTP Connection",
+      "path": "Study/17. Http/HTTP Connection.canvas"
+    },
+    {
+      "basename": "웹 서버",
+      "path": "Study/17. Http/웹 서버.canvas"
+    },
+    {
+      "basename": "수십억건에서 querydsl 사용하기",
+      "path": "Study/19. Querydsl/수십억건에서 querydsl 사용하기.md"
+    },
+    {
+      "basename": "용어",
+      "path": "Study/20. Server/Tuning/용어.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Study/21. Docker/Docker.canvas"
+    },
+    {
       "basename": "32bit vs 64bit 메모리",
       "path": "Study/5. ComputerStructure/32bit vs 64bit 메모리.canvas"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "캐시 공유 방식 지침",
       "path": "Study/8. DB/md/캐시 공유 방식 지침.md"
-    },
-    {
-      "basename": "React Query",
-      "path": "Study/13. Frontend/React/React Query.md"
-    },
-    {
-      "basename": "사용자 수에 따른 규모 확장성",
-      "path": "Study/22. Design/사용자 수에 따른 규모 확장성.canvas"
-    },
-    {
-      "basename": "SSL",
-      "path": "Study/21. Auth/SSL.md"
-    },
-    {
-      "basename": "JPA",
-      "path": "Study/18. JPA/JPA.canvas"
-    },
-    {
-      "basename": "ORM",
-      "path": "Study/18. JPA/md/ORM.md"
-    },
-    {
-      "basename": "1. 클라이언트 커넥션 수락",
-      "path": "Study/17. Http/md/1. 클라이언트 커넥션 수락.md"
-    },
-    {
-      "basename": "Pasted image 20231221164018",
-      "path": "Study/17. Http/resources/Pasted image 20231221164018.png"
     }
   ],
   "omittedPaths": [],
