@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "용어",
+      "path": "Study/20. Server/Tuning/용어.md"
+    },
+    {
       "basename": "공부할 것들",
       "path": "Plan/공부할 것들.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "게임 클라이언트 로드맵",
       "path": "Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "ngrinder 용어",
-      "path": "Study/20. Server/Tuning/ngrinder 용어.md"
     },
     {
       "basename": "커버링 인덱스",
