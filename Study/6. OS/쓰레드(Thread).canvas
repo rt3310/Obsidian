@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"d76cf473f49a9089","type":"file","file":"Study/6. OS/md/쓰레드.md","x":240,"y":-760,"width":960,"height":2091},
+		{"id":"881a7d6974d524d6","type":"file","file":"Study/6. OS/md/사용자 수준 쓰레드(ULT).md","x":1340,"y":-654,"width":548,"height":496},
+		{"id":"88656603e138a202","type":"file","file":"Study/6. OS/md/멀티 쓰레딩.md","x":800,"y":1600,"width":610,"height":1021},
+		{"id":"e9599db4f1cd66b5","type":"file","file":"Study/6. OS/md/커널 수준 쓰레드(KLT).md","x":1340,"y":80,"width":590,"height":366},
+		{"id":"59ca79b394bf182b","type":"file","file":"Study/6. OS/md/쓰레드 라이브러리.md","x":2000,"y":-587,"width":400,"height":302},
+		{"id":"cddda6272f63619a","type":"file","file":"Study/6. OS/md/단일 쓰레딩.md","x":1600,"y":1600,"width":401,"height":361},
+		{"id":"83416ecb86bbc6f8","type":"file","file":"Study/6. OS/md/쓰레드 (Threads).md","x":-600,"y":-843,"width":537,"height":440},
+		{"id":"bd1a253f0fd4cb22","type":"file","file":"Study/6. OS/md/쓰레드 동기화.md","x":40,"y":1640,"width":519,"height":376},
+		{"id":"7caa330856bffc7b","type":"file","file":"Study/6. OS/md/프로세스.md","x":300,"y":-1600,"width":805,"height":638}
+	],
+	"edges":[
+		{"id":"e7d5cb0de1bffb54","fromNode":"83416ecb86bbc6f8","fromSide":"right","toNode":"7caa330856bffc7b","toSide":"left"},
+		{"id":"35a3b9149855a8fd","fromNode":"83416ecb86bbc6f8","fromSide":"right","toNode":"d76cf473f49a9089","toSide":"left"},
+		{"id":"c6ba52b05c92d1e8","fromNode":"d76cf473f49a9089","fromSide":"right","toNode":"881a7d6974d524d6","toSide":"left"},
+		{"id":"99a99a3c1dafbd08","fromNode":"d76cf473f49a9089","fromSide":"right","toNode":"e9599db4f1cd66b5","toSide":"left"},
+		{"id":"fa08dacd7985125b","fromNode":"881a7d6974d524d6","fromSide":"right","toNode":"59ca79b394bf182b","toSide":"left"},
+		{"id":"598c790584c1edbf","fromNode":"d76cf473f49a9089","fromSide":"bottom","toNode":"88656603e138a202","toSide":"top"},
+		{"id":"23bb460311b52784","fromNode":"d76cf473f49a9089","fromSide":"bottom","toNode":"cddda6272f63619a","toSide":"top"},
+		{"id":"1f41c8467d30f2c5","fromNode":"d76cf473f49a9089","fromSide":"bottom","toNode":"bd1a253f0fd4cb22","toSide":"top"}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"eb0c2e015559d6c2","type":"file","file":"Study/5. ComputerStructure/md/주소 지정방식 필드를 가진 명령어 형식.md","x":-940,"y":-337,"width":500,"height":311},
+		{"id":"6433ba0950ca58fc","type":"file","file":"Study/5. ComputerStructure/md/주소 지정 방식.md","x":320,"y":-509,"width":960,"height":643},
+		{"id":"ebb759d2ac54c4b2","type":"file","file":"Study/5. ComputerStructure/md/즉치 주소 지정 방식(Immediate mode).md","x":700,"y":-968,"width":503,"height":271},
+		{"id":"debe9ef0a1097778","type":"file","file":"Study/5. ComputerStructure/md/레지스터 주소 지정 방식 & 레지스터 간접 주소 지정 방식.md","x":1480,"y":240,"width":698,"height":634},
+		{"id":"838ddd1f8c9e041e","type":"file","file":"Study/5. ComputerStructure/md/직접 주소 지정 방식 & 간접 주소 지정 방식.md","x":1484,"y":-1320,"width":716,"height":1455},
+		{"id":"0ba7cd335a108337","type":"file","file":"Study/5. ComputerStructure/md/주소 지정(Addressing).md","x":-329,"y":-239,"width":566,"height":115},
+		{"id":"ffe66473372fb2ae","type":"file","file":"Study/5. ComputerStructure/md/유휴주소.md","x":-247,"y":-422,"width":402,"height":85},
+		{"id":"1c4dfc4171106eee","type":"file","file":"Study/5. ComputerStructure/md/인덱스 된 주소 지정 방식(Indexed addressing mode).md","x":-120,"y":302,"width":740,"height":511},
+		{"id":"7b849514d1032788","type":"file","file":"Study/5. ComputerStructure/md/상대 주소 지정 방식(Relative addressing mode).md","x":680,"y":370,"width":704,"height":374},
+		{"id":"c4bca20bcb8b9ee0","type":"file","file":"Study/5. ComputerStructure/md/의미 주소 지정 방식(Implied mode).md","x":-46,"y":-1200,"width":669,"height":503}
+	],
+	"edges":[
+		{"id":"4ab3b504e5b129b7","fromNode":"0ba7cd335a108337","fromSide":"right","toNode":"6433ba0950ca58fc","toSide":"left"},
+		{"id":"aeedb116d78ad43a","fromNode":"6433ba0950ca58fc","fromSide":"top","toNode":"c4bca20bcb8b9ee0","toSide":"bottom"},
+		{"id":"1d636c19d4f55cdf","fromNode":"0ba7cd335a108337","fromSide":"top","toNode":"ffe66473372fb2ae","toSide":"bottom"},
+		{"id":"8c18864037560b9c","fromNode":"0ba7cd335a108337","fromSide":"left","toNode":"eb0c2e015559d6c2","toSide":"right"},
+		{"id":"b6393a7419802028","fromNode":"6433ba0950ca58fc","fromSide":"top","toNode":"ebb759d2ac54c4b2","toSide":"bottom"},
+		{"id":"d4b28ea24e097595","fromNode":"6433ba0950ca58fc","fromSide":"right","toNode":"838ddd1f8c9e041e","toSide":"left"},
+		{"id":"7ce3dcdbe06043c9","fromNode":"6433ba0950ca58fc","fromSide":"right","toNode":"debe9ef0a1097778","toSide":"left"},
+		{"id":"e0681c06ec6599b2","fromNode":"6433ba0950ca58fc","fromSide":"bottom","toNode":"7b849514d1032788","toSide":"top"},
+		{"id":"4de8437044e1e7ff","fromNode":"6433ba0950ca58fc","fromSide":"bottom","toNode":"1c4dfc4171106eee","toSide":"top"}
+	]
+}

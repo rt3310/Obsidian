@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"1d4e4771506b3acc","type":"file","file":"Study/5. ComputerStructure/md/QP 인코딩.md","x":1819,"y":609,"width":741,"height":330},
+		{"id":"62929df1e31a14cc","type":"file","file":"Study/5. ComputerStructure/md/Base64 인코딩.md","x":2859,"y":338,"width":650,"height":426},
+		{"id":"9570b2db7f4a4e21","type":"file","file":"Study/5. ComputerStructure/md/URL 인코딩.md","x":2859,"y":915,"width":611,"height":322},
+		{"id":"e0b0e3bb41d6a856","type":"file","file":"Study/5. ComputerStructure/md/유니코드 변환 형식.md","x":239,"y":532,"width":624,"height":433},
+		{"id":"6e39968c85fbcb08","type":"file","file":"Study/5. ComputerStructure/md/UTF-8.md","x":1039,"y":443,"width":681,"height":705},
+		{"id":"93e96c799b915ef0","type":"file","file":"Study/5. ComputerStructure/md/Base64 인코딩의 단점을 감수하고도 왜 사용하는가.md","x":3604,"y":-347,"width":749,"height":370},
+		{"id":"a2970e9b635db22c","type":"file","file":"Study/5. ComputerStructure/md/텍스트 표현.md","x":-160,"y":-200,"width":206,"height":121},
+		{"id":"c9c37480d8bc5832","type":"file","file":"Study/5. ComputerStructure/md/Base64 인코딩 단점.md","x":2859,"y":-400,"width":614,"height":573},
+		{"id":"95c3a627f1a12b7f","type":"text","text":"UTF-8은 문자(예: A)를 표현하는 비트들로부터 나온 숫자들(0x0041)을 표현하는 숫자들(UTF-8로 인코딩한 값)을 표현하기 위해 숫자(실제 UTF-8로 인코딩한 0x41)들을 사용한다. 하지만 이 뿐만 아니라 문자를 사용해 수를 표현할 수도 있다.\n\n이전에 2진 데이터를 보내고 싶었지만 2진 데이터를 직접 보내는 것은 단순하지 않았다. 왜냐면 아스키 코드 중 상당수가 제어 문자로 예약되어 있었고, 이런 제어 문자는 시스템에 따라 처리하는 방식이 달랐기 때문이다. 그리고 몇몇 시스템은 7비트만 송수신 할 수 있었다.","x":1839,"y":239,"width":701,"height":198,"color":"3"},
+		{"id":"e9ab82925b18a1d7","type":"file","file":"Study/5. ComputerStructure/md/유니코드.md","x":245,"y":-40,"width":612,"height":298},
+		{"id":"d08f465b03bbd146","type":"file","file":"Study/5. ComputerStructure/md/아스키 코드.md","x":269,"y":-395,"width":533,"height":195}
+	],
+	"edges":[
+		{"id":"30935868b7c40947","fromNode":"a2970e9b635db22c","fromSide":"right","toNode":"d08f465b03bbd146","toSide":"left"},
+		{"id":"6bd7d4c58ea6459b","fromNode":"a2970e9b635db22c","fromSide":"right","toNode":"e9ab82925b18a1d7","toSide":"left"},
+		{"id":"4bf4befb9d546a56","fromNode":"e9ab82925b18a1d7","fromSide":"bottom","toNode":"e0b0e3bb41d6a856","toSide":"top","label":"유니코드 변환 형식"},
+		{"id":"f3899328a0394b77","fromNode":"e0b0e3bb41d6a856","fromSide":"right","toNode":"6e39968c85fbcb08","toSide":"left","label":"UTF-8"},
+		{"id":"f974b68915df9408","fromNode":"6e39968c85fbcb08","fromSide":"right","toNode":"1d4e4771506b3acc","toSide":"left"},
+		{"id":"b5219016459bc429","fromNode":"1d4e4771506b3acc","fromSide":"top","toNode":"95c3a627f1a12b7f","toSide":"bottom"},
+		{"id":"7cc3d4ad7c8cd195","fromNode":"1d4e4771506b3acc","fromSide":"right","toNode":"62929df1e31a14cc","toSide":"left"},
+		{"id":"2cc9182edfb244c9","fromNode":"1d4e4771506b3acc","fromSide":"right","toNode":"9570b2db7f4a4e21","toSide":"left"},
+		{"id":"dafc781fa0d93cbc","fromNode":"c9c37480d8bc5832","fromSide":"right","toNode":"93e96c799b915ef0","toSide":"left"},
+		{"id":"142b010ecfe07007","fromNode":"62929df1e31a14cc","fromSide":"top","toNode":"c9c37480d8bc5832","toSide":"bottom","label":"단점"}
+	]
+}

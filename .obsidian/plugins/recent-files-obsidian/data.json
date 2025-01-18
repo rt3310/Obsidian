@@ -1,6 +1,98 @@
 {
   "recentFiles": [
     {
+      "basename": "32bit vs 64bit 메모리",
+      "path": "Study/5. ComputerStructure/32bit vs 64bit 메모리.canvas"
+    },
+    {
+      "basename": "개념 정리",
+      "path": "Study/3. DataStructure/개념 정리.md"
+    },
+    {
+      "basename": "32비트 vs 64비트",
+      "path": "Study/5. ComputerStructure/md/32비트 vs 64비트.md"
+    },
+    {
+      "basename": "NTP",
+      "path": "Study/5. ComputerStructure/md/NTP.md"
+    },
+    {
+      "basename": "Hash flooding",
+      "path": "Study/5. ComputerStructure/Hash flooding.md"
+    },
+    {
+      "basename": "아스키 코드",
+      "path": "Study/5. ComputerStructure/md/아스키 코드.md"
+    },
+    {
+      "basename": "Pasted image 20241026212451",
+      "path": "Study/5. ComputerStructure/resources/Pasted image 20241026212451.png"
+    },
+    {
+      "basename": "RAID 0",
+      "path": "Study/6. OS/resources/RAID 0.png"
+    },
+    {
+      "basename": "가상 메모리(Virtual Memory)",
+      "path": "Study/6. OS/가상 메모리(Virtual Memory).canvas"
+    },
+    {
+      "basename": "쓰레드(Thread)",
+      "path": "Study/6. OS/쓰레드(Thread).canvas"
+    },
+    {
+      "basename": "단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용",
+      "path": "Study/6. OS/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md"
+    },
+    {
+      "basename": "스레싱(Thrashing)",
+      "path": "Study/6. OS/md/스레싱(Thrashing).md"
+    },
+    {
+      "basename": "Pasted image 20240124031836",
+      "path": "Study/6. OS/resources/Pasted image 20240124031836.png"
+    },
+    {
+      "basename": "가상 메모리(Virtual Memory)",
+      "path": "Study/6. OS/md/가상 메모리(Virtual Memory).md"
+    },
+    {
+      "basename": "세마포어(Semaphore)",
+      "path": "Study/6. OS/세마포어(Semaphore).canvas"
+    },
+    {
+      "basename": "데드락(DeadLock)",
+      "path": "Study/6. OS/데드락(DeadLock).canvas"
+    },
+    {
+      "basename": "Concurrency",
+      "path": "Study/6. OS/Concurrency.canvas"
+    },
+    {
+      "basename": "스레싱(Thrashing)",
+      "path": "Study/6. OS/스레싱(Thrashing).canvas"
+    },
+    {
+      "basename": "고정 분할",
+      "path": "Study/6. OS/md/고정 분할.md"
+    },
+    {
+      "basename": "Concurrent & Parallel",
+      "path": "Study/6. OS/resources/Concurrent & Parallel.png"
+    },
+    {
+      "basename": "강성 세마포어",
+      "path": "Study/6. OS/md/강성 세마포어.md"
+    },
+    {
+      "basename": "NAT",
+      "path": "Study/7. Network/NAT.canvas"
+    },
+    {
+      "basename": "Pasted image 20231212002734",
+      "path": "Study/7. Network/resources/Pasted image 20231212002734.png"
+    },
+    {
       "basename": "GSLB",
       "path": "Study/7. Network/GSLB.canvas"
     },
@@ -107,98 +199,6 @@
     {
       "basename": "Pasted image 20231221164018",
       "path": "Study/17. Http/resources/Pasted image 20231221164018.png"
-    },
-    {
-      "basename": "병렬 커넥션",
-      "path": "Study/17. Http/md/병렬 커넥션.md"
-    },
-    {
-      "basename": "QUIC",
-      "path": "Study/17. Http/QUIC.md"
-    },
-    {
-      "basename": "HTTP Connection",
-      "path": "Study/17. Http/HTTP Connection.canvas"
-    },
-    {
-      "basename": "final",
-      "path": "Study/14. Java/final.canvas"
-    },
-    {
-      "basename": "Virtual Thread",
-      "path": "Study/14. Java/Virtual Thread.canvas"
-    },
-    {
-      "basename": "JVM",
-      "path": "Study/14. Java/JVM.canvas"
-    },
-    {
-      "basename": "Java Concurrency",
-      "path": "Study/14. Java/Java Concurrency.md"
-    },
-    {
-      "basename": "Import",
-      "path": "Study/14. Java/Import.md"
-    },
-    {
-      "basename": "HashMap",
-      "path": "Study/14. Java/HashMap.canvas"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Study/14. Java/Garbage Collector.canvas"
-    },
-    {
-      "basename": "Executors",
-      "path": "Study/14. Java/Executors.md"
-    },
-    {
-      "basename": "전통적인 Thread 사용방식",
-      "path": "Study/14. Java/resources/전통적인 Thread 사용방식.png"
-    },
-    {
-      "basename": "플랫폼 스레드와 가상 스레드 구조 차이",
-      "path": "Study/14. Java/md/플랫폼 스레드와 가상 스레드 구조 차이.md"
-    },
-    {
-      "basename": "final class",
-      "path": "Study/14. Java/md/final class.md"
-    },
-    {
-      "basename": "보조 해시 함수",
-      "path": "Study/14. Java/md/보조 해시 함수.md"
-    },
-    {
-      "basename": "Pasted image 20240313181553",
-      "path": "Study/14. Java/resources/Pasted image 20240313181553.png"
-    },
-    {
-      "basename": "로드 팩터(Load Factor)",
-      "path": "Study/14. Java/로드 팩터(Load Factor).md"
-    },
-    {
-      "basename": "가비지 컬렉션 동작 과정",
-      "path": "Study/14. Java/resources/가비지 컬렉션 동작 과정.png"
-    },
-    {
-      "basename": "가비지 컬렉터",
-      "path": "Study/14. Java/md/가비지 컬렉터.md"
-    },
-    {
-      "basename": "Tomcat",
-      "path": "Study/16. Web/Tomcat.canvas"
-    },
-    {
-      "basename": "HttpSession",
-      "path": "Study/16. Web/HttpSession.canvas"
-    },
-    {
-      "basename": "Cookie & Session",
-      "path": "Study/16. Web/Cookie & Session.canvas"
-    },
-    {
-      "basename": "톰캣 아키텍처",
-      "path": "Study/16. Web/md/톰캣 아키텍처.md"
     }
   ],
   "omittedPaths": [],
