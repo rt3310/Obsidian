@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "@Transaction(readOnly=true)",
-      "path": "Study/13. JPA/@Transaction(readOnly=true).md"
+      "basename": "DB 병목 원인과 대책",
+      "path": "Study/8. DB/DB 병목 원인과 대책.md"
     },
     {
       "basename": "Persistence Context",
       "path": "Study/13. JPA/Persistence Context.md"
+    },
+    {
+      "basename": "@Transaction(readOnly=true)",
+      "path": "Study/13. JPA/@Transaction(readOnly=true).md"
     },
     {
       "basename": "연관 관계에서 Set과 List 차이",
@@ -195,10 +199,6 @@
     {
       "basename": "GSLB",
       "path": "Study/7. Network/GSLB.canvas"
-    },
-    {
-      "basename": "SQL",
-      "path": "Study/8. DB/SQL.canvas"
     }
   ],
   "omittedPaths": [],

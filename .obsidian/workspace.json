@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/13. JPA/@Transaction(readOnly=true).md",
+                "file": "Study/8. DB/DB 병목 원인과 대책.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@Transaction(readOnly=true)"
+              "title": "DB 병목 원인과 대책"
             }
           },
           {
@@ -249,8 +249,9 @@
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
     "Study/13. JPA/Persistence Context.md",
-    "Study/13. JPA/연관 관계에서 Set과 List 차이.md",
+    "Study/8. DB/DB 병목 원인과 대책.md",
     "Study/13. JPA/@Transaction(readOnly=true).md",
+    "Study/13. JPA/연관 관계에서 Set과 List 차이.md",
     "Study/13. JPA/resources/Untitled 1.png",
     "Study/13. JPA/resources",
     "Study/13. JPA/resources/Untitled.png",
@@ -296,7 +297,6 @@
     "Study/8. DB/md/디렉토리 샤딩(Directory Sharding).md",
     "Study/8. DB/resources/Pasted image 20240626170745.png",
     "Study/8. DB/resources/Pasted image 20240626185307.png",
-    "Study/8. DB/md/갱신이상.md",
     "Study/8. DB/md",
     "Study/12. Http/md",
     "Study/12. Http/resources",
