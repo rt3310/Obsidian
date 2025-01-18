@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
+    },
+    {
+      "basename": "데이터 무결성",
+      "path": "Study/8. DB/데이터 무결성.md"
+    },
+    {
       "basename": "DB 병목 원인과 대책",
       "path": "Study/8. DB/DB 병목 원인과 대책.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "NAT",
       "path": "Study/7. Network/NAT.canvas"
-    },
-    {
-      "basename": "Pasted image 20231212002734",
-      "path": "Study/7. Network/resources/Pasted image 20231212002734.png"
-    },
-    {
-      "basename": "GSLB",
-      "path": "Study/7. Network/GSLB.canvas"
     }
   ],
   "omittedPaths": [],
