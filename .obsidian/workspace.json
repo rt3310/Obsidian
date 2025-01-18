@@ -27,15 +27,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Study/17. Http/URL.canvas",
+                "file": "Study/16. Web/Cookie & Session.canvas",
                 "viewState": {
-                  "x": 20,
-                  "y": -83,
-                  "zoom": 0
+                  "x": -50.5,
+                  "y": -106,
+                  "zoom": -0.784246118711274
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "URL"
+              "title": "Cookie & Session"
             }
           },
           {
@@ -249,8 +249,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "048cf6c2403f4160",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Study/16. Web/HttpSession.canvas",
+    "Study/16. Web/Cookie & Session.canvas",
+    "Study/17. Http/URL.canvas",
     "Study/17. Http/QUIC.md",
     "Study/17. Http/HTTP Connection.canvas",
     "Study/17. Http/웹 서버.canvas",
@@ -275,8 +278,6 @@
     "Study/6. OS/resources/Pasted image 20240124031836.png",
     "Study/6. OS/md/가상 메모리(Virtual Memory).md",
     "Study/6. OS/세마포어(Semaphore).canvas",
-    "Study/6. OS/데드락(DeadLock).canvas",
-    "Study/6. OS/Concurrency.canvas",
     "Study/6. OS/md/고정 분할.md",
     "Study/6. OS/resources/Concurrent & Parallel.png",
     "Study/6. OS/md/강성 세마포어.md",
@@ -298,7 +299,6 @@
     "Study/13. Frontend/React/React Query.md",
     "Study/25. Auth/SSL.md",
     "Study/18. JPA/md/ORM.md",
-    "Study/17. Http/md/1. 클라이언트 커넥션 수락.md",
     "Study/17. Http/resources/Pasted image 20231221164018.png",
     "Study/17. Http/md",
     "Study/17. Http/resources",

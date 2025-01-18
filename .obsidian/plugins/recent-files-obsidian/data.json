@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Cookie & Session",
+      "path": "Study/16. Web/Cookie & Session.canvas"
+    },
+    {
+      "basename": "HttpSession",
+      "path": "Study/16. Web/HttpSession.canvas"
+    },
+    {
       "basename": "URL",
       "path": "Study/17. Http/URL.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Cache Stampede 현상",
       "path": "Study/8. DB/resources/Cache Stampede 현상.png"
-    },
-    {
-      "basename": "캐시 가용성 지침",
-      "path": "Study/8. DB/md/캐시 가용성 지침.md"
-    },
-    {
-      "basename": "캐시 공유 방식 지침",
-      "path": "Study/8. DB/md/캐시 공유 방식 지침.md"
     }
   ],
   "omittedPaths": [],
