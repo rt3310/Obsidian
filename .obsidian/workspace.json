@@ -27,15 +27,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Study/8. DB/Sharding/canvas/Sharding.canvas",
+                "file": "Study/7. Network/GSLB.canvas",
                 "viewState": {
-                  "x": -754.5,
-                  "y": -424,
-                  "zoom": -2.4169320053824026
+                  "x": 757.5,
+                  "y": -92,
+                  "zoom": -1.4732227543175056
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Sharding"
+              "title": "GSLB"
             }
           },
           {
@@ -249,8 +249,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "048cf6c2403f4160",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Study/8. DB/SQL.canvas",
+    "Study/8. DB/Using Temporary, Using Filesort.md",
+    "Study/8. DB/캐시 전략.canvas",
+    "Study/8. DB/트랜잭션 격리 수준.canvas",
+    "Study/8. DB/클러스터링 인덱스.md",
+    "Study/8. DB/커버링 인덱스.md",
+    "Study/8. DB/정규화.canvas",
+    "Study/8. DB/조인(Join).canvas",
+    "Study/8. DB/샤딩(Sharding).canvas",
+    "Study/8. DB/resources/gap lock 잠금 대기.png",
+    "Study/8. DB/md/MVCC.md",
+    "Study/8. DB/md/결합 알고리즘 종류.md",
+    "Study/8. DB/md/디렉토리 샤딩(Directory Sharding).md",
+    "Study/8. DB/resources/Pasted image 20240626170745.png",
+    "Study/8. DB/resources/Pasted image 20240626185307.png",
+    "Study/8. DB/md/갱신이상.md",
+    "Study/8. DB/resources/Cache Stampede 현상.png",
+    "Study/8. DB/md/캐시 가용성 지침.md",
+    "Study/8. DB/md/캐시 공유 방식 지침.md",
+    "Study/8. DB/md",
     "Study/13. Frontend/React/React Query.md",
     "Study/22. Design/사용자 수에 따른 규모 확장성.canvas",
     "Study/21. Auth/SSL.md",
@@ -264,12 +284,8 @@
     "Study/17. Http/md",
     "Study/17. Http/resources",
     "Study/14. Java/final.canvas",
-    "Study/14. Java/Virtual Thread.canvas",
-    "Study/14. Java/JVM.canvas",
     "Study/14. Java/Java Concurrency.md",
     "Study/14. Java/Import.md",
-    "Study/14. Java/HashMap.canvas",
-    "Study/14. Java/Garbage Collector.canvas",
     "Study/14. Java/Executors.md",
     "Study/14. Java/resources/전통적인 Thread 사용방식.png",
     "Study/14. Java/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
@@ -282,30 +298,13 @@
     "Study/14. Java/md",
     "Study/14. Java/resources",
     "Study/14. Java/JVM/canvas_png/JVM.png",
-    "Study/16. Web/Tomcat.canvas",
-    "Study/16. Web/HttpSession.canvas",
     "Study/16. Web/md/톰캣 아키텍처.md",
     "Study/16. Web/md/서블릿 컨테이너.md",
-    "Study/16. Web/md/HttpSession 인증처리 방식.md",
-    "Study/16. Web/md/Tomcat.md",
-    "Study/16. Web/md/Stateless.md",
-    "Study/16. Web/md/Cookie vs Session.md",
     "Study/16. Web/md",
     "Study/16. Web/resources/Pasted image 20240314164110.png",
-    "Study/16. Web/resources/all-to-all session replication.png",
-    "Study/16. Web/resources/Cookie.png",
     "Study/16. Web/resources",
-    "Study/16. Web/md/Connectionless.md",
-    "Plan/게임 클라이언트 로드맵.png",
-    "Study/3. DataStructure/개념 정리.md",
-    "Study/4. Algorithm/분리집합.md",
-    "Study/4. Algorithm/BFS.md",
-    "Study/16. Web/md/Cookie.md",
-    "Study/16. Web/md/Cache 전략.md",
-    "Plan/Resources/Pasted image 20250115023410.png",
     "Study/20. Server/Tuning/resources",
     "Study/20. Server/Tuning",
-    "Study/10. Unity/무제 폴더",
-    "Study/8. DB/resources"
+    "Study/10. Unity/무제 폴더"
   ]
 }

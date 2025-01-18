@@ -1,8 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Sharding",
-      "path": "Study/8. DB/Sharding/canvas/Sharding.canvas"
+      "basename": "GSLB",
+      "path": "Study/7. Network/GSLB.canvas"
+    },
+    {
+      "basename": "SQL",
+      "path": "Study/8. DB/SQL.canvas"
+    },
+    {
+      "basename": "Using Temporary, Using Filesort",
+      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
+    },
+    {
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시 전략.canvas"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "클러스터링 인덱스",
+      "path": "Study/8. DB/클러스터링 인덱스.md"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Study/8. DB/커버링 인덱스.md"
+    },
+    {
+      "basename": "정규화",
+      "path": "Study/8. DB/정규화.canvas"
+    },
+    {
+      "basename": "조인(Join)",
+      "path": "Study/8. DB/조인(Join).canvas"
+    },
+    {
+      "basename": "샤딩(Sharding)",
+      "path": "Study/8. DB/샤딩(Sharding).canvas"
+    },
+    {
+      "basename": "gap lock 잠금 대기",
+      "path": "Study/8. DB/resources/gap lock 잠금 대기.png"
+    },
+    {
+      "basename": "MVCC",
+      "path": "Study/8. DB/md/MVCC.md"
+    },
+    {
+      "basename": "결합 알고리즘 종류",
+      "path": "Study/8. DB/md/결합 알고리즘 종류.md"
+    },
+    {
+      "basename": "디렉토리 샤딩(Directory Sharding)",
+      "path": "Study/8. DB/md/디렉토리 샤딩(Directory Sharding).md"
+    },
+    {
+      "basename": "Pasted image 20240626170745",
+      "path": "Study/8. DB/resources/Pasted image 20240626170745.png"
+    },
+    {
+      "basename": "Pasted image 20240626185307",
+      "path": "Study/8. DB/resources/Pasted image 20240626185307.png"
+    },
+    {
+      "basename": "갱신이상",
+      "path": "Study/8. DB/md/갱신이상.md"
+    },
+    {
+      "basename": "Cache Stampede 현상",
+      "path": "Study/8. DB/resources/Cache Stampede 현상.png"
+    },
+    {
+      "basename": "캐시 가용성 지침",
+      "path": "Study/8. DB/md/캐시 가용성 지침.md"
+    },
+    {
+      "basename": "캐시 공유 방식 지침",
+      "path": "Study/8. DB/md/캐시 공유 방식 지침.md"
     },
     {
       "basename": "React Query",
@@ -123,82 +199,6 @@
     {
       "basename": "톰캣 아키텍처",
       "path": "Study/16. Web/md/톰캣 아키텍처.md"
-    },
-    {
-      "basename": "서블릿 컨테이너",
-      "path": "Study/16. Web/md/서블릿 컨테이너.md"
-    },
-    {
-      "basename": "HttpSession 인증처리 방식",
-      "path": "Study/16. Web/md/HttpSession 인증처리 방식.md"
-    },
-    {
-      "basename": "Tomcat",
-      "path": "Study/16. Web/md/Tomcat.md"
-    },
-    {
-      "basename": "Stateless",
-      "path": "Study/16. Web/md/Stateless.md"
-    },
-    {
-      "basename": "Cookie vs Session",
-      "path": "Study/16. Web/md/Cookie vs Session.md"
-    },
-    {
-      "basename": "Pasted image 20240314164110",
-      "path": "Study/16. Web/resources/Pasted image 20240314164110.png"
-    },
-    {
-      "basename": "all-to-all session replication",
-      "path": "Study/16. Web/resources/all-to-all session replication.png"
-    },
-    {
-      "basename": "Cookie",
-      "path": "Study/16. Web/resources/Cookie.png"
-    },
-    {
-      "basename": "Connectionless",
-      "path": "Study/16. Web/md/Connectionless.md"
-    },
-    {
-      "basename": "Session in Multi Server",
-      "path": "Study/16. Web/Session in Multi Server.canvas"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "개념 정리",
-      "path": "Study/3. DataStructure/개념 정리.md"
-    },
-    {
-      "basename": "분리집합",
-      "path": "Study/4. Algorithm/분리집합.md"
-    },
-    {
-      "basename": "BFS",
-      "path": "Study/4. Algorithm/BFS.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "Study/16. Web/md/Cookie.md"
-    },
-    {
-      "basename": "Cache 전략",
-      "path": "Study/16. Web/md/Cache 전략.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Plan/공부할 것들.md"
-    },
-    {
-      "basename": "학습 전략",
-      "path": "Plan/학습 전략.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
     }
   ],
   "omittedPaths": [],
