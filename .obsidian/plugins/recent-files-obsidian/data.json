@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "샤딩(Sharding)",
+      "path": "Study/8. DB/샤딩(Sharding).canvas"
+    },
+    {
+      "basename": "final",
+      "path": "Study/9. Java/final.canvas"
+    },
+    {
+      "basename": "Executors",
+      "path": "Study/9. Java/Executors.md"
+    },
+    {
+      "basename": "로드 팩터(Load Factor)",
+      "path": "Study/9. Java/로드 팩터(Load Factor).md"
+    },
+    {
       "basename": "Session in Multi Server",
       "path": "Study/11. Web/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Plan/공부할 것들.md"
     },
     {
       "basename": "primary-secondary session replication",
@@ -177,28 +197,8 @@
       "path": "Study/8. DB/조인(Join).canvas"
     },
     {
-      "basename": "샤딩(Sharding)",
-      "path": "Study/8. DB/샤딩(Sharding).canvas"
-    },
-    {
       "basename": "gap lock 잠금 대기",
       "path": "Study/8. DB/resources/gap lock 잠금 대기.png"
-    },
-    {
-      "basename": "MVCC",
-      "path": "Study/8. DB/md/MVCC.md"
-    },
-    {
-      "basename": "결합 알고리즘 종류",
-      "path": "Study/8. DB/md/결합 알고리즘 종류.md"
-    },
-    {
-      "basename": "디렉토리 샤딩(Directory Sharding)",
-      "path": "Study/8. DB/md/디렉토리 샤딩(Directory Sharding).md"
-    },
-    {
-      "basename": "Pasted image 20240626170745",
-      "path": "Study/8. DB/resources/Pasted image 20240626170745.png"
     }
   ],
   "omittedPaths": [],

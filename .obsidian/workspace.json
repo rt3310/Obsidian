@@ -27,15 +27,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Study/11. Web/Session in Multi Server.canvas",
+                "file": "Study/8. DB/샤딩(Sharding).canvas",
                 "viewState": {
-                  "x": 2380.3888941636274,
-                  "y": 796.6025925455137,
-                  "zoom": -0.8146823956920652
+                  "x": 1117.014091853377,
+                  "y": 123.5283825368056,
+                  "zoom": -0.1744441881742822
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Session in Multi Server"
+              "title": "샤딩(Sharding)"
             }
           },
           {
@@ -251,8 +251,12 @@
   },
   "active": "048cf6c2403f4160",
   "lastOpenFiles": [
-    "Study/11. Web/Tomcat.canvas",
+    "Study/9. Java/final.canvas",
+    "Study/9. Java/Executors.md",
+    "Study/9. Java/로드 팩터(Load Factor).md",
     "Study/11. Web/Session in Multi Server.canvas",
+    "Plan/공부할 것들.md",
+    "Study/11. Web/Tomcat.canvas",
     "Study/11. Web/HttpSession.canvas",
     "Study/11. Web/Cookie & Session.canvas",
     "Study/12. Http/URL.canvas",
@@ -273,7 +277,6 @@
     "Study/5. ComputerStructure/resources/Pasted image 20241026212451.png",
     "Study/6. OS/resources/RAID 0.png",
     "Study/5. ComputerStructure/무제 파일.canvas",
-    "Study/6. OS/가상 메모리(Virtual Memory).canvas",
     "Study/6. OS/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
     "Study/6. OS/md/스레싱(Thrashing).md",
     "Study/6. OS/resources/Pasted image 20240124031836.png",
@@ -296,9 +299,6 @@
     "Study/8. DB/md/캐시 가용성 지침.md",
     "Study/8. DB/md/캐시 공유 방식 지침.md",
     "Study/8. DB/md",
-    "Study/15. Frontend/React/React Query.md",
-    "Study/25. Auth/SSL.md",
-    "Study/13. JPA/md/ORM.md",
     "Study/12. Http/resources/Pasted image 20231221164018.png",
     "Study/12. Http/md",
     "Study/12. Http/resources",
