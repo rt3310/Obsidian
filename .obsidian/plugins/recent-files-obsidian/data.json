@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "트랜잭션 락",
+      "path": "Study/8. DB/트랜잭션 락.md"
+    },
+    {
       "basename": "NAT",
       "path": "Study/7. Network/NAT.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Concurrency",
       "path": "Study/6. OS/Concurrency.canvas"
-    },
-    {
-      "basename": "스레싱(Thrashing)",
-      "path": "Study/6. OS/스레싱(Thrashing).canvas"
     }
   ],
   "omittedPaths": [],

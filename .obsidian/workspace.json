@@ -25,17 +25,14 @@
             "id": "048cf6c2403f4160",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Study/7. Network/NAT.canvas",
-                "viewState": {
-                  "x": 870,
-                  "y": 499,
-                  "zoom": -1.506389618252705
-                }
+                "file": "Study/8. DB/트랜잭션 락.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "NAT"
+              "icon": "lucide-file",
+              "title": "트랜잭션 락"
             }
           },
           {
@@ -249,8 +246,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "048cf6c2403f4160",
   "lastOpenFiles": [
+    "Study/7. Network/NAT.canvas",
+    "Study/8. DB/트랜잭션 락.md",
     "Study/7. Network/GSLB.canvas",
     "Plan/트러블 슈팅.md",
     "Plan/공부할 것들.md",
@@ -277,7 +276,6 @@
     "Study/11. Web/Tomcat.canvas",
     "Study/11. Web/HttpSession.canvas",
     "Study/11. Web/Cookie & Session.canvas",
-    "Study/12. Http/URL.canvas",
     "Study/12. Http/QUIC.md",
     "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md",
     "Study/16. Server/Tuning/용어.md",
@@ -294,7 +292,6 @@
     "Study/6. OS/md/스레싱(Thrashing).md",
     "Study/6. OS/resources/Pasted image 20240124031836.png",
     "Study/6. OS/md/가상 메모리(Virtual Memory).md",
-    "Study/6. OS/md/고정 분할.md",
     "Study/6. OS/resources/Concurrent & Parallel.png",
     "Study/7. Network/resources/Pasted image 20231212002734.png",
     "Study/8. DB/resources/gap lock 잠금 대기.png",
