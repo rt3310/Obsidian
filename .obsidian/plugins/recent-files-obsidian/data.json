@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "NAT",
+      "path": "Study/7. Network/NAT.canvas"
+    },
+    {
+      "basename": "GSLB",
+      "path": "Study/7. Network/GSLB.canvas"
+    },
+    {
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
+    },
+    {
+      "basename": "공부할 것들",
+      "path": "Plan/공부할 것들.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Plan/어떻게 공부해야 할까.md"
+    },
+    {
       "basename": "ACID",
       "path": "Study/8. DB/ACID.md"
     },
@@ -23,10 +43,6 @@
     {
       "basename": "연관 관계에서 Set과 List 차이",
       "path": "Study/13. JPA/연관 관계에서 Set과 List 차이.md"
-    },
-    {
-      "basename": "공부할 것들",
-      "path": "Plan/공부할 것들.md"
     },
     {
       "basename": "트랜잭션 격리 수준",
@@ -183,22 +199,6 @@
     {
       "basename": "스레싱(Thrashing)",
       "path": "Study/6. OS/스레싱(Thrashing).canvas"
-    },
-    {
-      "basename": "고정 분할",
-      "path": "Study/6. OS/md/고정 분할.md"
-    },
-    {
-      "basename": "Concurrent & Parallel",
-      "path": "Study/6. OS/resources/Concurrent & Parallel.png"
-    },
-    {
-      "basename": "강성 세마포어",
-      "path": "Study/6. OS/md/강성 세마포어.md"
-    },
-    {
-      "basename": "NAT",
-      "path": "Study/7. Network/NAT.canvas"
     }
   ],
   "omittedPaths": [],
