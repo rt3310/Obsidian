@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/트랜잭션 락.md",
+                "file": "Study/8. DB/결합 인덱스.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "트랜잭션 락"
+              "title": "결합 인덱스"
             }
           },
           {
@@ -246,10 +246,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "048cf6c2403f4160",
   "lastOpenFiles": [
-    "Study/7. Network/NAT.canvas",
+    "Study/8. DB/캐시 전략.canvas",
+    "Study/8. DB/결합 인덱스.md",
+    "Study/8. DB/트랜잭션 격리 수준.canvas",
     "Study/8. DB/트랜잭션 락.md",
+    "Study/7. Network/NAT.canvas",
     "Study/7. Network/GSLB.canvas",
     "Plan/트러블 슈팅.md",
     "Plan/공부할 것들.md",
@@ -263,7 +266,6 @@
     "Study/13. JPA/resources/Untitled 1.png",
     "Study/13. JPA/resources",
     "Study/13. JPA/resources/Untitled.png",
-    "Study/8. DB/트랜잭션 격리 수준.canvas",
     "Study/8. DB/클러스터링 인덱스.md",
     "Study/8. DB/커버링 인덱스.md",
     "Study/8. DB/정규화.canvas",
@@ -275,7 +277,6 @@
     "Study/11. Web/Session in Multi Server.canvas",
     "Study/11. Web/Tomcat.canvas",
     "Study/11. Web/HttpSession.canvas",
-    "Study/11. Web/Cookie & Session.canvas",
     "Study/12. Http/QUIC.md",
     "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md",
     "Study/16. Server/Tuning/용어.md",
@@ -291,7 +292,6 @@
     "Study/6. OS/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
     "Study/6. OS/md/스레싱(Thrashing).md",
     "Study/6. OS/resources/Pasted image 20240124031836.png",
-    "Study/6. OS/md/가상 메모리(Virtual Memory).md",
     "Study/6. OS/resources/Concurrent & Parallel.png",
     "Study/7. Network/resources/Pasted image 20231212002734.png",
     "Study/8. DB/resources/gap lock 잠금 대기.png",

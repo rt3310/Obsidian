@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "결합 인덱스",
+      "path": "Study/8. DB/결합 인덱스.md"
+    },
+    {
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시 전략.canvas"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
+    },
+    {
       "basename": "트랜잭션 락",
       "path": "Study/8. DB/트랜잭션 락.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "연관 관계에서 Set과 List 차이",
       "path": "Study/13. JPA/연관 관계에서 Set과 List 차이.md"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
     },
     {
       "basename": "클러스터링 인덱스",
@@ -191,14 +199,6 @@
     {
       "basename": "세마포어(Semaphore)",
       "path": "Study/6. OS/세마포어(Semaphore).canvas"
-    },
-    {
-      "basename": "데드락(DeadLock)",
-      "path": "Study/6. OS/데드락(DeadLock).canvas"
-    },
-    {
-      "basename": "Concurrency",
-      "path": "Study/6. OS/Concurrency.canvas"
     }
   ],
   "omittedPaths": [],
