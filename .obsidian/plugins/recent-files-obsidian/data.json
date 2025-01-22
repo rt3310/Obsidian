@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "결합 인덱스",
-      "path": "Study/8. DB/결합 인덱스.md"
+      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
+      "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
+    },
+    {
+      "basename": "2. 결합 인덱스",
+      "path": "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md"
     },
     {
       "basename": "캐시 전략",
@@ -35,10 +43,6 @@
     {
       "basename": "어떻게 공부해야 할까",
       "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
     },
     {
       "basename": "데이터 무결성",
@@ -195,10 +199,6 @@
     {
       "basename": "가상 메모리(Virtual Memory)",
       "path": "Study/6. OS/md/가상 메모리(Virtual Memory).md"
-    },
-    {
-      "basename": "세마포어(Semaphore)",
-      "path": "Study/6. OS/세마포어(Semaphore).canvas"
     }
   ],
   "omittedPaths": [],
