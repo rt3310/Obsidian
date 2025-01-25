@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제 파일",
+      "path": "Study/9. Java/무제 파일.md"
+    },
+    {
       "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
       "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240124031836",
       "path": "Study/6. OS/resources/Pasted image 20240124031836.png"
-    },
-    {
-      "basename": "가상 메모리(Virtual Memory)",
-      "path": "Study/6. OS/md/가상 메모리(Virtual Memory).md"
     }
   ],
   "omittedPaths": [],

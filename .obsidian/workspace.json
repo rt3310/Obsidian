@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
+                "file": "Study/9. Java/무제 파일.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. SQL의 성능은 처리 범위에 좌우된다"
+              "title": "무제 파일"
             }
           },
           {
@@ -140,8 +140,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -247,10 +246,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "048cf6c2403f4160",
   "lastOpenFiles": [
-    "Study/8. DB/ACID.md",
     "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
+    "Study/9. Java/무제 파일.md",
+    "Study/8. DB/ACID.md",
     "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md",
     "Study/8. DB/권순용의 DB 이야기",
     "Study/8. DB/무제 파일.md",
@@ -292,7 +292,6 @@
     "Study/5. ComputerStructure/md/아스키 코드.md",
     "Study/5. ComputerStructure/resources/Pasted image 20241026212451.png",
     "Study/6. OS/resources/RAID 0.png",
-    "Study/6. OS/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md",
     "Study/6. OS/resources/Pasted image 20240124031836.png",
     "Study/6. OS/resources/Concurrent & Parallel.png",
     "Study/7. Network/resources/Pasted image 20231212002734.png",
