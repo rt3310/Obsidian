@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "무제 파일",
-      "path": "Study/9. Java/무제 파일.md"
+      "basename": "finalize()",
+      "path": "Study/9. Java/finalize().md"
     },
     {
       "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
@@ -195,10 +195,6 @@
     {
       "basename": "스레싱(Thrashing)",
       "path": "Study/6. OS/md/스레싱(Thrashing).md"
-    },
-    {
-      "basename": "Pasted image 20240124031836",
-      "path": "Study/6. OS/resources/Pasted image 20240124031836.png"
     }
   ],
   "omittedPaths": [],
