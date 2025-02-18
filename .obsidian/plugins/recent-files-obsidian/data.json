@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "GSLB",
+      "path": "Study/7. Network/GSLB.canvas"
+    },
+    {
+      "basename": "NAT",
+      "path": "Study/7. Network/NAT.canvas"
+    },
+    {
+      "basename": "메모리 관리",
+      "path": "Study/6. OS/메모리 관리.canvas"
+    },
+    {
+      "basename": "데드락(DeadLock)",
+      "path": "Study/6. OS/데드락(DeadLock).canvas"
+    },
+    {
+      "basename": "가상 메모리(Virtual Memory)",
+      "path": "Study/6. OS/가상 메모리(Virtual Memory).canvas"
+    },
+    {
+      "basename": "컴퓨터 시간 원리",
+      "path": "Study/5. ComputerStructure/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "주소 지정 방식",
+      "path": "Study/5. ComputerStructure/주소 지정 방식.canvas"
+    },
+    {
+      "basename": "레지스터",
+      "path": "Study/5. ComputerStructure/레지스터.canvas"
+    },
+    {
       "basename": "finalize()",
       "path": "Study/9. Java/finalize().md"
     },
@@ -27,14 +59,6 @@
     {
       "basename": "트랜잭션 락",
       "path": "Study/8. DB/트랜잭션 락.md"
-    },
-    {
-      "basename": "NAT",
-      "path": "Study/7. Network/NAT.canvas"
-    },
-    {
-      "basename": "GSLB",
-      "path": "Study/7. Network/GSLB.canvas"
     },
     {
       "basename": "트러블 슈팅",
@@ -175,26 +199,6 @@
     {
       "basename": "Pasted image 20241026212451",
       "path": "Study/5. ComputerStructure/resources/Pasted image 20241026212451.png"
-    },
-    {
-      "basename": "RAID 0",
-      "path": "Study/6. OS/resources/RAID 0.png"
-    },
-    {
-      "basename": "가상 메모리(Virtual Memory)",
-      "path": "Study/6. OS/가상 메모리(Virtual Memory).canvas"
-    },
-    {
-      "basename": "쓰레드(Thread)",
-      "path": "Study/6. OS/쓰레드(Thread).canvas"
-    },
-    {
-      "basename": "단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용",
-      "path": "Study/6. OS/md/단일 사용자 멀티프로세싱 시스템에서의 쓰레드 사용.md"
-    },
-    {
-      "basename": "스레싱(Thrashing)",
-      "path": "Study/6. OS/md/스레싱(Thrashing).md"
     }
   ],
   "omittedPaths": [],
