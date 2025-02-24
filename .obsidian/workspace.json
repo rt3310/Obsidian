@@ -158,8 +158,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -266,8 +265,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "f05db3777ca45f73",
   "lastOpenFiles": [
+    "Study/5. ComputerStructure/resources/54877425-e73f7280-4e61-11e9-9526-d33a04c189f3.webp",
     "Study/5. ComputerStructure/캐시 동작 원리.md",
     "Study/9. Java/Import.md",
     "Study/9. Java/final.canvas",
@@ -311,7 +311,6 @@
     "무제 폴더",
     "Study/3. DataStructure/개념 정리.md",
     "Study/5. ComputerStructure/md/32비트 vs 64비트.md",
-    "Study/5. ComputerStructure/md/NTP.md",
     "Study/5. ComputerStructure/resources/Pasted image 20241026212451.png",
     "Study/6. OS/resources/RAID 0.png",
     "Study/6. OS/resources/Pasted image 20240124031836.png",
