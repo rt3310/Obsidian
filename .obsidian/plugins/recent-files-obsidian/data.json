@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "HashMap",
+      "path": "Study/9. Java/HashMap.canvas"
+    },
+    {
+      "basename": "String 객체에 대한 해시 함수",
+      "path": "Study/9. Java/md/String 객체에 대한 해시 함수.md"
+    },
+    {
+      "basename": "Import",
+      "path": "Study/9. Java/Import.md"
+    },
+    {
+      "basename": "final",
+      "path": "Study/9. Java/final.canvas"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "DB 병목 원인과 대책",
+      "path": "Study/8. DB/DB 병목 원인과 대책.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
+    },
+    {
+      "basename": "트랜잭션 락",
+      "path": "Study/8. DB/트랜잭션 락.md"
+    },
+    {
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시 전략.canvas"
+    },
+    {
+      "basename": "조인(Join)",
+      "path": "Study/8. DB/조인(Join).canvas"
+    },
+    {
+      "basename": "클러스터링 인덱스",
+      "path": "Study/8. DB/클러스터링 인덱스.md"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Study/8. DB/커버링 인덱스.md"
+    },
+    {
+      "basename": "컴퓨터 시간 원리",
+      "path": "Study/5. ComputerStructure/컴퓨터 시간 원리.canvas"
+    },
+    {
+      "basename": "RTC",
+      "path": "Study/5. ComputerStructure/md/RTC.md"
+    },
+    {
       "basename": "GSLB",
       "path": "Study/7. Network/GSLB.canvas"
     },
@@ -21,10 +77,6 @@
       "path": "Study/6. OS/가상 메모리(Virtual Memory).canvas"
     },
     {
-      "basename": "컴퓨터 시간 원리",
-      "path": "Study/5. ComputerStructure/컴퓨터 시간 원리.canvas"
-    },
-    {
       "basename": "주소 지정 방식",
       "path": "Study/5. ComputerStructure/주소 지정 방식.canvas"
     },
@@ -41,24 +93,8 @@
       "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
     },
     {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
-    },
-    {
       "basename": "2. 결합 인덱스",
       "path": "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md"
-    },
-    {
-      "basename": "캐시 전략",
-      "path": "Study/8. DB/캐시 전략.canvas"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "트랜잭션 락",
-      "path": "Study/8. DB/트랜잭션 락.md"
     },
     {
       "basename": "트러블 슈팅",
@@ -77,10 +113,6 @@
       "path": "Study/8. DB/데이터 무결성.md"
     },
     {
-      "basename": "DB 병목 원인과 대책",
-      "path": "Study/8. DB/DB 병목 원인과 대책.md"
-    },
-    {
       "basename": "Persistence Context",
       "path": "Study/13. JPA/Persistence Context.md"
     },
@@ -93,28 +125,12 @@
       "path": "Study/13. JPA/연관 관계에서 Set과 List 차이.md"
     },
     {
-      "basename": "클러스터링 인덱스",
-      "path": "Study/8. DB/클러스터링 인덱스.md"
-    },
-    {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/커버링 인덱스.md"
-    },
-    {
       "basename": "정규화",
       "path": "Study/8. DB/정규화.canvas"
     },
     {
-      "basename": "조인(Join)",
-      "path": "Study/8. DB/조인(Join).canvas"
-    },
-    {
       "basename": "샤딩(Sharding)",
       "path": "Study/8. DB/샤딩(Sharding).canvas"
-    },
-    {
-      "basename": "final",
-      "path": "Study/9. Java/final.canvas"
     },
     {
       "basename": "Executors",
@@ -183,22 +199,6 @@
     {
       "basename": "32비트 vs 64비트",
       "path": "Study/5. ComputerStructure/md/32비트 vs 64비트.md"
-    },
-    {
-      "basename": "NTP",
-      "path": "Study/5. ComputerStructure/md/NTP.md"
-    },
-    {
-      "basename": "Hash flooding",
-      "path": "Study/5. ComputerStructure/Hash flooding.md"
-    },
-    {
-      "basename": "아스키 코드",
-      "path": "Study/5. ComputerStructure/md/아스키 코드.md"
-    },
-    {
-      "basename": "Pasted image 20241026212451",
-      "path": "Study/5. ComputerStructure/resources/Pasted image 20241026212451.png"
     }
   ],
   "omittedPaths": [],

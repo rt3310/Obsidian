@@ -27,15 +27,27 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Study/7. Network/GSLB.canvas",
+                "file": "Study/9. Java/HashMap.canvas",
                 "viewState": {
-                  "x": -182.31616862326564,
-                  "y": -396.6723159353188,
-                  "zoom": -0.4732227543175056
+                  "x": 586.2763429537614,
+                  "y": 366.7565303492318,
+                  "zoom": -1.418403675255842
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "GSLB"
+              "title": "HashMap"
+            }
+          },
+          {
+            "id": "f05db3777ca45f73",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           },
           {
@@ -81,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +112,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -235,11 +248,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "obsidian-kanban:새 보드 만들기": false,
-      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -249,41 +262,41 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "048cf6c2403f4160",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "Study/7. Network/NAT.canvas",
+    "Study/9. Java/Import.md",
+    "Study/9. Java/final.canvas",
+    "Study/8. DB/트랜잭션 격리 수준.canvas",
+    "Study/8. DB/DB 병목 원인과 대책.md",
+    "Study/8. DB/ACID.md",
+    "Study/8. DB/트랜잭션 락.md",
+    "Study/8. DB/캐시 전략.canvas",
+    "Study/8. DB/조인(Join).canvas",
+    "Study/8. DB/클러스터링 인덱스.md",
+    "Study/8. DB/커버링 인덱스.md",
+    "Study/5. ComputerStructure/컴퓨터 시간 원리.canvas",
     "Study/7. Network/GSLB.canvas",
+    "Study/7. Network/NAT.canvas",
     "Study/6. OS/메모리 관리.canvas",
     "Study/6. OS/데드락(DeadLock).canvas",
     "Study/6. OS/가상 메모리(Virtual Memory).canvas",
-    "Study/5. ComputerStructure/컴퓨터 시간 원리.canvas",
-    "Study/5. ComputerStructure/주소 지정 방식.canvas",
-    "Study/5. ComputerStructure/레지스터.canvas",
     "Study/9. Java/finalize().md",
     "1_4Z67ofRel2YRltOWgfW16A.webp",
     "Study/9. Java/resources/Pasted image 20250125225019.png",
     "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
-    "Study/8. DB/ACID.md",
     "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md",
     "Study/8. DB/권순용의 DB 이야기",
     "Study/8. DB/무제 파일.md",
-    "Study/8. DB/캐시 전략.canvas",
-    "Study/8. DB/트랜잭션 격리 수준.canvas",
-    "Study/8. DB/트랜잭션 락.md",
     "Plan/트러블 슈팅.md",
     "Plan/공부할 것들.md",
     "Plan/어떻게 공부해야 할까.md",
     "Study/8. DB/데이터 무결성.md",
-    "Study/8. DB/DB 병목 원인과 대책.md",
     "Study/13. JPA/Persistence Context.md",
     "Study/13. JPA/@Transaction(readOnly=true).md",
     "Study/13. JPA/연관 관계에서 Set과 List 차이.md",
     "Study/13. JPA/resources/Untitled 1.png",
     "Study/13. JPA/resources",
     "Study/13. JPA/resources/Untitled.png",
-    "Study/8. DB/클러스터링 인덱스.md",
-    "Study/8. DB/커버링 인덱스.md",
-    "Study/8. DB/정규화.canvas",
     "Study/9. Java/Executors.md",
     "Study/9. Java/로드 팩터(Load Factor).md",
     "Study/12. Http/QUIC.md",
