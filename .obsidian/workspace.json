@@ -42,12 +42,14 @@
             "id": "f05db3777ca45f73",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.4"
+                "file": "Study/5. ComputerStructure/캐시 동작 원리.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "icon": "lucide-file",
+              "title": "캐시 동작 원리"
             }
           },
           {
@@ -156,11 +158,13 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -262,8 +266,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
+    "Study/5. ComputerStructure/캐시 동작 원리.md",
     "Study/9. Java/Import.md",
     "Study/9. Java/final.canvas",
     "Study/8. DB/트랜잭션 격리 수준.canvas",
@@ -307,7 +312,6 @@
     "Study/3. DataStructure/개념 정리.md",
     "Study/5. ComputerStructure/md/32비트 vs 64비트.md",
     "Study/5. ComputerStructure/md/NTP.md",
-    "Study/5. ComputerStructure/Hash flooding.md",
     "Study/5. ComputerStructure/resources/Pasted image 20241026212451.png",
     "Study/6. OS/resources/RAID 0.png",
     "Study/6. OS/resources/Pasted image 20240124031836.png",
