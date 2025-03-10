@@ -158,12 +158,12 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -265,7 +265,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f05db3777ca45f73",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/5. ComputerStructure/resources/54877425-e73f7280-4e61-11e9-9526-d33a04c189f3.webp",
     "Study/5. ComputerStructure/캐시 동작 원리.md",
