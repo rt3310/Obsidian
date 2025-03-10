@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "DB 병목 원인과 대책",
+      "path": "Study/8. DB/DB 병목 원인과 대책.md"
+    },
+    {
+      "basename": "인덱스",
+      "path": "Study/8. DB/인덱스.md"
+    },
+    {
+      "basename": "클러스터링 인덱스",
+      "path": "Study/8. DB/클러스터링 인덱스.md"
+    },
+    {
+      "basename": "레지스터",
+      "path": "Study/5. ComputerStructure/레지스터.canvas"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Study/8. DB/커버링 인덱스.md"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "조인(Join)",
+      "path": "Study/8. DB/조인(Join).canvas"
+    },
+    {
+      "basename": "Using Temporary, Using Filesort",
+      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
+    },
+    {
       "basename": "캐시 동작 원리",
       "path": "Study/5. ComputerStructure/캐시 동작 원리.md"
     },
@@ -21,14 +53,6 @@
       "path": "Study/9. Java/final.canvas"
     },
     {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "DB 병목 원인과 대책",
-      "path": "Study/8. DB/DB 병목 원인과 대책.md"
-    },
-    {
       "basename": "ACID",
       "path": "Study/8. DB/ACID.md"
     },
@@ -39,18 +63,6 @@
     {
       "basename": "캐시 전략",
       "path": "Study/8. DB/캐시 전략.canvas"
-    },
-    {
-      "basename": "조인(Join)",
-      "path": "Study/8. DB/조인(Join).canvas"
-    },
-    {
-      "basename": "클러스터링 인덱스",
-      "path": "Study/8. DB/클러스터링 인덱스.md"
-    },
-    {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/커버링 인덱스.md"
     },
     {
       "basename": "컴퓨터 시간 원리",
@@ -83,10 +95,6 @@
     {
       "basename": "주소 지정 방식",
       "path": "Study/5. ComputerStructure/주소 지정 방식.canvas"
-    },
-    {
-      "basename": "레지스터",
-      "path": "Study/5. ComputerStructure/레지스터.canvas"
     },
     {
       "basename": "finalize()",
@@ -191,14 +199,6 @@
     {
       "basename": "Docker",
       "path": "Study/21. Docker/Docker.canvas"
-    },
-    {
-      "basename": "32bit vs 64bit 메모리",
-      "path": "Study/5. ComputerStructure/32bit vs 64bit 메모리.canvas"
-    },
-    {
-      "basename": "개념 정리",
-      "path": "Study/3. DataStructure/개념 정리.md"
     }
   ],
   "omittedPaths": [],
