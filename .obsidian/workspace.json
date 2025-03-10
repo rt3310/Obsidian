@@ -4,126 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "28af4694580f2f0c",
+        "id": "d81aa96b4c8acdd3",
         "type": "tabs",
         "children": [
           {
-            "id": "bb464f9da98697fc",
+            "id": "3f6d6bb41896a682",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
+                "file": "Study/16. Server/Log.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Undead Survivor"
-            }
-          },
-          {
-            "id": "048cf6c2403f4160",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Study/9. Java/HashMap.canvas",
-                "viewState": {
-                  "x": 586.2763429537614,
-                  "y": 366.7565303492318,
-                  "zoom": -1.418403675255842
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "HashMap"
-            }
-          },
-          {
-            "id": "f05db3777ca45f73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/클러스터링 인덱스.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "클러스터링 인덱스"
-            }
-          },
-          {
-            "id": "51bea688fb6ea18d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/DB 병목 원인과 대책.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DB 병목 원인과 대책"
-            }
-          },
-          {
-            "id": "dae6a27e7e591b65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/InnoDB vs MyISAM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "InnoDB vs MyISAM"
-            }
-          },
-          {
-            "id": "5d6ab7c9065905d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Undead Survivor"
-            }
-          },
-          {
-            "id": "8947b88d1bf702e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Study/10. Unity/기록.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "기록"
-            }
-          },
-          {
-            "id": "6613144f4b057231",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Study/10. Unity/InputOutput/Input System.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Input System"
+              }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,11 +38,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -161,9 +54,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
+              }
             }
           },
           {
@@ -171,9 +62,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           },
           {
@@ -181,16 +70,15 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -206,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
+                "file": "Study/16. Server/Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,9 +102,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "이벤트 함수 실행 순서의 백링크"
+              }
             }
           },
           {
@@ -225,12 +111,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
+                "file": "Study/16. Server/Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "이벤트 함수 실행 순서의 나가는 링크"
+              }
             }
           },
           {
@@ -241,9 +125,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -252,10 +134,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/10. Unity/이벤트 함수 실행 순서.md"
-              },
-              "icon": "lucide-list",
-              "title": "이벤트 함수 실행 순서 개요"
+                "file": "Study/16. Server/Log.md"
+              }
             }
           },
           {
@@ -263,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "state": {}
             }
           }
         ],
@@ -278,11 +156,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
       "obsidian-kanban:새 보드 만들기": false,
+      "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -292,62 +170,63 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dae6a27e7e591b65",
+  "active": "3f6d6bb41896a682",
   "lastOpenFiles": [
-    "Study/8. DB/Using Temporary, Using Filesort.md",
-    "Study/8. DB/InnoDB vs MyISAM.md",
-    "Study/5. ComputerStructure/32bit vs 64bit 메모리.canvas",
-    "Study/8. DB/DB 병목 원인과 대책.md",
     "Study/8. DB/인덱스.md",
-    "Study/8. DB/resources/Pasted image 20250310130717.png",
-    "Study/8. DB/resources/Pasted image 20250310130707.png",
-    "Study/8. DB/클러스터링 인덱스.md",
-    "Study/5. ComputerStructure/레지스터.canvas",
-    "Study/8. DB/커버링 인덱스.md",
-    "Study/8. DB/트랜잭션 격리 수준.canvas",
-    "Study/8. DB/조인(Join).canvas",
-    "Study/5. ComputerStructure/캐시 동작 원리.md",
-    "Study/5. ComputerStructure/resources/54877425-e73f7280-4e61-11e9-9526-d33a04c189f3.webp",
-    "Study/9. Java/Import.md",
-    "Study/9. Java/final.canvas",
-    "Study/8. DB/ACID.md",
-    "Study/8. DB/트랜잭션 락.md",
-    "Study/8. DB/캐시 전략.canvas",
-    "Study/5. ComputerStructure/컴퓨터 시간 원리.canvas",
-    "Study/7. Network/GSLB.canvas",
-    "Study/7. Network/NAT.canvas",
-    "Study/6. OS/메모리 관리.canvas",
-    "Study/9. Java/finalize().md",
-    "1_4Z67ofRel2YRltOWgfW16A.webp",
-    "Study/9. Java/resources/Pasted image 20250125225019.png",
-    "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
-    "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md",
-    "Study/8. DB/권순용의 DB 이야기",
-    "Study/8. DB/무제 파일.md",
-    "Plan/트러블 슈팅.md",
-    "Plan/공부할 것들.md",
-    "Plan/어떻게 공부해야 할까.md",
-    "Study/8. DB/데이터 무결성.md",
-    "Study/13. JPA/Persistence Context.md",
-    "Study/13. JPA/@Transaction(readOnly=true).md",
-    "Study/13. JPA/연관 관계에서 Set과 List 차이.md",
-    "Study/13. JPA/resources/Untitled 1.png",
-    "Study/13. JPA/resources",
-    "Study/13. JPA/resources/Untitled.png",
-    "Study/9. Java/Executors.md",
+    "Study/16. Server/Log.md",
+    "conflict-files-obsidian-git.md",
     "Study/9. Java/로드 팩터(Load Factor).md",
-    "Study/12. Http/QUIC.md",
-    "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md",
-    "Study/21. Docker",
-    "무제 폴더",
-    "Study/5. ComputerStructure/resources/Pasted image 20241026212451.png",
-    "Study/6. OS/resources/RAID 0.png",
-    "Study/6. OS/resources/Pasted image 20240124031836.png",
-    "Study/8. DB/md",
-    "Study/12. Http/md",
-    "Study/12. Http/resources",
-    "Study/9. Java/md",
+    "Study/9. Java/resources/힙 영역 저장 타입.png",
+    "Study/9. Java/resources/힙 영역 상세.png",
+    "Study/9. Java/resources/힙 영역 상세 2.png",
+    "Study/9. Java/resources/힙 영역 동작.png",
+    "Study/9. Java/resources/전통적인 Thread 사용방식.png",
+    "Study/9. Java/resources/자바 컴파일 과정.png",
+    "Study/9. Java/resources/자바 실행 엔진.png",
+    "Study/9. Java/resources/스택 영역 위치.png",
+    "Study/9. Java/resources/메소드 영역.png",
+    "Study/9. Java/resources/련타임 데이터 영역 동작.png",
+    "Study/9. Java/md/힙 영역.md",
+    "Study/9. Java/md/해시 충돌.md",
+    "Study/9. Java/md/해시 분포.md",
+    "Study/9. Java/md/해시 버킷 동적 확장.md",
+    "Study/9. Java/md/플랫폼 스레드와 가상 스레드 구조 차이.md",
+    "Study/9. Java/md/클래스 파일 로딩 순서.md",
+    "Study/9. Java/md/클래스 로더.md",
+    "Study/9. Java/md/실행 엔진.md",
+    "Study/9. Java/md/스택 영역.md",
+    "Study/9. Java/md/보조 해시 함수.md",
+    "Study/9. Java/md/메소드 영역.md",
+    "Study/9. Java/md/런타임 데이터 영역.md",
+    "Study/9. Java/md/네이티브 메소드 인터페이스(JNI).md",
+    "Study/9. Java/md/네이티브 메소드 스택.md",
+    "Study/9. Java/md/네이티브 메소드 라이브러리.md",
+    "Study/9. Java/md/가비지 컬렉터.md",
+    "Study/9. Java/md/final method.md",
+    "Study/9. Java/md/final class.md",
+    "Study/9. Java/md/age 값.md",
+    "Study/9. Java/md/ZGC.md",
+    "Study/9. Java/md/Young 영역(Young Generation).md",
+    "Study/9. Java/md/Virtual Thread가 나오게 된 배경.md",
     "Study/9. Java/resources",
-    "Study/11. Web/md"
+    "Study/9. Java/md",
+    "Study/9. Java/final.canvas",
+    "Study/9. Java/Virtual Thread.canvas",
+    "Study/9. Java/JVM.canvas",
+    "Study/9. Java/HashMap.canvas",
+    "Study/9. Java/Garbage Collector.canvas",
+    "Study/9. Java",
+    "Study/8. DB/트랜잭션 격리 수준.canvas",
+    "Study/8. DB/캐시 전략.canvas",
+    "Study/8. DB/조인(Join).canvas",
+    "Study/8. DB/정규화.canvas",
+    "Study/8. DB/샤딩(Sharding).canvas",
+    "Study/8. DB/권순용의 DB 이야기",
+    "Study/8. DB/resources",
+    "Study/8. DB/md",
+    "Study/8. DB/Real MySQL",
+    "Study/8. DB",
+    "Study/7. Network/resources",
+    "Study/7. Network/md"
   ]
 }
