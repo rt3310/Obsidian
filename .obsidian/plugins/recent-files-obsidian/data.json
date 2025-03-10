@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "InnoDB vs MyISAM",
+      "path": "Study/8. DB/InnoDB vs MyISAM.md"
+    },
+    {
+      "basename": "Using Temporary, Using Filesort",
+      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
+    },
+    {
+      "basename": "32bit vs 64bit 메모리",
+      "path": "Study/5. ComputerStructure/32bit vs 64bit 메모리.canvas"
+    },
+    {
       "basename": "DB 병목 원인과 대책",
       "path": "Study/8. DB/DB 병목 원인과 대책.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "조인(Join)",
       "path": "Study/8. DB/조인(Join).canvas"
-    },
-    {
-      "basename": "Using Temporary, Using Filesort",
-      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
     },
     {
       "basename": "캐시 동작 원리",
@@ -191,14 +199,6 @@
     {
       "basename": "수십억건에서 querydsl 사용하기",
       "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
-    },
-    {
-      "basename": "용어",
-      "path": "Study/16. Server/Tuning/용어.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Study/21. Docker/Docker.canvas"
     }
   ],
   "omittedPaths": [],
