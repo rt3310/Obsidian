@@ -35,8 +35,7 @@
               "title": "다중 컬럼 인덱스"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,10 +210,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3139caa5e87a29c0",
+  "active": "3f6d6bb41896a682",
   "lastOpenFiles": [
-    "Study/8. DB/커버링 인덱스.md",
     "Study/8. DB/다중 컬럼 인덱스.md",
+    "Study/8. DB/커버링 인덱스.md",
     "Study/16. Server/Log.md",
     "Study/8. DB/인덱스.md",
     "conflict-files-obsidian-git.md",
