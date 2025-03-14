@@ -48,4 +48,28 @@ mysql> SELECT * FROM ratings ORDER BY category;
 |       2  |                      3  |             5.0  |
 |       7  |                      3  |             2.7  |
 +----+----------+--------+
+
+mysql> SELECT * FROM ratings ORDER BY category LIMIT 5;
++----+----------+--------+
+|    id    |     category    |    rating     |
++----+----------+--------+
+|       1  |                      1  |             4.5  |
+|       5  |                      1  |             3.2  |
+|       3  |                      2  |             3.7  |
+|       4  |                      2  |             3.5  |
+|       6  |                      2  |             3.5  |
++----+----------+--------+
+```
+
+```sql
+mysql> SELECT * FROM ratings ORDER BY category, id LIMIT 5;
++----+----------+--------+
+|    id    |     category    |    rating     |
++----+----------+--------+
+|       1  |                      1  |             4.5  |
+|       5  |                      1  |             3.2  |
+|       3  |                      2  |             3.7  |
+|       4  |                      2  |             3.5  |
+|       6  |                      2  |             3.5  |
++----+----------+--------+
 ```
