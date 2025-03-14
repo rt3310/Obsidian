@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/커버링 인덱스.md"
+      "basename": "ORDER BY 최적화",
+      "path": "Study/8. DB/ORDER BY 최적화.md"
     },
     {
       "basename": "다중 컬럼 인덱스",
       "path": "Study/8. DB/다중 컬럼 인덱스.md"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Study/8. DB/커버링 인덱스.md"
     },
     {
       "basename": "Log",
