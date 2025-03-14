@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/커버링 인덱스.md",
+                "file": "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/ORDER BY 최적화.md",
+                "file": "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "ORDER BY 최적화"
+            }
+          },
+          {
+            "id": "4f41362ea25419bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/8. DB/MySQL 성능 최적화/INSERT 최적화.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INSERT 최적화"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,13 +239,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a74c881740e541ea",
+  "active": "4f41362ea25419bb",
   "lastOpenFiles": [
-    "Study/8. DB/다중 컬럼 인덱스.md",
-    "Study/8. DB/ORDER BY 최적화.md",
-    "Study/8. DB/커버링 인덱스.md",
-    "Study/16. Server/Log.md",
+    "Study/8. DB/MySQL 성능 최적화/다중 컬럼 인덱스.md",
+    "Study/8. DB/SQL.canvas",
+    "Study/8. DB/Using Temporary, Using Filesort.md",
+    "Study/8. DB/InnoDB vs MyISAM.md",
+    "Study/8. DB/DB 병목 원인과 대책.md",
+    "Study/8. DB/ACID.md",
+    "Study/8. DB/트랜잭션 락.md",
+    "Study/8. DB/트랜잭션 격리 수준.canvas",
+    "Study/8. DB/클러스터링 인덱스.md",
+    "Study/8. DB/캐시 전략.canvas",
+    "Study/8. DB/조인(Join).canvas",
     "Study/8. DB/인덱스.md",
+    "Study/8. DB/샤딩(Sharding).canvas",
+    "Study/8. DB/데이터 무결성.md",
+    "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md",
+    "Study/8. DB/MySQL 성능 최적화/INSERT 최적화.md",
+    "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
+    "Study/8. DB/MySQL 성능 최적화",
+    "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md",
+    "Study/16. Server/Log.md",
     "conflict-files-obsidian-git.md",
     "Study/9. Java/로드 팩터(Load Factor).md",
     "Study/9. Java/resources/힙 영역 저장 타입.png",
@@ -253,16 +282,6 @@
     "Study/9. Java/md/클래스 로더.md",
     "Study/9. Java/md/실행 엔진.md",
     "Study/9. Java/md/스택 영역.md",
-    "Study/9. Java/md/보조 해시 함수.md",
-    "Study/9. Java/md/메소드 영역.md",
-    "Study/9. Java/md/런타임 데이터 영역.md",
-    "Study/9. Java/md/네이티브 메소드 인터페이스(JNI).md",
-    "Study/9. Java/md/네이티브 메소드 스택.md",
-    "Study/9. Java/md/네이티브 메소드 라이브러리.md",
-    "Study/9. Java/md/가비지 컬렉터.md",
-    "Study/9. Java/md/final method.md",
-    "Study/9. Java/md/final class.md",
-    "Study/9. Java/md/age 값.md",
     "Study/9. Java/resources",
     "Study/9. Java/md",
     "Study/9. Java/final.canvas",
@@ -271,17 +290,11 @@
     "Study/9. Java/HashMap.canvas",
     "Study/9. Java/Garbage Collector.canvas",
     "Study/9. Java",
-    "Study/8. DB/트랜잭션 격리 수준.canvas",
-    "Study/8. DB/캐시 전략.canvas",
-    "Study/8. DB/조인(Join).canvas",
-    "Study/8. DB/정규화.canvas",
-    "Study/8. DB/샤딩(Sharding).canvas",
     "Study/8. DB/권순용의 DB 이야기",
     "Study/8. DB/resources",
     "Study/8. DB/md",
     "Study/8. DB/Real MySQL",
     "Study/8. DB",
-    "Study/7. Network/resources",
-    "Study/7. Network/md"
+    "Study/7. Network/resources"
   ]
 }
