@@ -19,6 +19,8 @@
 	- 정렬해야 하는 데이터가 많다면 디스크 수준에서 정렬을 할 것이라서 성능이 잘 나오지 않는다.
 	- 그러므로 **`sort_buffer_size`** 를 **증가시켜서 디스크 정렬을 최소화 하도록** 최적화 할 수 있다.
 	- `sort_merge_passes` 변수를 통해서 디스크 정렬을 수행했는지 알 수 있다.
+	- sort_buffer_size 는 global 단위가 아닌 session 단위로 조정하는 것이 좋다.
+		- global 단위로 조정하면 메모리 사용량이 늘어 성능이 더 안좋아 질 수 있다.
 
 2. Single-Pass 에서 Two-Pass로 튜닝
 	- `filesort` 는 Single-Pass와 Two-Pass 방식으로 정렬을 수행할 수 있다.
