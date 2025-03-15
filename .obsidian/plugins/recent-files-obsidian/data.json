@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Index Dive 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/Index Dive 최적화.md"
+    },
+    {
       "basename": "ORDER BY 최적화",
       "path": "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "로드 팩터(Load Factor)",
       "path": "Study/9. Java/로드 팩터(Load Factor).md"
-    },
-    {
-      "basename": "Session in Multi Server",
-      "path": "Study/11. Web/Session in Multi Server.canvas"
     }
   ],
   "omittedPaths": [],
