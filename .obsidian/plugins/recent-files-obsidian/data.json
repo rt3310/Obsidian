@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "NoOffset 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/NoOffset 최적화.md"
+    },
+    {
       "basename": "InnoDB 데드락 감지 최적화",
       "path": "Study/8. DB/MySQL 성능 최적화/InnoDB 데드락 감지 최적화.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "정규화",
       "path": "Study/8. DB/정규화.canvas"
-    },
-    {
-      "basename": "샤딩(Sharding)",
-      "path": "Study/8. DB/샤딩(Sharding).canvas"
     }
   ],
   "omittedPaths": [],
