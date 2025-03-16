@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Redo log, Innodb log 파일 사이즈 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/Redo log, Innodb log 파일 사이즈 최적화.md"
+    },
+    {
+      "basename": "InnoDB Buffer Pool Flushing 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool Flushing 최적화.md"
+    },
+    {
       "basename": "InnoDB Buffer Pool 최적화",
       "path": "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool 최적화.md"
+    },
+    {
+      "basename": "KakaoTalk_20250316_202137181",
+      "path": "Study/8. DB/resources/KakaoTalk_20250316_202137181.png"
     },
     {
       "basename": "SELECT ... FOR UPDATE SKIP LOCKED 최적화",
@@ -187,18 +199,6 @@
     {
       "basename": "어떻게 공부해야 할까",
       "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "데이터 무결성",
-      "path": "Study/8. DB/데이터 무결성.md"
-    },
-    {
-      "basename": "Persistence Context",
-      "path": "Study/13. JPA/Persistence Context.md"
-    },
-    {
-      "basename": "@Transaction(readOnly=true)",
-      "path": "Study/13. JPA/@Transaction(readOnly=true).md"
     }
   ],
   "omittedPaths": [],
