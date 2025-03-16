@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "InnoDB Buffer Pool 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool 최적화.md"
+    },
+    {
       "basename": "SELECT ... FOR UPDATE SKIP LOCKED 최적화",
       "path": "Study/8. DB/MySQL 성능 최적화/SELECT ... FOR UPDATE SKIP LOCKED 최적화.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "@Transaction(readOnly=true)",
       "path": "Study/13. JPA/@Transaction(readOnly=true).md"
-    },
-    {
-      "basename": "연관 관계에서 Set과 List 차이",
-      "path": "Study/13. JPA/연관 관계에서 Set과 List 차이.md"
     }
   ],
   "omittedPaths": [],
