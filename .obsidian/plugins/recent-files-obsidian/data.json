@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SELECT ... FOR UPDATE SKIP LOCKED 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/SELECT ... FOR UPDATE SKIP LOCKED 최적화.md"
+    },
+    {
       "basename": "NoOffset 최적화",
       "path": "Study/8. DB/MySQL 성능 최적화/NoOffset 최적화.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "연관 관계에서 Set과 List 차이",
       "path": "Study/13. JPA/연관 관계에서 Set과 List 차이.md"
-    },
-    {
-      "basename": "정규화",
-      "path": "Study/8. DB/정규화.canvas"
     }
   ],
   "omittedPaths": [],
