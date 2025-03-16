@@ -29,3 +29,21 @@
 - 적절한 Redo Log 파일 사이즈를 측정하기 위해서는 Peek Traffic 동안 Redo Log 파일이 쌓이는 사이즈를 측정해서 이를 바탕으로 설정하는 것을 권장한다.
 
 #### Redo Log가 특정 시간 동안 얼마나 쌓였는지 아는 방법
+```sql
+Secret #2: InnoDB Redo Log - Recommendations
+During peak traffic time, you can get an estimation of the required amount for the Redo Log Capacity by running the query below (all in one single line):
+
+MySQL > SELECT VARIABLE_VALUE FROM performance_schema.global_status
+WHERE VARIABLE_NAME='innodb_redo_log_current_lsn' INTO @a;
+SELECT sleep(60) INTO @garb;
+SELECT VARIABLE_VALUE FROM performance_schema.global_status
+WHERE VARIABLE_NAME='innodb_redo_log_current_lsn' INTO @b;
+SELECT format_bytes(abs(@a - @b)) per_min, format_bytes(abs(@a - @b) * 60) per_hour;
+```
+
+### Log Buffer의 사이즈를 올리는 것
+- 트랜잭션의 변경 내용은 Log Buffer에 쌓이게 되고 이후 커밋 요청을 하면 **Redo Log**로 플러쉬 된다.
+- 그러나 큰 트랜잭션으로 인해서 Log Buffer의 크기보다 더 많은 내용이 쌓이게 된다면 **미리 디스크에 플러쉬하는 과정이 발생**한다.
+- 그래서 Bulk Insert와 같은 큰 트랜잭션 처리 작업을 하게 된다면 **Log Buffer의 크기를 올려서 디스크에 플러쉬 하는 과정을 줄일 수 있다**.
+- **`innodb_log_buffer_size`** 로 Log Buffer의 크기를 제어할 수 있다.
+- **`innodb_log_waits`** 상태 변수 값을 통해서 미리 디스크에 플러쉬 한 과정이 발생했는지 알 수 있다.
