@@ -4,98 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "28af4694580f2f0c",
+        "id": "d81aa96b4c8acdd3",
         "type": "tabs",
         "children": [
           {
-            "id": "bb464f9da98697fc",
+            "id": "3f6d6bb41896a682",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
+                "file": "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Undead Survivor"
+              "title": "커버링 인덱스"
             }
           },
           {
-            "id": "048cf6c2403f4160",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Study/9. Java/HashMap.canvas",
-                "viewState": {
-                  "x": 586.2763429537614,
-                  "y": 366.7565303492318,
-                  "zoom": -1.418403675255842
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "HashMap"
-            }
-          },
-          {
-            "id": "f05db3777ca45f73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/클러스터링 인덱스.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "클러스터링 인덱스"
-            }
-          },
-          {
-            "id": "51bea688fb6ea18d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/DB 병목 원인과 대책.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DB 병목 원인과 대책"
-            }
-          },
-          {
-            "id": "dae6a27e7e591b65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/InnoDB vs MyISAM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "InnoDB vs MyISAM"
-            }
-          },
-          {
-            "id": "5d6ab7c9065905d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Study/10. Unity/골드메탈/Undead Survivor.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Undead Survivor"
-            }
-          },
-          {
-            "id": "8947b88d1bf702e4",
+            "id": "a74c881740e541ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -109,119 +36,49 @@
             }
           },
           {
-            "id": "0a8526c53da55ed1",
+            "id": "4f41362ea25419bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/MySQL 성능 최적화/Index Dive 최적화.md",
+                "file": "Study/8. DB/MySQL 성능 최적화/INSERT 최적화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index Dive 최적화"
+              "title": "INSERT 최적화"
             }
           },
           {
-            "id": "123d106e7186c5b5",
+            "id": "26a549df707ff6f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/MySQL 성능 최적화/Prefix Index 최적화.md",
+                "file": "Plan/공부.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prefix Index 최적화"
+              "title": "공부"
             }
           },
           {
-            "id": "56e0bb459ec3d577",
+            "id": "3139caa5e87a29c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/MySQL 성능 최적화/InnoDB 데드락 감지 최적화.md",
+                "file": "Study/8. DB/다중 컬럼 인덱스.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "InnoDB 데드락 감지 최적화"
-            }
-          },
-          {
-            "id": "5dd637faa8674c6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/MySQL 성능 최적화/NoOffset 최적화.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NoOffset 최적화"
-            }
-          },
-          {
-            "id": "b802c9bc632647e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/MySQL 성능 최적화/SELECT ... FOR UPDATE SKIP LOCKED 최적화.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SELECT ... FOR UPDATE SKIP LOCKED 최적화"
-            }
-          },
-          {
-            "id": "29f2687effe54113",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool 최적화.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "InnoDB Buffer Pool 최적화"
-            }
-          },
-          {
-            "id": "47ee52bb131a18b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool Flushing 최적화.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "InnoDB Buffer Pool Flushing 최적화"
-            }
-          },
-          {
-            "id": "71fd139baea8e2b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/8. DB/MySQL 성능 최적화/Redo log, Innodb log 파일 사이즈 최적화.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Redo log, Innodb log 파일 사이즈 최적화"
+              "title": "다중 컬럼 인덱스"
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -271,7 +128,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "북마크"
             }
           },
           {
@@ -288,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -304,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
+                "file": "Study/16. Server/Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +171,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "이벤트 함수 실행 순서의 백링크"
+              "title": "Log 의 백링크"
             }
           },
           {
@@ -323,12 +180,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Study/10. Unity/이벤트 함수 실행 순서.md",
+                "file": "Study/16. Server/Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "이벤트 함수 실행 순서의 나가는 링크"
+              "title": "Log 의 나가는 링크"
             }
           },
           {
@@ -338,10 +195,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "태그"
             }
           },
           {
@@ -350,10 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Study/10. Unity/이벤트 함수 실행 순서.md"
+                "file": "Study/16. Server/Log.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "이벤트 함수 실행 순서 개요"
+              "title": "Log 의 개요"
             }
           },
           {
@@ -390,63 +252,63 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "71fd139baea8e2b5",
+  "active": "26a549df707ff6f5",
   "lastOpenFiles": [
-    "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool Flushing 최적화.md",
-    "Study/8. DB/MySQL 성능 최적화/Redo log, Innodb log 파일 사이즈 최적화.md",
-    "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool 최적화.md",
-    "Study/8. DB/resources/KakaoTalk_20250316_202137181.png",
+    "Plan/어떻게 공부해야 할까.md",
+    "Plan/학습 전략.md",
+    "Plan/공부.md",
+    "Plan/트러블 슈팅.md",
+    "Plan/학습 필터.md",
+    "conflict-files-obsidian-git.md",
+    "Study/8. DB/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md",
+    "Study/8. DB/커버링 인덱스.md",
     "Study/8. DB/resources/Pasted image 20250316202105.png",
     "Study/8. DB/resources/Pasted image 20250316202100.png",
+    "Study/8. DB/resources/KakaoTalk_20250316_202137181.png",
     "Study/8. DB/MySQL 성능 최적화/SELECT ... FOR UPDATE SKIP LOCKED 최적화.md",
+    "Study/8. DB/MySQL 성능 최적화/Redo log, Innodb log 파일 사이즈 최적화.md",
+    "Study/8. DB/MySQL 성능 최적화/Prefix Index 최적화.md",
     "Study/8. DB/MySQL 성능 최적화/NoOffset 최적화.md",
     "Study/8. DB/MySQL 성능 최적화/InnoDB 데드락 감지 최적화.md",
-    "Study/8. DB/MySQL 성능 최적화/Prefix Index 최적화.md",
+    "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool 최적화.md",
+    "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool Flushing 최적화.md",
     "Study/8. DB/MySQL 성능 최적화/Index Dive 최적화.md",
-    "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md",
     "Study/8. DB/MySQL 성능 최적화/INSERT 최적화.md",
     "Study/8. DB/MySQL 성능 최적화/다중 컬럼 인덱스.md",
-    "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md",
-    "Study/8. DB/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md",
-    "Study/8. DB/Real MySQL/Real MySQL - Part 1.md",
-    "Study/8. DB/Using Temporary, Using Filesort.md",
     "Study/8. DB/SQL.canvas",
-    "Study/8. DB/ACID.md",
-    "conflict-files-obsidian-git.md",
-    "Study/8. DB/MySQL 성능 최적화",
-    "Study/5. ComputerStructure/컴퓨터 시간 원리.canvas",
-    "Study/16. Server/Log.md",
+    "Study/8. DB/Using Temporary, Using Filesort.md",
     "Study/8. DB/InnoDB vs MyISAM.md",
-    "Study/5. ComputerStructure/32bit vs 64bit 메모리.canvas",
     "Study/8. DB/DB 병목 원인과 대책.md",
-    "Study/8. DB/인덱스.md",
-    "Study/8. DB/resources/Pasted image 20250310130717.png",
-    "Study/8. DB/resources/Pasted image 20250310130707.png",
-    "Study/8. DB/클러스터링 인덱스.md",
-    "Study/5. ComputerStructure/레지스터.canvas",
-    "Study/8. DB/커버링 인덱스.md",
-    "Study/8. DB/트랜잭션 격리 수준.canvas",
-    "Study/8. DB/조인(Join).canvas",
-    "Study/5. ComputerStructure/캐시 동작 원리.md",
-    "Study/5. ComputerStructure/resources/54877425-e73f7280-4e61-11e9-9526-d33a04c189f3.webp",
-    "Study/9. Java/Import.md",
-    "Study/9. Java/final.canvas",
+    "Study/8. DB/ACID.md",
     "Study/8. DB/트랜잭션 락.md",
+    "Study/8. DB/트랜잭션 격리 수준.canvas",
+    "Study/8. DB/클러스터링 인덱스.md",
     "Study/8. DB/캐시 전략.canvas",
-    "Study/7. Network/GSLB.canvas",
-    "Study/7. Network/NAT.canvas",
-    "1_4Z67ofRel2YRltOWgfW16A.webp",
-    "Study/9. Java/resources/Pasted image 20250125225019.png",
-    "Study/8. DB/권순용의 DB 이야기",
-    "Study/13. JPA/resources/Untitled 1.png",
-    "Study/13. JPA/resources",
-    "Study/13. JPA/resources/Untitled.png",
-    "Study/21. Docker",
-    "무제 폴더",
-    "Study/8. DB/md",
-    "Study/12. Http/md",
-    "Study/12. Http/resources",
+    "Study/8. DB/조인(Join).canvas",
+    "Study/8. DB/인덱스.md",
+    "Study/8. DB/샤딩(Sharding).canvas",
+    "Study/8. DB/데이터 무결성.md",
+    "Study/8. DB/MySQL 성능 최적화",
+    "Study/9. Java/resources/힙 영역 저장 타입.png",
+    "Study/9. Java/resources/힙 영역 상세.png",
+    "Study/9. Java/resources/힙 영역 상세 2.png",
+    "Study/9. Java/resources/힙 영역 동작.png",
+    "Study/9. Java/resources/전통적인 Thread 사용방식.png",
+    "Study/9. Java/resources/자바 컴파일 과정.png",
+    "Study/9. Java/resources/자바 실행 엔진.png",
+    "Study/9. Java/resources",
     "Study/9. Java/md",
-    "Study/9. Java/resources"
+    "Study/9. Java/final.canvas",
+    "Study/9. Java/Virtual Thread.canvas",
+    "Study/9. Java/JVM.canvas",
+    "Study/9. Java/HashMap.canvas",
+    "Study/9. Java/Garbage Collector.canvas",
+    "Study/9. Java",
+    "Study/8. DB/권순용의 DB 이야기",
+    "Study/8. DB/resources",
+    "Study/8. DB/md",
+    "Study/8. DB/Real MySQL",
+    "Study/8. DB",
+    "Study/7. Network/resources"
   ]
 }
