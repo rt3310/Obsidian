@@ -64,6 +64,20 @@
             }
           },
           {
+            "id": "1b2635922225bf0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Plan/취업.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "취업"
+            }
+          },
+          {
             "id": "3139caa5e87a29c0",
             "type": "leaf",
             "state": {
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -252,11 +266,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "26a549df707ff6f5",
+  "active": "1b2635922225bf0c",
   "lastOpenFiles": [
+    "Plan/공부.md",
+    "Plan/취업.md",
     "Plan/어떻게 공부해야 할까.md",
     "Plan/학습 전략.md",
-    "Plan/공부.md",
     "Plan/트러블 슈팅.md",
     "Plan/학습 필터.md",
     "conflict-files-obsidian-git.md",
@@ -287,7 +302,6 @@
     "Study/8. DB/조인(Join).canvas",
     "Study/8. DB/인덱스.md",
     "Study/8. DB/샤딩(Sharding).canvas",
-    "Study/8. DB/데이터 무결성.md",
     "Study/8. DB/MySQL 성능 최적화",
     "Study/9. Java/resources/힙 영역 저장 타입.png",
     "Study/9. Java/resources/힙 영역 상세.png",
