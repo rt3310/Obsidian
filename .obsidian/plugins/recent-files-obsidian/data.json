@@ -1,28 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "인덱스",
-      "path": "Study/8. DB/인덱스.md"
+      "basename": "인덱스 향상",
+      "path": "Study/8. DB/인덱스 향상.md"
+    },
+    {
+      "basename": "인덱스 스캔 효율",
+      "path": "Study/8. DB/인덱스 스캔 효율.md"
     },
     {
       "basename": "트랜잭션 락",
       "path": "Study/8. DB/트랜잭션 락.md"
     },
     {
-      "basename": "Pasted image 20250321172623",
-      "path": "Study/8. DB/resources/Pasted image 20250321172623.png"
+      "basename": "트랜잭션 격리 수준",
+      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
     },
     {
-      "basename": "취업",
-      "path": "Plan/취업.md"
+      "basename": "클러스터링 인덱스",
+      "path": "Study/8. DB/클러스터링 인덱스.md"
     },
     {
-      "basename": "공부",
-      "path": "Plan/공부.md"
+      "basename": "샤딩(Sharding)",
+      "path": "Study/8. DB/샤딩(Sharding).canvas"
     },
     {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Plan/어떻게 공부해야 할까.md"
+      "basename": "인덱스",
+      "path": "Study/8. DB/인덱스.md"
+    },
+    {
+      "basename": "정규화",
+      "path": "Study/8. DB/정규화.canvas"
+    },
+    {
+      "basename": "갱신이상",
+      "path": "Study/8. DB/md/갱신이상.md"
+    },
+    {
+      "basename": "인덱스를 사용하는 것이 좋은지 판단",
+      "path": "Study/8. DB/md/인덱스를 사용하는 것이 좋은지 판단.md"
+    },
+    {
+      "basename": "완전 함수적 종속(Full Functional Dependency)",
+      "path": "Study/8. DB/md/완전 함수적 종속(Full Functional Dependency).md"
+    },
+    {
+      "basename": "삽입이상",
+      "path": "Study/8. DB/md/삽입이상.md"
+    },
+    {
+      "basename": "반복계가 포장계에 성능적으로 질 수 밖에 없는 이유",
+      "path": "Study/8. DB/md/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md"
+    },
+    {
+      "basename": "결합 알고리즘 종류",
+      "path": "Study/8. DB/md/결합 알고리즘 종류.md"
+    },
+    {
+      "basename": "디렉토리 샤딩(Directory Sharding)",
+      "path": "Study/8. DB/md/디렉토리 샤딩(Directory Sharding).md"
+    },
+    {
+      "basename": "부분 함수적 종속(Partial Functional Dependency)",
+      "path": "Study/8. DB/md/부분 함수적 종속(Partial Functional Dependency).md"
+    },
+    {
+      "basename": "레인지샤딩 룰 설정",
+      "path": "Study/8. DB/md/레인지샤딩 룰 설정.md"
+    },
+    {
+      "basename": "학습 필터",
+      "path": "Plan/학습 필터.md"
     },
     {
       "basename": "학습 전략",
@@ -33,8 +81,24 @@
       "path": "Plan/트러블 슈팅.md"
     },
     {
-      "basename": "학습 필터",
-      "path": "Plan/학습 필터.md"
+      "basename": "취업",
+      "path": "Plan/취업.md"
+    },
+    {
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Plan/게임 클라이언트 로드맵.png"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "Pasted image 20250321172623",
+      "path": "Study/8. DB/resources/Pasted image 20250321172623.png"
+    },
+    {
+      "basename": "공부",
+      "path": "Plan/공부.md"
     },
     {
       "basename": "Auto Increment Lock Mode 최적화",
@@ -69,24 +133,12 @@
       "path": "Study/8. DB/ACID.md"
     },
     {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "클러스터링 인덱스",
-      "path": "Study/8. DB/클러스터링 인덱스.md"
-    },
-    {
       "basename": "캐시 전략",
       "path": "Study/8. DB/캐시 전략.canvas"
     },
     {
       "basename": "조인(Join)",
       "path": "Study/8. DB/조인(Join).canvas"
-    },
-    {
-      "basename": "샤딩(Sharding)",
-      "path": "Study/8. DB/샤딩(Sharding).canvas"
     },
     {
       "basename": "데이터 무결성",
