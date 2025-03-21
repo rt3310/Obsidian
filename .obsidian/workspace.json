@@ -159,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -269,6 +268,8 @@
   },
   "active": "1b2635922225bf0c",
   "lastOpenFiles": [
+    "Study/8. DB/resources/Pasted image 20250321175037.png",
+    "Pasted image 20250321175036.png",
     "Study/8. DB/트랜잭션 락.md",
     "Study/8. DB/인덱스.md",
     "Study/8. DB/resources/Pasted image 20250321172623.png",
@@ -309,7 +310,6 @@
     "Study/8. DB/샤딩(Sharding).canvas",
     "Study/8. DB/MySQL 성능 최적화",
     "Study/9. Java/resources/힙 영역 저장 타입.png",
-    "Study/9. Java/resources/힙 영역 상세.png",
     "Study/9. Java/resources",
     "Study/9. Java/md",
     "Study/9. Java/final.canvas",
