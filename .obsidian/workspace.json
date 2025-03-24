@@ -84,7 +84,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -193,7 +194,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4e7f5f31778318f9",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/8. DB/resources/Pasted image 20250323190530.png",
     "Study/8. DB/resources/Pasted image 20250323174625.png",
