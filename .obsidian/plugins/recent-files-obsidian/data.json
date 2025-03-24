@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2. 조인 테크닉",
+      "path": "Study/8. DB/조인/2. 조인 테크닉.md"
+    },
+    {
       "basename": "1. 조인의 기본 원리와 사용",
       "path": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "GSLB",
       "path": "Study/7. Network/GSLB.canvas"
-    },
-    {
-      "basename": "NAT",
-      "path": "Study/7. Network/NAT.canvas"
     }
   ],
   "omittedPaths": [],

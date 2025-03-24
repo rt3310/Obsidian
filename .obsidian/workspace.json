@@ -30,12 +30,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md",
+                "file": "Study/8. DB/조인/2. 조인 테크닉.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 조인의 기본 원리와 사용"
+              "title": "2. 조인 테크닉"
             }
           }
         ],
@@ -211,11 +211,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "1b06351519693f93",
   "lastOpenFiles": [
+    "Study/8. DB/resources/Pasted image 20250325005337.png",
+    "Study/8. DB/resources/Pasted image 20250325005312.png",
+    "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md",
+    "Study/8. DB/조인/2. 조인 테크닉.md",
     "Study/8. DB/resources/Pasted image 20250324190746.png",
     "Study/8. DB/resources/Pasted image 20250324184857.png",
-    "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md",
     "Study/8. DB/조인(Join).canvas",
     "Study/8. DB/조인",
     "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md",
@@ -228,8 +231,6 @@
     "Study/8. DB/Real MySQL/Real MySQL - Part 1.md",
     "Study/8. DB/resources/Pasted image 20250323190530.png",
     "Study/8. DB/resources/Pasted image 20250323174625.png",
-    "Study/8. DB/resources/Pasted image 20250323174458.png",
-    "Study/8. DB/resources/Pasted image 20250323173054.png",
     "Study/8. DB/인덱스/2. 인덱스 향상.md",
     "Study/8. DB/인덱스/1. 인덱스.md",
     "Study/8. DB/인덱스/클러스터링 인덱스.md",
@@ -252,7 +253,6 @@
     "Study/8. DB/MySQL 성능 최적화/INSERT 최적화.md",
     "Study/8. DB/MySQL 성능 최적화/다중 컬럼 인덱스.md",
     "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md",
-    "Study/8. DB/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md",
     "Study/8. DB/SQL.canvas",
     "Study/8. DB/MySQL 성능 최적화",
     "Study/5. ComputerStructure/컴퓨터 시간 원리.canvas",
