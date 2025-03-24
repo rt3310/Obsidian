@@ -5,6 +5,10 @@
       "path": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md"
     },
     {
+      "basename": "Pasted image 20250324184857",
+      "path": "Study/8. DB/resources/Pasted image 20250324184857.png"
+    },
+    {
       "basename": "조인(Join)",
       "path": "Study/8. DB/조인(Join).canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "NAT",
       "path": "Study/7. Network/NAT.canvas"
-    },
-    {
-      "basename": "메모리 관리",
-      "path": "Study/6. OS/메모리 관리.canvas"
     }
   ],
   "omittedPaths": [],
