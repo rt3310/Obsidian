@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "1. 조인의 기본 원리와 사용",
+      "path": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md"
+    },
+    {
+      "basename": "조인(Join)",
+      "path": "Study/8. DB/조인(Join).canvas"
+    },
+    {
       "basename": "3. 인덱스 스캔 효율",
       "path": "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Study/8. DB/인덱스/커버링 인덱스.md"
+    },
+    {
+      "basename": "Pasted image 20250324183143",
+      "path": "Study/8. DB/resources/Pasted image 20250324183143.png"
+    },
+    {
+      "basename": "Pasted image 20250324181933",
+      "path": "Study/8. DB/resources/Pasted image 20250324181933.png"
     },
     {
       "basename": "Real MySQL - Part 1",
@@ -19,10 +39,6 @@
     {
       "basename": "클러스터링 인덱스",
       "path": "Study/8. DB/인덱스/클러스터링 인덱스.md"
-    },
-    {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/인덱스/커버링 인덱스.md"
     },
     {
       "basename": "캐시 전략",
@@ -149,10 +165,6 @@
       "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
     },
     {
-      "basename": "조인(Join)",
-      "path": "Study/8. DB/조인(Join).canvas"
-    },
-    {
       "basename": "캐시 동작 원리",
       "path": "Study/5. ComputerStructure/캐시 동작 원리.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "메모리 관리",
       "path": "Study/6. OS/메모리 관리.canvas"
-    },
-    {
-      "basename": "데드락(DeadLock)",
-      "path": "Study/6. OS/데드락(DeadLock).canvas"
-    },
-    {
-      "basename": "가상 메모리(Virtual Memory)",
-      "path": "Study/6. OS/가상 메모리(Virtual Memory).canvas"
-    },
-    {
-      "basename": "주소 지정 방식",
-      "path": "Study/5. ComputerStructure/주소 지정 방식.canvas"
     }
   ],
   "omittedPaths": [],

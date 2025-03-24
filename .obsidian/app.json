@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "vimMode": false,
+  "vimMode": true,
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
