@@ -1,112 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "2. 조인 테크닉",
-      "path": "Study/8. DB/조인/2. 조인 테크닉.md"
+      "basename": "HTTP 헤더",
+      "path": "Study/7. Network/http/HTTP 헤더.md"
     },
     {
-      "basename": "1. 조인의 기본 원리와 사용",
-      "path": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md"
+      "basename": "Keep-Alive",
+      "path": "Study/7. Network/Keep-Alive.md"
     },
     {
-      "basename": "Pasted image 20250324184857",
-      "path": "Study/8. DB/resources/Pasted image 20250324184857.png"
+      "basename": "트랜잭션 락",
+      "path": "Study/8. DB/트랜잭션 락.md"
     },
     {
-      "basename": "조인(Join)",
-      "path": "Study/8. DB/조인(Join).canvas"
+      "basename": "트랜잭션 격리 수준",
+      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
     },
     {
-      "basename": "3. 인덱스 스캔 효율",
-      "path": "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md"
+      "basename": "샤딩(Sharding)",
+      "path": "Study/8. DB/샤딩(Sharding).canvas"
     },
     {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/인덱스/커버링 인덱스.md"
+      "basename": "정규화",
+      "path": "Study/8. DB/정규화.canvas"
     },
     {
-      "basename": "Pasted image 20250324183143",
-      "path": "Study/8. DB/resources/Pasted image 20250324183143.png"
+      "basename": "갱신이상",
+      "path": "Study/8. DB/md/갱신이상.md"
     },
     {
-      "basename": "Pasted image 20250324181933",
-      "path": "Study/8. DB/resources/Pasted image 20250324181933.png"
+      "basename": "인덱스를 사용하는 것이 좋은지 판단",
+      "path": "Study/8. DB/md/인덱스를 사용하는 것이 좋은지 판단.md"
     },
     {
-      "basename": "Real MySQL - Part 1",
-      "path": "Study/8. DB/Real MySQL/Real MySQL - Part 1.md"
+      "basename": "완전 함수적 종속(Full Functional Dependency)",
+      "path": "Study/8. DB/md/완전 함수적 종속(Full Functional Dependency).md"
     },
     {
-      "basename": "2. 인덱스 향상",
-      "path": "Study/8. DB/인덱스/2. 인덱스 향상.md"
+      "basename": "삽입이상",
+      "path": "Study/8. DB/md/삽입이상.md"
     },
     {
-      "basename": "1. 인덱스",
-      "path": "Study/8. DB/인덱스/1. 인덱스.md"
+      "basename": "반복계가 포장계에 성능적으로 질 수 밖에 없는 이유",
+      "path": "Study/8. DB/md/반복계가 포장계에 성능적으로 질 수 밖에 없는 이유.md"
     },
     {
-      "basename": "클러스터링 인덱스",
-      "path": "Study/8. DB/인덱스/클러스터링 인덱스.md"
+      "basename": "결합 알고리즘 종류",
+      "path": "Study/8. DB/md/결합 알고리즘 종류.md"
     },
     {
-      "basename": "캐시 전략",
-      "path": "Study/8. DB/캐시 전략.canvas"
+      "basename": "디렉토리 샤딩(Directory Sharding)",
+      "path": "Study/8. DB/md/디렉토리 샤딩(Directory Sharding).md"
+    },
+    {
+      "basename": "부분 함수적 종속(Partial Functional Dependency)",
+      "path": "Study/8. DB/md/부분 함수적 종속(Partial Functional Dependency).md"
+    },
+    {
+      "basename": "레인지샤딩 룰 설정",
+      "path": "Study/8. DB/md/레인지샤딩 룰 설정.md"
+    },
+    {
+      "basename": "학습 필터",
+      "path": "Plan/학습 필터.md"
+    },
+    {
+      "basename": "학습 전략",
+      "path": "Plan/학습 전략.md"
+    },
+    {
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
     },
     {
       "basename": "취업",
       "path": "Plan/취업.md"
     },
     {
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Plan/게임 클라이언트 로드맵.png"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "Pasted image 20250321172623",
+      "path": "Study/8. DB/resources/Pasted image 20250321172623.png"
+    },
+    {
       "basename": "공부",
       "path": "Plan/공부.md"
     },
     {
-      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
-      "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
-    },
-    {
-      "basename": "2. 결합 인덱스",
-      "path": "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md"
-    },
-    {
-      "basename": "Redo log, Innodb log 파일 사이즈 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/Redo log, Innodb log 파일 사이즈 최적화.md"
-    },
-    {
-      "basename": "InnoDB Buffer Pool Flushing 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool Flushing 최적화.md"
-    },
-    {
-      "basename": "InnoDB Buffer Pool 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/InnoDB Buffer Pool 최적화.md"
-    },
-    {
-      "basename": "KakaoTalk_20250316_202137181",
-      "path": "Study/8. DB/resources/KakaoTalk_20250316_202137181.png"
-    },
-    {
-      "basename": "SELECT ... FOR UPDATE SKIP LOCKED 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/SELECT ... FOR UPDATE SKIP LOCKED 최적화.md"
-    },
-    {
-      "basename": "NoOffset 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/NoOffset 최적화.md"
-    },
-    {
-      "basename": "InnoDB 데드락 감지 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/InnoDB 데드락 감지 최적화.md"
-    },
-    {
-      "basename": "Prefix Index 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/Prefix Index 최적화.md"
-    },
-    {
-      "basename": "Index Dive 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/Index Dive 최적화.md"
-    },
-    {
-      "basename": "ORDER BY 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md"
+      "basename": "Auto Increment Lock Mode 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md"
     },
     {
       "basename": "INSERT 최적화",
@@ -117,88 +105,52 @@
       "path": "Study/8. DB/MySQL 성능 최적화/다중 컬럼 인덱스.md"
     },
     {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md"
-    },
-    {
-      "basename": "Auto Increment Lock Mode 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md"
+      "basename": "SQL",
+      "path": "Study/8. DB/SQL.canvas"
     },
     {
       "basename": "Using Temporary, Using Filesort",
       "path": "Study/8. DB/Using Temporary, Using Filesort.md"
     },
     {
-      "basename": "SQL",
-      "path": "Study/8. DB/SQL.canvas"
-    },
-    {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
-    },
-    {
-      "basename": "컴퓨터 시간 원리",
-      "path": "Study/5. ComputerStructure/컴퓨터 시간 원리.canvas"
-    },
-    {
-      "basename": "NTP",
-      "path": "Study/5. ComputerStructure/md/NTP.md"
-    },
-    {
-      "basename": "NTP 서버",
-      "path": "Study/5. ComputerStructure/md/NTP 서버.md"
-    },
-    {
-      "basename": "RTC",
-      "path": "Study/5. ComputerStructure/md/RTC.md"
-    },
-    {
       "basename": "InnoDB vs MyISAM",
       "path": "Study/8. DB/InnoDB vs MyISAM.md"
-    },
-    {
-      "basename": "32bit vs 64bit 메모리",
-      "path": "Study/5. ComputerStructure/32bit vs 64bit 메모리.canvas"
     },
     {
       "basename": "DB 병목 원인과 대책",
       "path": "Study/8. DB/DB 병목 원인과 대책.md"
     },
     {
-      "basename": "레지스터",
-      "path": "Study/5. ComputerStructure/레지스터.canvas"
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
     },
     {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시 전략.canvas"
     },
     {
-      "basename": "캐시 동작 원리",
-      "path": "Study/5. ComputerStructure/캐시 동작 원리.md"
+      "basename": "조인(Join)",
+      "path": "Study/8. DB/조인(Join).canvas"
     },
     {
-      "basename": "HashMap",
-      "path": "Study/9. Java/HashMap.canvas"
+      "basename": "데이터 무결성",
+      "path": "Study/8. DB/데이터 무결성.md"
     },
     {
-      "basename": "String 객체에 대한 해시 함수",
-      "path": "Study/9. Java/md/String 객체에 대한 해시 함수.md"
+      "basename": "커버링 인덱스",
+      "path": "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md"
     },
     {
-      "basename": "Import",
-      "path": "Study/9. Java/Import.md"
+      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
+      "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
     },
     {
-      "basename": "final",
-      "path": "Study/9. Java/final.canvas"
+      "basename": "ORDER BY 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md"
     },
     {
-      "basename": "트랜잭션 락",
-      "path": "Study/8. DB/트랜잭션 락.md"
-    },
-    {
-      "basename": "GSLB",
-      "path": "Study/7. Network/GSLB.canvas"
+      "basename": "Log",
+      "path": "Study/16. Server/Log.md"
     }
   ],
   "omittedPaths": [],
