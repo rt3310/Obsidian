@@ -61,3 +61,54 @@
 	2. ko;q=0.9
 	3. en-US;q=0.8
 	4. en;q=0.7
+### 협상과 우선순위2
+- 구체적인 것이 우선한다.
+- Accept: text/\*, text/plain, text/plain;format=flowed, \*/*
+	1. text/plain;format=flowed
+	2. text/plain
+	3. text/*
+	4. \*/*
+### 협상과 우선순위3
+- 구체적인 것을 기준으로 미디어 타입을 맞춘다.
+- Accept: text/\*;q=0.3, text/html;q=0.7, text/html;level=1, text/html;level=2;q=0.4, \*/\*;q=0.5
+
+| Media Type        | Quality |
+| ----------------- | ------- |
+| text/html;level=1 | 1       |
+| text/html         | 0.7     |
+| text/plain        | 0.3     |
+| image/jpeg        | 0.5     |
+| text/html;level=2 | 0.4     |
+| text/html;level=3 | 0.7     |
+
+## 전송 방식
+### 단순 전송
+![[Pasted image 20250325163526.png]]
+### 압축 전송
+![[Pasted image 20250325163534.png]]
+### 분할 전송
+![[Pasted image 20250325163608.png]]
+- 0이면 끝났다는 표시
+- 분할 전송 시에는 Content-Length를 넣으면 안된다.
+### 범위 전송
+![[Pasted image 20250325163649.png]]
+
+## 일반 정보
+### From
+유저 에이전트의 이메일 정보
+- 일반적으로 잘 사용되지 않음
+- 검색 엔진 같은 곳에서, 주로 사용
+- 요청에서 사용
+### Referer
+이전 웹 페이지 주소
+- 현재 요청된 페이지의 이전 웹 페이지 주소
+- A -> B로 이동하는 경우 B를 요청할 때 Referer: A를 포함해서 요청
+- Referer를 사용해서 유입 경로 분석 가능
+- 요청에서 사용
+### User-Agent
+유저 에이전트 애플리케이션 정보
+- uesr-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+- 클라이언트의 애플리케이션 정보(웹 브라우저 정보, 등등)
+- 통계 정보
+- 어떤 종류의 브라우저에서 장애가 발생하는지 파악 가능
+- 요청에서 사용
