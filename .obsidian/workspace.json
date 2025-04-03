@@ -67,14 +67,12 @@
             "id": "1b2635922225bf0c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Study/7. Network/http/HTTP 헤더 - 캐시.md",
-                "mode": "source",
-                "source": false
+                "file": "Study/12. Http/resources/Pasted image 20250325171154.png"
               },
-              "icon": "lucide-file",
-              "title": "HTTP 헤더 - 캐시"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250325171154"
             }
           }
         ],
@@ -254,19 +252,19 @@
   },
   "active": "95986b4e07f54c35",
   "lastOpenFiles": [
-    "Pasted image 20250325190602.png",
-    "Pasted image 20250325190541.png",
-    "Pasted image 20250325174029.png",
-    "Pasted image 20250325173958.png",
-    "Pasted image 20250325173938.png",
-    "Pasted image 20250325173916.png",
-    "Pasted image 20250325173854.png",
-    "Pasted image 20250325173848.png",
-    "Pasted image 20250325173843.png",
-    "Pasted image 20250325173809.png",
-    "Study/7. Network/http/HTTP 헤더.md",
+    "Study/12. Http/resources/Pasted image 20250325190541.png",
+    "Study/12. Http/resources/Pasted image 20250325173938.png",
+    "Study/12. Http/resources/Pasted image 20250325171154.png",
     "Study/7. Network/http/HTTP 헤더 - 캐시.md",
-    "Pasted image 20250325171709.png",
+    "Study/12. Http/resources/Pasted image 20250325190602.png",
+    "Study/12. Http/resources/Pasted image 20250325174029.png",
+    "Study/12. Http/resources/Pasted image 20250325173958.png",
+    "Study/12. Http/resources/Pasted image 20250325173916.png",
+    "Study/12. Http/resources/Pasted image 20250325173854.png",
+    "Study/12. Http/resources/Pasted image 20250325173848.png",
+    "Study/12. Http/resources/Pasted image 20250325173843.png",
+    "Study/12. Http/resources/Pasted image 20250325173809.png",
+    "Study/7. Network/http/HTTP 헤더.md",
     "Study/7. Network/Keep-Alive.md",
     "Study/7. Network/http",
     "conflict-files-obsidian-git.md",
