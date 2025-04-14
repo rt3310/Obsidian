@@ -76,10 +76,48 @@ jdbcTemplate.batchUpdate(sql, new BatchPerparedStatementStter() {
 	public int getBatchSize() {
 		return items.size(); // Batch 크기 반환
 	}
-})
+});
 ```
 
 ## Bulk INSERT 사용 시 주의사항
 
 ### MySQL 설정: rewriteBatchedStatements=true
 MySQL에서는 Batch INSERT를 최적화하려면 JDBC URL에 다음 옵션을 추가해야 한다.
+```
+jdbc:mysql://localhost:3306/db_name?rewriteBatchedStatements=true
+```
+이 옵션이 없으면 MySQL이 Batch INSERT를 단건 INSERT로 처리할 수 있다.
+
+### Batch 크기 조정
+대량 데이터를 처리할 때 한 번에 너무 많은 데이터를 삽입하면 메모리 문제가 발생할 수 있기 때문에, 적절한 Batch 크기를 설정해야 한다.
+```java
+int batchSize = 1000; // 한 번에 처리할 데이터 크기
+
+for (int i = 0; i < items.size(); i += batchSize) {
+	List<Item> batch = items.subList(i, Math.min(i + batchSize, items.size()));
+	jdbcTemplate.batchUpdate(sql, new BatchPreparedStatementSetter() {
+		@Override
+		public void setValues(PreparedStatement ps, int j) throws SQLException {
+			Item item = batch.get(j);
+			ps.setString(1, item.getCol1());
+			ps.setString(2, item.getCol2());
+		}
+
+		@Override
+		public int getBatchSize() {
+			return batch.size();
+		}
+	});
+}
+```
+
+### 3. 트랜잭션 관리
+Batch 작업은 트랜잭션으로 묶어 처리하는 것이 좋다.
+
+## 결론
+
+INSERT는 특별한 튜닝 방법이 없지만, 단건 INSERT를 Bulk INSERT로 변경하는 것만으로도 엄청난 성능 향상을 얻을 수 있다.
+
+트랜잭션 관리와 락 관련 문제에 주의하면서 적절한 배치 크기로 구현하면, 데이터베이스 성능을 크게 향상시킬 수 있다.
+
+서버 개발자는 항상 DB와 서버 부하에 대해 고려해야 하고, 가능한 DB에 부하를 주지 않도록 최적화하는 것이 중요하다.
