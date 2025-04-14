@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "대량 DML 처리",
+      "path": "Study/8. DB/대량 DML 처리.md"
+    },
+    {
+      "basename": "DELETE vs TRUNCATE",
+      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
+    },
+    {
+      "basename": "트랜잭션 락",
+      "path": "Study/8. DB/트랜잭션 락.md"
+    },
+    {
       "basename": "Pasted image 20250325171154",
       "path": "Study/12. Http/resources/Pasted image 20250325171154.png"
     },
@@ -27,10 +43,6 @@
     {
       "basename": "Keep-Alive",
       "path": "Study/7. Network/Keep-Alive.md"
-    },
-    {
-      "basename": "트랜잭션 락",
-      "path": "Study/8. DB/트랜잭션 락.md"
     },
     {
       "basename": "트랜잭션 격리 수준",
@@ -139,10 +151,6 @@
     {
       "basename": "DB 병목 원인과 대책",
       "path": "Study/8. DB/DB 병목 원인과 대책.md"
-    },
-    {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
     },
     {
       "basename": "캐시 전략",
