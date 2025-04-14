@@ -53,3 +53,33 @@ INSERT INTO table1 (col1, col2) VALUES (val11, val12), (val21, val22), (val31, v
 - 단건 INSERT는 매번 DB에 연결하여 쿼리를 실행해야 하지만, Bulk INSERT는 한 번의 연결로 여러 데이터를 삽입할 수 있다.
 ### 트랜잭션 오버헤드 감소
 - Auto commit 모드에서 단건 INSERT를 천 건 실행하면 천 번의 commit이 발생하지만, Bulk INSERT는 단 한 번의 commit 만 발생한다.
+### 쿼리 파싱 및 최적화 비용 절감
+- 데이터베이스는 각 쿼리를 파싱하고 최적화 한 후 실행한다.
+- 단건 INSERT를 1000번 실행하면 이 과정을 1000번 반복해야 하지만, Bulk INSERT는 한 번만 수행하면 된다.
+### 로깅 및 인덱싱 효율성 향상
+- 데이터베이스는 데이터 삽입 시 로그를 기록하고 인덱스를 업데이트 한다.
+- 단건 INSERT는 매번 이 작업을 수행해야 하지만, Bulk INSERT는 한 번에 처리할 수 있어서 더 효율적이다.
+
+## 구현 방법
+
+### JDBC를 사용하는 경우
+```java
+jdbcTemplate.batchUpdate(sql, new BatchPerparedStatementStter() {
+	@Override
+	public void setValues(PreparedStatement ps, int i) throws SQLException {
+		Item item = items.get(i);
+		ps.setString(1, item.getCol1()); // 첫 번째 자리표시자에 값 설정
+		ps.setString(2, item.getCol2()); // 두 번째 자리표시자에 값 설정
+	}
+
+	@Override
+	public int getBatchSize() {
+		return items.size(); // Batch 크기 반환
+	}
+})
+```
+
+## Bulk INSERT 사용 시 주의사항
+
+### MySQL 설정: rewriteBatchedStatements=true
+MySQL에서는 Batch INSERT를 최적화하려면 JDBC URL에 다음 옵션을 추가해야 한다.
