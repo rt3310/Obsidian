@@ -5,12 +5,40 @@
       "path": "Plan/개선,트러블슈팅 예시.md"
     },
     {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Plan/게임 클라이언트 로드맵.png"
     },
     {
-      "basename": "HTTP 헤더 - 캐시",
-      "path": "Study/7. Network/http/HTTP 헤더 - 캐시.md"
+      "basename": "어떻게 공부해야 할까",
+      "path": "Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "취업",
+      "path": "Plan/취업.md"
+    },
+    {
+      "basename": "공부",
+      "path": "Plan/공부.md"
+    },
+    {
+      "basename": "Insert 부하 해결",
+      "path": "Study/8. DB/Insert 부하 해결.md"
+    },
+    {
+      "basename": "대량 DML 처리",
+      "path": "Study/8. DB/대량 DML 처리.md"
+    },
+    {
+      "basename": "DELETE vs TRUNCATE",
+      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
+    },
+    {
+      "basename": "트랜잭션 락",
+      "path": "Study/8. DB/트랜잭션 락.md"
     },
     {
       "basename": "Pasted image 20250325171154",
@@ -25,6 +53,10 @@
       "path": "Study/12. Http/resources/Pasted image 20250325173938.png"
     },
     {
+      "basename": "HTTP 헤더 - 캐시",
+      "path": "Study/7. Network/http/HTTP 헤더 - 캐시.md"
+    },
+    {
       "basename": "HTTP 헤더",
       "path": "Study/7. Network/http/HTTP 헤더.md"
     },
@@ -35,10 +67,6 @@
     {
       "basename": "Keep-Alive",
       "path": "Study/7. Network/Keep-Alive.md"
-    },
-    {
-      "basename": "트랜잭션 락",
-      "path": "Study/8. DB/트랜잭션 락.md"
     },
     {
       "basename": "트랜잭션 격리 수준",
@@ -97,24 +125,12 @@
       "path": "Plan/학습 전략.md"
     },
     {
-      "basename": "취업",
-      "path": "Plan/취업.md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Plan/어떻게 공부해야 할까.md"
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
     },
     {
       "basename": "Pasted image 20250321172623",
       "path": "Study/8. DB/resources/Pasted image 20250321172623.png"
-    },
-    {
-      "basename": "공부",
-      "path": "Plan/공부.md"
     },
     {
       "basename": "Auto Increment Lock Mode 최적화",
@@ -143,10 +159,6 @@
     {
       "basename": "DB 병목 원인과 대책",
       "path": "Study/8. DB/DB 병목 원인과 대책.md"
-    },
-    {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
     },
     {
       "basename": "캐시 전략",
