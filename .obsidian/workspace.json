@@ -104,9 +104,21 @@
               "icon": "lucide-file",
               "title": "개선,트러블슈팅 예시"
             }
+          },
+          {
+            "id": "ce027bf2e7628c22",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -169,7 +181,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -280,7 +293,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ca93a8f233c13aa3",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Plan/게임 클라이언트 로드맵.png",
     "Plan/어떻게 공부해야 할까.md",
