@@ -109,12 +109,14 @@
             "id": "ce027bf2e7628c22",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "Study/15. Frontend/React/Hydration.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "Hydration"
             }
           }
         ],
@@ -181,8 +183,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -293,8 +294,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "ce027bf2e7628c22",
   "lastOpenFiles": [
+    "Study/15. Frontend/React/Hydration.md",
     "Plan/게임 클라이언트 로드맵.png",
     "Plan/어떻게 공부해야 할까.md",
     "Plan/취업.md",
@@ -316,7 +318,6 @@
     "Study/12. Http/resources/Pasted image 20250325173916.png",
     "Study/12. Http/resources/Pasted image 20250325173854.png",
     "Study/12. Http/resources/Pasted image 20250325173848.png",
-    "Study/12. Http/resources/Pasted image 20250325173843.png",
     "Study/7. Network/http/HTTP 헤더.md",
     "Study/7. Network/Keep-Alive.md",
     "Study/7. Network/http",
