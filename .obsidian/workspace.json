@@ -183,7 +183,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -294,7 +295,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ce027bf2e7628c22",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/15. Frontend/React/Hydration.md",
     "Plan/게임 클라이언트 로드맵.png",
