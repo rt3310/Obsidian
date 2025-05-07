@@ -5,6 +5,14 @@
       "path": "Study/12. Http/웹 소켓(WebSocket).md"
     },
     {
+      "basename": "이벤트 기반 아키텍처(Event-driven)",
+      "path": "Study/10. Software Engineering/이벤트 기반 아키텍처(Event-driven).md"
+    },
+    {
+      "basename": "Pasted image 20250507191521",
+      "path": "Study/12. Http/resources/Pasted image 20250507191521.png"
+    },
+    {
       "basename": "대량 DML 처리",
       "path": "Study/8. DB/대량 DML 처리.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "웹 서버",
       "path": "Study/12. Http/웹 서버.canvas"
-    },
-    {
-      "basename": "이벤트 기반 아키텍처(Event-driven)",
-      "path": "Study/10. Software Engineering/이벤트 기반 아키텍처(Event-driven).md"
     },
     {
       "basename": "HTTP 헤더",
@@ -195,10 +199,6 @@
     {
       "basename": "ORDER BY 최적화",
       "path": "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md"
-    },
-    {
-      "basename": "Log",
-      "path": "Study/16. Server/Log.md"
     }
   ],
   "omittedPaths": [],
