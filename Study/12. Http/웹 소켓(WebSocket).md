@@ -69,3 +69,17 @@ WebSocket은 서비스를 동적으로 만들어 주지만, AJAX, HTTP Streaming
 
 마지막으로,  클라이언트/서버 중간에 위치한 프록시가 유휴 상태에서 도중에 커넥션 종료시킬 수도 있다.
 ```
+
+이러한 문제는 **`WebSocket Emulation`** 을 통해서 해결이 가능하다.
+
+### WebSocket Emulation
+
+우선 `WebSocket`을 첫 번째로 시도하고
+
+`WebSocket` 연결이 실패한 경우에는 HTTP-Streaming, HTTP Long Polling 같은 HTTP 기반의 다른 기술로 전환해 다시 연결을 시도하는 것을 말한다.
+
+즉 **`WebSocket Emulation`**을 통해서, 위와 같이 `WebSocket` 연결을 할 수 없는 경우에는 다른 HTTP 기반의 기술을 시도하는 방법이다.
+
+이러한, **`WebSocket Emulation`**을 지원하는 것이 바로 **[`SockJS`](https://github.com/sockjs/sockjs-protocol)** 프로토콜다.
+
+Spring Framework는 Servlet 스택 위에서 서버/클라이언트 용도의 SockJS 프로토콜을 모두 지원하고 있다.
