@@ -5,6 +5,18 @@
       "path": "Study/12. Http/웹 소켓(WebSocket).md"
     },
     {
+      "basename": "대량 DML 처리",
+      "path": "Study/8. DB/대량 DML 처리.md"
+    },
+    {
+      "basename": "개선,트러블슈팅 예시",
+      "path": "Plan/개선,트러블슈팅 예시.md"
+    },
+    {
+      "basename": "웹 서버",
+      "path": "Study/12. Http/웹 서버.canvas"
+    },
+    {
       "basename": "이벤트 기반 아키텍처(Event-driven)",
       "path": "Study/10. Software Engineering/이벤트 기반 아키텍처(Event-driven).md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "Pasted image 20250325163526",
       "path": "Study/7. Network/resources/Pasted image 20250325163526.png"
-    },
-    {
-      "basename": "개선,트러블슈팅 예시",
-      "path": "Plan/개선,트러블슈팅 예시.md"
     },
     {
       "basename": "게임 클라이언트 로드맵",
@@ -39,10 +47,6 @@
     {
       "basename": "Insert 부하 해결",
       "path": "Study/8. DB/Insert 부하 해결.md"
-    },
-    {
-      "basename": "대량 DML 처리",
-      "path": "Study/8. DB/대량 DML 처리.md"
     },
     {
       "basename": "DELETE vs TRUNCATE",

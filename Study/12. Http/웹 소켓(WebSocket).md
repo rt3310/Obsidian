@@ -121,3 +121,24 @@ http://host:port/myApplication/myEndpoint/{server-id}/{session-id}/{transport}
 ### Transports Type
 `websocket` 타입의 전송 방식은 `WebSocket HandShake`를 하기 위해서 오직 하나의 HTTP 요청만 필요하고, 이후 모든 메시지는 해당 소켓에서 교환된다.
 ![[Pasted image 20250507190325.png]]
+`xhr-streaming` 타입의 경우에는 장기 실행 요청을 유지하여 서버에서 클라이언트로 전달하기 위한 메시지를 응답으로 전달받는다.
+
+이후, 클라이언트에서 서버로 새로운 요청을 보내야 할 경우에는 기존의 커넥션을 종료하고 새로운 `HTTP POST` 요청을 보내어 커넥션을 유지한다.
+- [동작 화면 보기](https://drive.google.com/file/d/1uFFMw4EEl0BtJIV7QTxiScypseLgrsXJ/view?usp=sharing)
+
+`xhr-polling` 타입 경우에는 서버에서 클라이언트로 응답 메시지가 전달이 될 때마다 기존의 커넥션을 종료하고 새로운 요청을 보내어 커넥션을 생성한다.
+- [동작 화면 보기](https://drive.google.com/file/d/1MiLzu-x2xW0uu2b7zsBw5DVvGaezwt-T/view?usp=sharing)
+
+### 메시지 형식
+추가적으로, `SockJS`는 `Message Frame` 크기를 최소화하기 위해 노력한다.
+예를 들어, `open frame` 경우에는 첫 글자인 `o`를 전송한다.
+![[Pasted image 20250507191456.png]]
+
+또한, `Message Frame`의 경우에는 다음과 같은 형태로 전달받는다.
+```jsx
+a["message1", "message2"]
+```
+![[Pasted image 20250507191521.png]]
+
+커넥션 유지 여부를 확인하는 `Heartbeat Frame` 경우에는 `h` 로 보낸다.
+![[Pasted image 20250507191550.png]]
