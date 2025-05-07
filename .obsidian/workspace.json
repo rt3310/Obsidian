@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -295,8 +294,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2ae968bae429a316",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Study/12. Http/resources/Pasted image 20250507190325.png",
+    "Study/12. Http/resources/Pasted image 20250507185944.png",
+    "Study/12. Http/resources/Pasted image 20250507185447.png",
     "Study/10. Software Engineering/resources/Pasted image 20250507182401.png",
     "Study/10. Software Engineering/이벤트 기반 아키텍처(Event-driven).md",
     "Study/12. Http/웹 소켓(WebSocket).md",
@@ -323,9 +325,6 @@
     "Study/12. Http/resources/Pasted image 20250325173938.png",
     "Study/7. Network/http/HTTP 헤더 - 캐시.md",
     "Study/12. Http/resources/Pasted image 20250325190602.png",
-    "Study/12. Http/resources/Pasted image 20250325174029.png",
-    "Study/12. Http/resources/Pasted image 20250325173958.png",
-    "Study/12. Http/resources/Pasted image 20250325173916.png",
     "Study/7. Network/Keep-Alive.md",
     "Study/7. Network/http",
     "Study/8. DB/인덱스 향상.md",

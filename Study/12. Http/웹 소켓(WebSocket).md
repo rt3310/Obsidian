@@ -73,13 +73,51 @@ WebSocket은 서비스를 동적으로 만들어 주지만, AJAX, HTTP Streaming
 이러한 문제는 **`WebSocket Emulation`** 을 통해서 해결이 가능하다.
 
 ### WebSocket Emulation
+우선 `WebSocket`을 첫 번째로 시도하고 `WebSocket` 연결이 실패한 경우에는 HTTP-Streaming, HTTP Long Polling 같은 HTTP 기반의 다른 기술로 전환해 다시 연결을 시도하는 것을 말한다.
 
-우선 `WebSocket`을 첫 번째로 시도하고
-
-`WebSocket` 연결이 실패한 경우에는 HTTP-Streaming, HTTP Long Polling 같은 HTTP 기반의 다른 기술로 전환해 다시 연결을 시도하는 것을 말한다.
-
-즉 **`WebSocket Emulation`**을 통해서, 위와 같이 `WebSocket` 연결을 할 수 없는 경우에는 다른 HTTP 기반의 기술을 시도하는 방법이다.
-
-이러한, **`WebSocket Emulation`**을 지원하는 것이 바로 **[`SockJS`](https://github.com/sockjs/sockjs-protocol)** 프로토콜다.
+즉 **`WebSocket Emulation`** 을 통해서, 위와 같이 `WebSocket` 연결을 할 수 없는 경우에는 다른 HTTP 기반의 기술을 시도하는 방법이다. 이러한, **`WebSocket Emulation`** 을 지원하는 것이 바로 [`SockJS`](https://github.com/sockjs/sockjs-protocol) 프로토콜이다.
 
 Spring Framework는 Servlet 스택 위에서 서버/클라이언트 용도의 SockJS 프로토콜을 모두 지원하고 있다.
+
+즉 `SockJS`의 목표는 "**애플리케이션이 우선적으로 `WebSocket API`를 사용하도록 하지만, 사용할 수 없는 경우에는 런타임 시점에 코드 변경없이 `WebSocket` 이외의 대안으로 대체"** 하도록 하는 것이다.
+
+### 특징
+우선 `SockJS`는 브라우저에서 사용하도록 설계가 되었기 때문에, 다양한 브라우저와 버전을 지원하고 있다.
+자세한 브라우저 지원 범위는 아래 링크를 참고하길 바란다.
+- [sockjs/sockjs-client](https://github.com/sockjs/sockjs-client#supported-transports-by-browser-html-served-from-http-or-https)
+
+또한 `SockJS`는 `WebSocket`, `HTTP Streaming`, `HTTP Long Polling` 등의 크게 세 가지 전송 방법(`Transports`)을 지원하고 있는데, 이외에도 아래와 같이 다양한 방식을 제공하고 있다.
+![[Pasted image 20250507185447.png]]
+
+`SockJS`가 지원하는 자세한 전송 방법(`Transports`) 리스트는 아래 링크에서 참고 바란다.
+- [sockjs/sockjs-client](https://github.com/sockjs/sockjs-client#supported-transports-by-browser-html-served-from-http-or-https)
+
+### WebSocket Emulation 과정
+`SockJS`는 서버로 부터 기본 정보를 획득하기 위해서 `GET /info` 요청을 보내며 시작한다.
+
+클라이언트가 서버에게 `GET /info` 요청을 보내므로써, 서버가 `WebSocket`을 지원하는 지와 전송 과정에서 `Cookies` 지원이 필요한 지 여부, `CORS` 위한 Origin 정보 등의 정보를 응답으로 전달받는다.
+![[Pasted image 20250507185944.png]]
+
+이후, 서버가 응답한 메시지를 토대로 앞으로 통신에 사용할 프로토콜을 아래와 같은 방식으로 결정하고 요청을 보낸다.
+
+1. `WebSocket` 사용 가능하다면, `WebSocket` 사용
+2. `WebSocket` 사용 불가능하다면,
+    1. `Options`의 `Transports` 항목에 `HTTP streaming` 설정이 존재한다면, `HTTP streaming` 사용
+    2. `Options`의 `Transports` 항목에 `HTTP streaming` 설정이 없고 `HTTP Long Polling` 존재한다면, `HTTP Long Polling` 사용
+```jsx
+const sock = new SockJS('http://localhost:8080/test', null, {transports: ["websocket", "xhr-streaming", "xhr-polling"]});
+```
+
+### Transports Request URL 형식
+모든 `Transports` 요청의 URL 형식은 아래와 같다.
+```
+http://host:port/myApplication/myEndpoint/{server-id}/{session-id}/{transport}
+```
+각각의 의미를 하나씩 살펴보자.
+- `server-id`는 클러스터 환경에서 요청을 라우팅하는데 유용하게 사용된다.
+- `session-id`는 `SockJS` 세션에 속하는 HTTP 요청을 연관시킨다.
+- `transport`는 전송 타입을 가리킨다. (ex, `websocket`, `xhr-streaming`, `xhr-polling`)
+
+### Transports Type
+`websocket` 타입의 전송 방식은 `WebSocket HandShake`를 하기 위해서 오직 하나의 HTTP 요청만 필요하고, 이후 모든 메시지는 해당 소켓에서 교환된다.
+![[Pasted image 20250507190325.png]]
