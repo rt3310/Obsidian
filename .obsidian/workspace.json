@@ -141,7 +141,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -253,7 +254,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1b2635922225bf0c",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md",
     "Study/8. DB/친절한 SQL 튜닝/SQL 처리 과정과 I,O.md",
