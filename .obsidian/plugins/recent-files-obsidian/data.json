@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "인덱스 기본",
+      "path": "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md"
+    },
+    {
+      "basename": "SQL 처리 과정과 I,O",
+      "path": "Study/8. DB/친절한 SQL 튜닝/SQL 처리 과정과 I,O.md"
+    },
+    {
       "basename": "Using Temporary, Using Filesort",
       "path": "Study/8. DB/Using Temporary, Using Filesort.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
       "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
-    },
-    {
-      "basename": "ORDER BY 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md"
     }
   ],
   "omittedPaths": [],

@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/Using Temporary, Using Filesort.md",
+                "file": "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Using Temporary, Using Filesort"
+              "title": "인덱스 기본"
             }
           }
         ],
@@ -310,8 +310,10 @@
   },
   "active": "eb882cc7c0016b71",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Study/8. DB/친절한 SQL 튜닝/SQL 처리 과정과 I,O.md",
+    "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md",
+    "Study/8. DB/Using Temporary, Using Filesort.md",
+    "conflict-files-obsidian-git.md",
     "Study/8. DB/친절한 SQL 튜닝",
     "Study/8. DB/MySQL 성능 최적화/InnoDB 데드락 감지 최적화.md",
     "Study/8. DB/md/결합 알고리즘 종류.md",
@@ -347,8 +349,6 @@
     "Study/8. DB/Insert 부하 해결.md",
     "Study/8. DB/대량 DML 처리.md",
     "Study/8. DB/DELETE vs TRUNCATE.md",
-    "Study/8. DB/ACID.md",
-    "Study/8. DB/트랜잭션 락.md",
     "Study/7. Network/http",
     "Study/8. DB/조인",
     "Study/8. DB/인덱스",
