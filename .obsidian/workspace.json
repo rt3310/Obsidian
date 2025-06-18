@@ -201,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -308,7 +309,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "eb882cc7c0016b71",
   "lastOpenFiles": [
     "Study/8. DB/친절한 SQL 튜닝/SQL 처리 과정과 I,O.md",
     "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md",
