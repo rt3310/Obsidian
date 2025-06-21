@@ -197,7 +197,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -309,7 +310,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eb882cc7c0016b71",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/8. DB/친절한 SQL 튜닝/SQL 처리 과정과 I,O.md",
     "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md",
