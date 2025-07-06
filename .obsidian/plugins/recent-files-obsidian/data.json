@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "개선,트러블슈팅 예시",
+      "path": "Plan/개선,트러블슈팅 예시.md"
+    },
+    {
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Plan/게임 클라이언트 로드맵.png"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "취업",
+      "path": "Plan/취업.md"
+    },
+    {
+      "basename": "공부",
+      "path": "Plan/공부.md"
+    },
+    {
+      "basename": "학습 전략",
+      "path": "Plan/학습 전략.md"
+    },
+    {
+      "basename": "학습 필터",
+      "path": "Plan/학습 필터.md"
+    },
+    {
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
+    },
+    {
       "basename": "인덱스 튜닝",
       "path": "Study/8. DB/친절한 SQL 튜닝/인덱스 튜닝.md"
     },
@@ -53,40 +85,8 @@
       "path": "Study/8. DB/MySQL 성능 최적화/다중 컬럼 인덱스.md"
     },
     {
-      "basename": "취업",
-      "path": "Plan/취업.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
-    },
-    {
-      "basename": "학습 필터",
-      "path": "Plan/학습 필터.md"
-    },
-    {
-      "basename": "학습 전략",
-      "path": "Plan/학습 전략.md"
-    },
-    {
-      "basename": "개선,트러블슈팅 예시",
-      "path": "Plan/개선,트러블슈팅 예시.md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Plan/게임 클라이언트 로드맵.png"
-    },
-    {
       "basename": "Hydration",
       "path": "Study/15. Frontend/React/Hydration.md"
-    },
-    {
-      "basename": "공부",
-      "path": "Plan/공부.md"
     },
     {
       "basename": "Insert 부하 해결",
