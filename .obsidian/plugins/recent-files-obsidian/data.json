@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Look Aside 패턴",
+      "path": "Study/8. DB/md/Look Aside 패턴.md"
+    },
+    {
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시 전략.canvas"
+    },
+    {
+      "basename": "Pasted image 20250507192720",
+      "path": "Pasted image 20250507192720.png"
+    },
+    {
+      "basename": "Pasted image 20250507192737",
+      "path": "Pasted image 20250507192737.png"
+    },
+    {
+      "basename": "Pasted image 20250507193050",
+      "path": "Pasted image 20250507193050.png"
+    },
+    {
+      "basename": "Pasted image 20250507193542",
+      "path": "Pasted image 20250507193542.png"
+    },
+    {
+      "basename": "Pasted image 20250507193532",
+      "path": "Pasted image 20250507193532.png"
+    },
+    {
       "basename": "개선,트러블슈팅 예시",
       "path": "Plan/개선,트러블슈팅 예시.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Pasted image 20250321172623",
       "path": "Study/8. DB/resources/Pasted image 20250321172623.png"
-    },
-    {
-      "basename": "INSERT 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/INSERT 최적화.md"
-    },
-    {
-      "basename": "SQL",
-      "path": "Study/8. DB/SQL.canvas"
-    },
-    {
-      "basename": "InnoDB vs MyISAM",
-      "path": "Study/8. DB/InnoDB vs MyISAM.md"
-    },
-    {
-      "basename": "DB 병목 원인과 대책",
-      "path": "Study/8. DB/DB 병목 원인과 대책.md"
-    },
-    {
-      "basename": "캐시 전략",
-      "path": "Study/8. DB/캐시 전략.canvas"
-    },
-    {
-      "basename": "조인(Join)",
-      "path": "Study/8. DB/조인(Join).canvas"
-    },
-    {
-      "basename": "데이터 무결성",
-      "path": "Study/8. DB/데이터 무결성.md"
     }
   ],
   "omittedPaths": [],
