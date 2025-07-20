@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "iptables",
+      "path": "Study/18. Kubernetes/iptables.md"
+    },
+    {
       "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
       "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "완전 함수적 종속(Full Functional Dependency)",
       "path": "Study/8. DB/md/완전 함수적 종속(Full Functional Dependency).md"
-    },
-    {
-      "basename": "삽입이상",
-      "path": "Study/8. DB/md/삽입이상.md"
     }
   ],
   "omittedPaths": [],
