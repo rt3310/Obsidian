@@ -123,17 +123,14 @@
             "id": "eb882cc7c0016b71",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Study/8. DB/캐시 전략.canvas",
-                "viewState": {
-                  "x": 1796.9002422577796,
-                  "y": 977.8623045823108,
-                  "zoom": -0.09282608265973413
-                }
+                "file": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "캐시 전략"
+              "icon": "lucide-file",
+              "title": "1. SQL의 성능은 처리 범위에 좌우된다"
             }
           }
         ],
@@ -200,8 +197,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -312,8 +308,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md",
+    "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
+    "Study/8. DB/캐시 전략.canvas",
     "Pasted image 20250507192720.png",
     "Pasted image 20250507192737.png",
     "Pasted image 20250507193050.png",
@@ -347,12 +346,10 @@
     "Study/12. Http/resources/Pasted image 20250507191550.png",
     "Study/12. Http/resources/Pasted image 20250507191521.png",
     "Study/12. Http/resources/Pasted image 20250507191456.png",
-    "Study/12. Http/resources/Pasted image 20250507190325.png",
     "Study/10. Software Engineering/이벤트 기반 아키텍처(Event-driven).md",
     "Study/10. Software Engineering/resources",
     "Study/10. Software Engineering",
     "Study/15. Frontend/React/Hydration.md",
-    "Study/8. DB/Insert 부하 해결.md",
     "Study/7. Network/http",
     "Study/8. DB/조인",
     "Study/8. DB/인덱스",
@@ -360,7 +357,6 @@
     "Study/8. DB/샤딩(Sharding).canvas",
     "Study/8. DB/정규화.canvas",
     "Study/8. DB/SQL.canvas",
-    "Study/8. DB/캐시 전략.canvas",
     "Study/8. DB/조인(Join).canvas",
     "Study/8. DB/MySQL 성능 최적화",
     "Study/9. Java/resources",
