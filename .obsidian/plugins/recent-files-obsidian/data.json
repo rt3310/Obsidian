@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "kubeadm",
+      "path": "Study/18. Kubernetes/kubeadm.md"
+    },
+    {
+      "basename": "kubelet",
+      "path": "Study/18. Kubernetes/kubelet.md"
+    },
+    {
+      "basename": "Pasted image 20250721014814",
+      "path": "Study/18. Kubernetes/resources/Pasted image 20250721014814.png"
+    },
+    {
       "basename": "iptables",
       "path": "Study/18. Kubernetes/iptables.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "정규화",
       "path": "Study/8. DB/정규화.canvas"
-    },
-    {
-      "basename": "갱신이상",
-      "path": "Study/8. DB/md/갱신이상.md"
-    },
-    {
-      "basename": "인덱스를 사용하는 것이 좋은지 판단",
-      "path": "Study/8. DB/md/인덱스를 사용하는 것이 좋은지 판단.md"
-    },
-    {
-      "basename": "완전 함수적 종속(Full Functional Dependency)",
-      "path": "Study/8. DB/md/완전 함수적 종속(Full Functional Dependency).md"
     }
   ],
   "omittedPaths": [],

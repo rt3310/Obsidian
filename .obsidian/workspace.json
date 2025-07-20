@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/18. Kubernetes/iptables.md",
+                "file": "Study/18. Kubernetes/kubeadm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "iptables"
+              "title": "kubeadm"
             }
           }
         ],
@@ -310,8 +310,12 @@
   },
   "active": "eb882cc7c0016b71",
   "lastOpenFiles": [
-    "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
+    "Study/18. Kubernetes/kubelet.md",
+    "Study/18. Kubernetes/kubeadm.md",
+    "Study/18. Kubernetes/resources/Pasted image 20250721014814.png",
+    "Study/18. Kubernetes/resources",
     "Study/18. Kubernetes/iptables.md",
+    "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
     "Study/18. Kubernetes",
     "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md",
     "Study/8. DB/캐시 전략.canvas",
@@ -343,12 +347,9 @@
     "Study/8. DB/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md",
     "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md",
     "Study/8. DB/MySQL 성능 최적화/다중 컬럼 인덱스.md",
-    "Study/12. Http/웹 소켓(WebSocket).md",
     "Study/12. Http/resources/Pasted image 20250507192212.png",
     "Study/12. Http/resources/Pasted image 20250507191550.png",
     "Study/12. Http/resources/Pasted image 20250507191521.png",
-    "Study/12. Http/resources/Pasted image 20250507191456.png",
-    "Study/10. Software Engineering/이벤트 기반 아키텍처(Event-driven).md",
     "Study/10. Software Engineering/resources",
     "Study/10. Software Engineering",
     "Study/7. Network/http",
@@ -361,7 +362,6 @@
     "Study/8. DB/조인(Join).canvas",
     "Study/8. DB/MySQL 성능 최적화",
     "Study/9. Java/resources",
-    "Study/9. Java/md",
     "Study/9. Java/final.canvas",
     "Study/9. Java/Virtual Thread.canvas",
     "Study/9. Java/JVM.canvas",
