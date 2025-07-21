@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "kubectl",
+      "path": "Study/18. Kubernetes/kubectl.md"
+    },
+    {
+      "basename": "Pasted image 20250507192720",
+      "path": "Pasted image 20250507192720.png"
+    },
+    {
       "basename": "kubeadm",
       "path": "Study/18. Kubernetes/kubeadm.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "캐시 전략",
       "path": "Study/8. DB/캐시 전략.canvas"
-    },
-    {
-      "basename": "Pasted image 20250507192720",
-      "path": "Pasted image 20250507192720.png"
     },
     {
       "basename": "Pasted image 20250507192737",
@@ -195,10 +199,6 @@
     {
       "basename": "샤딩(Sharding)",
       "path": "Study/8. DB/샤딩(Sharding).canvas"
-    },
-    {
-      "basename": "정규화",
-      "path": "Study/8. DB/정규화.canvas"
     }
   ],
   "omittedPaths": [],
