@@ -35,3 +35,12 @@ Redis에서의 Bulk Write 방법, 네트워크I/O를 줄여주기 때문에 성�
 ZADD, ZRANGE 같은 명령어를 Sorted Set에 활용해보고, SADD, SREM, SSCAN, SMIXMEMBER같은 명령어를 일반 Set에 적용해보자.
 
 ### Hashes Collection
+RDB와 유사한 형태로 데이터를 저장하는 타입이다.
+- Key: PK
+- Field: Column
+- Value: Raw
+
+대표적으로 HSET, HGET이 존재하며, HSCAN, HEXISTS같은 좀 더 효과적인 명령어가 존재한다.
+Keys 명령어는 사용하지 않도록 하자. (카카오, 쿠팡 사례 참고)
+
+### BitMaps Collection
