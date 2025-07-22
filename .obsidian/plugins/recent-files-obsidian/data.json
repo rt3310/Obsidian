@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis",
+      "path": "Study/19. Redis/Redis.md"
+    },
+    {
       "basename": "kubectl",
       "path": "Study/18. Kubernetes/kubectl.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "트랜잭션 격리 수준",
       "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "샤딩(Sharding)",
-      "path": "Study/8. DB/샤딩(Sharding).canvas"
     }
   ],
   "omittedPaths": [],

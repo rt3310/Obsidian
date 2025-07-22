@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/18. Kubernetes/kubectl.md",
+                "file": "Study/19. Redis/Redis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kubectl"
+              "title": "Redis"
             }
           }
         ],
@@ -308,10 +308,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "eb882cc7c0016b71",
   "lastOpenFiles": [
-    "Pasted image 20250507192720.png",
     "Study/18. Kubernetes/kubectl.md",
+    "Study/19. Redis/Redis.md",
+    "Study/19. Redis",
+    "Pasted image 20250507192720.png",
     "Study/18. Kubernetes/kubeadm.md",
     "Study/18. Kubernetes/kubelet.md",
     "Study/18. Kubernetes/resources/Pasted image 20250721014814.png",
@@ -360,7 +362,6 @@
     "Study/8. DB/SQL.canvas",
     "Study/8. DB/조인(Join).canvas",
     "Study/8. DB/MySQL 성능 최적화",
-    "Study/9. Java/resources",
     "Study/9. Java/final.canvas",
     "Study/9. Java/Virtual Thread.canvas",
     "Study/9. Java/JVM.canvas",
