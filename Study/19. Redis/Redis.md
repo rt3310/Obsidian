@@ -33,3 +33,5 @@ Redis에서의 Bulk Write 방법, 네트워크I/O를 줄여주기 때문에 성�
 특정 key에 대한 여러 개의 value를 고유하게 저장할 때 사용이 된다. 이때, Sorted Set이라는 부분도 존재하는데, 해당 타입은 랭킹과 같은 기능을 구현하는 데 있어서 매우 효과적이다.
 
 ZADD, ZRANGE 같은 명령어를 Sorted Set에 활용해보고, SADD, SREM, SSCAN, SMIXMEMBER같은 명령어를 일반 Set에 적용해보자.
+
+### Hashes Collection
