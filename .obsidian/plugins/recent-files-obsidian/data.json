@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시 전략.canvas"
+    },
+    {
       "basename": "Redis",
       "path": "Study/19. Redis/Redis.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "Look Aside 패턴",
       "path": "Study/8. DB/md/Look Aside 패턴.md"
-    },
-    {
-      "basename": "캐시 전략",
-      "path": "Study/8. DB/캐시 전략.canvas"
     },
     {
       "basename": "Pasted image 20250507192737",

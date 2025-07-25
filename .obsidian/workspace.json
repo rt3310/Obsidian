@@ -123,14 +123,17 @@
             "id": "eb882cc7c0016b71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Study/19. Redis/Redis.md",
-                "mode": "source",
-                "source": false
+                "file": "Study/8. DB/캐시 전략.canvas",
+                "viewState": {
+                  "x": 825.1582370125951,
+                  "y": -1135.055051288402,
+                  "zoom": 0.24050725067359918
+                }
               },
-              "icon": "lucide-file",
-              "title": "Redis"
+              "icon": "lucide-layout-dashboard",
+              "title": "캐시 전략"
             }
           }
         ],
@@ -309,10 +312,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "eb882cc7c0016b71",
   "lastOpenFiles": [
-    "Study/18. Kubernetes/kubectl.md",
     "Study/19. Redis/Redis.md",
+    "Study/18. Kubernetes/kubectl.md",
     "Study/19. Redis",
     "Pasted image 20250507192720.png",
     "Study/18. Kubernetes/kubeadm.md",
