@@ -197,7 +197,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -308,7 +309,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eb882cc7c0016b71",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/18. Kubernetes/kubectl.md",
     "Study/19. Redis/Redis.md",
