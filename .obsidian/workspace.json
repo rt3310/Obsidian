@@ -123,17 +123,14 @@
             "id": "eb882cc7c0016b71",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Study/8. DB/캐시 전략.canvas",
-                "viewState": {
-                  "x": 825.1582370125951,
-                  "y": -1135.055051288402,
-                  "zoom": 0.24050725067359918
-                }
+                "file": "Posting/Cache/캐시 선택.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "캐시 전략"
+              "icon": "lucide-file",
+              "title": "캐시 선택"
             }
           }
         ],
@@ -200,8 +197,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -312,8 +308,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eb882cc7c0016b71",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Posting/Cache/Ehcache vs Caffeine.md",
+    "Posting/Cache/캐시 선택.md",
+    "Posting/Computer Structure/EBP, ESP Register.md",
+    "Plan/학습 전략.md",
+    "Plan/학습 필터.md",
+    "Plan/개선,트러블슈팅 예시.md",
+    "Study/8. DB/캐시 전략.canvas",
     "Study/19. Redis/Redis.md",
     "Study/18. Kubernetes/kubectl.md",
     "Study/19. Redis",
@@ -326,18 +329,14 @@
     "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
     "Study/18. Kubernetes",
     "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md",
-    "Study/8. DB/캐시 전략.canvas",
     "Pasted image 20250507192737.png",
     "Pasted image 20250507193050.png",
     "Pasted image 20250507193542.png",
     "Pasted image 20250507193532.png",
-    "Plan/개선,트러블슈팅 예시.md",
     "Plan/게임 클라이언트 로드맵.png",
     "Plan/어떻게 공부해야 할까.md",
     "Plan/취업.md",
     "Plan/공부.md",
-    "Plan/학습 전략.md",
-    "Plan/학습 필터.md",
     "Plan/트러블 슈팅.md",
     "Study/8. DB/친절한 SQL 튜닝/인덱스 튜닝.md",
     "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md",
@@ -349,9 +348,6 @@
     "Study/8. DB/md/결합 알고리즘 종류.md",
     "Study/8. DB/md/디렉토리 샤딩(Directory Sharding).md",
     "Study/8. DB/md/부분 함수적 종속(Partial Functional Dependency).md",
-    "Study/8. DB/md/레인지샤딩 룰 설정.md",
-    "Study/8. DB/MySQL 성능 최적화/Index Dive 최적화.md",
-    "Study/8. DB/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md",
     "Study/12. Http/resources/Pasted image 20250507192212.png",
     "Study/12. Http/resources/Pasted image 20250507191550.png",
     "Study/12. Http/resources/Pasted image 20250507191521.png",
