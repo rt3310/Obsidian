@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시 전략.canvas"
+    },
+    {
+      "basename": "Redis",
+      "path": "Study/19. Redis/Redis.md"
+    },
+    {
       "basename": "캐시 선택",
       "path": "Posting/Cache/캐시 선택.md"
     },
@@ -25,16 +33,8 @@
       "path": "Plan/개선,트러블슈팅 예시.md"
     },
     {
-      "basename": "캐시 전략",
-      "path": "Study/8. DB/캐시 전략.canvas"
-    },
-    {
       "basename": "Read Through 패턴",
       "path": "Study/8. DB/md/Read Through 패턴.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Study/19. Redis/Redis.md"
     },
     {
       "basename": "kubectl",
