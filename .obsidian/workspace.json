@@ -123,17 +123,12 @@
             "id": "eb882cc7c0016b71",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "Study/8. DB/캐시 전략.canvas",
-                "viewState": {
-                  "x": 735.6919616941104,
-                  "y": 1482.442004077807,
-                  "zoom": -0.09282608265973413
-                }
+                "file": "Plan/게임 클라이언트 로드맵.png"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "캐시 전략"
+              "icon": "lucide-image",
+              "title": "게임 클라이언트 로드맵"
             }
           }
         ],
@@ -314,6 +309,8 @@
   },
   "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
+    "Plan/취업.md",
+    "Study/8. DB/캐시 전략.canvas",
     "Study/19. Redis/Redis.md",
     "Posting/Cache/캐시 선택.md",
     "Posting/Cache/Ehcache vs Caffeine.md",
@@ -321,7 +318,6 @@
     "Plan/학습 전략.md",
     "Plan/학습 필터.md",
     "Plan/개선,트러블슈팅 예시.md",
-    "Study/8. DB/캐시 전략.canvas",
     "Study/18. Kubernetes/kubectl.md",
     "Study/19. Redis",
     "Pasted image 20250507192720.png",
@@ -339,7 +335,6 @@
     "Pasted image 20250507193532.png",
     "Plan/게임 클라이언트 로드맵.png",
     "Plan/어떻게 공부해야 할까.md",
-    "Plan/취업.md",
     "Plan/공부.md",
     "Plan/트러블 슈팅.md",
     "Study/8. DB/친절한 SQL 튜닝/인덱스 튜닝.md",
@@ -351,7 +346,6 @@
     "Study/8. DB/MySQL 성능 최적화/InnoDB 데드락 감지 최적화.md",
     "Study/8. DB/md/결합 알고리즘 종류.md",
     "Study/8. DB/md/디렉토리 샤딩(Directory Sharding).md",
-    "Study/8. DB/md/부분 함수적 종속(Partial Functional Dependency).md",
     "Study/12. Http/resources/Pasted image 20250507192212.png",
     "Study/12. Http/resources/Pasted image 20250507191550.png",
     "Study/12. Http/resources/Pasted image 20250507191521.png",
