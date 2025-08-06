@@ -195,8 +195,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -307,7 +306,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Plan/취업.md",
     "Study/8. DB/캐시 전략.canvas",
