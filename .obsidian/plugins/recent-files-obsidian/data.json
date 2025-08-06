@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "CH6 - Linker",
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md"
+    },
+    {
+      "basename": "CH4 - Instruction Architecture Set",
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md"
+    },
+    {
+      "basename": "CH3 - Instruction Architecture Set",
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md"
+    },
+    {
+      "basename": "CH7 - Linker",
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md"
+    },
+    {
+      "basename": "CH10 - Pipeline",
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
+    },
+    {
+      "basename": "CH9 - Computer Arithmetic",
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md"
+    },
+    {
       "basename": "게임 클라이언트 로드맵",
       "path": "Plan/게임 클라이언트 로드맵.png"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "DELETE vs TRUNCATE",
       "path": "Study/8. DB/DELETE vs TRUNCATE.md"
-    },
-    {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
-    },
-    {
-      "basename": "트랜잭션 락",
-      "path": "Study/8. DB/트랜잭션 락.md"
-    },
-    {
-      "basename": "Pasted image 20250325171154",
-      "path": "Study/12. Http/resources/Pasted image 20250325171154.png"
-    },
-    {
-      "basename": "Pasted image 20250325190541",
-      "path": "Study/12. Http/resources/Pasted image 20250325190541.png"
-    },
-    {
-      "basename": "Pasted image 20250325173938",
-      "path": "Study/12. Http/resources/Pasted image 20250325173938.png"
-    },
-    {
-      "basename": "HTTP 헤더 - 캐시",
-      "path": "Study/7. Network/http/HTTP 헤더 - 캐시.md"
     }
   ],
   "omittedPaths": [],

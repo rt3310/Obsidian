@@ -123,12 +123,14 @@
             "id": "eb882cc7c0016b71",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Plan/게임 클라이언트 로드맵.png"
+                "file": "Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "게임 클라이언트 로드맵"
+              "icon": "lucide-file",
+              "title": "CH6 - Linker"
             }
           }
         ],
@@ -308,6 +310,12 @@
   },
   "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
+    "Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md",
+    "Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
+    "Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md",
+    "Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md",
+    "Plan/게임 클라이언트 로드맵.png",
     "Plan/취업.md",
     "Study/8. DB/캐시 전략.canvas",
     "Study/19. Redis/Redis.md",
@@ -332,7 +340,6 @@
     "Pasted image 20250507193050.png",
     "Pasted image 20250507193542.png",
     "Pasted image 20250507193532.png",
-    "Plan/게임 클라이언트 로드맵.png",
     "Plan/어떻게 공부해야 할까.md",
     "Plan/공부.md",
     "Plan/트러블 슈팅.md",
@@ -340,11 +347,7 @@
     "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md",
     "Study/8. DB/친절한 SQL 튜닝/SQL 처리 과정과 I,O.md",
     "Study/8. DB/Using Temporary, Using Filesort.md",
-    "conflict-files-obsidian-git.md",
     "Study/8. DB/친절한 SQL 튜닝",
-    "Study/8. DB/MySQL 성능 최적화/InnoDB 데드락 감지 최적화.md",
-    "Study/8. DB/md/결합 알고리즘 종류.md",
-    "Study/8. DB/md/디렉토리 샤딩(Directory Sharding).md",
     "Study/12. Http/resources/Pasted image 20250507192212.png",
     "Study/12. Http/resources/Pasted image 20250507191550.png",
     "Study/12. Http/resources/Pasted image 20250507191521.png",
