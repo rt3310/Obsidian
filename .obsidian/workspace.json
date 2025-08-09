@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
+                "file": "Study/1. C, C++/포인터에는 왜 타입이 있을까.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH4 - Instruction Architecture Set"
+              "title": "포인터에는 왜 타입이 있을까"
             }
           }
         ],
@@ -308,10 +308,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "eb882cc7c0016b71",
   "lastOpenFiles": [
-    "Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md",
     "Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
+    "Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md",
     "Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md",
     "Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md",
     "Study/5. ComputerStructure/최린 컴퓨터구조/CH7 - Linker.md",
