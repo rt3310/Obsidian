@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "CH6 - Linker",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md"
-    },
-    {
       "basename": "CH4 - Instruction Architecture Set",
       "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md"
     },
     {
       "basename": "CH3 - Instruction Architecture Set",
       "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md"
+    },
+    {
+      "basename": "CH2 - Instruction Architecture Set",
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md"
+    },
+    {
+      "basename": "CH6 - Linker",
+      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md"
     },
     {
       "basename": "CH7 - Linker",
@@ -195,10 +199,6 @@
     {
       "basename": "대량 DML 처리",
       "path": "Study/8. DB/대량 DML 처리.md"
-    },
-    {
-      "basename": "DELETE vs TRUNCATE",
-      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
     }
   ],
   "omittedPaths": [],
