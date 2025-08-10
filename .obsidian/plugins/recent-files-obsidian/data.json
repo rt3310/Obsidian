@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "배열은 배열이고 포인터는 포인터이다.",
+      "path": "Study/1. C, C++/배열은 배열이고 포인터는 포인터이다..md"
+    },
+    {
       "basename": "포인터에는 왜 타입이 있을까",
       "path": "Study/1. C, C++/포인터에는 왜 타입이 있을까.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Hydration",
       "path": "Study/15. Frontend/React/Hydration.md"
-    },
-    {
-      "basename": "Insert 부하 해결",
-      "path": "Study/8. DB/Insert 부하 해결.md"
     }
   ],
   "omittedPaths": [],

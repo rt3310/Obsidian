@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/1. C, C++/포인터에는 왜 타입이 있을까.md",
+                "file": "Study/1. C, C++/배열은 배열이고 포인터는 포인터이다..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "포인터에는 왜 타입이 있을까"
+              "title": "배열은 배열이고 포인터는 포인터이다."
             }
           }
         ],
@@ -197,7 +197,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -308,8 +309,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eb882cc7c0016b71",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
+    "Study/1. C, C++/포인터에는 왜 타입이 있을까.md",
     "Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
     "Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md",
     "Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md",
@@ -346,7 +348,6 @@
     "Plan/공부.md",
     "Plan/트러블 슈팅.md",
     "Study/8. DB/친절한 SQL 튜닝/인덱스 튜닝.md",
-    "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md",
     "Study/8. DB/친절한 SQL 튜닝",
     "Study/12. Http/resources/Pasted image 20250507192212.png",
     "Study/12. Http/resources/Pasted image 20250507191550.png",
