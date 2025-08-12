@@ -197,8 +197,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -309,7 +308,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Study/1. C, C++/포인터에는 왜 타입이 있을까.md",
     "Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md",
