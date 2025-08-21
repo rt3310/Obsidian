@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "개선,트러블슈팅 예시",
+      "path": "Plan/개선,트러블슈팅 예시.md"
+    },
+    {
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
+    },
+    {
       "basename": "포인터에는 왜 타입이 있을까",
       "path": "Study/1. C, C++/포인터에는 왜 타입이 있을까.md"
     },
@@ -109,10 +117,6 @@
       "path": "Plan/학습 필터.md"
     },
     {
-      "basename": "개선,트러블슈팅 예시",
-      "path": "Plan/개선,트러블슈팅 예시.md"
-    },
-    {
       "basename": "Read Through 패턴",
       "path": "Study/8. DB/md/Read Through 패턴.md"
     },
@@ -175,10 +179,6 @@
     {
       "basename": "공부",
       "path": "Plan/공부.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
     },
     {
       "basename": "인덱스 튜닝",
