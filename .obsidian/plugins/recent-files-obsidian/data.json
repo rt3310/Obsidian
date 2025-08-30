@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "@Transactional",
+      "path": "Study/13. JPA/@Transactional.md"
+    },
+    {
+      "basename": "Pasted image 20250507193532",
+      "path": "Pasted image 20250507193532.png"
+    },
+    {
+      "basename": "Pasted image 20250507193542",
+      "path": "Pasted image 20250507193542.png"
+    },
+    {
+      "basename": "@Transactional(readOnly=true)",
+      "path": "Study/13. JPA/@Transactional(readOnly=true).md"
+    },
+    {
       "basename": "개선,트러블슈팅 예시",
       "path": "Plan/개선,트러블슈팅 예시.md"
     },
@@ -165,14 +181,6 @@
       "path": "Pasted image 20250507193050.png"
     },
     {
-      "basename": "Pasted image 20250507193542",
-      "path": "Pasted image 20250507193542.png"
-    },
-    {
-      "basename": "Pasted image 20250507193532",
-      "path": "Pasted image 20250507193532.png"
-    },
-    {
       "basename": "어떻게 공부해야 할까",
       "path": "Plan/어떻게 공부해야 할까.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "SQL 처리 과정과 I,O",
       "path": "Study/8. DB/친절한 SQL 튜닝/SQL 처리 과정과 I,O.md"
-    },
-    {
-      "basename": "Using Temporary, Using Filesort",
-      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
-    },
-    {
-      "basename": "InnoDB 데드락 감지 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/InnoDB 데드락 감지 최적화.md"
     }
   ],
   "omittedPaths": [],
