@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Rate Limiter",
+      "path": "Study/7. Network/Rate Limiter.md"
+    },
+    {
       "basename": "@Transactional",
       "path": "Study/13. JPA/@Transactional.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "인덱스 기본",
       "path": "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md"
-    },
-    {
-      "basename": "SQL 처리 과정과 I,O",
-      "path": "Study/8. DB/친절한 SQL 튜닝/SQL 처리 과정과 I,O.md"
     }
   ],
   "omittedPaths": [],

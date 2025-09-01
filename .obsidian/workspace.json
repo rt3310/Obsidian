@@ -151,12 +151,14 @@
             "id": "6203045dbb43cdea",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "Study/7. Network/Rate Limiter.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.12"
+              "icon": "lucide-file",
+              "title": "Rate Limiter"
             }
           }
         ],
@@ -335,8 +337,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "6203045dbb43cdea",
   "lastOpenFiles": [
+    "Study/7. Network/Rate Limiter.md",
     "Pasted image 20250507193050.png",
     "Pasted image 20250507192720.png",
     "Study/13. JPA/@Transactional.md",
