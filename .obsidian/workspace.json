@@ -146,9 +146,21 @@
               "icon": "lucide-file",
               "title": "@Transactional"
             }
+          },
+          {
+            "id": "6203045dbb43cdea",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.12"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -323,7 +335,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0d51b4b75c086e79",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Pasted image 20250507193050.png",
     "Pasted image 20250507192720.png",
