@@ -94,3 +94,6 @@ X-Ratelimit-Retry-After: 한도 제한에 걸리지 않으려면 몇 초 뒤에 
 ```
 
 ## 요청 제한에 대한 Api consumer 처리 방안
+
+- 다시 요청할 수 있을 때까지 대기
+- 
