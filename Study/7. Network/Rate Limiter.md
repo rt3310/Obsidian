@@ -1,3 +1,4 @@
+https://2jaebbang.tistory.com/190
 ## Rate Limiting
 
 Rate Limiting이란 특정 시간 내에 할 수 있는 API 호출 수를 의미한다. 사용자의 API 호출 수가 Rate Limit 값을 초과하면 API 호출이 제한되며 요쳥이 실패하게 된다. 즉, 단어 그대로 API의 속도를 제한한다. Rate Limiter를 적용하면 고가용성과 안정성을 보장할 수 있다.
