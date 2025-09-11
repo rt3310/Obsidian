@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Ehcache vs Caffeine",
+      "path": "Study/8. DB/Ehcache vs Caffeine.md"
+    },
+    {
+      "basename": "Pasted image 20250911114811",
+      "path": "Study/8. DB/resources/Pasted image 20250911114811.png"
+    },
+    {
+      "basename": "@Transactional",
+      "path": "Study/13. JPA/@Transactional.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "Study/8. DB/SQL.canvas"
+    },
+    {
+      "basename": "개선,트러블슈팅 예시",
+      "path": "Plan/개선,트러블슈팅 예시.md"
+    },
+    {
+      "basename": "취업",
+      "path": "Plan/취업.md"
+    },
+    {
+      "basename": "대량 DML 처리",
+      "path": "Study/8. DB/대량 DML 처리.md"
+    },
+    {
+      "basename": "DELETE vs TRUNCATE",
+      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
+    },
+    {
+      "basename": "공부",
+      "path": "Plan/공부.md"
+    },
+    {
+      "basename": "INSERT 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/INSERT 최적화.md"
+    },
+    {
+      "basename": "ORDER BY 최적화",
+      "path": "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md"
+    },
+    {
+      "basename": "Pasted image 20250911114212",
+      "path": "Study/8. DB/resources/Pasted image 20250911114212.png"
+    },
+    {
       "basename": "Rate Limiter",
       "path": "Study/7. Network/Rate Limiter.md"
     },
@@ -11,10 +63,6 @@
     {
       "basename": "Pasted image 20250901223635",
       "path": "Study/7. Network/resources/Pasted image 20250901223635.png"
-    },
-    {
-      "basename": "@Transactional",
-      "path": "Study/13. JPA/@Transactional.md"
     },
     {
       "basename": "Pasted image 20250507193050",
@@ -31,10 +79,6 @@
     {
       "basename": "@Transactional(readOnly=true)",
       "path": "Study/13. JPA/@Transactional(readOnly=true).md"
-    },
-    {
-      "basename": "개선,트러블슈팅 예시",
-      "path": "Plan/개선,트러블슈팅 예시.md"
     },
     {
       "basename": "트러블 슈팅",
@@ -117,10 +161,6 @@
       "path": "Plan/게임 클라이언트 로드맵.png"
     },
     {
-      "basename": "취업",
-      "path": "Plan/취업.md"
-    },
-    {
       "basename": "캐시 전략",
       "path": "Study/8. DB/캐시 전략.canvas"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "kubeadm",
       "path": "Study/18. Kubernetes/kubeadm.md"
-    },
-    {
-      "basename": "kubelet",
-      "path": "Study/18. Kubernetes/kubelet.md"
-    },
-    {
-      "basename": "Pasted image 20250721014814",
-      "path": "Study/18. Kubernetes/resources/Pasted image 20250721014814.png"
-    },
-    {
-      "basename": "iptables",
-      "path": "Study/18. Kubernetes/iptables.md"
-    },
-    {
-      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
-      "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
-    },
-    {
-      "basename": "2. 결합 인덱스",
-      "path": "Study/8. DB/권순용의 DB 이야기/2. 결합 인덱스.md"
-    },
-    {
-      "basename": "Look Aside 패턴",
-      "path": "Study/8. DB/md/Look Aside 패턴.md"
-    },
-    {
-      "basename": "Pasted image 20250507192737",
-      "path": "Pasted image 20250507192737.png"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "공부",
-      "path": "Plan/공부.md"
-    },
-    {
-      "basename": "인덱스 튜닝",
-      "path": "Study/8. DB/친절한 SQL 튜닝/인덱스 튜닝.md"
     }
   ],
   "omittedPaths": [],
