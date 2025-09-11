@@ -5,6 +5,10 @@
       "path": "Study/8. DB/Ehcache vs Caffeine.md"
     },
     {
+      "basename": "Log",
+      "path": "Study/16. Server/Log.md"
+    },
+    {
       "basename": "Pasted image 20250911114811",
       "path": "Study/8. DB/resources/Pasted image 20250911114811.png"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "kubectl",
       "path": "Study/18. Kubernetes/kubectl.md"
-    },
-    {
-      "basename": "kubeadm",
-      "path": "Study/18. Kubernetes/kubeadm.md"
     }
   ],
   "omittedPaths": [],
