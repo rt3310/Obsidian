@@ -5,16 +5,20 @@
       "path": "Study/16. Server/DLQ(Dead Letter Queue).md"
     },
     {
+      "basename": "Log",
+      "path": "Study/16. Server/Log.md"
+    },
+    {
+      "basename": "Pasted image 20251008141915",
+      "path": "Study/16. Server/resources/Pasted image 20251008141915.png"
+    },
+    {
       "basename": "Pasted image 20250911141032",
       "path": "Pasted image 20250911141032.png"
     },
     {
       "basename": "Ehcache vs Caffeine",
       "path": "Study/8. DB/Ehcache vs Caffeine.md"
-    },
-    {
-      "basename": "Log",
-      "path": "Study/16. Server/Log.md"
     },
     {
       "basename": "Pasted image 20250911114811",
@@ -195,10 +199,6 @@
     {
       "basename": "학습 전략",
       "path": "Plan/학습 전략.md"
-    },
-    {
-      "basename": "학습 필터",
-      "path": "Plan/학습 필터.md"
     }
   ],
   "omittedPaths": [],
