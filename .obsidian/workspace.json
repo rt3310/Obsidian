@@ -84,7 +84,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,7 +197,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "221bf9c0619ee107",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Pasted image 20250911141032.png",
     "Pasted image 20250911141010.png",
