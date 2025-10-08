@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "DLQ(Dead Letter Queue)",
+      "path": "Study/16. Server/DLQ(Dead Letter Queue).md"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
+    },
+    {
       "basename": "Ehcache vs Caffeine",
       "path": "Study/8. DB/Ehcache vs Caffeine.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "학습 필터",
       "path": "Plan/학습 필터.md"
-    },
-    {
-      "basename": "Read Through 패턴",
-      "path": "Study/8. DB/md/Read Through 패턴.md"
-    },
-    {
-      "basename": "kubectl",
-      "path": "Study/18. Kubernetes/kubectl.md"
     }
   ],
   "omittedPaths": [],
