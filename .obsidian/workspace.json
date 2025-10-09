@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "DLQ(Dead Letter Queue)"
             }
+          },
+          {
+            "id": "49bb842cd5b333f5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,7 +209,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a20dbddc5bc8ac1f",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Study/16. Server/Log.md",
     "Study/16. Server/resources/Pasted image 20251008141915.png",
