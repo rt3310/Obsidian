@@ -25,12 +25,14 @@
             "id": "49bb842cd5b333f5",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "Study/16. Server/Bulkhead 패턴.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.14"
+              "icon": "lucide-file",
+              "title": "Bulkhead 패턴"
             }
           }
         ],
@@ -209,20 +211,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "49bb842cd5b333f5",
   "lastOpenFiles": [
-    "Study/16. Server/Log.md",
-    "Study/16. Server/resources/Pasted image 20251008141915.png",
-    "Study/16. Server/DLQ(Dead Letter Queue).md",
-    "Study/16. Server/resources/Pasted image 20251008141959.png",
-    "Study/16. Server/resources/Pasted image 20251008141527.png",
-    "Pasted image 20250911141032.png",
-    "Study/8. DB/Ehcache vs Caffeine.md",
+    "Study/16. Server/resources/Pasted image 20251010011300.png",
+    "Pasted image 20250507192737.png",
+    "Study/16. Server/Bulkhead 패턴.md",
+    "Pasted image 20250507192720.png",
+    "Pasted image 20250507193532.png",
+    "Pasted image 20250507193050.png",
+    "Pasted image 20250911140843.png",
+    "Pasted image 20250507193542.png",
     "Pasted image 20250911141010.png",
     "Pasted image 20250911140904.png",
-    "Pasted image 20250911140843.png",
-    "Study/8. DB/resources/Pasted image 20250911114811.png",
-    "Study/8. DB/resources/Pasted image 20250911114828.png",
+    "Study/16. Server/DLQ(Dead Letter Queue).md",
+    "Study/16. Server/resources/Pasted image 20251010010455.png",
+    "Study/16. Server/resources/Pasted image 20251010010352.jpg",
+    "Study/16. Server/Log.md",
+    "Study/8. DB/Ehcache vs Caffeine.md",
     "Study/13. JPA/@Transactional.md",
     "Study/8. DB/SQL.canvas",
     "Plan/개선,트러블슈팅 예시.md",
@@ -233,7 +238,6 @@
     "Study/8. DB/MySQL 성능 최적화/INSERT 최적화.md",
     "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md",
     "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md",
-    "Study/8. DB/resources/Pasted image 20250911114212.png",
     "Study/7. Network/Rate Limiter.md",
     "Study/13. JPA/@Transactional(readOnly=true).md",
     "Plan/트러블 슈팅.md",
@@ -246,7 +250,6 @@
     "Study/1. C, C++/cc vs cpp.md",
     "Study/1. C, C++/연산자 오버로딩.md",
     "Study/1. C, C++/템플릿.md",
-    "Study/1. C, C++/미리 컴파일 된 헤더.md",
     "Study/8. DB/캐시 전략.canvas",
     "Study/19. Redis",
     "Study/18. Kubernetes/resources",

@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Bulkhead 패턴",
+      "path": "Study/16. Server/Bulkhead 패턴.md"
+    },
+    {
+      "basename": "Pasted image 20250507192737",
+      "path": "Pasted image 20250507192737.png"
+    },
+    {
+      "basename": "Pasted image 20250507192720",
+      "path": "Pasted image 20250507192720.png"
+    },
+    {
+      "basename": "Pasted image 20250507193532",
+      "path": "Pasted image 20250507193532.png"
+    },
+    {
+      "basename": "Pasted image 20250507193050",
+      "path": "Pasted image 20250507193050.png"
+    },
+    {
+      "basename": "Pasted image 20250911140843",
+      "path": "Pasted image 20250911140843.png"
+    },
+    {
+      "basename": "Pasted image 20250507193542",
+      "path": "Pasted image 20250507193542.png"
+    },
+    {
+      "basename": "Pasted image 20250911141010",
+      "path": "Pasted image 20250911141010.png"
+    },
+    {
+      "basename": "Pasted image 20250911140904",
+      "path": "Pasted image 20250911140904.png"
+    },
+    {
       "basename": "DLQ(Dead Letter Queue)",
       "path": "Study/16. Server/DLQ(Dead Letter Queue).md"
     },
@@ -73,24 +109,8 @@
       "path": "Study/7. Network/Rate Limiter.md"
     },
     {
-      "basename": "Pasted image 20250507193542",
-      "path": "Pasted image 20250507193542.png"
-    },
-    {
       "basename": "Pasted image 20250901223635",
       "path": "Study/7. Network/resources/Pasted image 20250901223635.png"
-    },
-    {
-      "basename": "Pasted image 20250507193050",
-      "path": "Pasted image 20250507193050.png"
-    },
-    {
-      "basename": "Pasted image 20250507192720",
-      "path": "Pasted image 20250507192720.png"
-    },
-    {
-      "basename": "Pasted image 20250507193532",
-      "path": "Pasted image 20250507193532.png"
     },
     {
       "basename": "@Transactional(readOnly=true)",
@@ -179,26 +199,6 @@
     {
       "basename": "캐시 전략",
       "path": "Study/8. DB/캐시 전략.canvas"
-    },
-    {
-      "basename": "Redis",
-      "path": "Study/19. Redis/Redis.md"
-    },
-    {
-      "basename": "캐시 선택",
-      "path": "Posting/Cache/캐시 선택.md"
-    },
-    {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Posting/Cache/Ehcache vs Caffeine.md"
-    },
-    {
-      "basename": "EBP, ESP Register",
-      "path": "Posting/Computer Structure/EBP, ESP Register.md"
-    },
-    {
-      "basename": "학습 전략",
-      "path": "Plan/학습 전략.md"
     }
   ],
   "omittedPaths": [],
