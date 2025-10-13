@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "채널계, 계정계, 정보계",
+      "path": "Study/27. Finance/채널계, 계정계, 정보계.md"
+    },
+    {
+      "basename": "Pasted image 20250911140904",
+      "path": "Pasted image 20250911140904.png"
+    },
+    {
+      "basename": "Pasted image 20250507193050",
+      "path": "Pasted image 20250507193050.png"
+    },
+    {
+      "basename": "Pasted image 20250507192720",
+      "path": "Pasted image 20250507192720.png"
+    },
+    {
+      "basename": "Pasted image 20251013225121",
+      "path": "Study/27. Finance/resources/Pasted image 20251013225121.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
+    },
+    {
+      "basename": "금융회사 시스템 연계 (MCI,EAI,FEP)",
+      "path": "Study/27. Finance/금융회사 시스템 연계 (MCI,EAI,FEP).md"
+    },
+    {
+      "basename": "Pasted image 20250911140843",
+      "path": "Pasted image 20250911140843.png"
+    },
+    {
       "basename": "Bulkhead 패턴",
       "path": "Study/16. Server/Bulkhead 패턴.md"
     },
@@ -9,20 +41,8 @@
       "path": "Pasted image 20250507192737.png"
     },
     {
-      "basename": "Pasted image 20250507192720",
-      "path": "Pasted image 20250507192720.png"
-    },
-    {
       "basename": "Pasted image 20250507193532",
       "path": "Pasted image 20250507193532.png"
-    },
-    {
-      "basename": "Pasted image 20250507193050",
-      "path": "Pasted image 20250507193050.png"
-    },
-    {
-      "basename": "Pasted image 20250911140843",
-      "path": "Pasted image 20250911140843.png"
     },
     {
       "basename": "Pasted image 20250507193542",
@@ -31,10 +51,6 @@
     {
       "basename": "Pasted image 20250911141010",
       "path": "Pasted image 20250911141010.png"
-    },
-    {
-      "basename": "Pasted image 20250911140904",
-      "path": "Pasted image 20250911140904.png"
     },
     {
       "basename": "DLQ(Dead Letter Queue)",
@@ -47,10 +63,6 @@
     {
       "basename": "Pasted image 20251008141915",
       "path": "Study/16. Server/resources/Pasted image 20251008141915.png"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
     },
     {
       "basename": "Ehcache vs Caffeine",
@@ -187,18 +199,6 @@
     {
       "basename": "CH10 - Pipeline",
       "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH10 - Pipeline.md"
-    },
-    {
-      "basename": "CH9 - Computer Arithmetic",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH9 - Computer Arithmetic.md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "캐시 전략",
-      "path": "Study/8. DB/캐시 전략.canvas"
     }
   ],
   "omittedPaths": [],
