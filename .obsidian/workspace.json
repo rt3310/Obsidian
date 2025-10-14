@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/27. Finance/채널계, 계정계, 정보계.md",
+                "file": "Study/27. Finance/전문.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "채널계, 계정계, 정보계"
+              "title": "전문"
             }
           }
         ],
@@ -99,8 +99,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -212,24 +211,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "49bb842cd5b333f5",
   "lastOpenFiles": [
+    "Pasted image 20250911141010.png",
+    "Study/27. Finance/전문.md",
+    "Pasted image 20250507193542.png",
     "Pasted image 20250911140904.png",
+    "Study/27. Finance/마이데이터.md",
+    "Pasted image 20250507192737.png",
+    "Study/27. Finance/resources/Pasted image 20251015011817.png",
+    "Study/27. Finance/금융회사 시스템 연계 (MCI,EAI,FEP).md",
     "Study/27. Finance/채널계, 계정계, 정보계.md",
+    "Study/1. C, C++/함수 오버로딩 과정.md",
     "Pasted image 20250507193050.png",
     "Pasted image 20250507192720.png",
     "Pasted image 20251013230532.png",
     "Study/27. Finance/resources/Pasted image 20251013225121.png",
     "Pasted image 20250911141032.png",
-    "Study/27. Finance/resources/Pasted image 20251013225747.png",
-    "Study/27. Finance/금융회사 시스템 연계 (MCI,EAI,FEP).md",
-    "Pasted image 20250911140843.png",
-    "Study/27. Finance/resources/Pasted image 20251013224323.png",
     "Study/27. Finance/resources",
     "Study/16. Server/Bulkhead 패턴.md",
     "Study/27. Finance",
-    "Study/16. Server/resources/Pasted image 20251010011300.png",
-    "Pasted image 20250507192737.png",
     "Study/16. Server/DLQ(Dead Letter Queue).md",
     "Study/16. Server/Log.md",
     "Study/8. DB/Ehcache vs Caffeine.md",
@@ -247,12 +248,9 @@
     "Study/13. JPA/@Transactional(readOnly=true).md",
     "Plan/트러블 슈팅.md",
     "Study/1. C, C++/포인터에는 왜 타입이 있을까.md",
-    "Study/1. C, C++/함수 오버로딩 과정.md",
     "Study/1. C, C++/new vs malloc.md",
     "Study/1. C, C++/switch 문의 제약사항.md",
     "Study/1. C, C++/pragma.md",
-    "Study/1. C, C++/placement new.md",
-    "Study/1. C, C++/cc vs cpp.md",
     "Study/8. DB/캐시 전략.canvas",
     "Study/19. Redis",
     "Study/18. Kubernetes/resources",
