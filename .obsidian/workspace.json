@@ -99,7 +99,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -211,7 +212,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49bb842cd5b333f5",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Pasted image 20250911140904.png",
     "Study/27. Finance/채널계, 계정계, 정보계.md",
