@@ -1,20 +1,160 @@
 {
   "recentFiles": [
     {
-      "basename": "전문",
-      "path": "Study/27. Finance/전문.md"
+      "basename": "Cache Stampede",
+      "path": "Study/9. Cache/Cache Stampede.md"
     },
     {
-      "basename": "Pasted image 20250911141010",
-      "path": "Pasted image 20250911141010.png"
+      "basename": "Pasted image 20250911140904",
+      "path": "Pasted image 20250911140904.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
     },
     {
       "basename": "Pasted image 20250507193542",
       "path": "Pasted image 20250507193542.png"
     },
     {
-      "basename": "Pasted image 20250911140904",
-      "path": "Pasted image 20250911140904.png"
+      "basename": "캐시 문제 해결",
+      "path": "Study/9. Cache/캐시 문제 해결.md"
+    },
+    {
+      "basename": "Pasted image 20251013230532",
+      "path": "Pasted image 20251013230532.png"
+    },
+    {
+      "basename": "Ehcache vs Caffeine",
+      "path": "Study/9. Cache/Ehcache vs Caffeine.md"
+    },
+    {
+      "basename": "React Query",
+      "path": "Study/19. Frontend/React/React Query.md"
+    },
+    {
+      "basename": "Hydration",
+      "path": "Study/19. Frontend/React/Hydration.md"
+    },
+    {
+      "basename": "자바스크립트",
+      "path": "Study/19. Frontend/자바스크립트.md"
+    },
+    {
+      "basename": "Using Temporary, Using Filesort",
+      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
+    },
+    {
+      "basename": "Insert 부하 해결",
+      "path": "Study/8. DB/Insert 부하 해결.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "Study/8. DB/SQL.canvas"
+    },
+    {
+      "basename": "DELETE vs TRUNCATE",
+      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
+    },
+    {
+      "basename": "DB 병목 원인과 대책",
+      "path": "Study/8. DB/DB 병목 원인과 대책.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Study/9. Cache/Redis.md"
+    },
+    {
+      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
+      "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
+    },
+    {
+      "basename": "수십억건에서 querydsl 사용하기",
+      "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
+    },
+    {
+      "basename": "HTTP 헤더",
+      "path": "Study/7. Network/HTTP/HTTP 헤더.md"
+    },
+    {
+      "basename": "Keep-Alive",
+      "path": "Study/7. Network/HTTP/Keep-Alive.md"
+    },
+    {
+      "basename": "GSLB",
+      "path": "Study/7. Network/GSLB.canvas"
+    },
+    {
+      "basename": "HTTP 헤더 - 캐시",
+      "path": "Study/7. Network/HTTP/HTTP 헤더 - 캐시.md"
+    },
+    {
+      "basename": "해볼 것",
+      "path": "Study/3. DataStructure/해볼 것.md"
+    },
+    {
+      "basename": "BFS",
+      "path": "Study/4. Algorithm/BFS.md"
+    },
+    {
+      "basename": "분리집합",
+      "path": "Study/4. Algorithm/분리집합.md"
+    },
+    {
+      "basename": "컴퓨터 부팅 과정",
+      "path": "Study/6. OS/컴퓨터 부팅 과정.canvas"
+    },
+    {
+      "basename": "쓰레드(Thread)",
+      "path": "Study/6. OS/쓰레드(Thread).canvas"
+    },
+    {
+      "basename": "쓰레드 동기화",
+      "path": "Study/6. OS/md/쓰레드 동기화.md"
+    },
+    {
+      "basename": "사용자 수준 쓰레드(ULT)",
+      "path": "Study/6. OS/md/사용자 수준 쓰레드(ULT).md"
+    },
+    {
+      "basename": "멀티 쓰레딩",
+      "path": "Study/6. OS/md/멀티 쓰레딩.md"
+    },
+    {
+      "basename": "쓰레드",
+      "path": "Study/6. OS/md/쓰레드.md"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시 전략.canvas"
+    },
+    {
+      "basename": "이벤트 기반 아키텍처(Event-driven)",
+      "path": "Study/15. Software Engineering/이벤트 기반 아키텍처(Event-driven).md"
+    },
+    {
+      "basename": "Log",
+      "path": "Study/10. Server/Log.md"
+    },
+    {
+      "basename": "DLQ(Dead Letter Queue)",
+      "path": "Study/10. Server/DLQ(Dead Letter Queue).md"
+    },
+    {
+      "basename": "Bulkhead 패턴",
+      "path": "Study/10. Server/Bulkhead 패턴.md"
+    },
+    {
+      "basename": "전문",
+      "path": "Study/27. Finance/전문.md"
+    },
+    {
+      "basename": "Pasted image 20250911141010",
+      "path": "Pasted image 20250911141010.png"
     },
     {
       "basename": "마이데이터",
@@ -49,156 +189,16 @@
       "path": "Study/27. Finance/resources/Pasted image 20251013225121.png"
     },
     {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
-    },
-    {
       "basename": "Pasted image 20250911140843",
       "path": "Pasted image 20250911140843.png"
-    },
-    {
-      "basename": "Bulkhead 패턴",
-      "path": "Study/16. Server/Bulkhead 패턴.md"
     },
     {
       "basename": "Pasted image 20250507193532",
       "path": "Pasted image 20250507193532.png"
     },
     {
-      "basename": "DLQ(Dead Letter Queue)",
-      "path": "Study/16. Server/DLQ(Dead Letter Queue).md"
-    },
-    {
-      "basename": "Log",
-      "path": "Study/16. Server/Log.md"
-    },
-    {
       "basename": "Pasted image 20251008141915",
-      "path": "Study/16. Server/resources/Pasted image 20251008141915.png"
-    },
-    {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Study/8. DB/Ehcache vs Caffeine.md"
-    },
-    {
-      "basename": "Pasted image 20250911114811",
-      "path": "Study/8. DB/resources/Pasted image 20250911114811.png"
-    },
-    {
-      "basename": "@Transactional",
-      "path": "Study/13. JPA/@Transactional.md"
-    },
-    {
-      "basename": "SQL",
-      "path": "Study/8. DB/SQL.canvas"
-    },
-    {
-      "basename": "개선,트러블슈팅 예시",
-      "path": "Plan/개선,트러블슈팅 예시.md"
-    },
-    {
-      "basename": "취업",
-      "path": "Plan/취업.md"
-    },
-    {
-      "basename": "대량 DML 처리",
-      "path": "Study/8. DB/대량 DML 처리.md"
-    },
-    {
-      "basename": "DELETE vs TRUNCATE",
-      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
-    },
-    {
-      "basename": "공부",
-      "path": "Plan/공부.md"
-    },
-    {
-      "basename": "INSERT 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/INSERT 최적화.md"
-    },
-    {
-      "basename": "ORDER BY 최적화",
-      "path": "Study/8. DB/MySQL 성능 최적화/ORDER BY 최적화.md"
-    },
-    {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/MySQL 성능 최적화/커버링 인덱스.md"
-    },
-    {
-      "basename": "Pasted image 20250911114212",
-      "path": "Study/8. DB/resources/Pasted image 20250911114212.png"
-    },
-    {
-      "basename": "Rate Limiter",
-      "path": "Study/7. Network/Rate Limiter.md"
-    },
-    {
-      "basename": "Pasted image 20250901223635",
-      "path": "Study/7. Network/resources/Pasted image 20250901223635.png"
-    },
-    {
-      "basename": "@Transactional(readOnly=true)",
-      "path": "Study/13. JPA/@Transactional(readOnly=true).md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
-    },
-    {
-      "basename": "포인터에는 왜 타입이 있을까",
-      "path": "Study/1. C, C++/포인터에는 왜 타입이 있을까.md"
-    },
-    {
-      "basename": "new vs malloc",
-      "path": "Study/1. C, C++/new vs malloc.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Study/1. C, C++/switch 문의 제약사항.md"
-    },
-    {
-      "basename": "pragma",
-      "path": "Study/1. C, C++/pragma.md"
-    },
-    {
-      "basename": "placement new",
-      "path": "Study/1. C, C++/placement new.md"
-    },
-    {
-      "basename": "cc vs cpp",
-      "path": "Study/1. C, C++/cc vs cpp.md"
-    },
-    {
-      "basename": "연산자 오버로딩",
-      "path": "Study/1. C, C++/연산자 오버로딩.md"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "미리 컴파일 된 헤더",
-      "path": "Study/1. C, C++/미리 컴파일 된 헤더.md"
-    },
-    {
-      "basename": "배열은 배열이고 포인터는 포인터이다.",
-      "path": "Study/1. C, C++/배열은 배열이고 포인터는 포인터이다..md"
-    },
-    {
-      "basename": "CH4 - Instruction Architecture Set",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH4 - Instruction Architecture Set.md"
-    },
-    {
-      "basename": "CH3 - Instruction Architecture Set",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH3 - Instruction Architecture Set.md"
-    },
-    {
-      "basename": "CH2 - Instruction Architecture Set",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH2 - Instruction Architecture Set.md"
-    },
-    {
-      "basename": "CH6 - Linker",
-      "path": "Study/5. ComputerStructure/최린 컴퓨터구조/CH6 - Linker.md"
+      "path": "Study/10. Server/resources/Pasted image 20251008141915.png"
     }
   ],
   "omittedPaths": [],
