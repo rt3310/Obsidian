@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/10. Server/Zookeeper.md",
+                "file": "Study/9. Cache/Cache Stampede.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zookeeper"
+              "title": "Cache Stampede"
             }
           },
           {
@@ -109,7 +109,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -221,11 +222,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49bb842cd5b333f5",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
+    "Study/10. Server/Zookeeper.md",
     "Study/10. Server/resources/Pasted image 20251015211413.png",
     "Pasted image 20250507192737.png",
-    "Study/10. Server/Zookeeper.md",
     "Study/10. Server/resources/Pasted image 20251015201226.png",
     "Study/8. DB/MySQL/ICP(Index Condition Pushdown).md",
     "Study/8. DB/-resources/Pasted image 20251015190757.png",
@@ -261,7 +262,6 @@
     "Plan/게임 클라이언트 로드맵.png",
     "Pasted image 20250911140904.png",
     "Pasted image 20250911141032.png",
-    "Pasted image 20250507193542.png",
     "Study/9. Cache/-resources",
     "Study/7. Network/GSLB.canvas",
     "Study/6. OS/컴퓨터 부팅 과정.canvas",
