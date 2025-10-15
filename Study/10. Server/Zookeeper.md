@@ -30,3 +30,39 @@ znode는 우리가 알고 있는 일반적인 디렉토리와 비슷한 형태�
 - Zab(Zookeeper Atomic Broadcast Protocol): Request Processor에서 처리한 요청을 트랜잭션을 생성하여 모든 서버에게 전파한다.
 	- \[Leader-Propose]→\[Follower-Accept]→\[Leader-Commit] 단계로 구성된다.
 - In-memory DB: Znode의 정보가 저장되며, 로컬 파일시스템에 Replication을 구성할 수 있다.
+
+## ZNode
+
+ZooKeeper는 트리 형태의 데이터 구조를 가지는데, 여기서 각 노드를 ZNode라고 부른다.
+
+![[Pasted image 20251015211413.png]]
+
+- Persistent Node: 영구 저장소
+- Ephermeral Node: Client가 종료되면 사라진다.
+- Sequence Node: 생성 시 뒤에 숫자가 붙는다.
+
+## Watcher
+
+ZooKeeper는 ZNode에 변화를 감지할 수 있는 Watcher를 클라이언트가 설정할 수 있도록 한다.
+Watcher는 자신이 감시하고 있는 ZNode에 수정이 발생했을 때, 클라이언트로 callback 호출을 전송하는 알림 기능을 제공한다.
+
+## Quorum
+
+Leader가 새로운 트랜잭션을 수행하기 위해서는 자신을 포함하여 과반수 이상의 서버의 합의를 얻어야 한다. 이때, 과반수의 합의를 위해 필요한 서버들을 Quorum이라고 한다.
+Ensemble을 구성하는 서버의 수가 5개라면, Quorum은 3개의 서버로 구성이 된다.
+
+### 트랜잭션 처리
+1. Leader에게 Request 전달
+	- 새로운 트랜잭션 요청이 Follower에게 도착했을 경우, Follower는 Leader에게 요청을 전달한다.
+2. Propose
+	- Propose는 Leader가 Quorum을 구성하는 서버들에게 트랜잭션을 수행해도 되는지 여부를 요청하는 과정을 의미한다.
+3. Ack
+	- Quorum을 구성하는 서버들은 Leader로 부터 Propose 요청을 받으면, 트랜잭션을 수행해도 된다는 Ack 응답을 Leader에게 전송한다.
+4. Commit
+	- 모든 Quorum으로 부터 Ack를 받으면, Leader는 트랜잭션을 처리하라는 Commit 명령을 broadcast 형태로 모든 Follower에 전파한다.
+	- ZooKeeper에서는 Commit 명령을 전달할 때, ZAB(ZooKeeper Atomic Broadcast) 알고리즘을 사용한다.
+	- Atomic Broadcast는 broadcast 방식 중 하나로, 멀티 프로세스 시스템에서 모든 프로세스에게 동일한 순서로 메시지가 전달된다는 것을 의미한다.
+
+## ZooKeeper를 짝수로 구성한 경우 생기는 문제점
+
+크게 문제는 없으나, 짝수로 구성한 경우 쿼럼(Quorum)을 형성할 때 비례적으로 노드 수가 더 필요하므로 잘 사용되지 않는다.(4대로 구성한 경우 3대 필요)
