@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/9. Cache/Cache Stampede.md",
+                "file": "Study/27. Other/수익화를 위한 앱 개발.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cache Stampede"
+              "title": "수익화를 위한 앱 개발"
             }
           },
           {
@@ -109,8 +109,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,8 +221,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "49bb842cd5b333f5",
   "lastOpenFiles": [
+    "Study/9. Cache/Cache Stampede.md",
+    "Study/27. Other/수익화를 위한 앱 개발.md",
+    "Study/27. Other",
     "Study/10. Server/Zookeeper.md",
     "Study/10. Server/resources/Pasted image 20251015211413.png",
     "Pasted image 20250507192737.png",
@@ -255,7 +257,6 @@
     "Study/8. DB/레퍼런스/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md",
     "Study/8. DB/레퍼런스/MySQL 성능 최적화/다중 컬럼 인덱스.md",
     "Study/8. DB/MySQL",
-    "Study/9. Cache/Cache Stampede.md",
     "Study/8. DB/-resources/Pasted image 20251015174127.png",
     "Pasted image 20251013230532.png",
     "Plan/백엔드 포트폴리오 주제.md",
@@ -274,7 +275,6 @@
     "Study/18. Kubernetes/resources",
     "Study/18. Kubernetes",
     "Study/8. DB/레퍼런스/친절한 SQL 튜닝",
-    "Study/15. Software Engineering/resources",
     "Study/8. DB/샤딩(Sharding).canvas",
     "Study/8. DB/정규화.canvas",
     "Study/8. DB/조인(Join).canvas",

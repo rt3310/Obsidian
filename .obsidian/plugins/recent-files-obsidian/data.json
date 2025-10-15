@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "수익화를 위한 앱 개발",
+      "path": "Study/27. Other/수익화를 위한 앱 개발.md"
+    },
+    {
       "basename": "Cache Stampede",
       "path": "Study/9. Cache/Cache Stampede.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "HTTP 헤더",
       "path": "Study/7. Network/HTTP/HTTP 헤더.md"
-    },
-    {
-      "basename": "Keep-Alive",
-      "path": "Study/7. Network/HTTP/Keep-Alive.md"
     }
   ],
   "omittedPaths": [],
