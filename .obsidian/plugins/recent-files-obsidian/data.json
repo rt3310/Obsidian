@@ -5,6 +5,10 @@
       "path": "Study/27. Other/수익화를 위한 앱 개발.md"
     },
     {
+      "basename": "Pasted image 20251016031544",
+      "path": "Study/27. Other/-resources/Pasted image 20251016031544.png"
+    },
+    {
       "basename": "Cache Stampede",
       "path": "Study/9. Cache/Cache Stampede.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "수십억건에서 querydsl 사용하기",
       "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
-    },
-    {
-      "basename": "HTTP 헤더",
-      "path": "Study/7. Network/HTTP/HTTP 헤더.md"
     }
   ],
   "omittedPaths": [],
