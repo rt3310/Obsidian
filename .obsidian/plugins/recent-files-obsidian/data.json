@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Zookeeper",
+      "path": "Study/10. Server/Zookeeper.md"
+    },
+    {
       "basename": "ICP(Index Condition Pushdown)",
       "path": "Study/8. DB/MySQL/ICP(Index Condition Pushdown).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "GSLB",
       "path": "Study/7. Network/GSLB.canvas"
-    },
-    {
-      "basename": "HTTP 헤더 - 캐시",
-      "path": "Study/7. Network/HTTP/HTTP 헤더 - 캐시.md"
     }
   ],
   "omittedPaths": [],
