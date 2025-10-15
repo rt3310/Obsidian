@@ -5,6 +5,10 @@
       "path": "Study/10. Server/Zookeeper.md"
     },
     {
+      "basename": "Pasted image 20250507192737",
+      "path": "Pasted image 20250507192737.png"
+    },
+    {
       "basename": "ICP(Index Condition Pushdown)",
       "path": "Study/8. DB/MySQL/ICP(Index Condition Pushdown).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Keep-Alive",
       "path": "Study/7. Network/HTTP/Keep-Alive.md"
-    },
-    {
-      "basename": "GSLB",
-      "path": "Study/7. Network/GSLB.canvas"
     }
   ],
   "omittedPaths": [],
