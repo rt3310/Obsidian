@@ -1,8 +1,148 @@
 {
   "recentFiles": [
     {
+      "basename": "ICP(Index Condition Pushdown)",
+      "path": "Study/8. DB/MySQL/ICP(Index Condition Pushdown).md"
+    },
+    {
+      "basename": "SQL 처리 과정과 I,O",
+      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/SQL 처리 과정과 I,O.md"
+    },
+    {
+      "basename": "인덱스 튜닝",
+      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 튜닝.md"
+    },
+    {
+      "basename": "인덱스 기본",
+      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md"
+    },
+    {
+      "basename": "2. 결합 인덱스",
+      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/2. 결합 인덱스.md"
+    },
+    {
+      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
+      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Study/8. DB/인덱스/커버링 인덱스.md"
+    },
+    {
+      "basename": "3. 인덱스 스캔 효율",
+      "path": "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md"
+    },
+    {
+      "basename": "2. 인덱스 향상",
+      "path": "Study/8. DB/인덱스/2. 인덱스 향상.md"
+    },
+    {
+      "basename": "1. 인덱스",
+      "path": "Study/8. DB/인덱스/1. 인덱스.md"
+    },
+    {
+      "basename": "1. 조인의 기본 원리와 사용",
+      "path": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md"
+    },
+    {
+      "basename": "2. 조인 테크닉",
+      "path": "Study/8. DB/조인/2. 조인 테크닉.md"
+    },
+    {
+      "basename": "InnoDB vs MyISAM",
+      "path": "Study/8. DB/MySQL/InnoDB vs MyISAM.md"
+    },
+    {
+      "basename": "Insert 부하 해결",
+      "path": "Study/8. DB/Insert 부하 해결.md"
+    },
+    {
+      "basename": "Using Temporary, Using Filesort",
+      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "Study/8. DB/SQL.canvas"
+    },
+    {
+      "basename": "DELETE vs TRUNCATE",
+      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
+    },
+    {
+      "basename": "NoOffset 최적화",
+      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/NoOffset 최적화.md"
+    },
+    {
+      "basename": "INSERT 최적화",
+      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/INSERT 최적화.md"
+    },
+    {
+      "basename": "InnoDB Buffer Pool 최적화",
+      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/InnoDB Buffer Pool 최적화.md"
+    },
+    {
+      "basename": "Index Dive 최적화",
+      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/Index Dive 최적화.md"
+    },
+    {
+      "basename": "Auto Increment Lock Mode 최적화",
+      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md"
+    },
+    {
+      "basename": "다중 컬럼 인덱스",
+      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/다중 컬럼 인덱스.md"
+    },
+    {
       "basename": "Cache Stampede",
       "path": "Study/9. Cache/Cache Stampede.md"
+    },
+    {
+      "basename": "Pasted image 20251015174127",
+      "path": "Study/8. DB/-resources/Pasted image 20251015174127.png"
+    },
+    {
+      "basename": "Pasted image 20251013230532",
+      "path": "Pasted image 20251013230532.png"
+    },
+    {
+      "basename": "백엔드 포트폴리오 주제",
+      "path": "Plan/백엔드 포트폴리오 주제.md"
+    },
+    {
+      "basename": "학습 필터",
+      "path": "Plan/학습 필터.md"
+    },
+    {
+      "basename": "학습 전략",
+      "path": "Plan/학습 전략.md"
+    },
+    {
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
+    },
+    {
+      "basename": "취업",
+      "path": "Plan/취업.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "공부",
+      "path": "Plan/공부.md"
+    },
+    {
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Plan/게임 클라이언트 로드맵.png"
+    },
+    {
+      "basename": "개선,트러블슈팅 예시",
+      "path": "Plan/개선,트러블슈팅 예시.md"
+    },
+    {
+      "basename": "캐시 문제 해결",
+      "path": "Study/9. Cache/캐시 문제 해결.md"
     },
     {
       "basename": "Pasted image 20250911140904",
@@ -15,14 +155,6 @@
     {
       "basename": "Pasted image 20250507193542",
       "path": "Pasted image 20250507193542.png"
-    },
-    {
-      "basename": "캐시 문제 해결",
-      "path": "Study/9. Cache/캐시 문제 해결.md"
-    },
-    {
-      "basename": "Pasted image 20251013230532",
-      "path": "Pasted image 20251013230532.png"
     },
     {
       "basename": "Ehcache vs Caffeine",
@@ -41,32 +173,12 @@
       "path": "Study/19. Frontend/자바스크립트.md"
     },
     {
-      "basename": "Using Temporary, Using Filesort",
-      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
-    },
-    {
-      "basename": "Insert 부하 해결",
-      "path": "Study/8. DB/Insert 부하 해결.md"
-    },
-    {
-      "basename": "SQL",
-      "path": "Study/8. DB/SQL.canvas"
-    },
-    {
-      "basename": "DELETE vs TRUNCATE",
-      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
-    },
-    {
       "basename": "DB 병목 원인과 대책",
       "path": "Study/8. DB/DB 병목 원인과 대책.md"
     },
     {
       "basename": "Redis",
       "path": "Study/9. Cache/Redis.md"
-    },
-    {
-      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
-      "path": "Study/8. DB/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
     },
     {
       "basename": "수십억건에서 querydsl 사용하기",
@@ -87,118 +199,6 @@
     {
       "basename": "HTTP 헤더 - 캐시",
       "path": "Study/7. Network/HTTP/HTTP 헤더 - 캐시.md"
-    },
-    {
-      "basename": "해볼 것",
-      "path": "Study/3. DataStructure/해볼 것.md"
-    },
-    {
-      "basename": "BFS",
-      "path": "Study/4. Algorithm/BFS.md"
-    },
-    {
-      "basename": "분리집합",
-      "path": "Study/4. Algorithm/분리집합.md"
-    },
-    {
-      "basename": "컴퓨터 부팅 과정",
-      "path": "Study/6. OS/컴퓨터 부팅 과정.canvas"
-    },
-    {
-      "basename": "쓰레드(Thread)",
-      "path": "Study/6. OS/쓰레드(Thread).canvas"
-    },
-    {
-      "basename": "쓰레드 동기화",
-      "path": "Study/6. OS/md/쓰레드 동기화.md"
-    },
-    {
-      "basename": "사용자 수준 쓰레드(ULT)",
-      "path": "Study/6. OS/md/사용자 수준 쓰레드(ULT).md"
-    },
-    {
-      "basename": "멀티 쓰레딩",
-      "path": "Study/6. OS/md/멀티 쓰레딩.md"
-    },
-    {
-      "basename": "쓰레드",
-      "path": "Study/6. OS/md/쓰레드.md"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "캐시 전략",
-      "path": "Study/8. DB/캐시 전략.canvas"
-    },
-    {
-      "basename": "이벤트 기반 아키텍처(Event-driven)",
-      "path": "Study/15. Software Engineering/이벤트 기반 아키텍처(Event-driven).md"
-    },
-    {
-      "basename": "Log",
-      "path": "Study/10. Server/Log.md"
-    },
-    {
-      "basename": "DLQ(Dead Letter Queue)",
-      "path": "Study/10. Server/DLQ(Dead Letter Queue).md"
-    },
-    {
-      "basename": "Bulkhead 패턴",
-      "path": "Study/10. Server/Bulkhead 패턴.md"
-    },
-    {
-      "basename": "전문",
-      "path": "Study/27. Finance/전문.md"
-    },
-    {
-      "basename": "Pasted image 20250911141010",
-      "path": "Pasted image 20250911141010.png"
-    },
-    {
-      "basename": "마이데이터",
-      "path": "Study/27. Finance/마이데이터.md"
-    },
-    {
-      "basename": "Pasted image 20250507192737",
-      "path": "Pasted image 20250507192737.png"
-    },
-    {
-      "basename": "금융회사 시스템 연계 (MCI,EAI,FEP)",
-      "path": "Study/27. Finance/금융회사 시스템 연계 (MCI,EAI,FEP).md"
-    },
-    {
-      "basename": "채널계, 계정계, 정보계",
-      "path": "Study/27. Finance/채널계, 계정계, 정보계.md"
-    },
-    {
-      "basename": "함수 오버로딩 과정",
-      "path": "Study/1. C, C++/함수 오버로딩 과정.md"
-    },
-    {
-      "basename": "Pasted image 20250507193050",
-      "path": "Pasted image 20250507193050.png"
-    },
-    {
-      "basename": "Pasted image 20250507192720",
-      "path": "Pasted image 20250507192720.png"
-    },
-    {
-      "basename": "Pasted image 20251013225121",
-      "path": "Study/27. Finance/resources/Pasted image 20251013225121.png"
-    },
-    {
-      "basename": "Pasted image 20250911140843",
-      "path": "Pasted image 20250911140843.png"
-    },
-    {
-      "basename": "Pasted image 20250507193532",
-      "path": "Pasted image 20250507193532.png"
-    },
-    {
-      "basename": "Pasted image 20251008141915",
-      "path": "Study/10. Server/resources/Pasted image 20251008141915.png"
     }
   ],
   "omittedPaths": [],
