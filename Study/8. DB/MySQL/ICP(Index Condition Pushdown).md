@@ -63,6 +63,26 @@ MySQL(MariaDB)는 내부적으로 MySQL(MariaDB)엔진과 스토리지 엔진(In
 ![[Pasted image 20251015174836.png]]
 스토리지 엔진이 넘겨 준 데이터(인덱스를 사용해 걸러진 데이터) 중에서 MySQL(MariaDB) 엔진이 한 번 더 걸러야되는 조건 (필터링 혹은 체크 조건)이 있다면 `Using where`이 된다.
 
+즉, 이 쿼리에서 스토리지 엔진이 걸러 낼 수 있는 조건은 `customer_id=7`뿐이며 `offset_type like '%LIST'` 조건은 MySQL(MariaDB) 엔진에서 담당하여 `customer_id=7`인 데이터들을 테이블에서 모두 찾아 `offset_type like '%LIST'` 조건을 비교하게 된다.
+
+그런데 여기서 한 가지 의문이 생긴다.
+이미 `customer_id=7`을 통해 idx_temp_ad_offset_2 인덱스 필드 (customer_id, offset_type)를 읽은 상태인데 offset_type 비교를 테이블에서 굳이 할 필요가 있을까?
+
+이건 이유가 있다.
+MySQL 5.5 (MariaDB 5.2) 버전까지는 인덱스에 포함된 필드이지만, 인덱스 범위 조건으로 사용할 수 없는 경우엔 스토리지 엔진 조건 자체를 전달조차 못했다.
+스토리지 엔진에서 해당 필드에 대한 조건은 받은게 없으니 처리할 수가 없는 것이다.
+
+그 이후 버전 (MySQL 5.6 / MariaDB 5.3) 부터는 인덱스 범위 조건에 사용될 수 없어도, 인덱스에 포함된 필드라면 스토리지 엔진으로 전달하여 최대한 스토리지 엔진에서 걸러낸 데이터만 MySQL (MariaDB) 엔진에만 전달되도록 개선되었다.
+
+> [!info]
+> 인덱스 조건을 스토리지 엔진으로 넘겨주기 때문에 인덱스 컨디션 푸시 다운이란 이름이 되었다.
+
+자 그럼 다시 `index_condition_pushdown` 옵션을 `on` 해보자.
+```sql
+set optimizer_switch = 'index_condition_pushdown=on';
+```
+그럼 아래와 같이 인덱스 컨디션 푸시 다운이 잘 작동되는 것을 확인할 수 있다.
+![[Pasted image 20251015190757.png]]
 
 
 ## 예시
