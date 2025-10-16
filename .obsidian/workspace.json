@@ -109,8 +109,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,8 +221,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Study/27. Other/-resources/Pasted image 20251016203338.png",
     "Study/27. Other/-resources/Pasted image 20251016031544.png",
     "Study/27. Other/수익화를 위한 앱 개발.md",
     "Study/27. Other/-resources/Pasted image 20251016032846.png",
