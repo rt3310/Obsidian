@@ -109,7 +109,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -221,13 +222,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
+    "Study/27. Other/-resources/Pasted image 20251016031544.png",
+    "Study/27. Other/수익화를 위한 앱 개발.md",
     "Study/27. Other/-resources/Pasted image 20251016032846.png",
     "Study/27. Other/-resources/Pasted image 20251016032020.png",
     "Study/27. Other/-resources",
-    "Study/27. Other/-resources/Pasted image 20251016031544.png",
-    "Study/27. Other/수익화를 위한 앱 개발.md",
     "Study/9. Cache/Cache Stampede.md",
     "Study/27. Other",
     "Study/10. Server/Zookeeper.md",
@@ -263,7 +264,6 @@
     "Study/8. DB/MySQL",
     "Study/8. DB/-resources/Pasted image 20251015174127.png",
     "Pasted image 20251013230532.png",
-    "Plan/게임 클라이언트 로드맵.png",
     "Study/9. Cache/-resources",
     "Study/7. Network/GSLB.canvas",
     "Study/6. OS/컴퓨터 부팅 과정.canvas",
