@@ -8,3 +8,4 @@ Components는 비주얼 표현 디스플레이 또는 사운드 재생 기능과
 Components는 메시와 이미지를 렌더링하고, Collision을 구현하며, 오디오를 재생할 수 있는 유일한 방법이기 때문에, 플레이어가 게임을 플레이할 때 월드에서 보거나 상호작용하는 모든 것은 궁극적으로 여러 타입의 컴포넌트 작업으로 이루어진다.
 
 개성 있는 Components를 생성할 때 이해해야 할 주요 클래스는 액터 컴포넌트(Actor Components), 씬 컴포넌트(Scene Components), 프리미티브 컴포넌트(Primitive Components)이다.
+
