@@ -5,16 +5,16 @@
       "path": "Study/22. Unreal/UE5/컴포넌트(Components).md"
     },
     {
+      "basename": "리플리케이션(Replication)",
+      "path": "Study/22. Unreal/UE5/리플리케이션(Replication).md"
+    },
+    {
       "basename": "액터(Actor)",
       "path": "Study/22. Unreal/UE5/액터(Actor).md"
     },
     {
       "basename": "UE5",
       "path": "Study/22. Unreal/UE5/UE5.canvas"
-    },
-    {
-      "basename": "리플리케이션(Replication)",
-      "path": "Study/22. Unreal/UE5/리플리케이션(Replication).md"
     },
     {
       "basename": "라이프사이클(Life Cycle)",
@@ -195,10 +195,6 @@
     {
       "basename": "개선,트러블슈팅 예시",
       "path": "Plan/개선,트러블슈팅 예시.md"
-    },
-    {
-      "basename": "캐시 문제 해결",
-      "path": "Study/9. Cache/캐시 문제 해결.md"
     }
   ],
   "omittedPaths": [],

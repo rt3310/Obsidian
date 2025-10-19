@@ -81,6 +81,34 @@
             }
           },
           {
+            "id": "211b3414ce509e0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/22. Unreal/UE5/컴포넌트(Components).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "컴포넌트(Components)"
+            }
+          },
+          {
+            "id": "456a2a75fbf9964d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/22. Unreal/UE5/컴포넌트(Components).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "컴포넌트(Components)"
+            }
+          },
+          {
             "id": "0d8e4fa6d50255ff",
             "type": "leaf",
             "state": {
@@ -95,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -270,12 +298,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "996ca3c5073f7cc2",
+  "active": "456a2a75fbf9964d",
   "lastOpenFiles": [
+    "Study/22. Unreal/UE5/컴포넌트(Components).md",
+    "Study/22. Unreal/UE5/렌더 상태(render state).md",
+    "Study/22. Unreal/UE5/리플리케이션(Replication).md",
     "Study/22. Unreal/UE5/액터(Actor).md",
     "Study/22. Unreal/UE5/UE5.canvas",
-    "Study/22. Unreal/UE5/컴포넌트(Components).md",
-    "Study/22. Unreal/UE5/리플리케이션(Replication).md",
     "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md",
     "Study/22. Unreal/UE5/-resources",
     "Study/22. Unreal/UE5/-resources/Pasted image 20251019172542.png",
