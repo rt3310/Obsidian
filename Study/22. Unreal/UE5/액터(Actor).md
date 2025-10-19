@@ -29,9 +29,9 @@ Attach된 다른 컴포넌트에는, Attach 된 대상 컴포넌트를 기준으
 액터와 계층구조의 예시는 다음과 같다.
 ![[Pasted image 20251019172542.png]]
 
-## [[Ticking(티킹)]]
+## [[틱(Tick)|티킹(Ticking)]]
 
-Ticking은 Actor가 언리얼 엔진에서 업데이트되는 방식을 나타낸다.
+[[틱(Tick)|티킹(Ticking)]]은 Actor가 언리얼 엔진에서 업데이트되는 방식을 나타낸다.
 모든 Actor는 프레임마다, 또는 최소한 사용자 정의 간격마다 Tick할 수 있는 기능이 있으므로, 필요한 동작이나 계산을 업데이트할 수 있다.
 
 ActorComponents도 기본적으로 업데이트될 수 있지만, `TickComponent()` 함수를 사용하여 업데이트 된다.
