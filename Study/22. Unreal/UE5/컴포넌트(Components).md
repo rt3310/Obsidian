@@ -54,9 +54,28 @@ Components는 Mesh와 이미지를 렌더링하고, Collision을 구현하며, �
 
 ## 렌더 상태(Render State)
 
-렌더링을 하려면 액터 컴포넌트가 렌더 상태를 생성해야 한다. 또한 렌더 상태는 렌더 데이터를 업데이트해야 하는 컴포넌트에 대해 무언가 변경되었다는 사실을 엔진에 알린다. 이러한 변경이 발생하면 렌더 상태는 'dirty'로 표시된다.
-자신만의 컴포넌트를 빌드하는 경우 `MarkRenderStateDirty` 함수를 사용하여 렌더 데이터를 더티로 표시할 수 있다.
-프레임의 끝에서 모든 더티 컴포넌트는 엔진에서 렌더 데이터를 업데이트한다.
-씬 컴포넌트(프리미티브 컴포넌트 포함)는 기본적으로 렌더 상태를 생성하는 반면, 액터 컴포넌트는 그렇지 않다.
+렌더링을 하려면 **액터 컴포넌트가 Render State를 생성해야 한다**. 또한 Render State는 **렌더 데이터를 업데이트해야 하는 컴포넌트에 대해 무언가 변경되었다는 사실을 엔진에 알린다**. 이러한 변경이 발생하면 Render State는 '**dirty**'로 표시된다.
+자신만의 컴포넌트를 빌드하는 경우 `MarkRenderStateDirty` 함수를 사용하여 렌더 데이터를 dirty로 표시할 수 있다.
+**프레임의 끝에서 모든 더티 컴포넌트는 엔진에서 렌더 데이터를 업데이트**한다.
+씬 컴포넌트(프리미티브 컴포넌트 포함)는 기본적으로 Render State를 생성하는 반면, 액터 컴포넌트는 그렇지 않다.
+
 
 ## 물리 상태(Physics State)
+
+엔진의 Physics Simulation 시스템과 상호작용하려면 액터 컴포넌트에는 Physics State가 필요하다.
+Physics State는 변경이 발생하는 즉시 업데이트하여 '프레임 뒤처짐(frame-behind)' 아티팩트와 같은 문제를 방지하고 'dirty'를 표시할 필요성을 제거해준다.
+기본적으로 액터 컴포넌트 및 씬 컴포넌트에는 Physics State가 없지만, 프리미티브 컴포넌트에는 Physics State가 있다. 컴포넌트 클래스의 인스턴스에 Physics State가 필요한지 여부를 결정하려면 `ShouldCreatePhysicsState` 함수를 override하라.
+
+> [!warning]
+> 클래스가 Physics를 사용할 경우, 단순히 `true`를 반환하는 것은 추천하지 않는다.
+> 컴포넌트 디스트럭션 도중과 같이 Physics State를 생성하면 안되는 상황에 대해 파악하려면 함수의 `UPrimitiveComponent` 버전을 확인해 보라. 또한 일반적으로 `true`를 반환하는 사례에서는 `Super::ShouldCreatePhysicsState`를 반환할 수도 있다.
+
+
+## 시각화 컴포넌트(Visualization Components)
+
+일부 Actor 및 Component에는 비주얼 표현이 없어 선택하기 어렵거나, 보이지 않는 중요한 Property가 있다. 개발자는 에디터에서 작업하는 동안 추가 컴포넌트를 더하여 정보를 표시할 수 있지만, 이러한 추가 컴포넌트는 에디터에서 플레이(Play In Editor, PIE) 도중이나 패키지 빌드를 실행할 때는 필요하지 않다.
+에디터는 이러한 문제를 해결하기 위해 에디터에서 작업할 때만 존재하는 보통의 컴포넌트인 시각화 컴포넌트(Visualization Components)를 지원한다.
+
+시각화 컴포넌트를 만들려면, **일반 컴포넌트를 생성한 후 그 컴포넌트에서 `SetIsVisualizationComponent`를 호출**한다. 컴포넌트가 에디터 바깥에 존재할 필요가 없기 때문에, 컴포넌트에 대한 모든 레퍼런스는 `WITH_EDITORONLY_DATA` 또는 `WITH_EDITOR`로 확인되는 PreProcessor 체크에 포함되어야 한다. 이렇게 하면 패키지 빌드가 이러한 컴포넌트에 영향을 받거나 코드 내에서 참조하지 않는다. 예를 들어, 카메라 컴포넌트(Camera Component) 프러스텀(Frustum)을 보여주는 프러스텀 컴포넌트 그리기(Draw Frustum Component)와 같이 에디터에서 유용한 정보를 표시하는 몇 가지 다른 컴포넌트를 사용한다.
+
+헤더 파일에서 프러스텀 컴포넌트 그리기는 클래스 내에서 다음과 같이 정의된다.
