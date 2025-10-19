@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "컴포넌트(Components)",
+      "path": "Study/22. Unreal/UE5/컴포넌트(Components).md"
+    },
+    {
+      "basename": "액터(Actor)",
+      "path": "Study/22. Unreal/UE5/액터(Actor).md"
+    },
+    {
+      "basename": "UE5",
+      "path": "Study/22. Unreal/UE5/UE5.canvas"
+    },
+    {
+      "basename": "리플리케이션(Replication)",
+      "path": "Study/22. Unreal/UE5/리플리케이션(Replication).md"
+    },
+    {
+      "basename": "라이프사이클(Life Cycle)",
+      "path": "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md"
+    },
+    {
+      "basename": "Unreal에서의 Unity 용어 변환",
+      "path": "Study/22. Unreal/UE5/Unreal에서의 Unity 용어 변환.md"
+    },
+    {
+      "basename": "개념 정리",
+      "path": "Study/22. Unreal/UE5/개념 정리.md"
+    },
+    {
+      "basename": "로드 팩터(Load Factor)",
+      "path": "Study/11. Java/로드 팩터(Load Factor).md"
+    },
+    {
+      "basename": "UE5",
+      "path": "Study/22. Unreal/UE5.md"
+    },
+    {
+      "basename": "UE5",
+      "path": "Study/22. Unreal/UE5/UE5.md"
+    },
+    {
       "basename": "수익화를 위한 앱 개발",
       "path": "Study/27. Other/수익화를 위한 앱 개발.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "캐시 문제 해결",
       "path": "Study/9. Cache/캐시 문제 해결.md"
-    },
-    {
-      "basename": "Pasted image 20250911140904",
-      "path": "Pasted image 20250911140904.png"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
-    },
-    {
-      "basename": "Pasted image 20250507193542",
-      "path": "Pasted image 20250507193542.png"
-    },
-    {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Study/9. Cache/Ehcache vs Caffeine.md"
-    },
-    {
-      "basename": "React Query",
-      "path": "Study/19. Frontend/React/React Query.md"
-    },
-    {
-      "basename": "Hydration",
-      "path": "Study/19. Frontend/React/Hydration.md"
-    },
-    {
-      "basename": "자바스크립트",
-      "path": "Study/19. Frontend/자바스크립트.md"
-    },
-    {
-      "basename": "DB 병목 원인과 대책",
-      "path": "Study/8. DB/DB 병목 원인과 대책.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Study/9. Cache/Redis.md"
-    },
-    {
-      "basename": "수십억건에서 querydsl 사용하기",
-      "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
     }
   ],
   "omittedPaths": [],

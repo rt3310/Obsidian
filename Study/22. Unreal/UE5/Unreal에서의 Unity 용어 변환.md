@@ -1,0 +1,4 @@
+- 하이어라키(Hierarchy) → 아웃라이너(Outliner)
+- 인스펙터(Inspector) → 디테일 패널
+- 에셋(Assets) → 언리얼 엔진에서는 이 기능이 콘텐츠 브라우저에 있다.
+- GameObject → Actor

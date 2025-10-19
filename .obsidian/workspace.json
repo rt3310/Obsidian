@@ -11,24 +11,73 @@
             "id": "a20dbddc5bc8ac1f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "canvas",
+              "state": {
+                "file": "Study/22. Unreal/UE5/UE5.canvas",
+                "viewState": {
+                  "x": -230,
+                  "y": -690,
+                  "zoom": -0.0315177553072966
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "UE5"
             }
           },
           {
-            "id": "49bb842cd5b333f5",
+            "id": "c8bd539f15b24280",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/27. Other/수익화를 위한 앱 개발.md",
+                "file": "Study/22. Unreal/UE5/액터(Actor).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "수익화를 위한 앱 개발"
+              "title": "액터(Actor)"
+            }
+          },
+          {
+            "id": "0ccdd9a8239e1386",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/22. Unreal/UE5/액터(Actor).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "액터(Actor)"
+            }
+          },
+          {
+            "id": "93d165fb7628b7c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/22. Unreal/UE5/액터(Actor).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "액터(Actor)"
+            }
+          },
+          {
+            "id": "996ca3c5073f7cc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/22. Unreal/UE5/컴포넌트(Components).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "컴포넌트(Components)"
             }
           },
           {
@@ -46,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -109,8 +158,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,8 +270,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "996ca3c5073f7cc2",
   "lastOpenFiles": [
+    "Study/22. Unreal/UE5/액터(Actor).md",
+    "Study/22. Unreal/UE5/UE5.canvas",
+    "Study/22. Unreal/UE5/컴포넌트(Components).md",
+    "Study/22. Unreal/UE5/리플리케이션(Replication).md",
+    "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md",
+    "Study/22. Unreal/UE5/-resources",
+    "Study/22. Unreal/UE5/-resources/Pasted image 20251019172542.png",
+    "Study/22. Unreal/UE5/Unreal에서의 Unity 용어 변환.md",
+    "Study/22. Unreal/UE5/개념 정리.md",
+    "Study/22. Unreal/UE5.md",
+    "Study/22. Unreal/UE5/UE5.md",
+    "Study/22. Unreal/UE5",
     "Study/27. Other/-resources/Pasted image 20251016203338.png",
     "Study/27. Other/-resources/Pasted image 20251016031544.png",
     "Study/27. Other/수익화를 위한 앱 개발.md",
@@ -253,18 +313,8 @@
     "Study/8. DB/조인/2. 조인 테크닉.md",
     "Study/8. DB/MySQL/InnoDB vs MyISAM.md",
     "Study/8. DB/Insert 부하 해결.md",
-    "Study/8. DB/Using Temporary, Using Filesort.md",
     "Study/8. DB/SQL.canvas",
-    "Study/8. DB/DELETE vs TRUNCATE.md",
-    "Study/8. DB/레퍼런스/MySQL 성능 최적화/NoOffset 최적화.md",
-    "Study/8. DB/레퍼런스/MySQL 성능 최적화/INSERT 최적화.md",
-    "Study/8. DB/레퍼런스/MySQL 성능 최적화/InnoDB Buffer Pool 최적화.md",
-    "Study/8. DB/레퍼런스/MySQL 성능 최적화/Index Dive 최적화.md",
-    "Study/8. DB/레퍼런스/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md",
-    "Study/8. DB/레퍼런스/MySQL 성능 최적화/다중 컬럼 인덱스.md",
     "Study/8. DB/MySQL",
-    "Study/8. DB/-resources/Pasted image 20251015174127.png",
-    "Pasted image 20251013230532.png",
     "Study/9. Cache/-resources",
     "Study/7. Network/GSLB.canvas",
     "Study/6. OS/컴퓨터 부팅 과정.canvas",
@@ -274,11 +324,8 @@
     "27. Finance/resources",
     "27. Finance",
     "Study/9. Cache",
-    "Study/18. Kubernetes/resources",
-    "Study/18. Kubernetes",
     "Study/8. DB/샤딩(Sharding).canvas",
     "Study/8. DB/정규화.canvas",
-    "Study/8. DB/조인(Join).canvas",
-    "Study/11. Java/final.canvas"
+    "Study/8. DB/조인(Join).canvas"
   ]
 }

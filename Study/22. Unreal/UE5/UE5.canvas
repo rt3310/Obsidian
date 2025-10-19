@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"6d4c2e8dfe9fe4b3","x":-1823,"y":-2096,"width":400,"height":400,"type":"file","file":"Study/22. Unreal/UE5/컴포넌트(Components).md"},
+		{"id":"dbd96d2ef9639d8d","type":"text","text":"# UE5","x":-340,"y":-140,"width":100,"height":60},
+		{"id":"f070143375a67f54","type":"file","file":"Study/22. Unreal/UE5/개념 정리.md","x":-490,"y":-820,"width":850,"height":540},
+		{"id":"4392bb9bc1581bfe","type":"file","file":"Study/22. Unreal/UE5/액터(Actor).md","x":-1540,"y":-1580,"width":800,"height":1911}
+	],
+	"edges":[
+		{"id":"8ee479f60b99541b","fromNode":"dbd96d2ef9639d8d","fromSide":"top","toNode":"f070143375a67f54","toSide":"bottom"},
+		{"id":"94aae2b11d232d34","fromNode":"f070143375a67f54","fromSide":"left","toNode":"4392bb9bc1581bfe","toSide":"right"},
+		{"id":"d15cff08b416ee3a","fromNode":"4392bb9bc1581bfe","fromSide":"top","toNode":"6d4c2e8dfe9fe4b3","toSide":"bottom"}
+	]
+}
