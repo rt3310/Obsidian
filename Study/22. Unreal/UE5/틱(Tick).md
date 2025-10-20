@@ -42,6 +42,24 @@ Actor 또는 Component의 틱 그룹은 주로 물리 시뮬레이션과 같은 
 위 틱 그룹 각각에 대한 사용 예로, Player가 어떤 Animation Actor를 조종하는데, 여기서 레이저가 발사되어 맞는 지점에 특수한 Targeting Reticule Actor가 배치되는 게임이 있다고 가정해보자.
 레이저가 특정 유형의 대상 오브젝트에 머물러 있는 한 특수한 미터기가 채워지며, HUD Actor가 그 미터기를 화면상에 표시한다.
 
+Player의 Animation Actor는 TG_PrePhysics에서 animate 및 move 될 것이다. **물리 시뮬레이션 오브젝트가 제대로 따라가며 상호작용 하기 위해서는, 물리 이전에 애니메이션이 일어나야 한다**.
+
+[^1]HUD는 어느 틱 그룹에서든지 업데이트해도 되지만, 두 가지 이유로 **TG_DuringPhysics**에서 업데이트하는 것이 좋다.
+첫째, TG_DuringPhysics는 게임의 물레 시뮬레이션과 직접 상호작용하지도, 그 데이터를 사용하지도 않기 때문이다.
+둘째, 물리 시뮬레이션이 HUD 업데이트 완료를 대기하도록 할 필요도 없고, HUD가 물리 시뮬레이션 완료를 대기하도록 할 필요가 없기 때문이다.
+참고로 HUD는 게임에 한 프레임 뒤쳐진다. 즉 이 프레임에 타깃 오브젝트를 조준하는 것은 다음 프레임까지 미터기에 반영되지 않는다.
+
+Reticule Actor 업데이트는 **TG_PostPhysics**에서 일어난다. 이런 식으로 [^2]레티큘(Reticule)은 프레임 끝에 렌더링되는 씬을 대상으로 트레이싱한다는 것을 알기에, 의도한 대로 오브젝트의 표면 위에 정확히 나타날 것을 안다. 타깃 오브젝트의 올바른 위치를 기반으로 하여 미터기 값을 조정할 것이라는 것도 안다.
+
+마지막으로 TG_PostUpdateWork에서, 레이더 파티클 이펙트를 조준 Actor와 레티큘의 최종 위치를 가지고 업데이트 된다.
+
+틱 종속성은 TG_PostUpdateWork 필요를 없애기 위해 사용할 수 있다.
+레이저 파티클은 레티큘 Actor와 함께 TG_PostPhysics에 넣을 수 있는데, 틱 종속성을 사용하여 레티큘이 Tick을 해도 괜찮겠다 싶을 때만 레티큘 위치를 가지고 레이저를 업데이트시키는 것이다.
+레티큘에 대한 레이저의 틱 종속성을 설정함으로써, 레이저 업데이트가 너무 일찍 일어나지 않게, 게다가 관련도 없는 다른 물리 이후 Tick을 대기할 필요도 없게 만들 수 있다. 레이저를 다른 틱 그룹으로 이동시키는 것보다 효율적일 수 있다.
+
+틱 종속성의 덕을 보지 못할 경우의 예를 들자면, 레티큘 자체는 조준 Actor에 대해서 틱 종속적일 필요는 없다. 물론 조준 Actor의 Tick이 완료되어야 레티큘 Actor의 Tick이 가능하기는 하지만, 종속적일 필요가 없는 이유는, 조준 Actor는 물리 이전에 있기 때문이다.
+다른 틱 그룹에 있기에 항상 그룹 자체 순서대로의 실행을 보장받을 수 있다. 각 틱 그룹은 그 모든 액터와 컴포넌트 틱을 마친 이후에야 다른 틱 그룹이 시작되기 때문이다.
+
 
 ## 액터 스폰(Actor Spawning)
 
@@ -80,3 +98,7 @@ Actor나 Component에 대한 기본 Tick 함수는 `AActor::SetActorTickEnabled`
 Actor나 Component에 별도의 Tick 함수 구조체를 추가하고나면, 보통 소유 클래스의 생성자에서 초기화 가능하다. Tick 함수의 활성화와 등록을 위해 가장 보편적인 벙법은 `AActor::RegisterActorTickFunctions`를 덮어쓰고, Tick 함수 구조체의 `SetTickFunctionEnable` 호출을 추가한 뒤, 소유 Actor의 레벨을 인수로 하여 `RegisterTickFunction`을 호출하는 것이다.
 이 프로세스로 생성된 Actor나 Component는, 다른 틱 그룹에서의 Tick이나 Tick 함수별 개별 Tick dependency을 포함해서, 여러 번 Tick이 가능하다.
 Tick dependency를 수동 설정하려면, 종속되게 만들고자 하는 Tick 함수 구조체에서 `AddPrerequisite`를 호출한 뒤, 종속성으로 사용하고자 하는 Tick 함수 구조체를 전달해주면 된다.
+
+[^1]: Head-Up Display: 캐릭터의 체력, 무기, 미니맵 등의 정보를 표시하는게 대표적
+
+[^2]: 조준선(Crosshair)

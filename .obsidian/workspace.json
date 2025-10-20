@@ -114,12 +114,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/22. Unreal/UE5/틱(Tick).md",
+                "file": "Study/22. Unreal/UE5/액터(Actor).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "틱(Tick)"
+              "title": "액터(Actor)"
+            }
+          },
+          {
+            "id": "717674b906596cc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/22. Unreal/UE5/액터(Actor).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "액터(Actor)"
+            }
+          },
+          {
+            "id": "aa9d1274557fd40c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "라이프사이클(Life Cycle)"
             }
           },
           {
@@ -137,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -200,8 +228,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -313,19 +340,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Study/22. Unreal/UE5/-resources/Pasted image 20251020191744.png",
     "Study/22. Unreal/UE5/액터(Actor).md",
-    "Study/22. Unreal/UE5/틱(Tick).md",
-    "Study/22. Unreal/UE5/컴포넌트(Components).md",
-    "Study/22. Unreal/UE5/렌더 상태(render state).md",
     "Study/22. Unreal/UE5/리플리케이션(Replication).md",
-    "Study/22. Unreal/UE5/UE5.canvas",
     "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md",
+    "Study/22. Unreal/UE5/개념 정리.md",
+    "Study/22. Unreal/UE5/컴포넌트(Components).md",
+    "Study/22. Unreal/UE5/틱(Tick).md",
+    "Study/22. Unreal/UE5/렌더 상태(render state).md",
+    "Study/22. Unreal/UE5/UE5.canvas",
     "Study/22. Unreal/UE5/-resources",
     "Study/22. Unreal/UE5/-resources/Pasted image 20251019172542.png",
     "Study/22. Unreal/UE5/Unreal에서의 Unity 용어 변환.md",
-    "Study/22. Unreal/UE5/개념 정리.md",
     "Study/22. Unreal/UE5.md",
     "Study/22. Unreal/UE5/UE5.md",
     "Study/22. Unreal/UE5",
@@ -356,7 +384,6 @@
     "Study/8. DB/인덱스/1. 인덱스.md",
     "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md",
     "Study/8. DB/조인/2. 조인 테크닉.md",
-    "Study/8. DB/MySQL/InnoDB vs MyISAM.md",
     "Study/8. DB/SQL.canvas",
     "Study/8. DB/MySQL",
     "Study/9. Cache/-resources",
