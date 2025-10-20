@@ -200,7 +200,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -312,7 +313,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0f9a973f52a90724",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/22. Unreal/UE5/액터(Actor).md",
     "Study/22. Unreal/UE5/틱(Tick).md",
