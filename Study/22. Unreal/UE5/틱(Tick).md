@@ -24,8 +24,8 @@ Actor 또는 Component의 틱 그룹은 주로 물리 시뮬레이션과 같은 
 - **물리 시뮬레이션과 동시에 실행**되기 때문에, 이번 tick 도중의 **물리 데이터가 전 프레임에서 온 것인지 현재 프레임에서 온 것인지 알 수 없다**. 물리 시뮬레이션은 이 틱 그룹 내 언제든 완료 가능하며, 그 사실을 나타내는 정보를 제공하지는 않는다.
 - 물리 시뮬레이션 데이터가 현재 또는 한 프레임 전의 것일 수 있으므로, 이 틱 그룹은 **물리 데이터와 상관 없는 로직이나, 한 프레임 늦어져도 상관 없는 경우에만 사용할 것**을 추천한다. 흔한 경우라면 인벤토리 화면 업데이트 또는 미니맵 표시의 경우인데, 물리 데이터가 완전히 무관하거나, 한 프레임 정도 지연되면서 표시되어도 별 상관 없기 때문이다.
 #### TG_PostPhysics
-- 이 프레임의 물리 시뮬레이션 결과는 이 틱 그룹 실행 시점에서 완료된다.
-- 이 그룹은 무기나 움직임 추적에 사용하기 좋은데, 모든 물리 오브젝트가 최종 위치로 알려져, 이 프레임에 렌더링 될 때 그려질 것이기 때문이다. 이는 슈팅 게임의 레이저 시야와 같은 것에 특히나 좋은데, 레이저 빔은 플레이어 총의 최종 위치에서 나오는 것처럼 보여야 하고, 한 프레임만 렉이 발생해도 매우 눈에 띄기 때문이다.
+- **프레임의 물리 시뮬레이션 결과는 틱 그룹 실행 시점에서 완료된다**.
+- 이 그룹은 무기나 움직임 추적에 사용하기 좋은데, **모든 물리 오브젝트가 최종 위치로 알려져, 이 프레임에 렌더링 될 때 그려질 것이기 때문**이다. 이는 슈팅 게임의 레이저 시야와 같은 것에 특히나 좋은데, 레이저 빔은 플레이어 총의 최종 위치에서 나오는 것처럼 보여야 하고, 한 프레임만 렉이 발생해도 매우 눈에 띄기 때문이다.
 #### TG_PostUpdateWork
 - TG_PostPhysics 이후 실행된다. 역사적으로 그 주요 기능은 Particle System에 최후의 순간 정보를 물려주는 것이었다.
 - **TG_PostUpdateWork는 카메라 업데이트 이후에 일어난다**. 카메라가 정확히 향하고 있는 방향에 의존하는 이펙트가 있는 경우라면, 그러한 이펙트 제어를 위한 Actor는 여기에 넣는 것이 좋다.
@@ -34,3 +34,49 @@ Actor 또는 Component의 틱 그룹은 주로 물리 시뮬레이션과 같은 
 ## 틱 종속성(Tick Dependency)
 
 `AddTickPrerequisiteActor`와 `AddTickPrerequisiteComponent` 함수는 Actor와 Component에 존재하며, 이 함수가 호출되는 Actor나 Component는 지정된 다른 Actor나 Component의 Tick이 완료될 때까지 Tick을 대기하도록 설정한다.
+한 프레임 내 거의 동시에 일어나지만, 하나의 Actor나 Component에 다른 Actor나 Component가 필요로 하는 데이터가 구성되는 경우에 특히나 유용하다.
+틱 그룹이 아닌 이 기능을 사용하는 이유라면, Actor가 같은 그룹에 있는 경우 다수의 Actor가 병렬 업데이트 될 수 있기 때문이다. 그 Actor가 다른 하나 이상의 Actor에 개별 종속되어 있는 경우, 한 Actor 그룹을 완전히 새로운 그룹으로 옮기지 않아도, 전체 그룹의 Tick이 완료될 때까지 기다릴 필요가 없다.
+
+## 틱 그룹 / 틱 종속성 사용 예
+
+위 틱 그룹 각각에 대한 사용 예로, Player가 어떤 Animation Actor를 조종하는데, 여기서 레이저가 발사되어 맞는 지점에 특수한 Targeting Reticule Actor가 배치되는 게임이 있다고 가정해보자.
+레이저가 특정 유형의 대상 오브젝트에 머물러 있는 한 특수한 미터기가 채워지며, HUD Actor가 그 미터기를 화면상에 표시한다.
+
+
+## 액터 스폰(Actor Spawning)
+
+`BeginPlay`에서, Actor는 주요 Tick 함수와 그 Component의 Tick 함수를 엔진에 등록한다.
+Actor의 Tick 함수는 **`PrimaryActorTick` 멤버**를 통해서 특정 틱 그룹에서 실행되도록 설정하거나, 완전히 비활성화시킬 수도 있다. 이는 **일반적으로 생성자 안에서 `BeginPlay` 호출 전 데이터가 제대로 설정되었는지를 확인하기 위해**서 이루어진다.
+
+자주 사용되는 코드는 다음과 같다.
+```cpp
+PrimaryActorTick.bCanEverTick = true;
+PrimaryActorTick.bTickEventWhenPaused = true;
+PrimaryActorTick.TickGroup = TG_PrePhysics;
+```
+
+
+## 컴포넌트 틱(Component Ticking)
+
+Actor를 각기 다른 틱 그룹으로 분리할 수 있듯이, Component도 마찬가지이다.
+기존에는 Actor가 Tick 도중, 모든 Component에 Tick을 적용했다. 이 부분은 지금도 여전하나, 다른 그룹에서 Tick을 적용해야 하는 Component는 별도의 Tick 시기를 관리하는 리스트에 추가된다.
+Component는 Actor의 틱 그룹을 나눌 때와 같은 범주로 틱 그룹을 나눈다. 컴포넌트의 Tick 구조는 Actor가 사용하는 것과 이름은 다르지만, 같은 식으로 작동한다.
+```cpp
+PrimaryComponentTick.bCanEverTick = true;
+PrimaryComponentTick.bTickEvenWhenPaused = true;
+PrimaryComponentTick.TickGroup = TG_PrePhysics;
+```
+
+> [!warning]
+> `PrimaryActorTick`은 Actor의 `Tick()` 함수를 사용하는 반면, `PrimaryComponentTick`은 액터 컴포넌트의 `TickComponent()` 함수를 사용한다는 점을 기억하자.
+
+
+## 고급 틱 함수 기능
+
+Actor나 Component에 대한 기본 Tick 함수는 `AActor::SetActorTickEnabled`와 `UActorComponent::SetComponentTickEnabled` 함수로 게임 도중 활성화 또는 비활성화 시킬 수 있다.
+추가로 Actor나 Component는 다수의 Tick 함수를 가질 수 있다. `FTickFunction`을 상속하는 구조체를 만들고 `ExecuteTick`과 `DiagnosticMessage` 함수를 덮어쓰면 된다.
+직접 구조체를 만들어 보기 전에 `EngineBaseTypes.h`에서 `FActorTickFunction`과 `FComponentTickFunction`이름 아래에서 Actor와 Component의 기본 Tick 함수 구조체가 참고하기 좋은 예를 찾을 수 있다.
+
+Actor나 Component에 별도의 Tick 함수 구조체를 추가하고나면, 보통 소유 클래스의 생성자에서 초기화 가능하다. Tick 함수의 활성화와 등록을 위해 가장 보편적인 벙법은 `AActor::RegisterActorTickFunctions`를 덮어쓰고, Tick 함수 구조체의 `SetTickFunctionEnable` 호출을 추가한 뒤, 소유 Actor의 레벨을 인수로 하여 `RegisterTickFunction`을 호출하는 것이다.
+이 프로세스로 생성된 Actor나 Component는, 다른 틱 그룹에서의 Tick이나 Tick 함수별 개별 Tick dependency을 포함해서, 여러 번 Tick이 가능하다.
+Tick dependency를 수동 설정하려면, 종속되게 만들고자 하는 Tick 함수 구조체에서 `AddPrerequisite`를 호출한 뒤, 종속성으로 사용하고자 하는 Tick 함수 구조체를 전달해주면 된다.
