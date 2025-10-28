@@ -228,8 +228,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -341,7 +340,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Study/22. Unreal/UE5/-resources/Pasted image 20251020191744.png",
     "Study/22. Unreal/UE5/액터(Actor).md",

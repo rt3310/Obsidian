@@ -47,3 +47,25 @@ Actor 인스턴스를 스폰할 때 따라가는 경로는 다음과 같다.
 
 '스폰 시 노출(Expose on Spawn)'로 설정된 Property가 있으면 Actor는 디퍼드 스폰(Deferred Spawn)될 수 있다.
 1. `UWorld::SpawnActorDeferred`는 Procedural Actor 스폰을 위한 것으로, 블루프린트 Construction Script 전에 추가적인 구성을 할 수 있다.
+2. SpawnActor 안에서 모든 일이 발생하지만, `AActor::PostActorCreated` 후에 다음과 같은 일이 일어난다.
+	1. 유효하지만 불완전한 Actor 인스턴스로 다양한 '초기화 함수'를 구성하고 호출한다.
+	2. `AActor::FinishSpawning`이 Actor를 마무리하기 위해 호출되며, SpawnActor 줄의 `AActor::ExecuteConstruction`에서 선택된다.
+
+## 액터 라이프사이클 종료(End of Actor Lifecycle)
+
+Actor를 소멸하는 방법은 여러가지가 있지만, 월드에서 제거하는 방법은 동일하다.
+게임플레이 도중 다음 함수를 호출할 수 있지만, 플레이 도중 실제로 소멸되지 않는 Actor가 많으므로 완전히 선택사항이다.
+- Actor를 제거해야 하지만 게임플레이가 계속 진행 중일 때마다 게임에서 `AActor::Destroy`를 수동으로 호출한다. Actor는 pending kill로 표시되고 Level의 Actor 배열에서 제거된다.
+- Actor의 수명이 다해가는 것을 보장하기 위해 `AActor::EndPlay`가 여러 곳에서 호출된다. 플레이 도중 Actor가 포함된 스트리밍 레벨이 Unload되면 이 메서드와 Level Transition이 호출된다.
+- EndPlay가 호출되는 경우는 다음과 같다.
+	- Destroy에 대한 명시적 호출
+	- 에디터에서의 플레이가 종료된 경우
+	- Level Transition(Seamless Travel 또는 Load Map)
+	- Actor가 포함된 Streaming Level이 Unload될 때
+	- Actor의 수명이 만료됨
+	- 애플리케이션 종료(모든 Actor가 소멸됨)
+
+발생 과정과 상관없이, Actor는 `RF_PendingKill`로 표시되어 다음 Garbage Collection 주기 동안 UE가 메모리에서 할당 해제한다. 또한, Pending Kill 을 수동으로 확인하는 대신 `FWeakObjectPtr<AActor>`를 사용하는 것이 더 깔끔하다.
+
+> [!warning]
+> Actor는 EndPlay가 호출될 때 반드시 소멸되지 않을 수 있다. 예를 들어 `s.ForceGCAfterLevelStreamedOut`이 `false`이고 서브레벨이 빠르게 리로드되면 액터의 EndPlay가 호출되지만, Actor가  "부활"되어 기본값으로 초기화되지 않은 로컬 변수와 함께 이전에 존재했던 것과 똑같은 Actor가 될 수 있다.
