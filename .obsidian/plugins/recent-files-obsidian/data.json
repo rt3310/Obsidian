@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "synchronized vs ReentrantLock",
+      "path": "Study/비교/synchronized vs ReentrantLock.md"
+    },
+    {
       "basename": "SSE(Server-Sent-Event) vs WebSocket",
       "path": "Study/비교/SSE(Server-Sent-Event) vs WebSocket.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "공부",
       "path": "Plan/공부.md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Plan/게임 클라이언트 로드맵.png"
     }
   ],
   "omittedPaths": [],
