@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SSE(Server-Sent-Event) vs WebSocket",
+      "path": "Study/비교/SSE(Server-Sent-Event) vs WebSocket.md"
+    },
+    {
+      "basename": "GSLB Policy",
+      "path": "Study/7. Network/resources/GSLB Policy.png"
+    },
+    {
       "basename": "라이프사이클(Life Cycle)",
       "path": "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "게임 클라이언트 로드맵",
       "path": "Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "개선,트러블슈팅 예시",
-      "path": "Plan/개선,트러블슈팅 예시.md"
     }
   ],
   "omittedPaths": [],
