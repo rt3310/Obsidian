@@ -5,16 +5,16 @@
       "path": "Study/비교/Lock.md"
     },
     {
-      "basename": "Pasted image 20250911140904",
-      "path": "Pasted image 20250911140904.png"
+      "basename": "Pasted image 20250507192720",
+      "path": "Pasted image 20250507192720.png"
     },
     {
-      "basename": "Pasted image 20250507192737",
-      "path": "Pasted image 20250507192737.png"
+      "basename": "Pasted image 20251101165114",
+      "path": "Pasted image 20251101165114.png"
     },
     {
-      "basename": "Pasted image 20250507193050",
-      "path": "Pasted image 20250507193050.png"
+      "basename": "Pasted image 20251101171634",
+      "path": "Pasted image 20251101171634.png"
     },
     {
       "basename": "Pasted image 20250507193542",
@@ -25,24 +25,52 @@
       "path": "Pasted image 20250507193532.png"
     },
     {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
+      "basename": "Pasted image 20251101165035",
+      "path": "Pasted image 20251101165035.png"
     },
     {
       "basename": "Pasted image 20251013230532",
       "path": "Pasted image 20251013230532.png"
     },
     {
+      "basename": "Pasted image 20250911141010",
+      "path": "Pasted image 20250911141010.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
+    },
+    {
+      "basename": "Pasted image 20250507193050",
+      "path": "Pasted image 20250507193050.png"
+    },
+    {
+      "basename": "Pasted image 20250507192737",
+      "path": "Pasted image 20250507192737.png"
+    },
+    {
       "basename": "Pasted image 20250911140843",
       "path": "Pasted image 20250911140843.png"
     },
     {
-      "basename": "Pasted image 20251101120941",
-      "path": "Study/비교/-resources/Pasted image 20251101120941.png"
+      "basename": "Pasted image 20250911140904",
+      "path": "Pasted image 20250911140904.png"
     },
     {
-      "basename": "Pasted image 20250911141010",
-      "path": "Pasted image 20250911141010.png"
+      "basename": "Pasted image 20251101164438",
+      "path": "Study/비교/-resources/Pasted image 20251101164438.png"
+    },
+    {
+      "basename": "액터(Actor)",
+      "path": "Study/22. Unreal/UE5/액터(Actor).md"
+    },
+    {
+      "basename": "무제",
+      "path": "Study/비교/무제.canvas"
+    },
+    {
+      "basename": "Pasted image 20251101120941",
+      "path": "Study/비교/-resources/Pasted image 20251101120941.png"
     },
     {
       "basename": "synchronized vs ReentrantLock",
@@ -59,10 +87,6 @@
     {
       "basename": "라이프사이클(Life Cycle)",
       "path": "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md"
-    },
-    {
-      "basename": "액터(Actor)",
-      "path": "Study/22. Unreal/UE5/액터(Actor).md"
     },
     {
       "basename": "개념 정리",
@@ -175,30 +199,6 @@
     {
       "basename": "SQL",
       "path": "Study/8. DB/SQL.canvas"
-    },
-    {
-      "basename": "DELETE vs TRUNCATE",
-      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
-    },
-    {
-      "basename": "NoOffset 최적화",
-      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/NoOffset 최적화.md"
-    },
-    {
-      "basename": "INSERT 최적화",
-      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/INSERT 최적화.md"
-    },
-    {
-      "basename": "InnoDB Buffer Pool 최적화",
-      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/InnoDB Buffer Pool 최적화.md"
-    },
-    {
-      "basename": "Index Dive 최적화",
-      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/Index Dive 최적화.md"
-    },
-    {
-      "basename": "Auto Increment Lock Mode 최적화",
-      "path": "Study/8. DB/레퍼런스/MySQL 성능 최적화/Auto Increment Lock Mode 최적화.md"
     }
   ],
   "omittedPaths": [],
