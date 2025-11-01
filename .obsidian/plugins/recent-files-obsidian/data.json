@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Lock",
+      "path": "Study/비교/Lock.md"
+    },
+    {
+      "basename": "Pasted image 20250507193532",
+      "path": "Pasted image 20250507193532.png"
+    },
+    {
       "basename": "synchronized vs ReentrantLock",
       "path": "Study/비교/synchronized vs ReentrantLock.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "취업",
       "path": "Plan/취업.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "공부",
-      "path": "Plan/공부.md"
     }
   ],
   "omittedPaths": [],

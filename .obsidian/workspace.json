@@ -142,12 +142,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/비교/synchronized vs ReentrantLock.md",
+                "file": "Study/비교/Lock.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "synchronized vs ReentrantLock"
+              "title": "Lock"
             }
           },
           {
@@ -340,10 +340,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "aa9d1274557fd40c",
   "lastOpenFiles": [
-    "Study/비교/SSE(Server-Sent-Event) vs WebSocket.md",
+    "Pasted image 20250507193532.png",
+    "Study/비교/Lock.md",
     "Study/비교/synchronized vs ReentrantLock.md",
+    "Study/비교/SSE(Server-Sent-Event) vs WebSocket.md",
     "Study/7. Network/resources/GSLB Policy.png",
     "Study/비교",
     "Study/7. Network/무제.md",
@@ -383,8 +385,6 @@
     "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
     "Study/8. DB/인덱스/커버링 인덱스.md",
     "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md",
-    "Study/8. DB/인덱스/2. 인덱스 향상.md",
-    "Study/8. DB/인덱스/1. 인덱스.md",
     "Study/8. DB/SQL.canvas",
     "Study/8. DB/MySQL",
     "Study/9. Cache/-resources",
