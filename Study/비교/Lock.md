@@ -240,3 +240,49 @@ synchronized와 ReentrantLock은 Lock을 사용해 동시성 문제를 해결하
 > 
 > 예를 들어, i++ 연산은 원자적일까? 그렇지 않다. 코드에서는 고작 한 줄이지만, 실제로는 "읽기-수정하기-쓰기" 세 단계로 구성되기 때문이다. 이 과정에 다른 Thread가 개입하면, 값이 예상과 다르게 변경될 수 있다
 
+java에서는 atomic 관련 라이브러리를 제공해주는데, 업데이트 해야하는 값이 long 타입이었으므로 atomicLong의 코드를 대표로 살펴보자.
+```java
+public class AtomicLong extends Number implements java.io.Serializable {
+	 ...
+	 /*
+	   * This class intended to be implemented using VarHandles, but there
+	   * are unresolved cyclic startup dependencies.
+	   */
+	private static final Unsafe U = Unsafe.getUnsafe();
+	private static final long VALUE = U.objectFieldOffset(AtomicLong.class, "value");
+	private volatile long value;
+	public AtomicLong(long initialValue) {
+		value = initialValue;
+	}
+	
+	...
+	
+	public final long get() {
+		return value;
+	}
+	
+	public final long getAndDecrement() {
+		return U.getAndAddLong(this, VALUE, -1L);
+	}
+	...
+}
+```
+여기서 **AtomicLong은 value를 volatile로 관리**한다.
+
+이는 64-bit JVM 환경이라면 long 타입은 그 자체로 원자성을 보장하지만, **가시성을 보장하지 않는 문제를 해소하기 위함**이다. 따라서 AtomicLong 타입의 변수를 volatile로 지정해줄 필요는 없다.
+
+```java
+public final class Unsafe {
+	...
+	
+	@IntrinsicCandidate
+	public final long getAndAddLong(Object o, long offset, long delta) {
+		long v;
+		do {
+			v = getLongVolatile(o, offset);
+		} while (!weakCompareAndSetLong(o, offset, v, v + delta));
+		return v;
+	}
+	...
+}
+```
