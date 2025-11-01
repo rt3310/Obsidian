@@ -5,8 +5,16 @@
       "path": "Study/비교/Lock.md"
     },
     {
+      "basename": "Pasted image 20250911141010",
+      "path": "Pasted image 20250911141010.png"
+    },
+    {
       "basename": "Pasted image 20250507193532",
       "path": "Pasted image 20250507193532.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
     },
     {
       "basename": "synchronized vs ReentrantLock",
@@ -191,14 +199,6 @@
     {
       "basename": "학습 전략",
       "path": "Plan/학습 전략.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
-    },
-    {
-      "basename": "취업",
-      "path": "Plan/취업.md"
     }
   ],
   "omittedPaths": [],
