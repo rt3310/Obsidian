@@ -1,56 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Pasted image 20251101171854",
-      "path": "Pasted image 20251101171854.png"
+      "basename": "컴포넌트(Components)",
+      "path": "Study/22. Unreal/UE5/컴포넌트(Components).md"
     },
     {
-      "basename": "Lock",
-      "path": "Study/비교/Lock.md"
+      "basename": "UE5",
+      "path": "Study/22. Unreal/UE5.md"
     },
     {
-      "basename": "Pasted image 20250507192720",
-      "path": "Pasted image 20250507192720.png"
-    },
-    {
-      "basename": "Pasted image 20251101165114",
-      "path": "Pasted image 20251101165114.png"
-    },
-    {
-      "basename": "Pasted image 20251101171634",
-      "path": "Pasted image 20251101171634.png"
-    },
-    {
-      "basename": "Pasted image 20250507193542",
-      "path": "Pasted image 20250507193542.png"
+      "basename": "Select()",
+      "path": "Study/7. Network/Select().md"
     },
     {
       "basename": "Pasted image 20250507193532",
       "path": "Pasted image 20250507193532.png"
     },
     {
-      "basename": "Pasted image 20251101165035",
-      "path": "Pasted image 20251101165035.png"
-    },
-    {
-      "basename": "Pasted image 20251013230532",
-      "path": "Pasted image 20251013230532.png"
-    },
-    {
-      "basename": "Pasted image 20250911141010",
-      "path": "Pasted image 20250911141010.png"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
-    },
-    {
-      "basename": "Pasted image 20250507193050",
-      "path": "Pasted image 20250507193050.png"
-    },
-    {
-      "basename": "Pasted image 20250507192737",
-      "path": "Pasted image 20250507192737.png"
+      "basename": "Pasted image 20250507193542",
+      "path": "Pasted image 20250507193542.png"
     },
     {
       "basename": "Pasted image 20250911140843",
@@ -59,6 +27,54 @@
     {
       "basename": "Pasted image 20250911140904",
       "path": "Pasted image 20250911140904.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
+    },
+    {
+      "basename": "Pasted image 20250911141010",
+      "path": "Pasted image 20250911141010.png"
+    },
+    {
+      "basename": "Pasted image 20250507192720",
+      "path": "Pasted image 20250507192720.png"
+    },
+    {
+      "basename": "Pasted image 20250507193050",
+      "path": "Pasted image 20250507193050.png"
+    },
+    {
+      "basename": "Pasted image 20251013230532",
+      "path": "Pasted image 20251013230532.png"
+    },
+    {
+      "basename": "Pasted image 20251101165035",
+      "path": "Study/비교/-resources/Pasted image 20251101165035.png"
+    },
+    {
+      "basename": "Pasted image 20251101165114",
+      "path": "Study/비교/-resources/Pasted image 20251101165114.png"
+    },
+    {
+      "basename": "Pasted image 20251101171634",
+      "path": "Study/비교/-resources/Pasted image 20251101171634.png"
+    },
+    {
+      "basename": "Pasted image 20251101171854",
+      "path": "Study/비교/-resources/Pasted image 20251101171854.png"
+    },
+    {
+      "basename": "Pasted image 20251101172448",
+      "path": "Study/비교/-resources/Pasted image 20251101172448.png"
+    },
+    {
+      "basename": "Lock",
+      "path": "Study/비교/Lock.md"
+    },
+    {
+      "basename": "Pasted image 20250507192737",
+      "path": "Pasted image 20250507192737.png"
     },
     {
       "basename": "Pasted image 20251101164438",
@@ -97,10 +113,6 @@
       "path": "Study/22. Unreal/UE5/개념 정리.md"
     },
     {
-      "basename": "컴포넌트(Components)",
-      "path": "Study/22. Unreal/UE5/컴포넌트(Components).md"
-    },
-    {
       "basename": "틱(Tick)",
       "path": "Study/22. Unreal/UE5/틱(Tick).md"
     },
@@ -115,10 +127,6 @@
     {
       "basename": "로드 팩터(Load Factor)",
       "path": "Study/11. Java/로드 팩터(Load Factor).md"
-    },
-    {
-      "basename": "UE5",
-      "path": "Study/22. Unreal/UE5.md"
     },
     {
       "basename": "UE5",
@@ -191,14 +199,6 @@
     {
       "basename": "InnoDB vs MyISAM",
       "path": "Study/8. DB/MySQL/InnoDB vs MyISAM.md"
-    },
-    {
-      "basename": "Insert 부하 해결",
-      "path": "Study/8. DB/Insert 부하 해결.md"
-    },
-    {
-      "basename": "Using Temporary, Using Filesort",
-      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
     }
   ],
   "omittedPaths": [],
