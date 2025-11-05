@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "Plan/game/무제.md"
+    },
+    {
+      "basename": "학습 전략",
+      "path": "Plan/학습 전략.md"
+    },
+    {
+      "basename": "학습 필터",
+      "path": "Plan/학습 필터.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
+    },
+    {
+      "basename": "백엔드 포트폴리오 주제",
+      "path": "Plan/백엔드 포트폴리오 주제.md"
+    },
+    {
+      "basename": "취업",
+      "path": "Plan/취업.md"
+    },
+    {
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Plan/게임 클라이언트 로드맵.png"
+    },
+    {
+      "basename": "개선,트러블슈팅 예시",
+      "path": "Plan/개선,트러블슈팅 예시.md"
+    },
+    {
       "basename": "컴포넌트(Components)",
       "path": "Study/22. Unreal/UE5/컴포넌트(Components).md"
     },
@@ -134,11 +170,11 @@
     },
     {
       "basename": "수익화를 위한 앱 개발",
-      "path": "Study/27. Other/수익화를 위한 앱 개발.md"
+      "path": "Study/28. Other/수익화를 위한 앱 개발.md"
     },
     {
       "basename": "Pasted image 20251016031544",
-      "path": "Study/27. Other/-resources/Pasted image 20251016031544.png"
+      "path": "Study/28. Other/-resources/Pasted image 20251016031544.png"
     },
     {
       "basename": "Cache Stampede",
@@ -163,42 +199,6 @@
     {
       "basename": "인덱스 기본",
       "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md"
-    },
-    {
-      "basename": "2. 결합 인덱스",
-      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/2. 결합 인덱스.md"
-    },
-    {
-      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
-      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
-    },
-    {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/인덱스/커버링 인덱스.md"
-    },
-    {
-      "basename": "3. 인덱스 스캔 효율",
-      "path": "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md"
-    },
-    {
-      "basename": "2. 인덱스 향상",
-      "path": "Study/8. DB/인덱스/2. 인덱스 향상.md"
-    },
-    {
-      "basename": "1. 인덱스",
-      "path": "Study/8. DB/인덱스/1. 인덱스.md"
-    },
-    {
-      "basename": "1. 조인의 기본 원리와 사용",
-      "path": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md"
-    },
-    {
-      "basename": "2. 조인 테크닉",
-      "path": "Study/8. DB/조인/2. 조인 테크닉.md"
-    },
-    {
-      "basename": "InnoDB vs MyISAM",
-      "path": "Study/8. DB/MySQL/InnoDB vs MyISAM.md"
     }
   ],
   "omittedPaths": [],
