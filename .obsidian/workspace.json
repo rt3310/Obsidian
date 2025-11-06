@@ -128,12 +128,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/1. C, C++/핵심/생성자.md",
+                "file": "Study/1. C, C++/핵심/복사 생성자.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "생성자"
+              "title": "복사 생성자"
             }
           },
           {
@@ -328,8 +328,11 @@
   },
   "active": "717674b906596cc7",
   "lastOpenFiles": [
+    "Study/1. C, C++/-resources/Pasted image 20251106230858.png",
+    "Pasted image 20251013230532.png",
+    "Study/1. C, C++/핵심/복사 생성자.md",
+    "2366084650EA5E22315B30.webp",
     "Study/1. C, C++/question/new vs malloc.md",
-    "Study/1. C, C++/핵심/생성자.md",
     "Study/1. C, C++/question/cc vs cpp.md",
     "Study/1. C, C++/question/포인터에는 왜 타입이 있을까.md",
     "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md",
@@ -361,14 +364,11 @@
     "Pasted image 20250911141032.png",
     "Pasted image 20250911141010.png",
     "Pasted image 20250507192720.png",
-    "Pasted image 20250507193050.png",
-    "Pasted image 20251013230532.png",
     "Study/비교/Lock.md",
     "Study/22. Unreal/UE5/액터(Actor).md",
     "Study/비교/무제.canvas",
     "Study/비교/-resources",
     "Study/비교/synchronized vs ReentrantLock.md",
-    "Study/비교/SSE(Server-Sent-Event) vs WebSocket.md",
     "Study/비교",
     "Study/22. Unreal/UE5/UE5.canvas",
     "Study/22. Unreal/UE5/-resources",
