@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "const 함수",
+      "path": "Study/1. C, C++/핵심/const 함수.md"
+    },
+    {
+      "basename": "암시적 변환 금지(explicit)",
+      "path": "Study/1. C, C++/핵심/암시적 변환 금지(explicit).md"
+    },
+    {
+      "basename": "배열은 배열이고 포인터는 포인터이다.",
+      "path": "Study/1. C, C++/핵심/배열은 배열이고 포인터는 포인터이다..md"
+    },
+    {
+      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
+      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
+    },
+    {
+      "basename": "레퍼런스를 리턴하는 함수",
+      "path": "Study/1. C, C++/핵심/레퍼런스를 리턴하는 함수.md"
+    },
+    {
+      "basename": "switch 문의 제약사항",
+      "path": "Study/1. C, C++/switch 문의 제약사항.md"
+    },
+    {
+      "basename": "static",
+      "path": "Study/1. C, C++/핵심/static.md"
+    },
+    {
+      "basename": "템플릿",
+      "path": "Study/1. C, C++/템플릿.md"
+    },
+    {
       "basename": "복사 생성자",
       "path": "Study/1. C, C++/핵심/복사 생성자.md"
     },
@@ -23,14 +55,6 @@
     {
       "basename": "미리 컴파일 된 헤더",
       "path": "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "배열은 배열이고 포인터는 포인터이다.",
-      "path": "Study/1. C, C++/배열은 배열이고 포인터는 포인터이다..md"
     },
     {
       "basename": "연산자 오버로딩",
@@ -175,30 +199,6 @@
     {
       "basename": "SSE(Server-Sent-Event) vs WebSocket",
       "path": "Study/비교/SSE(Server-Sent-Event) vs WebSocket.md"
-    },
-    {
-      "basename": "GSLB Policy",
-      "path": "Study/7. Network/resources/GSLB Policy.png"
-    },
-    {
-      "basename": "라이프사이클(Life Cycle)",
-      "path": "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md"
-    },
-    {
-      "basename": "개념 정리",
-      "path": "Study/22. Unreal/UE5/개념 정리.md"
-    },
-    {
-      "basename": "틱(Tick)",
-      "path": "Study/22. Unreal/UE5/틱(Tick).md"
-    },
-    {
-      "basename": "UE5",
-      "path": "Study/22. Unreal/UE5/UE5.canvas"
-    },
-    {
-      "basename": "Unreal에서의 Unity 용어 변환",
-      "path": "Study/22. Unreal/UE5/Unreal에서의 Unity 용어 변환.md"
     }
   ],
   "omittedPaths": [],
