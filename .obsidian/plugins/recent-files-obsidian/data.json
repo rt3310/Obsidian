@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "연산자 오버로딩",
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
+    },
+    {
       "basename": "friend",
       "path": "Study/1. C, C++/핵심/friend.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "미리 컴파일 된 헤더",
       "path": "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md"
-    },
-    {
-      "basename": "연산자 오버로딩",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
     },
     {
       "basename": "pragma",
