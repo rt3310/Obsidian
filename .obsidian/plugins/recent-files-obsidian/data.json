@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "friend",
+      "path": "Study/1. C, C++/핵심/friend.md"
+    },
+    {
       "basename": "대입 연산자 함수",
       "path": "Study/1. C, C++/핵심/대입 연산자 함수.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20251101120941",
       "path": "Study/비교/-resources/Pasted image 20251101120941.png"
-    },
-    {
-      "basename": "synchronized vs ReentrantLock",
-      "path": "Study/비교/synchronized vs ReentrantLock.md"
     }
   ],
   "omittedPaths": [],
