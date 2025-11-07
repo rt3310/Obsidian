@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "캐스팅",
+      "path": "Study/1. C, C++/핵심/캐스팅.md"
+    },
+    {
       "basename": "연산자 오버로딩",
       "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "액터(Actor)",
       "path": "Study/22. Unreal/UE5/액터(Actor).md"
-    },
-    {
-      "basename": "무제",
-      "path": "Study/비교/무제.canvas"
     }
   ],
   "omittedPaths": [],
