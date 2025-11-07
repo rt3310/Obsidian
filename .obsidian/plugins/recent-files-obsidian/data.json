@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "virtual",
-      "path": "Study/1. C, C++/핵심/virtual.md"
+      "basename": "다중 상속",
+      "path": "Study/1. C, C++/핵심/다중 상속.md"
+    },
+    {
+      "basename": "switch 문의 제약사항",
+      "path": "Study/1. C, C++/switch 문의 제약사항.md"
     },
     {
       "basename": "pragma",
@@ -11,6 +15,26 @@
     {
       "basename": "placement new",
       "path": "Study/1. C, C++/placement new.md"
+    },
+    {
+      "basename": "13-2. shared_ptr, weak_ptr",
+      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
+    },
+    {
+      "basename": "13-1. unique_ptr",
+      "path": "Study/1. C, C++/13-1. unique_ptr.md"
+    },
+    {
+      "basename": "미리 컴파일 된 헤더",
+      "path": "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md"
+    },
+    {
+      "basename": "virtual",
+      "path": "Study/1. C, C++/핵심/virtual.md"
+    },
+    {
+      "basename": "Pasted image 20251108010210",
+      "path": "Study/1. C, C++/-resources/Pasted image 20251108010210.png"
     },
     {
       "basename": "템플릿",
@@ -61,10 +85,6 @@
       "path": "Study/1. C, C++/10-1. STL - algorithm.md"
     },
     {
-      "basename": "미리 컴파일 된 헤더",
-      "path": "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md"
-    },
-    {
       "basename": "캐스팅",
       "path": "Study/1. C, C++/핵심/캐스팅.md"
     },
@@ -83,10 +103,6 @@
     {
       "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
       "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Study/1. C, C++/switch 문의 제약사항.md"
     },
     {
       "basename": "Pasted image 20251013230532",
@@ -183,22 +199,6 @@
     {
       "basename": "Pasted image 20250507193050",
       "path": "Pasted image 20250507193050.png"
-    },
-    {
-      "basename": "Pasted image 20251101165035",
-      "path": "Study/비교/-resources/Pasted image 20251101165035.png"
-    },
-    {
-      "basename": "Pasted image 20251101165114",
-      "path": "Study/비교/-resources/Pasted image 20251101165114.png"
-    },
-    {
-      "basename": "Pasted image 20251101171634",
-      "path": "Study/비교/-resources/Pasted image 20251101171634.png"
-    },
-    {
-      "basename": "Pasted image 20251101171854",
-      "path": "Study/비교/-resources/Pasted image 20251101171854.png"
     }
   ],
   "omittedPaths": [],
