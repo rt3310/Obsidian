@@ -5,6 +5,14 @@
       "path": "Study/1. C, C++/핵심/캐스팅.md"
     },
     {
+      "basename": "10-1. STL - algorithm",
+      "path": "Study/1. C, C++/10-1. STL - algorithm.md"
+    },
+    {
+      "basename": "friend",
+      "path": "Study/1. C, C++/핵심/friend.md"
+    },
+    {
       "basename": "연산자 오버로딩",
       "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "static",
       "path": "Study/1. C, C++/핵심/static.md"
-    },
-    {
-      "basename": "friend",
-      "path": "Study/1. C, C++/핵심/friend.md"
     },
     {
       "basename": "11. 예외처리",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20251101164438",
       "path": "Study/비교/-resources/Pasted image 20251101164438.png"
-    },
-    {
-      "basename": "액터(Actor)",
-      "path": "Study/22. Unreal/UE5/액터(Actor).md"
     }
   ],
   "omittedPaths": [],
