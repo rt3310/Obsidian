@@ -6,7 +6,7 @@ public:
 	Test(int value1);
 	Test(const char* value2);
 	~Test();
-}
+};
 Test::Test(int value1) {
 	_value1 = value1;
 	_value2 = new char[10];
@@ -56,7 +56,7 @@ public:
 	explicit Test(int value1);
 	Test(const char* value2);
 	~Test();
-}
+};
 Test::Test(int value1) {
 	_value1 = value1;
 	_value2 = new char[10];

@@ -43,7 +43,7 @@ public:
 
 Test::Test(int value) {
 	_value = value;
-}
+};
 
 Test Test::operator+(const Test& t) const {
 	Test temp(_value + t._value);
@@ -100,7 +100,7 @@ public:
 	Test operator+(const Test& t) const;
 	Test operator+(int value) const;
 	friend Test operator+(const Test& a, const Test& b); // 접근 가능
-}
+};
 
 Test::Test(int value) {
 	_value = value;
@@ -152,7 +152,7 @@ public:
 	Test(int value);
 	Test& operator=(const Test& t);
 	friend Test operator+(const Test& a, const Test& b); // 접근 가능
-}
+};
 
 Test::Test(int value) {
 	_value = value;

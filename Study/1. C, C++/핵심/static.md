@@ -56,7 +56,7 @@ public:
 	Test();
 	void show();
 	~Test() { value--; }
-}
+};
 int Test::value = 0;
 
 Test::Test() {
