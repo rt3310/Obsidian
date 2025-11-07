@@ -5,8 +5,24 @@
       "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
     },
     {
+      "basename": "암시적 변환 금지(explicit)",
+      "path": "Study/1. C, C++/핵심/암시적 변환 금지(explicit).md"
+    },
+    {
+      "basename": "복사 생성자",
+      "path": "Study/1. C, C++/핵심/복사 생성자.md"
+    },
+    {
+      "basename": "static",
+      "path": "Study/1. C, C++/핵심/static.md"
+    },
+    {
       "basename": "friend",
       "path": "Study/1. C, C++/핵심/friend.md"
+    },
+    {
+      "basename": "11. 예외처리",
+      "path": "Study/1. C, C++/11. 예외처리.md"
     },
     {
       "basename": "대입 연산자 함수",
@@ -15,10 +31,6 @@
     {
       "basename": "const 함수",
       "path": "Study/1. C, C++/핵심/const 함수.md"
-    },
-    {
-      "basename": "암시적 변환 금지(explicit)",
-      "path": "Study/1. C, C++/핵심/암시적 변환 금지(explicit).md"
     },
     {
       "basename": "배열은 배열이고 포인터는 포인터이다.",
@@ -37,16 +49,8 @@
       "path": "Study/1. C, C++/switch 문의 제약사항.md"
     },
     {
-      "basename": "static",
-      "path": "Study/1. C, C++/핵심/static.md"
-    },
-    {
       "basename": "템플릿",
       "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "복사 생성자",
-      "path": "Study/1. C, C++/핵심/복사 생성자.md"
     },
     {
       "basename": "Pasted image 20251013230532",
@@ -195,10 +199,6 @@
     {
       "basename": "무제",
       "path": "Study/비교/무제.canvas"
-    },
-    {
-      "basename": "Pasted image 20251101120941",
-      "path": "Study/비교/-resources/Pasted image 20251101120941.png"
     }
   ],
   "omittedPaths": [],
