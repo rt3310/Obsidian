@@ -354,15 +354,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "317708cdd6349f9e",
   "lastOpenFiles": [
+    "Study/1. C, C++/12-2. Move.md",
+    "Study/1. C, C++/13-1. unique_ptr.md",
     "Study/1. C, C++/핵심/다중 상속.md",
     "Study/1. C, C++/-resources/Pasted image 20251108012122.png",
     "Study/1. C, C++/switch 문의 제약사항.md",
     "Study/1. C, C++/pragma.md",
     "Study/1. C, C++/placement new.md",
     "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md",
-    "Study/1. C, C++/13-1. unique_ptr.md",
     "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md",
     "Study/1. C, C++/핵심/virtual.md",
     "Study/1. C, C++/-resources/Pasted image 20251108010210.png",

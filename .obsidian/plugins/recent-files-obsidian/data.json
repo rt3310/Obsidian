@@ -5,6 +5,10 @@
       "path": "Study/1. C, C++/13-1. unique_ptr.md"
     },
     {
+      "basename": "12-2. Move",
+      "path": "Study/1. C, C++/12-2. Move.md"
+    },
+    {
       "basename": "다중 상속",
       "path": "Study/1. C, C++/핵심/다중 상속.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20250507192720",
       "path": "Pasted image 20250507192720.png"
-    },
-    {
-      "basename": "Pasted image 20250507193050",
-      "path": "Pasted image 20250507193050.png"
     }
   ],
   "omittedPaths": [],
