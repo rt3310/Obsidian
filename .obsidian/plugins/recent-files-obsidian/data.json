@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "13-1. unique_ptr",
+      "path": "Study/1. C, C++/13-1. unique_ptr.md"
+    },
+    {
       "basename": "다중 상속",
       "path": "Study/1. C, C++/핵심/다중 상속.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "13-2. shared_ptr, weak_ptr",
       "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
-    },
-    {
-      "basename": "13-1. unique_ptr",
-      "path": "Study/1. C, C++/13-1. unique_ptr.md"
     },
     {
       "basename": "미리 컴파일 된 헤더",

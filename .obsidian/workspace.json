@@ -156,12 +156,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/1. C, C++/핵심/다중 상속.md",
+                "file": "Study/1. C, C++/13-1. unique_ptr.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "다중 상속"
+              "title": "13-1. unique_ptr"
             }
           },
           {
@@ -354,11 +354,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "317708cdd6349f9e",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Study/1. C, C++/핵심/다중 상속.md",
     "Study/1. C, C++/-resources/Pasted image 20251108012122.png",
     "Study/1. C, C++/switch 문의 제약사항.md",
-    "Study/1. C, C++/핵심/다중 상속.md",
     "Study/1. C, C++/pragma.md",
     "Study/1. C, C++/placement new.md",
     "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md",
@@ -394,7 +394,6 @@
     "Pasted image 20250507193532.png",
     "Pasted image 20250507193542.png",
     "Pasted image 20250911140843.png",
-    "Pasted image 20250911140904.png",
     "Study/비교/무제.canvas",
     "Study/비교/-resources",
     "Study/비교",
