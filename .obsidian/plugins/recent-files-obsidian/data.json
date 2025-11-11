@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "유니폼 초기화(Uniform Initialization)",
+      "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
+    },
+    {
+      "basename": "13-1. unique_ptr",
+      "path": "Study/1. C, C++/13-1. unique_ptr.md"
+    },
+    {
       "basename": "function, mem_fn, bind",
       "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
+    },
+    {
+      "basename": "14. function, mem_fn, bind",
+      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
+    },
+    {
+      "basename": "13-2. shared_ptr, weak_ptr",
+      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
+    },
+    {
+      "basename": "12-2. Move",
+      "path": "Study/1. C, C++/12-2. Move.md"
     },
     {
       "basename": "템플릿",
@@ -15,14 +35,6 @@
     {
       "basename": "15. thread",
       "path": "Study/1. C, C++/15. thread.md"
-    },
-    {
-      "basename": "14. function, mem_fn, bind",
-      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
-    },
-    {
-      "basename": "13-1. unique_ptr",
-      "path": "Study/1. C, C++/13-1. unique_ptr.md"
     },
     {
       "basename": "10-3. STL - sequence container",
@@ -113,14 +125,6 @@
       "path": "Study/1. C, C++/placement new.md"
     },
     {
-      "basename": "12-2. Move",
-      "path": "Study/1. C, C++/12-2. Move.md"
-    },
-    {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
-    },
-    {
       "basename": "미리 컴파일 된 헤더",
       "path": "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "트러블 슈팅",
       "path": "Plan/트러블 슈팅.md"
-    },
-    {
-      "basename": "백엔드 포트폴리오 주제",
-      "path": "Plan/백엔드 포트폴리오 주제.md"
     }
   ],
   "omittedPaths": [],
