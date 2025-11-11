@@ -368,14 +368,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "f6b78fd244f81050",
   "lastOpenFiles": [
+    "Study/15. Software Engineering/이벤트 기반 아키텍처(Event-driven).md",
+    "Study/1. C, C++/핵심/shared_ptr.md",
     "Study/1. C, C++/-resources/Pasted image 20251111101213.png",
     "Study/1. C, C++/-resources/Pasted image 20251111100253.png",
     "Study/1. C, C++/-resources/Pasted image 20251111094744.png",
     "Study/1. C, C++/-resources/Pasted image 20251111094620.png",
     "Study/1. C, C++/-resources/2366084650EA5E22315B30.webp",
-    "Study/1. C, C++/핵심/shared_ptr.md",
     "Study/1. C, C++/-resources/Pasted image 20251111094032.png",
     "Pasted image 20251013230532.png",
     "Pasted image 20250911141032.png",
@@ -398,7 +399,6 @@
     "Study/1. C, C++/13-1. unique_ptr.md",
     "Study/1. C, C++/무제.md",
     "Study/1. C, C++/12-2. Move.md",
-    "Study/1. C, C++/-resources/Pasted image 20251108012122.png",
     "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md",
     "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md",
     "Study/1. C, C++/핵심/virtual.md",

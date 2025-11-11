@@ -211,3 +211,39 @@ std::shared_ptr<A> pa1 = a->get_shared_ptr();
 만약 객체1이 파괴가 되기 위해서는 객체1을 가리키고 있는 `shared_ptr`의 참조 개수가 0이 되어야만 한다. 즉, 객체2가 파괴되어야 한다. 하지만 객체2가 파괴되기 위해서는 마찬가지로 객체2를 가리키고 있는 `shared_ptr`의 참조 개수가 0이 되어야 하는데, 그러기 위해서는 객체1이 파괴되어야만 한다.
 
 이러지도 저러지도 못하는 상황이 된 것이다.
+```cpp
+#include <iostream>
+#include <memory>
+
+class A {
+	int *data;
+	std::shared_ptr<A> other;
+
+public:
+	A() {
+		data = new int[100];
+		std::cout << "자원을 획득함!" << std::endl;
+	}
+
+	~A() {
+		std::cout << "소멸자 호출!" << std::endl;
+		delete[] data;
+	}
+
+	void set_other(std::shared_ptr<A> o) { other = o; }
+};
+
+int main() {
+	std::shared_ptr<A> pa = std::make_shared<A>();
+	std::shared_ptr<A> pb = std::make_shared<A>();
+	
+	pa->set_other(pb);
+	pb->set_other(pa);
+}
+```
+코드를 실행시켜보면
+```
+자원을 획득함!
+자원을 획득함!
+```
+위와 같이 소멸자가 제대로 호출되지 않음을 알 수 있다.

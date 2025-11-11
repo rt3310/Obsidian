@@ -5,6 +5,10 @@
       "path": "Study/1. C, C++/핵심/shared_ptr.md"
     },
     {
+      "basename": "이벤트 기반 아키텍처(Event-driven)",
+      "path": "Study/15. Software Engineering/이벤트 기반 아키텍처(Event-driven).md"
+    },
+    {
       "basename": "2366084650EA5E22315B30",
       "path": "Study/1. C, C++/-resources/2366084650EA5E22315B30.webp"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "취업",
       "path": "Plan/취업.md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Plan/게임 클라이언트 로드맵.png"
     }
   ],
   "omittedPaths": [],
