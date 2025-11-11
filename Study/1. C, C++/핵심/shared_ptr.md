@@ -247,3 +247,127 @@ int main() {
 자원을 획득함!
 ```
 위와 같이 소멸자가 제대로 호출되지 않음을 알 수 있다.
+
+이 문제는 `shared_ptr` 자체에 내재되어 있는 문제이기 때문에 `shared_ptr`을 통해서는 이를 해결할 수 없다.
+이러한 순환 참조 문제를 해결하기 위해 나타난 것이 바로 `weak_ptr`이다.
+
+## weak_ptr
+
+먼저 트리 형태를 자료 구조로 나타낸다면 어떻게 할 수 있을까?
+```cpp
+class Node {
+	std::vector<std::shared_ptr<Node>> children;
+	/* 어떤 타입이 와야할까? */ parent;
+	
+public:
+	Node() {}
+	void AddChild(std::shared_ptr<Node> node) { children.push_back(node); }
+};
+```
+일단 기본적으로 위와 같은 형태를 취한다고 볼 수 있다. 부모가 여러 개의 자식 노드들을 가지므로 `shared_ptr`들의 vector로 나타낼 수 있고, 그 노드 역시 부모 노드가 있으므로 부모 노드를 가리키는 포인터를 가진다.
+
+여기서 질문은 과연 `parent`의 타입을 무엇으로 하냐이다.
+- 만약 일반 포인터(`Node*`)로 하게 된다면, 메모리 해제를 까먹고 하지 않을 경우 혹은 예외가 발생했을 경우 적절하게 자원을 해제하기 어렵다. 물론 이미 해제된 메모리를 계속 가리키고 있을 위험도 있다.
+- 하지만 이를 `shared_ptr`로 하게 된다면 앞서 본 순환 참조 문제가 생긴다. 부모와 자식이 서로를 가리키기 때문에 참조 개수가 절대로 0이 될 수 없다. 따라서, 이 객체들은 프로그램이 끝날 때까지 절대로 소멸되지 못하고 남아있게 된다.
+
+`weak_ptr`는 일반 포인터와 `shared_ptr` 사이에 위치한 스마트 포인터로, 스마트 포인터처럼 객체를 안전하게 참조할 수 있게 해주지만, **`shared_ptr`와는 다르게 참조 개수를 늘리지는 않는다**. 이름 그대로 약한 포인터인 것이다.
+
+따라서 설사 어떤 객체를 `weak_ptr`가 가리키고 있다고 하더라도, 다른 `shared_ptr`들이 가리키고 있지 않다면 이미 메모리에서 소멸되었을 것이다.
+
+이 대문에 `weak_ptr` 자체로는 원래 객체를 참조할 수 없고, 반드시 `shared_ptr`로 변환해서 사용해야 한다. 이 때 가리키고 있는 객체가 이미 소멸되었다면 빈 `shared_ptr`로 변환되고, 아닐 경우 해당 객체를 가리키는 `shared_ptr`로 변환된다.
+
+```cpp
+#include <iostream>
+#include <memory>
+#include <string>
+#include <vector>
+
+class A {
+	std::string s;
+	std::weak_ptr<A> other;
+
+public:
+	A(const std::string& s) : s(s) { std::cout << "자원을 획득함!" << std::endl; }
+	
+	~A() { std::cout << "소멸자 호출!" << std::endl; }
+
+	void set_other(std::weak_ptr<A> o) { other = o; }
+	void access_other() {
+		std::shared_ptr<A> o = other.lock();
+		if (o) {
+			  std::cout << "접근 : " << o->name() << std::endl;
+		} else {
+			  std::cout << "이미 소멸됨 ㅠ" << std::endl;
+		}
+	}
+	std::string name() { return s; }
+};
+
+int main() {
+	std::vector<std::shared_ptr<A>> vec;
+	vec.push_back(std::make_shared<A>("자원 1"));
+	vec.push_back(std::make_shared<A>("자원 2"));
+	
+	vec[0]->set_other(vec[1]);
+	vec[1]->set_other(vec[0]);
+	
+	// pa 와 pb 의 ref count 는 그대로다.
+	std::cout << "vec[0] ref count : " << vec[0].use_count() << std::endl;
+	std::cout << "vec[1] ref count : " << vec[1].use_count() << std::endl;
+	
+	// weak_ptr 로 해당 객체 접근하기
+	vec[0]->access_other();
+	
+	// 벡터 마지막 원소 제거 (vec[1] 소멸)
+	vec.pop_back();
+	vec[0]->access_other();  // 접근 실패!
+}
+```
+
+```
+자원을 획득함!
+자원을 획득함!
+vec[0] ref count : 1
+vec[1] ref count : 1
+접근 : 자원 2
+소멸자 호출!
+이미 소멸됨 ㅠ
+소멸자 호출!
+```
+성공적으로 실행했다면 위와 같이 나올 것이다.
+
+일단 `weak_ptr`을 정의하는 부분을 살펴보자.
+```cpp
+vec[0]->set_other(vec[1]);
+vec[1]->set_other(vec[0]);
+```
+`set_other` 함수는 `weak_ptr<A>`를 인자로 받고 있었는데, 여기에 `shared_ptr`을 전달했다. 즉, `weak_ptr`는 생성자로 `shared_ptr`나 다른 `weak_ptr`를 받는다. 또한 `shared_ptr`와는 다르게, **이미 제어 블록이 만들어진 객체만이 의미를 가지기 때문에, 평범한 포인터 주소값으로 `weak_ptr`를 생성할 수는 없다**.
+
+그 다음 `weak_ptr`를 `shared_ptr`로 변환하는 과정을 살펴보자.
+```cpp
+void access_other() {
+	std::shared_ptr<A> o = other.lock();
+	if (o) {
+		std::cout << "접근 : " << o->name() << std::endl;
+	} else {
+		std::cout << "이미 소멸됨 ㅠ" << std::endl;
+	}
+}
+```
+앞서 말했듯, `weak_ptr` 그 자체로는 원소를 참조할 수 없고, `shared_ptr`로 변환해야 한다. 이 작업은 `lock()` 함수를 통해 수행할 수 있다.
+
+`weak_ptr`에 정의된 `lock()` 함수는 만일 `weak_ptr`가 가리키고 있는 객체가 아직 메모리에 살아있다면(참조 개수가 0이 아니라면), 해당 객체를 가리키는 `shared_ptr`를 반환하고, 이미 해제가 되었다면 아무것도 가리키지 않는 `shared_ptr`를 반환한다.
+```cpp
+std::shared_ptr<A> o = other.lock();
+if (o) {
+	std::cout << "접근 : " << o->name() << std::endl;
+}
+```
+참고로 아무것도 가리키지 않는 `shared_ptr`는 `false`로 형변환 되므로 위와 같이 `if`문으로 간단히 확인할 수 있다.
+
+앞서 제어 블록에는 몇 개의 `shared_ptr`가 가리키고 있는지를 나타내는 참조 개수(ref count)가 있다고 했다. 그리고 참조 개수가 0이 되면 해당 객체를 메모리에서 해제한다. 그렇다면 참조 개수가 0이 될 때 제어 블록 역시 메모리에서 해제해야 할까?
+아니다. 만약 가리키는 `shared_ptr`은 0개 지만 아직 `weak_ptr`가 남아있다고 해보자. 물론 이 상태에서는 이미 객체는 해제되어 있을 것이다. 하지만 제어 블록 마저 해제해 버린다면, 제어 블록에서 참조 카운트가 0이라는 사실을 알 수 없게 된다.
+
+> 메모리가 해제된 이후에, 같은 자리가 다른 용도로 할당될 수 있다. 이 때문에 참조 카운트 위치에 있는 메모리가 다른 값으로 덮어 씌어질 수도 있다.
+
+즉, 제어 블록을 메모리에서 해제하기 위해서는 이를 가리키는 `weak_ptr` 역시 0개여야 한다. 따라서 제어 블록에는 참조 개수와 더불어 **약한 참조 개수(weak count)** 를 기록하게 된다.
