@@ -242,4 +242,35 @@ int main() {
 }
 ```
 
-하지만 매번 위 처럼
+하지만 매번 위 처럼 `function` 객체를 따로 만들어서 전달하는 것은 매우 귀찮다. 따라서 C++ 개발자 들은 라이브러리에 위 `function` 객체를 반환해버리는 함수를 추가했다.
+```cpp
+#include <algorithm>
+#include <functional>
+#include <iostream>
+#include <vector>
+using std::vector;
+
+int main() {
+	vector<int> a(1);
+	vector<int> b(2);
+	vector<int> c(3);
+	vector<int> d(4);
+	
+	vector<vector<int>> container;
+	container.push_back(a);
+	container.push_back(b);
+	container.push_back(c);
+	container.push_back(d);
+	
+	vector<int> size_vec(4);
+	transform(container.begin(), container.end(), size_vec.begin(),
+			std::mem_fn(&vector<int>::size));
+	for (auto itr = size_vec.begin(); itr != size_vec.end(); ++itr) {
+		std::cout << "벡터 크기 :: " << *itr << std::endl;
+	}
+}
+```
+
+> [!warning] 주의 사항
+> 참고로 `mem_fn`은 그리 자주 쓰이지는 않는데, 람다 함수로도 동일한 작업을 수행할 수 있기 때문이다.
+> 위 코드의 경우 `mem_fn(&vector<int>::size)`  대신에 `[](const auto& v { return v.size() }`를 전달해도 동일한 작업을 수행한다. 
