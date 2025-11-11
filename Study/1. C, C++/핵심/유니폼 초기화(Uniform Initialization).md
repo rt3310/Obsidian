@@ -128,3 +128,215 @@ A 생성자 호출
 `{}`를 이용해서 생성하지 않았더라면 `A(1, 2.3)`과 같이 클래스를 명시해줘야만 했지만, `{}`를 이용할 경우 컴파일러가 알아서 함수의 반환 타입을 보고 추론해준다.
 
 ## 초기화자 리스트(Initializer list)
+
+배열을 정의할 때 우리는 다음과 같이 작성했다.
+```cpp
+int arr[] = {1, 2, 3, 4};
+```
+그렇다면 중괄호를 이용해서 마찬가지 효과를 낼 수 있을까? 예를 들면
+```cpp
+vector<int> v = {1, 2, 3, 4};
+```
+와 같이 말이다. 그런데, 놀랍게도 C++11 에서 부터 이와 같은 문법을 사용할 수 있게 되었다.
+
+```cpp
+#include <iostream>
+
+class A {
+public:
+	A(std::initializer_list<int> l) {
+		for (auto itr = l.begin(); itr != l.end(); ++itr) {
+			std::cout << *itr << std::endl;
+		}
+	}
+};
+
+int main() { A a = {1, 2, 3, 4, 5}; }
+```
+
+```
+1
+2
+3
+4
+5
+```
+실행시켜보면 위와 같이 나온다.
+
+`initializer_list`는 우리가 `{}`를 이용해서 생성자를 호출할 때, 클래스의 생성자들 중에 `initializer_list`를 인자로 받는 생성자가 있다면 전달된다.
+
+> [!warning] 주의 사항
+> `()`를 이용해서 생성자를 호출하면 `initializer_list`가 생성되지 않는다.
+
+`initializer_list`를 이용하면 컨테이너들을 간단하게 정의할 수 있다. 예를 들어,
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+#include <vector>
+
+template <typename T>
+void print_vec(const std::vector<T>& vec) {
+	std::cout << "[";
+	for (const auto& e : vec) {
+		std::cout << e << " ";
+	}
+	std::cout << "]" << std::endl;
+}
+
+template <typename K, typename V>
+void print_map(const std::map<K, V>& m) {
+	for (const auto& kv : m) {
+		std::cout << kv.first << " : " << kv.second << std::endl;
+	}
+}
+
+int main() {
+	std::vector<int> v = {1, 2, 3, 4, 5};
+	print_vec(v);
+	
+	std::cout << "----------------------" << std::endl;
+	std::map<std::string, int> m = {
+		{"abc", 1}, {"hi", 3}, {"hello", 5}, {"c++", 2}, {"java", 6}};
+	print_map(m);
+}
+```
+
+```cpp
+std::vector<int> v = {1, 2, 3, 4, 5};
+```
+`vector`의 경우 생각했던대로, `vector`의 원소들을 그냥 나열해주면 된다. 마치 이전에 배열을 정의할 때 처럼 말이다.
+```cpp
+std::map<std::string, int> m = {
+  {"abc", 1}, {"hi", 3}, {"hello", 5}, {"c++", 2}, {"java", 6}};
+```
+`map`의 경우도 비슷하다. `map`의 경우 `vector`와는 다르게 `pair<Key, Value>` 원소들을 `initializer_list`의 원소들로 받는다. `pair`는 C++ STL에서 지원하는 간단한 클래스로 그냥 두 개의 원소를 보관하는 객체라고 보면 된다.
+`map`에는 `pair`의 첫 번째 원소로 키, 두 번째 원소로 값을 전달해주면 된다.
+
+## initializer_list 사용 시 주의할 점
+
+생성자들 중에서 `initializer_list`를 받는 생성자가 있다면 한 가지 주의해야 할 점이 있다.
+만약 `{}`를 이용해서 객체를 생성할 경우 생성자 오버로딩 시에 해당 함수가 최우선으로 고려된다는 점이다.
+
+예를 들어, `vector`의 경우 아래와 같은 형태의 생성자가 존재한다.
+```cpp
+vector(size_type count);
+```
+이 생성자는 count 개수 만큼의 원소 자리를 미리 생성해놓는다. 그렇다면
+```cpp
+vector v{10};
+```
+은 해당 생성자를 호출할까?
+아니다. 그냥 원소 1개 짜리 `initializer_list`라고 생각해서 10을 보관하고 있는 벡터를 생성하게 된다.
+
+따라서, 이러한 불상사를 막기 위해서는 `{}`로 생성하기 보다는 `()`를 이용해서
+```cpp
+vector v(10);
+```
+과 같이 `v`를 생성한다면 우리가 원하는 생성자를 호출할 수 있게 된다.
+
+`initializer_list`를 받는 생성자가 최우선적으로 고려된다는 말은, 컴파일러가 최선을 다해서 해당 생성자와 매칭시키려고 노력한다는 의미이다.
+예를 들어 아래와 같은 코드를 살펴보자.
+```cpp
+#include <initializer_list>
+#include <iostream>
+
+class A {
+public:
+	A(int x, double y) { std::cout << "일반 생성자! " << std::endl; }
+	
+	A(std::initializer_list<int> lst) {
+		std::cout << "초기화자 사용 생성자! " << std::endl;
+	}
+};
+
+int main() {
+	A a(3, 1.5);  // Good
+	A b{3, 1.5};  // Bad!
+}
+```
+컴파일 하면 아래와 같은 컴파일 에러가 발생한다.
+![[Pasted image 20251111215709.png]]
+
+일단 보다시피
+```cpp
+A a(3, 1.5); // Good
+```
+이 문장은 아무런 문제가 없다. `()`를 이용해서 생성자를 호출했기 때문에, A의 첫 번째 생성자인 일반 생성자가 호출된다.
+
+하지만 그 다음 문장을 살펴보자.
+```cpp
+A b{3, 1.5}; // Bad!
+```
+앞서 C++ 컴파일러는 `{}`를 이용해서 생성자를 호출했을 경우 `initializer_list`를 받는 생성자를 최우선으로 고려한다고 했다. 따라서, 컴파일러는 `initializer_list`를 이용하도록 최대한 노력하려고 하는데, 1.5는 `int`가 아니지만, `double`에서 `int`로 암시적 변환을 할 수 있으므로 이를 택하게 된다.
+
+문제는 앞서 `{}`는 데이터 손실이 있는 변환을 할 수 없다고 했다. 그런데 `double`에서 `int`로의 타입 변환은 데이터 손실이 있는 변환이므로, 오류가 발생하게 된다.
+사실 `A(int x, double y)`가 생성자가 좀 더 나은 매칭이지만, C++ 컴파일러는 `initializer_list`를 이용한 생성자를 최대한 고려하려고 한다. 이러한 문제가 발생하지 않는 경우는 `initializer_list`의 원소 타입으로 타입 변환 자체가 불가능한 경우여야만 한다.
+```cpp
+#include <initializer_list>
+#include <iostream>
+#include <string>
+
+class A {
+public:
+	A(int x, double y) { std::cout << "일반 생성자! " << std::endl; }
+	
+	A(std::initializer_list<std::string> lst) {
+		std::cout << "초기화자 사용 생성자! " << std::endl;
+	}
+};
+
+int main() {
+	A a(3, 1.5);        // 일반
+	A b{3, 1.5};        // 일반
+	A c{"abc", "def"};  // 초기화자
+}
+```
+
+```
+일반 생성자! 
+일반 생성자! 
+초기화자 사용 생성자!
+```
+실행하면 위와 같이 잘 나온다. 위의 경우 `int`나 `double`이 `string`으로 변환될 수 없기 때문에 `initializer_list`를 받는 생성자는 아예 고려 대상에서 제외된다.
+
+### initializer_list와 auto
+만일 `{}`를 이용해서 생성할 때 타입으로 `auto`를 지정한다면 `initializer_list` 객체가 생성된다. 예를 들어,
+```cpp
+auto list = {1, 2, 3};
+```
+을 하게 되면 `list`는 `initializer_list<int>`가 될 것이다.
+
+그러면 아래는 어떨까?
+```cpp
+auto a = {1};     // std::initializer_list<int>
+auto b{1};        // std::initializer_list<int>
+auto c = {1, 2};  // std::initializer_list<int>
+auto d{1, 2};     // std::initializer_list<int>
+```
+상식적으로 적어도 `b`는 `int`로 추론되어야 할 것 같지만, C++11에서는 위 `a`, `b`, `c`, `d`모두 `std::initializer_list<int>`로 정의된다.
+
+하지만 이는 꽤 비상식적이기 대문에 C++17 부터 아래와 같이 두 가지 형태로 구분해서 auto 타입이 추론된다.
+- `auto x = {arg1, arg2...}` 형태의 경우 `arg1`, `arg2` ... 들이 모두 같은 타입이라면 `x`는 `std::initializer_list<T>`로 추론된다.
+- `auto x {arg1, arg2, ...}` 형태의 경우 만일 인자가 단 1개라면 인자의 타입으로 추론되고, 여러 개일 경우 오류를 발생시킨다.
+따라서 C++17 부터는 아래와 같다.
+```cpp
+auto a = {1};     // 첫 번째 형태이므로 std::initializer_list<int>
+auto b{1};        // 두 번째 형태 이므로 그냥 int
+auto c = {1, 2};  // 첫 번째 형태이므로 std::initializer_list<int>
+auto d{1, 2};  // 두 번째 형태 인데 인자가 2 개 이상이므로 컴파일 오류
+```
+좀 더 직관적으로 바뀐 것을 알 수 있다.
+
+유니폼 초기화와 `auto`를 같이 사용할 때 또 한 가지 주의할 점은, 문자열을 다룰 때
+```cpp
+auto list = {"a", "b", "cc"};
+```
+를 하게 된다면 `list`는 `initializer_list<std::string>`이 아닌 `initializer_list<const char*>`이 된다는 점이다.
+물론 이 문제는 C++14 에서 추가된 리터럴 연산자를 통해 해결할 수 있다.
+```cpp
+using namespace std::literals;  // 문자열 리터럴 연산자를 사용하기 위해
+                                // 추가해줘야함.
+auto list = {"a"s, "b"s, "c"s};
+```
+와 같이 하면, `initializer_list<std::string>`으로 추론된다.

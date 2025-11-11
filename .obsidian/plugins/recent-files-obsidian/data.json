@@ -5,6 +5,30 @@
       "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
     },
     {
+      "basename": "템플릿",
+      "path": "Study/1. C, C++/템플릿.md"
+    },
+    {
+      "basename": "12-2. Move",
+      "path": "Study/1. C, C++/12-2. Move.md"
+    },
+    {
+      "basename": "placement new",
+      "path": "Study/1. C, C++/placement new.md"
+    },
+    {
+      "basename": "pragma",
+      "path": "Study/1. C, C++/pragma.md"
+    },
+    {
+      "basename": "11. 예외처리",
+      "path": "Study/1. C, C++/11. 예외처리.md"
+    },
+    {
+      "basename": "10-4. string",
+      "path": "Study/1. C, C++/10-4. string.md"
+    },
+    {
       "basename": "13-1. unique_ptr",
       "path": "Study/1. C, C++/13-1. unique_ptr.md"
     },
@@ -21,14 +45,6 @@
       "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
     },
     {
-      "basename": "12-2. Move",
-      "path": "Study/1. C, C++/12-2. Move.md"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
       "basename": "무제",
       "path": "Study/1. C, C++/무제.md"
     },
@@ -43,10 +59,6 @@
     {
       "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
       "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
-    },
-    {
-      "basename": "11. 예외처리",
-      "path": "Study/1. C, C++/11. 예외처리.md"
     },
     {
       "basename": "static",
@@ -105,24 +117,12 @@
       "path": "Study/1. C, C++/핵심/캐스팅.md"
     },
     {
-      "basename": "10-4. string",
-      "path": "Study/1. C, C++/10-4. string.md"
-    },
-    {
       "basename": "다중 상속",
       "path": "Study/1. C, C++/핵심/다중 상속.md"
     },
     {
       "basename": "배열은 배열이고 포인터는 포인터이다.",
       "path": "Study/1. C, C++/핵심/배열은 배열이고 포인터는 포인터이다..md"
-    },
-    {
-      "basename": "pragma",
-      "path": "Study/1. C, C++/pragma.md"
-    },
-    {
-      "basename": "placement new",
-      "path": "Study/1. C, C++/placement new.md"
     },
     {
       "basename": "미리 컴파일 된 헤더",
