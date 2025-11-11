@@ -100,4 +100,114 @@ std::shared_ptr<A> p3(p2);
 ```cpp
 std::shared_ptr<A> p1(new A());
 ```
-하지만 이는 바람직한 `shared_ptr`의 생성 방법은 아니다. 왜냐하면 일단 A를 생성하기 위해서 동적 할당이 한 번 일어나야 하고, 그 다음 `shared_ptr`의 제어 블록 역시 동적으로 할당해야 하기 때문이다.
+하지만 이는 바람직한 `shared_ptr`의 생성 방법은 아니다. 왜냐하면 일단 A를 생성하기 위해서 동적 할당이 한 번 일어나야 하고, 그 다음 `shared_ptr`의 제어 블록 역시 동적으로 할당해야 하기 때문이다. 즉, 2번의 동적 할당이 발생한다.
+
+동적 할당은 상당히 비싼 연산이다. 어차피 동적 할당을 두 번 할 것이라는 것을 알고 있다면, 아예 2개 합친 크기로 한 번 할당하는 것이 훨씬 빠르다.
+```cpp
+std::shared_ptr<A> p1 = std::make_shared<A>();
+```
+`make_shared` 함수는 A의 생성자의 인자들을 받아서 이를 통해 객체 `A`와 `shared_ptr`의 제어 블록까지 한 번에 동적 할당 한 후에 만들어진 `shared_ptr`를 반환한다.
+
+위 경우 `A`의 생성자에 인자가 없어서 `make_shared`에 아무것도 전달하지 않았지만, 만약 `A`의 생성자에 인자가 있다면 `make_shared`에 인자로 전달해주면 된다.
+
+## 생성 시 주의할 점
+
+`shared_ptr`은 인자로 주속밧이 전달된다면, 마치 자기가 해당 객체를 첫 번째로 소유하는 `shared_ptr`인 것마냥 행동한다. 예를 들어,
+```cpp
+A* a = new A();
+std::shared_ptr<A> pa1(a);
+std::shared_ptr<A> pa2(a);
+```
+를 하게 된다면 아래와 같이 이 두개의 제어 블록이 따로 생성된다.
+![[Pasted image 20251111100253.png]]
+따라서 위와 같이 제어 블록들은 다른 제어 블록들의 존재를 모르고 참조 개수를 1로 설정하기 때문에, 만약 `pa1`이 소멸된다면 참조 카운트가 0이 되어서 자신이 가리키는 객체 `A`를 소멸시켜 버린다.
+
+물론 `pa2`의 참조 카운트는 계속 1이기 때문에 자신이 가리키는 객체가 살아있을 것이라 생각할 것이다. 만약 운 좋게 `pa2`를 사용하지 않아도, `pa2`가 소멸되면 참조 개수가 0으로 떨어지고 자신이 가리키고 있는 객체를 소멸시키기 때문에 오류가 발생한다.
+
+이를 방지하려면 `shared_ptr`를 주소값을 통해서 생성하는 것을 지양해야 한다.
+하지만, 어쩔 수 없는 상황도 있다. 바로 객체 내부에서 자기 자신을 가리키는 `shared_ptr`를 만들 때를 생각해보자.
+```cpp
+#include <iostream>
+#include <memory>
+
+class A {
+	int *data;
+
+public:
+	A() {
+		data = new int[100];
+		std::cout << "자원을 획득함!" << std::endl;
+	}
+
+	~A() {
+		std::cout << "소멸자 호출!" << std::endl;
+		delete[] data;
+	}
+
+	std::shared_ptr<A> get_shared_ptr() { return std::shared_ptr<A>(this); }
+};
+
+int main() {
+	std::shared_ptr<A> pa1 = std::make_shared<A>();
+	std::shared_ptr<A> pa2 = pa1->get_shared_ptr();
+	
+	std::cout << pa1.use_count() << std::endl;
+	std::cout << pa2.use_count() << std::endl;
+}
+```
+이 코드를 실행시켜보면, 똑같이 소멸 시에 오류가 발생하게 된다.
+`get_shared_ptr()` 함수에서 `shared_ptr`를 생성할 때, 이미 자기 자신을 가리키는 `shared_ptr`가 있다는 사실을 모른 채 새로운 제어 블록을 생성하기 때문이다.
+
+이 문제는 `enable_shared_from_this`를 통해 깔끔하게 해결할 수 있다.
+
+### enable_shared_from_this
+우리가 `this`를 사용해서 `shared_ptr`를 만들고 싶은 클래스가 있다면 `enable_shared_from_this`를 상속받으면 된다.
+```cpp
+#include <iostream>
+#include <memory>
+
+class A : public std::enable_shared_from_this<A> {
+	int *data;
+
+public:
+	A() {
+		data = new int[100];
+		std::cout << "자원을 획득함!" << std::endl;
+	}
+
+	~A() {
+		std::cout << "소멸자 호출!" << std::endl;
+		delete[] data;
+	}
+
+	std::shared_ptr<A> get_shared_ptr() { return shared_from_this(); }
+};
+
+int main() {
+	std::shared_ptr<A> pa1 = std::make_shared<A>();
+	std::shared_ptr<A> pa2 = pa1->get_shared_ptr();
+	
+	std::cout << pa1.use_count() << std::endl;
+	std::cout << pa2.use_count() << std::endl;
+}
+```
+위 코드를 실행시켜 보면 제대로 작동하는 것을 볼 수 있다.
+
+`enable_shared_from_this` 클래스에는 `shared_from_this`라는 멤버 함수를 정의하고 있는데, 이 함수는 이미 정의되어 있는 제어 블록을 사용해서 `shared_ptr`를 생성한다.
+따라서 이전처럼 같은 객체에 2개의 다른 제어 블록이 생성되는 일을 막을 수 있다.
+
+한 가지 중요한 점은 `shared_from_this`가 잘 작동하기 위해서는 해당 객체의 `shared_ptr`가 **반드시 먼저 정의되어 있어야만 한다**는 것이다. 즉, `shared_from_this`는 있는 제어 블록을 확인만 할 뿐, 없는 제어 블록을 만들지는 않는다. 쉽게 말해 아래 코드는 오류가 발생한다.
+```cpp
+A* a = new A();
+std::shared_ptr<A> pa1 = a->get_shared_ptr();
+```
+
+## 서로 참조하는 shared_ptr
+
+앞서 `shared_ptr`는 참조 개수가 0이 되면 가리키는 객체를 메모리에서 해제시킨다고 했다. 그런데, 객체들을 더 이상 사용하지 않는데도 불구하고 참조 개수가 절대로 0이 될 수 없는 상황이 있다.
+![[Pasted image 20251111101213.png]]
+위 그림의 경우 각 객체는 `shared_ptr`를 하나 씩 가지고 있는데, 이 `shared_ptr`가 다른 객체를 가리키고 있다. 즉 객체1의 `shared_ptr`는 객체2를 가리키고 있고, 객체2의 `shared_ptr`는 객체1을 가리키고 있다.
+
+만약 객체1이 파괴가 되기 위해서는 객체1을 가리키고 있는 `shared_ptr`의 참조 개수가 0이 되어야만 한다. 즉, 객체2가 파괴되어야 한다. 하지만 객체2가 파괴되기 위해서는 마찬가지로 객체2를 가리키고 있는 `shared_ptr`의 참조 개수가 0이 되어야 하는데, 그러기 위해서는 객체1이 파괴되어야만 한다.
+
+이러지도 저러지도 못하는 상황이 된 것이다.
