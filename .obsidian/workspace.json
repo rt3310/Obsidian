@@ -256,7 +256,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -368,7 +369,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f6b78fd244f81050",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/1. C, C++/10-2. STL - associative container.md",
     "Study/1. C, C++/10-3. STL - sequence container.md",
