@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "유니폼 초기화(Uniform Initialization)",
-      "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
+      "basename": "decltype",
+      "path": "Study/1. C, C++/핵심/decltype.md"
+    },
+    {
+      "basename": "10-4. string",
+      "path": "Study/1. C, C++/10-4. string.md"
+    },
+    {
+      "basename": "10-3. STL - sequence container",
+      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
     },
     {
       "basename": "템플릿",
       "path": "Study/1. C, C++/템플릿.md"
     },
     {
+      "basename": "13-2. shared_ptr, weak_ptr",
+      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
+    },
+    {
+      "basename": "13-1. unique_ptr",
+      "path": "Study/1. C, C++/13-1. unique_ptr.md"
+    },
+    {
       "basename": "12-2. Move",
       "path": "Study/1. C, C++/12-2. Move.md"
+    },
+    {
+      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
+      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
+    },
+    {
+      "basename": "function, mem_fn, bind",
+      "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
+    },
+    {
+      "basename": "shared_ptr",
+      "path": "Study/1. C, C++/핵심/shared_ptr.md"
+    },
+    {
+      "basename": "unique_ptr",
+      "path": "Study/1. C, C++/핵심/unique_ptr.md"
+    },
+    {
+      "basename": "유니폼 초기화(Uniform Initialization)",
+      "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
     },
     {
       "basename": "placement new",
@@ -25,24 +61,8 @@
       "path": "Study/1. C, C++/11. 예외처리.md"
     },
     {
-      "basename": "10-4. string",
-      "path": "Study/1. C, C++/10-4. string.md"
-    },
-    {
-      "basename": "13-1. unique_ptr",
-      "path": "Study/1. C, C++/13-1. unique_ptr.md"
-    },
-    {
-      "basename": "function, mem_fn, bind",
-      "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
-    },
-    {
       "basename": "14. function, mem_fn, bind",
       "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
-    },
-    {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
     },
     {
       "basename": "무제",
@@ -53,20 +73,8 @@
       "path": "Study/1. C, C++/15. thread.md"
     },
     {
-      "basename": "10-3. STL - sequence container",
-      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
-    },
-    {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
-    },
-    {
       "basename": "static",
       "path": "Study/1. C, C++/핵심/static.md"
-    },
-    {
-      "basename": "shared_ptr",
-      "path": "Study/1. C, C++/핵심/shared_ptr.md"
     },
     {
       "basename": "이벤트 기반 아키텍처(Event-driven)",
@@ -99,10 +107,6 @@
     {
       "basename": "10-2. STL - associative container",
       "path": "Study/1. C, C++/10-2. STL - associative container.md"
-    },
-    {
-      "basename": "unique_ptr",
-      "path": "Study/1. C, C++/핵심/unique_ptr.md"
     },
     {
       "basename": "switch 문의 제약사항",
@@ -195,10 +199,6 @@
     {
       "basename": "어떻게 공부해야 할까",
       "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
     }
   ],
   "omittedPaths": [],
