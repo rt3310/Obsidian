@@ -5,6 +5,30 @@
       "path": "Study/1. C, C++/핵심/shared_ptr.md"
     },
     {
+      "basename": "2366084650EA5E22315B30",
+      "path": "Study/1. C, C++/-resources/2366084650EA5E22315B30.webp"
+    },
+    {
+      "basename": "Pasted image 20251111094032",
+      "path": "Study/1. C, C++/-resources/Pasted image 20251111094032.png"
+    },
+    {
+      "basename": "Pasted image 20251013230532",
+      "path": "Pasted image 20251013230532.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
+    },
+    {
+      "basename": "2113164253DB01CF09ACCF",
+      "path": "Study/1. C, C++/-resources/2113164253DB01CF09ACCF.webp"
+    },
+    {
+      "basename": "13.2.1 1",
+      "path": "Study/1. C, C++/-resources/13.2.1 1.webp"
+    },
+    {
       "basename": "10-2. STL - associative container",
       "path": "Study/1. C, C++/10-2. STL - associative container.md"
     },
@@ -63,14 +87,6 @@
     {
       "basename": "13-1. unique_ptr",
       "path": "Study/1. C, C++/13-1. unique_ptr.md"
-    },
-    {
-      "basename": "2113164253DB01CF09ACCF",
-      "path": "2113164253DB01CF09ACCF.webp"
-    },
-    {
-      "basename": "2366084650EA5E22315B30",
-      "path": "2366084650EA5E22315B30.webp"
     },
     {
       "basename": "무제",
@@ -141,10 +157,6 @@
       "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
     },
     {
-      "basename": "Pasted image 20251013230532",
-      "path": "Pasted image 20251013230532.png"
-    },
-    {
       "basename": "new vs malloc",
       "path": "Study/1. C, C++/question/new vs malloc.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "게임 클라이언트 로드맵",
       "path": "Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "개선,트러블슈팅 예시",
-      "path": "Plan/개선,트러블슈팅 예시.md"
-    },
-    {
-      "basename": "컴포넌트(Components)",
-      "path": "Study/22. Unreal/UE5/컴포넌트(Components).md"
-    },
-    {
-      "basename": "UE5",
-      "path": "Study/22. Unreal/UE5.md"
     }
   ],
   "omittedPaths": [],
