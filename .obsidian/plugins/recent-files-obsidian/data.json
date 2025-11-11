@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "function, mem_fn, bind",
+      "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
+    },
+    {
       "basename": "shared_ptr",
       "path": "Study/1. C, C++/핵심/shared_ptr.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "백엔드 포트폴리오 주제",
       "path": "Plan/백엔드 포트폴리오 주제.md"
-    },
-    {
-      "basename": "취업",
-      "path": "Plan/취업.md"
     }
   ],
   "omittedPaths": [],
