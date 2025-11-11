@@ -274,3 +274,101 @@ int main() {
 > [!warning] 주의 사항
 > 참고로 `mem_fn`은 그리 자주 쓰이지는 않는데, 람다 함수로도 동일한 작업을 수행할 수 있기 때문이다.
 > 위 코드의 경우 `mem_fn(&vector<int>::size)`  대신에 `[](const auto& v { return v.size() }`를 전달해도 동일한 작업을 수행한다. 
+> 
+> `mem_fn`을 사용하기 위해서는 `<functional>` 헤더를 추가해야 하지만 람다함수는 그냥 쓸 수 있으니 좀 더 편리한 며이 있다. 물론, 코드 길이 면에서는 `mem_fn`을 사용하는 것이 좀 더 깔끔한 편이다.
+
+## bind
+
+재미있게도 함수 객체 생성 시에 인자를 특정한 것으로 지정할 수도 있다.
+```cpp
+#include <functional>
+#include <iostream>
+
+void add(int x, int y) {
+	std::cout << x << " + " << y << " = " << x + y << std::endl;
+}
+
+void subtract(int x, int y) {
+	std::cout << x << " - " << y << " = " << x - y << std::endl;
+}
+int main() {
+	auto add_with_2 = std::bind(add, 2, std::placeholders::_1);
+	add_with_2(3);
+	
+	// 두 번째 인자는 무시된다.
+	add_with_2(3, 4);
+	
+	auto subtract_from_2 = std::bind(subtract, std::placeholders::_1, 2);
+	auto negate =
+		  std::bind(subtract, std::placeholders::_2, std::placeholders::_1);
+	
+	subtract_from_2(3);  // 3 - 2 를 계산한다.
+	negate(4, 2);        // 2 - 4 를 계산한다
+}
+```
+
+`bind` 함수는 이름 그대로 원래 함수에 특정 인자를 붙여(bind)준다. 예를 들어,
+```cpp
+std::bind(add, 2, std::placeholders::_1);
+```
+의 경우 `add()`라는 함수에 첫 번째 인자로 2를 `bind` 시켜주고, 두 번째 인자로는 새롭게 만들어진 함수 객체의 첫 번째 인자를 전달해준다. 따라서
+```cpp
+add_with_2(3);
+```
+을 했을 때, 원래 `add()` 함수의 첫 번째 인자로는 2가 들어가게 되고, 두 번째 인자로는 `add_with_2`의 첫 번째 인자인 3이 들어갈 것이다.
+
+만약
+```cpp
+add_with_2(3, 4);
+```
+처럼 인자를 여러 개 전달하더라도 뒤에 것들은 무시된다.
+
+```cpp
+auto negate = std::bind(subtract, std::placeholders::_2, std::placeholders::_1);
+```
+위 경우는 어떨까?
+`negate` 함수는 첫 번째 인자와 두 번째 인자의 순서를 바꿔서 `subtract` 함수를 호출하게 된다. 즉, `negate(3, 5)`를 호출할 경우 실제로는 `subtract(5, 3)`이 호출된다.
+
+`placeholders`의 `_1`, `_2`들은 일일이 정의된 객체들이다. 그 개수는 라이브러리마다 다른데, `libstdc++`(g++에서 사용하는 C++ 라이브러리)의 경우 `_1` 부터 `_29` 까지 정의되어 있다.
+
+한 가지 주의할 점은, 레퍼런스를 인자로 받는 함수들의 경우이다.
+```cpp
+#include <functional>
+#include <iostream>
+
+struct S {
+	int data;
+	S(int data) : data(data) { std::cout << "일반 생성자 호출!" << std::endl; }
+	S(const S& s) {
+		std::cout << "복사 생성자 호출!" << std::endl;
+		data = s.data;
+	}
+
+	S(S&& s) {
+		std::cout << "이동 생성자 호출!" << std::endl;
+		data = s.data;
+	}
+};
+
+void do_something(S& s1, const S& s2) { s1.data = s2.data + 3; }
+
+int main() {
+	S s1(1), s2(2);
+	
+	std::cout << "Before : " << s1.data << std::endl;
+	
+	// s1 이 그대로 전달된 것이 아니라 s1 의 복사본이 전달됨!
+	auto do_something_with_s1 = std::bind(do_something, s1, std::placeholders::_1);
+	do_something_with_s1(s2);
+	
+	std::cout << "After :: " << s1.data << std::endl;
+}
+```
+성공적으로 컴파일 했다면
+```
+일반 생성자 호출!
+일반 생성자 호출!
+Before : 1
+복사 생성자 호출!
+After :: 1
+```

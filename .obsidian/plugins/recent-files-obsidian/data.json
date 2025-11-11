@@ -5,6 +5,18 @@
       "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
     },
     {
+      "basename": "템플릿",
+      "path": "Study/1. C, C++/템플릿.md"
+    },
+    {
+      "basename": "무제",
+      "path": "Study/1. C, C++/무제.md"
+    },
+    {
+      "basename": "15. thread",
+      "path": "Study/1. C, C++/15. thread.md"
+    },
+    {
       "basename": "14. function, mem_fn, bind",
       "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
     },
@@ -99,18 +111,6 @@
     {
       "basename": "placement new",
       "path": "Study/1. C, C++/placement new.md"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "15. thread",
-      "path": "Study/1. C, C++/15. thread.md"
-    },
-    {
-      "basename": "무제",
-      "path": "Study/1. C, C++/무제.md"
     },
     {
       "basename": "12-2. Move",
