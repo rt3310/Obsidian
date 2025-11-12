@@ -248,4 +248,19 @@ Mutex를 확보하고 나면 MTR 정보를 Redo Log Buffer에 작성하고, 작�
 그리고, 변경된 페이지 정보를 Buffer Pool의 Flush List에 추가하고, MTR 커밋을 위한 마무리로 관련된 리소스를 해제하는 작업을 진행한다.
 ### 트랜잭션 기반의 Redo Log 동작 방식
 간단히 함수로 확인했던 Redo Log 동작 방식을 실제 트랜잭션을 수행하는 예제를 통해 좀 더 상세히 알아보자.
-![[Pasted image 20251112230637.png]]
+![[Pasted image 20251112230637.png]]위 그림에서 보는 것과 같이 전체적인 트랜잭션의 작업은 크게 3단계로 나누어 볼 수 있다.
+1. MTR에 저장된 변경 내용을 Redo Log Buffer로 전달한다.
+2. Dirty Page를 Buffer Pool의 Flush List에 추가한다.
+3. Redo Log Buffer에 저장된 변경 정보를 Redo Log File에 작성한다.
+
+그림을 통해 확인할 수 있지만, 각각의 단계에서 리소스에 경합 관리가 필요한 부분은 Mutex를 통한 리소스 확보 후 작업이 진행됨을 확인할 수 있다.
+위 단계 중 Log Buffer 작업 부분인 1번 부분에 대한 것만 좀 더 상세히 알아보자.
+#### MTR 정보 Log Buffer로 전달하기
+각각의 세션에 수행되는 트랜잭션이 어떤 단계로 Global Redo Log Buffer에 작성되는지 좀 더 자세히 살펴보자.
+![[Pasted image 20251112231539.png]]
+- 사용자 쿼리가 수행되면 작업이 진행되면서 발생하는 변경 정보를 MTR 객체를 만들어서 저장한다. 이때 먼저 MTR 객체는 세션에 할당된 메모리 영역에 MTR 정보를 저장한다.
+- 쿼리 작업이 다 끝나고 나면 `mtr.commit()`이 수행된다.
+- 세션에 저장한 MTR 정보들은 `mtr.commit()`이 수행되면 Global Redo Log Buffer로 전달되는데, 이 때 다른 세션들의 작업 내용 저장과 충돌되는 것을 막기 위해 로그 버퍼 영역의 `log_sys_mutex`를 먼저 확보한다.
+- 이후에 MTR 정보를 Global Redo Log Buffer에 저장하게 된다.
+
+이와 같은 방법으로 각 세션에서 수행되는 트랜잭션의 정보는 Global Redo Log Buffer에 작성된다. 그리고, Buffer에 작성된 내용은 일정한 주기에 따라 디스크의 Redo Log File에 작성된다.
