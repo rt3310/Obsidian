@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "InnoDB Log",
+      "path": "Study/8. DB/MySQL/InnoDB Log.md"
+    },
+    {
+      "basename": "WAL",
+      "path": "Study/8. DB/MySQL/WAL.md"
+    },
+    {
+      "basename": "InnoDB vs MyISAM",
+      "path": "Study/8. DB/MySQL/InnoDB vs MyISAM.md"
+    },
+    {
+      "basename": "유니폼 초기화(Uniform Initialization)",
+      "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
+    },
+    {
       "basename": "decltype",
       "path": "Study/1. C, C++/핵심/decltype.md"
     },
@@ -43,10 +59,6 @@
     {
       "basename": "unique_ptr",
       "path": "Study/1. C, C++/핵심/unique_ptr.md"
-    },
-    {
-      "basename": "유니폼 초기화(Uniform Initialization)",
-      "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
     },
     {
       "basename": "placement new",
@@ -187,18 +199,6 @@
     {
       "basename": "무제",
       "path": "Plan/game/무제.md"
-    },
-    {
-      "basename": "학습 전략",
-      "path": "Plan/학습 전략.md"
-    },
-    {
-      "basename": "학습 필터",
-      "path": "Plan/학습 필터.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Plan/어떻게 공부해야 할까.md"
     }
   ],
   "omittedPaths": [],
