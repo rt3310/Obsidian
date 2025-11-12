@@ -211,5 +211,41 @@ MTR 생애 주기에 따른 모드와 상태 값을 같이 확인하면서 보�
 MTR 생애 주기 중 Commit 작업 부분을 좀 더 상세히 알아보자.
 전반적인 Flow는 다음과 같이 도식화 할 수 있다.
 ![[Pasted image 20251112210218.png]]Commit 함수가 호출되면 먼저 해당 작업 내용을 Redo Log Buffer로 남길지 취소 시킬 지 확인하는 단계를 거치게 된다. 이 때 Commit 작업이 취소되지 않는다면 `execute()`함수를 호출하여 다음과 같은 작업을 수행한다.
-- `prepare_write()` 함수를 호출하여 MTR의 변경사항을 Redo Log Buffer에 기록하기 위한 준비를 수행한다.
+- `prepare_write()` 함수를 호출하여 MTR의 변경사항을 Redo Log Buffer에 기록하기 위한 준비를 수행한다. 그리고, MTR 작업량을 계산한다.
 - `finish_wrte()` 함수를 호출하여 MTR 정보를 memcpy로 복사한다. 
+## 트랜잭션 기반의 MTR 동작 방식에 대한 히해
+
+### 트랜잭션 수행 시 MTR 동작 방식
+UPDATE 쿼리 하나를 수행하는 트랜잭션을 기준으로 트랜잭션 작업에 대한 작업 내용이 어떻게 저장되는지 확인해보자.
+![[Pasted image 20251112224914.png]]
+위 그림을 통해 확인할 수 있듯이 쿼리가 수행되면, MTR은 크게 3가지 MTR을 생성한다.
+1. Buffer Pool에 저장되는 Page 변경 내용을 담는 MTR(초록색 MTR)
+2. Undo TableSpace 영역에 저장되는 Page 변경 내용을 담는 MTR(주황색 MTR)
+3. 기타 커밋 작업과 관련된 정보를 저장하는 MTR(노란색 MTR)
+
+트랜잭션이 시작하고 DML 쿼리를 수행할 때, 먼저 세션의 메모리 공간에 MTR을 생성하고 `mtr.start()`를 수행하여 초기화를 진행한다.
+그 뒤 실제 쿼리 수행 후 발생하는 변경 정보들을 각각의 MTR에 저장한다. 이 때 발생하는 변경 정보 중 Undo와 관련된 정보는 Undo용 MTR에 저장하고, 일반 Page용 변경 정보는 일반 데이터 변경용 MTR에 저장한다. 그리고 추가적으로 발생하는 커밋용 정보들은 Commit용 MTR에 저장한다. 이 때, 작업량이 많아서 MTR이 더 필요하게 되면 추가 생성하여 기존 MTR에 Linked List로 연결하여 사용한다.
+쿼리 수행이 완료되면, `mtr.commit()`이 호출된다. `mtr.commit()`이 호출되면, mtr에 기록된 정보들을 Redo Log Buffer로 전달하게 된다. 그리고 해당 변경 작업으로 인해 flush 되어야 하는 dirty page들은 buffer pool flush list에 추가된다.
+작업이 다 완료된 MTR은 `release_resource()`를 호출하여 할당받은 리소스를 모두 해제하고 종료한다.
+
+### 트랜잭션 완료 후 Buffer Pool Flush List 처리 방식
+트랜잭션 작업이 완료되고 나면, Buffer Pool Flush List에 추가된 Page들에 대한 Flush 작업이 발생한다. 여기서는 트랜잭션 작업의 마지막 단계라고 할 수 있는 Dirty Page에 대한 Flush가 어떻게 동작하는지 간단히 살펴보자.
+![[Pasted image 20251112225725.png]]Flush List로 관리되고 있는 Dirty Page들은 여러 기준에 따라 Flush 작업이 진행된다. Flush 작업은 그림에서 확인할 수 있듯이 동기 방식과 비동기 방식이 모두 동작한다.
+비동기 방식으로 동작하는 함수인 `buf_flush_write_block_now()`와 동기 방식으로 동작하는 `buf_dblwr_flush_buffered_writes()`함수가 호출되어 Flush가 진행되고, 마지막에 데이터 파일에 작성할 때는 `file_io()` 함수를 호출하여 진행한다.
+### 트랜잭션 롤백 시 동작 방식
+트랜잭션 롤백이 수행될 때 다음과 같은 방식으로 롤백이 진행된다.
+![[Pasted image 20251112225939.png]]트랜잭션 수행 시 각각 쿼리마다 MTR이 생성되고 `commit()`함수가 수행되어 해당 내용이 Redo Log에 저장된다. 그래서, 트랜잭션을 롤백할 때도 해당 변경 내용이 다시 되돌아가기 위해 Redo Log로 저장되어야 한다.
+
+## MySQL Ver. 5.7 Redo Log 동작 방식
+
+앞에서는 Redo Log 내부 동작 방식을 이해하기 위한 기초 지식을 정리했다. 이제는 그 지식을 기반으로 5.7의 동작 방식을 알아보자.
+
+### Mutex 기반의 동작 방식
+MySQL 5.7의 Redo Log 동작 방식은 간단히 얘기하여 Mutex 기반으로 동작한다라고 설명할 수 있다. 각각의 작업 단계에서 작업의 안정성을 보장하기 위해 MySQL 5.7은 Mutex를 사용한다.
+그래서, MTR 내부 동작 방식도 다음과 같이 진행된다.
+![[Pasted image 20251112230201.png]]트랜잭션 수행 시 MTR이 생성되어 작성되고 나서 내부적으로 MTR `commit()`이 호출되면 먼저 로그 버퍼 쓰기를 위한 Redo Log Buffer의 Mutex를 확보한다.
+Mutex를 확보하고 나면 MTR 정보를 Redo Log Buffer에 작성하고, 작성을 완료하면 확보한 Mutex를 해제하여 반환한다.
+그리고, 변경된 페이지 정보를 Buffer Pool의 Flush List에 추가하고, MTR 커밋을 위한 마무리로 관련된 리소스를 해제하는 작업을 진행한다.
+### 트랜잭션 기반의 Redo Log 동작 방식
+간단히 함수로 확인했던 Redo Log 동작 방식을 실제 트랜잭션을 수행하는 예제를 통해 좀 더 상세히 알아보자.
+![[Pasted image 20251112230637.png]]
