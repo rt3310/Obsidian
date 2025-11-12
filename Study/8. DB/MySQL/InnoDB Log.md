@@ -40,4 +40,75 @@ Redo Log는 기본적으로 다음과 같이 Log Buffer와 Log File을 가지고
 앞서 말한대로 Redo Log Buffer는 어떤 기준에 다다르거나, 이벤트 발생 시 Redo Log Buffer의 변경 내용을 Flush 한다.
 Flush 작업의 주기는 MySQL 성능에 영향을 주는 아주 중요한 요소이다. 모든 Flush 유발 이벤트를 다 제어할 수는 없지만, 트랜잭션 처리와 관련하여 `innodb_flush_log_at_trx_commit` 시스템 변수를 사용하면 DBE(Database Engineer)가 Flush 주기를 제어할 수 있다.
 
-이 시스템 변수의 값은 실행되는 트랜잭션의 안정성과 DB 성능에 크게 영향을 주기 때문에 신중히 고민하여 결정해야 한다.
+이 시스템 변수의 값은 실행되는 트랜잭션의 안정성과 DB 성능에 크게 영향을 주기 때문에 신중히 고민하여 결정해야 한다. **안정성이 중요할 경우 1로 설정**하여 **커밋 시 마다 디스크에 작업 내용이 Flush** 될 수 있게 해야 하고, **성능이 종요하다면, 0 또는 2**로 선택하여 성능을 높이도록 해야 한다.
+
+`innodb_flush_log_at_trx_commit` 시스템 변수는 MySQL 내구성과 성능 사이의 균형을 맞추는데 중요한 변수이니 따로 상세히 공부하는 것을 추천한다.
+
+## MTR(mini-Transaction)
+
+MTR은 **Redo Log가 내부 작업을 할 때 사용하는 가장 작은 작업 단위를 말한다**. 즉, **단일 Page 또는 소수의 Page에 대한 변경 작업을 Redo Log에 기록하는 가장 작은 단위**이다.
+
+### MTR 특징
+MTR은 다음과 같은 특징을 가지고 있다.
+- Redo Log 작업의 최소 단위이다. 즉, **실제 동작하는 I/O 작업의 최소단위**이다. 그래서, **사용자가 생성하는 하나의 트랜잭션은 여러 MTR로 분리되어 처리**된다.
+- 원자성을 보장한다. 즉, MTR에 포함된 모든 변경 내용이 성공적으로 Redo Log에 기록되거나, 아니면 아무 것도 기록되지 않는다.
+- WAL(Write-Ahead Log)로 동작한다. 즉, 작업 내용은 먼저 Redo Log Buffer에 기록하고 그 다음에 스케줄에 따라 디스크의 Redo Log File에 Flush 된다.
+  ![[Pasted image 20251112174759.png]]
+
+Redo Log 작성 시 MTR 구조를 사용함으로써 다음과 같은 효과를 얻을 수 있다.
+- MTR 단위로 하나의 트랜잭션 작업을 나누면 **여러 내부 작업을 동시에 진행**할 수 있다. 이를 통해 성능을 향상한다.
+- **MTR은 물리적인 변경 단위를 기본으로 기록**하기 때문에, 논리적인 SQL보다 훨씬 더 간결하고 효율적인 Redo Log Record를 생성할 수 있다. 이를 통해 Redo Log의 크기를 줄이고, Disk I/O를 최소화하여 성능을 최적화 할 수 있다.
+
+### MTR 구조체
+MySQL 소스 안에서 MTR은 `mtr_t` 구조체를 통해 구현된다. `mtr_t` 구조체 구성 요소 중 간단히 정리하면 다음과 같다.
+```c
+struct mtr_t {
+struct Impl { 
+/** mtr이 잠금을 사용하기 위한 용도  **/
+mtr_buf_t m_memo;
+
+	/** mtr에서 사용하는 mini Transaction 로그 **/
+mtr_buf_t m_log;
+
+/** 현재 mtr 로그 모드 **/
+mtr_log_t m_log_mode; 
+
+	/** MTR 생명주기 정보 **/
+mtr_stat_t m_state;
+
+
+/** mtr 로그에 기록된 페이지 초기 로그 레코드 수 **/
+ib_uint32_t	m_n_log_recs;
+
+	/** 더티 페이지가 생성되고 디스크를 플러시가 필요한 경우 true **/
+bool m_made_dirty; 
+
+	/** 버퍼 페이지를 변경한 경우 true **/
+bool m_modifications; 
+
+	/** ibuf의 데이터가 변경된 경우 true **/
+bool m_inside_ibuf;
+
+ 	/** 현재 mtr에 의해 수정된 테이블스페이스 **/
+fil_space_t*  m_user_space;
+/** 현재 mtr에 의해 수정된 Undo 테이블스페이스 **/
+fil_space_t*  m_undo_space;  
+/** 현재 mtr에 의해 수정된 System 테이블스페이스 **/
+fil_space_t*  m_sys_space;
+
+	/** Flush Observer **/
+	/** m_log_moderedo를 쓰지 않겠다는 뜻일 때 더티 페이지의 플러시 여부는 이 파라미터
+(인덱스 생성) 로 판단한다. **/
+FlushObserver* m_flush_observer; 
+
+	/** 현재 자신의 mini-Transaction **/
+mtr_t*  m_mtr;
+}
+```
+#### MTR 구조체 추가 설명
+MTR 구조체 내부의 여러 변수 중 몇 개만 좀 더 알아보자.
+
+- `m_memo`: MTR 내부에서 잠금 이용할 때 사용되는 변수이다.
+- `m_log`: MTR 로그를 저장하여 관리하는 변수이다.
+- `m_log_mode`: 현재 관리하는 MTR Log의 모드를 보여주는 변수로 다음과 같은 값을 가질 수 있다.
+	- `MTR_LOG_ALL`(default): 
