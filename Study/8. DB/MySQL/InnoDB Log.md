@@ -212,4 +212,4 @@ MTR 생애 주기 중 Commit 작업 부분을 좀 더 상세히 알아보자.
 전반적인 Flow는 다음과 같이 도식화 할 수 있다.
 ![[Pasted image 20251112210218.png]]Commit 함수가 호출되면 먼저 해당 작업 내용을 Redo Log Buffer로 남길지 취소 시킬 지 확인하는 단계를 거치게 된다. 이 때 Commit 작업이 취소되지 않는다면 `execute()`함수를 호출하여 다음과 같은 작업을 수행한다.
 - `prepare_write()` 함수를 호출하여 MTR의 변경사항을 Redo Log Buffer에 기록하기 위한 준비를 수행한다.
-- `finish_wrte()` 함수를 호출하여 MTR 정보를 memcpy로 복사한다.
+- `finish_wrte()` 함수를 호출하여 MTR 정보를 memcpy로 복사한다. 
