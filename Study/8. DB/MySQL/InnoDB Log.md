@@ -40,4 +40,4 @@ Redo Log는 기본적으로 다음과 같이 Log Buffer와 Log File을 가지고
 앞서 말한대로 Redo Log Buffer는 어떤 기준에 다다르거나, 이벤트 발생 시 Redo Log Buffer의 변경 내용을 Flush 한다.
 Flush 작업의 주기는 MySQL 성능에 영향을 주는 아주 중요한 요소이다. 모든 Flush 유발 이벤트를 다 제어할 수는 없지만, 트랜잭션 처리와 관련하여 `innodb_flush_log_at_trx_commit` 시스템 변수를 사용하면 DBE(Database Engineer)가 Flush 주기를 제어할 수 있다.
 
-이 시스템 변수의 값은 실행되는 트랜잭션의 안정성과 DB 성능에 크게 영향을 주기 때문에 신중히 고민하여 결정해야 한다.ㅂㅂㄷ
+이 시스템 변수의 값은 실행되는 트랜잭션의 안정성과 DB 성능에 크게 영향을 주기 때문에 신중히 고민하여 결정해야 한다.ㅂㅂㄷ7
