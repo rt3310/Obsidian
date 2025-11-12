@@ -412,10 +412,15 @@
   },
   "active": "3d26704fe8225dfa",
   "lastOpenFiles": [
+    "Study/8. DB/-resources/Pasted image 20251112210218.png",
+    "Study/8. DB/-resources/Pasted image 20251112210027.png",
+    "Study/8. DB/-resources/Pasted image 20251112205834.png",
+    "Study/8. DB/정규화.canvas",
+    "Study/8. DB/MySQL/InnoDB Log.md",
+    "Study/8. DB/샤딩(Sharding).canvas",
     "Study/8. DB/-resources/Pasted image 20251112174759.png",
     "Study/8. DB/-resources/Pasted image 20251112163817.png",
     "Study/8. DB/MySQL/WAL.md",
-    "Study/8. DB/MySQL/InnoDB Log.md",
     "Study/8. DB/MySQL/InnoDB vs MyISAM.md",
     "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md",
     "Study/1. C, C++/핵심/decltype.md",
@@ -443,9 +448,6 @@
     "Study/1. C, C++/핵심/static.md",
     "Study/15. Software Engineering/이벤트 기반 아키텍처(Event-driven).md",
     "Study/1. C, C++/-resources/Pasted image 20251111101213.png",
-    "Study/1. C, C++/-resources/Pasted image 20251111100253.png",
-    "Study/1. C, C++/-resources/Pasted image 20251111094744.png",
-    "Study/1. C, C++/-resources/Pasted image 20251111094620.png",
     "Study/1. C, C++/10-2. STL - associative container.md",
     "Study/1. C, C++/switch 문의 제약사항.md",
     "Study/1. C, C++/question",
@@ -465,8 +467,6 @@
     "Study/6. OS/컴퓨터 부팅 과정.canvas",
     "Study/6. OS/쓰레드(Thread).canvas",
     "Study/8. DB/트랜잭션 격리 수준.canvas",
-    "Study/8. DB/캐시 전략.canvas",
-    "Study/8. DB/샤딩(Sharding).canvas",
-    "Study/8. DB/정규화.canvas"
+    "Study/8. DB/캐시 전략.canvas"
   ]
 }

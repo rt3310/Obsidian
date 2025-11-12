@@ -111,4 +111,105 @@ MTR 구조체 내부의 여러 변수 중 몇 개만 좀 더 알아보자.
 - `m_memo`: MTR 내부에서 잠금 이용할 때 사용되는 변수이다.
 - `m_log`: MTR 로그를 저장하여 관리하는 변수이다.
 - `m_log_mode`: 현재 관리하는 MTR Log의 모드를 보여주는 변수로 다음과 같은 값을 가질 수 있다.
-	- `MTR_LOG_ALL`(default): 
+	- `MTR_LOG_ALL`(default): 데이터 변경 내용을 모두 저장하고 있다는 것을 뜻하는 모드로, 여기에는 redo log 저장 뿐 아니라 Dirty Page도 모두 Flush List에 추가된 모드라는 것을 의미한다.
+	- `MTR_LOG_NONE`: Redo Log 저장도 하지 않았고, Dirty Page도 Flush List에 추가하지 않은 모드를 뜻한다.
+	- `MTR_LOG_NO_REDO`: Redo Log는 저장하지 않지만, Dirty Page를 Flush List에 추가한 모드라는 것을 뜻한다.
+	- `MTR_LOG_SHORT_INSERTS`: 로그 사이즈를 줄여서 사용하는 모드라는 것을 뜻한다.
+- `m_state`: MTR의 생명주기 상태 정보를 가진 변수이다. 다음과 같은 4가지 상태로 표현된다.
+	- `MTR_STATE_INIT`: 초기 상태를 뜻한다.
+	- `MTR_STATE_ACTIVE`: MTR 데이터를 작성하고 있는 상태를 뜻한다.
+	- `MTR_STATE_COMMITTING`: 내부 작업 중 `commit()` 함수 내부 수행 중 임을 뜻하는 상태 변수이다.
+	- `MTR_STATE_COMMITTED`: `commit()` 함수 작업이 완료된 상태를 뜻한다.
+#### MTR 구조체 할당 방식
+MTR 구조체는 각 세션에서 트랜잭션을 수행할 때, 각 세션이 할당받아 사용하는 세션 메모리 영역의 Heap 영역에 할당된다.
+MTR이 필요한 상황에서 구조체를 호출하는 방식으로 생성되는데 **초기에는 64byte로 받아서 생성**된다. 그리고, **필요한 만큼 Linked List로 연결하여 사용**한다.
+
+`trx_undo_assign_undo` 함수 소스 상의 예제를 보면 다음과 같이 사용하는 것을 볼 수 있다.
+```c
+trx_undo_assign_undo(
+/*=================*/
+  trx_t*    trx,    /*!< in: transaction */
+  trx_undo_ptr_t* undo_ptr, /*!< in: assign undo log from
+          referred rollback segment. */
+  ulint   type)   /*!< in: TRX_UNDO_INSERT or
+          TRX_UNDO_UPDATE */
+{
+  trx_rseg_t* rseg;
+  trx_undo_t* undo;
+  mtr_t   mtr;     /** <------ MTR 선언 부분   **/
+  dberr_t   err = DB_SUCCESS;
+
+  ut_ad(trx);
+
+  mtr_start(&mtr);  /** <------ MTR 초기화    **/
+  if (&trx->rsegs.m_noredo == undo_ptr) {
+    mtr.set_log_mode(MTR_LOG_NO_REDO);;
+  } else {
+    ut_ad(&trx->rsegs.m_redo == undo_ptr);
+  }
+
+  if (trx_sys_is_noredo_rseg_slot(rseg->id)) {
+    mtr.set_log_mode(MTR_LOG_NO_REDO);;
+    ut_ad(undo_ptr == &trx->rsegs.m_noredo);
+  } else {
+    ut_ad(undo_ptr == &trx->rsegs.m_redo);
+  }
+
+  mutex_enter(&rseg->mutex);
+
+  DBUG_EXECUTE_IF(
+    "ib_create_table_fail_too_many_trx",
+    err = DB_TOO_MANY_CONCURRENT_TRXS;
+    goto func_exit;
+  );
+
+  undo = trx_undo_reuse_cached(trx, rseg, type, trx->id, trx->xid,&mtr); /**  <------ MTR 하위 함수로 전달하여 사용 **/
+  if (undo == NULL) {
+    err = trx_undo_create(trx, rseg, type, trx->id, trx->xid, &undo, &mtr);                                                    /** <------ MTR 하위 함수로 전달하여 사용 **/
+    if (err != DB_SUCCESS) {
+
+      goto func_exit;
+    }
+  }
+
+  if (type == TRX_UNDO_INSERT) {
+    UT_LIST_ADD_FIRST(rseg->insert_undo_list, undo);
+    ut_ad(undo_ptr->insert_undo == NULL);
+    undo_ptr->insert_undo = undo;
+  } else {
+    UT_LIST_ADD_FIRST(rseg->update_undo_list, undo);
+    ut_ad(undo_ptr->update_undo == NULL);
+    undo_ptr->update_undo = undo;
+  }
+
+  if (trx_get_dict_operation(trx) != TRX_DICT_OP_NONE) {
+    trx_undo_mark_as_dict_operation(trx, undo, &mtr); /** <------ MTR 하위 함수로 전달하여 사용 **/
+  }
+
+func_exit:
+  mutex_exit(&(rseg->mutex));
+  mtr_commit(&mtr);  /** <------ MTR 저장완료 후 Commit 진행  **/
+  
+  return(err);
+}
+```
+#### MTR 생애 주기
+MTR은 트랜잭션이 시작하면 **트랜잭션이 수행되면서 발생하는 데이터 변경 내역을 저장하기 위해** 생성된다. 이때 저장하는 정보는 실제 **Page의 내용** 뿐 아니라 **Undo Tablespace에 생성되어 관리하는 페이지 정보**도 같이 저장된다.
+MTR은 크게 다음과 같은 순서로 생애 주기가 진행된다.
+![[Pasted image 20251112205834.png]]
+각 MTR을 기준으로 생애 주기 함수를 기준으로 설명하면 다음과 같이 요약할 수 있다.
+
+| 주기                 | 동작 내용                                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------ |
+| `start()`            | 생성된 MTR에 대한 초기화 작업이 이루어지는 단계                                                  |
+| `commit()`           | MTR 객체 내용을 Redo Log Buffer로 전달할지 말지 검토한 뒤, Case에 맞게 해당 작업을 수행하는 단계 |
+| `release_resource()` | 모든 리소스를 반환하고 종료하는 단계                                                                                                 |
+그림으로 표현하면 다음과 같이 간단히 도식화 해볼 수 있다.
+![[Pasted image 20251112210027.png]]위 그림은 각 단계 별로 MTR이 가져가는 상태값과 모드 정보를 같이 보여주고 있다.
+MTR 생애 주기에 따른 모드와 상태 값을 같이 확인하면서 보면 생애 주기에 따른 동작 방식을 이해하기가 수월할 것이다.
+##### MTR Commit
+MTR 생애 주기 중 Commit 작업 부분을 좀 더 상세히 알아보자.
+전반적인 Flow는 다음과 같이 도식화 할 수 있다.
+![[Pasted image 20251112210218.png]]Commit 함수가 호출되면 먼저 해당 작업 내용을 Redo Log Buffer로 남길지 취소 시킬 지 확인하는 단계를 거치게 된다. 이 때 Commit 작업이 취소되지 않는다면 `execute()`함수를 호출하여 다음과 같은 작업을 수행한다.
+- `prepare_write()` 함수를 호출하여 MTR의 변경사항을 Redo Log Buffer에 기록하기 위한 준비를 수행한다.
+- `finish_wrte()` 함수를 호출하여 MTR 정보를 memcpy로 복사한다.

@@ -5,6 +5,14 @@
       "path": "Study/8. DB/MySQL/InnoDB Log.md"
     },
     {
+      "basename": "정규화",
+      "path": "Study/8. DB/정규화.canvas"
+    },
+    {
+      "basename": "샤딩(Sharding)",
+      "path": "Study/8. DB/샤딩(Sharding).canvas"
+    },
+    {
       "basename": "WAL",
       "path": "Study/8. DB/MySQL/WAL.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "cc vs cpp",
       "path": "Study/1. C, C++/question/cc vs cpp.md"
-    },
-    {
-      "basename": "포인터에는 왜 타입이 있을까",
-      "path": "Study/1. C, C++/question/포인터에는 왜 타입이 있을까.md"
-    },
-    {
-      "basename": "무제",
-      "path": "Plan/game/무제.md"
     }
   ],
   "omittedPaths": [],
