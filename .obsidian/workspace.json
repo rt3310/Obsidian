@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "d8482e8c018f277c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.10.3"
+            }
+          },
+          {
             "id": "0d8e4fa6d50255ff",
             "type": "leaf",
             "state": {
@@ -235,7 +247,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -298,7 +310,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -410,7 +423,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3d26704fe8225dfa",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/8. DB/-resources/Pasted image 20251112231539.png",
     "Study/8. DB/-resources/Pasted image 20251112230637.png",
