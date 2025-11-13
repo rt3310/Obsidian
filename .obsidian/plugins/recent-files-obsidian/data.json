@@ -5,6 +5,14 @@
       "path": "Study/1. C, C++/핵심/우측값 레퍼런스, 이동 생성자.md"
     },
     {
+      "basename": "10-3. STL - sequence container",
+      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
+    },
+    {
+      "basename": "switch 문의 제약사항",
+      "path": "Study/1. C, C++/switch 문의 제약사항.md"
+    },
+    {
       "basename": "14. function, mem_fn, bind",
       "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "10-4. string",
       "path": "Study/1. C, C++/10-4. string.md"
-    },
-    {
-      "basename": "10-3. STL - sequence container",
-      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
     },
     {
       "basename": "템플릿",
@@ -131,10 +135,6 @@
     {
       "basename": "10-2. STL - associative container",
       "path": "Study/1. C, C++/10-2. STL - associative container.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Study/1. C, C++/switch 문의 제약사항.md"
     },
     {
       "basename": "const 함수",
