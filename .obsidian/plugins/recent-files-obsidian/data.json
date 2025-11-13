@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "우측값 레퍼런스, 이동 생성자",
+      "path": "Study/1. C, C++/핵심/우측값 레퍼런스, 이동 생성자.md"
+    },
+    {
+      "basename": "14. function, mem_fn, bind",
+      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
+    },
+    {
+      "basename": "13-2. shared_ptr, weak_ptr",
+      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
+    },
+    {
+      "basename": "11. 예외처리",
+      "path": "Study/1. C, C++/11. 예외처리.md"
+    },
+    {
+      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
+      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
+    },
+    {
+      "basename": "연산자 오버로딩",
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
+    },
+    {
       "basename": "InnoDB Log",
       "path": "Study/8. DB/MySQL/InnoDB Log.md"
     },
@@ -41,20 +65,12 @@
       "path": "Study/1. C, C++/템플릿.md"
     },
     {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
-    },
-    {
       "basename": "13-1. unique_ptr",
       "path": "Study/1. C, C++/13-1. unique_ptr.md"
     },
     {
       "basename": "12-2. Move",
       "path": "Study/1. C, C++/12-2. Move.md"
-    },
-    {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
     },
     {
       "basename": "function, mem_fn, bind",
@@ -75,18 +91,6 @@
     {
       "basename": "pragma",
       "path": "Study/1. C, C++/pragma.md"
-    },
-    {
-      "basename": "11. 예외처리",
-      "path": "Study/1. C, C++/11. 예외처리.md"
-    },
-    {
-      "basename": "14. function, mem_fn, bind",
-      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
-    },
-    {
-      "basename": "무제",
-      "path": "Study/1. C, C++/무제.md"
     },
     {
       "basename": "15. thread",
@@ -177,10 +181,6 @@
       "path": "Study/1. C, C++/핵심/함수 오버로딩 과정.md"
     },
     {
-      "basename": "연산자 오버로딩",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
-    },
-    {
       "basename": "암시적 변환 금지(explicit)",
       "path": "Study/1. C, C++/핵심/암시적 변환 금지(explicit).md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "new vs malloc",
       "path": "Study/1. C, C++/question/new vs malloc.md"
-    },
-    {
-      "basename": "cc vs cpp",
-      "path": "Study/1. C, C++/question/cc vs cpp.md"
     }
   ],
   "omittedPaths": [],
