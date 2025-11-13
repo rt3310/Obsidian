@@ -144,10 +144,10 @@ int&& rr = 42;
 ```
 와 같이 된다.
 #### xvalue
-만일 값 카테고리가 lvalue와 prvalue 두 개로만 구분된다면 문제가 있다. 좌측값으로 분류되는 식을 이동 시킬 방법이 없기 때문이다.
+만일 값 카테고리가 lvalue와 prvalue 두 개로만 구분된다면 문제가 있다. 좌측값으로 분류되는 식을 이동시킬 방법이 없기 때문이다.
 따라서 우리는 좌측값처럼 정체가 있지만 이동도 시킬 수 있는 것들을 생각해봐야 한다.
 
-C++에서 이러한 형태의 값의 카테도리에 들어가는 식들로 가장 크게 우측값 레퍼런스를 반환하는 함수의 호출식을 들 수 있다. 대표적으로 `std::move(x)`가 있다.
+C++에서 이러한 형태의 값의 카테고리에 들어가는 식들로 가장 크게 우측값 레퍼런스를 반환하는 함수의 호출식을 들 수 있다. 대표적으로 `std::move(x)`가 있다.
 ```cpp
 template <class T>
 constexpr typename std::remove_reference<T>::type&& move(T&& t) noexcept;
@@ -155,8 +155,61 @@ constexpr typename std::remove_reference<T>::type&& move(T&& t) noexcept;
 다른 복잡한 것들은 모두 건너 뒤더라도 `move`의 반환 타입 만큼은 우측값 레퍼런스임을 알 수 있다.
 따라서 `move`를 호출한 식은 lvalue처럼 좌측값 레퍼런스를 초기화하는데 사용할 수도 있고, prvalue처럼 우측값 레퍼런스에 붙이거나 이동 생성자에 전달해서 이동시킬 수 있다.
 
+> [!info]
+> 값 카테고리에 대한 자세한 설명은 [cppreference](https://en.cppreference.com/w/cpp/language/value_category.html),  [C++ 표준](https://eel.is/c++draft/basic.lval) 참고
+
 그렇다면 `decltype`으로 돌아와서,
 `decltype`에 식별자 표현식이 아닌 식이 전달된다면, 식의 타입이 `T`라고 할 때 아래와 같은 방식으로 타입을 반환한다고 했다.
 - 만약 식의 값 종류가 xvalue라면 `decltype`은 `T&&`가 된다.
 - 만약 식의 값 종류가 lvalue라면 `decltype`은 `T&`가 된다.
 - 만약 식의 값 종류가 prvalue라면 `decltype`은 `T`가 된다.
+
+그렇다면 아래 코드를 살펴보자.
+```cpp
+int a, b;
+decltype(a + b) c; // c의 타입은?
+```
+위에서 본 바에 따르면 `a + b`는 prvalue이므로 `a + b` 식의 실제 타입인 `int`로 추론된다. 따라서 위 식은 그냥 `int c;`를 한 것과 똑같다.
+
+그러면 아래 식은 어떨까?
+```cpp
+int a;
+decltype((a)) b; // b의 타입은
+```
+일단 `(a)`는 식별자 표현식이 아니기 때문에 어느 값 카테고리에 들어가는지 생각해봐야 한다.
+쉽게 생각하면 `&(a)`와 같이 주소값 연산자를 적용할 수 있고, 당연히도 이동 불가능이므로 lvalue가 된다. 따라서 `b`는 `int`가 될 것으로 예상된다.
+
+하지만 예상과 다르게 `int&`로 추론된다. 이는 C++에서 괄호의 유무로 인해 무언가 결과가 달라지는 첫 번째 경우로 추측된다.
+
+## decltype의 쓰임새
+
+그렇다면 `decltype`은 왜 쓰이는 것일까?
+타입 추론이 필요한 부분에는 그냥 `auto`로도 충분하지 않을까? 예를 들어,
+```cpp
+int i = 4;
+auto j = i; // int j = i;
+```
+를 할 때나
+```cpp
+int i = 4;
+decltype(i) j = i; // int j = i;
+```
+는 같기 때문이다.
+하지만 `auto`는 엄밀히 말하자면 정확한 타입을 표현하지 않는다. 예를 들어,
+```cpp
+const int i = 4;
+auto j = i; // int j = i;
+decltype(i) k = i; // const int k = i;
+```
+`auto`의 경우 `const`를 떼버리지만, `decltype`의 경우 이를 그대로 보존한다. 그 외에도 배열의 경우 **`auto`는 암시적으로 포인터로 변환**하지만, **`decltype`의 경우 배열 타입 그대로를 전달**할 수 있다. 예를 들어,
+```cpp
+int arr[10];
+auto arr2 = arr; // int* arr2 = arr;
+decltype(arr) arr3; // int arr3[10];
+```
+이 될 것이다. 즉, `decltype`을 이용하면 타입 그대로 정확하게 전달할 수 있다.
+
+물론 이 뿐만 아니라, 템플릿 함수에서 어떤 객체 타입이 템플릿 인자들에 의해서 결정되는 경우가 있다. 예를 들어, 아래와 같은 함수를 생각해보자.
+```cpp
+
+```
