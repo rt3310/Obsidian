@@ -5,20 +5,56 @@
       "path": "Study/1. C, C++/핵심/decltype.md"
     },
     {
-      "basename": "배열은 배열이고 포인터는 포인터이다.",
-      "path": "Study/1. C, C++/핵심/배열은 배열이고 포인터는 포인터이다..md"
-    },
-    {
-      "basename": "15. thread",
-      "path": "Study/1. C, C++/15. thread.md"
+      "basename": "14. function, mem_fn, bind",
+      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
     },
     {
       "basename": "virtual",
       "path": "Study/1. C, C++/핵심/virtual.md"
     },
     {
+      "basename": "unique_ptr",
+      "path": "Study/1. C, C++/핵심/unique_ptr.md"
+    },
+    {
+      "basename": "10-4. string",
+      "path": "Study/1. C, C++/10-4. string.md"
+    },
+    {
+      "basename": "10-3. STL - sequence container",
+      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
+    },
+    {
+      "basename": "13-2. shared_ptr, weak_ptr",
+      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
+    },
+    {
+      "basename": "15. thread",
+      "path": "Study/1. C, C++/15. thread.md"
+    },
+    {
+      "basename": "13-1. unique_ptr",
+      "path": "Study/1. C, C++/13-1. unique_ptr.md"
+    },
+    {
+      "basename": "10-2. STL - associative container",
+      "path": "Study/1. C, C++/10-2. STL - associative container.md"
+    },
+    {
+      "basename": "11. 예외처리",
+      "path": "Study/1. C, C++/11. 예외처리.md"
+    },
+    {
+      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
+      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
+    },
+    {
       "basename": "move, forward",
       "path": "Study/1. C, C++/핵심/move, forward.md"
+    },
+    {
+      "basename": "배열은 배열이고 포인터는 포인터이다.",
+      "path": "Study/1. C, C++/핵심/배열은 배열이고 포인터는 포인터이다..md"
     },
     {
       "basename": "12-2. Move",
@@ -27,22 +63,6 @@
     {
       "basename": "10-1. STL - algorithm",
       "path": "Study/1. C, C++/10-1. STL - algorithm.md"
-    },
-    {
-      "basename": "10-2. STL - associative container",
-      "path": "Study/1. C, C++/10-2. STL - associative container.md"
-    },
-    {
-      "basename": "10-3. STL - sequence container",
-      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
-    },
-    {
-      "basename": "10-4. string",
-      "path": "Study/1. C, C++/10-4. string.md"
-    },
-    {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
     },
     {
       "basename": "다중 상속",
@@ -75,22 +95,6 @@
     {
       "basename": "템플릿",
       "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "14. function, mem_fn, bind",
-      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
-    },
-    {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
-    },
-    {
-      "basename": "13-1. unique_ptr",
-      "path": "Study/1. C, C++/13-1. unique_ptr.md"
-    },
-    {
-      "basename": "11. 예외처리",
-      "path": "Study/1. C, C++/11. 예외처리.md"
     },
     {
       "basename": "연산자 오버로딩",
@@ -127,10 +131,6 @@
     {
       "basename": "shared_ptr",
       "path": "Study/1. C, C++/핵심/shared_ptr.md"
-    },
-    {
-      "basename": "unique_ptr",
-      "path": "Study/1. C, C++/핵심/unique_ptr.md"
     },
     {
       "basename": "static",

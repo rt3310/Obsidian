@@ -211,5 +211,161 @@ decltype(arr) arr3; // int arr3[10];
 
 물론 이 뿐만 아니라, 템플릿 함수에서 어떤 객체 타입이 템플릿 인자들에 의해서 결정되는 경우가 있다. 예를 들어, 아래와 같은 함수를 생각해보자.
 ```cpp
-
+template <typename T, typename U>
+void add(T t, U u, /* 무슨 타입이 와야 할까? */ result) {
+  *result = t + u;
+}
 ```
+위 `add()` 함수는 단순히 `t`와 `u`를 더해서 `result`에 저장하는 함수이다. 문제는 이 `result`의 타입이 `t + u`의 결과에 의해 결정된다는 사실이다. 예를 들어, `t`가 `double`이고 `u`가 `int`라면 `result`의 타입은 `double*`이 될 것이다.
+
+따라서 이런 경우에 `result`에 타입이 올 자리에 `decltype`을 사용해주면 된다.
+```cpp
+template <typename T, typename U>
+void add(T t, U u, decltype(t + u)* result) {
+  *result = t + u;
+}
+```
+
+그렇다면 위 함수를 살짝 바꿔서 `result`에 전달하는 대신에 그냥 더한 값을 반환해버리는 함수를 만들어보면 어떨까? 만약에 그냥
+```cpp
+template <typename T, typename U>
+decltype(t + u) add(T t, U u) {
+  return t + u;
+}
+```
+위와 같이 한다면 한 가지 문제가 있다. 먼저 위 식을 컴파일 해보면 아래와 같이 오류가 발생하는 것을 볼 수 있다.
+![[Pasted image 20251114003526.png]]
+컴파일러가 위 식을 컴파일할 때 `decltype` 안의 `t`와 `u`를 보고 판단하지 못한 것이다. `t`와 `u`의 정의가 `decltype` 나중에 나오기 때문이다.
+이 경우 함수의 반환값을 인자들 정의 부분 뒤에 써야 한다. 이는 C++14 부터 추가된 아래와 같은 문법으로 구현이 가능하다.
+```cpp
+templat <typename T, typename U>
+auto add(T t, U u) -> decltype(t + u) {
+	return t + u;
+}
+```
+바로 반환값 자리에는 그냥 `auto`라고 써놓고, `->` 뒤에 함수의 실제 반환 타입을 지정해주는 것이다.
+이는 람다 함수 문법과 매우 유사하다.
+
+## std::declval
+
+`declval`은 C++11에 새로 추가된 문법으로, `decltype`과는 다르게 키워드가 아닌 `<utility>`에 정의된 함수이다.
+
+예를 들어, 어떤 타입 `T`의 `f()`라는 함수의 반환 타입을 정의하고 싶다고 해보자. 그러면 `decltype`을 이용하면 아래와 같은 코드를 작성할 수 있다.
+```cpp
+struct A {
+	int f() { return 0; }
+};
+
+decltype(A().f()) ret_val;  // int ret_val; 이 된다.
+```
+참고로 위 과정에서 실제로 `A`의 객체가 생성되거나 함수 `f()`가 호출되거나 그러지는 않는다.
+**`decltype`안에 들어가는 식은 그냥 식의 형태로만 존재할 뿐, 컴파일 시에 `decltype` 전체 식이 타입으로 변환되기 때문에 `decltype` 안에 있는 식은 런타임 시에 실행되는 것이 아니다**.
+
+물론 그렇다고 해서 `decltype` 안에 문법상 틀린 식을 전달할 수 있는 것은 아니다. 예를 들어, 어떤 클래스에서 디폴트 생성자가 없다고 해보자.
+```cpp
+struct B {
+	B(int x) {}
+	int f() { return 0; }
+};
+
+int main() {
+	decltype(B().f()) ret_val;  // B() 는 문법상 틀린 문장 :(
+}
+```
+컴파일 한다면 에러가 발생할 것이다.
+
+왜냐하면 `B()`에 해당하는 생성자가 존재하지 않기 때문이다. 우리는 그냥 `B`의 멤버 함수 `f()`의 타입 참조만 필요할 뿐인데, 실제 `B` 객체를 생성할 것도 아닌데도 `B`의 생성자 규칙에 맞는 코드를 작성해야 한다.
+
+물론 우리는 그냥 `B(1)`과 같이 쓰면 된다는 것을 알고 있다. 하지만 다음과 같은 상황을 생각해보자.
+```cpp
+template <typename T>
+decltype(T().f()) call_f_and_return(T& t) {
+	return t.f();
+}
+```
+위 함수는 어떤 임의의 타입 `T`의 객체를 받아서 해당 객체의 멤버함수 `f()`를 호출해주는 함수이다. 이 함수를 이용하는 객체들에 멤버 함수 `f()`가 정의되어 있다고 가정한다면, 모두 이용할 수 있다.
+
+문제는 모든 타입 `T` 들이 디폴트 생성자 `T()`를 정의하고 있지 않을 수도 있다는 말이다.
+```cpp
+template <typename T>
+decltype(T().f()) call_f_and_return(T& t) {
+	return t.f();
+}
+struct A {
+	int f() { return 0; }
+};
+struct B {
+	B(int x) {}
+	int f() { return 0; }
+};
+
+int main() {
+	A a;
+	B b(1);
+	
+	call_f_and_return(a);  // ok
+	call_f_and_return(b);  // BAD
+}
+```
+위 코드를 컴파일해보면 에러가 발생할 것이다.
+
+위 경우 `call_f_and_return()` 함수에 `a`를 전달했을 때는 `A`에 디폴트 생성자가 있으므로 잘 컴파일되지만, `b`를 전달할 때는 `B`에 디폴트 생성자가 없으므로 오류가 발생하게 된다.
+
+따라서 위처럼 직접 생성자를 사용하는 방식은 전달되는 타입들의 생성자가 모두 같은 꼴이지 않을 경우 문제가 생긴다.
+
+이 문제는 `std::declval`을 사용하면 깔끔하게 해결할 수 있다.
+```cpp
+#include <utility>
+
+template <typename T>
+decltype(std::declval<T>().f()) call_f_and_return(T& t) {
+	return t.f();
+}
+struct A {
+	int f() { return 0; }
+};
+struct B {
+	B(int x) {}
+	int f() { return 0; }
+};
+
+int main() {
+	A a;
+	B b(1);
+	
+	call_f_and_return(a);  // ok
+	call_f_and_return(b);  // ok
+}
+```
+위 코드는 잘 컴파일 된다.
+
+`std::declval`에 타입 `T`를 전달하면, `T`의 생성자를 직접 호출하지 않더라도 `T`가 생성된 객체를 나타낼 수 있다. 즉,
+```cpp
+std::declval<T>()
+```
+를 통해 심지어 `T`에 생성자가 존재하지 않더라도 마치 `T()`를 한 것과 같은 효과를 낼 수 있다. 따라서 앞서 발생했던 생성자의 형태가 모두 달라서 발생하는 오류를 막을 수 있다.
+
+참고로 `declval` 함수를 타입 연산에서만 사용해야지, 실제로 런타임에 사용하면 오류가 발생한다.
+```cpp
+#include <utility>
+
+struct B {
+	B(int x) {}
+	int f() { return 0; }
+};
+
+int main() { B b = std::declval<B>(); }
+```
+위 코드를 컴파일 해보면 다음과 같이 컴파일 에러가 발생한다.
+![[Pasted image 20251114004550.png]]
+
+C++14 부터는 함수의 반환 타입을 컴파일러가 알아서 유추해주는 기능이 추가되었다. 이 경우 그냥 함수 반환 타입을 `auto`로 지정해주면 된다.
+```cpp
+template <typename T>
+auto call_f_and_return(T& t) {
+	return t.f();
+}
+```
+
+물론 그렇다고 해서 `declval`의 쓰임새가 없어지는 것은 아니다.
+`decltype`과 `declval`을 활용한 템플릿 메타프로그래밍 기법에서 사용할 수 있다.
