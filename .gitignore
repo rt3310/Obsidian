@@ -5,6 +5,9 @@
 
 # OR only to exclude workspace cache
 .obsidian/workspace.json
+obsidian/workspace.json
+obsidian/workspace-mobile.json
+.obsidian/workspace-mobile.json
 
 # Add below lines to exclude OS settings and caches
 .trash/
