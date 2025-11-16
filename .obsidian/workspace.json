@@ -438,8 +438,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "08deb47e0514dd9c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md",
     "Study/8. DB/트랜잭션/트랜잭션 락.md",
     "Study/8. DB/ACID.md",
@@ -453,7 +454,6 @@
     "Study/8. DB/트랜잭션",
     "Study/8. DB/레퍼런스/권순용의 DB 이야기/2. 결합 인덱스.md",
     "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
-    "conflict-files-obsidian-git.md",
     "Study/8. DB/SQL.canvas",
     "Study/8. DB/정규화.canvas",
     "Study/8. DB/샤딩(Sharding).canvas",
