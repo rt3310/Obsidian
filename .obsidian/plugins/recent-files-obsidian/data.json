@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
+      "basename": "DBMS는 어떻게 트랜잭션을 관리할까",
+      "path": "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md"
+    },
+    {
+      "basename": "트랜잭션 락",
+      "path": "Study/8. DB/트랜잭션/트랜잭션 락.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
+    },
+    {
+      "basename": "DELETE vs TRUNCATE",
+      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
+    },
+    {
+      "basename": "Using Temporary, Using Filesort",
+      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
+    },
+    {
+      "basename": "Insert 부하 해결",
+      "path": "Study/8. DB/Insert 부하 해결.md"
+    },
+    {
+      "basename": "DB 병목 원인과 대책",
+      "path": "Study/8. DB/DB 병목 원인과 대책.md"
+    },
+    {
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시/캐시 전략.canvas"
+    },
+    {
+      "basename": "트랜잭션 격리 수준",
+      "path": "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas"
+    },
+    {
+      "basename": "2. 결합 인덱스",
+      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/2. 결합 인덱스.md"
+    },
+    {
+      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
+      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "Study/8. DB/SQL.canvas"
+    },
+    {
+      "basename": "정규화",
+      "path": "Study/8. DB/정규화.canvas"
+    },
+    {
+      "basename": "샤딩(Sharding)",
+      "path": "Study/8. DB/샤딩(Sharding).canvas"
+    },
+    {
+      "basename": "대량 DML 처리",
+      "path": "Study/8. DB/대량 DML 처리.md"
+    },
+    {
       "basename": "decltype",
       "path": "Study/1. C, C++/핵심/decltype.md"
     },
@@ -105,14 +169,6 @@
       "path": "Study/8. DB/MySQL/InnoDB Log.md"
     },
     {
-      "basename": "정규화",
-      "path": "Study/8. DB/정규화.canvas"
-    },
-    {
-      "basename": "샤딩(Sharding)",
-      "path": "Study/8. DB/샤딩(Sharding).canvas"
-    },
-    {
       "basename": "WAL",
       "path": "Study/8. DB/MySQL/WAL.md"
     },
@@ -143,62 +199,6 @@
     {
       "basename": "2366084650EA5E22315B30",
       "path": "Study/1. C, C++/-resources/2366084650EA5E22315B30.webp"
-    },
-    {
-      "basename": "Pasted image 20251111094032",
-      "path": "Study/1. C, C++/-resources/Pasted image 20251111094032.png"
-    },
-    {
-      "basename": "Pasted image 20251013230532",
-      "path": "Pasted image 20251013230532.png"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
-    },
-    {
-      "basename": "2113164253DB01CF09ACCF",
-      "path": "Study/1. C, C++/-resources/2113164253DB01CF09ACCF.webp"
-    },
-    {
-      "basename": "13.2.1 1",
-      "path": "Study/1. C, C++/-resources/13.2.1 1.webp"
-    },
-    {
-      "basename": "const 함수",
-      "path": "Study/1. C, C++/핵심/const 함수.md"
-    },
-    {
-      "basename": "캐스팅",
-      "path": "Study/1. C, C++/핵심/캐스팅.md"
-    },
-    {
-      "basename": "Pasted image 20251108010210",
-      "path": "Study/1. C, C++/-resources/Pasted image 20251108010210.png"
-    },
-    {
-      "basename": "friend",
-      "path": "Study/1. C, C++/핵심/friend.md"
-    },
-    {
-      "basename": "레퍼런스를 리턴하는 함수",
-      "path": "Study/1. C, C++/핵심/레퍼런스를 리턴하는 함수.md"
-    },
-    {
-      "basename": "함수 오버로딩 과정",
-      "path": "Study/1. C, C++/핵심/함수 오버로딩 과정.md"
-    },
-    {
-      "basename": "암시적 변환 금지(explicit)",
-      "path": "Study/1. C, C++/핵심/암시적 변환 금지(explicit).md"
-    },
-    {
-      "basename": "복사 생성자",
-      "path": "Study/1. C, C++/핵심/복사 생성자.md"
-    },
-    {
-      "basename": "new vs malloc",
-      "path": "Study/1. C, C++/question/new vs malloc.md"
     }
   ],
   "omittedPaths": [],
