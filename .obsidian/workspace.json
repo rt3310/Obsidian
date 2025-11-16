@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,8 +139,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -252,13 +251,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "26a549df707ff6f5",
   "lastOpenFiles": [
+    "Study/8. DB/조인(Join).canvas",
+    "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md",
     "Study/8. DB/-resources/Pasted image 20251115230437.png",
     "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md",
     "Study/8. DB/인덱스/1. 인덱스.md",
     "Study/8. DB/인덱스/2. 인덱스 향상.md",
-    "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md",
     "Study/8. DB/친절한 SQL 튜닝/인덱스 기본.md",
     "Study/비교/-resources/Pasted image 20251101173126.png",
     "Study/비교/-resources/Pasted image 20251101172943.png",
@@ -269,7 +269,6 @@
     "Study/비교/-resources/Pasted image 20251101170408.png",
     "Study/비교/-resources/Pasted image 20251101170323.png",
     "Study/비교/-resources/Pasted image 20251101170048.png",
-    "Study/비교/-resources/Pasted image 20251101165114.png",
     "Study/비교/무제.canvas",
     "Study/비교/synchronized vs ReentrantLock.md",
     "Study/비교/SSE(Server-Sent-Event) vs WebSocket.md",
