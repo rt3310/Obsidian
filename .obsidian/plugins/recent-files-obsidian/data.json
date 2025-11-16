@@ -1,204 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "decltype",
-      "path": "Study/1. C, C++/핵심/decltype.md"
+      "basename": "풀텍스트 인덱스(Full-Text Index)",
+      "path": "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md"
     },
     {
-      "basename": "14. function, mem_fn, bind",
-      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
+      "basename": "3. 인덱스 스캔 효율",
+      "path": "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md"
     },
     {
-      "basename": "virtual",
-      "path": "Study/1. C, C++/핵심/virtual.md"
+      "basename": "1. 인덱스",
+      "path": "Study/8. DB/인덱스/1. 인덱스.md"
     },
     {
-      "basename": "unique_ptr",
-      "path": "Study/1. C, C++/핵심/unique_ptr.md"
+      "basename": "2. 인덱스 향상",
+      "path": "Study/8. DB/인덱스/2. 인덱스 향상.md"
     },
     {
-      "basename": "10-4. string",
-      "path": "Study/1. C, C++/10-4. string.md"
+      "basename": "Using Temporary, Using Filesort",
+      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
     },
     {
-      "basename": "10-3. STL - sequence container",
-      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
+      "basename": "취업",
+      "path": "Plan/취업.md"
     },
     {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
+      "basename": "어떻게 공부해야 할까",
+      "path": "Plan/어떻게 공부해야 할까.md"
     },
     {
-      "basename": "15. thread",
-      "path": "Study/1. C, C++/15. thread.md"
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
     },
     {
-      "basename": "13-1. unique_ptr",
-      "path": "Study/1. C, C++/13-1. unique_ptr.md"
+      "basename": "학습 필터",
+      "path": "Plan/학습 필터.md"
     },
     {
-      "basename": "10-2. STL - associative container",
-      "path": "Study/1. C, C++/10-2. STL - associative container.md"
+      "basename": "학습 전략",
+      "path": "Plan/학습 전략.md"
     },
     {
-      "basename": "11. 예외처리",
-      "path": "Study/1. C, C++/11. 예외처리.md"
+      "basename": "개선,트러블슈팅 예시",
+      "path": "Plan/개선,트러블슈팅 예시.md"
     },
     {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Plan/게임 클라이언트 로드맵.png"
     },
     {
-      "basename": "move, forward",
-      "path": "Study/1. C, C++/핵심/move, forward.md"
+      "basename": "Insert 부하 해결",
+      "path": "Study/8. DB/Insert 부하 해결.md"
     },
     {
-      "basename": "배열은 배열이고 포인터는 포인터이다.",
-      "path": "Study/1. C, C++/핵심/배열은 배열이고 포인터는 포인터이다..md"
+      "basename": "대량 DML 처리",
+      "path": "Study/8. DB/대량 DML 처리.md"
     },
     {
-      "basename": "12-2. Move",
-      "path": "Study/1. C, C++/12-2. Move.md"
+      "basename": "DELETE vs TRUNCATE",
+      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
     },
     {
-      "basename": "10-1. STL - algorithm",
-      "path": "Study/1. C, C++/10-1. STL - algorithm.md"
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
     },
     {
-      "basename": "다중 상속",
-      "path": "Study/1. C, C++/핵심/다중 상속.md"
+      "basename": "트랜잭션 락",
+      "path": "Study/8. DB/트랜잭션 락.md"
     },
     {
-      "basename": "대입 연산자 함수",
-      "path": "Study/1. C, C++/핵심/대입 연산자 함수.md"
+      "basename": "HTTP 헤더 - 캐시",
+      "path": "Study/7. Network/http/HTTP 헤더 - 캐시.md"
     },
     {
-      "basename": "미리 컴파일 된 헤더",
-      "path": "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md"
+      "basename": "HTTP 헤더",
+      "path": "Study/7. Network/http/HTTP 헤더.md"
     },
     {
-      "basename": "우측값 레퍼런스, 이동 생성자",
-      "path": "Study/1. C, C++/핵심/우측값 레퍼런스, 이동 생성자.md"
+      "basename": "Pasted image 20250325163526",
+      "path": "Study/7. Network/resources/Pasted image 20250325163526.png"
     },
     {
-      "basename": "pragma",
-      "path": "Study/1. C, C++/pragma.md"
-    },
-    {
-      "basename": "placement new",
-      "path": "Study/1. C, C++/placement new.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Study/1. C, C++/switch 문의 제약사항.md"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "연산자 오버로딩",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
-    },
-    {
-      "basename": "InnoDB Log",
-      "path": "Study/8. DB/MySQL/InnoDB Log.md"
-    },
-    {
-      "basename": "정규화",
-      "path": "Study/8. DB/정규화.canvas"
+      "basename": "트랜잭션 격리 수준",
+      "path": "Study/8. DB/트랜잭션 격리 수준.canvas"
     },
     {
       "basename": "샤딩(Sharding)",
       "path": "Study/8. DB/샤딩(Sharding).canvas"
     },
     {
-      "basename": "WAL",
-      "path": "Study/8. DB/MySQL/WAL.md"
+      "basename": "정규화",
+      "path": "Study/8. DB/정규화.canvas"
     },
     {
-      "basename": "InnoDB vs MyISAM",
-      "path": "Study/8. DB/MySQL/InnoDB vs MyISAM.md"
+      "basename": "SQL",
+      "path": "Study/8. DB/SQL.canvas"
     },
     {
-      "basename": "유니폼 초기화(Uniform Initialization)",
-      "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
+      "basename": "DB 병목 원인과 대책",
+      "path": "Study/8. DB/DB 병목 원인과 대책.md"
     },
     {
-      "basename": "function, mem_fn, bind",
-      "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
+      "basename": "캐시 전략",
+      "path": "Study/8. DB/캐시 전략.canvas"
     },
     {
-      "basename": "shared_ptr",
-      "path": "Study/1. C, C++/핵심/shared_ptr.md"
-    },
-    {
-      "basename": "static",
-      "path": "Study/1. C, C++/핵심/static.md"
-    },
-    {
-      "basename": "이벤트 기반 아키텍처(Event-driven)",
-      "path": "Study/15. Software Engineering/이벤트 기반 아키텍처(Event-driven).md"
-    },
-    {
-      "basename": "2366084650EA5E22315B30",
-      "path": "Study/1. C, C++/-resources/2366084650EA5E22315B30.webp"
-    },
-    {
-      "basename": "Pasted image 20251111094032",
-      "path": "Study/1. C, C++/-resources/Pasted image 20251111094032.png"
-    },
-    {
-      "basename": "Pasted image 20251013230532",
-      "path": "Pasted image 20251013230532.png"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
-    },
-    {
-      "basename": "2113164253DB01CF09ACCF",
-      "path": "Study/1. C, C++/-resources/2113164253DB01CF09ACCF.webp"
-    },
-    {
-      "basename": "13.2.1 1",
-      "path": "Study/1. C, C++/-resources/13.2.1 1.webp"
-    },
-    {
-      "basename": "const 함수",
-      "path": "Study/1. C, C++/핵심/const 함수.md"
-    },
-    {
-      "basename": "캐스팅",
-      "path": "Study/1. C, C++/핵심/캐스팅.md"
-    },
-    {
-      "basename": "Pasted image 20251108010210",
-      "path": "Study/1. C, C++/-resources/Pasted image 20251108010210.png"
-    },
-    {
-      "basename": "friend",
-      "path": "Study/1. C, C++/핵심/friend.md"
-    },
-    {
-      "basename": "레퍼런스를 리턴하는 함수",
-      "path": "Study/1. C, C++/핵심/레퍼런스를 리턴하는 함수.md"
-    },
-    {
-      "basename": "함수 오버로딩 과정",
-      "path": "Study/1. C, C++/핵심/함수 오버로딩 과정.md"
-    },
-    {
-      "basename": "암시적 변환 금지(explicit)",
-      "path": "Study/1. C, C++/핵심/암시적 변환 금지(explicit).md"
-    },
-    {
-      "basename": "복사 생성자",
-      "path": "Study/1. C, C++/핵심/복사 생성자.md"
-    },
-    {
-      "basename": "new vs malloc",
-      "path": "Study/1. C, C++/question/new vs malloc.md"
+      "basename": "조인(Join)",
+      "path": "Study/8. DB/조인(Join).canvas"
     }
   ],
   "omittedPaths": [],
