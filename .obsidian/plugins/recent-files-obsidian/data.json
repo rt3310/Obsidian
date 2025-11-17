@@ -5,6 +5,10 @@
       "path": "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md"
     },
     {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
+    },
+    {
       "basename": "정규화",
       "path": "Study/8. DB/정규화.canvas"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "이벤트 기반 아키텍처(Event-driven)",
       "path": "Study/15. Software Engineering/이벤트 기반 아키텍처(Event-driven).md"
-    },
-    {
-      "basename": "2366084650EA5E22315B30",
-      "path": "Study/1. C, C++/-resources/2366084650EA5E22315B30.webp"
     }
   ],
   "omittedPaths": [],

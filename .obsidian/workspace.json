@@ -440,9 +440,12 @@
   },
   "active": "08deb47e0514dd9c",
   "lastOpenFiles": [
+    "Pasted image 20250911141032.png",
+    "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md",
+    "Study/8. DB/-resources/Pasted image 20251117011600.png",
+    "Study/8. DB/-resources/Pasted image 20251117011002.png",
     "Study/8. DB/정규화.canvas",
     "Study/8. DB/조인(Join).canvas",
-    "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md",
     "Study/8. DB/-resources/Pasted image 20251116212417.png",
     "conflict-files-obsidian-git.md",
     "Study/8. DB/트랜잭션/트랜잭션 락.md",
@@ -482,8 +485,6 @@
     "Study/1. C, C++/-resources/Pasted image 20251113123936.png",
     "Study/1. C, C++/-resources/Pasted image 20251113123810.png",
     "Study/1. C, C++/-resources/99DC5E435AB639BF0D7DD5 1.webp",
-    "Study/1. C, C++/-resources/Pasted image 20251113121554.png",
-    "Study/1. C, C++/-resources/996BBA465AB638B019DAE7 1.webp",
     "Study/1. C, C++/question",
     "Study/1. C, C++/핵심",
     "Plan/game",
@@ -494,7 +495,6 @@
     "Study/22. Unreal/UE5/-resources",
     "Study/22. Unreal/UE5",
     "Study/7. Network/GSLB.canvas",
-    "Study/6. OS/컴퓨터 부팅 과정.canvas",
-    "Study/6. OS/쓰레드(Thread).canvas"
+    "Study/6. OS/컴퓨터 부팅 과정.canvas"
   ]
 }
