@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "decltype",
+      "path": "Study/1. C, C++/핵심/decltype.md"
+    },
+    {
+      "basename": "move, forward",
+      "path": "Study/1. C, C++/핵심/move, forward.md"
+    },
+    {
+      "basename": "12-2. Move",
+      "path": "Study/1. C, C++/12-2. Move.md"
+    },
+    {
+      "basename": "2. 인덱스 향상",
+      "path": "Study/8. DB/인덱스/2. 인덱스 향상.md"
+    },
+    {
+      "basename": "3. 인덱스 스캔 효율",
+      "path": "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md"
+    },
+    {
+      "basename": "1. 인덱스",
+      "path": "Study/8. DB/인덱스/1. 인덱스.md"
+    },
+    {
+      "basename": "1. 조인의 기본 원리와 사용",
+      "path": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md"
+    },
+    {
+      "basename": "2. 조인 테크닉",
+      "path": "Study/8. DB/조인/2. 조인 테크닉.md"
+    },
+    {
+      "basename": "인덱스 기본",
+      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md"
+    },
+    {
+      "basename": "인덱스 튜닝",
+      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 튜닝.md"
+    },
+    {
+      "basename": "커버링 인덱스",
+      "path": "Study/8. DB/인덱스/커버링 인덱스.md"
+    },
+    {
+      "basename": "풀텍스트 인덱스(Full-Text Index)",
+      "path": "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md"
+    },
+    {
+      "basename": "클러스터링 인덱스",
+      "path": "Study/8. DB/인덱스/클러스터링 인덱스.md"
+    },
+    {
       "basename": "DBMS는 어떻게 트랜잭션을 관리할까",
       "path": "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md"
     },
@@ -69,10 +121,6 @@
       "path": "Study/8. DB/대량 DML 처리.md"
     },
     {
-      "basename": "decltype",
-      "path": "Study/1. C, C++/핵심/decltype.md"
-    },
-    {
       "basename": "14. function, mem_fn, bind",
       "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
     },
@@ -117,16 +165,8 @@
       "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
     },
     {
-      "basename": "move, forward",
-      "path": "Study/1. C, C++/핵심/move, forward.md"
-    },
-    {
       "basename": "배열은 배열이고 포인터는 포인터이다.",
       "path": "Study/1. C, C++/핵심/배열은 배열이고 포인터는 포인터이다..md"
-    },
-    {
-      "basename": "12-2. Move",
-      "path": "Study/1. C, C++/12-2. Move.md"
     },
     {
       "basename": "10-1. STL - algorithm",
@@ -155,50 +195,6 @@
     {
       "basename": "placement new",
       "path": "Study/1. C, C++/placement new.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Study/1. C, C++/switch 문의 제약사항.md"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "연산자 오버로딩",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
-    },
-    {
-      "basename": "InnoDB Log",
-      "path": "Study/8. DB/MySQL/InnoDB Log.md"
-    },
-    {
-      "basename": "WAL",
-      "path": "Study/8. DB/MySQL/WAL.md"
-    },
-    {
-      "basename": "InnoDB vs MyISAM",
-      "path": "Study/8. DB/MySQL/InnoDB vs MyISAM.md"
-    },
-    {
-      "basename": "유니폼 초기화(Uniform Initialization)",
-      "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
-    },
-    {
-      "basename": "function, mem_fn, bind",
-      "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
-    },
-    {
-      "basename": "shared_ptr",
-      "path": "Study/1. C, C++/핵심/shared_ptr.md"
-    },
-    {
-      "basename": "static",
-      "path": "Study/1. C, C++/핵심/static.md"
-    },
-    {
-      "basename": "이벤트 기반 아키텍처(Event-driven)",
-      "path": "Study/15. Software Engineering/이벤트 기반 아키텍처(Event-driven).md"
     }
   ],
   "omittedPaths": [],
