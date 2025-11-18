@@ -84,7 +84,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,7 +197,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/11. Java/-resources/Pasted image 20251118130310.png",
     "Study/11. Java/-resources/Pasted image 20251118130022.png",
