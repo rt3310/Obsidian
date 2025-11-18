@@ -84,7 +84,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,7 +197,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a330d5952fed2aea",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/1. C, C++/핵심/move, forward.md",
     "Study/1. C, C++/12-2. Move.md",
