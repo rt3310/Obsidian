@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "G1GC vs ZGC",
+      "path": "Study/11. Java/G1GC vs ZGC.md"
+    },
+    {
+      "basename": "Import",
+      "path": "Study/11. Java/Import.md"
+    },
+    {
       "basename": "decltype",
       "path": "Study/1. C, C++/핵심/decltype.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "pragma",
       "path": "Study/1. C, C++/pragma.md"
-    },
-    {
-      "basename": "placement new",
-      "path": "Study/1. C, C++/placement new.md"
     }
   ],
   "omittedPaths": [],
