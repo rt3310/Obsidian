@@ -83,3 +83,40 @@ G1GC에는 Full GC와 유사한 **Concurrent Cycle** 이라는 과정이 존재�
 - **Cleanup**: 애플리케이션을 멈추고(STW) 살아있는 객체가 가장 적은 Region에 대한 미사용 객체를 제거한다.
 - **Copy**: GC 대상의 Region이었지만, Cleanup 과정에서 완전히 비워지지 않은 Region의 살아남은 객체들을 새로운 Region(Avaliable/Unused)에 복사하여 Compaction을 수행한다.
 - 살아있는 객체가 아주 적은 Old 영역에 대해 [GC pause(mixed)]를 로그로 표시하고, Young GC가 이루어질 때 수집되도록 한다.
+
+### 튜닝 포인트
+
+우선 무엇인가를 바꾸기 전에 항상 **성능테스트 + 로그 옵션**을 켜야한다.
+
+`-Xlog:gc*:gc.og` 옵션으로 로그를 활성화해서 파일로 옮기면 좋다.
+튜닝을 한다는 목적은 GC에 걸리는 시간을 최소화하는 목적으로 해주면 좋다.
+
+-XX: InitiatingHeapOccupancyPercent: IHOP 퍼센트 조절(Marking에 해당하는 최저 임계치)
+-XX: G1HeapRegionSize: Region 영역 당 하나의 사이즈 (default는 (최대 heap) / 2048)
+-XX: G1ReservePercent=10: 공간 overflow의 위험을 줄이기 위해 항상 여유 공간을 유지할 예비 메모리(백분율)
+-XX: G1HeapWastePercent=10: 낭비할 Heap의 공간에 대한 백분율
+
+> [!info]
+> 하지만, 언제까지나 GC 튜닝은 정말 모든 것을 다 해보고 마지막에 하는 최종 방안임을 잊지 말자
+
+현재 JDK 11의 Default GC 알고리즘으로 별다른 옵션을 주지 않으면 G1GC를 사용하게 된다.
+
+## ZGC
+
+`ZGC`는 JDK 15버전에서 바로 Prodution Ready 상태이다.
+
+조금 더 큰 메모리(8MB ~ 16TB)에서 효율적으로 Garbage Collect 하기 위한 알고리즘이다.
+
+> [!info] 개발자 Comment
+> ZGC doesn't get rid of stop-the-world pauses completely.
+> The collector needs pauses when starting marking, ending marking and starting relocation.
+> But this pauses are usually quite short - only a few milliseconds.
+> 
+> 적은 메모리나 큰 메모리에서 STW 시간을 최대한 적게(10ms 이하로) 가져가기 위해 제작되었다.
+
+
+실제로 STW를 줄이기 위해서 Marking 시간에만 STW를 가져가도록 하고 있다.
+
+![[Pasted image 20251118214018.png]]G1GC와는 메모리 구조가 유사한데, 각각의 Region을 간단한 구조로 가져갔음을 볼 수 있다.
+
+ZGC의 핵심은 바로 Colored pointers와 Load barriers 라는 2가지의 주요한 알고리즘이다.
