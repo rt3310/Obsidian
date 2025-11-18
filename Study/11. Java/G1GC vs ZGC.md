@@ -119,4 +119,29 @@ G1GC에는 Full GC와 유사한 **Concurrent Cycle** 이라는 과정이 존재�
 
 ![[Pasted image 20251118214018.png]]G1GC와는 메모리 구조가 유사한데, 각각의 Region을 간단한 구조로 가져갔음을 볼 수 있다.
 
-ZGC의 핵심은 바로 Colored pointers와 Load barriers 라는 2가지의 주요한 알고리즘이다.
+ZGC의 핵심은 바로 Colored Pointers와 Load Barriers 라는 2가지의 주요한 알고리즘이다.
+
+### Colored Pointers
+![[Pasted image 20251118214831.png]]
+객체를 가리키는 변수의 포인터에서 64bits를 활용해서 Marking을 한 것을 볼 수 있다.
+- Finalizable: finalizer를 통해서만 참조되는 Object의 Garbage
+- Remapped: 재배치 여부를 판단하는 Mark
+- Marked 1/0: Live Object
+
+그렇기 때문에 ZGC는 반드시 64bits 운영체제에서만 사용 가능하다.
+
+### Load Barriers
+![[Pasted image 20251118215006.png]]
+ZGC는 G1GC와는 다르게 메모리를 위에서 언급한 pointer를 바탕으로 STW 없이 재배치를 한다.
+이때, RemapMark와 RellocationSet을 확인하면서 참조와 Mark를 업데이트하게 된다.
+
+그래서 ZGC는 아래와 같은 Flow를 따르게 된다.
+- Mark Start STW: ZGC의 Root에서 가리키는 객체 Mark 표시
+- Concurrent Mark/Remap: 객체의 참조를 탐색하면서 모든 객체에 Mark 표시
+- Mark End STW: 새롭게 들어온 객체들에 대해 Mark 표시
+- Concurrent Pereare for Relocate: 재배치하려는 영역을 찾아 Relocation Set에 배치
+- Relocate Start STW: 모든 Root 참조의 재배치를 진행하고 업데이트
+- Concurrent Relocate: 이후 Load Barriers를 사용하여 모든 객체를 재배치 및 참조 수정
+
+G1GC와의 차이점은 바로 Pointer를 이용해서 객체를 Marking하고 관리하는 것이 핵심이라고 볼 수 있다.
+어떤 Heap 메모리 사이즈가 와도 각각의 STW 시간을 10ms 이하로 줄이는 것이 ZGC의 궁극적인 목표이다.
