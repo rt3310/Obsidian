@@ -5,6 +5,14 @@
       "path": "Study/11. Java/G1GC vs ZGC.md"
     },
     {
+      "basename": "Garbage Collector",
+      "path": "Study/11. Java/Garbage Collector.canvas"
+    },
+    {
+      "basename": "Pasted image 20251120010210.png",
+      "path": "Study/11. Java/Pasted image 20251120010210.png.md"
+    },
+    {
       "basename": "Import",
       "path": "Study/11. Java/Import.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "미리 컴파일 된 헤더",
       "path": "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md"
-    },
-    {
-      "basename": "우측값 레퍼런스, 이동 생성자",
-      "path": "Study/1. C, C++/핵심/우측값 레퍼런스, 이동 생성자.md"
-    },
-    {
-      "basename": "pragma",
-      "path": "Study/1. C, C++/pragma.md"
     }
   ],
   "omittedPaths": [],

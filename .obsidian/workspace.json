@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "90374d0aca62fee0",
+        "id": "4fb286adbed7e7d1",
         "type": "tabs",
         "children": [
           {
-            "id": "a330d5952fed2aea",
+            "id": "93ece6d0cd17675c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -199,6 +199,11 @@
   },
   "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
+    "Study/11. Java/Garbage Collector.canvas",
+    "Study/11. Java/G1GC vs ZGC.md",
+    "Study/11. Java/Pasted image 20251120010210.png.md",
+    "Pasted image 20251120010210.png",
+    "Pasted image 20251120010118.png",
     "Study/11. Java/-resources/Pasted image 20251118215006.png",
     "Study/11. Java/-resources/Pasted image 20251118214831.png",
     "Study/11. Java/-resources/Pasted image 20251118214018.png",
@@ -208,7 +213,6 @@
     "Study/11. Java/-resources/Pasted image 20251118123741.png",
     "Study/11. Java/-resources/Pasted image 20251118123727.png",
     "Study/11. Java/Import.md",
-    "Study/11. Java/G1GC vs ZGC.md",
     "Study/1. C, C++/핵심/decltype.md",
     "Study/1. C, C++/핵심/move, forward.md",
     "Study/1. C, C++/12-2. Move.md",
@@ -224,9 +228,6 @@
     "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md",
     "Study/8. DB/인덱스/클러스터링 인덱스.md",
     "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md",
-    "Study/8. DB/-resources/Pasted image 20251117121716.png",
-    "Study/8. DB/-resources/Pasted image 20251117114002.png",
-    "Study/8. DB/-resources/Pasted image 20251117103840.png",
     "Study/8. DB/정규화.canvas",
     "Study/8. DB/조인(Join).canvas",
     "conflict-files-obsidian-git.md",
@@ -240,7 +241,6 @@
     "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas",
     "Study/8. DB/트랜잭션",
-    "Study/8. DB/레퍼런스/권순용의 DB 이야기/2. 결합 인덱스.md",
     "Study/8. DB/SQL.canvas",
     "Study/8. DB/샤딩(Sharding).canvas",
     "Study/1",
