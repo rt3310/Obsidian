@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Lettuce vs Redisson",
+      "path": "Study/8. DB/캐시/Lettuce vs Redisson.md"
+    },
+    {
       "basename": "웹 소켓(WebSocket)",
       "path": "Study/7. Network/HTTP/웹 소켓(WebSocket).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "10-1. STL - algorithm",
       "path": "Study/1. C, C++/10-1. STL - algorithm.md"
-    },
-    {
-      "basename": "다중 상속",
-      "path": "Study/1. C, C++/핵심/다중 상속.md"
     }
   ],
   "omittedPaths": [],
