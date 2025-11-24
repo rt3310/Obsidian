@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/11. Java/G1GC vs ZGC.md",
+                "file": "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "G1GC vs ZGC"
+              "title": "STOMP(Simple Text Oriented Messaging Protocol)"
             }
           }
         ]
@@ -199,8 +199,10 @@
   },
   "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
-    "Study/11. Java/Garbage Collector.canvas",
+    "Study/7. Network/HTTP/웹 소켓(WebSocket).md",
+    "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md",
     "Study/11. Java/G1GC vs ZGC.md",
+    "Study/11. Java/Garbage Collector.canvas",
     "Study/11. Java/Pasted image 20251120010210.png.md",
     "Pasted image 20251120010210.png",
     "Pasted image 20251120010118.png",
@@ -236,7 +238,6 @@
     "Study/8. DB/DELETE vs TRUNCATE.md",
     "Study/8. DB/Using Temporary, Using Filesort.md",
     "Study/8. DB/Insert 부하 해결.md",
-    "Study/8. DB/DB 병목 원인과 대책.md",
     "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas",
@@ -253,7 +254,6 @@
     "Study/22. Unreal/UE5/UE5.canvas",
     "Study/22. Unreal/UE5/-resources",
     "Study/22. Unreal/UE5",
-    "Study/7. Network/GSLB.canvas",
-    "Study/6. OS/컴퓨터 부팅 과정.canvas"
+    "Study/7. Network/GSLB.canvas"
   ]
 }

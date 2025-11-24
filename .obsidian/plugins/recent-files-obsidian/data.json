@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "STOMP(Simple Text Oriented Messaging Protocol)",
+      "path": "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md"
+    },
+    {
+      "basename": "웹 소켓(WebSocket)",
+      "path": "Study/7. Network/HTTP/웹 소켓(WebSocket).md"
+    },
+    {
       "basename": "G1GC vs ZGC",
       "path": "Study/11. Java/G1GC vs ZGC.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "다중 상속",
       "path": "Study/1. C, C++/핵심/다중 상속.md"
-    },
-    {
-      "basename": "대입 연산자 함수",
-      "path": "Study/1. C, C++/핵심/대입 연산자 함수.md"
-    },
-    {
-      "basename": "미리 컴파일 된 헤더",
-      "path": "Study/1. C, C++/핵심/미리 컴파일 된 헤더.md"
     }
   ],
   "omittedPaths": [],
