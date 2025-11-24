@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "STOMP(Simple Text Oriented Messaging Protocol)",
-      "path": "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md"
-    },
-    {
       "basename": "웹 소켓(WebSocket)",
       "path": "Study/7. Network/HTTP/웹 소켓(WebSocket).md"
+    },
+    {
+      "basename": "STOMP(Simple Text Oriented Messaging Protocol)",
+      "path": "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md"
     },
     {
       "basename": "G1GC vs ZGC",
