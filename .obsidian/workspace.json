@@ -84,7 +84,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,7 +197,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "93ece6d0cd17675c",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/7. Network/HTTP/웹 소켓(WebSocket).md",
     "Study/8. DB/캐시/Lettuce vs Redisson.md",
