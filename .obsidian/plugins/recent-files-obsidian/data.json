@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Lettuce vs Redisson",
+      "path": "Study/8. DB/캐시/Lettuce vs Redisson.md"
+    },
+    {
+      "basename": "Closure",
+      "path": "Study/11. Java/Closure.md"
+    },
+    {
       "basename": "DB Connection 누수 문제",
       "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "조인(Join)",
       "path": "Study/8. DB/조인(Join).canvas"
-    },
-    {
-      "basename": "Lettuce vs Redisson",
-      "path": "Study/8. DB/캐시/Lettuce vs Redisson.md"
     },
     {
       "basename": "웹 소켓(WebSocket)",
@@ -195,10 +199,6 @@
     {
       "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
       "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
-    },
-    {
-      "basename": "배열은 배열이고 포인터는 포인터이다.",
-      "path": "Study/1. C, C++/핵심/배열은 배열이고 포인터는 포인터이다..md"
     }
   ],
   "omittedPaths": [],

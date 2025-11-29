@@ -25,12 +25,14 @@
             "id": "c7662ffc71c84bd8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "Study/8. DB/캐시/Lettuce vs Redisson.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.10.6"
+              "icon": "lucide-file",
+              "title": "Lettuce vs Redisson"
             }
           }
         ],
@@ -47,19 +49,6 @@
         "id": "11aaba63ed9371aa",
         "type": "tabs",
         "children": [
-          {
-            "id": "95986b4e07f54c35",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
-            }
-          },
           {
             "id": "7c5ee3fd6c882fbe",
             "type": "leaf",
@@ -95,6 +84,19 @@
               "state": {},
               "icon": "clock",
               "title": "Recent Files"
+            }
+          },
+          {
+            "id": "95986b4e07f54c35",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           }
         ],
@@ -210,8 +212,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "c7662ffc71c84bd8",
   "lastOpenFiles": [
+    "Study/11. Java/Closure.md",
     "Study/8. DB/DELETE vs TRUNCATE.md",
     "Study/8. DB/MySQL/DB Connection 누수 문제.md",
     "Study/8. DB/-resources/Pasted image 20251128011846.png",
