@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "DB Connection 누수 문제"
             }
+          },
+          {
+            "id": "c7662ffc71c84bd8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +97,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,7 +210,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "93ece6d0cd17675c",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/8. DB/DELETE vs TRUNCATE.md",
     "Study/8. DB/MySQL/DB Connection 누수 문제.md",
