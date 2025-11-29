@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DataSource",
+      "path": "Study/11. Java/DataSource.md"
+    },
+    {
       "basename": "Lettuce vs Redisson",
       "path": "Study/8. DB/캐시/Lettuce vs Redisson.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "11. 예외처리",
       "path": "Study/1. C, C++/11. 예외처리.md"
-    },
-    {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
     }
   ],
   "omittedPaths": [],

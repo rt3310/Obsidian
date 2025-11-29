@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/캐시/Lettuce vs Redisson.md",
+                "file": "Study/11. Java/DataSource.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lettuce vs Redisson"
+              "title": "DataSource"
             }
           }
         ],
@@ -214,6 +214,9 @@
   },
   "active": "c7662ffc71c84bd8",
   "lastOpenFiles": [
+    "Study/11. Java/-resources/Pasted image 20251130022944.png",
+    "Study/8. DB/캐시/Lettuce vs Redisson.md",
+    "Study/11. Java/DataSource.md",
     "Study/11. Java/Closure.md",
     "Study/8. DB/DELETE vs TRUNCATE.md",
     "Study/8. DB/MySQL/DB Connection 누수 문제.md",
@@ -232,7 +235,6 @@
     "Study/8. DB/-resources/Pasted image 20251128010212.png",
     "Study/8. DB/-resources/Pasted image 20251128010019.png",
     "Study/8. DB/-resources/Pasted image 20251128005717.png",
-    "Study/8. DB/캐시/Lettuce vs Redisson.md",
     "Study/7. Network/HTTP/웹 소켓(WebSocket).md",
     "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md",
     "Study/11. Java/G1GC vs ZGC.md",
@@ -250,8 +252,6 @@
     "Study/8. DB/조인/2. 조인 테크닉.md",
     "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md",
     "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 튜닝.md",
-    "Study/8. DB/인덱스/커버링 인덱스.md",
-    "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md",
     "Study/8. DB/정규화.canvas",
     "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",
