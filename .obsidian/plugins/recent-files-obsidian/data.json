@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "중국인의 나머지 정리",
+      "path": "Study/4. Algorithm/중국인의 나머지 정리.md"
+    },
+    {
+      "basename": "BFS",
+      "path": "Study/4. Algorithm/BFS.md"
+    },
+    {
+      "basename": "분리집합",
+      "path": "Study/4. Algorithm/분리집합.md"
+    },
+    {
       "basename": "DataSource",
       "path": "Study/11. Java/DataSource.md"
+    },
+    {
+      "basename": "정규화",
+      "path": "Study/8. DB/정규화.canvas"
+    },
+    {
+      "basename": "15. thread",
+      "path": "Study/1. C, C++/15. thread.md"
+    },
+    {
+      "basename": "10-3. STL - sequence container",
+      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
+    },
+    {
+      "basename": "인덱스 기본",
+      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md"
     },
     {
       "basename": "Lettuce vs Redisson",
@@ -97,10 +125,6 @@
       "path": "Study/8. DB/조인/2. 조인 테크닉.md"
     },
     {
-      "basename": "인덱스 기본",
-      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md"
-    },
-    {
       "basename": "인덱스 튜닝",
       "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 튜닝.md"
     },
@@ -123,10 +147,6 @@
     {
       "basename": "Pasted image 20250911141032",
       "path": "Pasted image 20250911141032.png"
-    },
-    {
-      "basename": "정규화",
-      "path": "Study/8. DB/정규화.canvas"
     },
     {
       "basename": "트랜잭션 락",
@@ -177,28 +197,8 @@
       "path": "Study/1. C, C++/10-4. string.md"
     },
     {
-      "basename": "10-3. STL - sequence container",
-      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
-    },
-    {
       "basename": "13-2. shared_ptr, weak_ptr",
       "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
-    },
-    {
-      "basename": "15. thread",
-      "path": "Study/1. C, C++/15. thread.md"
-    },
-    {
-      "basename": "13-1. unique_ptr",
-      "path": "Study/1. C, C++/13-1. unique_ptr.md"
-    },
-    {
-      "basename": "10-2. STL - associative container",
-      "path": "Study/1. C, C++/10-2. STL - associative container.md"
-    },
-    {
-      "basename": "11. 예외처리",
-      "path": "Study/1. C, C++/11. 예외처리.md"
     }
   ],
   "omittedPaths": [],

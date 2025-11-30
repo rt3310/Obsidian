@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/11. Java/DataSource.md",
+                "file": "Study/4. Algorithm/중국인의 나머지 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DataSource"
+              "title": "중국인의 나머지 정리"
             }
           }
         ],
@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -212,11 +212,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "c7662ffc71c84bd8",
   "lastOpenFiles": [
+    "Study/4. Algorithm/BFS.md",
+    "Study/4. Algorithm/중국인의 나머지 정리.md",
+    "Study/4. Algorithm/분리집합.md",
+    "Study/11. Java/DataSource.md",
+    "Study/8. DB/정규화.canvas",
+    "Study/1. C, C++/15. thread.md",
+    "Study/1. C, C++/10-3. STL - sequence container.md",
+    "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md",
     "Study/11. Java/-resources/Pasted image 20251130022944.png",
     "Study/8. DB/캐시/Lettuce vs Redisson.md",
-    "Study/11. Java/DataSource.md",
     "Study/11. Java/Closure.md",
     "Study/8. DB/DELETE vs TRUNCATE.md",
     "Study/8. DB/MySQL/DB Connection 누수 문제.md",
@@ -234,7 +241,6 @@
     "Study/8. DB/-resources/Pasted image 20251128010319.png",
     "Study/8. DB/-resources/Pasted image 20251128010212.png",
     "Study/8. DB/-resources/Pasted image 20251128010019.png",
-    "Study/8. DB/-resources/Pasted image 20251128005717.png",
     "Study/7. Network/HTTP/웹 소켓(WebSocket).md",
     "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md",
     "Study/11. Java/G1GC vs ZGC.md",
@@ -247,12 +253,6 @@
     "Study/1. C, C++/핵심/무제.md",
     "Study/8. DB/인덱스/2. 인덱스 향상.md",
     "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md",
-    "Study/8. DB/인덱스/1. 인덱스.md",
-    "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md",
-    "Study/8. DB/조인/2. 조인 테크닉.md",
-    "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md",
-    "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 튜닝.md",
-    "Study/8. DB/정규화.canvas",
     "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas",
