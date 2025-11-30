@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -212,7 +212,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c7662ffc71c84bd8",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/11. Java/-resources/Pasted image 20251130022944.png",
     "Study/8. DB/캐시/Lettuce vs Redisson.md",

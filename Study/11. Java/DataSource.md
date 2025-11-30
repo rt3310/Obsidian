@@ -1,4 +1,4 @@
-## DataSource
+t# DataSource
 
 Java에서 커넥션을 얻는 방법은 다양한데, JDBC DriverManager로 신규 커넥션을 생성하거나, HikariCP 등의 커넥션 풀을 사용하는 방법 등이 있다.
 
