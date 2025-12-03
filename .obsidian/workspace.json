@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/4. Algorithm/중국인의 나머지 정리.md",
+                "file": "Study/10. Server/백엔드 커머스 개발.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "중국인의 나머지 정리"
+              "title": "백엔드 커머스 개발"
             }
           }
         ],
@@ -49,6 +49,19 @@
         "id": "11aaba63ed9371aa",
         "type": "tabs",
         "children": [
+          {
+            "id": "95986b4e07f54c35",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
           {
             "id": "7c5ee3fd6c882fbe",
             "type": "leaf",
@@ -85,22 +98,8 @@
               "icon": "clock",
               "title": "Recent Files"
             }
-          },
-          {
-            "id": "95986b4e07f54c35",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,8 +213,10 @@
   },
   "active": "c7662ffc71c84bd8",
   "lastOpenFiles": [
-    "Study/4. Algorithm/BFS.md",
+    "Pasted image 20250507192720.png",
+    "Study/10. Server/백엔드 커머스 개발.md",
     "Study/4. Algorithm/중국인의 나머지 정리.md",
+    "Study/4. Algorithm/BFS.md",
     "Study/4. Algorithm/분리집합.md",
     "Study/11. Java/DataSource.md",
     "Study/8. DB/정규화.canvas",
@@ -251,8 +252,6 @@
     "Study/1. C, C++/핵심/move, forward.md",
     "Study/1. C, C++/12-2. Move.md",
     "Study/1. C, C++/핵심/무제.md",
-    "Study/8. DB/인덱스/2. 인덱스 향상.md",
-    "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md",
     "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas",

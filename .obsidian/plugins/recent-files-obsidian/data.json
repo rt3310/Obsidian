@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "백엔드 커머스 개발",
+      "path": "Study/10. Server/백엔드 커머스 개발.md"
+    },
+    {
+      "basename": "Pasted image 20250507192720",
+      "path": "Pasted image 20250507192720.png"
+    },
+    {
       "basename": "중국인의 나머지 정리",
       "path": "Study/4. Algorithm/중국인의 나머지 정리.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "unique_ptr",
       "path": "Study/1. C, C++/핵심/unique_ptr.md"
-    },
-    {
-      "basename": "10-4. string",
-      "path": "Study/1. C, C++/10-4. string.md"
-    },
-    {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
     }
   ],
   "omittedPaths": [],
