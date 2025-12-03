@@ -5,6 +5,10 @@
       "path": "Study/10. Server/백엔드 커머스 개발.md"
     },
     {
+      "basename": "Bulkhead 패턴",
+      "path": "Study/10. Server/Bulkhead 패턴.md"
+    },
+    {
       "basename": "Pasted image 20250507192720",
       "path": "Pasted image 20250507192720.png"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "virtual",
       "path": "Study/1. C, C++/핵심/virtual.md"
-    },
-    {
-      "basename": "unique_ptr",
-      "path": "Study/1. C, C++/핵심/unique_ptr.md"
     }
   ],
   "omittedPaths": [],
