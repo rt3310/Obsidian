@@ -99,7 +99,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -211,7 +212,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c7662ffc71c84bd8",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/10. Server/Bulkhead 패턴.md",
     "Study/10. Server/백엔드 커머스 개발.md",
