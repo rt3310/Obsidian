@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/10. Server/백엔드 커머스 개발.md",
+                "file": "Study/7. Network/Connection Timeout vs Read Timeout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "백엔드 커머스 개발"
+              "title": "Connection Timeout vs Read Timeout"
             }
           }
         ],
@@ -211,10 +211,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "c7662ffc71c84bd8",
   "lastOpenFiles": [
-    "Study/10. Server/Bulkhead 패턴.md",
+    "Study/7. Network/resources/Pasted image 20251209113447.png",
+    "Study/7. Network/resources/Pasted image 20251209113309.png",
+    "Study/7. Network/resources/Pasted image 20251209112725.png",
+    "Study/7. Network/resources/Pasted image 20251209112529.png",
+    "Study/7. Network/resources/Pasted image 20251209112507.png",
+    "Study/7. Network/resources/Pasted image 20251209111505.png",
     "Study/10. Server/백엔드 커머스 개발.md",
+    "Study/7. Network/Connection Timeout vs Read Timeout.md",
+    "Study/10. Server/Bulkhead 패턴.md",
     "Pasted image 20250507192720.png",
     "Study/4. Algorithm/중국인의 나머지 정리.md",
     "Study/4. Algorithm/BFS.md",
@@ -237,11 +244,6 @@
     "Study/8. DB/조인(Join).canvas",
     "Pasted image 20251128011239.png",
     "Study/8. DB/-resources/Pasted image 20251128010949.png",
-    "Study/8. DB/-resources/Pasted image 20251128010557.png",
-    "Pasted image 20251128010421.png",
-    "Study/8. DB/-resources/Pasted image 20251128010413.png",
-    "Study/8. DB/-resources/Pasted image 20251128010319.png",
-    "Study/8. DB/-resources/Pasted image 20251128010212.png",
     "Study/7. Network/HTTP/웹 소켓(WebSocket).md",
     "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md",
     "Study/11. Java/G1GC vs ZGC.md",
@@ -250,8 +252,6 @@
     "Study/11. Java/Import.md",
     "Study/1. C, C++/핵심/decltype.md",
     "Study/1. C, C++/핵심/move, forward.md",
-    "Study/1. C, C++/12-2. Move.md",
-    "Study/1. C, C++/핵심/무제.md",
     "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas",

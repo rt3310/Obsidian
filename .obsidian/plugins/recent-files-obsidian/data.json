@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Connection Timeout vs Read Timeout",
+      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
+    },
+    {
       "basename": "백엔드 커머스 개발",
       "path": "Study/10. Server/백엔드 커머스 개발.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "14. function, mem_fn, bind",
       "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
-    },
-    {
-      "basename": "virtual",
-      "path": "Study/1. C, C++/핵심/virtual.md"
     }
   ],
   "omittedPaths": [],
