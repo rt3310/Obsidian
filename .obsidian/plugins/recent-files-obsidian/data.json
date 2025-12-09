@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Select()",
+      "path": "Study/7. Network/Select().md"
+    },
+    {
       "basename": "Connection Timeout vs Read Timeout",
       "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "샤딩(Sharding)",
       "path": "Study/8. DB/샤딩(Sharding).canvas"
-    },
-    {
-      "basename": "대량 DML 처리",
-      "path": "Study/8. DB/대량 DML 처리.md"
-    },
-    {
-      "basename": "14. function, mem_fn, bind",
-      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
     }
   ],
   "omittedPaths": [],
