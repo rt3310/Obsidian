@@ -104,3 +104,87 @@ class LocalVariableExample {
 	}
 }
 ```
+- JSpecify 공식 문서에 따르면 **로컬 변수(root type)** 에 바로 `@Nullable`을 붙이는 대신 파라미터/필드에서 널 가능성을 명시해주고 **정적 분석기가 어떤 값을 대입받는지 추론하게** 하는 방식을 권장한다.
+
+### Generic 활용 예시
+```java
+import org.jspecify.annotations.Nullable;
+import org.jspecify.annotations.NullMarked;
+import java.util.ArrayList;
+import java.util.List;
+
+@NullMarked
+public class Methods {
+
+	// <T> 메서드에서 @Nullable T를 반환할 수 있음
+	public static <T> @Nullable T firstOrNull(List<T> list) {
+		return list.isEmpty() ? null : list.get(0);
+	}
+	
+	// <T extends @Nullable Object>로 선언하면,
+	// T가 @Nullable String 등 널이 가능한 타입으로도 대체될 수 있음
+	public static <T extends @Nullable Object> T firstOrDefault(List<T> list, T defaultValue) {
+		return list.isEmpty() ? defaultValue : list.get(0);
+	}
+	
+	public static void exampleUsage() {
+		// 1) List<String> → firstOrNull은 @Nullable String 반환
+		List<String> nonNullList = List.of("A", "B");
+		@Nullable String first = firstOrNull(nonNullList); // possibly null
+		System.out.println("first: " + first);
+		
+		// 2) List<@Nullable String>도 가능
+		List<@Nullable String> nullableList = new ArrayList<>();
+		nullableList.add(null);
+		nullableList.add("Hello");
+		// firstOrDefault에서 T는 @Nullable String이 될 수 있음
+		@Nullable String result = firstOrDefault(nullableList, null);
+		// result는 null일 수도 있고, "Hello"일 수도 있음
+		System.out.println("result: " + result);
+	}
+}
+```
+- `<T extends @Nullable Object>`: 제네릭 타입 변수 T가 null을 포함하는 타입도 허용
+- (또는 )로 선언된 경우에는 기본적으로 NonNull로 취급되므로 `List<@Nullable String>` 같은 형식은 허용안 될 수 있다.
+### @NullUnmarked 사용 예시
+```java
+import org.jspecify.annotations.NullMarked;
+import org.jspecify.annotations.NullUnmarked;
+
+@NullMarked
+public class MixedScopes {
+
+	// 이 클래스 전체는 NullMarked로 처리
+	// → 별도 표기가 없는 모든 참조 타입은 NonNull
+	public String hello(String name) {
+		// 여기서 'String name'은 null이 아니라고 가정
+		return "Hello, " + name;
+	}
+	
+	@NullUnmarked public String fetchValue(String key) {
+		// NullUnmarked 스코프에선 'String key'가 널인지 아닌지 지정되지 않음(unspecified)
+		// 정적 분석기가 완벽히 추론하기 어려울 수 있음
+		if (key == null) {
+			return "Got a null key!";
+		}
+		return "Value for: " + key;
+	}
+}
+```
+- `@NullUnmarked`를 메서드 단위로 적용해 상위 스코프(`@NullMarked`)의 규칙을 무효화할 수 있다.
+- 큰 범위(ex: 패키지 전체)에서 `@NullMarked`를 선언해도 특정 레거시 코드만 `@NullUnmarked`로 지정하여 점진적으로 migration할 수 있다.
+
+### Type-use Annotation Syntax
+JSpecify가 제시하는 null annotation(`@Nullable`, `@NonNull`)은 type-use 위치에서 적용할 수 있다.
+
+이는 Java 8부터 도입된 `Type Annotations` 개념을 활용하는 것으로, 어떤 타입에 `@Nullable`을 붙이느냐에 따라 의미가 달라질 수 있다.
+
+1. `@Nullable String[]`
+	- 배열 요소(String)가 null일 수 있다는 의미
+	- 배열 객체 자체는 `@NullMarked`하에서 NonNull로 간주됨
+2. `String @Nullable []`
+	- 배열 객체 자체가 null일 수 있다는 의미
+	- 배열 안의 String 요소는 NonNull
+3. `@Nullable String @Nullable []`
+	- 배열 객체도 null 가능 + 배열 안의 요소도 null 가능
+	- 가장 넓은 범위로 null을 허용
