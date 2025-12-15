@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/7. Network/Select().md",
+                "file": "Study/12. Spring/JSpecify.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Select()"
+              "title": "JSpecify"
             }
           }
         ],
@@ -113,8 +113,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -226,21 +225,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "a563ce4b4f629f91",
   "lastOpenFiles": [
-    "Study/7. Network/TCP retransmission과 튜닝 포인트.md",
+    "Pasted image 20250507193050.png",
+    "Study/12. Spring/JSpecify.md",
+    "Study/12. Spring/-resources",
+    "Study/11. Java/무제.md",
+    "Pasted image 20250507192737.png",
+    "Pasted image 20250507193532.png",
+    "Pasted image 20250507193542.png",
+    "Pasted image 20250911140843.png",
+    "Pasted image 20250911141010.png",
+    "Pasted image 20250911141032.png",
+    "Pasted image 20251128004929.png",
+    "Pasted image 20251128010421.png",
+    "Pasted image 20251128011239.png",
     "Study/7. Network/Select().md",
-    "Study/7. Network/resources/Pasted image 20251209192424.png",
+    "Study/7. Network/TCP retransmission과 튜닝 포인트.md",
     "Study/7. Network/Connection Timeout vs Read Timeout.md",
-    "Study/7. Network/resources/Pasted image 20251209113447.png",
-    "Study/7. Network/resources/Pasted image 20251209113309.png",
-    "Study/7. Network/resources/Pasted image 20251209112725.png",
-    "Study/7. Network/resources/Pasted image 20251209112529.png",
-    "Study/7. Network/resources/Pasted image 20251209112507.png",
-    "Study/7. Network/resources/Pasted image 20251209111505.png",
     "Study/10. Server/백엔드 커머스 개발.md",
     "Study/10. Server/Bulkhead 패턴.md",
-    "Pasted image 20250507192720.png",
     "Study/4. Algorithm/중국인의 나머지 정리.md",
     "Study/4. Algorithm/BFS.md",
     "Study/4. Algorithm/분리집합.md",
@@ -249,12 +253,10 @@
     "Study/1. C, C++/15. thread.md",
     "Study/1. C, C++/10-3. STL - sequence container.md",
     "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md",
-    "Study/11. Java/-resources/Pasted image 20251130022944.png",
     "Study/8. DB/캐시/Lettuce vs Redisson.md",
     "Study/11. Java/Closure.md",
     "Study/8. DB/DELETE vs TRUNCATE.md",
     "Study/8. DB/MySQL/DB Connection 누수 문제.md",
-    "Study/8. DB/-resources/Pasted image 20251128011846.png",
     "Study/8. DB/Using Temporary, Using Filesort.md",
     "Study/8. DB/Insert 부하 해결.md",
     "Study/8. DB/DB 병목 원인과 대책.md",
@@ -264,9 +266,6 @@
     "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md",
     "Study/11. Java/G1GC vs ZGC.md",
     "Study/11. Java/Garbage Collector.canvas",
-    "Study/11. Java/Pasted image 20251120010210.png.md",
-    "Study/11. Java/Import.md",
-    "Study/1. C, C++/핵심/decltype.md",
     "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas",
@@ -282,7 +281,6 @@
     "Study/비교",
     "Study/22. Unreal/UE5/UE5.canvas",
     "Study/22. Unreal/UE5/-resources",
-    "Study/22. Unreal/UE5",
     "Study/7. Network/GSLB.canvas"
   ]
 }

@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "JSpecify",
+      "path": "Study/12. Spring/JSpecify.md"
+    },
+    {
+      "basename": "Pasted image 20250507193050",
+      "path": "Pasted image 20250507193050.png"
+    },
+    {
+      "basename": "Pasted image 20250507192737",
+      "path": "Pasted image 20250507192737.png"
+    },
+    {
+      "basename": "Pasted image 20250507193532",
+      "path": "Pasted image 20250507193532.png"
+    },
+    {
+      "basename": "Pasted image 20250507193542",
+      "path": "Pasted image 20250507193542.png"
+    },
+    {
+      "basename": "Pasted image 20250911140843",
+      "path": "Pasted image 20250911140843.png"
+    },
+    {
+      "basename": "Pasted image 20250911141010",
+      "path": "Pasted image 20250911141010.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
+    },
+    {
+      "basename": "Pasted image 20251128004929",
+      "path": "Pasted image 20251128004929.png"
+    },
+    {
+      "basename": "Pasted image 20251128010421",
+      "path": "Pasted image 20251128010421.png"
+    },
+    {
+      "basename": "Pasted image 20251128011239",
+      "path": "Pasted image 20251128011239.png"
+    },
+    {
       "basename": "Select()",
       "path": "Study/7. Network/Select().md"
     },
@@ -155,46 +199,6 @@
     {
       "basename": "풀텍스트 인덱스(Full-Text Index)",
       "path": "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md"
-    },
-    {
-      "basename": "클러스터링 인덱스",
-      "path": "Study/8. DB/인덱스/클러스터링 인덱스.md"
-    },
-    {
-      "basename": "DBMS는 어떻게 트랜잭션을 관리할까",
-      "path": "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
-    },
-    {
-      "basename": "트랜잭션 락",
-      "path": "Study/8. DB/트랜잭션/트랜잭션 락.md"
-    },
-    {
-      "basename": "캐시 전략",
-      "path": "Study/8. DB/캐시/캐시 전략.canvas"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "2. 결합 인덱스",
-      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/2. 결합 인덱스.md"
-    },
-    {
-      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
-      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
-    },
-    {
-      "basename": "SQL",
-      "path": "Study/8. DB/SQL.canvas"
-    },
-    {
-      "basename": "샤딩(Sharding)",
-      "path": "Study/8. DB/샤딩(Sharding).canvas"
     }
   ],
   "omittedPaths": [],
