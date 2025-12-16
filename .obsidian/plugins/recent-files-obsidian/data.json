@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Secret Key를 Base64로 인코딩하는 이유",
+      "path": "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md"
+    },
+    {
       "basename": "JSpecify",
       "path": "Study/12. Spring/JSpecify.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "커버링 인덱스",
       "path": "Study/8. DB/인덱스/커버링 인덱스.md"
-    },
-    {
-      "basename": "풀텍스트 인덱스(Full-Text Index)",
-      "path": "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md"
     }
   ],
   "omittedPaths": [],

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/12. Spring/JSpecify.md",
+                "file": "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JSpecify"
+              "title": "Secret Key를 Base64로 인코딩하는 이유"
             }
           }
         ],
@@ -227,8 +227,9 @@
   },
   "active": "a563ce4b4f629f91",
   "lastOpenFiles": [
-    "Pasted image 20251128010421.png",
     "Study/12. Spring/JSpecify.md",
+    "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md",
+    "Pasted image 20251128010421.png",
     "Pasted image 20250507193050.png",
     "Study/12. Spring/-resources",
     "Study/11. Java/무제.md",
