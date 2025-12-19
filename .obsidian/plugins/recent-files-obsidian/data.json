@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AWS WAF",
+      "path": "Study/10. Server/AWS WAF.md"
+    },
+    {
       "basename": "Secret Key를 Base64로 인코딩하는 이유",
       "path": "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "인덱스 튜닝",
       "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 튜닝.md"
-    },
-    {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/인덱스/커버링 인덱스.md"
     }
   ],
   "omittedPaths": [],
