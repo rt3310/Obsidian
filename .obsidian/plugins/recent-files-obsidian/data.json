@@ -1,6 +1,82 @@
 {
   "recentFiles": [
     {
+      "basename": "Tim Sort",
+      "path": "Study/4. Algorithm/Tim Sort.md"
+    },
+    {
+      "basename": "DB Connection 누수 문제",
+      "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
+    },
+    {
+      "basename": "Pasted image 20251128004929",
+      "path": "Study/8. DB/-resources/Pasted image 20251128004929.png"
+    },
+    {
+      "basename": "Pasted image 20251128010421",
+      "path": "Study/8. DB/-resources/Pasted image 20251128010421.png"
+    },
+    {
+      "basename": "Pasted image 20251128011239",
+      "path": "Study/8. DB/-resources/Pasted image 20251128011239.png"
+    },
+    {
+      "basename": "Pasted image 20241210120549",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120549.png"
+    },
+    {
+      "basename": "Pasted image 20241210120130",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120130.png"
+    },
+    {
+      "basename": "Pasted image 20240319144924",
+      "path": "Study/4. Algorithm/resources/Pasted image 20240319144924.png"
+    },
+    {
+      "basename": "Pasted image 20241210120444",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120444.png"
+    },
+    {
+      "basename": "Pasted image 20241210120212",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120212.png"
+    },
+    {
+      "basename": "Pasted image 20241210120204",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120204.png"
+    },
+    {
+      "basename": "Pasted image 20241210120155",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120155.png"
+    },
+    {
+      "basename": "Pasted image 20241210120119",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120119.png"
+    },
+    {
+      "basename": "Pasted image 20240713224955",
+      "path": "Study/4. Algorithm/resources/Pasted image 20240713224955.png"
+    },
+    {
+      "basename": "Pasted image 20240713224940",
+      "path": "Study/4. Algorithm/resources/Pasted image 20240713224940.png"
+    },
+    {
+      "basename": "Pasted image 20240319145444",
+      "path": "Study/4. Algorithm/resources/Pasted image 20240319145444.png"
+    },
+    {
+      "basename": "DBMS는 어떻게 트랜잭션을 관리할까",
+      "path": "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md"
+    },
+    {
+      "basename": "WAL",
+      "path": "Study/8. DB/MySQL/WAL.md"
+    },
+    {
+      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
+      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
+    },
+    {
       "basename": "AWS WAF",
       "path": "Study/10. Server/AWS WAF.md"
     },
@@ -11,10 +87,6 @@
     {
       "basename": "JSpecify",
       "path": "Study/12. Spring/JSpecify.md"
-    },
-    {
-      "basename": "Pasted image 20251128010421",
-      "path": "Pasted image 20251128010421.png"
     },
     {
       "basename": "Pasted image 20250507193050",
@@ -43,14 +115,6 @@
     {
       "basename": "Pasted image 20250911141032",
       "path": "Pasted image 20250911141032.png"
-    },
-    {
-      "basename": "Pasted image 20251128004929",
-      "path": "Pasted image 20251128004929.png"
-    },
-    {
-      "basename": "Pasted image 20251128011239",
-      "path": "Pasted image 20251128011239.png"
     },
     {
       "basename": "Select()",
@@ -113,10 +177,6 @@
       "path": "Study/11. Java/Closure.md"
     },
     {
-      "basename": "DB Connection 누수 문제",
-      "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
-    },
-    {
       "basename": "DELETE vs TRUNCATE",
       "path": "Study/8. DB/DELETE vs TRUNCATE.md"
     },
@@ -139,66 +199,6 @@
     {
       "basename": "조인(Join)",
       "path": "Study/8. DB/조인(Join).canvas"
-    },
-    {
-      "basename": "웹 소켓(WebSocket)",
-      "path": "Study/7. Network/HTTP/웹 소켓(WebSocket).md"
-    },
-    {
-      "basename": "STOMP(Simple Text Oriented Messaging Protocol)",
-      "path": "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md"
-    },
-    {
-      "basename": "G1GC vs ZGC",
-      "path": "Study/11. Java/G1GC vs ZGC.md"
-    },
-    {
-      "basename": "Garbage Collector",
-      "path": "Study/11. Java/Garbage Collector.canvas"
-    },
-    {
-      "basename": "Pasted image 20251120010210.png",
-      "path": "Study/11. Java/Pasted image 20251120010210.png.md"
-    },
-    {
-      "basename": "Import",
-      "path": "Study/11. Java/Import.md"
-    },
-    {
-      "basename": "decltype",
-      "path": "Study/1. C, C++/핵심/decltype.md"
-    },
-    {
-      "basename": "move, forward",
-      "path": "Study/1. C, C++/핵심/move, forward.md"
-    },
-    {
-      "basename": "12-2. Move",
-      "path": "Study/1. C, C++/12-2. Move.md"
-    },
-    {
-      "basename": "2. 인덱스 향상",
-      "path": "Study/8. DB/인덱스/2. 인덱스 향상.md"
-    },
-    {
-      "basename": "3. 인덱스 스캔 효율",
-      "path": "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md"
-    },
-    {
-      "basename": "1. 인덱스",
-      "path": "Study/8. DB/인덱스/1. 인덱스.md"
-    },
-    {
-      "basename": "1. 조인의 기본 원리와 사용",
-      "path": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md"
-    },
-    {
-      "basename": "2. 조인 테크닉",
-      "path": "Study/8. DB/조인/2. 조인 테크닉.md"
-    },
-    {
-      "basename": "인덱스 튜닝",
-      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 튜닝.md"
     }
   ],
   "omittedPaths": [],

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/10. Server/AWS WAF.md",
+                "file": "Study/4. Algorithm/Tim Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS WAF"
+              "title": "Tim Sort"
             }
           }
         ],
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/16. Server/Log.md",
+                "file": "Study/4. Algorithm/Tim Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Log 의 백링크"
+              "title": "Tim Sort 의 백링크"
             }
           },
           {
@@ -200,13 +200,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,23 +223,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "a563ce4b4f629f91",
   "lastOpenFiles": [
-    "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md",
+    "Study/8. DB/MySQL/DB Connection 누수 문제.md",
+    "Study/8. DB/-resources/Pasted image 20251128004929.png",
+    "Study/8. DB/-resources/Pasted image 20251128010421.png",
+    "Study/8. DB/-resources/Pasted image 20251128011239.png",
+    "Study/4. Algorithm/resources/Pasted image 20241210120549.png",
+    "Study/4. Algorithm/Tim Sort.md",
+    "Study/4. Algorithm/resources/Pasted image 20241210120130.png",
+    "Study/4. Algorithm/resources/Pasted image 20240319144924.png",
+    "Study/4. Algorithm/resources/Pasted image 20241210120444.png",
+    "Study/4. Algorithm/resources/Pasted image 20241210120212.png",
+    "Study/4. Algorithm/resources/Pasted image 20241210120204.png",
+    "Study/4. Algorithm/resources/Pasted image 20241210120155.png",
+    "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md",
+    "Study/8. DB/MySQL/WAL.md",
+    "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
     "Study/10. Server/AWS WAF.md",
+    "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md",
     "Study/12. Spring/JSpecify.md",
-    "Pasted image 20251128010421.png",
-    "Pasted image 20250507193050.png",
     "Study/12. Spring/-resources",
     "Study/11. Java/무제.md",
-    "Pasted image 20250507192737.png",
-    "Pasted image 20250507193532.png",
-    "Pasted image 20250507193542.png",
-    "Pasted image 20250911140843.png",
-    "Pasted image 20250911141010.png",
-    "Pasted image 20250911141032.png",
-    "Pasted image 20251128004929.png",
-    "Pasted image 20251128011239.png",
     "Study/7. Network/Select().md",
     "Study/7. Network/TCP retransmission과 튜닝 포인트.md",
     "Study/7. Network/Connection Timeout vs Read Timeout.md",
@@ -258,14 +261,8 @@
     "Study/8. DB/캐시/Lettuce vs Redisson.md",
     "Study/11. Java/Closure.md",
     "Study/8. DB/DELETE vs TRUNCATE.md",
-    "Study/8. DB/MySQL/DB Connection 누수 문제.md",
     "Study/8. DB/Using Temporary, Using Filesort.md",
-    "Study/8. DB/Insert 부하 해결.md",
-    "Study/8. DB/DB 병목 원인과 대책.md",
-    "Study/8. DB/ACID.md",
     "Study/8. DB/조인(Join).canvas",
-    "Study/7. Network/HTTP/웹 소켓(WebSocket).md",
-    "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md",
     "Study/11. Java/Garbage Collector.canvas",
     "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",
