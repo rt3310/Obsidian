@@ -113,7 +113,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -223,7 +224,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a563ce4b4f629f91",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/8. DB/MySQL/DB Connection 누수 문제.md",
     "Study/8. DB/-resources/Pasted image 20251128004929.png",
