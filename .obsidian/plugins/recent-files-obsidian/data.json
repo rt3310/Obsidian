@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "AWS WAF",
-      "path": "Study/10. Server/AWS WAF.md"
+      "basename": "POST, PUT, PATCH의 차이점",
+      "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
+    },
+    {
+      "basename": "DB Connection 누수 문제",
+      "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
     },
     {
       "basename": "Connection Timeout vs Read Timeout",
       "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
     },
     {
-      "basename": "DB Connection 누수 문제",
-      "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
+      "basename": "AWS WAF",
+      "path": "Study/10. Server/AWS WAF.md"
     },
     {
       "basename": "Tim Sort",
@@ -195,10 +199,6 @@
     {
       "basename": "ACID",
       "path": "Study/8. DB/ACID.md"
-    },
-    {
-      "basename": "조인(Join)",
-      "path": "Study/8. DB/조인(Join).canvas"
     }
   ],
   "omittedPaths": [],

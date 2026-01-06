@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/MySQL/DB Connection 누수 문제.md",
+                "file": "Study/16. Web/POST, PUT, PATCH의 차이점.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DB Connection 누수 문제"
+              "title": "POST, PUT, PATCH의 차이점"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "AWS WAF"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,8 +112,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -134,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/7. Network/Connection Timeout vs Read Timeout.md",
+                "file": "Study/16. Web/POST, PUT, PATCH의 차이점.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Connection Timeout vs Read Timeout 의 백링크"
+              "title": "POST, PUT, PATCH의 차이점 의 백링크"
             }
           },
           {
@@ -224,9 +222,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c7662ffc71c84bd8",
+  "active": "93ece6d0cd17675c",
   "lastOpenFiles": [
     "Study/8. DB/MySQL/DB Connection 누수 문제.md",
+    "Study/16. Web/POST, PUT, PATCH의 차이점.md",
+    "Study/7. Network/Connection Timeout vs Read Timeout.md",
     "Study/10. Server/AWS WAF.md",
     "Study/10. Server/resources/Pasted image 20260105140412.png",
     "Study/4. Algorithm/Tim Sort.md",
@@ -248,7 +248,6 @@
     "Study/11. Java/무제.md",
     "Study/7. Network/Select().md",
     "Study/7. Network/TCP retransmission과 튜닝 포인트.md",
-    "Study/7. Network/Connection Timeout vs Read Timeout.md",
     "Study/10. Server/백엔드 커머스 개발.md",
     "Study/10. Server/Bulkhead 패턴.md",
     "Study/4. Algorithm/중국인의 나머지 정리.md",
