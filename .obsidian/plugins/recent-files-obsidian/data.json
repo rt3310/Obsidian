@@ -5,12 +5,16 @@
       "path": "Study/10. Server/AWS WAF.md"
     },
     {
-      "basename": "Tim Sort",
-      "path": "Study/4. Algorithm/Tim Sort.md"
+      "basename": "Connection Timeout vs Read Timeout",
+      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
     },
     {
       "basename": "DB Connection 누수 문제",
       "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
+    },
+    {
+      "basename": "Tim Sort",
+      "path": "Study/4. Algorithm/Tim Sort.md"
     },
     {
       "basename": "Pasted image 20251128004929",
@@ -119,10 +123,6 @@
     {
       "basename": "Select()",
       "path": "Study/7. Network/Select().md"
-    },
-    {
-      "basename": "Connection Timeout vs Read Timeout",
-      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
     },
     {
       "basename": "백엔드 커머스 개발",
