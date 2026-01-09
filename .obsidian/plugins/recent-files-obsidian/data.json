@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2. 네트워크의 가장자리",
+      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md"
+    },
+    {
+      "basename": "1. 인터넷이란 무엇인가",
+      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md"
+    },
+    {
+      "basename": "Connection Timeout vs Read Timeout",
+      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
+    },
+    {
       "basename": "POST, PUT, PATCH의 차이점",
       "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
     },
     {
       "basename": "DB Connection 누수 문제",
       "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
-    },
-    {
-      "basename": "Connection Timeout vs Read Timeout",
-      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
     },
     {
       "basename": "AWS WAF",
@@ -191,14 +199,6 @@
     {
       "basename": "Insert 부하 해결",
       "path": "Study/8. DB/Insert 부하 해결.md"
-    },
-    {
-      "basename": "DB 병목 원인과 대책",
-      "path": "Study/8. DB/DB 병목 원인과 대책.md"
-    },
-    {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
     }
   ],
   "omittedPaths": [],
