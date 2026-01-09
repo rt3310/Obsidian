@@ -112,8 +112,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -223,7 +222,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Study/8. DB/MySQL/DB Connection 누수 문제.md",
     "Study/16. Web/POST, PUT, PATCH의 차이점.md",
