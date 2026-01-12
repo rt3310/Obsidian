@@ -112,7 +112,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -222,7 +223,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "93ece6d0cd17675c",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md",
     "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md",
