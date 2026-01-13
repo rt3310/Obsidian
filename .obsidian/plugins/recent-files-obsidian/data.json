@@ -5,6 +5,30 @@
       "path": "Study/10. Server/AWS WAF.md"
     },
     {
+      "basename": "synchronized vs ReentrantLock",
+      "path": "Study/비교/synchronized vs ReentrantLock.md"
+    },
+    {
+      "basename": "Pasted image 20250911140904",
+      "path": "Pasted image 20250911140904.png"
+    },
+    {
+      "basename": "Pasted image 20250507193542",
+      "path": "Pasted image 20250507193542.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Pasted image 20250911141032.png"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Study/16. Web/Cookie & Session.canvas"
+    },
+    {
+      "basename": "Session in Multi Server",
+      "path": "Study/16. Web/Session in Multi Server.canvas"
+    },
+    {
       "basename": "POST, PUT, PATCH의 차이점",
       "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
     },
@@ -129,20 +153,12 @@
       "path": "Pasted image 20250507193532.png"
     },
     {
-      "basename": "Pasted image 20250507193542",
-      "path": "Pasted image 20250507193542.png"
-    },
-    {
       "basename": "Pasted image 20250911140843",
       "path": "Pasted image 20250911140843.png"
     },
     {
       "basename": "Pasted image 20250911141010",
       "path": "Pasted image 20250911141010.png"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
     },
     {
       "basename": "Select()",
@@ -183,22 +199,6 @@
     {
       "basename": "15. thread",
       "path": "Study/1. C, C++/15. thread.md"
-    },
-    {
-      "basename": "10-3. STL - sequence container",
-      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
-    },
-    {
-      "basename": "인덱스 기본",
-      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md"
-    },
-    {
-      "basename": "Lettuce vs Redisson",
-      "path": "Study/8. DB/캐시/Lettuce vs Redisson.md"
-    },
-    {
-      "basename": "Closure",
-      "path": "Study/11. Java/Closure.md"
     }
   ],
   "omittedPaths": [],

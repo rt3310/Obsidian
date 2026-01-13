@@ -147,3 +147,228 @@ WAF에서 Custom 룰을 수립할 경우 AND, OR, NOT 조건을 통해 논리적
 
 이해를 돕기위해 앞서 알아본 **Cloudfront + WAF 와 ALB + WAF를 함께 사용하는 구조**에서의 Cloudfront WAF를 우회하기 위한 시도를 그림으로 설명하였다.
 ![[Pasted image 20260113140524.png]]
+
+공격자는 실제 서비스 도메인 주소(example.baemin.com)가 아닌 ALB 도메인 주소(example.elb.domain.com)로 공격을 시도한다.
+
+이 공격자의 공격을 차단하기 위한 WAF Custom 룰로 host header를 검사하여 DNS에 등록된 정식 도메인 주소를 통해 유입된 것인지 확인하고 차단할 수 있다.
+
+물론, 이 구성에서는 ELB Security Group을 사용하여 Cloudfront가 사용하는 AWS IP를 제어하는 방법도 좋은 방법이다.
+
+아래는 위에서 설명한 Custom 룰에 대한 WAFv2 정책(json) 예시이다.
+#### Host 헤더 검사 룰
+```json
+{
+  "Name": "Check_host_header_rule",
+  "Priority": 0,
+  "Action": {
+    "Block"
+  },
+  "VisibilityConfig": {
+    "SampledRequestsEnabled": true,
+    "CloudWatchMetricsEnabled": true,
+    "MetricName": "Check_host_header_rule"
+  },
+  "Statement": {
+    "NotStatement": {
+      "Statement": {
+        "ByteMatchStatement": {
+          "FieldToMatch": {
+            "SingleHeader": {
+              "Name": "host"
+            }
+          },
+          "PositionalConstraint": "EXACTLY",
+          "SearchString": "www.example.com",
+          "TextTransformations": [
+            {
+              "Type": "NONE",
+              "Priority": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+```
+
+WAF의 Custom 룰을 이상 트래픽 탐지에 활용할 수도 있다.
+**어떤 API는 반드시 특정 페이지를 경유해서 접근되어야 하는 페이지라면, Referer 헤더를 검사하여 비정상으로 유입되는 트래픽을 확인할 수도 있다**.
+Referer 헤더가 없거나 예상된 경로와 다르다면, 서비스 웹 페이지를 브라우저로 서핑 중 클릭한 트래픽이 아닌 직접 페이징 접근한 트래픽으로 간주할 수 있다.
+
+웹 헤더는 쉽게 변조가 가능하므로 이러한 헤더 검사 룰은 100% 신뢰할 수는 없다. 하지만 WAF를 이용해 이러한 이상 트래픽을 탐지할 수 있는 인사이트를 얻는다면 공격 외 비정상 트래픽을 차단, 검사하는데 도움이 될 것이다.
+
+아래는 Referer를 검사하는 WAFv2 정책(json) 예시이다.
+#### referer 헤더 검사 룰
+```json
+{
+  "Name": "referer_check",
+  "Priority": 0,
+  "Action": {
+    "Block"
+  },
+  "VisibilityConfig": {
+    "SampledRequestsEnabled": true,
+    "CloudWatchMetricsEnabled": true,
+    "MetricName": "referer_check"
+  },
+  "Statement": {
+    "AndStatement": {
+      "Statements": [
+        {
+          "ByteMatchStatement": {
+            "FieldToMatch": {
+              "SingleHeader": {
+                "Name": "referer"
+              }
+            },
+            "PositionalConstraint": "CONTAINS",
+            "SearchString": "www.example.com/goods/detail",
+            "TextTransformations": [
+              {
+                "Type": "NONE",
+                "Priority": 0
+              }
+            ]
+          }
+        },
+        {
+          "ByteMatchStatement": {
+            "FieldToMatch": {
+              "UriPath"
+            },
+            "PositionalConstraint": "CONTAINS",
+            "SearchString": "payment",
+            "TextTransformations": [
+              {
+                "Type": "NONE",
+                "Priority": 0
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+## AWS WAF 로깅과 탐지
+
+### AWS WAF의 이벤트 로그를 로깅하는 법
+AWS WAF를 100% 활용하기 위해서는 로깅과 로그 분석은 필수이다.
+
+WAF 로그 분석은 WAF를 통해 해결할 수 있는 보안 위협 공격, 취약점 공격을 포함하여 여러 웹, 앱 서비스를 운영하며 생길 수 있는 문제들을 효과적으로 해결할 수 있다.
+
+콘솔 상 자체 로그를 일부 남기기도 하고, Cloudwatch로 그래프를 제공하지만 적절한 분석을 하기에는 부족하다.
+
+현재 AWS WAF에서는 Kinesis Firehose 서비스를 이용한 로깅만 지원하고 있으며, Amazon ES와 S3에 쌓을 수 있다.
+별도 SIEM(Security Information and Event Management) 솔루션을 구축한 상태가 아니라면 Amazon ES 서비스나 S3에 쌓은 로그를 AWS Athena 서비스를 이용해 분석하는 것도 좋지만, 장기적으로 여러 보안서비스 및 솔루션들을 활용할 계획이 있다면 전문 SIEM 솔루션을 활용하여 분석하는 것이 좋다고 생각한다.ㅔ
+
+이 글에서는 Kinesis Firehose를 이용하여 S3에 적재하는 방법을 설명한다.
+클라우드 환경에서 로그 분석과 관리의 어려움을 해소하기 위해 적절한 중앙 로깅 아키텍처 설계가 선행되어야 한다.
+중앙 로깅 아키텍처 설계를 풀이하자면 각 계정의 서비스나 솔루션에서 발생하는 로그를 한 곳에 집중시켜 수집하는 것인데, 이 구성으로 로그 보관과 접근 제어, 주요 로그 접근에 대한 감사추적 등 관리의 효율성을 얻을 수 있다.
+
+예를 들어, A Account의 A-WAF와 B Account의 B-WAF, C Account의 C-WAF가 있으면, 각 A, B, C의 S3 서비스에 수집하는 것이 아니라, 중앙 수집할 별도 S(Security) 계정의 S3에 'Security-WAF-Bucket'을 생성하여 수집한다.
+#### WAF 로그 중앙 수집 아키텍처
+![[Pasted image 20260113163610.png]]
+
+위 그림과 같이 구성하기 위해서 Kinesis Firehose를 생성할 때, S-Account의 S3 Bucket을 직접 바라보도록 설정해야 한다.
+웹 콘솔에서는 같은 Organization이라도 다른 계정의 Bucket을 직접 바라보게 설정할 수 없으므로 AWS CLI로 강제 설정하여 생성해준다.
+```bash
+ aws firehose create-delivery-stream --delivery-stream-name aws-waf-logs-security-A-to-S-service-firehose --delivery-stream-type DirectPut --s3-destination-configuration file://./firehoseConfig.json
+```
+
+WAF가 사용할 수 있는 Firehose는 공통으로 "aws-waf-logs"라는 이름으로 시작해야 한다.
+FirehoseConfig.json은 아래와 같이 생성한다.
+RoleARN에는 accountNumber와 Firehose가 사용할 Role을 지정해주고, BucketARN에 대상 버킷 정보를 정확하게 적어준다. 로그를 쌓는 대상을 구분하기 쉽게 Prefix 부분도 신경 써서 작성해주고 그 외 설정도 필요한 옵션을 수정하여 생성한다.
+```json
+{
+  "RoleARN": "arn:aws:iam::accountNumber:role/firehose_delivery_role",
+  "BucketARN": "arn:aws:s3:::Security-WAF-Bucket",
+  "Prefix": "wafv2/accountNumber/servicename/",
+  "ErrorOutputPrefix": "string",
+  "BufferingHints": {
+    "SizeInMBs": 3,
+    "IntervalInSeconds": 60
+  },
+  "CompressionFormat": "GZIP",
+  "EncryptionConfiguration": {
+    "NoEncryptionConfig": "NoEncryption"
+  },
+  "CloudWatchLoggingOptions": {
+    "Enabled": true,
+    "LogGroupName": "waf-firehose-testing",
+    "LogStreamName": "logStream"
+  }
+}
+```
+
+예제로 만든 S-Account의 Bucket인 Security-WAF-Bucket에도 Policy를 설정해주어야 한다.
+아래는 WAF 로그를 운반할 Firehose가 사용하는 firehose_delivery_role이 S3에 로그를 적재할 수 있도록 S3 정책을 열어주는 예시이다.
+```json
+ {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowRole",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::accountNumber:role/firehose_delivery_role"
+            },
+            "Action": [
+                "s3:Put*",
+                "s3:List*",
+                "s3:Get*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::Security-WAF-Bucket/*"
+            ]
+        }
+    ]
+}
+```
+
+로그를 적재할 때, 한 가지 더 고민해야 할 부분이 있다.
+AWS WAF를 블랙리스트 룰 기반으로 운영한다고 할 때, 전체 로그는 (Default Action) Allow, Count, Block 로그로 나눌 수 있다.
+AWS WAF는 로깅 시 이 세 가지 형태의 로그를 Kinesis Firehose에 모두 실어 보낸다. AWS WAF, Kinesis Firehose 자체 기능으로는 어떤 로그만 골라 수집하겠다는 기능은 없다.
+
+Allow 로그는 분명 공격 미탐(False Negative), 숨겨진 공격, 침해사고 조사, 이상(Anomaly)로그 분석 시 유용하게 쓰일 수 있는 로그이다. 하지만 경우에 따라서 굳이 WAF Allow 로그는 분석하지 않아도 될 로그로 볼 수 있다. 예를 들어 서버 Accesslog를 별도로 수집하고 있거나, ELB Accesslog를 수집하고 있는 경우에 그렇다.
+혹은 SaaS기반 SIEM이나 ES 등이 로그의 총량에 따라 비용이 책정되는 상황이라면, 라이선스나 DB를 늘리는 선택보다는 전체 WAF 로그의 80~90%를 차지하게 될 Allow 로그를 버리는 선택을 할 수도 있다.
+
+Allow 로그를 버리기로 하였다면, 두 가지 방법으로 로그를 버릴 수 있는데, 첫 번째는 Firehose와 lambda 트리거를 이용한 방법이다.
+#### lambda를 이용하여 Count, Block 로그를 정제하는 구성
+![[Pasted image 20260113164327.png]]
+위 그림에서 각 Firehose에 lambda를 트리거 시켜서 lambda가 Allow 로그를 거르는 작업을 하고, Count, Block 로그만 정제하여 반환하여 S3 Security-WAF-Bucket에 쌓도록 한다.
+
+물론, 이 그림에서 설명하는 구성은 단순 예제이고 이와 다르게 lambda를 구현하는 방식에 따라 All-WAF-Bucket, Count-WAF-Bucket, Block-WAF-Bucket을 구분하여 적재하거나 하나의 Bucket 내에 폴더, 경로(Block/, Count/, All/)를 생성하여 쌓을 수도 있다.
+
+#### logstash를 이용하여 Count, Block 로그를 정제하는 구성
+![[Pasted image 20260113164513.png]]
+다른 방법은 WAF가 바라보는 S3까지는 WAF의 전체 로그(Allow, Count, Block)를 적재하고 다시 그 버킷에서 로그를 Logstash로 당겨서 Count, Block 로그를 구분하여 별도의 새 버킷에 저장할 수 있다.
+이 또한, lambda 구현과 같게 Logstash 구현 방법에 따라 여러 구성이 생성될 수 있을 것 같다.
+
+lambda를 사용하는 것과 Logstash를 사용하는 것의 로깅 Latency, 효율성, 코드 유지보수 및 비용 등을 잘 고려하여 결정하자.
+
+## AWS WAF의 탐지 데이터
+
+WAF의 보안 룰에 의한 공격 차단은 공격인 경우를 정확히 탐지(True Positive)하는 게 목적이지만, 기대와 다르게 오탐(False Positive)이 발생할 수 있다.
+
+정탐과 오탐이 발생할 경우 그 이유를 분석하고 확인하는 것은 보안 분석가의 업무 중 하나이다. 이때 활용할 수 있는 정보가 **Matched on Data**이다.
+
+하지만 AWS WAF는 HTTP의 다양한 웹 메소드(GET, POST, PUT, DELETE, ...) 중에서 Body 값을 가지고 있는 메소드로 유입된 트래픽의 Body 값은 WAF가 검사는 하지만 로그로 남기지 않는다.
+심지어 Body 값에서 매칭된 패턴에 의해 차단이 되었다고 해도, 그 이유(Matched on data)를 기록하지 않는다. 이 경우 공격 벡터가 오탐 문자열이 Body 값에 포함되어 유입될 경우 정/오탐 여부를 판단하기가 어려워진다. 불행 중 다행으로 SQLi와 XSS Rule에 의해 탐지된 데이터는 Body 값에 있더라도 남겨준다.
+모든 공격에 대해 Body 값의 탐지 데이터를 기록하지 않는 것은 AWS WAF에서 가장 아쉬운 부분이다.
+
+![[Pasted image 20260113164933.png]]
+위 그림처럼 SQLi와 XSS에 의해 탐지된 데이터는 terminatingRuleMatchDetails라는 필드에 의해 기록된다. 빠른 시일 내에 모든 공격에 대해 Body 값 내 탐지 데이터가 남겨지기를 기대한다.
+
+## 정리
+
+AWS WAF는 기능 면에서 아직 미성숙한 점이 있어 상용 WAF의 완전한 대체가 될 수는 없다고 생각한다.
+룰 예외처리나 모니터링, 탐지 값 제공에 대한 기능적 아쉬움이 있고, 성숙한 WAF는 전문적인 봇 트래픽에 대한 인사이트도 제공해주지만 AWS WAF는 아직 1차원적인 속성을 통한 봇 탐지밖에 구현하지 못한다.
+
+그리고 상용 솔루션보다 운영이 간단하고 쉬어 보여도 상용 WAF와 다른 부분이 많아 제대로 학습하지 않은 상태에서 운영한다면 의도하지 않은 차단, 오탐으로 인한 장애나 가용성 문제의 대상이 될 수 있다.
+
+하지만 AWS WAF는 클라우드 환경에서 상용 WAF 솔루션을 도입하는 것보다 저렴하고, 안전하고, 빠르고 쉽게 적용할 수 있는 웹 애플리케이션 보안 서비스이다.
+상용 솔루션을 도입하기 전 임시로 사용하거나 잘 운영하여 적절한 솔루션을 찾기 전까지 메인 웹 방화벽으로 사용하기에도 기본 이상의 가치를 제공해주는 보안 서비스라고 생각된다.
