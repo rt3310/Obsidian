@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "AWS WAF",
+      "path": "Study/10. Server/AWS WAF.md"
+    },
+    {
+      "basename": "POST, PUT, PATCH의 차이점",
+      "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Study/16. Web/Tomcat.canvas"
+    },
+    {
+      "basename": "Pasted image 20260113135009",
+      "path": "Study/10. Server/resources/Pasted image 20260113135009.png"
+    },
+    {
+      "basename": "Pasted image 20240314164110",
+      "path": "Study/16. Web/resources/Pasted image 20240314164110.png"
+    },
+    {
       "basename": "2. 네트워크의 가장자리",
       "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md"
     },
@@ -13,16 +33,8 @@
       "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
     },
     {
-      "basename": "POST, PUT, PATCH의 차이점",
-      "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
-    },
-    {
       "basename": "DB Connection 누수 문제",
       "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
-    },
-    {
-      "basename": "AWS WAF",
-      "path": "Study/10. Server/AWS WAF.md"
     },
     {
       "basename": "Tim Sort",
@@ -187,18 +199,6 @@
     {
       "basename": "Closure",
       "path": "Study/11. Java/Closure.md"
-    },
-    {
-      "basename": "DELETE vs TRUNCATE",
-      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
-    },
-    {
-      "basename": "Using Temporary, Using Filesort",
-      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
-    },
-    {
-      "basename": "Insert 부하 해결",
-      "path": "Study/8. DB/Insert 부하 해결.md"
     }
   ],
   "omittedPaths": [],
