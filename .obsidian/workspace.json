@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4fb286adbed7e7d1",
+        "id": "2fd73c99a2478987",
         "type": "tabs",
         "children": [
           {
-            "id": "93ece6d0cd17675c",
+            "id": "c4362ae5e35d6eae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/8. DB/MySQL/DB Connection 누수 문제.md",
+                "file": "Plan/이력서 작성.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DB Connection 누수 문제"
+              "title": "이력서 작성"
             }
           }
         ]
@@ -35,16 +35,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "95986b4e07f54c35",
+            "id": "473fac1bffc5c8df",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
@@ -75,16 +72,20 @@
             }
           },
           {
-            "id": "473fac1bffc5c8df",
+            "id": "95986b4e07f54c35",
             "type": "leaf",
             "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -167,8 +168,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -181,23 +182,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:새 베이스 생성하기": false,
-      "switcher:빠른 전환기 열기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "obsidian-kanban:새 보드 만들기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "93ece6d0cd17675c",
+  "active": "c4362ae5e35d6eae",
   "lastOpenFiles": [
+    "Study/9. Cache/Ehcache vs Caffeine.md",
+    "Plan/이력서 작성.md",
     "Study/8. DB/DELETE vs TRUNCATE.md",
     "Study/8. DB/MySQL/DB Connection 누수 문제.md",
     "Study/8. DB/-resources/Pasted image 20251128011846.png",
@@ -234,7 +237,6 @@
     "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md",
     "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 튜닝.md",
     "Study/8. DB/인덱스/커버링 인덱스.md",
-    "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md",
     "Study/8. DB/정규화.canvas",
     "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",

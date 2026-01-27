@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "이력서 작성",
+      "path": "Plan/이력서 작성.md"
+    },
+    {
+      "basename": "Ehcache vs Caffeine",
+      "path": "Study/9. Cache/Ehcache vs Caffeine.md"
+    },
+    {
       "basename": "DB Connection 누수 문제",
       "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "11. 예외처리",
       "path": "Study/1. C, C++/11. 예외처리.md"
-    },
-    {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
-    },
-    {
-      "basename": "배열은 배열이고 포인터는 포인터이다.",
-      "path": "Study/1. C, C++/핵심/배열은 배열이고 포인터는 포인터이다..md"
     }
   ],
   "omittedPaths": [],
