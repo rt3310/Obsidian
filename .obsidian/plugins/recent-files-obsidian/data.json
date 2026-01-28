@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "백엔드 포트폴리오 주제",
+      "path": "Plan/백엔드 포트폴리오 주제.md"
+    },
+    {
+      "basename": "포트폴리오 구성",
+      "path": "Plan/포트폴리오 구성.md"
+    },
+    {
+      "basename": "개선,트러블슈팅 예시",
+      "path": "Plan/개선,트러블슈팅 예시.md"
+    },
+    {
+      "basename": "학습 필터",
+      "path": "Plan/학습 필터.md"
+    },
+    {
       "basename": "Pasted image 20250507192720",
       "path": "Pasted image 20250507192720.png"
     },
@@ -183,18 +199,6 @@
     {
       "basename": "unique_ptr",
       "path": "Study/1. C, C++/핵심/unique_ptr.md"
-    },
-    {
-      "basename": "10-4. string",
-      "path": "Study/1. C, C++/10-4. string.md"
-    },
-    {
-      "basename": "10-3. STL - sequence container",
-      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
-    },
-    {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
     }
   ],
   "omittedPaths": [],
