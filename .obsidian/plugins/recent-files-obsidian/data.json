@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20250507192720",
+      "path": "Pasted image 20250507192720.png"
+    },
+    {
+      "basename": "Zookeeper",
+      "path": "Study/10. Server/Zookeeper.md"
+    },
+    {
+      "basename": "Pasted image 20250911140843",
+      "path": "Pasted image 20250911140843.png"
+    },
+    {
       "basename": "이력서 작성",
       "path": "Plan/이력서 작성.md"
     },
@@ -183,22 +195,6 @@
     {
       "basename": "13-2. shared_ptr, weak_ptr",
       "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
-    },
-    {
-      "basename": "15. thread",
-      "path": "Study/1. C, C++/15. thread.md"
-    },
-    {
-      "basename": "13-1. unique_ptr",
-      "path": "Study/1. C, C++/13-1. unique_ptr.md"
-    },
-    {
-      "basename": "10-2. STL - associative container",
-      "path": "Study/1. C, C++/10-2. STL - associative container.md"
-    },
-    {
-      "basename": "11. 예외처리",
-      "path": "Study/1. C, C++/11. 예외처리.md"
     }
   ],
   "omittedPaths": [],
