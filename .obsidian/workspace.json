@@ -48,8 +48,21 @@
               "icon": "lucide-file",
               "title": "AWS WAF"
             }
+          },
+          {
+            "id": "022c0d3f8f509a02",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +145,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/10. Server/AWS WAF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +154,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "AWS WAF 의 백링크"
+              "title": "백링크"
             }
           },
           {
