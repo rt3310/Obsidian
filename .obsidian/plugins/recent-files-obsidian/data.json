@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "AWS WAF",
-      "path": "Study/10. Server/AWS WAF.md"
+      "basename": "Kafka vs RabbitMQ",
+      "path": "Study/비교/Kafka vs RabbitMQ.md"
     },
     {
       "basename": "synchronized vs ReentrantLock",
       "path": "Study/비교/synchronized vs ReentrantLock.md"
+    },
+    {
+      "basename": "Session in Multi Server",
+      "path": "Study/16. Web/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "POST, PUT, PATCH의 차이점",
+      "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
+    },
+    {
+      "basename": "Tim Sort",
+      "path": "Study/4. Algorithm/Tim Sort.md"
+    },
+    {
+      "basename": "AWS WAF",
+      "path": "Study/10. Server/AWS WAF.md"
     },
     {
       "basename": "Pasted image 20250911140904",
@@ -23,14 +39,6 @@
     {
       "basename": "Cookie & Session",
       "path": "Study/16. Web/Cookie & Session.canvas"
-    },
-    {
-      "basename": "Session in Multi Server",
-      "path": "Study/16. Web/Session in Multi Server.canvas"
-    },
-    {
-      "basename": "POST, PUT, PATCH의 차이점",
-      "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
     },
     {
       "basename": "Tomcat",
@@ -59,10 +67,6 @@
     {
       "basename": "DB Connection 누수 문제",
       "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
-    },
-    {
-      "basename": "Tim Sort",
-      "path": "Study/4. Algorithm/Tim Sort.md"
     },
     {
       "basename": "Pasted image 20251128004929",
@@ -191,14 +195,6 @@
     {
       "basename": "DataSource",
       "path": "Study/11. Java/DataSource.md"
-    },
-    {
-      "basename": "정규화",
-      "path": "Study/8. DB/정규화.canvas"
-    },
-    {
-      "basename": "15. thread",
-      "path": "Study/1. C, C++/15. thread.md"
     }
   ],
   "omittedPaths": [],

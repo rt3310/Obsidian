@@ -74,9 +74,37 @@
               "icon": "lucide-book-up",
               "title": "릴리즈 노트 1.11.5"
             }
+          },
+          {
+            "id": "5c04fc040f0ca820",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/비교/Kafka vs RabbitMQ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kafka vs RabbitMQ"
+            }
+          },
+          {
+            "id": "ce62879371e947c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study/비교/Kafka vs RabbitMQ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kafka vs RabbitMQ"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -139,8 +167,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -160,6 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/비교/Kafka vs RabbitMQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "Kafka vs RabbitMQ 의 백링크"
             }
           },
           {
@@ -249,25 +277,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "ce62879371e947c2",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Study/비교/Kafka vs RabbitMQ.md",
+    "Study/비교/synchronized vs ReentrantLock.md",
+    "Study/16. Web/Session in Multi Server.canvas",
+    "Study/16. Web/POST, PUT, PATCH의 차이점.md",
+    "Pasted image 20260215033833.png",
+    "Plan/포트폴리오 구성.md",
+    "Plan/이력서 작성.md",
     "Study/10. Server/resources/Pasted image 20260113164933.png",
     "Study/10. Server/resources/Pasted image 20260113164513.png",
     "Study/10. Server/resources/Pasted image 20260113164327.png",
-    "Study/비교/synchronized vs ReentrantLock.md",
     "Study/10. Server/AWS WAF.md",
     "Pasted image 20250911140904.png",
     "Pasted image 20250507193542.png",
     "Pasted image 20250911141032.png",
     "Study/10. Server/resources/Pasted image 20260113163610.png",
     "Study/16. Web/Cookie & Session.canvas",
-    "Study/16. Web/Session in Multi Server.canvas",
     "Study/10. Server/resources/Pasted image 20260113140524.png",
-    "Study/16. Web/POST, PUT, PATCH의 차이점.md",
     "Study/16. Web/Tomcat.canvas",
     "Study/10. Server/resources/Pasted image 20260113135157.png",
-    "Study/10. Server/resources/Pasted image 20260113135009.png",
-    "Study/16. Web/resources/Pasted image 20240314164110.png",
     "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md",
     "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md",
     "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷",
@@ -289,11 +320,7 @@
     "Study/10. Server/Bulkhead 패턴.md",
     "Study/4. Algorithm/중국인의 나머지 정리.md",
     "Study/4. Algorithm/BFS.md",
-    "Study/4. Algorithm/분리집합.md",
-    "Study/11. Java/DataSource.md",
     "Study/8. DB/정규화.canvas",
-    "Study/1. C, C++/15. thread.md",
-    "Study/1. C, C++/10-3. STL - sequence container.md",
     "Study/8. DB/조인(Join).canvas",
     "Study/11. Java/Garbage Collector.canvas",
     "Study/8. DB/캐시/캐시 전략.canvas",
