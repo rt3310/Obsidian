@@ -107,12 +107,14 @@
             "id": "f0c00f07212658ff",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "Study/비교/Rate Limiter.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.11.7"
+              "icon": "lucide-file",
+              "title": "Rate Limiter"
             }
           }
         ],
@@ -179,8 +181,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,6 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/비교/Rate Limiter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "Rate Limiter 의 백링크"
             }
           },
           {
@@ -289,28 +291,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "f0c00f07212658ff",
   "lastOpenFiles": [
-    "Study/비교/Lock.md",
+    "Study/비교/synchronized vs ReentrantLock.md",
+    "Study/비교/Rate Limiter.md",
     "Study/비교/Kafka vs RabbitMQ.md",
+    "Study/비교/-resources/Pasted image 20251101172437.png",
+    "Study/7. Network/HTTP/resources/Pasted image 20250507192720.png",
+    "Study/7. Network/HTTP/웹 소켓(WebSocket).md",
+    "Study/7. Network/HTTP/resources/Pasted image 20250507192737.png",
+    "Study/7. Network/HTTP/resources/Pasted image 20250507193050.png",
+    "Study/7. Network/HTTP/resources/Pasted image 20250507193532.png",
+    "Study/7. Network/HTTP/resources/Pasted image 20250507193542.png",
+    "Study/8. DB/-resources/Pasted image 20250911140843.png",
+    "Study/8. DB/-resources/Pasted image 20250911141010.png",
+    "Study/8. DB/-resources/Pasted image 20250911141032.png",
+    "Study/비교/Lock.md",
     "Study/28. Other/수익화를 위한 앱 개발.md",
     "Study/비교/무제.canvas",
-    "Pasted image 20250507192737.png",
-    "Pasted image 20250507193532.png",
-    "Pasted image 20250507193050.png",
     "Study/비교/-resources/Pasted image 20260215034938.png",
-    "Pasted image 20250507192720.png",
-    "Study/비교/synchronized vs ReentrantLock.md",
-    "Study/비교/-resources/Pasted image 20260215034458.png",
     "conflict-files-obsidian-git.md",
     "Study/16. Web/Session in Multi Server.canvas",
     "Study/16. Web/POST, PUT, PATCH의 차이점.md",
-    "Study/비교/-resources/Pasted image 20260215033833.png",
     "Plan/포트폴리오 구성.md",
     "Plan/이력서 작성.md",
-    "Study/10. Server/resources/Pasted image 20260113164933.png",
-    "Study/10. Server/resources/Pasted image 20260113164513.png",
-    "Study/10. Server/resources/Pasted image 20260113164327.png",
     "Study/10. Server/AWS WAF.md",
     "Study/16. Web/Cookie & Session.canvas",
     "Study/16. Web/Tomcat.canvas",
@@ -332,8 +336,6 @@
     "Study/7. Network/Select().md",
     "Study/7. Network/TCP retransmission과 튜닝 포인트.md",
     "Study/10. Server/백엔드 커머스 개발.md",
-    "Study/10. Server/Bulkhead 패턴.md",
-    "Study/4. Algorithm/중국인의 나머지 정리.md",
     "Study/8. DB/정규화.canvas",
     "Study/8. DB/조인(Join).canvas",
     "Study/11. Java/Garbage Collector.canvas",

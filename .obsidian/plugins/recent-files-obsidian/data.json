@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "Rate Limiter",
+      "path": "Study/비교/Rate Limiter.md"
+    },
+    {
+      "basename": "synchronized vs ReentrantLock",
+      "path": "Study/비교/synchronized vs ReentrantLock.md"
+    },
+    {
       "basename": "Kafka vs RabbitMQ",
       "path": "Study/비교/Kafka vs RabbitMQ.md"
+    },
+    {
+      "basename": "Pasted image 20251101172437",
+      "path": "Study/비교/-resources/Pasted image 20251101172437.png"
+    },
+    {
+      "basename": "Pasted image 20250507192720",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507192720.png"
+    },
+    {
+      "basename": "웹 소켓(WebSocket)",
+      "path": "Study/7. Network/HTTP/웹 소켓(WebSocket).md"
+    },
+    {
+      "basename": "Pasted image 20250507192737",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507192737.png"
+    },
+    {
+      "basename": "Pasted image 20250507193050",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193050.png"
+    },
+    {
+      "basename": "Pasted image 20250507193532",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193532.png"
+    },
+    {
+      "basename": "Pasted image 20250507193542",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193542.png"
+    },
+    {
+      "basename": "Pasted image 20250911140843",
+      "path": "Study/8. DB/-resources/Pasted image 20250911140843.png"
+    },
+    {
+      "basename": "Pasted image 20250911141010",
+      "path": "Study/8. DB/-resources/Pasted image 20250911141010.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Study/8. DB/-resources/Pasted image 20250911141032.png"
     },
     {
       "basename": "Lock",
@@ -15,26 +63,6 @@
     {
       "basename": "무제",
       "path": "Study/비교/무제.canvas"
-    },
-    {
-      "basename": "Pasted image 20250507192737",
-      "path": "Pasted image 20250507192737.png"
-    },
-    {
-      "basename": "Pasted image 20250507193532",
-      "path": "Pasted image 20250507193532.png"
-    },
-    {
-      "basename": "Pasted image 20250507193050",
-      "path": "Pasted image 20250507193050.png"
-    },
-    {
-      "basename": "Pasted image 20250507192720",
-      "path": "Pasted image 20250507192720.png"
-    },
-    {
-      "basename": "synchronized vs ReentrantLock",
-      "path": "Study/비교/synchronized vs ReentrantLock.md"
     },
     {
       "basename": "Session in Multi Server",
@@ -54,15 +82,7 @@
     },
     {
       "basename": "Pasted image 20250911140904",
-      "path": "Pasted image 20250911140904.png"
-    },
-    {
-      "basename": "Pasted image 20250507193542",
-      "path": "Pasted image 20250507193542.png"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Pasted image 20250911141032.png"
+      "path": "Study/8. DB/-resources/Pasted image 20250911140904.png"
     },
     {
       "basename": "Cookie & Session",
@@ -173,32 +193,12 @@
       "path": "Study/12. Spring/JSpecify.md"
     },
     {
-      "basename": "Pasted image 20250911140843",
-      "path": "Pasted image 20250911140843.png"
-    },
-    {
-      "basename": "Pasted image 20250911141010",
-      "path": "Pasted image 20250911141010.png"
-    },
-    {
       "basename": "Select()",
       "path": "Study/7. Network/Select().md"
     },
     {
       "basename": "백엔드 커머스 개발",
       "path": "Study/10. Server/백엔드 커머스 개발.md"
-    },
-    {
-      "basename": "Bulkhead 패턴",
-      "path": "Study/10. Server/Bulkhead 패턴.md"
-    },
-    {
-      "basename": "중국인의 나머지 정리",
-      "path": "Study/4. Algorithm/중국인의 나머지 정리.md"
-    },
-    {
-      "basename": "BFS",
-      "path": "Study/4. Algorithm/BFS.md"
     }
   ],
   "omittedPaths": [],
