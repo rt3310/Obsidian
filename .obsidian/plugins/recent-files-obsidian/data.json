@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "무제.md"
+    },
+    {
       "basename": "Rate Limiter",
       "path": "Study/비교/Rate Limiter.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Select()",
       "path": "Study/7. Network/Select().md"
-    },
-    {
-      "basename": "백엔드 커머스 개발",
-      "path": "Study/10. Server/백엔드 커머스 개발.md"
     }
   ],
   "omittedPaths": [],
