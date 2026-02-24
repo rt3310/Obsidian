@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CS 심화 (AI)",
+      "path": "CS 심화 (AI).md"
+    },
+    {
       "basename": "CS 모음",
       "path": "CS 모음.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "어떻게 공부해야 할까",
       "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "CS 심화 (AI)",
-      "path": "CS 심화 (AI).md"
     },
     {
       "basename": "Zookeeper",
