@@ -1,138 +1,56 @@
 {
   "main": {
-    "id": "165dc34c91db5c4a",
+    "id": "6651f7ba51e6dc98",
     "type": "split",
     "children": [
       {
-        "id": "4fb286adbed7e7d1",
+        "id": "bcb5777503329151",
         "type": "tabs",
         "children": [
           {
-            "id": "93ece6d0cd17675c",
+            "id": "f037afc3b0f5803c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/10. Server/AWS WAF.md",
+                "file": "Plan/개선,트러블슈팅 예시.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS WAF"
+              "title": "개선,트러블슈팅 예시"
             }
           },
           {
-            "id": "c7662ffc71c84bd8",
+            "id": "8582b37584686e6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/7. Network/Connection Timeout vs Read Timeout.md",
+                "file": "CS 모음.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Connection Timeout vs Read Timeout"
-            }
-          },
-          {
-            "id": "a563ce4b4f629f91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/10. Server/AWS WAF.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AWS WAF"
-            }
-          },
-          {
-            "id": "022c0d3f8f509a02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/4. Algorithm/Tim Sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tim Sort"
-            }
-          },
-          {
-            "id": "eeecfbb9def76ce6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.11.5"
-            }
-          },
-          {
-            "id": "5c04fc040f0ca820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/비교/Kafka vs RabbitMQ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kafka vs RabbitMQ"
-            }
-          },
-          {
-            "id": "ce62879371e947c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/비교/Kafka vs RabbitMQ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kafka vs RabbitMQ"
-            }
-          },
-          {
-            "id": "f0c00f07212658ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "무제"
+              "title": "CS 모음"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5c672727df320d28",
+    "id": "64e4f14f326ff670",
     "type": "split",
     "children": [
       {
-        "id": "11aaba63ed9371aa",
+        "id": "af837f7db097dc99",
         "type": "tabs",
         "children": [
           {
-            "id": "95986b4e07f54c35",
+            "id": "ee53923b1d1e96dc",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -141,11 +59,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              "title": "Files"
             }
           },
           {
-            "id": "7c5ee3fd6c882fbe",
+            "id": "de6ac6646f1d0886",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -158,21 +76,21 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "검색"
+              "title": "Search"
             }
           },
           {
-            "id": "52d1a250a2e110a5",
+            "id": "cdead6d93d767a21",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "북마크"
+              "title": "Bookmarks"
             }
           },
           {
-            "id": "473fac1bffc5c8df",
+            "id": "ffd770f58c8894ac",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -181,28 +99,27 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "04f33ba9f970347b",
+    "id": "4f658b7d58087d63",
     "type": "split",
     "children": [
       {
-        "id": "18c817744563cff2",
+        "id": "77e63be4dc935e21",
         "type": "tabs",
         "children": [
           {
-            "id": "3155f552b4b0e79e",
+            "id": "1814f3eb9358614c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "무제.md",
+                "file": "Plan/백엔드 포트폴리오 주제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,25 +129,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "무제 의 백링크"
+              "title": "Backlinks for 백엔드 포트폴리오 주제"
             }
           },
           {
-            "id": "c2cd9316394570fc",
+            "id": "bd106773d3de64c0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/16. Server/Log.md",
+                "file": "Plan/백엔드 포트폴리오 주제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Log 의 나가는 링크"
+              "title": "Outgoing links from 백엔드 포트폴리오 주제"
             }
           },
           {
-            "id": "cde5e175b9eab0ac",
+            "id": "bca67ee4e784adb3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -241,26 +158,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "태그"
+              "title": "Tags"
             }
           },
           {
-            "id": "d0dc22bf1921b964",
+            "id": "7bd4480c053b92ed",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/1. C, C++/핵심/decltype.md",
+                "file": "Plan/백엔드 포트폴리오 주제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "decltype 의 개요"
+              "title": "Outline of 백엔드 포트폴리오 주제"
             }
           },
           {
-            "id": "92045e38dd7c49c8",
+            "id": "1156d86924d07c7e",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -273,82 +190,48 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:새 베이스 생성하기": false,
-      "switcher:빠른 전환기 열기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "obsidian-kanban:새 보드 만들기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "8582b37584686e6c",
   "lastOpenFiles": [
+    "Plan/취업.md",
+    "Plan/트러블 슈팅.md",
+    "Plan/포트폴리오 구성.md",
+    "Plan/학습 필터.md",
+    "Plan/학습 전략.md",
+    "Plan/어떻게 공부해야 할까.md",
+    "Plan/백엔드 포트폴리오 주제.md",
+    "Plan/게임 클라이언트 로드맵.png",
+    "CS 모음.md",
     "Study/비교/Rate Limiter.md",
-    "무제.md",
+    "Study/비교/Kafka vs RabbitMQ.md",
     "Study/비교/-resources/Pasted image 20260220171850.png",
     "Study/비교/-resources/Pasted image 20260220165703.png",
     "Study/비교/-resources/Pasted image 20260220165230.png",
     "Study/비교/-resources/Pasted image 20260220164400.png",
-    "Study/비교/synchronized vs ReentrantLock.md",
-    "Study/비교/Kafka vs RabbitMQ.md",
-    "Study/비교/-resources/Pasted image 20251101172437.png",
-    "Study/7. Network/HTTP/resources/Pasted image 20250507192720.png",
-    "Study/7. Network/HTTP/웹 소켓(WebSocket).md",
-    "Study/7. Network/HTTP/resources/Pasted image 20250507192737.png",
-    "Study/7. Network/HTTP/resources/Pasted image 20250507193050.png",
-    "Study/7. Network/HTTP/resources/Pasted image 20250507193532.png",
-    "Study/7. Network/HTTP/resources/Pasted image 20250507193542.png",
-    "Study/비교/Lock.md",
-    "Study/28. Other/수익화를 위한 앱 개발.md",
-    "Study/비교/무제.canvas",
-    "conflict-files-obsidian-git.md",
-    "Study/16. Web/Session in Multi Server.canvas",
-    "Study/16. Web/POST, PUT, PATCH의 차이점.md",
-    "Plan/포트폴리오 구성.md",
-    "Plan/이력서 작성.md",
-    "Study/10. Server/AWS WAF.md",
-    "Study/16. Web/Cookie & Session.canvas",
-    "Study/16. Web/Tomcat.canvas",
-    "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md",
-    "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md",
-    "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷",
-    "Study/7. Network/Connection Timeout vs Read Timeout.md",
-    "Study/7. Network/컴퓨터 네트워킹",
-    "Study/7. Network/무제.md",
-    "Study/8. DB/MySQL/DB Connection 누수 문제.md",
-    "Study/4. Algorithm/Tim Sort.md",
-    "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md",
-    "Study/8. DB/MySQL/WAL.md",
-    "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md",
-    "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md",
-    "Study/12. Spring/JSpecify.md",
-    "Study/12. Spring/-resources",
-    "Study/11. Java/무제.md",
-    "Study/7. Network/Select().md",
-    "Study/7. Network/TCP retransmission과 튜닝 포인트.md",
-    "Study/8. DB/정규화.canvas",
-    "Study/8. DB/조인(Join).canvas",
-    "Study/11. Java/Garbage Collector.canvas",
-    "Study/8. DB/캐시/캐시 전략.canvas",
-    "Study/8. DB/캐시",
-    "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas",
-    "Study/8. DB/트랜잭션",
-    "Study/8. DB/SQL.canvas",
-    "Study/1",
-    "Study/1. C, C++/question",
-    "Study/1. C, C++/핵심",
-    "Plan/game",
-    "Study/비교/-resources"
+    "Study/비교/-resources/Pasted image 20260215034938.png",
+    "Study/비교/-resources/Pasted image 20260215034458.png",
+    "Study/비교/-resources/Pasted image 20260215033833.png",
+    "Study/8. DB/-resources/Pasted image 20250911141032.png",
+    "Study/8. DB/-resources/Pasted image 20250911141010.png",
+    "Plan/개선,트러블슈팅 예시.md"
   ]
 }
