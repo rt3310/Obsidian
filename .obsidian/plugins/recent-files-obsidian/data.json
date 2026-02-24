@@ -1,56 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "CS 심화 (AI)",
-      "path": "CS 심화 (AI).md"
-    },
-    {
       "basename": "CS 모음",
       "path": "CS 모음.md"
-    },
-    {
-      "basename": "취업",
-      "path": "Plan/취업.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
-    },
-    {
-      "basename": "포트폴리오 구성",
-      "path": "Plan/포트폴리오 구성.md"
-    },
-    {
-      "basename": "학습 필터",
-      "path": "Plan/학습 필터.md"
-    },
-    {
-      "basename": "학습 전략",
-      "path": "Plan/학습 전략.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "백엔드 포트폴리오 주제",
-      "path": "Plan/백엔드 포트폴리오 주제.md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Plan/게임 클라이언트 로드맵.png"
     },
     {
       "basename": "개선,트러블슈팅 예시",
       "path": "Plan/개선,트러블슈팅 예시.md"
     },
     {
-      "basename": "Zookeeper",
-      "path": "Study/10. Server/Zookeeper.md"
+      "basename": "게임 클라이언트 로드맵",
+      "path": "Plan/게임 클라이언트 로드맵.png"
     },
     {
-      "basename": "이력서 작성",
-      "path": "Plan/이력서 작성.md"
+      "basename": "백엔드 포트폴리오 주제",
+      "path": "Plan/백엔드 포트폴리오 주제.md"
+    },
+    {
+      "basename": "학습 전략",
+      "path": "Plan/학습 전략.md"
+    },
+    {
+      "basename": "학습 필터",
+      "path": "Plan/학습 필터.md"
+    },
+    {
+      "basename": "포트폴리오 구성",
+      "path": "Plan/포트폴리오 구성.md"
+    },
+    {
+      "basename": "트러블 슈팅",
+      "path": "Plan/트러블 슈팅.md"
+    },
+    {
+      "basename": "취업",
+      "path": "Plan/취업.md"
+    },
+    {
+      "basename": "어떻게 공부해야 할까",
+      "path": "Plan/어떻게 공부해야 할까.md"
+    },
+    {
+      "basename": "CS 심화 (AI)",
+      "path": "CS 심화 (AI).md"
+    },
+    {
+      "basename": "Zookeeper",
+      "path": "Study/10. Server/Zookeeper.md"
     },
     {
       "basename": "Ehcache vs Caffeine",
