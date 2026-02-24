@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CS 심화",
+      "path": "CS 심화.md"
+    },
+    {
       "basename": "CS 모음",
       "path": "CS 모음.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "샤딩(Sharding)",
       "path": "Study/8. DB/샤딩(Sharding).canvas"
-    },
-    {
-      "basename": "대량 DML 처리",
-      "path": "Study/8. DB/대량 DML 처리.md"
     }
   ],
   "omittedPaths": [],
