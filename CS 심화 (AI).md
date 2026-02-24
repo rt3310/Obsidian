@@ -170,7 +170,8 @@ Java HashMap 동작:
 #### 단점
 - 두 번째 해시 함수가 0을 반환하면 무한루프, 계산 비용 증가, 캐시 지역성 저하
 
-**해결책:** 두 번째 해시 함수를 `h2(k) = prime - (k % prime)` 형태로 설계해 0 방지
+#### 해결책
+두 번째 해시 함수를 `h2(k) = prime - (k % prime)` 형태로 설계해 0 방지
 
 ### Load Factor
 Java HashMap의 기본 Load Factor는 **0.75**입니다. Load Factor = 요소 수 / 버킷 수. 0.75는 메모리 효율과 성능의 균형점으로 실험적으로 결정된 값입니다.
@@ -514,18 +515,15 @@ public class UnionFind {
 
 ### Kruskal vs Prim
 
-||Kruskal|Prim|
+|Kruskal|Prim|
 |---|---|---|
 |방식|간선 중심 (Edge-based)|정점 중심 (Vertex-based)|
 |시간복잡도|O(E log E)|O((V+E) log V)|
 |적합한 경우|희소 그래프|밀집 그래프|
-
 **언제 무엇이 빠른가:** E ≈ V² (밀집)이면 Prim, E ≈ V (희소)이면 Kruskal
 
 ### MST 결과는 항상 트리인가?
-
-**증명:**
-
+#### 증명
 1. MST는 V개 정점을 연결하므로 V-1개 간선 (MST 정의)
 2. V개 정점, V-1개 간선 + 사이클 없음 = 트리의 정의
 3. MST 구성 과정에서 사이클이 생기는 간선을 추가하지 않으므로 사이클 없음
@@ -533,30 +531,26 @@ public class UnionFind {
 
 단, **간선 가중치가 동일한 경우 MST가 유일하지 않을 수 있습니다.** 여러 MST가 존재할 수 있지만 모두 합이 동일합니다.
 
-**대안:** MST 대신 **최대 신장 트리(Maximum Spanning Tree)** 가 필요한 경우도 있습니다 (예: 네트워크 최대 대역폭 경로). 가중치를 음수로 바꿔 MST를 구하면 됩니다.
-
----
+#### 대안
+MST 대신 **최대 신장 트리(Maximum Spanning Tree)** 가 필요한 경우도 있습니다 (예: 네트워크 최대 대역폭 경로). 가중치를 음수로 바꿔 MST를 구하면 됩니다.
 
 ## 13. Thread Safe 자료구조
 
 ### Java의 Thread Safe 컬렉션
 
-|컬렉션|Thread Safe 여부|
-|---|---|
-|ArrayList, HashMap, LinkedList|❌|
-|Vector, Hashtable|✅ (but synchronized → 성능 나쁨)|
-|ConcurrentHashMap|✅ (버킷 레벨 lock)|
-|CopyOnWriteArrayList|✅ (쓰기 시 복사, 읽기 lock-free)|
-|ConcurrentLinkedQueue|✅ (CAS 기반 lock-free)|
-|BlockingQueue (ArrayBlockingQueue 등)|✅ (생산자-소비자 패턴)|
+| 컬렉션                                  | Thread Safe 여부               |
+| ------------------------------------ | ---------------------------- |
+| ArrayList, HashMap, LinkedList       | ❌                            |
+| Vector, Hashtable                    | ✅ (but synchronized → 성능 나쁨) |
+| ConcurrentHashMap                    | ✅ (버킷 레벨 lock)               |
+| CopyOnWriteArrayList                 | ✅ (쓰기 시 복사, 읽기 lock-free)    |
+| ConcurrentLinkedQueue                | ✅ (CAS 기반 lock-free)         |
+| BlockingQueue (ArrayBlockingQueue 등) | ✅ (생산자-소비자 패턴)               |
 
 ### 배열 길이를 알 때 더 빠른 Thread Safe 연산
-
-배열을 고정 크기 세그먼트로 분할해 **세그먼트별 Lock** 사용:
-
-java
-
-````java
+#### 배열을 고정 크기 세그먼트로 분할해 **세그먼트별 Lock** 사용
+##### java
+```java
 // Striped Lock 패턴
 public class StripedArray<T> {
     private final Object[] data;
@@ -578,12 +572,10 @@ public class StripedArray<T> {
     }
 }
 ```
-
 또한 **AtomicIntegerArray**, **AtomicLongArray** 를 사용하면 CAS 기반으로 lock 없이 원자적 연산이 가능합니다.
 
-**대안:** **Disruptor 패턴 (LMAX Disruptor)** — Ring Buffer + CAS로 초고성능 Thread Safe 큐를 구현합니다. 금융 시스템에서 초당 수백만 건 처리에 사용됩니다.
-
----
+#### 대안
+**Disruptor 패턴 (LMAX Disruptor)** — Ring Buffer + CAS로 초고성능 Thread Safe 큐를 구현합니다. 금융 시스템에서 초당 수백만 건 처리에 사용됩니다.
 
 ## 14. 문자열 자료구조 및 알고리즘
 
@@ -605,46 +597,36 @@ public class StripedArray<T> {
    |
   (end)
 ````
-
-삽입/탐색: O(M) — M은 문자열 길이 공간: O(총 문자 수)
-
-**실무 활용:** 자동완성, 사전, IP 라우팅 테이블
+#### 삽입/탐색
+- $O(M)$ — M은 문자열 길이 공간: O(총 문자 수)
+#### 실무 활용
+자동완성, 사전, IP 라우팅 테이블
 
 ### KMP (Knuth-Morris-Pratt)
-
 패턴 전처리로 **Failure Function(부분 일치 테이블)** 생성, 불일치 시 패턴을 최대한 이동
-
 - 전처리: O(M)
 - 탐색: O(N)
 - 전체: **O(N + M)** — 단순 탐색 O(NM) 대비 획기적
 
 ### Rabin-Karp
-
 **Rolling Hash**를 이용한 패턴 매칭. 해시 값을 O(1)에 갱신하며 탐색
-
 - 평균: O(N + M)
 - 최악: O(NM) (해시 충돌 많을 경우)
 
 **다중 패턴 탐색에 유리** (여러 패턴의 해시를 HashSet에 저장하면 O(N)에 다중 탐색)
-
-**대안:** **Aho-Corasick 알고리즘** — Trie + KMP 아이디어를 결합해 O(N + M + 매칭 수)에 다중 패턴 탐색. 검열 시스템, 안티바이러스에 사용됩니다.
-
----
+#### 대안:
+**Aho-Corasick 알고리즘** — Trie + KMP 아이디어를 결합해 O(N + M + 매칭 수)에 다중 패턴 탐색. 검열 시스템, 안티바이러스에 사용됩니다.
 
 ## 15. 이진탐색
 
 ### 시간복잡도 증명
-
 매 단계에서 탐색 범위가 절반으로 줄어듦: N → N/2 → N/4 → ... → 1
-
 단계 수 k에서 N/2^k = 1 → k = **log₂N**
 
 **O(log N)**
 
 ### Lower Bound / Upper Bound
-
-java
-
+#### java
 ```java
 // Lower Bound: target 이상인 첫 번째 인덱스
 public int lowerBound(int[] arr, int target) {
@@ -670,7 +652,6 @@ public int upperBound(int[] arr, int target) {
 ```
 
 ### 삼진탐색의 시간복잡도
-
 범위를 1/3로 줄임: N → N/3 → ... → 1
 
 단계 수 k: N/3^k = 1 → k = log₃N = **log₂N / log₂3 ≈ 0.63 * log₂N**
@@ -678,55 +659,44 @@ public int upperBound(int[] arr, int target) {
 이진탐색보다 단계 수는 적지만, 매 단계 비교 횟수가 2배이므로 실제 성능은 동일하거나 약간 나쁩니다. 점근적으로 **O(log N)**으로 동일합니다.
 
 ### 부등호 범위 변경 시 결과
-
 `<=`를 `<`로 바꾸면 범위 처리 방식이 바뀌어 결과가 달라질 수 있습니다. 특히 **경계 조건(Boundary Condition)** 이 변경되어 off-by-one 오류가 발생합니다. 이는 실무에서 가장 자주 실수하는 부분으로, 항상 **불변식(Loop Invariant)** 을 명확히 정의하고 구현해야 합니다.
 
-**대안:** 이진탐색의 단조성 조건을 파라메트릭 서치(Parametric Search)로 확장하면 "최솟값을 최대화" 류 최적화 문제를 이진탐색으로 풀 수 있습니다.
-
----
+#### 대안
+이진탐색의 단조성 조건을 파라메트릭 서치(Parametric Search)로 확장하면 "최솟값을 최대화" 류 최적화 문제를 이진탐색으로 풀 수 있습니다.
 
 ## 16. 그리디 알고리즘 vs 동적 계획법
 
 ### 비교
-
-||그리디|동적 계획법|
-|---|---|---|
-|방식|현재 최선 선택|모든 하위 문제 해결|
-|최적 부분 구조|필요|필요|
-|탐욕적 선택 속성|필요 (핵심 차이)|불필요|
-|시간복잡도|대체로 빠름|대체로 느림|
-|구현|단순|복잡|
-
-**탐욕적 선택 속성(Greedy Choice Property):** 현재 단계의 최선 선택이 전체 최적해에 포함됨이 보장되는 성질. **증명이 매우 중요합니다.**
+| 그리디       | 동적 계획법     |             |
+| --------- | ---------- | ----------- |
+| 방식        | 현재 최선 선택   | 모든 하위 문제 해결 |
+| 최적 부분 구조  | 필요         | 필요          |
+| 탐욕적 선택 속성 | 필요 (핵심 차이) | 불필요         |
+| 시간복잡도     | 대체로 빠름     | 대체로 느림      |
+| 구현        | 단순         | 복잡          |
+#### 탐욕적 선택 속성(Greedy Choice Property)
+현재 단계의 최선 선택이 전체 최적해에 포함됨이 보장되는 성질. **증명이 매우 중요합니다.**
 
 ### 언제 무엇을 사용하는가
-
-**그리디 적용 조건 (둘 다 만족해야 함):**
-
+#### 그리디 적용 조건 (둘 다 만족해야 함)
 - 최적 부분 구조
 - 탐욕적 선택 속성
-
-예: 다익스트라, 크루스칼, 활동 선택 문제, 허프만 코딩
-
-**DP 적용 조건:**
-
+- 예: 다익스트라, 크루스칼, 활동 선택 문제, 허프만 코딩
+#### DP 적용 조건
 - 최적 부분 구조
 - 중복 부분 문제 (Overlapping Subproblems)
-
-예: 배낭 문제, LCS, 편집 거리, 행렬 체인 곱셈
+- 예: 배낭 문제, LCS, 편집 거리, 행렬 체인 곱셈
 
 ### DP 문제 = 재귀로 변환 가능?
-
-**가능합니다.** DP의 두 가지 구현 방식:
-
+**가능합니다.** 
+#### DP의 두 가지 구현 방식
 - **Top-Down (Memoization):** 재귀 + 캐시. 필요한 하위 문제만 계산
 - **Bottom-Up (Tabulation):** 반복문. 모든 하위 문제를 순서대로 계산
 
 모든 DP 문제는 재귀(Top-Down)로 변환 가능하며, 반대도 마찬가지입니다. 단, JVM에서 재귀 깊이 제한 때문에 Bottom-Up이 실용적으로 더 안전합니다.
 
-**대안:** 일부 DP는 **공간 최적화**가 가능합니다. 예를 들어 1D DP 배열에서 이전 행만 필요한 경우 2D → 1D로 줄일 수 있습니다 (배낭 문제 O(N*W) → O(W)).
-
----
+#### 대안
+일부 DP는 **공간 최적화**가 가능합니다. 예를 들어 1D DP 배열에서 이전 행만 필요한 경우 2D → 1D로 줄일 수 있습니다 (배낭 문제 O(N*W) → O(W)).
 
 ## 압박 면접 질문
 
