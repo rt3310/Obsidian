@@ -117,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4f658b7d58087d63",
@@ -226,8 +227,8 @@
   },
   "active": "2b44338b9364123d",
   "lastOpenFiles": [
-    "CS 모음.md",
     "CS 심화.md",
+    "CS 모음.md",
     "Plan/취업.md",
     "Plan/트러블 슈팅.md",
     "Plan/포트폴리오 구성.md",
