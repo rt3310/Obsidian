@@ -25,14 +25,17 @@
             "id": "8582b37584686e6c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "CS 모음.md",
-                "mode": "source",
-                "source": false
+                "file": "Study/16. Web/Tomcat.canvas",
+                "viewState": {
+                  "x": 655.104189115654,
+                  "y": -47.62469098104904,
+                  "zoom": -0.5077865082600767
+                }
               },
-              "icon": "lucide-file",
-              "title": "CS 모음"
+              "icon": "lucide-layout-dashboard",
+              "title": "Tomcat"
             }
           },
           {
@@ -117,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4f658b7d58087d63",
@@ -227,8 +229,8 @@
   },
   "active": "8582b37584686e6c",
   "lastOpenFiles": [
-    "Plan/개선,트러블슈팅 예시.md",
     "CS 모음.md",
+    "Plan/개선,트러블슈팅 예시.md",
     "CS 심화 (AI).md",
     "Plan/게임 클라이언트 로드맵.png",
     "Plan/백엔드 포트폴리오 주제.md",
