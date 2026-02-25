@@ -1,204 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "Tomcat",
-      "path": "Study/16. Web/Tomcat.canvas"
+      "basename": "Rate Limiter",
+      "path": "Study/비교/Rate Limiter.md"
     },
     {
-      "basename": "The Context",
-      "path": "Study/16. Web/md/The Context.md"
+      "basename": "synchronized vs ReentrantLock",
+      "path": "Study/비교/synchronized vs ReentrantLock.md"
     },
     {
-      "basename": "The Connectors",
-      "path": "Study/16. Web/md/The Connectors.md"
+      "basename": "Kafka vs RabbitMQ",
+      "path": "Study/비교/Kafka vs RabbitMQ.md"
     },
     {
-      "basename": "CS 모음",
-      "path": "CS 모음.md"
+      "basename": "Pasted image 20251101172437",
+      "path": "Study/비교/-resources/Pasted image 20251101172437.png"
     },
     {
-      "basename": "개선,트러블슈팅 예시",
-      "path": "Plan/개선,트러블슈팅 예시.md"
-    },
-    {
-      "basename": "CS 심화 (AI)",
-      "path": "CS 심화 (AI).md"
-    },
-    {
-      "basename": "게임 클라이언트 로드맵",
-      "path": "Plan/게임 클라이언트 로드맵.png"
-    },
-    {
-      "basename": "백엔드 포트폴리오 주제",
-      "path": "Plan/백엔드 포트폴리오 주제.md"
-    },
-    {
-      "basename": "학습 전략",
-      "path": "Plan/학습 전략.md"
-    },
-    {
-      "basename": "학습 필터",
-      "path": "Plan/학습 필터.md"
-    },
-    {
-      "basename": "포트폴리오 구성",
-      "path": "Plan/포트폴리오 구성.md"
-    },
-    {
-      "basename": "트러블 슈팅",
-      "path": "Plan/트러블 슈팅.md"
-    },
-    {
-      "basename": "취업",
-      "path": "Plan/취업.md"
-    },
-    {
-      "basename": "어떻게 공부해야 할까",
-      "path": "Plan/어떻게 공부해야 할까.md"
-    },
-    {
-      "basename": "Zookeeper",
-      "path": "Study/10. Server/Zookeeper.md"
-    },
-    {
-      "basename": "Ehcache vs Caffeine",
-      "path": "Study/9. Cache/Ehcache vs Caffeine.md"
-    },
-    {
-      "basename": "DB Connection 누수 문제",
-      "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
-    },
-    {
-      "basename": "DELETE vs TRUNCATE",
-      "path": "Study/8. DB/DELETE vs TRUNCATE.md"
-    },
-    {
-      "basename": "Using Temporary, Using Filesort",
-      "path": "Study/8. DB/Using Temporary, Using Filesort.md"
-    },
-    {
-      "basename": "Insert 부하 해결",
-      "path": "Study/8. DB/Insert 부하 해결.md"
-    },
-    {
-      "basename": "DB 병목 원인과 대책",
-      "path": "Study/8. DB/DB 병목 원인과 대책.md"
-    },
-    {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
-    },
-    {
-      "basename": "조인(Join)",
-      "path": "Study/8. DB/조인(Join).canvas"
-    },
-    {
-      "basename": "Lettuce vs Redisson",
-      "path": "Study/8. DB/캐시/Lettuce vs Redisson.md"
+      "basename": "Pasted image 20250507192720",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507192720.png"
     },
     {
       "basename": "웹 소켓(WebSocket)",
       "path": "Study/7. Network/HTTP/웹 소켓(WebSocket).md"
     },
     {
-      "basename": "STOMP(Simple Text Oriented Messaging Protocol)",
-      "path": "Study/7. Network/HTTP/STOMP(Simple Text Oriented Messaging Protocol).md"
+      "basename": "Pasted image 20250507192737",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507192737.png"
     },
     {
-      "basename": "G1GC vs ZGC",
-      "path": "Study/11. Java/G1GC vs ZGC.md"
+      "basename": "Pasted image 20250507193050",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193050.png"
     },
     {
-      "basename": "Garbage Collector",
-      "path": "Study/11. Java/Garbage Collector.canvas"
+      "basename": "Pasted image 20250507193532",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193532.png"
     },
     {
-      "basename": "Pasted image 20251120010210.png",
-      "path": "Study/11. Java/Pasted image 20251120010210.png.md"
+      "basename": "Pasted image 20250507193542",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193542.png"
     },
     {
-      "basename": "Import",
-      "path": "Study/11. Java/Import.md"
+      "basename": "Pasted image 20250911140843",
+      "path": "Study/8. DB/-resources/Pasted image 20250911140843.png"
     },
     {
-      "basename": "decltype",
-      "path": "Study/1. C, C++/핵심/decltype.md"
+      "basename": "Pasted image 20250911141010",
+      "path": "Study/8. DB/-resources/Pasted image 20250911141010.png"
     },
     {
-      "basename": "move, forward",
-      "path": "Study/1. C, C++/핵심/move, forward.md"
+      "basename": "Pasted image 20250911141032",
+      "path": "Study/8. DB/-resources/Pasted image 20250911141032.png"
     },
     {
-      "basename": "12-2. Move",
-      "path": "Study/1. C, C++/12-2. Move.md"
+      "basename": "Lock",
+      "path": "Study/비교/Lock.md"
     },
     {
-      "basename": "2. 인덱스 향상",
-      "path": "Study/8. DB/인덱스/2. 인덱스 향상.md"
+      "basename": "수익화를 위한 앱 개발",
+      "path": "Study/28. Other/수익화를 위한 앱 개발.md"
     },
     {
-      "basename": "3. 인덱스 스캔 효율",
-      "path": "Study/8. DB/인덱스/3. 인덱스 스캔 효율.md"
+      "basename": "무제",
+      "path": "Study/비교/무제.canvas"
     },
     {
-      "basename": "1. 인덱스",
-      "path": "Study/8. DB/인덱스/1. 인덱스.md"
+      "basename": "Session in Multi Server",
+      "path": "Study/16. Web/Session in Multi Server.canvas"
     },
     {
-      "basename": "1. 조인의 기본 원리와 사용",
-      "path": "Study/8. DB/조인/1. 조인의 기본 원리와 사용.md"
+      "basename": "POST, PUT, PATCH의 차이점",
+      "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
     },
     {
-      "basename": "2. 조인 테크닉",
-      "path": "Study/8. DB/조인/2. 조인 테크닉.md"
+      "basename": "Tim Sort",
+      "path": "Study/4. Algorithm/Tim Sort.md"
     },
     {
-      "basename": "인덱스 기본",
-      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 기본.md"
+      "basename": "AWS WAF",
+      "path": "Study/10. Server/AWS WAF.md"
     },
     {
-      "basename": "인덱스 튜닝",
-      "path": "Study/8. DB/레퍼런스/친절한 SQL 튜닝/인덱스 튜닝.md"
+      "basename": "Pasted image 20250911140904",
+      "path": "Study/8. DB/-resources/Pasted image 20250911140904.png"
     },
     {
-      "basename": "커버링 인덱스",
-      "path": "Study/8. DB/인덱스/커버링 인덱스.md"
+      "basename": "Cookie & Session",
+      "path": "Study/16. Web/Cookie & Session.canvas"
     },
     {
-      "basename": "풀텍스트 인덱스(Full-Text Index)",
-      "path": "Study/8. DB/인덱스/풀텍스트 인덱스(Full-Text Index).md"
+      "basename": "Tomcat",
+      "path": "Study/16. Web/Tomcat.canvas"
     },
     {
-      "basename": "클러스터링 인덱스",
-      "path": "Study/8. DB/인덱스/클러스터링 인덱스.md"
+      "basename": "Pasted image 20260113135009",
+      "path": "Study/10. Server/resources/Pasted image 20260113135009.png"
+    },
+    {
+      "basename": "Pasted image 20240314164110",
+      "path": "Study/16. Web/resources/Pasted image 20240314164110.png"
+    },
+    {
+      "basename": "2. 네트워크의 가장자리",
+      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md"
+    },
+    {
+      "basename": "1. 인터넷이란 무엇인가",
+      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md"
+    },
+    {
+      "basename": "Connection Timeout vs Read Timeout",
+      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
+    },
+    {
+      "basename": "DB Connection 누수 문제",
+      "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
+    },
+    {
+      "basename": "Pasted image 20251128004929",
+      "path": "Study/8. DB/-resources/Pasted image 20251128004929.png"
+    },
+    {
+      "basename": "Pasted image 20251128010421",
+      "path": "Study/8. DB/-resources/Pasted image 20251128010421.png"
+    },
+    {
+      "basename": "Pasted image 20251128011239",
+      "path": "Study/8. DB/-resources/Pasted image 20251128011239.png"
+    },
+    {
+      "basename": "Pasted image 20241210120549",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120549.png"
+    },
+    {
+      "basename": "Pasted image 20241210120130",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120130.png"
+    },
+    {
+      "basename": "Pasted image 20240319144924",
+      "path": "Study/4. Algorithm/resources/Pasted image 20240319144924.png"
+    },
+    {
+      "basename": "Pasted image 20241210120444",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120444.png"
+    },
+    {
+      "basename": "Pasted image 20241210120212",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120212.png"
+    },
+    {
+      "basename": "Pasted image 20241210120204",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120204.png"
+    },
+    {
+      "basename": "Pasted image 20241210120155",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120155.png"
+    },
+    {
+      "basename": "Pasted image 20241210120119",
+      "path": "Study/4. Algorithm/resources/Pasted image 20241210120119.png"
+    },
+    {
+      "basename": "Pasted image 20240713224955",
+      "path": "Study/4. Algorithm/resources/Pasted image 20240713224955.png"
+    },
+    {
+      "basename": "Pasted image 20240713224940",
+      "path": "Study/4. Algorithm/resources/Pasted image 20240713224940.png"
+    },
+    {
+      "basename": "Pasted image 20240319145444",
+      "path": "Study/4. Algorithm/resources/Pasted image 20240319145444.png"
     },
     {
       "basename": "DBMS는 어떻게 트랜잭션을 관리할까",
       "path": "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md"
     },
     {
-      "basename": "정규화",
-      "path": "Study/8. DB/정규화.canvas"
-    },
-    {
-      "basename": "트랜잭션 락",
-      "path": "Study/8. DB/트랜잭션/트랜잭션 락.md"
-    },
-    {
-      "basename": "캐시 전략",
-      "path": "Study/8. DB/캐시/캐시 전략.canvas"
-    },
-    {
-      "basename": "트랜잭션 격리 수준",
-      "path": "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas"
-    },
-    {
-      "basename": "2. 결합 인덱스",
-      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/2. 결합 인덱스.md"
+      "basename": "WAL",
+      "path": "Study/8. DB/MySQL/WAL.md"
     },
     {
       "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
       "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
+    },
+    {
+      "basename": "Secret Key를 Base64로 인코딩하는 이유",
+      "path": "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md"
+    },
+    {
+      "basename": "JSpecify",
+      "path": "Study/12. Spring/JSpecify.md"
+    },
+    {
+      "basename": "Select()",
+      "path": "Study/7. Network/Select().md"
     }
   ],
   "omittedPaths": [],
