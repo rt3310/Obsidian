@@ -324,7 +324,16 @@ view.showOff() // view
 ### 확장 프로퍼티
 - 확장 프로퍼티는 상태를 저장할 적절한 방법이 없기 때문에 실제로 아무 상태도 가질 수 없다.
 - 하지만 프로퍼티 문법으로 더 짧게 코드를 작성할 수 있다.
+- 뒷바침하는 필드가 없어서 기본 getter 구현을 제공할 수 없으므로 최소한 getter는 정의해야 한다.
 ```kotlin
 val String.lastChar: Char
 	get() = get(length - 1)
+```
+
+```kotlin
+var StringBuilder.lastChar: Char
+	get() = get(length - 1)
+	set(value: Char) {
+		this.setCharAt(length - 1, value)
+	}
 ```
