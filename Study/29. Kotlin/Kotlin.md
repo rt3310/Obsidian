@@ -464,3 +464,49 @@ fun saveUser(user: User) {
 ```
 - 로컬 함수에서 바깥 함수의 파라미터와 변수에도 직접 접근할 수 있다.
 - 이를 개선해서 검증 로직을 User 클래스의 확장 함수로 만들 수도 있다.
+
+### 인터페이스
+- Kotlin 인터페이스 안에는 추상 메서드뿐 아니라 구현이 있는 메서드도 정의할 수 있다(Java의 default method와 비슷하다).
+- 당연히 인터페이스에는 아무런 상태도 들어갈 수 없다.
+```kotlin
+interface Clickable {
+	fun click()
+}
+```
+
+- Java의 `@Override`와 달리 Kotlin에서 `override` 키워드는 꼭 명시해야 한다.
+```kotlin
+class Button : Clickable {
+	override fun click() = println("I was clicked")
+}
+```
+
+- 만약 한 클래스에서 default method가 있는 두 인터페이스를 함께 구현한다면 컴파일 에러가 발생할 수 있다.
+	- 구현을 대체할 오버라이딩 메서드를 직접 제공해야 한다.
+```kotlin
+interface Clickable {
+	fun click()
+	fun showOff() = println("I'm clickable")
+}
+```
+
+```kotlin
+interface Focusable {
+	fun setFocus(b: Boolean) = println("I ${if (b) "got" else "lost"} focus.")
+	
+	fun showOff() = println("I'm focusable")
+}
+```
+
+```kotlin
+class Button: Clickable, Focusable {
+	override fun click() = println("I was clicked")
+	override fun showOff() {
+		super<Clickable>.showOff()
+		super<Focusable>.showOff()
+	}
+}
+```
+- 상위 타입의 구현을 호출할 때는 Java와 똑같이 `super`를 사용한다. 하지만 Type을 지정하는 부분은 다르다.
+	- Java: `Clickable.super.showOff()`
+	- Kotlin: `super<Clickable>.showOff()`
