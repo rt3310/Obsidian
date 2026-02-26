@@ -320,3 +320,8 @@ fun button.showOff() = println("button")
 val view: View = Button() // 확장함수는 정적으로 결정된다.
 view.showOff() // view
 ```
+
+### 확장 프로퍼티
+- 확장 프로퍼티는 상태를 저장할 적절한 방법이 없기 때문에 실제로 아무 상태도 가질 수 없다.
+- 하지만 프로퍼티 문법으로 더 짧게 코드를 작성할 수 있다.
+- 
