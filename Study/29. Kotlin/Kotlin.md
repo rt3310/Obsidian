@@ -306,3 +306,16 @@ import strings.lastChar as last
 
 var c = "Kotlin".last()
 ```
+
+#### 확장함수는 오버라이드 할 수 없다.
+
+```kotlin
+open class View {}
+class Button: View {}
+
+fun View.showOff() = println("view")
+fun button.showOff() = println("button")
+
+val view: View = Button() // 확장함수는 정적으로 결정된다.
+view.showOff() // view
+```
