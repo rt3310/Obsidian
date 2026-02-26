@@ -510,3 +510,7 @@ class Button: Clickable, Focusable {
 - 상위 타입의 구현을 호출할 때는 Java와 똑같이 `super`를 사용한다. 하지만 Type을 지정하는 부분은 다르다.
 	- Java: `Clickable.super.showOff()`
 	- Kotlin: `super<Clickable>.showOff()`
+
+### class
+- fragile base class 문제는 하위 클래스가 기반 클래스에 대해 가졌던 가정이 기반 클래스를 변경함으로써 깨져버린 경우에 생긴다.
+- 
