@@ -171,8 +171,17 @@ fun readNumber(reader: BufferedReader): Int? {
 ```
 
 ### Collection
-- 자바와 동일한 Collection (상호작용 가능)
+- Java와 동일한 Collection (상호작용 가능)
+```kotlin
+val set = hashSetOf(1, 7, 25)
+val list = arrayListOf(1, 7, 53)
+val map = hashMapOf(1 to "one", 7 to "seven") // 여기서 to는 키워드가 아니라 일반함수
+```
+
+- 대신 Java보다 더 많은 기능 지원
 ```kotlin
 val strings = listOf("first", "second")
 val last = strings.last() // second
+val numbers = setOf(1, 14, 2)
+val max = numbers.max() // 14
 ```
