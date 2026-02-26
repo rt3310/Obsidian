@@ -533,3 +533,42 @@ open class RichButton : Clickable {
 	final override fun click() {}
 }
 ```
+
+### abstract class
+- Kotlin도 Java처럼 abstract class를 선언할 수 있다.
+- abstract로 선언한 추상 클래스는 인스턴스화 할 수 없다.
+- 추상 멤버에는 `open` 변경자를 명시할 필요가 없다.
+
+```kotlin
+abstract class Animated {
+	abstract fun animate() // 하위 클래스에서 반드시 override 해야된다
+	open fun stopAnimating() {} // 추상 클래스에 속했더라도 비 추상함수는 기본적으로 final이다.
+	fun animateTwice() {}
+}
+```
+
+### visibility modifier (default public)
+- 아무 변경자도 없는 경우 선언은 모두 공개(public) 된다.
+- Kotlin은 패키지를 namespace를 관리하기 위한 용도로만 사용하기 때문에 Java의 기본 visibility인 패키지 전용은 코틀린에 없다.
+- Kotlin은 `internal`이라는 새로운 visibility modifier를 도입했다.
+	- `internal`은 "모듈 내부에서만 볼 수 있음" 이라는 뜻이다.
+	- 모듈은 한 번에 한꺼번에 컴파일되는 코틀린 파일들을 의미한다.
+	- 모듈 내부 가시성은 모듈의 구현에 대해 진정한 캡슐화를 제공한다는 장점이 있다.
+	- Java에서는 패키지가 같은 클래스를 선언하기만 하면 어떤 프로젝트의 외부에 있는 코드라도 패키지 내부에 있는 패키지 전용 선언에 쉽게 접근할 수 있다. 그래서 모듈의 캡슐화가 쉽게 깨진다.
+- Kotlin에서는 최상위 선언에 대해 private visibility를 허용한다.
+	- 그런 최상위 선언에는 클래스, 함수, 프로퍼티 등이 포함된다.
+	- 비공개 visibility인 최상위 선언은 그 선언이 들어있는 파일 내부에서만 사용할 수 있다.
+- Java는 같은 패키지 내에서 `protected`에 접근할 수 있는 반면, Kotlin은 상속 클래스에서만 접근 가능하다.
+
+```kotlin
+internal open class TalkativeButton : Focusable {
+	private fun yell() = println("Hey!")
+	protected fun whisper() = println("Let's talk!")
+}
+
+fun TalkativeButton.giveSpeech() { // error: public멤버가 자신의 internal 수신 타입인 TalkativeButton을 노출
+	yell() // error: yell 접근 불가
+	whisper() // error: whisper 접근 불가
+}
+```
+- 어떤 클래스의 기반 타입 목록에 들어있는 타입이나 제네릭 클래스의 타입 파라미터에 들어있는 타입의 visibility는 그 클래스 자신의 visibility와 같거나 더 높아야 하고, 메서드의 signature에 사용된 모든 타입의 visibility는 그 메서드의 visibility와 같거나 더 높아야 한다는 규칙에 해당한다.
