@@ -337,3 +337,51 @@ var StringBuilder.lastChar: Char
 		this.setCharAt(length - 1, value)
 	}
 ```
+
+### 가변 길이 인자
+- Java의 `...`과 비슷하다.
+```kotlin
+fun listOf<T>(vararg values: T): List<T> { ... }
+```
+
+- Kotlin에서는 spread 연산자(\*)를 통해 각 원소가 인자로 전달되게 할 수 있다.
+```kotlin
+fun main(args: Array<String>) {
+	val list = listOf("args: ", *args) // spread 연산자가 배열의 내용을 펼쳐준다.
+	println(list)
+}
+```
+
+### 중위 호출
+- 이전에 `to`는 키워드가 아니라 일반 메서드라고 했다.
+- 이 코드는 중위 호출(infix call)이라는 방식으로 `to`라는 일반 메서드를 호출한 것이다.
+```kotlin
+val map = mapOf(1 to "one", 7 to "seven", 53 to "fifty-three")\
+```
+
+- 다음 두 호출은 동일하다.
+```kotlin
+1.to("one")
+1 to "one"
+```
+- 인자가 하나뿐인 일반 메서드나 인자가 하나뿐인 확장 함수에 중위 호출을 사용할 수 있다.
+- 함수를 중위 호출에 사용하게 허용하고 싶으면 infix 변경자를 함수 선언 앞에 추가해야 한다.
+```kotlin
+infix fun Any.to(other: Any) = Pair(this, other)
+```
+- 이 `to` 함수는 `Pair`의 인스턴스를 반환한다.
+- `Pair`는 Kotlin 표준 라이브러리 클래스이다.
+
+### 구조 분해 선언
+- Pair의 내용으로 두 변수를 즉시 초기화 할 수 있다.
+- Javascript와 Python에 있는 것과 비슷하다.
+```kotlin
+val (number, name) = 1 to "one"
+```
+
+- 루프에서도 사용 가능하다.
+```kotlin
+for ((index, element) in collection.withIndex()) {
+	println("$index: #element")
+}
+```
