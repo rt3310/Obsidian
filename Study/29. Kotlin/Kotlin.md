@@ -186,7 +186,7 @@ val numbers = setOf(1, 14, 2)
 val max = numbers.max() // 14
 ```
 
-### 이름 붙인 인자
+### 이름 붙인 인자(named argument)
 ```kotlin
 fun <T> joinToString(
 	collection: Collection<T>,
@@ -207,6 +207,7 @@ joinToString(collection, separator = " ", prefix = " ", postfix = ".")
 
 ### 디폴트 파라미터 값
 
+- default 값이 지정된 파라미터가 default 값이 없는 파라미터보다 뒤에 위치해야 한다.
 ```kotlin
 fun <T> joinToString(
 	collection: Collection<T>,
@@ -218,5 +219,83 @@ fun <T> joinToString(
 
 - 오버로딩 메서드가 많아지는 문제를 피할 수 있다.
 **Java의 Thread constructors**
-![[Pasted image 20260226170401.png]]
+![[Pasted image 20260226171247.png]]
 
+- named argument를 조합하면 더욱 유연한 호출이 가능하다.
+- named argument는 함수 호출 시 파라미터의 순서를 무시하고 원하는 파라미터에 값을 할당 할 수 있기 때문이다.
+```kotlin
+fun displayInfo(name: String = "Unknown", age: Int = 0) {
+	println("Name: $name, Age: $age")
+}
+
+displayInfo(age = 25) // Name: Unknown, Age: 25
+```
+
+### 최상위 함수
+- Kotlin에서는 소스 파일의 최상위 수준에서 함수를 선언할 수 있다.
+- JVM이 컴파일할 때 새로운 클래스를 정의해준다. (이름은 코틀린 소스파일의 이름과 대응한다.)
+	- 만약 이름을 바꾸고싶다면 `@JvmName`을 추가한다.
+	- `@JvmName`은 파일의 맨 앞, 패키지 이름 선언 이전에 위치해야 한다.
+
+```kotlin
+@file:JvmName("StringFunctions")
+
+package strings
+
+fun joinToString(...): String { ... }
+```
+
+### 최상위 프로퍼티
+
+- 최상위 프로퍼티도 함수와 마찬가지로 JVM이 새로운 클래스를 정의하여 선언한다(이름도 동일하다)
+- `val`의 경우 getter, `var`의 경우 getter와 setter가 생긴다.
+```kotlin
+var opCount = 0 // 최상위 프로퍼티
+
+fun performOperation() {
+	opCount++
+}
+
+fun reportOperationCount() {
+	println("Operation performed $opCount times")
+}
+```
+
+```kotlin
+val UNIX_LINE_SEPARATOR = "\n"
+```
+- 이런 프로퍼티 값은 정적 필드에 저장된다.
+- 최상위 프로퍼티를 활용해서 코드에 상수를 추가할 수 있다.
+
+- 겉으로 상수처럼 보이는데 실제로 getter를 사용해야한다면 자연스럽지 못하다.
+	- 더 자연스럽게 사용하려면 public static final 필드로 컴파일 해야 한다.
+	- `const`를 추가하면 프로퍼티를 `public static final` 필드로 컴파일하게 만들 수 있다.
+```kotlin
+const val UNIX_LINE_SEPARATOR = "\n"
+```
+
+```java
+public static final String UNIX_LINE_SEPARATOR = "\n"
+```
+
+| Kotlin            | Java                              | Java에서 접근       |
+| ----------------- | --------------------------------- | --------------- |
+| `val x`           | `private field` + getter          | `MainKt.getX()` |
+| `var x`           | `private field` + getter + setter | `MainKt.setX()` |
+| `const val x`     | `public static final field`       | `MainKt.x`      |
+| `@JvmField var x` | `public field`                    | `MainKt.x`      |
+### 확장 함수
+```kotlin
+package strings
+
+fun String.lastChar(): Char = this.get(this.length - 1)
+```
+
+```kotlin
+println("Kotlin".lastChar()) // n
+```
+- `this`를 생략할 수 있다.
+- 확장 함수 내부에서는 일반적인 인스턴스 메서드의 내부에서와 마찬가지로 수신 객체의 메서드나 프로퍼티를 바로 사용할 수 있다.
+
+- 확장 함수가 캡슐화를 깨지는 않는다.
+	- 클래스 안에서 정의한 메서드와 달리 확장 함수 안에서는 클래스 내부에서만 사용할 수 있는 private 멤버나 protected 멤버를 사용할 수 없다.

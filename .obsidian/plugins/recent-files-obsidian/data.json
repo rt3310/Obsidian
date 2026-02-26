@@ -5,6 +5,10 @@
       "path": "Study/29. Kotlin/Kotlin.md"
     },
     {
+      "basename": "Pasted image 20260226171247",
+      "path": "Study/29. Kotlin/-resources/Pasted image 20260226171247.png"
+    },
+    {
       "basename": "Secret Key를 Base64로 인코딩하는 이유",
       "path": "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
       "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
-    },
-    {
-      "basename": "JSpecify",
-      "path": "Study/12. Spring/JSpecify.md"
-    },
-    {
-      "basename": "Select()",
-      "path": "Study/7. Network/Select().md"
     }
   ],
   "omittedPaths": [],
