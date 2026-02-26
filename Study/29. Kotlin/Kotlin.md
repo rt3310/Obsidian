@@ -185,3 +185,38 @@ val last = strings.last() // second
 val numbers = setOf(1, 14, 2)
 val max = numbers.max() // 14
 ```
+
+### 이름 붙인 인자
+```kotlin
+fun <T> joinToString(
+	collection: Collection<T>,
+	separator: String,
+	prefix: String,
+	postfix: String	
+): String {}
+```
+
+```java
+joinToString(collection, /* separator */ " ", /* prefix */ " ", /* postfix */ ".");
+```
+
+- 호출 시 인자 중 어느 하나라도 이름을 명시하고 나면 그 뒤에 오는 모든 인자는 이름을 꼭 명시해야 한다.
+```kotlin
+joinToString(collection, separator = " ", prefix = " ", postfix = ".")
+```
+
+### 디폴트 파라미터 값
+
+```kotlin
+fun <T> joinToString(
+	collection: Collection<T>,
+	separator: String = ", ",
+	prefix: String = "",
+	postfix: String = ""
+): String
+```
+
+- 오버로딩 메서드가 많아지는 문제를 피할 수 있다.
+**Java의 Thread constructors**
+![[Pasted image 20260226170401.png]]
+
