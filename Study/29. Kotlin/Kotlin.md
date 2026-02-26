@@ -169,3 +169,10 @@ fun readNumber(reader: BufferedReader): Int? {
 	}
 }
 ```
+
+### Collection
+- 자바와 동일한 Collection (상호작용 가능)
+```kotlin
+val strings = listOf("first", "second")
+val last = strings.last() // second
+```
