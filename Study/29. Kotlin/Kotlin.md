@@ -511,6 +511,25 @@ class Button: Clickable, Focusable {
 	- Java: `Clickable.super.showOff()`
 	- Kotlin: `super<Clickable>.showOff()`
 
-### class
+### class (default final)
 - fragile base class 문제는 하위 클래스가 기반 클래스에 대해 가졌던 가정이 기반 클래스를 변경함으로써 깨져버린 경우에 생긴다.
-- 
+- Effective Java에서는 "상속을 위한 설계와 문서를 갖추거나, 그럴 수 없다면 상송을 금지하라" 라는 조언을 한다. 이는 특별히 하위 클래스에서 오버라이드하게 의도된 클래스와 메서드가 아니라면 모두 `final`로 만들라는 뜻이다.
+- Kotlin도 이와 같은 철학을 따른다. Kotlin의 클래스와 메서드는 기본적으로 `final` 이다.
+
+- 어떤 클래스의 상속을 허용하려면 클래스 앞에 `open` 변경자를 붙어야 한다.
+- 이와 더불어 오버라이드를 허용하고 싶은 메서드나 프로퍼티 앞에도 `open` 변경자를 붙어야 한다.
+```kotlin
+open class RichButton : Clickable {
+	fun disable() {} // final
+	open fun animate() {}
+	override fun click() {}
+}
+```
+
+- 기반 클래스나 인터페이스의 멤버를 오버라이드하는 경우 그 메서드는 기본적으로 열려 있다.
+- 오버라이드하는 메서드의 구현을 하위 클래스에서 오버라이드하지 못하게 금지하려면 오버라이드하는 메서드 앞에 `final`을 명시해야 한다.
+```kotlin
+open class RichButton : Clickable {
+	final override fun click() {}
+}
+```
