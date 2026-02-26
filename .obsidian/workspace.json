@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -291,7 +292,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "b56acc7bb626d315",
   "lastOpenFiles": [
     "Study/29. Kotlin/-resources",
     "Study/29. Kotlin/Pasted image 20260226170401.png.md",

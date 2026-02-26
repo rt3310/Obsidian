@@ -434,3 +434,33 @@ val kotlinLogo = """     | //
 
 ### 로컬 함수
 - Kotlin에서는 로컬 함수를 통해 코드 중복을 개선할 수 있다.
+```kotlin
+class User(val id: Int, val name: String, val address: String)
+
+fun saveUser(user: User) {
+	if (user.name.isEmpty()) {
+		throw IllegalArgumentException("empty Name")
+	}
+	
+	if (user.address.isEmpty()) {
+		throw IllegalArgumentException("empty Address")
+	}
+}
+```
+
+```kotlin
+class User(val id: Int, val name: String, val address: String)
+
+fun saveUser(user: User) {
+	fun validate(value: String, fieldName: String) {
+		if (value.isEmpty()) {
+			throw IllegalArgumentException("empty $fieldName")
+		}
+	} 
+	
+	validate(user.name, "Name")
+	validate(user.address, "Address")
+}
+```
+- 로컬 함수에서 바깥 함수의 파라미터와 변수에도 직접 접근할 수 있다.
+- 이를 개선해서 검증 로직을 User 클래스의 확장 함수로 만들 수도 있다.
