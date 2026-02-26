@@ -309,6 +309,7 @@ var c = "Kotlin".last()
 
 #### 확장함수는 오버라이드 할 수 없다.
 
+- 코틀린은 호출될 확장 함수를 정적으로 결정하기 때문에 오버라이드 할 수 없다.
 ```kotlin
 open class View {}
 class Button: View {}
