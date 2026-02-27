@@ -572,3 +572,65 @@ fun TalkativeButton.giveSpeech() { // error: public멤버가 자신의 internal 
 }
 ```
 - 어떤 클래스의 기반 타입 목록에 들어있는 타입이나 제네릭 클래스의 타입 파라미터에 들어있는 타입의 visibility는 그 클래스 자신의 visibility와 같거나 더 높아야 하고, 메서드의 signature에 사용된 모든 타입의 visibility는 그 메서드의 visibility와 같거나 더 높아야 한다는 규칙에 해당한다.
+
+### 내부 클래스
+- Kotlin의 중첩 클래스는 명시적으로 요청하지 않는 한 바깥쪽 클래스 인스턴스에 대한 접근 권한이 없다.
+
+다음은 View 요소를 만드는 예시이다 View의 상태를 직렬화하기 위해 State를 Serializable한다.
+```kotlin
+interface State: Serializable
+
+interface View {
+	fun getCurrentState() : State
+	fun restoreState(state: State) {}
+}
+```
+
+먼저 Java 코드를 보자.
+Button 클래스의 상태를 저장하는 클래스는 Button 클래스 내부에 선언하면 편하다.
+```java
+public class Button implements View {
+	@Override
+	public State getCurrentState() {
+		return new ButtonState();
+	}
+	
+	@Override
+	public void restoreState(State state) { /* ... */ }
+	
+	public class ButtonState implements State { /* ... */ }
+}
+```
+이 코드에서는 버튼의 상태를 직렬화하면 `java.io.NotSerializableException: Button` 오류가 발생한다.
+
+Java에서 다른 클래스 안에 정의한 클래스는 자동으로 내부 클래스(inner class)가 된다.
+위 예시의 `ButtonState` 클래스는 바깥쪽 `Button` 클래스에 대한 참조를 묵시적으로 포함한다. 그 참조로 인해 `ButtonState`를 직렬화할 수 없다. `Button`을 직렬화할 수 없으므로 버튼에 대한 참조가 `ButtonState`의 직렬화를 방해한다.
+
+이 문제를 해결하려면 `ButtonState`를 `static` 클래스로 선언해야 한다.
+Java에서 중첩 클래스를 `static`으로 선언하면 그 클래스를 둘러싼 바깥쪽 클래스에 대한 묵시적인 참조가 사라진다.
+
+그럼 Kotlin 코드를 보자.
+```kotlin
+class Button : View {
+	override fun getCurrentState() : State = ButtonState()
+	override fun restoreState(state: State) { /* ... */ }
+	class ButtonState : State { /* ... */ } // 이 클래스는 Java의 정적 중첩 클래스와 대응한다.
+}
+```
+Kotlin 중첩 클래스에 아무런 modifier가 붙지 않으면 Java `static` 중첩 클래스와 같다.
+이를 내부 클래스로 변경해서 바깥쪽 클래스에 대한 참조를 포함하게 만들고 싶다면 `inner` modifier를 붙여야 한다.
+
+| 클래스 B 안에 정의된 클래스 A              | Java           | Kotlin        |
+| ------------------------------- | -------------- | ------------- |
+| 중첩 클래스(바깥쪽 클래스에 대한 참조를 저장하지 않음) | static class A | class A       |
+| 내부 클래스(바깥쪽 클래스에 대한 참조를 저장함)     | class A        | inner class A |
+
+Kotlin에서 바깥쪽 클래스의 인스턴스를 가리키는 참조를 표기하는 방법도 Java와 다르다.
+내부 클래스 Inner 안에서 바깥쪽 클래스 Outer의 참조에 접근하려면 `this@Outer`라고 써야 한다.
+```kotlin
+class Outer {
+	inner class Inner {
+		fun getOuterReference() : Outer = this@Outer
+	}
+}
+```
