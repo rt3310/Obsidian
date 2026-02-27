@@ -636,3 +636,99 @@ class Outer {
 ```
 
 ### 봉인된 클래스
+- 상위 클래스에 `sealed` modifier를 붙이면 그 상위 클래스를 상속한 하위 클래스 정의를 제한할 수 있다.
+- `sealed`로 표시된 클래스는 자동으로 `open`이다. 따라서 별도로 `open` modifier를 붙일 필요가 없다.
+
+- Kotlin 1.5 이전까지는 하위 클래스는 중첩 클래스여야 하고, data 클래스로 sealed 클래스를 상속할 수도 없다.
+- Kotlin 1.5 부터는 sealed 클래스가 정의된 패키지 안의 아무 위치(최상위, 다른 클래스나 객체나 인터페이스에 내포된 위치)에 선언할 수 있게 됐고, 봉인된 인터페이스도 추가됐다.
+
+### 주 생성자(primary constructor)
+- 주 생성자는 생성자 파라미터를 지정하고 그 생성자 파라미터에 의해 초기화 되는 프로퍼티를 정의하는 두 가지 목적에 쓰인다.
+- `constructor` 키워드는 주 생성자나 부 생성자 정의를 시작할 때 사용한다.
+- `init` 키워드는 초기화 블록을 시작한다. 초기화 블록에는 클래스의 객체가 만들어질 때 실행될 초기화 코드가 들어간다.
+	- 초기화 블록은 주 생성자와 함께 사용된다.
+- 한 클래스 안에 여러 초기화 블록을 선언할 수도 있다.
+```kotlin
+class User constructor(_nickname: String) {
+	val nickname: String
+	
+	init {
+		nickname = _nickname
+	}
+}
+```
+
+- `nickname` 프로퍼티 초기화하는 코드를 `nickname` 프로퍼티 선언에 포함시킬 수 있어서 초기화 코드를 초기화 블록에 넣을 필요가 없다.
+- 주 생성자 앞에 별다른 annotation이나 visibility modifier가 없다면 `constructor`를 생략해도 된다.
+```kotlin
+class User(_nickname: String) {
+	val nickname = _nickname
+}
+```
+
+- 주 생성자의 파라미터로 프로퍼티를 초기화한다면 그 주 생성자 파라미터 이름 앞에 `val`을 추가하는 방식으로 프로퍼티 정의와 초기화를 간략히 쓸 수 있다.
+```kotlin
+class User(val nickname: String)
+```
+
+- 생성자 파라미터에도 default 값을 정의할 수 있다.
+```kotlin
+class User(val nickname: String,
+		val isSubscribed: Boolean = true)
+```
+- 모든 생성자 파라미터에 default 값을 지정하면 컴파일러가 자동을 파라미터가 없는 생성자를 만들어준다.
+	- 이를 통해 JPA에서 기본 생성자가 필요한 곳에 활용도 가능하다
+
+- 별도의 생성자를 정의하지 않으면 컴파일러가 자동으로 인자가 없는 default 생성자를 만들어준다.
+```kotlin
+open class User
+```
+- User의 생성자는 아무 인자도 받지 않지만 User 클래스를 상속한 하위 클래스는 반드시 User 클래스의 생성자를 호출해야 한다.
+```kotlin
+class Man : User()
+```
+- 당연히 인터페이스는 생성자가 없기 때문에 괄호가 붙지 않는다.
+
+- 주 생성자에 private modifier를 붙여 private 생성자를 만들 수 있다.
+```kotlin
+class Util private constructor() {}
+```
+- 당연히 정적 유틸 클래스를 만들려고 이 짓거리를 할 필요가 없다.
+	- Kotlin에서는 최상위 함수를 사용할 수 있기 때문이다.
+- Kotlin에서는 singleton 객체를 만들 때 Java 처럼 private 생성자를 만들 필요는 없다. (추후에 설명)
+
+#### 주 생성자 호출
+- Java와 다르게 `new` 키워드를 붙이지 않는다.
+```kotlin
+val user = User("유저")
+```
+
+### 부 생성자
+- Kotlin에서 생성자를 여러 개 쓰는 경우는 적지만 Spring이나 JPA와 같은 프레임워크, 라이브러리를 위해 생성자를 추가 제공해야 하는 상황이 생길 때도 있다.
+
+```kotlin
+open class View {
+	constructor(ctx: Context) {
+		// 코드
+	}
+	
+	constructor(ctx: Context, attr: AttributeSet) {
+		// 코드
+	}
+}
+```
+- 이 클래스는 주 생성자를 선언하지 않고 부 생성자만 2가지 선언한다.
+- 이 클래스를 확장하면서 똑같이 부 생성자를 정의할 수 있다.
+```kotlin
+class MyButton : View {
+	constructor(ctx: Context) : this(ctx, MY_STYLE) {
+	}
+	
+	constructor(ctx: Context, attr: AttributeSet) : super(ctx, attr) {
+	}
+}
+```
+- `super()`를 통해 자신에 대응하는 상위 클래스 생성자를 호출한다.
+- `this()`를 통해 자신의 다른 생성자를 호출할 수도 있다.
+- 클래스에 주 생성자가 없다면 모든 부 생성자는 반드시 상위 클래스를 초기화하거나 다른 생성자에게 생성을 위임해야 한다.
+- 부 생성자의 1차적인 목표는 자바와의 상호운용성이다. 하지만 클래스 인스턴스를 생성할 때 파라미터 목록이 다른 생성 방법이 여럿 존재하는 경우에는 부 생성자를 여럿 둘 수 밖에 없다.
