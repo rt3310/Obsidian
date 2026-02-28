@@ -14,6 +14,7 @@
 
 ### Visibility Modifier
 - default: `public`
+- private, protected, public, internal
 
 ### Package
 - 여러 클래스를 한 파일에서 관리 가능
