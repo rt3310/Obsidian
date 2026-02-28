@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "이벤트 함수 실행 순서",
+      "path": "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md"
+    },
+    {
+      "basename": "PPU",
+      "path": "Study/21. Unity/Graphics/PPU.md"
+    },
+    {
+      "basename": "Cinemachine",
+      "path": "Study/21. Unity/Graphics/Cinemachine.md"
+    },
+    {
+      "basename": "Tilemap",
+      "path": "Study/21. Unity/Tilemap.md"
+    },
+    {
+      "basename": "TextMeshPro",
+      "path": "Study/21. Unity/TextMeshPro.md"
+    },
+    {
+      "basename": "Physics.Raycast",
+      "path": "Study/21. Unity/Physics.Raycast.md"
+    },
+    {
+      "basename": "Coroutine",
+      "path": "Study/21. Unity/Coroutine.md"
+    },
+    {
+      "basename": "()",
+      "path": "Study/21. Unity/().md"
+    },
+    {
+      "basename": "UE5",
+      "path": "Study/22. Unreal/UE5.md"
+    },
+    {
+      "basename": "14. function, mem_fn, bind",
+      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
+    },
+    {
+      "basename": "DB 병목 원인과 대책",
+      "path": "Study/8. DB/DB 병목 원인과 대책.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
+    },
+    {
+      "basename": "정규화",
+      "path": "Study/8. DB/정규화.canvas"
+    },
+    {
+      "basename": "데이터 무결성",
+      "path": "Study/8. DB/데이터 무결성.md"
+    },
+    {
+      "basename": "DLQ(Dead Letter Queue)",
+      "path": "Study/10. Server/DLQ(Dead Letter Queue).md"
+    },
+    {
+      "basename": "Bulkhead 패턴",
+      "path": "Study/10. Server/Bulkhead 패턴.md"
+    },
+    {
       "basename": "Kotlin",
       "path": "Study/29. Kotlin/Kotlin.md"
     },
@@ -135,66 +199,6 @@
     {
       "basename": "Pasted image 20251128010421",
       "path": "Study/8. DB/-resources/Pasted image 20251128010421.png"
-    },
-    {
-      "basename": "Pasted image 20251128011239",
-      "path": "Study/8. DB/-resources/Pasted image 20251128011239.png"
-    },
-    {
-      "basename": "Pasted image 20241210120549",
-      "path": "Study/4. Algorithm/resources/Pasted image 20241210120549.png"
-    },
-    {
-      "basename": "Pasted image 20241210120130",
-      "path": "Study/4. Algorithm/resources/Pasted image 20241210120130.png"
-    },
-    {
-      "basename": "Pasted image 20240319144924",
-      "path": "Study/4. Algorithm/resources/Pasted image 20240319144924.png"
-    },
-    {
-      "basename": "Pasted image 20241210120444",
-      "path": "Study/4. Algorithm/resources/Pasted image 20241210120444.png"
-    },
-    {
-      "basename": "Pasted image 20241210120212",
-      "path": "Study/4. Algorithm/resources/Pasted image 20241210120212.png"
-    },
-    {
-      "basename": "Pasted image 20241210120204",
-      "path": "Study/4. Algorithm/resources/Pasted image 20241210120204.png"
-    },
-    {
-      "basename": "Pasted image 20241210120155",
-      "path": "Study/4. Algorithm/resources/Pasted image 20241210120155.png"
-    },
-    {
-      "basename": "Pasted image 20241210120119",
-      "path": "Study/4. Algorithm/resources/Pasted image 20241210120119.png"
-    },
-    {
-      "basename": "Pasted image 20240713224955",
-      "path": "Study/4. Algorithm/resources/Pasted image 20240713224955.png"
-    },
-    {
-      "basename": "Pasted image 20240713224940",
-      "path": "Study/4. Algorithm/resources/Pasted image 20240713224940.png"
-    },
-    {
-      "basename": "Pasted image 20240319145444",
-      "path": "Study/4. Algorithm/resources/Pasted image 20240319145444.png"
-    },
-    {
-      "basename": "DBMS는 어떻게 트랜잭션을 관리할까",
-      "path": "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md"
-    },
-    {
-      "basename": "WAL",
-      "path": "Study/8. DB/MySQL/WAL.md"
-    },
-    {
-      "basename": "1. SQL의 성능은 처리 범위에 좌우된다",
-      "path": "Study/8. DB/레퍼런스/권순용의 DB 이야기/1. SQL의 성능은 처리 범위에 좌우된다.md"
     }
   ],
   "omittedPaths": [],

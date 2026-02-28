@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/29. Kotlin/Kotlin.md",
+                "file": "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kotlin"
+              "title": "이벤트 함수 실행 순서"
             }
           }
         ],
@@ -167,13 +167,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -189,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/29. Kotlin/Kotlin.md",
+                "file": "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Kotlin 의 백링크"
+              "title": "이벤트 함수 실행 순서 의 백링크"
             }
           },
           {
@@ -279,11 +277,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b56acc7bb626d315",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
+    "Study/21. Unity/Graphics/PPU.md",
+    "Study/21. Unity/Graphics/Cinemachine.md",
+    "Study/21. Unity/Tilemap.md",
+    "Study/21. Unity/TextMeshPro.md",
+    "Study/21. Unity/Physics.Raycast.md",
+    "Study/21. Unity/Coroutine.md",
+    "Study/21. Unity/().md",
+    "Study/22. Unreal/UE5.md",
+    "Study/1. C, C++/14. function, mem_fn, bind.md",
+    "Study/8. DB/DB 병목 원인과 대책.md",
+    "Study/8. DB/ACID.md",
+    "Study/8. DB/정규화.canvas",
+    "Study/8. DB/데이터 무결성.md",
+    "Study/10. Server/DLQ(Dead Letter Queue).md",
+    "Study/10. Server/Bulkhead 패턴.md",
+    "Study/29. Kotlin/Kotlin.md",
     "Study/29. Kotlin/-resources",
     "Study/29. Kotlin/Pasted image 20260226170401.png.md",
-    "Study/29. Kotlin/Kotlin.md",
     "Study/29. Kotlin/-resources/Pasted image 20260226171247.png",
     "Pasted image 20260226170401.png",
     "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md",
@@ -306,26 +319,12 @@
     "Study/비교/Lock.md",
     "Study/28. Other/수익화를 위한 앱 개발.md",
     "Study/비교/무제.canvas",
-    "conflict-files-obsidian-git.md",
     "Study/16. Web/Session in Multi Server.canvas",
-    "Study/16. Web/POST, PUT, PATCH의 차이점.md",
-    "Plan/포트폴리오 구성.md",
-    "Plan/이력서 작성.md",
-    "Study/10. Server/AWS WAF.md",
     "Study/16. Web/Cookie & Session.canvas",
     "Study/16. Web/Tomcat.canvas",
-    "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md",
-    "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md",
     "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷",
-    "Study/7. Network/Connection Timeout vs Read Timeout.md",
     "Study/7. Network/컴퓨터 네트워킹",
-    "Study/7. Network/무제.md",
-    "Study/8. DB/MySQL/DB Connection 누수 문제.md",
-    "Study/4. Algorithm/Tim Sort.md",
-    "Study/8. DB/트랜잭션/DBMS는 어떻게 트랜잭션을 관리할까.md",
-    "Study/8. DB/MySQL/WAL.md",
     "Study/12. Spring/-resources",
-    "Study/8. DB/정규화.canvas",
     "Study/8. DB/조인(Join).canvas",
     "Study/11. Java/Garbage Collector.canvas",
     "Study/8. DB/캐시/캐시 전략.canvas",
@@ -335,7 +334,6 @@
     "Study/8. DB/SQL.canvas",
     "Study/1",
     "Study/1. C, C++/question",
-    "Study/1. C, C++/핵심",
-    "Plan/game"
+    "Study/1. C, C++/핵심"
   ]
 }
