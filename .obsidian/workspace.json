@@ -116,9 +116,21 @@
               "icon": "lucide-file",
               "title": "Kotlin"
             }
+          },
+          {
+            "id": "7fc9dde43eba016d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.12.4"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -293,7 +305,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "7fc9dde43eba016d",
   "lastOpenFiles": [
     "Study/29. Kotlin/-resources",
     "Study/29. Kotlin/Pasted image 20260226170401.png.md",
