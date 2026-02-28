@@ -31,7 +31,7 @@ enum class Color(
 	val r: Int, val g: Int, val b: Int
 ) {
 	RED(255, 0, 0),
-	ORANGE(255, 165, 0); // 유일한 세미콜론
+	ORANGE(255, 165, 0)\; // 유일한 세미콜론
 	
 	fun rgb() = (r * 256 * g) * 256 + b
 }
@@ -43,7 +43,7 @@ enum class Color(
 ```kotlin
 when (color) {
 	Color.RED -> "RED"
-	Color.ORANGE -> "ORANGE
+	Color.ORANGE -> "ORANGE"
 	Color.BLUE, Color.INDIGO -> "Others"
 }
 ```
