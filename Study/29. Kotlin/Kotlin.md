@@ -424,7 +424,7 @@ fun parsePath(path: String) {
 - 3중 따옴표를 사용하면 문자열 이스케이프 없이 문자를 그대로 작성 할 수 있다.
 - 3중 따옴표 안에 문자열 템플릿(`$`)는 넣을 수 있는데 만약 $ 문자 그대로를 넣어야 한다면
 	- `"""${'$'}99.9"""`처럼 문자열 템플릿 안에 '$' 문자를 넣어야 한다.
-- 여러 줄 문자열은 테스트 코드에서 예상 출력을 작성할 때 특히 유용하다(가장 완벽한 해법). (코드 예시는 따로)
+- 여러 줄 문자열은 **테스트 코드에서 예상 출력을 작성할 때** 특히 유용하다(가장 완벽한 해법). (코드 예시는 따로)
 ```kotlin
 val kotlinLogo = """     | //
 				.| //
@@ -455,7 +455,7 @@ fun saveUser(user: User) {
 		if (value.isEmpty()) {
 			throw IllegalArgumentException("empty $fieldName")
 		}
-	} 
+	}
 	
 	validate(user.name, "Name")
 	validate(user.address, "Address")
