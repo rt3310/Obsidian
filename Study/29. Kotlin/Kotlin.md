@@ -207,7 +207,6 @@ joinToString(collection, separator = " ", prefix = " ", postfix = ".")
 ```
 
 ### 디폴트 파라미터 값
-
 - default 값이 지정된 파라미터가 default 값이 없는 파라미터보다 뒤에 위치해야 한다.
 ```kotlin
 fun <T> joinToString(
@@ -221,7 +220,6 @@ fun <T> joinToString(
 - 오버로딩 메서드가 많아지는 문제를 피할 수 있다.
 **Java의 Thread constructors**
 ![[Pasted image 20260226171247.png]]
-
 - named argument를 조합하면 더욱 유연한 호출이 가능하다.
 - named argument는 함수 호출 시 파라미터의 순서를 무시하고 원하는 파라미터에 값을 할당 할 수 있기 때문이다.
 ```kotlin
