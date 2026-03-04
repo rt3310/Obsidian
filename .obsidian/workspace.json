@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md",
+                "file": "Study/29. Kotlin/Kotlin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "이벤트 함수 실행 순서"
+              "title": "Kotlin"
             }
           }
         ],
@@ -167,7 +167,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md",
+                "file": "Study/29. Kotlin/Kotlin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +198,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "이벤트 함수 실행 순서 의 백링크"
+              "title": "Kotlin 의 백링크"
             }
           },
           {
@@ -277,8 +278,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
+    "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md",
     "Study/21. Unity/Graphics/PPU.md",
     "Study/21. Unity/Graphics/Cinemachine.md",
     "Study/21. Unity/Tilemap.md",
@@ -317,7 +319,6 @@
     "Study/7. Network/HTTP/resources/Pasted image 20250507192737.png",
     "Study/7. Network/HTTP/resources/Pasted image 20250507193050.png",
     "Study/비교/Lock.md",
-    "Study/28. Other/수익화를 위한 앱 개발.md",
     "Study/비교/무제.canvas",
     "Study/16. Web/Session in Multi Server.canvas",
     "Study/16. Web/Cookie & Session.canvas",

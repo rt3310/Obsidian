@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Kotlin",
+      "path": "Study/29. Kotlin/Kotlin.md"
+    },
+    {
       "basename": "이벤트 함수 실행 순서",
       "path": "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "Bulkhead 패턴",
       "path": "Study/10. Server/Bulkhead 패턴.md"
-    },
-    {
-      "basename": "Kotlin",
-      "path": "Study/29. Kotlin/Kotlin.md"
     },
     {
       "basename": "Pasted image 20260226171247",
