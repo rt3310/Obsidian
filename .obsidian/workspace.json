@@ -167,12 +167,12 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -278,7 +278,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "b56acc7bb626d315",
   "lastOpenFiles": [
     "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md",
     "Study/21. Unity/Graphics/PPU.md",
