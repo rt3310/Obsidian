@@ -939,3 +939,16 @@ people.maxBy { it.age }
 #### 캡쳐 변수
 - 람다를 함수 안에서 정의하면 함수의 파라미터뿐 아니라 람다의 정의의 앞에 선언된 로컬 변수까지 람다에서 모두 사용할 수 있다.
 - 코틀린 람다에서는 `final` 변수가 아닌 변수에 접근할 수 있다. 또한 람다 안에서 바깥의 변수를 변경해도 된다.
+```kotlin
+fun printProblemCounts(responses: Collection<String>) {
+	var clientErrors = 0
+	var serverErrors = 0
+	responses.forEach {
+		if (it.startsWith("4")) {
+			clientErrors++
+		} else if (it.startsWith("5")) {
+			serverErrors++
+		}
+	}
+}
+```
