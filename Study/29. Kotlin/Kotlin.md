@@ -737,3 +737,205 @@ class MyButton : View {
 - 동일성(identity): `===`
 
 ### 데이터 클래스(data class)
+- `toString()`, `equals()`, `hashCode()`, `componentN()`, `copy()`를 자동으로 만들어준다.
+- 주 생성자에는 매개변수가 하나 이상 있어야 한다.
+- 모든 주 생성자 매개변수는 `val` 또는 `var`로 표시되어야 한다.
+- 데이터 클래스는 추상(abstract), 공개(open), 봉인(sealed),내부(inner) 클래스 일 수 없다.
+- `componentN()`, `copy()` 함수에 대한 명시적 구현을 제공하는 것은 허용되지 않는다.
+
+- 데이터 클래스에 대해 생성된 구성 요소 함수를 사용하면 구조 분해 선언에 사용할 수 있다.
+```kotlin
+val jane = User("Jane", 35)
+val (name, age) = jane
+```
+
+- 데이터 클래스는 모든 프로퍼티를 읽기 전용(read only)로 만들어서 불변 클래스로 만들 것을 권장한다.
+- Java의 record와 비슷하다.
+
+### 클래스 위임(by)
+- `by` 키워드를 통해 인터페이스에 대한 구현을 다른 객체에 위임 중이라는 사실을 명시할 수 있다.
+```kotlin
+interface Base {
+	fun print()
+}
+
+class BaseImpl(val x: Int) : Base {
+	override fun print() { print(x) }
+}
+
+class Derived(b: Base) : Base by b
+
+fun main() {
+	val base = BaseImpl(10)
+	Derived(base).print() // 10
+}
+```
+
+```kotlin
+class CountingSet<T>(
+	val innerSet: MutableCollection<T> = HashSet<T>()
+) : MutableCollection<T> by innerSet { // MutableCollection의 구현을 innerSet에게 위임
+	var objectsAdded = 0
+	
+	// 두 메서드는 위임하지 않고 새 구현을 제공
+	override fun add(element: T) : Boolean {
+		objectsAdded++
+		return innerSet.add(element)
+	}
+	
+	override fun addAll(c: Collection<T>) : Boolean {
+		objectsAdded += c.size
+		return innerSet.addAll(c)
+	}
+}
+```
+
+### object
+- `object`를 통해 두 가지 행동을 할 수 있다.
+	- 객체 선언(object declaration)
+	- 동반 객체(companion object)
+#### 객체 선언(object declaration)
+- 코틀린은 객체 선언 기능을 통해 싱글톤을 언어에서 기본 지원한다.
+- 객체 선언은 클래스 선언과 그 클래스에 속한 단일 인스턴스의 선언을 합친 선언이다.
+```kotlin
+object Payroll {
+	val allEmployees = arrayListOf<Person>()
+	
+	fun calculateSalary() {
+		for (person in allEmployees) {'
+			...
+		}
+	}
+}
+```
+
+```kotlin
+Payroll.allEmployees.add(Person(...))
+Payroll.calculateSalary()
+```
+
+- 객체 선언에는 익명 객체가 기존 클래스에서 상속하거나 인터페이스를 구현하는 방법과 유사하게 상위 유형이 있을 수도 있다.
+```kotlin
+object DefaultListener : MouseAdapter() {
+	override fun mouseClicked(e: MouseEvent) { ... }
+	override fun mouseEntered(e: MouseEvent) { ... }
+}
+```
+
+- 변수 선언과 마찬가지로 객체 선언도 표현식이 아니므로 대입문 오른쪽에 사용할 수 없다.
+- 객체 선언은 로컬일 수 없다. 즉 함수 내에 직접 중첩될 수 없다. 하지만 다른 객체 선언이나 내부 클래스가 아닌 클래스 내에 중첩될 수 있다.
+
+##### 데이터 객체(Data objects)
+- 코틀린에서 일반 객체 선언을 print할 때 문자열 표현에는 해당 `object`의 이름과 해시가 모두 포함된다.
+```kotlin
+object MyObject
+
+fun main() {
+	println(MyObject) // MyObject@hashcode
+}
+```
+- 하지만 data로 객체 선언을 표시하면 `toString()`을 호출할 때 데이터 클래스에서 작동하는 것과 같은 방식으로 객체의 실제 이름을 반환하도록 컴파일러에게 지시할 수 있다.
+```kotlin
+data object MyDataObject {
+	val number: Int = 3
+}
+
+fun main() {
+	println(MyDataObject) // MyDataObject
+}
+```
+- 데이터 클래스 처럼 데이터 객체는 여러 함수를 생성한다.
+	- `toString()`, `equals()`, `hashCode()`
+
+> [!note] 데이터 객체와 데이터 클래스 차이점
+> - 데이터 객체에는 `copy()` 기능이 없다. 데이터 객체 선언은 싱글톤으로 사용되기 때문에 `copy()` 함수가 생성되지 않는다. 싱글톤은 클래스의 인스턴스화를 단일 인스턴스로 제한하는데, 이는 인스턴스의 복사본이 생성되도록 허용함으로써 위반된다.
+> - `componentN()` 함수가 없다. 데이터 클래스와 달리 데이터 객체는 데이터 프로퍼티가 없다. 데이터 프로퍼티 없이 객체 구조를 해제하려는 시도는 의미가 없으므로, `componentN()` 함수는 생성되지 않는다.
+
+#### 동반 객체(companion objects)
+- 동반 객체를 사용하면 클래스 수준 함수와 속성을 정의할 수 있다. 이를 통해 쉽게 factory method를 만들고 상수를 유지하고 공유 유틸리티에 접근할 수 있다.
+```kotlin
+class User(val name: String) {
+	companion object Factory {
+		fun create(name: String): User = User(name)
+	}
+}
+
+fun main() {
+	val userInstance = User.create("John Doe")
+	println(userInstance.name)
+}
+```
+
+- companion object의 이름은 생략할 수 있으며, 이 경우 `Companion` 이름이 사용된다.
+```kotlin
+class User(val name: String) {
+	companion object { }
+}
+
+val companionUser = User.Companion
+```
+
+- 클래스 멤버는 해당 동반 객체의 private 멤버에 접근할 수 있다.
+```kotlin
+class User(val name: String) {
+	companion object {
+		private val defaultGreeting = "Hello"
+	}
+	
+	fun sayHi() {
+		println(defaultGreeting)
+	}
+}
+User("Nick").sayHi() // Hello
+```
+
+- 코틀린의 동반 객체 멤버는 다른 언어의 정적 멤버처럼 보이지만 실제로는 동반 객체의 인스턴스 멤버이다. 즉, 객체 자체에 속한다. 이를 통해 동반 객체가 인터페이스를 구현할 수 있다.
+```kotlin
+interface Factory<T> {
+    fun create(name: String): T
+}
+
+class User(val name: String) {
+    companion object : Factory<User> {
+        override fun create(name: String): User = User(name)
+    }
+}
+
+fun main() {
+    val userFactory: Factory<User> = User
+    val newUser = userFactory.create("Example User")
+    println(newUser.name)
+}
+```
+
+### 람다
+- 코틀린에서는 함수 호출 시 맨 뒤에 있는 인자가 람다 식이면 그 람다를 괄호 밖으로 빼낼 수 있다
+```kotlin
+people.maxBy({ p: Person -> p.age })
+```
+
+```kotlin
+people.maxBy() { p: Person -> p.age }
+```
+- 둘 이상의 람다를 인자로 받는 함수라고 해도 인자 목록의 맨 마지막 람다만 밖으로 뺄 수 있다. 이런 경우에는 괄호를 사용하는 일반적인 함수 호출 구문을 사용하는 편이 더 낫다.
+
+- 람다가 어떤 함수의 **유일한 인자**이고 괄호 뒤에 람다를 썼다면 호출 시 빈 괄호를 없애도 된다.
+```kotlin
+people.maxBy { p: Person -> p.age }
+```
+
+- 람다 파라미터 타입을 추론할 수 있으면 생략 가능하다.
+```kotlin
+people.maxBy { p -> p.age }
+```
+
+- 람다의 파라미터가 하나뿐이고 그 타입을 컴파일러가 추론할 수 있는 경우 `it`을 바로 쓸 수 있다.
+```kotlin
+people.maxBy { it.age }
+```
+- 람다 안에 람다가 중첩되는 경우 각 람다의 파라미터를 명시하는 편이 낫다. 파라미터를 명시하지 않으면 각각의 `it`이 가리키는 파라미터가 어떤 람다에 속했는지 파악하기 어려울 수 있다.
+- 람다를 변수에 저장할 때는 파라미터의 타입을 추론할 문맥이 존재하지 않는다. 따라서 파라미터 타입을 명시해야 한다.
+
+#### 캡쳐 변수
+- 람다를 함수 안에서 정의하면 함수의 파라미터뿐 아니라 람다의 정의의 앞에 선언된 로컬 변수까지 람다에서 모두 사용할 수 있다.
+- 코틀린 람다에서는 `final` 변수가 아닌 변수에 접근할 수 있다. 또한 람다 안에서 바깥의 변수를 변경해도 된다.

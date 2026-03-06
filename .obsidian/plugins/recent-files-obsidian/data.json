@@ -5,6 +5,10 @@
       "path": "Study/29. Kotlin/Kotlin.md"
     },
     {
+      "basename": "Kafka vs RabbitMQ",
+      "path": "Study/비교/Kafka vs RabbitMQ.md"
+    },
+    {
       "basename": "이벤트 함수 실행 순서",
       "path": "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "synchronized vs ReentrantLock",
       "path": "Study/비교/synchronized vs ReentrantLock.md"
-    },
-    {
-      "basename": "Kafka vs RabbitMQ",
-      "path": "Study/비교/Kafka vs RabbitMQ.md"
     },
     {
       "basename": "Pasted image 20251101172437",
@@ -195,10 +195,6 @@
     {
       "basename": "Pasted image 20251128004929",
       "path": "Study/8. DB/-resources/Pasted image 20251128004929.png"
-    },
-    {
-      "basename": "Pasted image 20251128010421",
-      "path": "Study/8. DB/-resources/Pasted image 20251128010421.png"
     }
   ],
   "omittedPaths": [],
