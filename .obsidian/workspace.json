@@ -153,7 +153,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -264,7 +265,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5c04fc040f0ca820",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/29. Kotlin/무제.canvas",
     "Study/29. Kotlin/Kotlin.md",
