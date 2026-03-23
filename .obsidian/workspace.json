@@ -79,14 +79,17 @@
             "id": "5c04fc040f0ca820",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Study/29. Kotlin/Kotlin.md",
-                "mode": "source",
-                "source": false
+                "file": "Study/6. OS/RAID.canvas",
+                "viewState": {
+                  "x": -407.8461087717565,
+                  "y": -374.1166689495362,
+                  "zoom": 0.26921151847565733
+                }
               },
-              "icon": "lucide-file",
-              "title": "Kotlin"
+              "icon": "lucide-layout-dashboard",
+              "title": "RAID"
             }
           }
         ],
@@ -158,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -175,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/29. Kotlin/Kotlin.md",
+                "file": "Study/6. OS/RAID.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +187,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Kotlin 의 백링크"
+              "title": "RAID 의 백링크"
             }
           },
           {
@@ -267,8 +269,10 @@
   },
   "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
-    "Study/29. Kotlin/무제.canvas",
+    "Study/6. OS/RAID.md",
+    "Study/6. OS/resources/Pasted image 20260323023854.jpg",
     "Study/29. Kotlin/Kotlin.md",
+    "Study/29. Kotlin/무제.canvas",
     "Study/비교/Kafka vs RabbitMQ.md",
     "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md",
     "Study/21. Unity/Graphics/PPU.md",
@@ -303,9 +307,7 @@
     "Study/비교/synchronized vs ReentrantLock.md",
     "Study/비교/-resources/Pasted image 20251101172437.png",
     "Study/7. Network/HTTP/resources/Pasted image 20250507192720.png",
-    "Study/7. Network/HTTP/웹 소켓(WebSocket).md",
     "Study/7. Network/HTTP/resources/Pasted image 20250507192737.png",
-    "Study/7. Network/HTTP/resources/Pasted image 20250507193050.png",
     "Study/비교/무제.canvas",
     "Study/16. Web/Session in Multi Server.canvas",
     "Study/16. Web/Cookie & Session.canvas",
