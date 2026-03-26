@@ -79,21 +79,30 @@
             "id": "5c04fc040f0ca820",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Study/6. OS/RAID.canvas",
-                "viewState": {
-                  "x": -407.8461087717565,
-                  "y": -374.1166689495362,
-                  "zoom": 0.26921151847565733
-                }
+                "file": "Study/6. OS/RAID.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
+              "icon": "lucide-file",
               "title": "RAID"
+            }
+          },
+          {
+            "id": "1c1df24f9da3dae8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.12.7"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -177,7 +186,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/6. OS/RAID.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +195,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "RAID 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -269,7 +277,9 @@
   },
   "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
+    "Study/6. OS/세마포어(Semaphore).canvas",
     "Study/6. OS/RAID.md",
+    "Study/6. OS/RAID.canvas",
     "Study/6. OS/resources/Pasted image 20260323023854.jpg",
     "Study/29. Kotlin/Kotlin.md",
     "Study/29. Kotlin/무제.canvas",
@@ -319,7 +329,6 @@
     "Study/11. Java/Garbage Collector.canvas",
     "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",
-    "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas",
     "Study/8. DB/트랜잭션",
     "Study/1",
     "Study/1. C, C++/question",

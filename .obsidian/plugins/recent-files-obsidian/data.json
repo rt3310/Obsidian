@@ -2,11 +2,15 @@
   "recentFiles": [
     {
       "basename": "RAID",
-      "path": "Study/6. OS/RAID.canvas"
+      "path": "Study/6. OS/RAID.md"
+    },
+    {
+      "basename": "세마포어(Semaphore)",
+      "path": "Study/6. OS/세마포어(Semaphore).canvas"
     },
     {
       "basename": "RAID",
-      "path": "Study/6. OS/RAID.md"
+      "path": "Study/6. OS/RAID.canvas"
     },
     {
       "basename": "Kotlin",
@@ -195,10 +199,6 @@
     {
       "basename": "Connection Timeout vs Read Timeout",
       "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
-    },
-    {
-      "basename": "DB Connection 누수 문제",
-      "path": "Study/8. DB/MySQL/DB Connection 누수 문제.md"
     }
   ],
   "omittedPaths": [],
