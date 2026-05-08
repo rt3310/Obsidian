@@ -93,12 +93,14 @@
             "id": "1c1df24f9da3dae8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "Study/30. Vue/10. Template Refs.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.12.7"
+              "icon": "lucide-file",
+              "title": "10. Template Refs"
             }
           }
         ],
@@ -195,6 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study/30. Vue/10. Template Refs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "10. Template Refs 의 백링크"
             }
           },
           {
@@ -281,11 +284,32 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "1c1df24f9da3dae8",
   "lastOpenFiles": [
+    "Study/30. Vue/Global API - General.md",
+    "Study/30. Vue/내장 디렉티브.md",
+    "Study/30. Vue/12. Lifecycle.md",
+    "Study/30. Vue/10. Template Refs.md",
+    "Study/30. Vue/2.3. Reactivity - Advanced.md",
+    "Study/30. Vue/3. computed.md",
+    "Study/30. Vue/11. Component Basic.md",
+    "Study/30. Vue/9. Watchers.md",
+    "Study/30. Vue/8. Forms.md",
+    "Study/30. Vue/7. Event Handling.md",
+    "Study/30. Vue/6. List.md",
+    "Study/30. Vue/5. Conditional.md",
+    "Study/30. Vue/4. Class and Style.md",
+    "Study/30. Vue/2. Reactivity.md",
+    "Study/30. Vue/1. Template Syntax.md",
+    "Study/30. Vue/-resources/Pasted image 20260508101706.png",
+    "Study/30. Vue/-resources/Pasted image 20260508094624.png",
+    "Study/30. Vue/-resources/Pasted image 20260507145004.png",
+    "Study/30. Vue/-resources",
+    "Study/30. Vue",
     "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md",
     "Study/6. OS/세마포어(Semaphore).canvas",
     "Study/6. OS/RAID.md",
@@ -301,33 +325,15 @@
     "Study/21. Unity/TextMeshPro.md",
     "Study/21. Unity/Physics.Raycast.md",
     "Study/21. Unity/Coroutine.md",
-    "Study/21. Unity/().md",
-    "Study/22. Unreal/UE5.md",
-    "Study/1. C, C++/14. function, mem_fn, bind.md",
-    "Study/8. DB/DB 병목 원인과 대책.md",
-    "Study/8. DB/ACID.md",
     "Study/8. DB/정규화.canvas",
-    "Study/8. DB/데이터 무결성.md",
-    "Study/10. Server/DLQ(Dead Letter Queue).md",
-    "Study/10. Server/Bulkhead 패턴.md",
     "Study/29. Kotlin/-resources",
-    "Study/29. Kotlin/Pasted image 20260226170401.png.md",
     "Study/29. Kotlin/-resources/Pasted image 20260226171247.png",
     "Pasted image 20260226170401.png",
-    "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md",
     "Study/29. Kotlin",
-    "무제.md",
-    "CS 심화 (AI).md",
-    "CS 모음.md",
-    "Study/비교/Rate Limiter.md",
     "Study/비교/-resources/Pasted image 20260220171850.png",
     "Study/비교/-resources/Pasted image 20260220165703.png",
     "Study/비교/-resources/Pasted image 20260220165230.png",
     "Study/비교/-resources/Pasted image 20260220164400.png",
-    "Study/비교/synchronized vs ReentrantLock.md",
-    "Study/비교/-resources/Pasted image 20251101172437.png",
-    "Study/7. Network/HTTP/resources/Pasted image 20250507192720.png",
-    "Study/7. Network/HTTP/resources/Pasted image 20250507192737.png",
     "Study/비교/무제.canvas",
     "Study/16. Web/Session in Multi Server.canvas",
     "Study/16. Web/Cookie & Session.canvas",
@@ -339,8 +345,6 @@
     "Study/11. Java/Garbage Collector.canvas",
     "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션",
-    "Study/1",
-    "Study/1. C, C++/question",
-    "Study/1. C, C++/핵심"
+    "Study/1"
   ]
 }

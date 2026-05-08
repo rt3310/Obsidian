@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "10. Template Refs",
+      "path": "Study/30. Vue/10. Template Refs.md"
+    },
+    {
+      "basename": "Global API - General",
+      "path": "Study/30. Vue/Global API - General.md"
+    },
+    {
+      "basename": "내장 디렉티브",
+      "path": "Study/30. Vue/내장 디렉티브.md"
+    },
+    {
+      "basename": "12. Lifecycle",
+      "path": "Study/30. Vue/12. Lifecycle.md"
+    },
+    {
+      "basename": "2.3. Reactivity - Advanced",
+      "path": "Study/30. Vue/2.3. Reactivity - Advanced.md"
+    },
+    {
+      "basename": "3. computed",
+      "path": "Study/30. Vue/3. computed.md"
+    },
+    {
       "basename": "수십억건에서 querydsl 사용하기",
       "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Pasted image 20250911140904",
       "path": "Study/8. DB/-resources/Pasted image 20250911140904.png"
-    },
-    {
-      "basename": "Cookie & Session",
-      "path": "Study/16. Web/Cookie & Session.canvas"
-    },
-    {
-      "basename": "Tomcat",
-      "path": "Study/16. Web/Tomcat.canvas"
-    },
-    {
-      "basename": "Pasted image 20260113135009",
-      "path": "Study/10. Server/resources/Pasted image 20260113135009.png"
-    },
-    {
-      "basename": "Pasted image 20240314164110",
-      "path": "Study/16. Web/resources/Pasted image 20240314164110.png"
-    },
-    {
-      "basename": "2. 네트워크의 가장자리",
-      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md"
-    },
-    {
-      "basename": "1. 인터넷이란 무엇인가",
-      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md"
     }
   ],
   "omittedPaths": [],
