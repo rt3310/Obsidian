@@ -161,12 +161,21 @@
             "state": {
               "type": "recent-files",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "recent-files"
+            }
+          },
+          {
+            "id": "78a02f71739a6b8e",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
               "icon": "clock",
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,8 +257,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
@@ -263,7 +272,6 @@
       "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
-      "obsidian-kanban:새 보드 만들기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
@@ -272,11 +280,13 @@
       "obsidian-full-calendar:Open Full Calendar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "1c1df24f9da3dae8",
   "lastOpenFiles": [
+    "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md",
     "Study/6. OS/세마포어(Semaphore).canvas",
     "Study/6. OS/RAID.md",
     "Study/6. OS/RAID.canvas",
@@ -327,7 +337,6 @@
     "Study/12. Spring/-resources",
     "Study/8. DB/조인(Join).canvas",
     "Study/11. Java/Garbage Collector.canvas",
-    "Study/8. DB/캐시/캐시 전략.canvas",
     "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션",
     "Study/1",

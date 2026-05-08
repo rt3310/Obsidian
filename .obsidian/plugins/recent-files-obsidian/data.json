@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "수십억건에서 querydsl 사용하기",
+      "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
+    },
+    {
       "basename": "RAID",
       "path": "Study/6. OS/RAID.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1. 인터넷이란 무엇인가",
       "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md"
-    },
-    {
-      "basename": "Connection Timeout vs Read Timeout",
-      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
     }
   ],
   "omittedPaths": [],
