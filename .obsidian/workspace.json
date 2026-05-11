@@ -163,8 +163,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
@@ -177,7 +177,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -300,7 +301,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1c1df24f9da3dae8",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/1. C, C++/-resources/Pasted image 20260508175432.png",
     "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md",
