@@ -123,8 +123,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -163,8 +162,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           },
           {
@@ -173,17 +172,25 @@
             "state": {
               "type": "recent-files",
               "state": {},
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
+            }
+          },
+          {
+            "id": "42806e57b8eb03d4",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
               "icon": "clock",
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -262,8 +269,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           },
           {
@@ -285,23 +292,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:새 베이스 생성하기": false,
-      "switcher:빠른 전환기 열기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
+      "switcher:퀵 스위처 열기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Study/1. C, C++/-resources/Pasted image 20260508175432.png",
     "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md",

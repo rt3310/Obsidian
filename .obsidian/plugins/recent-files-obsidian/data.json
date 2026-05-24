@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제 파일",
+      "path": "Study/8. DB/무제 파일.md"
+    },
+    {
       "basename": "20. 코드부터 실행파일까지 - 컴파일",
       "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 컴파일.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Session in Multi Server",
       "path": "Study/16. Web/Session in Multi Server.canvas"
-    },
-    {
-      "basename": "POST, PUT, PATCH의 차이점",
-      "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
     }
   ],
   "omittedPaths": [],
