@@ -77,3 +77,63 @@ DEPTNO
 ```
 하지만 중복 값 제거를 위한 목적이라면 `DISTINCE` 키워드를 사용하는 편이 바람직하다. `GROUP BY` 절은 집계 함수와 함께 사용해야 한다.
 
+## ROLLUP
+`ROLLUP`은 지정한 표현식의 계층별 소계와 총계를 집계한다.
+```sql
+ROLLUP (expression_list [, expression_list]...)
+```
+
+`ROLLUP`은 아래와 같이 동작한다. `expr`을 뒤쪽부터 하나씩 제거하는 방식이다.
+결과에서 (a, b, c)는 a, b, c의 소계, ()는 총계를 의미한다.
+
+| GROUP BY         | 결과                         |
+| ---------------- | -------------------------- |
+| ROLLUP (a)       | (a), ()                    |
+| ROLLUP (a, b)    | (a, b), (a), ()            |
+| ROLLUP (a, b, c) | (a, b, c), (a, b), (a), () |
+```sql
+SELECT deptno, COUNT(*) AS c1
+FROM emp
+WHERE sal > 2000
+GROUP BY ROLLUP(deptno)
+ORDER BY 1;
+```
+```
+DEPTNO C1
+------ --
+    10  2 -- deptno
+    20  3 -- deptno
+    30  1 -- deptno
+        6 -- ()
+```
+
+아래 쿼리는 `deptno`, `job` 별, `deptno` 별 소계와 총계를 집계한다.
+```sql
+SELECT deptno, job, COUNT(*) AS c1
+FROM emp
+WHERE sal > 2000
+GROUP BY ROLLUP(deptno, job)
+ORDER BY 1, 2;
+```
+```
+DEPTNO JOB       C1
+------ --------- --
+    10 MANAGER    1 -- deptno, job
+    10 PRESIDENT  1 -- deptno, job
+    10            2 -- deptno
+	20 ANALYST    2 -- deptno, job
+	20 MANAGER    1 -- deptno, job
+	20            3 -- deptno
+	30 MANAGER    1 -- deptno, job
+	30            1 -- deptno
+	              6 -- ()
+```
+
+## CUBE
+`CUBE`는 지정한 표현식의 모든 조합을 집계한다.
+
+| GROUP BY       | 결과                                                   |
+| -------------- | ---------------------------------------------------- |
+| CUBE (a)       | (a), ()                                              |
+| CUBE (a, b)    | (a, b), (a), (b), ()                                 |
+| CUBE (a, b, c) | (a, b, c), (a, b), (a, c), (b, c), (a), (b), (c), () |
