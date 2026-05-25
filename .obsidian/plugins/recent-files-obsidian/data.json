@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "GROUP BY",
-      "path": "Study/8. DB/GROUP BY.md"
+      "basename": "조인(Join) 종류",
+      "path": "Study/8. DB/조인(Join) 종류.canvas"
+    },
+    {
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
+    },
+    {
+      "basename": "GROUP BY, HAVING",
+      "path": "Study/8. DB/GROUP BY, HAVING.md"
+    },
+    {
+      "basename": "AWS WAF",
+      "path": "Study/10. Server/AWS WAF.md"
+    },
+    {
+      "basename": "Connection Timeout vs Read Timeout",
+      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
     },
     {
       "basename": "20. 코드부터 실행파일까지 - 컴파일",
@@ -109,10 +125,6 @@
       "path": "Study/8. DB/DB 병목 원인과 대책.md"
     },
     {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
-    },
-    {
       "basename": "정규화",
       "path": "Study/8. DB/정규화.canvas"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Lock",
       "path": "Study/비교/Lock.md"
-    },
-    {
-      "basename": "수익화를 위한 앱 개발",
-      "path": "Study/28. Other/수익화를 위한 앱 개발.md"
-    },
-    {
-      "basename": "무제",
-      "path": "Study/비교/무제.canvas"
-    },
-    {
-      "basename": "Session in Multi Server",
-      "path": "Study/16. Web/Session in Multi Server.canvas"
     }
   ],
   "omittedPaths": [],

@@ -93,14 +93,17 @@
             "id": "1c1df24f9da3dae8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Study/8. DB/GROUP BY.md",
-                "mode": "source",
-                "source": false
+                "file": "Study/8. DB/조인(Join) 종류.canvas",
+                "viewState": {
+                  "x": 885,
+                  "y": 387.5,
+                  "zoom": -1.3342057138383472
+                }
               },
-              "icon": "lucide-file",
-              "title": "GROUP BY"
+              "icon": "lucide-layout-dashboard",
+              "title": "조인(Join) 종류"
             }
           }
         ],
@@ -309,8 +312,12 @@
   },
   "active": "1c1df24f9da3dae8",
   "lastOpenFiles": [
+    "Study/8. DB/ACID.md",
+    "Study/8. DB/조인(Join) 종류.canvas",
+    "Study/8. DB/GROUP BY, HAVING.md",
+    "Study/10. Server/AWS WAF.md",
+    "Study/7. Network/Connection Timeout vs Read Timeout.md",
     "Study/1. C, C++/20. 코드부터 실행파일까지 - 컴파일.md",
-    "Study/8. DB/GROUP BY.md",
     "Study/1. C, C++/-resources/Pasted image 20260508175432.png",
     "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md",
     "Study/1. C, C++/question/무제.base",
@@ -344,9 +351,6 @@
     "Study/29. Kotlin/무제.canvas",
     "Study/비교/Kafka vs RabbitMQ.md",
     "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md",
-    "Study/21. Unity/Graphics/PPU.md",
-    "Study/21. Unity/Graphics/Cinemachine.md",
-    "Study/21. Unity/Tilemap.md",
     "Study/8. DB/정규화.canvas",
     "Study/29. Kotlin/-resources",
     "Study/29. Kotlin/-resources/Pasted image 20260226171247.png",
@@ -361,7 +365,6 @@
     "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷",
     "Study/7. Network/컴퓨터 네트워킹",
     "Study/12. Spring/-resources",
-    "Study/8. DB/조인(Join).canvas",
     "Study/11. Java/Garbage Collector.canvas",
     "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션"
