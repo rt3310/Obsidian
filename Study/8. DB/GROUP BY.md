@@ -137,3 +137,119 @@ DEPTNO JOB       C1
 | CUBE (a)       | (a), ()                                              |
 | CUBE (a, b)    | (a, b), (a), (b), ()                                 |
 | CUBE (a, b, c) | (a, b, c), (a, b), (a, c), (b, c), (a), (b), (c), () |
+
+아래는 `CUBE`를 사용한 쿼리다. 표현식이 1개면 `ROLLUP`과 결과가 동일하다.
+```sql
+SELECT deptno, COUNT(*) AS c1
+FROM emp
+WHERE sal > 2000
+GROUP BY CUBE (deptno)
+ORDER BY 1;
+```
+```
+DEPTNO C1
+------ --
+    10  2 -- deptno
+    20  3 -- deptno
+    30  1 -- deptno
+        6 -- ()
+```
+
+아래 쿼리는 `deptno`, `job`별, `deptno`별, `job`별 소계와 총계를 집계한다.
+```sql
+SELECT deptno, job, COUNT(*) AS c1
+FROM emp
+WHERE sal > 2000
+GROUP BY CUBE (deptno, job)
+ORDER BY 1, 2;
+```
+```
+DEPTNO JOB       C1
+------ --------- --
+    10 MANAGER    1 -- deptno, job
+    10 PRESIDENT  1 -- deptno, job
+    10            2 -- deptno
+	20 ANALYST    2 -- deptno, job
+	20 MANAGER    1 -- deptno, job
+	20            3 -- deptno
+	30 MANAGER    1 -- deptno, job
+	30            1 -- deptno
+	   ANALYST    2 -- job
+	   MANAGER    1 -- job
+	   PRESIDENT  1 -- job
+	              6 -- ()
+```
+
+## GROUPING SETS
+
+`GROUPING SETS`은 지정한 행 그룹으로 행을 집계한다. 행 그룹으로 `ROLLUP`과 `CUBE`를 사용할 수도 있다.
+
+`GROUPING SETS`은 아래와 같이 동작한다. 두 번째 표현식은 `ROLLUP (a, b)`와 동일하다.
+
+| GROUP BY                         | 결과                   |
+| -------------------------------- | -------------------- |
+| GROUPING SETS (a, b)             | (a), (b)             |
+| GROUPING SETS ((a, b), a, ())    | (a, b), (a), ()      |
+| GROUPING SETS (a, ROLLUP (b))    | (a), (b), ()         |
+| GROUPING SETS (a, ROLLUP (b, c)) | (a), (b, c), (b), () |
+| GROUPING SETS (a, b, ROLLUP (c)) | (a), (b), (c), ()    |
+
+아래는 `GROUPING SETS`를 사용한 쿼리다.
+```sql
+SELECT deptno, job, COUNT(*) AS c1
+FROM emp
+WHERE sal > 2000
+GROUP BY GROUPING SETS (deptno, job)
+ORDER BY 1, 2;
+```
+```
+DEPTNO JOB       C1
+------ --------- --
+    10            2 -- deptno
+	20            3 -- deptno
+	30            1 -- deptno
+	   ANALYST    2 -- job
+	   MANAGER    3 -- job
+	   PRESIDENT  1 -- job
+	              6 -- ()
+```
+
+## 조합 열
+조합 열(composite column)은 하나의 단위로 처리되는 열의 조합이다.
+조합 열은 아래와 같이 동작한다.
+
+| GROUP BY           | 결과                    |
+| ------------------ | --------------------- |
+| ROLLUP ((a, b))    | (a, b), ()            |
+| ROLLUP (a, (b, c)) | (a, b, c), (a), ()    |
+| ROLLUP ((a, b), c) | (a, b, c), (a, b), () |
+아래는 조합 열을 사용한 쿼리다.
+`deptno`, `job`별 집계와 총계가 반환된다.
+```sql
+SELECT deptno, job, COUNT(*) AS c1
+FROM emp
+WHERE sal > 2000
+GROUP BY ROLLUP ((deptno, job))
+ORDER BY 1, 2;
+```
+```
+DEPTNO JOB       C1
+------ --------- --
+    10 MANAGER    1 -- deptno, job
+	20 PRESIDENT  1 -- deptno, job
+	20 ANALYST    2 -- deptno, job
+    20 MANAGER    1 -- deptno, job
+	30 MANAGER    1 -- deptno, job
+	              6 -- ()
+```
+
+## 연결 그룹
+연결 그룹(concatenated grouping)을 사용하면 행 그룹을 간결하게 작성할 수 있다.
+연결 그룹은 아래와 같이 동작한다.
+
+| GROUP BY                                   | 결과                             |
+| ------------------------------------------ | ------------------------------ |
+| a, ROLLUP (b)                              | (a, b), (a)                    |
+| a, ROLLUP (b, c)                           | (a, b, c), (a, b), (a)         |
+| a, ROLLUP (b), ROLLUP (c)                  | (a, b, c), (a, b), (a, c), (a) |
+| GROUPING SETS (a, b), GROUPING SETS (c, d) | (a, c), (a, d), (b, c), (b, d) |
