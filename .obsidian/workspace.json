@@ -93,17 +93,14 @@
             "id": "1c1df24f9da3dae8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Study/8. DB/조인(Join) 종류.canvas",
-                "viewState": {
-                  "x": 885,
-                  "y": 387.5,
-                  "zoom": -1.3342057138383472
-                }
+                "file": "Study/6. OS/OS Book/1. 개요.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "조인(Join) 종류"
+              "icon": "lucide-file",
+              "title": "1. 개요"
             }
           }
         ],
@@ -126,7 +123,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -165,26 +163,6 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
-            }
-          },
-          {
-            "id": "78a02f71739a6b8e",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
-            }
-          },
-          {
-            "id": "42806e57b8eb03d4",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
               "icon": "clock",
               "title": "Recent Files"
             }
@@ -209,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/1. C, C++/20. 코드부터 실행파일까지 - 컴파일.md",
+                "file": "Study/6. OS/OS Book/1. 개요.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "20. 코드부터 실행파일까지 - 컴파일 의 백링크"
+              "title": "1. 개요 의 백링크"
             }
           },
           {
@@ -272,22 +250,11 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "플러그인이 더 이상 활성화되지 않음"
-            }
-          },
-          {
-            "id": "d4756ec282292b8e",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -295,54 +262,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "obsidian-kanban:새 보드 만들기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "excel:Create Excel File": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:새 보드 만들기": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "1c1df24f9da3dae8",
   "lastOpenFiles": [
-    "Study/8. DB/ACID.md",
+    "Study/6. OS/OS Book/1. 개요.md",
+    "Study/6. OS/OS Book",
     "Study/8. DB/조인(Join) 종류.canvas",
     "Study/8. DB/GROUP BY, HAVING.md",
-    "Study/10. Server/AWS WAF.md",
-    "Study/7. Network/Connection Timeout vs Read Timeout.md",
-    "Study/1. C, C++/20. 코드부터 실행파일까지 - 컴파일.md",
-    "Study/1. C, C++/-resources/Pasted image 20260508175432.png",
-    "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md",
-    "Study/1. C, C++/question/무제.base",
-    "Study/1. C, C++/-resources/Pasted image 20260508171355.png",
-    "Study/30. Vue/10. Template Refs.md",
-    "Study/30. Vue/Global API - General.md",
-    "Study/30. Vue/내장 디렉티브.md",
-    "Study/30. Vue/12. Lifecycle.md",
-    "Study/30. Vue/2.3. Reactivity - Advanced.md",
-    "Study/30. Vue/3. computed.md",
-    "Study/30. Vue/11. Component Basic.md",
-    "Study/30. Vue/9. Watchers.md",
-    "Study/30. Vue/8. Forms.md",
-    "Study/30. Vue/7. Event Handling.md",
-    "Study/30. Vue/6. List.md",
-    "Study/30. Vue/5. Conditional.md",
-    "Study/30. Vue/4. Class and Style.md",
-    "Study/30. Vue/2. Reactivity.md",
-    "Study/30. Vue/1. Template Syntax.md",
     "Study/30. Vue/-resources/Pasted image 20260508101706.png",
     "Study/30. Vue/-resources/Pasted image 20260508094624.png",
     "Study/30. Vue/-resources/Pasted image 20260507145004.png",
+    "Study/30. Vue/내장 디렉티브.md",
+    "Study/30. Vue/Global API - General.md",
+    "Study/30. Vue/8. Forms.md",
+    "Study/30. Vue/9. Watchers.md",
+    "Study/30. Vue/6. List.md",
+    "Study/30. Vue/7. Event Handling.md",
+    "Study/30. Vue/3. computed.md",
+    "Study/30. Vue/5. Conditional.md",
+    "Study/30. Vue/4. Class and Style.md",
+    "Study/30. Vue/2. Reactivity.md",
+    "Study/30. Vue/2.3. Reactivity - Advanced.md",
+    "Study/30. Vue/12. Lifecycle.md",
+    "Study/30. Vue/11. Component Basic.md",
+    "Study/30. Vue/1. Template Syntax.md",
+    "Study/30. Vue/10. Template Refs.md",
     "Study/30. Vue/-resources",
     "Study/30. Vue",
-    "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md",
+    "Study/1. C, C++/question/무제.base",
+    "Study/1. C, C++/20. 코드부터 실행파일까지 - 컴파일.md",
+    "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md",
+    "Study/1. C, C++/-resources/Pasted image 20260508175432.png",
+    "Study/1. C, C++/-resources/Pasted image 20260508171355.png",
     "Study/6. OS/세마포어(Semaphore).canvas",
     "Study/6. OS/RAID.md",
     "Study/6. OS/RAID.canvas",
@@ -351,6 +316,9 @@
     "Study/29. Kotlin/무제.canvas",
     "Study/비교/Kafka vs RabbitMQ.md",
     "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md",
+    "Study/21. Unity/Graphics/PPU.md",
+    "Study/21. Unity/Graphics/Cinemachine.md",
+    "Study/21. Unity/Tilemap.md",
     "Study/8. DB/정규화.canvas",
     "Study/29. Kotlin/-resources",
     "Study/29. Kotlin/-resources/Pasted image 20260226171247.png",
@@ -365,8 +333,7 @@
     "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷",
     "Study/7. Network/컴퓨터 네트워킹",
     "Study/12. Spring/-resources",
-    "Study/11. Java/Garbage Collector.canvas",
-    "Study/8. DB/캐시",
-    "Study/8. DB/트랜잭션"
+    "Study/8. DB/조인(Join).canvas",
+    "Study/8. DB/캐시"
   ]
 }

@@ -1,64 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "조인(Join) 종류",
-      "path": "Study/8. DB/조인(Join) 종류.canvas"
-    },
-    {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
-    },
-    {
-      "basename": "GROUP BY, HAVING",
-      "path": "Study/8. DB/GROUP BY, HAVING.md"
-    },
-    {
-      "basename": "AWS WAF",
-      "path": "Study/10. Server/AWS WAF.md"
-    },
-    {
-      "basename": "Connection Timeout vs Read Timeout",
-      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
-    },
-    {
-      "basename": "20. 코드부터 실행파일까지 - 컴파일",
-      "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 컴파일.md"
-    },
-    {
-      "basename": "20. 코드부터 실행파일까지 - 개요",
-      "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md"
-    },
-    {
-      "basename": "무제",
-      "path": "Study/1. C, C++/question/무제.base"
-    },
-    {
-      "basename": "10. Template Refs",
-      "path": "Study/30. Vue/10. Template Refs.md"
-    },
-    {
-      "basename": "Global API - General",
-      "path": "Study/30. Vue/Global API - General.md"
-    },
-    {
-      "basename": "내장 디렉티브",
-      "path": "Study/30. Vue/내장 디렉티브.md"
-    },
-    {
-      "basename": "12. Lifecycle",
-      "path": "Study/30. Vue/12. Lifecycle.md"
-    },
-    {
-      "basename": "2.3. Reactivity - Advanced",
-      "path": "Study/30. Vue/2.3. Reactivity - Advanced.md"
-    },
-    {
-      "basename": "3. computed",
-      "path": "Study/30. Vue/3. computed.md"
-    },
-    {
-      "basename": "수십억건에서 querydsl 사용하기",
-      "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
+      "basename": "1. 개요",
+      "path": "Study/6. OS/OS Book/1. 개요.md"
     },
     {
       "basename": "RAID",
@@ -123,6 +67,10 @@
     {
       "basename": "DB 병목 원인과 대책",
       "path": "Study/8. DB/DB 병목 원인과 대책.md"
+    },
+    {
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
     },
     {
       "basename": "정규화",
@@ -199,6 +147,58 @@
     {
       "basename": "Lock",
       "path": "Study/비교/Lock.md"
+    },
+    {
+      "basename": "수익화를 위한 앱 개발",
+      "path": "Study/28. Other/수익화를 위한 앱 개발.md"
+    },
+    {
+      "basename": "무제",
+      "path": "Study/비교/무제.canvas"
+    },
+    {
+      "basename": "Session in Multi Server",
+      "path": "Study/16. Web/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "POST, PUT, PATCH의 차이점",
+      "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
+    },
+    {
+      "basename": "Tim Sort",
+      "path": "Study/4. Algorithm/Tim Sort.md"
+    },
+    {
+      "basename": "AWS WAF",
+      "path": "Study/10. Server/AWS WAF.md"
+    },
+    {
+      "basename": "Pasted image 20250911140904",
+      "path": "Study/8. DB/-resources/Pasted image 20250911140904.png"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Study/16. Web/Cookie & Session.canvas"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Study/16. Web/Tomcat.canvas"
+    },
+    {
+      "basename": "Pasted image 20260113135009",
+      "path": "Study/10. Server/resources/Pasted image 20260113135009.png"
+    },
+    {
+      "basename": "Pasted image 20240314164110",
+      "path": "Study/16. Web/resources/Pasted image 20240314164110.png"
+    },
+    {
+      "basename": "2. 네트워크의 가장자리",
+      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md"
+    },
+    {
+      "basename": "1. 인터넷이란 무엇인가",
+      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md"
     }
   ],
   "omittedPaths": [],
