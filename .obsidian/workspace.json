@@ -167,8 +167,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -279,7 +278,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "95986b4e07f54c35",
   "lastOpenFiles": [
     "Study/6. OS/OS Book/1. 개요.md",
     "Study/6. OS/OS Book",
