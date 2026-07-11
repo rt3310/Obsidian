@@ -167,7 +167,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -262,6 +263,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
@@ -277,7 +279,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1c1df24f9da3dae8",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/6. OS/OS Book/1. 개요.md",
     "Study/6. OS/OS Book",
