@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "NDC 기술 면접은 무엇을 평가하는가",
+      "path": "Study/23. Game/NDC 기술 면접은 무엇을 평가하는가.md"
+    },
+    {
       "basename": "개념 정리",
       "path": "Study/22. Unreal/UE5/개념 정리.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20250911140904",
       "path": "Study/8. DB/-resources/Pasted image 20250911140904.png"
-    },
-    {
-      "basename": "Cookie & Session",
-      "path": "Study/16. Web/Cookie & Session.canvas"
     }
   ],
   "omittedPaths": [],
