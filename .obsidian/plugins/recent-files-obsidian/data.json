@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "개념 정리",
+      "path": "Study/22. Unreal/UE5/개념 정리.md"
+    },
+    {
+      "basename": "라이프사이클(Life Cycle)",
+      "path": "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md"
+    },
+    {
+      "basename": "UE5",
+      "path": "Study/22. Unreal/UE5/UE5.canvas"
+    },
+    {
+      "basename": "틱(Tick)",
+      "path": "Study/22. Unreal/UE5/틱(Tick).md"
+    },
+    {
+      "basename": "액터(Actor)",
+      "path": "Study/22. Unreal/UE5/액터(Actor).md"
+    },
+    {
       "basename": "1. 개요",
       "path": "Study/6. OS/OS Book/1. 개요.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Cookie & Session",
       "path": "Study/16. Web/Cookie & Session.canvas"
-    },
-    {
-      "basename": "Tomcat",
-      "path": "Study/16. Web/Tomcat.canvas"
-    },
-    {
-      "basename": "Pasted image 20260113135009",
-      "path": "Study/10. Server/resources/Pasted image 20260113135009.png"
-    },
-    {
-      "basename": "Pasted image 20240314164110",
-      "path": "Study/16. Web/resources/Pasted image 20240314164110.png"
-    },
-    {
-      "basename": "2. 네트워크의 가장자리",
-      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/2. 네트워크의 가장자리.md"
-    },
-    {
-      "basename": "1. 인터넷이란 무엇인가",
-      "path": "Study/7. Network/컴퓨터 네트워킹/1. 컴퓨터 네트워크와 인터넷/1. 인터넷이란 무엇인가.md"
     }
   ],
   "omittedPaths": [],
