@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/23. Game/NDC 기술 면접은 무엇을 평가하는가.md",
+                "file": "Study/22. Unreal/UE5/기능 정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NDC 기술 면접은 무엇을 평가하는가"
+              "title": "기능 정리"
             }
           }
         ],
@@ -187,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/23. Game/NDC 기술 면접은 무엇을 평가하는가.md",
+                "file": "Study/22. Unreal/UE5/기능 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "NDC 기술 면접은 무엇을 평가하는가 의 백링크"
+              "title": "기능 정리 의 백링크"
             }
           },
           {
@@ -278,13 +278,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "1c1df24f9da3dae8",
   "lastOpenFiles": [
+    "Study/22. Unreal/UE5.md",
+    "Study/22. Unreal/UE5/기능 정리.md",
+    "Study/23. Game/NDC 기술 면접은 무엇을 평가하는가.md",
     "Study/23. Game/Resources/Pasted image 20260712164740.png",
     "Study/23. Game/Resources/Pasted image 20260712164250.png",
     "Study/23. Game/Resources/Pasted image 20260712164051.png",
     "Study/22. Unreal/UE5/개념 정리.md",
-    "Study/23. Game/NDC 기술 면접은 무엇을 평가하는가.md",
     "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md",
     "Study/22. Unreal/UE5/UE5.canvas",
     "Study/22. Unreal/UE5/틱(Tick).md",
@@ -319,14 +321,12 @@
     "Study/1. C, C++/-resources/Pasted image 20260508175432.png",
     "Study/1. C, C++/-resources/Pasted image 20260508171355.png",
     "Study/6. OS/세마포어(Semaphore).canvas",
-    "Study/6. OS/RAID.md",
     "Study/6. OS/RAID.canvas",
     "Study/6. OS/resources/Pasted image 20260323023854.jpg",
     "Study/29. Kotlin/무제.canvas",
     "Study/8. DB/정규화.canvas",
     "Study/29. Kotlin/-resources",
     "Study/29. Kotlin/-resources/Pasted image 20260226171247.png",
-    "Pasted image 20260226170401.png",
     "Study/29. Kotlin",
     "Study/비교/무제.canvas",
     "Study/16. Web/Session in Multi Server.canvas",

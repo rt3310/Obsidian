@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "기능 정리",
+      "path": "Study/22. Unreal/UE5/기능 정리.md"
+    },
+    {
+      "basename": "UE5",
+      "path": "Study/22. Unreal/UE5.md"
+    },
+    {
       "basename": "NDC 기술 면접은 무엇을 평가하는가",
       "path": "Study/23. Game/NDC 기술 면접은 무엇을 평가하는가.md"
     },
@@ -79,10 +87,6 @@
     {
       "basename": "()",
       "path": "Study/21. Unity/().md"
-    },
-    {
-      "basename": "UE5",
-      "path": "Study/22. Unreal/UE5.md"
     },
     {
       "basename": "14. function, mem_fn, bind",
@@ -195,10 +199,6 @@
     {
       "basename": "AWS WAF",
       "path": "Study/10. Server/AWS WAF.md"
-    },
-    {
-      "basename": "Pasted image 20250911140904",
-      "path": "Study/8. DB/-resources/Pasted image 20250911140904.png"
     }
   ],
   "omittedPaths": [],
