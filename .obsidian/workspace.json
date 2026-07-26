@@ -137,12 +137,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/1. C, C++/핵심/문자열.md",
+                "file": "Study/1. C, C++/핵심/버퍼.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "문자열"
+              "title": "버퍼"
             }
           }
         ],
@@ -229,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/1. C, C++/핵심/문자열.md",
+                "file": "Study/1. C, C++/핵심/버퍼.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +239,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "문자열 의 백링크"
+              "title": "버퍼 의 백링크"
             }
           },
           {
@@ -322,33 +322,34 @@
   },
   "active": "16a55a22f66e5c27",
   "lastOpenFiles": [
-    "Study/1. C, C++/핵심/shared_ptr.md",
+    "Study/1. C, C++/14. function, mem_fn, bind.md",
+    "Study/1. C, C++/15. thread.md",
+    "Study/1. C, C++/핵심/버퍼.md",
     "Study/1. C, C++/핵심/문자열.md",
-    "Study/1. C, C++/placement new.md",
-    "Study/1. C, C++/pragma.md",
+    "Study/1. C, C++/핵심/move, forward.md",
+    "Study/1. C, C++/question/포인터에는 왜 타입이 있을까.md",
+    "Study/1. C, C++/question/무제.base",
+    "Study/1. C, C++/10-2. STL - associative container.md",
+    "Study/1. C, C++/10-3. STL - sequence container.md",
+    "Study/1. C, C++/__fastcall, __thiscall.md",
+    "Study/1. C, C++/question/char pointer vs char array.md",
+    "Study/1. C, C++/question/const char(star) vs string.md",
+    "Study/1. C, C++/20. 코드부터 실행파일까지 - 컴파일.md",
+    "Study/1. C, C++/템플릿.md",
+    "Study/1. C, C++/naked.md",
+    "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md",
     "Study/1. C, C++/x64 환경 호출 규약.md",
     "Study/1. C, C++/switch 문의 제약사항.md",
-    "Study/1. C, C++/템플릿.md",
-    "Study/1. C, C++/question/const char(star) vs string.md",
+    "Study/1. C, C++/placement new.md",
+    "Study/1. C, C++/13-1. unique_ptr.md",
+    "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md",
+    "Study/1. C, C++/핵심/shared_ptr.md",
+    "Study/1. C, C++/pragma.md",
     "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md",
     "Study/1. C, C++/핵심/function, mem_fn, bind.md",
     "Study/1. C, C++/핵심/참조자.md",
-    "Study/1. C, C++/naked.md",
     "Study/1. C, C++/__cdecl vs __stdcall.md",
-    "Study/1. C, C++/__fastcall, __thiscall.md",
-    "Study/1. C, C++/10-3. STL - sequence container.md",
-    "Study/1. C, C++/10-4. string.md",
-    "Study/1. C, C++/11. 예외처리.md",
-    "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md",
-    "Study/22. Unreal/UE5/기능 정리.md",
     "Study/22. Unreal/UE5/UE5.canvas",
-    "Study/23. Game/Cellular Automata Algorithm.md",
-    "Study/23. Game/NDC 기술 면접은 무엇을 평가하는가.md",
-    "Study/23. Game/A-Star Algorithm.md",
-    "Study/23. Game/충돌 처리 알고리즘.md",
-    "Study/23. Game/BSP(Binary Space Partitioning) Algorithm.md",
-    "Study/22. Unreal/UE5.md",
-    "Study/22. Unreal/UE5/Unreal에서의 Unity 용어 변환.md",
     "Study/23. Game/Resources/Pasted image 20260712164740.png",
     "Study/23. Game/Resources/Pasted image 20260712164250.png",
     "Study/23. Game/Resources/Pasted image 20260712164051.png",
@@ -359,7 +360,6 @@
     "Study/30. Vue/-resources/Pasted image 20260507145004.png",
     "Study/30. Vue/-resources",
     "Study/30. Vue",
-    "Study/1. C, C++/question/무제.base",
     "Study/1. C, C++/-resources/Pasted image 20260508175432.png",
     "Study/1. C, C++/-resources/Pasted image 20260508171355.png",
     "Study/6. OS/세마포어(Semaphore).canvas",

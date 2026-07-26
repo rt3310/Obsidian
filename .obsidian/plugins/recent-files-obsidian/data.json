@@ -1,20 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "버퍼",
+      "path": "Study/1. C, C++/핵심/버퍼.md"
+    },
+    {
+      "basename": "14. function, mem_fn, bind",
+      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
+    },
+    {
+      "basename": "15. thread",
+      "path": "Study/1. C, C++/15. thread.md"
+    },
+    {
       "basename": "문자열",
       "path": "Study/1. C, C++/핵심/문자열.md"
     },
     {
-      "basename": "shared_ptr",
-      "path": "Study/1. C, C++/핵심/shared_ptr.md"
+      "basename": "move, forward",
+      "path": "Study/1. C, C++/핵심/move, forward.md"
     },
     {
-      "basename": "placement new",
-      "path": "Study/1. C, C++/placement new.md"
+      "basename": "포인터에는 왜 타입이 있을까",
+      "path": "Study/1. C, C++/question/포인터에는 왜 타입이 있을까.md"
     },
     {
-      "basename": "pragma",
-      "path": "Study/1. C, C++/pragma.md"
+      "basename": "10-2. STL - associative container",
+      "path": "Study/1. C, C++/10-2. STL - associative container.md"
+    },
+    {
+      "basename": "10-3. STL - sequence container",
+      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
+    },
+    {
+      "basename": "__fastcall, __thiscall",
+      "path": "Study/1. C, C++/__fastcall, __thiscall.md"
+    },
+    {
+      "basename": "char pointer vs char array",
+      "path": "Study/1. C, C++/question/char pointer vs char array.md"
+    },
+    {
+      "basename": "const char(star) vs string",
+      "path": "Study/1. C, C++/question/const char(star) vs string.md"
+    },
+    {
+      "basename": "20. 코드부터 실행파일까지 - 컴파일",
+      "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 컴파일.md"
+    },
+    {
+      "basename": "템플릿",
+      "path": "Study/1. C, C++/템플릿.md"
+    },
+    {
+      "basename": "naked",
+      "path": "Study/1. C, C++/naked.md"
+    },
+    {
+      "basename": "20. 코드부터 실행파일까지 - 개요",
+      "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md"
     },
     {
       "basename": "x64 환경 호출 규약",
@@ -25,12 +69,24 @@
       "path": "Study/1. C, C++/switch 문의 제약사항.md"
     },
     {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
+      "basename": "placement new",
+      "path": "Study/1. C, C++/placement new.md"
     },
     {
-      "basename": "const char(star) vs string",
-      "path": "Study/1. C, C++/question/const char(star) vs string.md"
+      "basename": "13-1. unique_ptr",
+      "path": "Study/1. C, C++/13-1. unique_ptr.md"
+    },
+    {
+      "basename": "13-2. shared_ptr, weak_ptr",
+      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
+    },
+    {
+      "basename": "shared_ptr",
+      "path": "Study/1. C, C++/핵심/shared_ptr.md"
+    },
+    {
+      "basename": "pragma",
+      "path": "Study/1. C, C++/pragma.md"
     },
     {
       "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
@@ -45,20 +101,8 @@
       "path": "Study/1. C, C++/핵심/참조자.md"
     },
     {
-      "basename": "naked",
-      "path": "Study/1. C, C++/naked.md"
-    },
-    {
       "basename": "__cdecl vs __stdcall",
       "path": "Study/1. C, C++/__cdecl vs __stdcall.md"
-    },
-    {
-      "basename": "__fastcall, __thiscall",
-      "path": "Study/1. C, C++/__fastcall, __thiscall.md"
-    },
-    {
-      "basename": "10-3. STL - sequence container",
-      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
     },
     {
       "basename": "10-4. string",
@@ -67,10 +111,6 @@
     {
       "basename": "11. 예외처리",
       "path": "Study/1. C, C++/11. 예외처리.md"
-    },
-    {
-      "basename": "20. 코드부터 실행파일까지 - 개요",
-      "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md"
     },
     {
       "basename": "기능 정리",
@@ -159,46 +199,6 @@
     {
       "basename": "PPU",
       "path": "Study/21. Unity/Graphics/PPU.md"
-    },
-    {
-      "basename": "Cinemachine",
-      "path": "Study/21. Unity/Graphics/Cinemachine.md"
-    },
-    {
-      "basename": "Tilemap",
-      "path": "Study/21. Unity/Tilemap.md"
-    },
-    {
-      "basename": "TextMeshPro",
-      "path": "Study/21. Unity/TextMeshPro.md"
-    },
-    {
-      "basename": "Physics.Raycast",
-      "path": "Study/21. Unity/Physics.Raycast.md"
-    },
-    {
-      "basename": "Coroutine",
-      "path": "Study/21. Unity/Coroutine.md"
-    },
-    {
-      "basename": "()",
-      "path": "Study/21. Unity/().md"
-    },
-    {
-      "basename": "14. function, mem_fn, bind",
-      "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
-    },
-    {
-      "basename": "DB 병목 원인과 대책",
-      "path": "Study/8. DB/DB 병목 원인과 대책.md"
-    },
-    {
-      "basename": "ACID",
-      "path": "Study/8. DB/ACID.md"
-    },
-    {
-      "basename": "정규화",
-      "path": "Study/8. DB/정규화.canvas"
     }
   ],
   "omittedPaths": [],
