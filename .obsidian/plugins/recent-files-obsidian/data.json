@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "참조자",
+      "path": "Study/1. C, C++/핵심/참조자.md"
+    },
+    {
       "basename": "naked",
       "path": "Study/1. C, C++/naked.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Rate Limiter",
       "path": "Study/비교/Rate Limiter.md"
-    },
-    {
-      "basename": "synchronized vs ReentrantLock",
-      "path": "Study/비교/synchronized vs ReentrantLock.md"
     }
   ],
   "omittedPaths": [],
