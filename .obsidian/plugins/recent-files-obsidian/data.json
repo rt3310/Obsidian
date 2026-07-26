@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "naked",
+      "path": "Study/1. C, C++/naked.md"
+    },
+    {
+      "basename": "x64 환경 호출 규약",
+      "path": "Study/1. C, C++/x64 환경 호출 규약.md"
+    },
+    {
+      "basename": "__cdecl vs __stdcall",
+      "path": "Study/1. C, C++/__cdecl vs __stdcall.md"
+    },
+    {
+      "basename": "__fastcall, __thiscall",
+      "path": "Study/1. C, C++/__fastcall, __thiscall.md"
+    },
+    {
+      "basename": "10-3. STL - sequence container",
+      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
+    },
+    {
+      "basename": "10-4. string",
+      "path": "Study/1. C, C++/10-4. string.md"
+    },
+    {
+      "basename": "11. 예외처리",
+      "path": "Study/1. C, C++/11. 예외처리.md"
+    },
+    {
+      "basename": "20. 코드부터 실행파일까지 - 개요",
+      "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md"
+    },
+    {
+      "basename": "템플릿",
+      "path": "Study/1. C, C++/템플릿.md"
+    },
+    {
+      "basename": "pragma",
+      "path": "Study/1. C, C++/pragma.md"
+    },
+    {
+      "basename": "switch 문의 제약사항",
+      "path": "Study/1. C, C++/switch 문의 제약사항.md"
+    },
+    {
       "basename": "기능 정리",
       "path": "Study/22. Unreal/UE5/기능 정리.md"
     },
@@ -155,50 +199,6 @@
     {
       "basename": "synchronized vs ReentrantLock",
       "path": "Study/비교/synchronized vs ReentrantLock.md"
-    },
-    {
-      "basename": "Pasted image 20251101172437",
-      "path": "Study/비교/-resources/Pasted image 20251101172437.png"
-    },
-    {
-      "basename": "Pasted image 20250507192720",
-      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507192720.png"
-    },
-    {
-      "basename": "웹 소켓(WebSocket)",
-      "path": "Study/7. Network/HTTP/웹 소켓(WebSocket).md"
-    },
-    {
-      "basename": "Pasted image 20250507192737",
-      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507192737.png"
-    },
-    {
-      "basename": "Pasted image 20250507193050",
-      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193050.png"
-    },
-    {
-      "basename": "Pasted image 20250507193532",
-      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193532.png"
-    },
-    {
-      "basename": "Pasted image 20250507193542",
-      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193542.png"
-    },
-    {
-      "basename": "Pasted image 20250911140843",
-      "path": "Study/8. DB/-resources/Pasted image 20250911140843.png"
-    },
-    {
-      "basename": "Pasted image 20250911141010",
-      "path": "Study/8. DB/-resources/Pasted image 20250911141010.png"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Study/8. DB/-resources/Pasted image 20250911141032.png"
-    },
-    {
-      "basename": "Lock",
-      "path": "Study/비교/Lock.md"
     }
   ],
   "omittedPaths": [],
