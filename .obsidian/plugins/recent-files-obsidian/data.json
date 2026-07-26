@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "문자열",
+      "path": "Study/1. C, C++/핵심/문자열.md"
+    },
+    {
+      "basename": "shared_ptr",
+      "path": "Study/1. C, C++/핵심/shared_ptr.md"
+    },
+    {
+      "basename": "placement new",
+      "path": "Study/1. C, C++/placement new.md"
+    },
+    {
+      "basename": "pragma",
+      "path": "Study/1. C, C++/pragma.md"
+    },
+    {
+      "basename": "x64 환경 호출 규약",
+      "path": "Study/1. C, C++/x64 환경 호출 규약.md"
+    },
+    {
+      "basename": "switch 문의 제약사항",
+      "path": "Study/1. C, C++/switch 문의 제약사항.md"
+    },
+    {
+      "basename": "템플릿",
+      "path": "Study/1. C, C++/템플릿.md"
+    },
+    {
+      "basename": "const char(star) vs string",
+      "path": "Study/1. C, C++/question/const char(star) vs string.md"
+    },
+    {
+      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
+      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
+    },
+    {
+      "basename": "function, mem_fn, bind",
+      "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
+    },
+    {
       "basename": "참조자",
       "path": "Study/1. C, C++/핵심/참조자.md"
     },
     {
       "basename": "naked",
       "path": "Study/1. C, C++/naked.md"
-    },
-    {
-      "basename": "x64 환경 호출 규약",
-      "path": "Study/1. C, C++/x64 환경 호출 규약.md"
     },
     {
       "basename": "__cdecl vs __stdcall",
@@ -35,18 +71,6 @@
     {
       "basename": "20. 코드부터 실행파일까지 - 개요",
       "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "pragma",
-      "path": "Study/1. C, C++/pragma.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Study/1. C, C++/switch 문의 제약사항.md"
     },
     {
       "basename": "기능 정리",
@@ -175,30 +199,6 @@
     {
       "basename": "정규화",
       "path": "Study/8. DB/정규화.canvas"
-    },
-    {
-      "basename": "데이터 무결성",
-      "path": "Study/8. DB/데이터 무결성.md"
-    },
-    {
-      "basename": "DLQ(Dead Letter Queue)",
-      "path": "Study/10. Server/DLQ(Dead Letter Queue).md"
-    },
-    {
-      "basename": "Bulkhead 패턴",
-      "path": "Study/10. Server/Bulkhead 패턴.md"
-    },
-    {
-      "basename": "Pasted image 20260226171247",
-      "path": "Study/29. Kotlin/-resources/Pasted image 20260226171247.png"
-    },
-    {
-      "basename": "Secret Key를 Base64로 인코딩하는 이유",
-      "path": "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md"
-    },
-    {
-      "basename": "Rate Limiter",
-      "path": "Study/비교/Rate Limiter.md"
     }
   ],
   "omittedPaths": [],
