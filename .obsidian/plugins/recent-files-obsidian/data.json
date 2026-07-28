@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "동적할당",
+      "path": "Study/1. C, C++/동적할당.md"
+    },
+    {
+      "basename": "구조체",
+      "path": "Study/1. C, C++/구조체.md"
+    },
+    {
       "basename": "공용체 & 열거형",
       "path": "Study/1. C, C++/공용체 & 열거형.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "x64 환경 호출 규약",
       "path": "Study/1. C, C++/x64 환경 호출 규약.md"
-    },
-    {
-      "basename": "구조체",
-      "path": "Study/1. C, C++/구조체.md"
     },
     {
       "basename": "10-2. STL - associative container",
@@ -195,10 +199,6 @@
     {
       "basename": "세마포어(Semaphore)",
       "path": "Study/6. OS/세마포어(Semaphore).canvas"
-    },
-    {
-      "basename": "RAID",
-      "path": "Study/6. OS/RAID.canvas"
     }
   ],
   "omittedPaths": [],
