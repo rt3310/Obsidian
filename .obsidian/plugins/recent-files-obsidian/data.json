@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "파일 입출력",
+      "path": "Study/1. C, C++/파일 입출력.md"
+    },
+    {
+      "basename": "placement new",
+      "path": "Study/1. C, C++/placement new.md"
+    },
+    {
       "basename": "pragma",
       "path": "Study/1. C, C++/pragma.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "수십억건에서 querydsl 사용하기",
       "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
-    },
-    {
-      "basename": "placement new",
-      "path": "Study/1. C, C++/placement new.md"
     },
     {
       "basename": "구조체",
@@ -195,10 +199,6 @@
     {
       "basename": "컴포넌트(Components)",
       "path": "Study/22. Unreal/UE5/컴포넌트(Components).md"
-    },
-    {
-      "basename": "1. 개요",
-      "path": "Study/6. OS/OS Book/1. 개요.md"
     }
   ],
   "omittedPaths": [],
