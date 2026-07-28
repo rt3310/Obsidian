@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "pragma",
+      "path": "Study/1. C, C++/pragma.md"
+    },
+    {
+      "basename": "new vs malloc",
+      "path": "Study/1. C, C++/question/new vs malloc.md"
+    },
+    {
       "basename": "동적할당",
       "path": "Study/1. C, C++/동적할당.md"
+    },
+    {
+      "basename": "수십억건에서 querydsl 사용하기",
+      "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
+    },
+    {
+      "basename": "placement new",
+      "path": "Study/1. C, C++/placement new.md"
     },
     {
       "basename": "구조체",
@@ -11,10 +27,6 @@
     {
       "basename": "공용체 & 열거형",
       "path": "Study/1. C, C++/공용체 & 열거형.md"
-    },
-    {
-      "basename": "pragma",
-      "path": "Study/1. C, C++/pragma.md"
     },
     {
       "basename": "switch 문의 제약사항",
@@ -109,10 +121,6 @@
       "path": "Study/1. C, C++/question/const char(star) vs string.md"
     },
     {
-      "basename": "placement new",
-      "path": "Study/1. C, C++/placement new.md"
-    },
-    {
       "basename": "13-1. unique_ptr",
       "path": "Study/1. C, C++/13-1. unique_ptr.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "1. 개요",
       "path": "Study/6. OS/OS Book/1. 개요.md"
-    },
-    {
-      "basename": "RAID",
-      "path": "Study/6. OS/RAID.md"
-    },
-    {
-      "basename": "세마포어(Semaphore)",
-      "path": "Study/6. OS/세마포어(Semaphore).canvas"
     }
   ],
   "omittedPaths": [],

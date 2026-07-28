@@ -165,12 +165,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/1. C, C++/동적할당.md",
+                "file": "Study/1. C, C++/pragma.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "동적할당"
+              "title": "pragma"
             }
           }
         ],
@@ -257,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/1. C, C++/동적할당.md",
+                "file": "Study/1. C, C++/pragma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +267,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "동적할당 의 백링크"
+              "title": "pragma 의 백링크"
             }
           },
           {
@@ -350,8 +350,11 @@
   },
   "active": "1d6fb32936f162fd",
   "lastOpenFiles": [
-    "Study/1. C, C++/구조체.md",
+    "Study/1. C, C++/question/new vs malloc.md",
     "Study/1. C, C++/동적할당.md",
+    "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md",
+    "Study/1. C, C++/placement new.md",
+    "Study/1. C, C++/구조체.md",
     "Study/1. C, C++/공용체 & 열거형.md",
     "Study/1. C, C++/-resources/1522E70D4C14DC6C02944D.webp",
     "Study/1. C, C++/-resources/122BC3054C14DC6B87546A.webp",
@@ -377,10 +380,7 @@
     "Study/1. C, C++/14. function, mem_fn, bind.md",
     "Study/1. C, C++/15. thread.md",
     "Study/1. C, C++/핵심/문자열.md",
-    "Study/1. C, C++/핵심/move, forward.md",
-    "Study/1. C, C++/question/포인터에는 왜 타입이 있을까.md",
     "Study/1. C, C++/question/무제.base",
-    "Study/1. C, C++/question/char pointer vs char array.md",
     "Study/22. Unreal/UE5/UE5.canvas",
     "Study/23. Game/Resources/Pasted image 20260712164740.png",
     "Study/23. Game/Resources/Pasted image 20260712164250.png",
