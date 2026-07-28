@@ -237,7 +237,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -348,7 +349,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1d6fb32936f162fd",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/1. C, C++/-resources/1522E70D4C14DC6C02944D.webp",
     "Study/1. C, C++/-resources/122BC3054C14DC6B87546A.webp",
