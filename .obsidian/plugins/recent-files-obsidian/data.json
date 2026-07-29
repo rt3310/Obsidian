@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "friend",
-      "path": "Study/1. C, C++/핵심/friend.md"
+      "basename": "virtual",
+      "path": "Study/1. C, C++/핵심/virtual.md"
     },
     {
-      "basename": "대입 연산자 함수",
-      "path": "Study/1. C, C++/핵심/대입 연산자 함수.md"
+      "basename": "증감 연산자",
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩/증감 연산자.md"
     },
     {
       "basename": "연산자 오버로딩",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩/연산자 오버로딩.md"
+    },
+    {
+      "basename": "타입 변환 연산자",
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩/타입 변환 연산자.md"
+    },
+    {
+      "basename": "첨자 연산자",
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩/첨자 연산자.md"
     },
     {
       "basename": "mutable",
       "path": "Study/1. C, C++/핵심/mutable.md"
+    },
+    {
+      "basename": "유니폼 초기화(Uniform Initialization)",
+      "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
+    },
+    {
+      "basename": "const 함수",
+      "path": "Study/1. C, C++/핵심/const 함수.md"
+    },
+    {
+      "basename": "friend",
+      "path": "Study/1. C, C++/핵심/friend.md"
+    },
+    {
+      "basename": "입출력 연산자 오버로딩",
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩/입출력 연산자 오버로딩.md"
+    },
+    {
+      "basename": "연산자 오버로딩 문제",
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩/연산자 오버로딩 문제.md"
+    },
+    {
+      "basename": "대입 연산자 함수",
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩/대입 연산자 함수.md"
     },
     {
       "basename": "move, forward",
@@ -167,38 +199,6 @@
     {
       "basename": "shared_ptr",
       "path": "Study/1. C, C++/핵심/shared_ptr.md"
-    },
-    {
-      "basename": "참조자",
-      "path": "Study/1. C, C++/핵심/참조자.md"
-    },
-    {
-      "basename": "기능 정리",
-      "path": "Study/22. Unreal/UE5/기능 정리.md"
-    },
-    {
-      "basename": "UE5",
-      "path": "Study/22. Unreal/UE5/UE5.canvas"
-    },
-    {
-      "basename": "Cellular Automata Algorithm",
-      "path": "Study/23. Game/Cellular Automata Algorithm.md"
-    },
-    {
-      "basename": "NDC 기술 면접은 무엇을 평가하는가",
-      "path": "Study/23. Game/NDC 기술 면접은 무엇을 평가하는가.md"
-    },
-    {
-      "basename": "A-Star Algorithm",
-      "path": "Study/23. Game/A-Star Algorithm.md"
-    },
-    {
-      "basename": "충돌 처리 알고리즘",
-      "path": "Study/23. Game/충돌 처리 알고리즘.md"
-    },
-    {
-      "basename": "BSP(Binary Space Partitioning) Algorithm",
-      "path": "Study/23. Game/BSP(Binary Space Partitioning) Algorithm.md"
     }
   ],
   "omittedPaths": [],
