@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "friend",
+      "path": "Study/1. C, C++/핵심/friend.md"
+    },
+    {
+      "basename": "대입 연산자 함수",
+      "path": "Study/1. C, C++/핵심/대입 연산자 함수.md"
+    },
+    {
+      "basename": "연산자 오버로딩",
+      "path": "Study/1. C, C++/핵심/연산자 오버로딩.md"
+    },
+    {
       "basename": "mutable",
       "path": "Study/1. C, C++/핵심/mutable.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "function, mem_fn, bind",
       "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
-    },
-    {
-      "basename": "friend",
-      "path": "Study/1. C, C++/핵심/friend.md"
     },
     {
       "basename": "함수 오버로딩 과정",
@@ -191,14 +199,6 @@
     {
       "basename": "BSP(Binary Space Partitioning) Algorithm",
       "path": "Study/23. Game/BSP(Binary Space Partitioning) Algorithm.md"
-    },
-    {
-      "basename": "UE5",
-      "path": "Study/22. Unreal/UE5.md"
-    },
-    {
-      "basename": "Unreal에서의 Unity 용어 변환",
-      "path": "Study/22. Unreal/UE5/Unreal에서의 Unity 용어 변환.md"
     }
   ],
   "omittedPaths": [],
