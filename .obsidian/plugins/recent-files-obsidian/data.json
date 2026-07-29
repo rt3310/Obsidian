@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "mutable",
+      "path": "Study/1. C, C++/핵심/mutable.md"
+    },
+    {
+      "basename": "move, forward",
+      "path": "Study/1. C, C++/핵심/move, forward.md"
+    },
+    {
+      "basename": "function, mem_fn, bind",
+      "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
+    },
+    {
+      "basename": "friend",
+      "path": "Study/1. C, C++/핵심/friend.md"
+    },
+    {
+      "basename": "함수 오버로딩 과정",
+      "path": "Study/1. C, C++/핵심/함수 오버로딩 과정.md"
+    },
+    {
+      "basename": "decltype",
+      "path": "Study/1. C, C++/핵심/decltype.md"
+    },
+    {
+      "basename": "explicit",
+      "path": "Study/1. C, C++/핵심/explicit.md"
+    },
+    {
       "basename": "파일 입출력",
       "path": "Study/1. C, C++/파일 입출력.md"
     },
@@ -109,10 +137,6 @@
       "path": "Study/1. C, C++/핵심/문자열.md"
     },
     {
-      "basename": "move, forward",
-      "path": "Study/1. C, C++/핵심/move, forward.md"
-    },
-    {
       "basename": "포인터에는 왜 타입이 있을까",
       "path": "Study/1. C, C++/question/포인터에는 왜 타입이 있을까.md"
     },
@@ -135,10 +159,6 @@
     {
       "basename": "shared_ptr",
       "path": "Study/1. C, C++/핵심/shared_ptr.md"
-    },
-    {
-      "basename": "function, mem_fn, bind",
-      "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
     },
     {
       "basename": "참조자",
@@ -179,26 +199,6 @@
     {
       "basename": "Unreal에서의 Unity 용어 변환",
       "path": "Study/22. Unreal/UE5/Unreal에서의 Unity 용어 변환.md"
-    },
-    {
-      "basename": "틱(Tick)",
-      "path": "Study/22. Unreal/UE5/틱(Tick).md"
-    },
-    {
-      "basename": "액터(Actor)",
-      "path": "Study/22. Unreal/UE5/액터(Actor).md"
-    },
-    {
-      "basename": "라이프사이클(Life Cycle)",
-      "path": "Study/22. Unreal/UE5/라이프사이클(Life Cycle).md"
-    },
-    {
-      "basename": "개념 정리",
-      "path": "Study/22. Unreal/UE5/개념 정리.md"
-    },
-    {
-      "basename": "컴포넌트(Components)",
-      "path": "Study/22. Unreal/UE5/컴포넌트(Components).md"
     }
   ],
   "omittedPaths": [],
