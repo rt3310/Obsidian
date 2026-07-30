@@ -251,7 +251,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -362,7 +363,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1d1ad27dd03ec382",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/1. C, C++/핵심/연산자 오버로딩/증감 연산자.md",
     "Study/1. C, C++/핵심/연산자 오버로딩",
