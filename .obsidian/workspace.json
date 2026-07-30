@@ -179,12 +179,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/1. C, C++/핵심/virtual.md",
+                "file": "Study/1. C, C++/상속.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "virtual"
+              "title": "상속"
             }
           }
         ],
@@ -251,8 +251,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -272,7 +271,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/1. C, C++/핵심/virtual.md",
+                "file": "Study/1. C, C++/상속.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,7 +281,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "virtual 의 백링크"
+              "title": "상속 의 백링크"
             }
           },
           {
@@ -363,8 +362,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "1d1ad27dd03ec382",
   "lastOpenFiles": [
+    "Study/1. C, C++/파일 입출력.md",
+    "Study/1. C, C++/상속.md",
+    "Study/1. C, C++/switch 문의 제약사항.md",
+    "Study/1. C, C++/pragma.md",
+    "Study/1. C, C++/-resources/Pasted image 20260731000719.png",
+    "Study/1. C, C++/템플릿.md",
+    "Study/1. C, C++/동적할당.md",
+    "Study/1. C, C++/-resources/Pasted image 20260731000608.png",
+    "Study/1. C, C++/-resources/Pasted image 20260731000454.png",
+    "Study/1. C, C++/구조체.md",
+    "Study/1. C, C++/핵심/virtual.md",
     "Study/1. C, C++/핵심/연산자 오버로딩/증감 연산자.md",
     "Study/1. C, C++/핵심/연산자 오버로딩",
     "Study/1. C, C++/핵심/연산자 오버로딩/연산자 오버로딩.md",
@@ -382,29 +392,19 @@
     "Study/1. C, C++/핵심/함수 오버로딩 과정.md",
     "Study/1. C, C++/핵심/decltype.md",
     "Study/1. C, C++/핵심/explicit.md",
-    "Study/1. C, C++/파일 입출력.md",
     "Study/1. C, C++/-resources/1438BA514D189A2D0FA2F2.webp",
     "Study/1. C, C++/-resources/154733414D1894062D76CF.webp",
     "Study/1. C, C++/placement new.md",
-    "Study/1. C, C++/pragma.md",
     "Study/1. C, C++/question/new vs malloc.md",
-    "Study/1. C, C++/동적할당.md",
-    "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md",
-    "Study/1. C, C++/구조체.md",
-    "Study/1. C, C++/공용체 & 열거형.md",
     "Study/1. C, C++/-resources/1522E70D4C14DC6C02944D.webp",
     "Study/1. C, C++/-resources/122BC3054C14DC6B87546A.webp",
     "Study/1. C, C++/-resources/15149E0E4C14DC6A3AB3FF.webp",
-    "Study/1. C, C++/switch 문의 제약사항.md",
     "Study/1. C, C++/-resources/1210640D4C14DC693AF455.webp",
     "Study/1. C, C++/question/무제.base",
     "Study/22. Unreal/UE5/UE5.canvas",
     "Study/23. Game/Resources/Pasted image 20260712164740.png",
-    "Study/23. Game/Resources/Pasted image 20260712164250.png",
-    "Study/23. Game/Resources/Pasted image 20260712164051.png",
     "Study/6. OS/OS Book",
     "Study/8. DB/조인(Join) 종류.canvas",
-    "Study/30. Vue/-resources/Pasted image 20260508101706.png",
     "Study/30. Vue/-resources",
     "Study/30. Vue",
     "Study/6. OS/세마포어(Semaphore).canvas",
