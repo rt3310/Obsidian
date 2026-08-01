@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "컴파일러",
+      "path": "Study/1. C, C++/컴파일러.md"
+    },
+    {
+      "basename": "AWS WAF",
+      "path": "Study/10. Server/AWS WAF.md"
+    },
+    {
+      "basename": "@Transactional(readOnly=true)",
+      "path": "Study/12. Spring/@Transactional(readOnly=true).md"
+    },
+    {
+      "basename": "Kafka vs RabbitMQ",
+      "path": "Study/비교/Kafka vs RabbitMQ.md"
+    },
+    {
+      "basename": "Tim Sort",
+      "path": "Study/4. Algorithm/Tim Sort.md"
+    },
+    {
+      "basename": "Connection Timeout vs Read Timeout",
+      "path": "Study/7. Network/Connection Timeout vs Read Timeout.md"
+    },
+    {
+      "basename": "구조체",
+      "path": "Study/1. C, C++/구조체.md"
+    },
+    {
+      "basename": "공용체 & 열거형",
+      "path": "Study/1. C, C++/공용체 & 열거형.md"
+    },
+    {
       "basename": "CS 심화 (AI)",
       "path": "CS 심화 (AI).md"
     },
@@ -19,10 +51,6 @@
     {
       "basename": "__cdecl vs __stdcall",
       "path": "Study/1. C, C++/__cdecl vs __stdcall.md"
-    },
-    {
-      "basename": "@Transactional(readOnly=true)",
-      "path": "Study/12. Spring/@Transactional(readOnly=true).md"
     },
     {
       "basename": "Kotlin",
@@ -109,10 +137,6 @@
       "path": "Study/비교/synchronized vs ReentrantLock.md"
     },
     {
-      "basename": "Kafka vs RabbitMQ",
-      "path": "Study/비교/Kafka vs RabbitMQ.md"
-    },
-    {
       "basename": "Pasted image 20251101172437",
       "path": "Study/비교/-resources/Pasted image 20251101172437.png"
     },
@@ -173,28 +197,8 @@
       "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
     },
     {
-      "basename": "Tim Sort",
-      "path": "Study/4. Algorithm/Tim Sort.md"
-    },
-    {
-      "basename": "AWS WAF",
-      "path": "Study/10. Server/AWS WAF.md"
-    },
-    {
       "basename": "Pasted image 20250911140904",
       "path": "Study/8. DB/-resources/Pasted image 20250911140904.png"
-    },
-    {
-      "basename": "Cookie & Session",
-      "path": "Study/16. Web/Cookie & Session.canvas"
-    },
-    {
-      "basename": "Tomcat",
-      "path": "Study/16. Web/Tomcat.canvas"
-    },
-    {
-      "basename": "Pasted image 20260113135009",
-      "path": "Study/10. Server/resources/Pasted image 20260113135009.png"
     }
   ],
   "omittedPaths": [],
