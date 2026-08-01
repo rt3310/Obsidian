@@ -1,128 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "상속",
-      "path": "Study/1. C, C++/상속.md"
+      "basename": "CS 심화 (AI)",
+      "path": "CS 심화 (AI).md"
     },
     {
-      "basename": "파일 입출력",
-      "path": "Study/1. C, C++/파일 입출력.md"
-    },
-    {
-      "basename": "switch 문의 제약사항",
-      "path": "Study/1. C, C++/switch 문의 제약사항.md"
-    },
-    {
-      "basename": "pragma",
-      "path": "Study/1. C, C++/pragma.md"
-    },
-    {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
-    },
-    {
-      "basename": "동적할당",
-      "path": "Study/1. C, C++/동적할당.md"
-    },
-    {
-      "basename": "구조체",
-      "path": "Study/1. C, C++/구조체.md"
-    },
-    {
-      "basename": "virtual",
-      "path": "Study/1. C, C++/핵심/virtual.md"
-    },
-    {
-      "basename": "증감 연산자",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩/증감 연산자.md"
-    },
-    {
-      "basename": "연산자 오버로딩",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩/연산자 오버로딩.md"
-    },
-    {
-      "basename": "타입 변환 연산자",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩/타입 변환 연산자.md"
-    },
-    {
-      "basename": "첨자 연산자",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩/첨자 연산자.md"
-    },
-    {
-      "basename": "mutable",
-      "path": "Study/1. C, C++/핵심/mutable.md"
-    },
-    {
-      "basename": "유니폼 초기화(Uniform Initialization)",
-      "path": "Study/1. C, C++/핵심/유니폼 초기화(Uniform Initialization).md"
-    },
-    {
-      "basename": "const 함수",
-      "path": "Study/1. C, C++/핵심/const 함수.md"
-    },
-    {
-      "basename": "friend",
-      "path": "Study/1. C, C++/핵심/friend.md"
-    },
-    {
-      "basename": "입출력 연산자 오버로딩",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩/입출력 연산자 오버로딩.md"
-    },
-    {
-      "basename": "연산자 오버로딩 문제",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩/연산자 오버로딩 문제.md"
-    },
-    {
-      "basename": "대입 연산자 함수",
-      "path": "Study/1. C, C++/핵심/연산자 오버로딩/대입 연산자 함수.md"
-    },
-    {
-      "basename": "move, forward",
-      "path": "Study/1. C, C++/핵심/move, forward.md"
-    },
-    {
-      "basename": "function, mem_fn, bind",
-      "path": "Study/1. C, C++/핵심/function, mem_fn, bind.md"
-    },
-    {
-      "basename": "함수 오버로딩 과정",
-      "path": "Study/1. C, C++/핵심/함수 오버로딩 과정.md"
-    },
-    {
-      "basename": "decltype",
-      "path": "Study/1. C, C++/핵심/decltype.md"
-    },
-    {
-      "basename": "explicit",
-      "path": "Study/1. C, C++/핵심/explicit.md"
-    },
-    {
-      "basename": "placement new",
-      "path": "Study/1. C, C++/placement new.md"
-    },
-    {
-      "basename": "new vs malloc",
-      "path": "Study/1. C, C++/question/new vs malloc.md"
-    },
-    {
-      "basename": "수십억건에서 querydsl 사용하기",
-      "path": "Study/14. Querydsl/수십억건에서 querydsl 사용하기.md"
-    },
-    {
-      "basename": "공용체 & 열거형",
-      "path": "Study/1. C, C++/공용체 & 열거형.md"
-    },
-    {
-      "basename": "x64 환경 호출 규약",
-      "path": "Study/1. C, C++/x64 환경 호출 규약.md"
+      "basename": "CS 모음",
+      "path": "CS 모음.md"
     },
     {
       "basename": "10-2. STL - associative container",
       "path": "Study/1. C, C++/10-2. STL - associative container.md"
-    },
-    {
-      "basename": "10-1. STL - algorithm",
-      "path": "Study/1. C, C++/10-1. STL - algorithm.md"
     },
     {
       "basename": "__fastcall, __thiscall",
@@ -133,72 +21,180 @@
       "path": "Study/1. C, C++/__cdecl vs __stdcall.md"
     },
     {
-      "basename": "20. 코드부터 실행파일까지 - 컴파일",
-      "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 컴파일.md"
+      "basename": "@Transactional(readOnly=true)",
+      "path": "Study/12. Spring/@Transactional(readOnly=true).md"
     },
     {
-      "basename": "리터럴",
-      "path": "Study/1. C, C++/핵심/리터럴.md"
+      "basename": "Kotlin",
+      "path": "Study/29. Kotlin/Kotlin.md"
     },
     {
-      "basename": "naked",
-      "path": "Study/1. C, C++/naked.md"
+      "basename": "이벤트 함수 실행 순서",
+      "path": "Study/21. Unity/Event Functions/이벤트 함수 실행 순서.md"
     },
     {
-      "basename": "20. 코드부터 실행파일까지 - 개요",
-      "path": "Study/1. C, C++/20. 코드부터 실행파일까지 - 개요.md"
+      "basename": "PPU",
+      "path": "Study/21. Unity/Graphics/PPU.md"
     },
     {
-      "basename": "10-4. string",
-      "path": "Study/1. C, C++/10-4. string.md"
+      "basename": "Cinemachine",
+      "path": "Study/21. Unity/Graphics/Cinemachine.md"
     },
     {
-      "basename": "10-3. STL - sequence container",
-      "path": "Study/1. C, C++/10-3. STL - sequence container.md"
+      "basename": "Tilemap",
+      "path": "Study/21. Unity/Tilemap.md"
     },
     {
-      "basename": "12-1. 우측값 레퍼런스, 이동 생성자",
-      "path": "Study/1. C, C++/12-1. 우측값 레퍼런스, 이동 생성자.md"
+      "basename": "TextMeshPro",
+      "path": "Study/21. Unity/TextMeshPro.md"
     },
     {
-      "basename": "11. 예외처리",
-      "path": "Study/1. C, C++/11. 예외처리.md"
+      "basename": "Physics.Raycast",
+      "path": "Study/21. Unity/Physics.Raycast.md"
     },
     {
-      "basename": "버퍼",
-      "path": "Study/1. C, C++/핵심/버퍼.md"
+      "basename": "Coroutine",
+      "path": "Study/21. Unity/Coroutine.md"
+    },
+    {
+      "basename": "()",
+      "path": "Study/21. Unity/().md"
+    },
+    {
+      "basename": "UE5",
+      "path": "Study/22. Unreal/UE5.md"
     },
     {
       "basename": "14. function, mem_fn, bind",
       "path": "Study/1. C, C++/14. function, mem_fn, bind.md"
     },
     {
-      "basename": "15. thread",
-      "path": "Study/1. C, C++/15. thread.md"
+      "basename": "DB 병목 원인과 대책",
+      "path": "Study/8. DB/DB 병목 원인과 대책.md"
     },
     {
-      "basename": "문자열",
-      "path": "Study/1. C, C++/핵심/문자열.md"
+      "basename": "ACID",
+      "path": "Study/8. DB/ACID.md"
     },
     {
-      "basename": "포인터에는 왜 타입이 있을까",
-      "path": "Study/1. C, C++/question/포인터에는 왜 타입이 있을까.md"
+      "basename": "정규화",
+      "path": "Study/8. DB/정규화.canvas"
     },
     {
-      "basename": "char pointer vs char array",
-      "path": "Study/1. C, C++/question/char pointer vs char array.md"
+      "basename": "데이터 무결성",
+      "path": "Study/8. DB/데이터 무결성.md"
     },
     {
-      "basename": "const char(star) vs string",
-      "path": "Study/1. C, C++/question/const char(star) vs string.md"
+      "basename": "DLQ(Dead Letter Queue)",
+      "path": "Study/10. Server/DLQ(Dead Letter Queue).md"
     },
     {
-      "basename": "13-1. unique_ptr",
-      "path": "Study/1. C, C++/13-1. unique_ptr.md"
+      "basename": "Bulkhead 패턴",
+      "path": "Study/10. Server/Bulkhead 패턴.md"
     },
     {
-      "basename": "13-2. shared_ptr, weak_ptr",
-      "path": "Study/1. C, C++/13-2. shared_ptr, weak_ptr.md"
+      "basename": "Pasted image 20260226171247",
+      "path": "Study/29. Kotlin/-resources/Pasted image 20260226171247.png"
+    },
+    {
+      "basename": "Secret Key를 Base64로 인코딩하는 이유",
+      "path": "Study/12. Spring/Secret Key를 Base64로 인코딩하는 이유.md"
+    },
+    {
+      "basename": "Rate Limiter",
+      "path": "Study/비교/Rate Limiter.md"
+    },
+    {
+      "basename": "synchronized vs ReentrantLock",
+      "path": "Study/비교/synchronized vs ReentrantLock.md"
+    },
+    {
+      "basename": "Kafka vs RabbitMQ",
+      "path": "Study/비교/Kafka vs RabbitMQ.md"
+    },
+    {
+      "basename": "Pasted image 20251101172437",
+      "path": "Study/비교/-resources/Pasted image 20251101172437.png"
+    },
+    {
+      "basename": "Pasted image 20250507192720",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507192720.png"
+    },
+    {
+      "basename": "웹 소켓(WebSocket)",
+      "path": "Study/7. Network/HTTP/웹 소켓(WebSocket).md"
+    },
+    {
+      "basename": "Pasted image 20250507192737",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507192737.png"
+    },
+    {
+      "basename": "Pasted image 20250507193050",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193050.png"
+    },
+    {
+      "basename": "Pasted image 20250507193532",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193532.png"
+    },
+    {
+      "basename": "Pasted image 20250507193542",
+      "path": "Study/7. Network/HTTP/resources/Pasted image 20250507193542.png"
+    },
+    {
+      "basename": "Pasted image 20250911140843",
+      "path": "Study/8. DB/-resources/Pasted image 20250911140843.png"
+    },
+    {
+      "basename": "Pasted image 20250911141010",
+      "path": "Study/8. DB/-resources/Pasted image 20250911141010.png"
+    },
+    {
+      "basename": "Pasted image 20250911141032",
+      "path": "Study/8. DB/-resources/Pasted image 20250911141032.png"
+    },
+    {
+      "basename": "Lock",
+      "path": "Study/비교/Lock.md"
+    },
+    {
+      "basename": "수익화를 위한 앱 개발",
+      "path": "Study/28. Other/수익화를 위한 앱 개발.md"
+    },
+    {
+      "basename": "무제",
+      "path": "Study/비교/무제.canvas"
+    },
+    {
+      "basename": "Session in Multi Server",
+      "path": "Study/16. Web/Session in Multi Server.canvas"
+    },
+    {
+      "basename": "POST, PUT, PATCH의 차이점",
+      "path": "Study/16. Web/POST, PUT, PATCH의 차이점.md"
+    },
+    {
+      "basename": "Tim Sort",
+      "path": "Study/4. Algorithm/Tim Sort.md"
+    },
+    {
+      "basename": "AWS WAF",
+      "path": "Study/10. Server/AWS WAF.md"
+    },
+    {
+      "basename": "Pasted image 20250911140904",
+      "path": "Study/8. DB/-resources/Pasted image 20250911140904.png"
+    },
+    {
+      "basename": "Cookie & Session",
+      "path": "Study/16. Web/Cookie & Session.canvas"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "Study/16. Web/Tomcat.canvas"
+    },
+    {
+      "basename": "Pasted image 20260113135009",
+      "path": "Study/10. Server/resources/Pasted image 20260113135009.png"
     }
   ],
   "omittedPaths": [],
