@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/1. C, C++/C++ 입출력.md",
+                "file": "Study/1. C, C++/템플릿.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++ 입출력"
+              "title": "템플릿"
+            }
+          },
+          {
+            "id": "6612ab61e801cc3b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.13.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +97,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,6 +195,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -196,12 +211,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "88b49efe1c5aefa0",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
+    "Study/1. C, C++/무제.md",
+    "Study/1. C, C++/C++ 입출력.md",
+    "Study/1. C, C++/-resources/Pasted image 20260802020725.png",
+    "Study/1. C, C++/-resources/Pasted image 20260802020627.png",
     "Study/1. C, C++/-resources/Pasted image 20260801234517.png",
     "Study/1. C, C++/-resources/Pasted image 20260801183037.png",
     "Study/1. C, C++/상속.md",
-    "Study/1. C, C++/C++ 입출력.md",
     "Study/1. C, C++/-resources/Pasted image 20260801173853.png",
     "Study/1. C, C++/핵심/virtual.md",
     "Study/1. C, C++/-resources/Pasted image 20260801155109.png",
@@ -235,9 +253,6 @@
     "Study/30. Vue/7. Event Handling.md",
     "Study/30. Vue/-resources",
     "Study/30. Vue",
-    "Study/23. Game/Resources/Pasted image 20260712164740.png",
-    "Study/23. Game/Resources/Pasted image 20260712164250.png",
-    "Study/23. Game/Resources/Pasted image 20260712164051.png",
     "Study/1. C, C++/핵심/연산자 오버로딩",
     "Study/8. DB/정규화.canvas",
     "Study/29. Kotlin/-resources",
