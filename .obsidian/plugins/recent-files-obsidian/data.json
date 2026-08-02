@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "템플릿",
-      "path": "Study/1. C, C++/템플릿.md"
+      "basename": "9-2. 가변 길이 템플릿 (Variadic template)",
+      "path": "Study/1. C, C++/9-2. 가변 길이 템플릿 (Variadic template).md"
+    },
+    {
+      "basename": "9-1. 템플릿 (template)",
+      "path": "Study/1. C, C++/9-1. 템플릿 (template).md"
     },
     {
       "basename": "무제",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20250911141032",
       "path": "Study/8. DB/-resources/Pasted image 20250911141032.png"
-    },
-    {
-      "basename": "Lock",
-      "path": "Study/비교/Lock.md"
     }
   ],
   "omittedPaths": [],
