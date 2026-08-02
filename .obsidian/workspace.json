@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "템플릿"
             }
-          },
-          {
-            "id": "6612ab61e801cc3b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.13.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
