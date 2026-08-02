@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "9-3. 템플릿 메타 프로그래밍(Template Meta programming)",
+      "path": "Study/1. C, C++/9-3. 템플릿 메타 프로그래밍(Template Meta programming).md"
+    },
+    {
+      "basename": "10-1. STL - algorithm",
+      "path": "Study/1. C, C++/10-1. STL - algorithm.md"
+    },
+    {
       "basename": "9-2. 가변 길이 템플릿 (Variadic template)",
       "path": "Study/1. C, C++/9-2. 가변 길이 템플릿 (Variadic template).md"
     },
     {
-      "basename": "9-1. 템플릿 (template)",
-      "path": "Study/1. C, C++/9-1. 템플릿 (template).md"
-    },
-    {
       "basename": "무제",
       "path": "Study/1. C, C++/무제.md"
+    },
+    {
+      "basename": "9-1. 템플릿 (template)",
+      "path": "Study/1. C, C++/9-1. 템플릿 (template).md"
     },
     {
       "basename": "C++ 입출력",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20250911140843",
       "path": "Study/8. DB/-resources/Pasted image 20250911140843.png"
-    },
-    {
-      "basename": "Pasted image 20250911141010",
-      "path": "Study/8. DB/-resources/Pasted image 20250911141010.png"
-    },
-    {
-      "basename": "Pasted image 20250911141032",
-      "path": "Study/8. DB/-resources/Pasted image 20250911141032.png"
     }
   ],
   "omittedPaths": [],
