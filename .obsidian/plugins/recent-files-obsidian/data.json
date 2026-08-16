@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "RPO, RTO",
+      "path": "Study/10. Server/RPO, RTO.md"
+    },
+    {
+      "basename": "Bulkhead 패턴",
+      "path": "Study/10. Server/Bulkhead 패턴.md"
+    },
+    {
+      "basename": "DLQ(Dead Letter Queue)",
+      "path": "Study/10. Server/DLQ(Dead Letter Queue).md"
+    },
+    {
       "basename": "9-3. 템플릿 메타 프로그래밍(Template Meta programming)",
       "path": "Study/1. C, C++/9-3. 템플릿 메타 프로그래밍(Template Meta programming).md"
     },
@@ -143,14 +155,6 @@
     {
       "basename": "데이터 무결성",
       "path": "Study/8. DB/데이터 무결성.md"
-    },
-    {
-      "basename": "DLQ(Dead Letter Queue)",
-      "path": "Study/10. Server/DLQ(Dead Letter Queue).md"
-    },
-    {
-      "basename": "Bulkhead 패턴",
-      "path": "Study/10. Server/Bulkhead 패턴.md"
     },
     {
       "basename": "Pasted image 20260226171247",
