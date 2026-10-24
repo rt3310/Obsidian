@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "RPO, RTO"
             }
+          },
+          {
+            "id": "777c5488f697dbb7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.13.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -198,7 +212,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "95986b4e07f54c35",
+  "active": "473fac1bffc5c8df",
   "lastOpenFiles": [
     "Study/10. Server/resources/Pasted image 20260816154156.png",
     "Study/10. Server/Bulkhead 패턴.md",
