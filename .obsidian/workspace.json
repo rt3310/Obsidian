@@ -25,12 +25,14 @@
             "id": "777c5488f697dbb7",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "Study/31. WebRTC/개념.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.13.7"
+              "icon": "lucide-file",
+              "title": "개념"
             }
           }
         ],
@@ -99,12 +101,12 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "04f33ba9f970347b",
@@ -212,8 +214,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "473fac1bffc5c8df",
+  "active": "777c5488f697dbb7",
   "lastOpenFiles": [
+    "Study/31. WebRTC/스크린샷 2026-10-24 15.16.58.png",
+    "Study/31. WebRTC/개념.md",
+    "Study/31. WebRTC",
     "Study/10. Server/resources/Pasted image 20260816154156.png",
     "Study/10. Server/Bulkhead 패턴.md",
     "Study/10. Server/RPO, RTO.md",
@@ -245,13 +250,11 @@
     "CS 심화 (AI).md",
     "CS 모음.md",
     "Study/1. C, C++/10-2. STL - associative container.md",
-    "Study/1. C, C++/__fastcall, __thiscall.md",
     "Study/8. DB/조인(Join) 종류.canvas",
     "Study/6. OS/resources/Pasted image 20260323023854.jpg",
     "Study/6. OS/OS Book",
     "Study/30. Vue/-resources/Pasted image 20260508101706.png",
     "Study/30. Vue/-resources/Pasted image 20260508094624.png",
-    "Study/30. Vue/-resources/Pasted image 20260507145004.png",
     "Study/30. Vue/-resources",
     "Study/30. Vue",
     "Study/1. C, C++/핵심/연산자 오버로딩",
@@ -268,7 +271,6 @@
     "Study/8. DB/조인(Join).canvas",
     "Study/11. Java/Garbage Collector.canvas",
     "Study/8. DB/캐시/캐시 전략.canvas",
-    "Study/8. DB/캐시",
     "Study/8. DB/트랜잭션/트랜잭션 격리 수준.canvas"
   ]
 }
